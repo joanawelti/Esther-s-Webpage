@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="title_module_database">Bando de Dados</label>
+			<label index="title_typo_db_host">Servidor de Banco de Dados</label>
+			<label index="description_typo_db_host">Insira o hostname do servidor onde o banco-de-dados pode ser acessado.</label>
+			<label index="help_typo_db_host">O hostname é o servidor rodando o banco-de-dados. Na maioria dos casos será &quot;localhost&quot;.</label>
+			<label index="title_typo_db_username">Nome de usuário do banco-de-dados</label>
+			<label index="title_typo_db_password">Senha do banco-de-dados</label>
+			<label index="title_typo_db">Banco-de-dados TYPO3</label>
+			<label index="label_database_defaulttables">Criar tabelas padrão do banco-de-dados</label>
+			<label index="label_selectdump">Por favor selecione um &quot;dump&quot; de banco-de-dados</label>
+			<label index="msg_database_error_cantconnect">FATAL: Não foi possível conectar ao servidor de banco-de-dados!</label>
+			<label index="msg_database_error_cantselectdb">FATAL: Não foi possível selecionar o banco-de-dados &quot;%s&quot;</label>
+			<label index="msg_database_error_couldnotcreate">Não foi possível criar um banco-de-dados com nome &quot;%s&quot;</label>
+			<label index="msg_database_warning_selectdb">Por favor selecione um banco-de-dados ou insira um nome para um novo banco-de-dados.</label>
+			<label index="msg_database_warning_invalidname">O NOVO nome selecionado para o banco-de-dados &quot;%s&quot; não é alfanumérico (a-z, A-Z, 0-9, _-)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="title_module_database" type="integer">238058928</label>
+			<label index="title_typo_db_host" type="integer">195097193</label>
+			<label index="description_typo_db_host" type="integer">62940201</label>
+			<label index="help_typo_db_host" type="integer">130963421</label>
+			<label index="title_typo_db_username" type="integer">41504331</label>
+			<label index="title_typo_db_password" type="integer">101669867</label>
+			<label index="title_typo_db" type="integer">150842358</label>
+			<label index="label_database_defaulttables" type="integer">45756183</label>
+			<label index="label_selectdump" type="integer">128606315</label>
+			<label index="msg_database_error_cantconnect" type="integer">254727330</label>
+			<label index="msg_database_error_cantselectdb" type="integer">227414876</label>
+			<label index="msg_database_error_couldnotcreate" type="integer">210819842</label>
+			<label index="msg_database_warning_selectdb" type="integer">38943725</label>
+			<label index="msg_database_warning_invalidname" type="integer">172712807</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="title_module_database">Database</label>
+			<label index="title_typo_db_host">Database host</label>
+			<label index="description_typo_db_host">Enter the hostname where the database server can be reached.</label>
+			<label index="help_typo_db_host">The hostname is a server where the database server is running. In most cases this will be &quot;localhost&quot;.</label>
+			<label index="title_typo_db_username">Database username</label>
+			<label index="title_typo_db_password">Database password</label>
+			<label index="title_typo_db">TYPO3 database</label>
+			<label index="label_database_defaulttables">Create default database tables</label>
+			<label index="label_selectdump">Please select a database dump</label>
+			<label index="msg_database_error_cantconnect">FATAL: Can't connect to database-server!</label>
+			<label index="msg_database_error_cantselectdb">FATAL: Can't select database &quot;%s&quot;</label>
+			<label index="msg_database_error_couldnotcreate">Could not create database with name &quot;%s&quot;</label>
+			<label index="msg_database_warning_selectdb">Please select a database or fill in a name for a new database.</label>
+			<label index="msg_database_warning_invalidname">The NEW database name &quot;%s&quot; was not alphanumeric, a-zA-Z0-9_-</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="et" type="array">
+			<label index="quickEdit.description">Quick Editor annab otsese ligipääsu lehel olevatele vormielementidele.</label>
+			<label index="quickEdit.details">Quick Editor on loodud lehe redigeerimisek vajamineva aja kokkuhoiuks. Klikkide lihtsalt lehekülje pealkirjale sisupuul, laetakse esimene sisuelement esimesse veergu. Tööriistaribalt saate rippmenüüst valida võimaluse redigeerida teisi sisuelemente.</label>
+			<label index="quickEdit_selElement.description">See on kõigi sellel lehel paiknevate sisuelementide ülevaade. Valige mõni element, mida soovite redigeerida, või klikkige &quot;Uus&quot; ikoonil, loomaks uut sisuelementi.</label>
+			<label index="columns_1.description">Vaatega &quot;Veerud&quot;, saate kontrollida lehekülgede sisu kui see on paigutatud veergudesse.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="et" type="array">
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="et" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

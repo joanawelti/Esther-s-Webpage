@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="Indent-Tooltip">Augmenter le retrait</label>
+			<label index="Outdent-Tooltip">Réduire le retrait</label>
+			<label index="Blockquote-Tooltip">Bloque large</label>
+			<label index="FormatBlock-Tooltip">Type de bloque</label>
+			<label index="InsertParagraphBefore-Tooltip">Insérer un paragraphe avant le bloque courant</label>
+			<label index="InsertParagraphAfter-Tooltip">Insérer un paragraphe après le bloque courant</label>
+			<label index="JustifyLeft-Tooltip">Justifié à gauche</label>
+			<label index="JustifyCenter-Tooltip">Centré</label>
+			<label index="JustifyRight-Tooltip">Justifié à droite</label>
+			<label index="JustifyFull-Tooltip">Justifié à gauche et à droite</label>
+			<label index="Left-Tooltip">Gauche</label>
+			<label index="InsertOrderedList-Tooltip">Liste ordonnée</label>
+			<label index="InsertUnorderedList-Tooltip">Liste à puces</label>
+			<label index="No block">Aucun format de bloque</label>
+			<label index="Remove block">Supprimer le format du bloque</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="Indent-Tooltip" type="integer">192238066</label>
+			<label index="Outdent-Tooltip" type="integer">135945782</label>
+			<label index="FormatBlock-Tooltip" type="integer">259162603</label>
+			<label index="InsertParagraphBefore-Tooltip" type="integer">155452435</label>
+			<label index="InsertParagraphAfter-Tooltip" type="integer">70230192</label>
+			<label index="JustifyLeft-Tooltip" type="integer">246526183</label>
+			<label index="JustifyCenter-Tooltip" type="integer">82966017</label>
+			<label index="JustifyRight-Tooltip" type="integer">145425286</label>
+			<label index="JustifyFull-Tooltip" type="integer">233429670</label>
+			<label index="Left-Tooltip" type="integer">155571682</label>
+			<label index="InsertOrderedList-Tooltip" type="integer">127299663</label>
+			<label index="InsertUnorderedList-Tooltip" type="integer">77997053</label>
+			<label index="No block" type="integer">99941788</label>
+			<label index="Remove block" type="integer">100711418</label>
+			<label index="Blockquote-Tooltip" type="integer">7824348</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="Indent-Tooltip">Increase indent</label>
+			<label index="Outdent-Tooltip">Reduce indent</label>
+			<label index="FormatBlock-Tooltip">Type of block</label>
+			<label index="InsertParagraphBefore-Tooltip">Insert a paragraph before the current block</label>
+			<label index="InsertParagraphAfter-Tooltip">Insert a paragraph after the current block</label>
+			<label index="JustifyLeft-Tooltip">Justify left</label>
+			<label index="JustifyCenter-Tooltip">Center</label>
+			<label index="JustifyRight-Tooltip">Justify right</label>
+			<label index="JustifyFull-Tooltip">Justify left and right</label>
+			<label index="Left-Tooltip">Left</label>
+			<label index="InsertOrderedList-Tooltip">Ordered List</label>
+			<label index="InsertUnorderedList-Tooltip">Bulleted List</label>
+			<label index="No block">No block format</label>
+			<label index="Remove block">Remove block format</label>
+			<label index="Blockquote-Tooltip">Large quotation</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="pagetree_overview.alttitle">Visão Geral da Árvore</label>
+			<label index="pagetree_overview.description">A visão geral da árvore de páginas mostra informações sobre as páginas de um ramo da árvore de páginas. Isto inclui tempo de início e parada, configurações de cache, etc.</label>
+			<label index="pagetree_overview.image_descr">Um dos atributos do módulo da visão geral da árvore de página é que você pode ver quais tipos de registros são encontrados nas páginas num ramo.  Aqui contagem de registros são mostrados para um ramo a dois níveis para baixo.</label>
+			<label index="func_0.alttitle">Configurações básicas</label>
+			<label index="func_1.alttitle">Visão Geral do Registro</label>
+			<label index="func_1.description">Visão Geral do Registro te fornece uma visão indispensável da distribuição de registros na árvore da página.  Cada tabela de banco de dados no sistema é representado com uma coluna e para cada página que você pode ver o número de registros daquela tabela localizada na página.</label>
+			<label index="func_2.alttitle">Cache e Idade</label>
+			<label index="stat.alttitle">Estatísticas de acesso às páginas</label>
+			<label index="lang.alttitle">Visão geral da localização</label>
+			<label index="func_hits.alttitle">Visões estatísticas</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_1.description" type="integer">22684429</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

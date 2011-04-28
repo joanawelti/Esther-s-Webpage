@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="quickEdit.description">העורך המהיר נותן לך גישה ישירה לשדות של פריט תוכן.</label>
+			<label index="quickEdit.details">העורך המהיר מיועד להפחית מספר לחיצות כדי לערוך תוכן דף.על ידי לחיצה על שם הדף בעץ הדפים, הנך מקבל פריט תוכן ראשון בעמודה הרגילה טעון במסגרת רשימה. על סרגל כלים למעלה אתה יכול לבחור פריט תוכן אחר שנמצא בדף ולערוך אותו.</label>
+			<label index="quickEdit_selElement.description">זוהי סקירה כללית של פריטי תוכן על דף זה. נא לבחור פריט תוכן אחר כדי לערוך או לחץ על &quot;חדש&quot; כדי ליצור פריט תוכן חדש.</label>
+			<label index="columns_1.description">באמצעות תצוגת &quot;עמודות&quot; הנך יכול לשלוט על תוכן של הדף כמו שזה ממוקם בעמודות.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

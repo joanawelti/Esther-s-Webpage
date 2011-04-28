@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="shortcut_edit">Düzelt</label>
+			<label index="shortcut_editID">Sayfa ID sini düzelt</label>
+			<label index="shortcut_save">Kısayol başlığını güncelle</label>
+			<label index="shortcut_saveClose">Düzenleyiciyi güncelle ve kapat</label>
+			<label index="shortcut_close">Kısayol düzenleyiciyi kapat</label>
+			<label index="shortcut_delete">Kısayolu kaldır</label>
+			<label index="shortcut_loadEdit">Sayfa yükleniyor</label>
+			<label index="shortcut_notEditable">Düzenlenebilir sayfa bulunamadı!</label>
+			<label index="shortcut_group">Grup</label>
+			<label index="shortcut_GLOBAL">GLOBAL</label>
+			<label index="shortcut_ALL">HEPSİ</label>
+			<label index="shortcut_onlyAdmin">Paylaşılan kısayolu düzeltemezsiniz!</label>
+			<label index="shortcut_selSC">Kısayol seç</label>
+			<label index="shortcut_delAllInCat">Bu gruptaki tüm kısayolları silinsinmi?</label>
+			<label index="overwriteExistingFiles">Mevcut dosyaların üzerine yaz</label>
+			<label index="selectPosition">Yeni sayfa için pozisyon seçin</label>
+			<label index="goBack">Geri git</label>
+			<label index="createNewPage">Yeni bir sayfa yarat</label>
+			<label index="clickForWizard">Sihirbaz için buraya tıklayınız!</label>
+			<label index="insertNewPageHere">Buraya yeni sayfa ekleyin</label>
+			<label index="insertNewRecordHere">Buraya yeni kayıt ekleyin</label>
+			<label index="movePageToHere">Bu pozisyona sayfayı taşı</label>
+			<label index="moveElement">Elementi taşı</label>
+			<label index="selectPositionOfElement">Element için pozisyon seç</label>
+			<label index="movingElement">Element taşı</label>
+			<label index="makeCopy">Taşınan elementin yerine copyalama yap</label>
+			<label index="newContentElement">Yeni içerik elementi</label>
+			<label index="1_selectType">1: İçerik element türü seç:</label>
+			<label index="2_selectPosition">2: Pozisyon seç:</label>
+			<label index="CM_editAccess">Görünen ayarlar:</label>
+			<label index="CM_history">Günlük/Geri al</label>
+			<label index="CM_perms">Erişim</label>
+			<label index="CM_moveWizard">Elementi taşı</label>
+			<label index="CM_moveWizard_page">Sayfa taşı</label>
+			<label index="CM_newWizard">'Yenisini yarat' sihirbazın</label>
+			<label index="CM_editPageHeader">Sayafa başlığını düzelt</label>
+			<label index="CM_db_list">Web listesi modülü</label>
+			<label index="noEditPage">Sayfa düzletmeyi sorguladınız &quot;%s&quot; fakat bu sayfayı düzeltemezsiniz.Arkaplan yükleniyor bekleyiniz.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

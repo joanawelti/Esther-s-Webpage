@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="index_config">索引設定</label>
+			<label index="index_config.title">名稱:</label>
+			<label index="index_config.description">描述:</label>
+			<label index="index_config.type.I.1">資料庫記錄</label>
+			<label index="index_config.type.I.2">伺服器上檔案路徑</label>
+			<label index="index_config.type.I.3">外部 URL</label>
+			<label index="index_config.type">種類:</label>
+			<label index="index_config.depth.I.0">單一網頁</label>
+			<label index="index_config.depth.I.1">1層</label>
+			<label index="index_config.depth.I.2">2層</label>
+			<label index="index_config.depth.I.3">3層</label>
+			<label index="index_config.depth">深度:</label>
+			<label index="index_config.table2index">要索引的表格:</label>
+			<label index="index_config.alternative_source_pid">另外的源網頁:</label>
+			<label index="index_config.get_params">GET 週邊參數字串 (用###UID###代替):</label>
+			<label index="index_config.fields">欄位 (先是名稱):</label>
+			<label index="index_config.externalUrl">名部 URL:</label>
+			<label index="index_config.chashcalc">計算 cHash (強制CACHING)?</label>
+			<label index="index_config.filepath">檔案路徑:</label>
+			<label index="index_config.extensions">限制至延伸工具 (commalist):</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="index_config" type="integer">260751312</label>
+			<label index="index_config.title" type="integer">85903807</label>
+			<label index="index_config.description" type="integer">218120871</label>
+			<label index="index_config.type.I.1" type="integer">202530923</label>
+			<label index="index_config.type.I.2" type="integer">43997271</label>
+			<label index="index_config.type.I.3" type="integer">76246465</label>
+			<label index="index_config.type" type="integer">241539922</label>
+			<label index="index_config.depth.I.0" type="integer">141943516</label>
+			<label index="index_config.depth.I.1" type="integer">159741036</label>
+			<label index="index_config.depth.I.2" type="integer">61164083</label>
+			<label index="index_config.depth.I.3" type="integer">113480435</label>
+			<label index="index_config.depth" type="integer">186534530</label>
+			<label index="index_config.table2index" type="integer">17017163</label>
+			<label index="index_config.alternative_source_pid" type="integer">198125496</label>
+			<label index="index_config.get_params" type="integer">218226603</label>
+			<label index="index_config.fields" type="integer">109814878</label>
+			<label index="index_config.externalUrl" type="double">3039627</label>
+			<label index="index_config.chashcalc" type="integer">230076146</label>
+			<label index="index_config.filepath" type="integer">219758268</label>
+			<label index="index_config.extensions" type="integer">228527306</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="index_config">Indexing Configuration</label>
+			<label index="index_config.title">Title:</label>
+			<label index="index_config.description">Description:</label>
+			<label index="index_config.type.I.1">Database Records</label>
+			<label index="index_config.type.I.2">Filepath on server</label>
+			<label index="index_config.type.I.3">External URL</label>
+			<label index="index_config.type">Type:</label>
+			<label index="index_config.depth.I.0">Single page</label>
+			<label index="index_config.depth.I.1">1 Level</label>
+			<label index="index_config.depth.I.2">2 Levels</label>
+			<label index="index_config.depth.I.3">3 Levels</label>
+			<label index="index_config.depth">Depth:</label>
+			<label index="index_config.table2index">Table to index:</label>
+			<label index="index_config.alternative_source_pid">Alternative Source Page:</label>
+			<label index="index_config.get_params">GET parameter string (with ###UID### substitution):</label>
+			<label index="index_config.fields">Fields (first is title):</label>
+			<label index="index_config.externalUrl">External URL:</label>
+			<label index="index_config.chashcalc">Calculate cHash (force caching)?</label>
+			<label index="index_config.filepath">Filepath:</label>
+			<label index="index_config.extensions">Limit to extensions (commalist):</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

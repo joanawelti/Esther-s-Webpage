@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="TextStyle-Tooltip">Применить стиль к выделенному тексту</label>
+			<label index="Technische Universitat Ilmenau">Технический университет Ильменау</label>
+			<label index="No style">Нет стиля текста</label>
+			<label index="Remove style">Удалить стиль текста</label>
+			<label index="Unknown style">Неизвестный стиль текста</label>
+			<label index="Element style">Стиль строчного элемента</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="TextStyle-Tooltip" type="integer">154600997</label>
+			<label index="Technische Universitat Ilmenau" type="integer">62570617</label>
+			<label index="No style" type="integer">78596496</label>
+			<label index="Remove style" type="integer">91415919</label>
+			<label index="Unknown style" type="integer">143937022</label>
+			<label index="Element style" type="integer">75918906</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="TextStyle-Tooltip">Apply style to the selected text</label>
+			<label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+			<label index="No style">No text style</label>
+			<label index="Remove style">Remove text style</label>
+			<label index="Unknown style">Unknown text style</label>
+			<label index="Element style">Inline element style</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="username.description">Wprowadź nazwę użytkownika serwisu. Jest ona używana w trakcie logowania do stron serwisu.</label>
+			<label index="password.description">Wprowadź hasło użytkownika. Jest ono wymagane w trakcie logowania do stron serwisu.</label>
+			<label index="usergroup.description">Wybierz grupę, do której będzie przynależał użytkownik.</label>
+			<label index="lockToDomain.description">Wprowadź nazwę hosta, z którego użytkownik będzie zmuszony do zalogoania.</label>
+			<label index="lockToDomain.syntax">Wprowadź nazwę domeny, np.: &quot;www.typo3.com&quot; lub adres IP, np.: &quot;10.34.222.83&quot;</label>
+			<label index="name.description">Wprowadź imię i nazwisko użytkownika.</label>
+			<label index="address.description">Wprowadź adres użytkownika.</label>
+			<label index="www.description">Wprowadź adres URL strony domowej.</label>
+			<label index="title.description">Wprowadź tytuł, np. 'Dyrektor' lub 'Kierownik'.</label>
+			<label index="company.description">Wprowadź nazwę firmy, w której użytkownik jest zatrudniony.</label>
+			<label index="image.description">Wstaw obrazek użytkownika.</label>
+			<label index="disable.description">Ta opcja tymczasowo uniemożliwi użytkownikowi logowanie się do stron serwisu.</label>
+			<label index="starttime.description">Wprowadź datę, od której konto będzie aktywne.</label>
+			<label index="endtime.description">Wprowadź datę, od której konto będzie zdeaktywowane.</label>
+			<label index="TSconfig.description">Wprowadź dodatkową konfigurację TSconfig dla użytkownika (zaawansowane).</label>
+			<label index=".description">Użytkownik logujący się na strony serwisu.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="username.description" type="integer">107422140</label>
+			<label index="password.description" type="double">10412940</label>
+			<label index="usergroup.description" type="integer">171809046</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="name.description" type="integer">173302476</label>
+			<label index="address.description" type="integer">268060602</label>
+			<label index="www.description" type="integer">258941487</label>
+			<label index="title.description" type="integer">45554969</label>
+			<label index="company.description" type="double">7843590</label>
+			<label index="image.description" type="integer">222235094</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index=".description" type="integer">156302739</label>
+			<label index="lockToDomain.syntax" type="double">634244</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="username.description">Enter the username of the website user. This is needed to login.</label>
+			<label index="password.description">Enter the password for the username above. This is needed to login.</label>
+			<label index="usergroup.description">Select a user group for the username.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="name.description">Enter the regular name of the user, both first- and surname.</label>
+			<label index="address.description">Enter the street address of the user.</label>
+			<label index="www.description">Enter the homepage URL</label>
+			<label index="title.description">Enter the job title, eg. 'Director' or 'Accountant'.</label>
+			<label index="company.description">Enter the name of the company in which the user is employed.</label>
+			<label index="image.description">Insert a photo of the user.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index=".description">A website login user.</label>
+			<label index="lockToDomain.syntax">Either a domain name, &quot;www.typo3.com&quot; or an IP address, &quot;10.34.222.83&quot;</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

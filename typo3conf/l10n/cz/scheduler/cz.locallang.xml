@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="testTask.name">Testovací úloha Plánovače</label>
+			<label index="testTask.description">Testovací úloha Plánovače jen pošle mail na určitou e-mailovou adresu. Je určena k použití pro účely testování.</label>
+			<label index="sleepTask.name">Spící úloha Plánovače</label>
+			<label index="sleepTask.description">Tato úloha nedělá nic jiného, než že nechá PHP po několik sekund spát. Je navržena tak, aby otestovala několik současných spouštění.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="testTask.name" type="integer">109427066</label>
+			<label index="testTask.description" type="integer">263126638</label>
+			<label index="sleepTask.name" type="integer">258894786</label>
+			<label index="sleepTask.description" type="integer">163363153</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="testTask.name">Scheduler test task</label>
+			<label index="testTask.description">The Scheduler test task just sends a mail to a given email address. It is designed to be used for testing purposes.</label>
+			<label index="sleepTask.name">Scheduler sleep task</label>
+			<label index="sleepTask.description">This task does nothing but put PHP to sleep for a number of seconds. It is designed to test multiple executions.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

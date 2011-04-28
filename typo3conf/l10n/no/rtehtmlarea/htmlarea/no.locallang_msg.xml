@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="Path">Sti</label>
+			<label index="TEXT_MODE">Du er i TEKSTMODUS. Bruk &quot;&lt;&gt;&quot;-knappen for å gå tilbake til WYSIWYG-modus.</label>
+			<label index="ActiveX-required">For at denne editoren skal kunne brukes i Internet Explorer må noen ActiveX-kontroller bli aktivert.</label>
+			<label index="HTML-document-not-well-formed">HTML-dokumentet inneholder feil.</label>
+			<label index="Moz-Clipboard">Upriviligerte programmer kan ikke få tilgang til &quot;klipp ut&quot;/&quot;kopier&quot;/&quot;lim inn&quot; av sikkerhetshensyn. Klikk på OK for å se en teknisk notis på Mozilla.org, som viser deg hvordan du kan tillate tilgang til utklipp.</label>
+			<label index="Moz-Extension">Av sikkerhetshensyn har ikke upriviligerte progremmer tilgang til utklipp. Klikk OK for å installere en komponent som gir programmer på dette nettstedet mulighet til å hente utklipp fra maskinen din og gjøre &quot;kopier&quot;-, &quot;klipp ut&quot;- og &quot;lim inn&quot;-operasjoner.</label>
+			<label index="Moz-Extension-Success">Installasjonen gikk etter planen. Du må avslutte og starte nettleseren din på nytt for at endringen skal komme i funsjon.</label>
+			<label index="Moz-Extension-Failure">Beklager, installasjonen var mislykket.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Installasjonen kan ikke bli gjort. Vennligst endre instillingene i nettleseren din slik at du tillater installasjon av programvare fra dette nettstedet.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Av sikkerhetshensyn kan ikke upriviligerte programmer ha adgang til utklipp. Klikk OK for å installere en komponent som vil gi deg mulighet til å spesifisere nettsteder og -sider som vil ha tilgang til utklipp og utføre &quot;kopier&quot;-, &quot;klipp ut&quot;- og &quot;lim inn&quot;-operasjoner.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Installasjonen kan ikke bli gjort. Vennligst endre innstillingene i nettleseren din slik at den tillater programvareinstallasjon fra http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Installasjonen var vellykket. Du må avslutte og starte nettleseren din på nytt for at endringene skal vises. Etterpå kan du bruke AllowClipboard Helper fra Verktøy-menyen for å tillate spesifikke nettsteder tilgang til utklipp.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="tx_wizardsortpages.alttitle">Asistente de ordenación de páxinas</label>
+			<label index="tx_wizardsortpages.description">Permítelle clasificar as páxinas alfabéticamente polo título, subtítulo ou pola hora de creación, etc. Tamén pode cambiar a orde das páxinas na árbore de páxinas.</label>
+			<label index="tx_wizardsortpages.details">As páxinas na árbore de páxinas sempre están ordenadas manualmente. É posible mover as páxinas arriaba e abaixo, etc. Pero este asistente proporciónalle unha forma rápida de cambiar a ordenación manual das sub-páxinas.
+
+Simplemente prema nunha das ligazións ó final desta pantalla do asistente:
+
+&lt;b&gt;Título da páxina&lt;/b&gt;
+Ordenará as páxinas polo seu título de páxina.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Ordenará as páxinas polo seu campo subtítulo.
+
+&lt;b&gt;Hora de cambio&lt;/b&gt;
+Ordenará as páxinas comezando polas máis recentemente modificadas.
+
+&lt;b&gt;Hora de creación&lt;/b&gt;
+Ordenará as páxinas polas súa hora de creación.
+
+&lt;b&gt;Cambiar a orde actual&lt;/b&gt;
+Prema isto para cambiar a orde actual. Por exemplo, se quere ordenar as páxinas alfabéticamente pero en orde descendente simplemente ordene por título primeiro e entón cambie a orde premendo isto.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="tx_wizardsortpages.alttitle" type="integer">256705929</label>
+			<label index="tx_wizardsortpages.description" type="integer">192390591</label>
+			<label index="tx_wizardsortpages.details" type="integer">122743470</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="tx_wizardsortpages.alttitle">Sort Pages wizard</label>
+			<label index="tx_wizardsortpages.description">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</label>
+			<label index="tx_wizardsortpages.details">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+&lt;b&gt;Page title&lt;/b&gt;
+Will sort pages by their page title.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Will sort page by their Subtitle field.
+
+&lt;b&gt;Change-time&lt;/b&gt;
+Will sort pages by the date they were last changed.
+
+&lt;b&gt;Create-time&lt;/b&gt;
+Will sort pages by their creation date.
+
+&lt;b&gt;Reverse current order&lt;/b&gt;
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

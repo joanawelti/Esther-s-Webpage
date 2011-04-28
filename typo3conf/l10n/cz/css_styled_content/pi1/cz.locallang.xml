@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="label.toTop">Nahoru</label>
+			<label index="login.username">Uživatelské jméno:</label>
+			<label index="login.password">Heslo:</label>
+			<label index="login.login">Přihlásit</label>
+			<label index="login.logout">Odhlásit</label>
+			<label index="search.emptySearch">Bohužel, výsledek hledání je prázdný!</label>
+			<label index="search.resultRange">Výsledek hledání: ###RANGELOW###-###RANGEHIGH### z ###TOTAL###</label>
+			<label index="search.searchResultNext">Další</label>
+			<label index="search.searchResultPrev">Předchozí</label>
+			<label index="search.searchWord">Hledané slovo:</label>
+			<label index="search.searchIn">Hledat v:</label>
+			<label index="search.headersKeywords">Nadpisech a klíčových slovech</label>
+			<label index="search.pageContent">Obsahu stránky</label>
+			<label index="search.searchButton">Hledat!</label>
+			<label index="eIcon.html">Upravit čistý HTML obsah</label>
+			<label index="eIcon.header">Upravit nadpis</label>
+			<label index="eIcon.subheader">Upravit podnadpis</label>
+			<label index="eIcon.bodytext">Upravit článek</label>
+			<label index="eIcon.images">Upravit obrázky</label>
+			<label index="eIcon.caption">Upravit titulek obrázku</label>
+			<label index="eIcon.bullets">Upravit výčet</label>
+			<label index="eIcon.table">Upravit tabulku</label>
+			<label index="eIcon.filelist">Upravit seznam souborů</label>
+			<label index="eIcon.menuSitemap">Upravit menu / mapu webu</label>
+			<label index="eIcon.recordList">Upravit seznam záznamů</label>
+			<label index="eIcon.plugin">Změnit/konfigurovat doplněk</label>
+			<label index="eIcon.multimedia">Upravit prvek typu multimédia</label>
+			<label index="eIcon.form">Upravit e-mailový formulář</label>
+			<label index="eIcon.search">Upravit hledání</label>
+			<label index="eIcon.login">Upravit přihlášení</label>
+			<label index="eIcon.page">Stránka:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="label.toTop" type="integer">256968027</label>
+			<label index="login.username" type="integer">212632006</label>
+			<label index="login.password" type="integer">187963993</label>
+			<label index="login.login" type="integer">161344120</label>
+			<label index="login.logout" type="double">3292644</label>
+			<label index="search.emptySearch" type="integer">118666163</label>
+			<label index="search.resultRange" type="integer">182339452</label>
+			<label index="search.searchResultNext" type="integer">17482704</label>
+			<label index="search.searchResultPrev" type="integer">21115089</label>
+			<label index="search.searchWord" type="integer">150454913</label>
+			<label index="search.searchIn" type="integer">248140624</label>
+			<label index="search.headersKeywords" type="double">5479653</label>
+			<label index="search.pageContent" type="integer">73079758</label>
+			<label index="search.searchButton" type="double">3457966</label>
+			<label index="eIcon.html" type="integer">219732781</label>
+			<label index="eIcon.header" type="integer">263342564</label>
+			<label index="eIcon.subheader" type="integer">106009992</label>
+			<label index="eIcon.bodytext" type="integer">25202894</label>
+			<label index="eIcon.images" type="integer">53347967</label>
+			<label index="eIcon.caption" type="integer">202261956</label>
+			<label index="eIcon.bullets" type="integer">17099413</label>
+			<label index="eIcon.table" type="integer">194091224</label>
+			<label index="eIcon.filelist" type="integer">200322698</label>
+			<label index="eIcon.menuSitemap" type="integer">258217158</label>
+			<label index="eIcon.recordList" type="integer">199959556</label>
+			<label index="eIcon.plugin" type="integer">206199137</label>
+			<label index="eIcon.multimedia" type="integer">66403706</label>
+			<label index="eIcon.form" type="integer">268386904</label>
+			<label index="eIcon.search" type="integer">260269479</label>
+			<label index="eIcon.login" type="integer">135433115</label>
+			<label index="eIcon.page" type="integer">230383377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="label.toTop">To top</label>
+			<label index="login.username">Username:</label>
+			<label index="login.password">Password:</label>
+			<label index="login.login">Login</label>
+			<label index="login.logout">Logout</label>
+			<label index="search.emptySearch">Sorry, your search was empty!</label>
+			<label index="search.resultRange">Searchresult: ###RANGELOW###-###RANGEHIGH### of ###TOTAL###</label>
+			<label index="search.searchResultNext">Next</label>
+			<label index="search.searchResultPrev">Prev</label>
+			<label index="search.searchWord">Searchword:</label>
+			<label index="search.searchIn">Search in:</label>
+			<label index="search.headersKeywords">Headers and keywords</label>
+			<label index="search.pageContent">Page content</label>
+			<label index="search.searchButton">Search now!</label>
+			<label index="eIcon.html">Edit pure HTML content</label>
+			<label index="eIcon.header">Edit header</label>
+			<label index="eIcon.subheader">Edit subheader</label>
+			<label index="eIcon.bodytext">Edit bodytext</label>
+			<label index="eIcon.images">Edit images</label>
+			<label index="eIcon.caption">Edit image caption</label>
+			<label index="eIcon.bullets">Edit bullet list</label>
+			<label index="eIcon.table">Edit table</label>
+			<label index="eIcon.filelist">Edit file list</label>
+			<label index="eIcon.menuSitemap">Edit menu / sitemap</label>
+			<label index="eIcon.recordList">Edit recordlist</label>
+			<label index="eIcon.plugin">Change/configure plugin</label>
+			<label index="eIcon.multimedia">Edit multimedia element</label>
+			<label index="eIcon.form">Edit email form</label>
+			<label index="eIcon.search">Edit search element</label>
+			<label index="eIcon.login">Edit login element</label>
+			<label index="eIcon.page">Page:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

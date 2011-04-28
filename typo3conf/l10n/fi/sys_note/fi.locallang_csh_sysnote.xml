@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index=".description">Sisäinen huomautus muistuttamaan lisätty sivulle.</label>
+			<label index=".details">Tämä mahdollistaa yksinkertaisen tavan lisätä ohjeellisia huomautuksia sivulle jotka koskevat taustatoimintoja. Käytä kuten haluat muistioihin, ohjeisiin jne.</label>
+			<label index="_.seeAlso">sivuja</label>
+			<label index="category.description">Valitse luokka joka kuvastaa huomautuksen luonnetta.</label>
+			<label index="subject.description">Anna otsikko huomautukselle.</label>
+			<label index="message.description">Tässä on itse huomautus.</label>
+			<label index="author.description">Anna nimesi.</label>
+			<label index="email.description">Anna email osoitteesi.</label>
+			<label index="personal.description">Merkkaa tämä, jos et halua muiden käyttäjien näkevän tätä huomautusta.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index=".description" type="integer">112425504</label>
+			<label index=".details" type="integer">141602016</label>
+			<label index="_.seeAlso" type="integer">101943827</label>
+			<label index="category.description" type="integer">222277377</label>
+			<label index="subject.description" type="integer">58235458</label>
+			<label index="message.description" type="integer">268248387</label>
+			<label index="author.description" type="integer">205434485</label>
+			<label index="email.description" type="integer">259302369</label>
+			<label index="personal.description" type="integer">172550456</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="introtext">網站內容管理系統</label>
+			<label index="introtext2">這是可供使用模組的簡介</label>
+			<label index="endText">功能會因應你的網站和權限而有所不同</label>
+			<label index="userInfo">&lt;font size=1&gt;登入的使用者：&lt;strong&gt;%s&lt;/strong&gt;(%s)&lt;br&gt;&lt;/font&gt;</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="introtext" type="integer">194562478</label>
+			<label index="introtext2" type="integer">234766952</label>
+			<label index="endText" type="integer">206585252</label>
+			<label index="userInfo" type="integer">170934145</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Planificateur</label>
+			<label index=".description">Le planificateur fournit une interface permettant d'enregistrer et de gérer les tâches récurrentes ou uniques.</label>
+			<label index=".syntax">Le planificateur utilise un job cron unique qui gère toutes les tâches enregistrée.</label>
+			<label index="task_class.alttitle">Classe de la tâche</label>
+			<label index="task_class.description">Choisissez une classe à partir de la liste des tâches disponibles</label>
+			<label index="task_class.details">Les tâches sont fournies par diverses extensions. Si vous souhaitez créer vos propres tâches et les enregistrer auprès du planificateur, veuillez lire le manuel.</label>
+			<label index="task_disable.alttitle">Désactive la tâche</label>
+			<label index="task_disable.description">Cochez cette case pour désactiver l'exécution automatique et planifiée de la tâche. Elle pourra toutefois être lancée manuellement par le module d'administration.</label>
+			<label index="task_arguments.alttitle">Arguments supplémentaires de l'appel de la tâche</label>
+			<label index="task_arguments.description">Veuillez entrer les arguments définis par la classe de la tâche</label>
+			<label index="task_arguments.details">Les arguments doivent être écrits en utilisant une syntaxe similaire aux requêtes HTTP, c'est-à-dire &amp;arg1=value1&amp;arg2=value2, etc.</label>
+			<label index="task_type.alttitle">Type de la tâche</label>
+			<label index="task_type.description">Veuillez choisir si la tâche doit être exécuté une seule fois ou si elle doit être répétée.</label>
+			<label index="task_start.alttitle">Début de la tâche</label>
+			<label index="task_start.description">Entrez la date et heure de début de la tâche</label>
+			<label index="task_start.details">La date doit être saisie dans un forma standard, tel que HH:mm jj-mm-aaaa ou aaaa-mm-jj HH:mm.
+Des mots-clés tels que &quot;now&quot; ou &quot;tomorrow&quot; peuvent également être utilisés.</label>
+			<label index="task_end.alttitle">Fin de la tâche</label>
+			<label index="task_end.description">Entrez la date et heure de fin de la tâche (peut être vide)</label>
+			<label index="task_end.details">Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like &quot;now&quot; or &quot;tomorrow&quot;.
+Date and time must correspond to the server's time zone.
+
+Can be left blank, if task is not supposed to end at any point.</label>
+			<label index="task_frequency.alttitle">Fréquence de la tâche</label>
+			<label index="task_frequency.description">Entrez la fréquence, en secondes ou en syntax de type cron</label>
+			<label index="task_frequency.details">La fréquence de la tâche peut être simplement un nombre de seconde.
+
+Il est aussi possible d'utiliser la syntaxe utilisée par les jobs cron. C'est une liste de cinq nombres, ou le joker &quot;*&quot;, séparés par des espaces. Les cinq nombres sont, dans l'ordre, les minutes, les heures, le jour du mois, le mois et le jour de la semaine. Par exemple :
+
+*/5 * * * * signifie : toutes les 5 minutes.
+30 22 * * * signifie tous les jours à 22h30</label>
+			<label index="task_multiple.alttitle">Exécutions multiples</label>
+			<label index="task_multiple.description">Veuillez déterminer si la tâche pourra être exécutée plusieurs fois en parallèle ou non.</label>
+			<label index="task_email.alttitle">Adresse mail</label>
+			<label index="task_email.description">Veuillez saisir le destinataire des mails encoyés par la tâche test</label>
+			<label index="task_sleepTime.alttitle">Durée du sommeil</label>
+			<label index="task_sleepTime.description">Entrez le nombre de secondes pendant lesquelles la tâche sera en sommeil.</label>
+			<label index="task_frequency.seeAlso">Référence Wikipédia|http://fr.wikipedia.org/wiki/Cron</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle" type="integer">268086295</label>
+			<label index=".description" type="integer">250475609</label>
+			<label index=".syntax" type="integer">215909911</label>
+			<label index="task_start.alttitle" type="integer">210819512</label>
+			<label index="task_start.description" type="integer">4193447</label>
+			<label index="task_end.alttitle" type="integer">81370413</label>
+			<label index="task_end.description" type="integer">60606032</label>
+			<label index="task_end.details" type="integer">80874037</label>
+			<label index="task_frequency.alttitle" type="integer">96196406</label>
+			<label index="task_frequency.description" type="integer">39529601</label>
+			<label index="task_frequency.details" type="integer">146914964</label>
+			<label index="task_multiple.alttitle" type="integer">66900146</label>
+			<label index="task_multiple.description" type="integer">18666016</label>
+			<label index="task_email.alttitle" type="integer">188054354</label>
+			<label index="task_email.description" type="integer">58882103</label>
+			<label index="task_sleepTime.alttitle" type="integer">117377126</label>
+			<label index="task_sleepTime.description" type="integer">22284108</label>
+			<label index="task_frequency.seeAlso" type="integer">109547945</label>
+			<label index="task_class.alttitle" type="integer">220392919</label>
+			<label index="task_class.description" type="integer">166526588</label>
+			<label index="task_class.details" type="integer">244237521</label>
+			<label index="task_disable.alttitle" type="integer">152867112</label>
+			<label index="task_disable.description" type="integer">210670658</label>
+			<label index="task_arguments.alttitle" type="integer">174317536</label>
+			<label index="task_arguments.description" type="integer">114267997</label>
+			<label index="task_arguments.details" type="integer">246053783</label>
+			<label index="task_type.alttitle" type="integer">43241726</label>
+			<label index="task_type.description" type="integer">110910398</label>
+			<label index="task_start.details" type="integer">2224915</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Scheduler</label>
+			<label index=".description">The Scheduler provides an interface to register and manage recurring or one-time tasks.</label>
+			<label index=".syntax">
+				The Scheduler uses a single cron job which handles all registered tasks. It is thus very convenient as a single cron job needs to be set up and all task frequencies can be managed from the BE module.
+			</label>
+			<label index="task_start.alttitle">Start of task</label>
+			<label index="task_start.description">Enter a start date and time for the task</label>
+			<label index="task_end.alttitle">End of task</label>
+			<label index="task_end.description">Enter an end date and time for the task, can be blank</label>
+			<label index="task_end.details">
+				Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like &quot;now&quot; or &quot;tomorrow&quot;.
+				Date and time must correspond to the server's time zone.
+
+				Can be left blank, if task is not supposed to end at any point.
+			</label>
+			<label index="task_frequency.alttitle">Frequency of task</label>
+			<label index="task_frequency.description">Enter a frequency, either in seconds or using a cron-like syntax</label>
+			<label index="task_frequency.details">
+				The frequency of the task can be simply entered as a number of seconds.
+
+				Alternately it is possible to use the same syntax as for cron jobs. This is simply a list of five numbers or the wildcard &quot;*&quot;, separated by blanks. The five numbers are (in order) minutes, hours, day of month, months and day of week. Examples:
+
+				*/5 * * * * means every 5 minutes
+				30 22 * * * means every day at 22:30
+			</label>
+			<label index="task_multiple.alttitle">Multiple executions</label>
+			<label index="task_multiple.description">Choose whether a task can be running several times simultaneously or not</label>
+			<label index="task_email.alttitle">Email address</label>
+			<label index="task_email.description">Enter a recipient for the mails sent by the test task</label>
+			<label index="task_sleepTime.alttitle">Sleep time</label>
+			<label index="task_sleepTime.description">Enter a number of seconds during which the task will just sleep.</label>
+			<label index="task_frequency.seeAlso">
+				Wikipedia reference|http://en.wikipedia.org/wiki/Cron
+			</label>
+			<label index="task_class.alttitle">Class of the task</label>
+			<label index="task_class.description">Choose a class from the list of available tasks</label>
+			<label index="task_class.details">
+				The tasks are provided by various extensions. See the manual to learn how to create your own tasks and register them with the Scheduler.
+			</label>
+			<label index="task_disable.alttitle">Disable task</label>
+			<label index="task_disable.description">Check this box to disable the automatic, scheduled execution of this task. It can still be launched manually from the BE module.</label>
+			<label index="task_arguments.alttitle">Additional call arguments</label>
+			<label index="task_arguments.description">Enter whatever arguments exist for the chosen task class</label>
+			<label index="task_arguments.details">
+				Call arguments are entered using a syntax similar to HTTP query strings, i.e. &amp;arg1=value1&amp;arg2=value2 etc.
+			</label>
+			<label index="task_type.alttitle">Type of task</label>
+			<label index="task_type.description">Choose whether the task must happen a single time or will be repeated</label>
+			<label index="task_start.details">
+				Date must be entered in a standard format like HH:mm dd-mm-YYYY or YYYY-mm-dd HH:mm. Natural keywords can also be used, like &quot;now&quot; or &quot;tomorrow&quot;.
+				Date and time must correspond to the server's time zone.
+			</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

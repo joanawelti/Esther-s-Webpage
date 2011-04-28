@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="title">نشان دادن پیشینه رکورد</label>
+			<label index="time">زمان</label>
+			<label index="age">سن</label>
+			<label index="user">کاربر</label>
+			<label index="tableUid">جدول:uid</label>
+			<label index="differences">تفاوت‌ها</label>
+			<label index="return">بازگشت</label>
+			<label index="returnLink">برای بازگشت اینجا را کلیک کنید</label>
+			<label index="revertAll">عقب‌گرد همه تغبرات نشان داده شده</label>
+			<label index="revertRecord">عقب‌گرد بک رکورد واحد</label>
+			<label index="revertField">عقب‌گرد بک فيلد واحد</label>
+			<label index="externalChange">تغییر خارجی توسط واسطه!</label>
+			<label index="sumUpChanges">عقب‌گرد (نمايش)</label>
+			<label index="markState">این تغییر را نشان‌گذاری کن</label>
+			<label index="unmarkState">این تغییر را از نشان‌گذاری در بیاور</label>
+			<label index="elementHistory">شما در حال حاضر در حال مشاهده تاریخچه یک عنصر هستید.</label>
+			<label index="elementHistory_link">تاریخچه کامل صفحه را نمایش بده.</label>
+			<label index="linkRecordHistory">تاریخچه را به این رکورد محدود کن</label>
+			<label index="fullView">بازگشت به نمای کامل</label>
+			<label index="insert">جایگذاری</label>
+			<label index="delete">حذف</label>
+			<label index="mergedDifferences">نمايش براي عقب‌گرد</label>
+			<label index="settings">تنظیمات</label>
+			<label index="maxSteps">ورودي‌ها را نمايش بده</label>
+			<label index="maxSteps_all">همه</label>
+			<label index="maxSteps_marked">نشان‌گذاری شده</label>
+			<label index="showDiff_no">نه</label>
+			<label index="showDiff_inline">درون‌خطي</label>
+			<label index="showSubElements">نمایش عناصر زیرمجموعه:</label>
+			<label index="no">نه</label>
+			<label index="yes">بله</label>
+			<label index="showInsertDelete">نمایش جایگذاری‌ها/ حذف‌های رکوردها:</label>
+			<label index="noDifferences">هیچ تفاوتی نسبت به صفحه جاری وجود ندارد!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="title" type="integer">167696329</label>
+			<label index="time" type="integer">175559919</label>
+			<label index="age" type="integer">165204693</label>
+			<label index="user" type="integer">150585321</label>
+			<label index="differences" type="integer">172019011</label>
+			<label index="return" type="integer">159972723</label>
+			<label index="returnLink" type="integer">224991832</label>
+			<label index="markState" type="integer">225010576</label>
+			<label index="unmarkState" type="integer">109493640</label>
+			<label index="elementHistory" type="integer">231999163</label>
+			<label index="elementHistory_link" type="integer">56530468</label>
+			<label index="linkRecordHistory" type="integer">94244311</label>
+			<label index="fullView" type="integer">257969727</label>
+			<label index="insert" type="integer">235795955</label>
+			<label index="delete" type="double">10071891</label>
+			<label index="settings" type="integer">256864370</label>
+			<label index="maxSteps_all" type="integer">100343701</label>
+			<label index="maxSteps_marked" type="integer">96203478</label>
+			<label index="showDiff_no" type="integer">196073266</label>
+			<label index="showSubElements" type="integer">216115862</label>
+			<label index="no" type="integer">196073266</label>
+			<label index="yes" type="integer">154974727</label>
+			<label index="showInsertDelete" type="integer">203987549</label>
+			<label index="noDifferences" type="integer">190893026</label>
+			<label index="externalChange" type="double">14890408</label>
+			<label index="tableUid" type="integer">70945449</label>
+			<label index="revertAll" type="integer">152978041</label>
+			<label index="revertRecord" type="integer">100956631</label>
+			<label index="revertField" type="integer">263179628</label>
+			<label index="sumUpChanges" type="double">6596893</label>
+			<label index="mergedDifferences" type="integer">139891874</label>
+			<label index="maxSteps" type="integer">93251975</label>
+			<label index="showDiff_inline" type="double">1203445</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="title">Show record history</label>
+			<label index="time">Time</label>
+			<label index="age">Age</label>
+			<label index="user">User</label>
+			<label index="differences">Differences</label>
+			<label index="return">Return</label>
+			<label index="returnLink">Click here to go back</label>
+			<label index="markState">mark this change</label>
+			<label index="unmarkState">unMark this change</label>
+			<label index="elementHistory">You are currently seeing the history for an element.</label>
+			<label index="elementHistory_link">Show the full page history!</label>
+			<label index="linkRecordHistory">Limit history to this record</label>
+			<label index="fullView">Return to full view</label>
+			<label index="insert">insert</label>
+			<label index="delete">delete</label>
+			<label index="settings">Settings</label>
+			<label index="maxSteps_all">ALL</label>
+			<label index="maxSteps_marked">marked</label>
+			<label index="showDiff_no">No</label>
+			<label index="showSubElements">Show sub elements:</label>
+			<label index="no">No</label>
+			<label index="yes">Yes</label>
+			<label index="showInsertDelete">Show inserts/deletes of records:</label>
+			<label index="noDifferences">There are no differences to the current page!</label>
+			<label index="externalChange">Intermediate external change!</label>
+			<label index="tableUid">Table:uid</label>
+			<label index="revertAll">Rollback all changes shown</label>
+			<label index="revertRecord">Rollback single record</label>
+			<label index="revertField">Rollback single field</label>
+			<label index="sumUpChanges">Rollback (Preview)</label>
+			<label index="mergedDifferences">Preview for Rollback</label>
+			<label index="maxSteps">Show entries:</label>
+			<label index="showDiff_inline">Inline</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="RemoveFormatTooltip">Fjern formattering</label>
+			<label index="Cleaning Area">Renser område</label>
+			<label index="Selection">Markering</label>
+			<label index="All">Alle</label>
+			<label index="Remove formatting">Fjern formattering</label>
+			<label index="Cleaning options">Hva slags formattering som skal fjernes</label>
+			<label index="Formatting:">HTML-formattering:</label>
+			<label index="MS Word Formatting:">MS Word-formattering:</label>
+			<label index="Images:">Bilder:</label>
+			<label index="All HTML:">All HTML:</label>
+			<label index="Select the type of formatting you wish to remove.">Velg typen formattering du vil fjerne.</label>
+			<label index="OK">OK</label>
+			<label index="Cancel">Avbryt</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="RemoveFormatTooltip" type="integer">187827535</label>
+			<label index="Cleaning Area" type="integer">111670107</label>
+			<label index="Selection" type="integer">117415376</label>
+			<label index="All" type="integer">186422474</label>
+			<label index="Remove formatting" type="integer">187827535</label>
+			<label index="Cleaning options" type="integer">120951142</label>
+			<label index="Formatting:" type="integer">241123716</label>
+			<label index="MS Word Formatting:" type="integer">232036571</label>
+			<label index="Images:" type="integer">160221445</label>
+			<label index="All HTML:" type="integer">60736661</label>
+			<label index="Select the type of formatting you wish to remove." type="integer">46612032</label>
+			<label index="OK" type="integer">235577377</label>
+			<label index="Cancel" type="integer">245659783</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="removeLink">移除連結</label>
+			<label index="uploadImage">上載圖片</label>
+			<label index="update">更新</label>
+			<label index="path">路徑</label>
+			<label index="page">網頁</label>
+			<label index="file">檔案</label>
+			<label index="extUrl">外部URL</label>
+			<label index="email">電郵</label>
+			<label index="special">專用</label>
+			<label index="folderTree">資料夾樹形圖</label>
+			<label index="files">檔案</label>
+			<label index="target">目標</label>
+			<label index="target_popUpWindow">在視窗中開啟</label>
+			<label index="target_popUpWindow_width">闊</label>
+			<label index="target_popUpWindow_height">高</label>
+			<label index="newWindow">新視窗</label>
+			<label index="top">頂部</label>
+			<label index="none">沒有 - 新連結</label>
+			<label index="pageTree">網頁樹形圖</label>
+			<label index="contentElements">內容元件</label>
+			<label index="selectRecords">選擇記錄</label>
+			<label index="addToList">加到列表...</label>
+			<label index="info">資料</label>
+			<label index="emailAddress">電郵地址</label>
+			<label index="setLink">設定連結</label>
+			<label index="clickToRedrawFullSize">在此顯示的圖片較大！點擊以用原大小重畫</label>
+			<label index="findDragDrop">尋找你的圖片，然後點擊影像再拉到主視窗的編輯器中！</label>
+			<label index="noWebFolder">你不能從這個資料夾（黃色）拉出圖片，因為這是伺服器的內部資料夾</label>
+			<label index="currentLink">目前的連結</label>
+			<label index="invalidChar">錯誤：在檔案路徑(%s)中發現無效的的字元。不能加入檔案！</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="target_popUpWindow" type="integer">21986240</label>
+			<label index="target_popUpWindow_width" type="integer">53040229</label>
+			<label index="target_popUpWindow_height" type="integer">250375243</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+			<label index="invalidChar" type="integer">103011900</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

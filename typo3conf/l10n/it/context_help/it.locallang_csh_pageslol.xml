@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description">Inserisci il titolo della lingua alternativa</label>
+			<label index="subtitle.description">Inserisci il sottotitolo della lingua alternativa</label>
+			<label index="keywords.description">Inserisci le parole chiave della lingua alternativa</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description" type="integer">168754082</label>
+			<label index="subtitle.description" type="integer">249795538</label>
+			<label index="keywords.description" type="integer">81696492</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description">Enter the title of the alternative language.</label>
+			<label index="subtitle.description">Enter the subtitle of the alternative language.</label>
+			<label index="keywords.description">Enter the keywords of the alternative language.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

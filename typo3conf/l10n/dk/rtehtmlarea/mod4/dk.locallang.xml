@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="folderTree">Mapper</label>
+			<label index="uploadImage">Send billede</label>
+			<label index="path">Sti</label>
+			<label index="images">Billeder</label>
+			<label index="magicImage_msg">I &quot;Magisk&quot; tilstand kan du vælge alle typer billeder med vilkårlige dimensioner. Billedet bliver automatisk konverteret til et web-format og enhver ændring af dimensioner du laver bliver processeret for at optimere kvalitet og størrelse.</label>
+			<label index="plainImage_msg">I &quot;Normal&quot; tilstand kan du kun indsætte web billedformater (JPG,GIF and PNG) op til 640x480 pixels. Denne metode er beregnet for billeder, som allerede er optimeret til web.</label>
+			<label index="class">Stil</label>
+			<label index="width">Bredde</label>
+			<label index="height">Højde</label>
+			<label index="border">Kant</label>
+			<label index="margin_tb">Margen top/bund</label>
+			<label index="margin_lr">Margen venstre/højre</label>
+			<label index="float">Justering</label>
+			<label index="notSet">Ikke angivet</label>
+			<label index="nonFloating">Ikke flydende</label>
+			<label index="left">Venstre</label>
+			<label index="right">Højre</label>
+			<label index="title">Titel</label>
+			<label index="alt">Alternativ tekst</label>
+			<label index="update">Opdatér</label>
+			<label index="magicImage">Nyt magisk billede</label>
+			<label index="plainImage">Nyt normalt billede</label>
+			<label index="dragDropImage">Træk og placér</label>
+			<label index="currentImage">Nuværende billede</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="class" type="integer">182617337</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="float" type="integer">36364514</label>
+			<label index="notSet" type="integer">163210921</label>
+			<label index="nonFloating" type="integer">169566595</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="alt" type="integer">237067341</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

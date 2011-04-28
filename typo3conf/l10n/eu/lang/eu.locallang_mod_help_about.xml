@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="welcome">TYPO3 Web Eduki Kudeatzaile Profesionala</label>
+			<label index="minor">TYPO3 kode irekiko Web-CMS (edukia kudeatzeko sistema) malgu eta profesionala da. PHP4 eta MySQLn oinarritutakoa &lt;br /&gt;&lt;br /&gt;TYPO3 &lt;b&gt;dohainik eskuragarri&lt;/b&gt; dago &lt;a href=&quot;http://typo3.com/1244.0.html&quot; target=&quot;_blank&quot;&gt;TYPO3-Lizentziapean (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">TYPO3ri buruz</label>
+			<label index="mlang_labels_tabdescr">TYPO3 aplikazioen oinarrizko informazioa erakusten du, bertsioak eta lizentzia terminoak</label>
+			<label index="mlang_tabs_tab">Buruz</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">259198789</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

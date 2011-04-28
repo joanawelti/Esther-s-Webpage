@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="page_title">網頁樹圖概覽</label>
+			<label index="page_sysnote">內部筆記</label>
+			<label index="pageInformation">網頁資料</label>
+			<label index="pages_0">基本設定</label>
+			<label index="pages_2">快取和歷史</label>
+			<label index="pages_1">記錄概覽</label>
+			<label index="stat_type_0">溜覽次數</label>
+			<label index="stat_type_1">總溜覽次數</label>
+			<label index="stat_type_2">主區溜覽次數</label>
+			<label index="stat_period">%s到%s期間的統計</label>
+			<label index="pI_crUser">建立者</label>
+			<label index="pI_crDate">建立日期</label>
+			<label index="pI_lastChange">最後更新</label>
+			<label index="pI_lastChangeContent">最後更新內容</label>
+			<label index="hits_title">溜覽次數統計</label>
+			<label index="lang_renderl10n_viewPage">檢視網頁</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">修改預設語言網頁標題</label>
+			<label index="lang_renderl10n_editLangOverlays">修改所有語言網頁標題</label>
+			<label index="lang_renderl10n_editPageProperties">修改所有網頁特性</label>
+			<label index="lang_renderl10n_editPage">修改網頁</label>
+			<label index="lang_renderl10n_editPageLang">修改網頁譒譯</label>
+			<label index="lang_renderl10n_badThingThereAre">錯誤：這個語言有兩個重覆的記錄！只容許一個！</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">修改重覆的語言記錄</label>
+			<label index="lang_renderl10n_page">網頁</label>
+			<label index="lang_renderl10n_default">預設</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">建立新的譒譯標題</label>
+			<label index="lang_renderl10n_CEcount">內容元件計算</label>
+			<label index="lang_renderl10n_editPageHeaders">修改所有網頁標題</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="page_title" type="integer">46867233</label>
+			<label index="page_sysnote" type="integer">267841144</label>
+			<label index="pageInformation" type="integer">9265976</label>
+			<label index="pages_0" type="integer">155022480</label>
+			<label index="pages_2" type="integer">198333821</label>
+			<label index="pages_1" type="integer">71658561</label>
+			<label index="stat_type_0" type="integer">131565852</label>
+			<label index="stat_type_1" type="integer">110417445</label>
+			<label index="stat_type_2" type="integer">86813859</label>
+			<label index="stat_period" type="integer">100779727</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="hits_title" type="integer">55072016</label>
+			<label index="lang_renderl10n_viewPage" type="integer">258274582</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage" type="integer">187585307</label>
+			<label index="lang_renderl10n_editLangOverlays" type="integer">193717971</label>
+			<label index="lang_renderl10n_editPageHeaders" type="integer">237110134</label>
+			<label index="lang_renderl10n_editPage" type="integer">66732081</label>
+			<label index="lang_renderl10n_editPageLang" type="integer">110674105</label>
+			<label index="lang_renderl10n_badThingThereAre" type="integer">258445119</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord" type="integer">80463324</label>
+			<label index="lang_renderl10n_page" type="integer">26464201</label>
+			<label index="lang_renderl10n_default" type="integer">128029197</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders" type="integer">193499435</label>
+			<label index="lang_renderl10n_CEcount" type="integer">196252064</label>
+			<label index="lang_renderl10n_editPageProperties" type="integer">267546290</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="page_title">Pagetree overview</label>
+			<label index="page_sysnote">Internal notes</label>
+			<label index="pageInformation">Page information</label>
+			<label index="pages_0">Basic settings</label>
+			<label index="pages_2">Cache and Age</label>
+			<label index="pages_1">Record overview</label>
+			<label index="stat_type_0">Page hits</label>
+			<label index="stat_type_1">Total hits</label>
+			<label index="stat_type_2">Hits in main sections</label>
+			<label index="stat_period">Statistics in the period %s back to %s</label>
+			<label index="pI_crUser">Created by</label>
+			<label index="pI_crDate">Created date</label>
+			<label index="pI_lastChange">Last change</label>
+			<label index="pI_lastChangeContent">Last change, content</label>
+			<label index="hits_title">Hit Statistics</label>
+			<label index="lang_renderl10n_viewPage">View page</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">Edit default language page properties</label>
+			<label index="lang_renderl10n_editLangOverlays">Edit all language overlay records</label>
+			<label index="lang_renderl10n_editPageProperties">Edit all page properties</label>
+			<label index="lang_renderl10n_editPage">Edit page</label>
+			<label index="lang_renderl10n_editPageLang">Edit page translation</label>
+			<label index="lang_renderl10n_badThingThereAre">ERROR: there are two or more page overlay records for this language! Only one is allowed!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">Edit language overlay record</label>
+			<label index="lang_renderl10n_page">Page</label>
+			<label index="lang_renderl10n_default">Default</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">Create new translation headers</label>
+			<label index="lang_renderl10n_CEcount">Content Element Count</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

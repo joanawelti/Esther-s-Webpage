@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="pagetree_overview.alttitle">Resumo de árbore de páxinas</label>
+			<label index="pagetree_overview.description">O resumo de árbore de páxinas amosa información relacionada coas páxinas dunha rama da árbore de páxinas. Inclúe tempos de inicio e fin, configuracións de caché, etc.</label>
+			<label index="pagetree_overview.image_descr">Unha das características do modulo de resumo de árbore de páxinas é que podes ver os tipos de rexistros que se atopan en páxinas dunha rama. Os contadores de rexistros son amosados para unha rama de 2 niveis de profundidade da árbore de páxinas.</label>
+			<label index="func_0.alttitle">Configuración básica</label>
+			<label index="func_0.description">Amosa unha selección de campos dun rexistro de páxina que son considerados configuración funcional das páxinas. Esto inclúe alcumes (aliases), tempos de inicio e fin, restricción de acceso, etc.</label>
+			<label index="func_0.details">A vista de configuración básica parécese a vista de Caché e Idade. Son diferentes únicamente pola selección de campos que amosan.
+
+&lt;b&gt;Campos de edición de páxina en lotes&lt;/b&gt;
+Atoparás varias iconas ó redor da interface. Tódolas iconas en liñas de cabeceira permitiranche un diálogo de edición onde poderás cambiar exactamente ese campo para tódalas táboas amosadas! Moi útil para edición en lotes, por exemplo, de tódolos tempos de inicio.
+
+Se fas clic na icona de edición nos números identificadores (ID) das páxinas levarate á edición típica do rexistro de páxina completo.</label>
+			<label index="func_0.image_descr">A vista de configuración básica ofrece un resumo moi interesante de alcumes de páxina, temos de inicio e restricción de acceso na rama da árbore.
+Se fas clic na icona de edición na cabeceira poderás editar ese campo para tódalas páxinas listadas.</label>
+			<label index="func_1.alttitle">Resumo de rexistro</label>
+			<label index="func_1.description">Resumo de rexistro ofréceche un resumo indispensable da distribución dos rexistros na árbore de páxinas. Cada táboa da base de datos no sistema é representado con unha columna e para cada páxina podes ver o número de rexistros dende dita táboa localizada na páxina.</label>
+			<label index="func_1.details">&lt;b&gt;Aviso:&lt;/b&gt; Ter coidado coa configuración de niveis de profundidae. Un alto nivel de profundidade pode provocar que o módulo responda moi lento se hai demasiadas páxinas e moitos rexistros na propia base de datos!
+&lt;b&gt;Parada da árbore&lt;/b&gt;Se te decataches do &quot;+&quot; en vermello próximo a unha páxina da árbore de páxinas, verás que é para configurar dito rexistro de páxina, o cal significa que a árbore non será expandido para dita páxina. Normalmente, esto establécese por protección cando hai unha carga alta de subpáxinas dentro da propia páxina (centros de páxinas). Se fas clic na icona ou no título o resumo saltará para provocar que dita páxina se convirta na raíz do resumo.</label>
+			<label index="func_1.image_descr">Podes fácilmente ver a distribución dos elementos de contido dunha páxina. Podes ademáis ver onde se localizan os rexistros de modelos (e básicamente tódolos rexistros) dentro da árbore de páxinas.</label>
+			<label index="func_2.alttitle">Caché e idade</label>
+			<label index="func_2.description">Amosa unha selección de campos de rexistros de páxina relacionados coa configuración de caché da páxina e dos  tempos.</label>
+			<label index="func_2.image_descr">A vista &quot;Caché e Idade&quot;. Podes visualizar neste punto a columna &quot;TSConfig&quot;. Este resumo expón que ditas dúas páxinas  conteñen certo código do &quot;TSConfig&quot; da páxina (código typoscript).</label>
+			<label index="stat.alttitle">Estatísticas clics en páxinas</label>
+			<label index="stat.description">Amosa estatísticas de clics nunha rama da árbore de páxinas. Baseado nun sistema sinxelo e interno de táboa de MySQL que almacena pegadas e sesións únicamente.</label>
+			<label index="stat.details">&lt;b&gt;Aviso:&lt;/b&gt; Dita función require que exista a extensión &quot;Estatísticas sinxelas de clics&quot; (sys_cat) esté instalada. Tamén debes configurar con TypoScript para rexistrar clics de páxinas na táboa de base de datos.</label>
+			<label index="lang.alttitle">Resumo de localización</label>
+			<label index="lang.description">Ofrece un resumo de qué páxinas na árbore de páxinas foron traducidas ó sistema de linguaxes instalados.</label>
+			<label index="lang.details">O resumo utiliza colores para sinalar a dispoñibilidade e a situación de retroceso para unha páxina dada. A descrición de cada código de cor:
+&lt;b&gt;Fondo verde:&lt;/b&gt; A páxina está traducida e é visualizable en dita linguaxe. Para traduccións significa que unha páxina activa de traducción está presente.
+&lt;b&gt;Fondo vermello:&lt;/b&gt; A páxina &lt;em&gt;non pode&lt;/em&gt; ser vista en dito linguaxe e verás un erro se o intentas. Menús deberían filtrar automáticamente os ligazóns ás páxinas con dita traducción.
+&lt;b&gt;Fondo gris (non dispoñible para a linguaxe por defecto):&lt;/b&gt; A páxina retrocederá ó modo especificado de retroceso para o contido. É dependente da configuración. (sys_language_mode = content_fallback é o valor recomendado para o  retroceso máis flexible xa que mostrará os contidos da linguaxe por defecto se non hai traducción na lingua, sys_language_mode = strict previrá esto e mostrará un erro en vez de visualizar o contido sin traducir)
+
+&lt;b&gt;Páxina de &quot;Configuración da localización&quot;:&lt;/b&gt; É a configuracón de localización do rexistro de páxina que determina os modos comentadios. Na columna da traducción por defecto cada unha desas variables de configuración son representados por unha &quot;N&quot; (Ocultar páxina se non hai traducción da linguaxe actual) ou unha &quot;D&quot; (oculta traducción por defecto da páxina).
+Como podes ver a páxina &quot;Inicio&quot; ten a etiqueta &quot;N&quot; establecida e entón será bloqueado con un erro cada intento de acceso á versión alemana de dita páxina porque non hai unha traducción ó alemán. Por defecto, &quot;acceso alemán&quot; a unha páxina non traducida mostrará o contido en inglés. Existe tamén unha páxina coa etiqueta &quot;D&quot; establecida (&quot;[Dummy]&quot;). A etiqueta &quot;D&quot; indica que a páxina está só dispoñible en unha das traduccións, neste caso danés. Por eso, calquera intento de acceso á páxina en inglés (lingua por defecto) ou en alemán devolverá un erro.
+
+Por esta razón, cando os botóns de verificación da configuración de localización para unha páxina son utilizados, obterás un erro cando intentas acceder a unha páxina que foi bloqueada. Esta é unha característica. A clave está en non crear ligazóns a ditas páxinas.
+
+Menús xerados dende obxetos HMENU terán sempre en conta &quot;sys_language&quot; e mostran só páxinas que poden ser accedidas para dita linguaxe. Sen embargo, combinado coa configuración de localización das páxinas que poderían bloquear accesos nos que se obter un problema con páxinas que non están traducidas (fondo gris); poderíanse obter elementos de menú que non teñen páxinas accesibles. O problema é, básicamente, que dito &quot;&amp;L=XX&quot; é diferente do usado internamente en &quot;sys_language&quot;. Poderías evitar esto e configurar &quot;sys_language_mode&quot; a &quot;content_fallback&quot;. Se fas esto, sys_language &lt;em&gt;sempre &lt;/em&gt; seguirá as instruccións de &quot;&amp;L=&quot;  e os menús serán correctos. Ó mesmo tempo obterás contido por defecto mostrado se non existe traducción (porque a selección de contido retrocede ó idioma por defecto).
+
+Finalmente, o número atopado en  cada columna indica cantos elementos de contido se atoparon para unha linguaxe específica.</label>
+			<label index="lang.image_descr">Resumo de localización no módulo &quot;Web-&gt;Info&quot;. Utiliza os botóns para editar, visualizar e crear novas traduccións de páxinas. Utiliza o módulo típico de páxina para incluir contidos localizados nas propias páxinas.
+
+A configuración de localización afecta á dispoñibilidade das páxinas nas diferentes linguaxes.</label>
+			<label index="func_hits.alttitle">Resumo de estatísticas</label>
+			<label index="func_hits.description">Podes seleccionar entre tres tipos de vistas das estatísticas no cadro de selección; &quot;clics de páxinas&quot;, &quot;clics totais&quot; e &quot;clics en seccións principais&quot;. Utiliza o cadro de selección da dereita para seleccionar a profundidade do resumo na árbore de páxinas.</label>
+			<label index="func_hits.details">Podes visualizar as estatísticas da páxina de ata 30 dís. Cada día é amosado na súa propia columna. Para cada páxina na árbore de páxinas podes ver os clics da páxina de cada día como un número formateado como [clics de páxina]/[sesións de usuario]. Polo que o se o número é &quot;286/34&quot; indica que a páxina tivo 286 clics ese día e que foron 34 visitantes únicos (medidos por polo menos 2 clics por usuario aceptando a cookie do sitio).
+
+Esto é un resumo do significado de cada modo de vista:
+
+&lt;b&gt;Clics de páxina&lt;/b&gt;
+Amosa os clics/sesións de páxina para cada páxina.
+
+&lt;b&gt;Clics totais&lt;/b&gt;
+Amosa as estatísticas únicamente para páxinas que teñen un rexistro de modelo (con &quot;Root-flag&quot; establecido). Esto significa que os clics de dita páxina son amosados como totais para un sitio web completo.
+
+&lt;b&gt;Clics en páxinas principais&lt;/b&gt;
+Amosa o número total de clics de unha páxina dentro das seccións principais do sitio web. Unha &quot;sección principal&quot; correspóndese con tódalas subpáxinas de unha páxina no primeiro nivel de un sitio web (definido por un rexistro de modelo co &quot;root-flag&quot; establecido).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="integer">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="lang.details" type="integer">33472106</label>
+			<label index="lang.image_descr" type="integer">102823687</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+			<label index="func_hits.details" type="integer">207091212</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="lang.details">The overview uses colors to signal the availability and fall back situation for a given page. Here is a description for each color code:
+&lt;b&gt;Green background:&lt;/b&gt; Page is translated and viewable in this language. For translations it means that an active page overlay record is present.
+&lt;b&gt;Red background:&lt;/b&gt; Page &lt;em&gt;cannot&lt;/em&gt; be viewed in this language and you will see an error message if you try. Menus should automatically filter out links to pages with this translation.
+&lt;b&gt;Gray background (not available for default language):&lt;/b&gt; Page will fall back to the specified fallback mode for content. Depends on configuration. (sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!)
+
+&lt;b&gt;The pages &quot;Localization settings:&quot;&lt;/b&gt;
+It is the &quot;Localization settings&quot; of the page record that determines the modes above. In the column of the default translation each of these settings are represented by a &quot;N&quot; (Hide page if no translation for current language exists) or a &quot;D&quot; (Hide default translation of page).
+As you can see the page &quot;Startpage&quot; has the N flag set and therefore any access to the german version of that page will be blocked with an error message because there is no translation in german. By default &quot;german access&quot; to a non-translated page will just show the english content.
+There is also a page with the D flag (&quot;[Dummy]&quot;). The D flag means that the page is only available in one of the translations, in this case Danish. So any attempt to access the page in the default language or german will show an error message.
+
+So, when the &quot;Localization settings&quot; checkboxes for a page are used, you will get an error message when you try to request a page which has been blocked. This is a feature. The trick is not to create links to those pages.
+
+Menus generated from HMENU objects will always take &quot;sys_language&quot; into account and display only pages which can be accessed for that language. But combined with the &quot;localization settings&quot; of pages which may block page access this becomes a problem with pages which are &lt;em&gt;not&lt;/em&gt; translated (has gray background); You might get menu items which links to non-accessible pages.
+The problem basically is that &quot;&amp;L=xx&quot; is different from internal &quot;sys_language&quot;. You would like to avoid that and to do so you should configure &quot;sys_language_mode&quot; to &quot;content_fallback&quot;. If you do that sys_language will &lt;em&gt;always&lt;/em&gt; follow what &quot;&amp;L=&quot; instructs it to and your menus will be right. At the same time you will get the default content displayed if no translation exists (because content selection falls back).
+
+Finally, the number found in each column tells you how many content elements are found in the specified language.</label>
+			<label index="lang.image_descr">Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
+The &quot;Localization settings&quot; that affect availability of pages in the various languages.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+			<label index="func_hits.details">You can view the page hit statistics 30 days back. Each day is shown in its own column.
+For each page in the page tree you can see the page hits each day as a number formatted like [page hits]/[user sessions]. So if the number is &quot;286/34&quot; it means that the page had 286 page hits that day and that there were at least 34 unique visitors (measured by at least two hits by a user accepting a cookie from the site).
+
+This is an overview of the meaning of each view mode:
+
+&lt;b&gt;Page hits&lt;/b&gt;
+This shows page hits/sessions for each page.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+This will show statistics for only pages that have a Template Record (with Root-flag set) on it. This means that page hits are shown as totals for a whole website.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+Will show the total number of page hits/sessions within main sections of a website. A &quot;main section&quot; is all subpages to a page on the first level of a website (defined by a Template Record with the Root flag set)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

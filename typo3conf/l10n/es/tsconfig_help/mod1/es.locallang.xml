@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="title">Ayuda de TypoScript</label>
+			<label index="display">Mostrar la ayuda de TypoScript</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="title" type="integer">55592368</label>
+			<label index="display" type="integer">162496165</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Display TypoScript Help</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

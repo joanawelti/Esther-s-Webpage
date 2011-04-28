@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel">內容：模組名稱（給在模組選單中的alt-text用）</label>
+			<label index="mlang_labels_tabdescr">內部使用者手冊基於給系統中的內容主導輔助說明用的資料來源</label>
+			<label index="mlang_tabs_tab">使用者手冊</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel" type="integer">182726937</label>
+			<label index="mlang_labels_tabdescr" type="integer">207607230</label>
+			<label index="mlang_tabs_tab" type="integer">236691797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

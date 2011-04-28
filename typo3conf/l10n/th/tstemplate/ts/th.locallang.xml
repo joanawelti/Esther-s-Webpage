@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="moduleTitle">เครื่องมือแม่แบบ</label>
+			<label index="templateAnalyzer">วิเคราะห์แม่แบบ</label>
+			<label index="constantEditor">ผู้แก้ไขค่าคงที่</label>
+			<label index="infoModify">ข้อมูล / แก้ไข</label>
+			<label index="objectBrowser">เบราว์เซอร์วัตถุ TypoScript</label>
+			<label index="viewTemplates">ดูแม่แบบของ</label>
+			<label index="pageName">ชื่อหน้า</label>
+			<label index="templates">แม่แบบ#</label>
+			<label index="isRoot">รากหรือไม่</label>
+			<label index="isExt">ต่อหรือไม่</label>
+			<label index="overview">นี้เป็นภาพรวมของหน้าในฐานข้อมูลที่มีมากกว่าหนึ่งแม่ระเบียน คลิกที่ชื่อเพจเพื่อไปที่หน้า</label>
+			<label index="areYouSure">คุณแน่ใจหรือว่าต้องการทำเช่นนี้?</label>
+			<label index="noTemplate">ไม่มีแม่แบบ</label>
+			<label index="noTemplateDescription">ไม่มีแม่แบบในหน้านี้</label>
+			<label index="createTemplate">สร้างแม่แบบบันทึกแรกเพื่อแก้ไขค่าคง!</label>
+			<label index="newWebsite">สร้างเว็บไซต์ใหม่</label>
+			<label index="newWebsiteDescription">ถ้าคุณต้องการให้หน้านี้เป็นรากของเว็บไซต์ใหม่ตามทางเลือกหนึ่งของแม่แบบมาตรฐานแล้วกดปุ่มด้านล่างนี้</label>
+			<label index="newWebsiteAction">สร้างแม่แบบสำหรับเว็บไซต์ใหม่</label>
+			<label index="extTemplate">เสริมสร้างแม่แบบ</label>
+			<label index="extTemplateDescription">ขยายแม่แบบช่วยให้คุณสามารถป้อนค่า TypoScript ที่จะมีผลเฉพาะในหน้านี้และ subpages</label>
+			<label index="extTemplateAction">คลิกที่นี่เพื่อสร้างขยายแม่แบบ</label>
+			<label index="goToClosest">ไปที่หน้าใกล้เคียงกับแม่แบบ</label>
+			<label index="goToClosestDescription">ใกล้แม่แบบในหน้า'% s'(% s uid)</label>
+			<label index="goToClosestAction">คลิกที่นี่เพื่อ</label>
+			<label index="titleNewSiteStandard">NEW SITE, ตามมาตรฐาน</label>
+			<label index="titleNewSite">หน้าใหม่</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="moduleTitle" type="integer">25422173</label>
+			<label index="templateAnalyzer" type="integer">99845697</label>
+			<label index="constantEditor" type="integer">6299451</label>
+			<label index="infoModify" type="integer">54689582</label>
+			<label index="objectBrowser" type="integer">103980788</label>
+			<label index="viewTemplates" type="integer">147171339</label>
+			<label index="pageName" type="integer">201990046</label>
+			<label index="templates" type="integer">238742573</label>
+			<label index="isRoot" type="integer">251629950</label>
+			<label index="isExt" type="integer">130245860</label>
+			<label index="overview" type="integer">236778785</label>
+			<label index="areYouSure" type="integer">98783804</label>
+			<label index="noTemplate" type="integer">8182736</label>
+			<label index="noTemplateDescription" type="integer">40670108</label>
+			<label index="createTemplate" type="integer">48618724</label>
+			<label index="newWebsite" type="integer">18468574</label>
+			<label index="newWebsiteDescription" type="integer">230498313</label>
+			<label index="newWebsiteAction" type="integer">260099072</label>
+			<label index="extTemplate" type="integer">405812</label>
+			<label index="extTemplateDescription" type="integer">53295941</label>
+			<label index="extTemplateAction" type="integer">29079988</label>
+			<label index="goToClosest" type="integer">111276478</label>
+			<label index="goToClosestDescription" type="integer">219139555</label>
+			<label index="goToClosestAction" type="integer">19590923</label>
+			<label index="titleNewSiteStandard" type="integer">44728116</label>
+			<label index="titleNewSite" type="integer">13205855</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index="moduleTitle">Template tools</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modify</label>
+			<label index="objectBrowser">TypoScript Object Browser</label>
+			<label index="viewTemplates">Viewing templates of</label>
+			<label index="pageName">Page name</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+			<label index="overview">This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</label>
+			<label index="areYouSure">Are you sure you want to do this?</label>
+			<label index="noTemplate">No template</label>
+			<label index="noTemplateDescription">There was no template on this page!</label>
+			<label index="createTemplate">Create a template record first in order to edit constants!</label>
+			<label index="newWebsite">Create new website</label>
+			<label index="newWebsiteDescription">If you want this page to be the root of a new website, optionally based on one of the standard templates, then press the button below:</label>
+			<label index="newWebsiteAction">Create template for a new site</label>
+			<label index="extTemplate">Create extension template</label>
+			<label index="extTemplateDescription">An extension template allows you to enter TypoScript values that will affect only this page and subpages.</label>
+			<label index="extTemplateAction">Click here to create an extension template.</label>
+			<label index="goToClosest">Go to closest page with template</label>
+			<label index="goToClosestDescription">Closest template is on page '%s' (uid %s).</label>
+			<label index="goToClosestAction">Click here to go.</label>
+			<label index="titleNewSiteStandard">NEW SITE, based on standard</label>
+			<label index="titleNewSite">NEW SITE</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

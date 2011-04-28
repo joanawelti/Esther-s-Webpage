@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="Type_of_abridged_form">هل هي لفظة أوائلية أم إختصار؟</label>
+			<label index="Defined_term">الألفاظ الأوائلية سابقة التعريف والإختصارات</label>
+			<label index="Term">المصطلح:</label>
+			<label index="Select_a_term">إنتق مصطلحاً</label>
+			<label index="Acronym">اللفظة الأوائلية</label>
+			<label index="Abbreviation">إختصار</label>
+			<label index="Select_an_acronym">إنتق لفظة اوائلية أو إختصار</label>
+			<label index="Use_this_term">استخدم هذا المصطلح:</label>
+			<label index="Use_this_term_explain">أربط هذا المصطلح بالانتقاء الحالي</label>
+			<label index="OK">موافق</label>
+			<label index="Delete">مسح</label>
+			<label index="Cancel">إلغاء</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="Use_this_term" type="integer">29979426</label>
+			<label index="Use_this_term_explain" type="integer">184559175</label>
+			<label index="OK" type="integer">235577377</label>
+			<label index="Delete" type="integer">254438473</label>
+			<label index="Cancel" type="integer">245659783</label>
+			<label index="Type_of_abridged_form" type="integer">44482058</label>
+			<label index="Defined_term" type="integer">117949697</label>
+			<label index="Term" type="integer">60295764</label>
+			<label index="Select_a_term" type="integer">49671357</label>
+			<label index="Acronym" type="integer">151597373</label>
+			<label index="Abbreviation" type="integer">190109069</label>
+			<label index="Select_an_acronym" type="integer">34968117</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="Use_this_term">Use this term:</label>
+			<label index="Use_this_term_explain">Associate this term to the current selection</label>
+			<label index="OK">OK</label>
+			<label index="Delete">Delete</label>
+			<label index="Cancel">Cancel</label>
+			<label index="Type_of_abridged_form">Acronym or Abbreviation?</label>
+			<label index="Defined_term">Pre-defined Acronyms and Abbreviations</label>
+			<label index="Term">Term:</label>
+			<label index="Select_a_term">Select a term</label>
+			<label index="Acronym">Acronym</label>
+			<label index="Abbreviation">Abbreviation</label>
+			<label index="Select_an_acronym">Select an acronym or abbreviation</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

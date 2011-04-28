@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="title">TypoScript palīdzība</label>
+			<label index="display">Rādīt TypoScript palīdzību</label>
+			<label index="rebuild">Pārbūvēt TypoScript palīdzību</label>
+			<label index="referenceExplanation">Izvēlieties no sekojošiem avotu datiem</label>
+			<label index="displayReferences">Rādīt TypoScript tiešsaistes palīdzību</label>
+			<label index="loadedTSfrom">Ielādēts TypoScript no:</label>
+			<label index="sections">sekcijas</label>
+			<label index="rebuildTS">Pārbūvēt TypoScript tiešsaistes palīdzību</label>
+			<label index="updateWarnings">Atjaunināšanas brīdinājumi</label>
+			<label index="adminAccessOnly">Pieeja šai funkcijai ir iespējama tikai administrātoriem.</label>
+			<label index="noRebuildOnWindows">Pārbūvēšanas funkcija nedarbojas uz Windows sistēmām. Atvainojiet!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="title" type="integer">55592368</label>
+			<label index="display" type="integer">162496165</label>
+			<label index="rebuild" type="integer">196790076</label>
+			<label index="referenceExplanation" type="integer">76872201</label>
+			<label index="displayReferences" type="integer">232607003</label>
+			<label index="loadedTSfrom" type="integer">119709196</label>
+			<label index="sections" type="integer">267706088</label>
+			<label index="rebuildTS" type="integer">12733294</label>
+			<label index="updateWarnings" type="integer">219429374</label>
+			<label index="adminAccessOnly" type="integer">148709790</label>
+			<label index="noRebuildOnWindows" type="integer">94511047</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Display TypoScript Help</label>
+			<label index="rebuild">Rebuild TypoScript Help</label>
+			<label index="referenceExplanation">Choose from the following reference data</label>
+			<label index="displayReferences">Display TypoScript Online Help</label>
+			<label index="loadedTSfrom">Loaded TypoScript from:</label>
+			<label index="sections">sections</label>
+			<label index="rebuildTS">Rebuild TypoScript online help</label>
+			<label index="updateWarnings">Update warnings</label>
+			<label index="adminAccessOnly">Access to this function of the module is restricted to admins.</label>
+			<label index="noRebuildOnWindows">The Rebuild function does not run on Windows systems. Sorry!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

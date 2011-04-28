@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Това е backend администраторската потребителска група на разположение на Backend потребителите. В тази група се определят разрешенията за Backend потребителите.</label>
+			<label index="title.description">Име на Backend потребителската група</label>
+			<label index="db_mountpoints.description">Задаване на стартовата точка за потребителското дърво.</label>
+			<label index="file_mountpoints.description">Задаване на стартовата точка за файловите папки дърво.</label>
+			<label index="pagetypes_select.description">Селектирайте кои 'Типовe' на страници, членовете ще могат да нагласяват.</label>
+			<label index="tables_modify.description">Селектирайте кои таблици могат да бъдат променяни от членовете.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="Insert/Modify Acronym">頭文字略称か略称の挿入/修正</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="Insert/Modify Acronym" type="double">2385255</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="Insert/Modify Acronym">Insert/Modify Acronym or Abbreviation</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

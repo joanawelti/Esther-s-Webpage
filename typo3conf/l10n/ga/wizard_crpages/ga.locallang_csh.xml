@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="tx_wizardcrpages.alttitle">Asistente de creación de páxinas</label>
+			<label index="tx_wizardcrpages.description">Permítelle crear un lote de páxinas novas, baleiras para construír rapidamente unha nova árbore de páxinas. Simplemente introducindo os títulos para as páxinas que necesite. Só os campos enchendidos crearánse como páxinas.</label>
+			<label index="tx_wizardcrpages.details">As páxinas novas crearánse sempre como subpáxinas da páxina activa actualmente na árbore de páxinas. Esta páxina amósase na parte superior da páxina. No exemplo da imaxe de debaixo é &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Colocar as páxinas novas despois das subpáxinas existentes&quot;&lt;/b&gt;
+Se selecciona esta opción as páxinas crearánse &lt;em&gt;despois&lt;/em&gt; de calquera subpáxina existente.
+
+&lt;b&gt;&quot;Ocultar páxinas novas&quot;&lt;/b&gt;
+Seleccione isto se as novas páxinas deben estar ocultas por defecto. Esta opción pode estar marcada forzosamente se non ten credenciais para crear novas páxinas, online.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+O novo asistente de creación de páxinas soporta a extensión Lorem Ipsum proporcinando contido simulado para os campos.</label>
+			<label index="tx_wizardcrpages.image_descr">Simplemente introduza os títulos das páxinas novas nos campos. Só os campos que encha crearánse como páxinas.
+¡Despois de premer o botón &quot;Crear páxinas&quot; a árbore de páxinas da esquerda actualizarase instantáneamente, mostrándolle a posición das novas páxinas!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="tx_wizardcrpages.alttitle" type="integer">61381807</label>
+			<label index="tx_wizardcrpages.description" type="integer">139514396</label>
+			<label index="tx_wizardcrpages.details" type="integer">190128195</label>
+			<label index="tx_wizardcrpages.image_descr" type="integer">257127828</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="tx_wizardcrpages.alttitle">Create Pages wizard</label>
+			<label index="tx_wizardcrpages.description">Enables you to create a batch of new, empty pages for quickly building up a new page tree. 
+Just enter the titles for the pages you need. Only filled in fields will be created as pages.</label>
+			<label index="tx_wizardcrpages.details">The new pages will always be created as subpages to the currently active page from the page tree. This page is shown in the top of the page. In the example image below it is &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Place new pages after the existing subpages&quot;&lt;/b&gt;
+If you select this option the pages will be create &lt;em&gt;after&lt;/em&gt; any existing subpages.
+
+&lt;b&gt;&quot;Hide new pages&quot;&lt;/b&gt;
+Select this if the new pages should be hidden by default. This option may be forced upon you if you do not have credentials to create new, online pages.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+The Create new page wizard supports the Lorem Ipsum extension providing dummy content for the fields.</label>
+			<label index="tx_wizardcrpages.image_descr">You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
+After pressing the &quot;Create pages&quot; button the page tree to the left will update instantly, showing you the position of the new pages!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

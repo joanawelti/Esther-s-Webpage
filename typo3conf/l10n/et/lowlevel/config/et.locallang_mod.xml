@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="et" type="array">
+			<label index="mlang_labels_tablabel">Vaata konfiguratsioonimääranguid localconf.php ja tables.php failist</label>
+			<label index="mlang_labels_tabdescr">Selle abil on võimalik lehitseda $TCA ja $TYPO3_CONF_VARS massiivides olevaid muutujate väärtusi. Ainult võimalik vaadata, mitte muuta. &lt;br /&gt;&lt;em&gt;Ligipääs ainult administraatoritele!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Konfiguratsioon</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="et" type="array">
+			<label index="mlang_labels_tablabel" type="integer">205342864</label>
+			<label index="mlang_labels_tabdescr" type="integer">172430134</label>
+			<label index="mlang_tabs_tab" type="integer">39122498</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="et" type="array">
+			<label index="mlang_labels_tablabel">View configuration from localconf.php and tables.php</label>
+			<label index="mlang_labels_tabdescr">Allows you to browse the values of the $TCA array (table configuration) and $TYPO3_CONF_VARS. You cannot set any values, only browse them.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Configuration</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

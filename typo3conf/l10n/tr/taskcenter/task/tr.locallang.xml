@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="title">Görev genel görüntüsü</label>
+			<label index="lReplyAddress">Cevap verecek adres emailinizdir</label>
+			<label index="lSelf">Kendi</label>
+			<label index="lSendNew">Mesaj göndermek</label>
+			<label index="lSendReply">Mesajı cevaplamak</label>
+			<label index="listSeparator_Groups">__Gruplar:__</label>
+			<label index="lHomedir">Giriş dizini</label>
+			<label index="lNone">[hiçbiri]</label>
+			<label index="lCreate">Yarat</label>
+			<label index="lCancel">İptal et</label>
+			<label index="lDelete_warning">Bu kullanıcıyı silmek istediğinizden eminmisiniz?</label>
+			<label index="lDelete">Sil</label>
+			<label index="lUpdate">Güncelle</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="title" type="integer">6410427</label>
+			<label index="lReplyAddress" type="integer">224962887</label>
+			<label index="lSelf" type="integer">181856101</label>
+			<label index="lSendNew" type="integer">122144419</label>
+			<label index="lSendReply" type="integer">105689675</label>
+			<label index="listSeparator_Groups" type="integer">221382396</label>
+			<label index="lHomedir" type="integer">24871266</label>
+			<label index="lNone" type="integer">173298844</label>
+			<label index="lCreate" type="integer">109504151</label>
+			<label index="lCancel" type="integer">245659783</label>
+			<label index="lDelete_warning" type="integer">173897440</label>
+			<label index="lDelete" type="integer">254438473</label>
+			<label index="lUpdate" type="integer">6894342</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

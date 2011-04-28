@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="title_module_database">База данных (БД)</label>
+			<label index="title_typo_db_host">Домен БД</label>
+			<label index="description_typo_db_host">Введите адрес домена на котором располагается ваша БД</label>
+			<label index="help_typo_db_host">Домен БД это сервер на котором запущена БД. В большинстве случаев значением является &quot;localhost&quot;.</label>
+			<label index="title_typo_db_username">Имя пользователя базы данных</label>
+			<label index="title_typo_db_password">Пароль к базе данных</label>
+			<label index="title_typo_db">Имя базы данных</label>
+			<label index="title_analyze_compareFile">Сравнить с БД по умолчанию</label>
+			<label index="label_database_defaulttables">Создать таблицы БД по умолчанию</label>
+			<label index="label_selectdump">Выберите дамп БД</label>
+			<label index="label_execute">Выполнить</label>
+			<label index="label_writechanges">Произвести запись выбранных изменений в БД</label>
+			<label index="msg_database_error_cantconnect">ОШИБКА: Не могу соединиться с сервером базы данных!</label>
+			<label index="msg_database_error_cantselectdb">ОШИБКА: Не могу выбрать/найти базу данных &quot;%s&quot;</label>
+			<label index="msg_database_error_couldnotcreate">Не могу создать БД с именем &quot;%s&quot;</label>
+			<label index="msg_database_error_filenotfound">Файл для сравнения &quot;%s&quot; не найден!ё</label>
+			<label index="msg_database_error_nocreatedefinitions">В указанном файле нет следующих инструкций &quot;CREATE TABLE&quot;: %s</label>
+			<label index="msg_database_warning_selectdb">Пожалуйста, выберите БД или впишите имя для новой БД</label>
+			<label index="msg_database_warning_invalidname">Имя для НОВОЙ БД &quot;%s&quot; содержит запрещенные символы (отличающиеся от a-zA-Z0-9_-)</label>
+			<label index="msg_database_updateneeded">Таблицы и значения полей необходимо обновить!&lt;br /&gt; Поскольку найдены некоторые различия между БД и выбранным SQL-файлом. Для того, чтобы выполнить обновление выберите нужные вам пункты:</label>
+			<label index="msg_database_noupdateneeded">Таблицы и значения полей в порядке.&lt;br /&gt; Таблицы и поля в текущей БД полность совпадают с БД в выбранном SQL-файле.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="title_module_database" type="integer">238058928</label>
+			<label index="title_typo_db_host" type="integer">195097193</label>
+			<label index="description_typo_db_host" type="integer">62940201</label>
+			<label index="help_typo_db_host" type="integer">130963421</label>
+			<label index="title_typo_db_username" type="integer">41504331</label>
+			<label index="title_typo_db_password" type="integer">101669867</label>
+			<label index="title_typo_db" type="integer">150842358</label>
+			<label index="title_analyze_compareFile" type="integer">138297007</label>
+			<label index="label_database_defaulttables" type="integer">45756183</label>
+			<label index="label_selectdump" type="integer">128606315</label>
+			<label index="label_execute" type="integer">67948564</label>
+			<label index="label_writechanges" type="integer">122417677</label>
+			<label index="msg_database_error_cantconnect" type="integer">254727330</label>
+			<label index="msg_database_error_cantselectdb" type="integer">227414876</label>
+			<label index="msg_database_error_couldnotcreate" type="integer">210819842</label>
+			<label index="msg_database_error_filenotfound" type="integer">260548466</label>
+			<label index="msg_database_error_nocreatedefinitions" type="integer">177059799</label>
+			<label index="msg_database_warning_selectdb" type="integer">38943725</label>
+			<label index="msg_database_warning_invalidname" type="integer">172712807</label>
+			<label index="msg_database_updateneeded" type="integer">193904820</label>
+			<label index="msg_database_noupdateneeded" type="integer">24699368</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="title_module_database">Database</label>
+			<label index="title_typo_db_host">Database host</label>
+			<label index="description_typo_db_host">Enter the hostname where the database server can be reached.</label>
+			<label index="help_typo_db_host">The hostname is a server where the database server is running. In most cases this will be &quot;localhost&quot;.</label>
+			<label index="title_typo_db_username">Database username</label>
+			<label index="title_typo_db_password">Database password</label>
+			<label index="title_typo_db">TYPO3 database</label>
+			<label index="title_analyze_compareFile">Compare against default database</label>
+			<label index="label_database_defaulttables">Create default database tables</label>
+			<label index="label_selectdump">Please select a database dump</label>
+			<label index="label_execute">Execute</label>
+			<label index="label_writechanges">Write selected changes to database</label>
+			<label index="msg_database_error_cantconnect">FATAL: Can't connect to database-server!</label>
+			<label index="msg_database_error_cantselectdb">FATAL: Can't select database &quot;%s&quot;</label>
+			<label index="msg_database_error_couldnotcreate">Could not create database with name &quot;%s&quot;</label>
+			<label index="msg_database_error_filenotfound">The compare-file &quot;%s&quot; was not found!</label>
+			<label index="msg_database_error_nocreatedefinitions">There were no &quot;CREATE TABLE&quot; definitions in the provided file: %s</label>
+			<label index="msg_database_warning_selectdb">Please select a database or fill in a name for a new database.</label>
+			<label index="msg_database_warning_invalidname">The NEW database name &quot;%s&quot; was not alphanumeric, a-zA-Z0-9_-</label>
+			<label index="msg_database_updateneeded">Table and field definitions should be updated!&lt;br /&gt; There seems to be a number of differences between the database and the selected SQL-file. Please select which statements you want to execute in order to update your database:</label>
+			<label index="msg_database_noupdateneeded">Table and field definitions are OK.&lt;br /&gt;The tables and fields in the current database correspond perfectly to the database in the selected SQL-file.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

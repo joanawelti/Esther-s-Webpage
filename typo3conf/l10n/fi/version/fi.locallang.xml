@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="title">Versiointi</label>
+			<label index="title_review">Lähetä esikatseluun tai julkistamiseen</label>
+			<label index="mlang_labels_tablabel">Sivujen ja sisällön versiointi sekä sivujen työtilan hallinta</label>
+			<label index="mlang_labels_tabdescr">Web&gt;Versiointi aliohjelmalla on mahdollista hallita sivurakenteen versioita</label>
+			<label index="mlang_tabs_tab">Versiointi</label>
+			<label index="function1">Toiminto 1</label>
+			<label index="function2">Toiminto 2</label>
+			<label index="function3">Toiminto 3</label>
+			<label index="clickAPage_header">Web&gt;Versiointi aliohjelma</label>
+			<label index="clickAPage_content">Ole ystävällinen ja napsauta sivua sivurakenteesta nähdäksesi versionti aliohjelman.</label>
+			<label index="cm1_title">Versiointi</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="cm1_title" type="integer">26780425</label>
+			<label index="function1" type="integer">209170062</label>
+			<label index="function2" type="integer">109930407</label>
+			<label index="function3" type="integer">258031659</label>
+			<label index="title" type="integer">26780425</label>
+			<label index="mlang_labels_tablabel" type="integer">47790076</label>
+			<label index="mlang_labels_tabdescr" type="integer">228164280</label>
+			<label index="mlang_tabs_tab" type="integer">26780425</label>
+			<label index="title_review" type="integer">246273957</label>
+			<label index="clickAPage_header" type="integer">90732202</label>
+			<label index="clickAPage_content" type="integer">5149509</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="cm1_title">Versioning</label>
+			<label index="function1">Function #1</label>
+			<label index="function2">Function #2</label>
+			<label index="function3">Function #3</label>
+			<label index="title">Versioning</label>
+			<label index="mlang_labels_tablabel">Page and content versioning and workspace management for pages.</label>
+			<label index="mlang_labels_tabdescr">The Web&gt;Versioning module provides access to versioning features for the page tree.</label>
+			<label index="mlang_tabs_tab">Versioning</label>
+			<label index="title_review">Send to review/pub</label>
+			<label index="clickAPage_header">Web&gt;Versioning module</label>
+			<label index="clickAPage_content">Please click a page in the pagetree frame to see the versioning module.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

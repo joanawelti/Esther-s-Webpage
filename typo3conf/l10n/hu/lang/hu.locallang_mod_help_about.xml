@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hu" type="array">
+			<label index="welcome">Typo3 Professzionális Web Tartalomkezelő Rendszer</label>
+			<label index="minor">TYPO3 egy nyílt forráskódú Web-CMS rendszer, ami a PHP4-re és a MySQL-re épül. &lt;br&gt;&lt;br&gt;A TYPO3 &lt;b&gt;szabadon elérhető a &lt;/b&gt; &lt;A HREF=&quot;http://typo3.com/1244.0.html&quot; target=&quot;_blank&quot;&gt;TYPO3-license (GNU/GPL)&lt;/a&gt; alatt.&lt;br&gt;&lt;br&gt;%s %s&lt;br&gt;</label>
+			<label index="mlang_labels_tablabel">A TYPO3-ról</label>
+			<label index="mlang_labels_tabdescr">A TYPO3 bemutatása.</label>
+			<label index="mlang_tabs_tab">Névjegy</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hu" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">259198789</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

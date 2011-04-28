@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="title">TypoScript hjelp</label>
+			<label index="display">Vis TypoScript hjelp</label>
+			<label index="rebuild">Bygg på ny TypoScript hjelp</label>
+			<label index="referenceExplanation">Velg fra følgende referansedata</label>
+			<label index="displayReferences">Vis TypoScript online hjep</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="title" type="integer">55592368</label>
+			<label index="display" type="integer">162496165</label>
+			<label index="rebuild" type="integer">196790076</label>
+			<label index="referenceExplanation" type="integer">76872201</label>
+			<label index="displayReferences" type="integer">232607003</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Display TypoScript Help</label>
+			<label index="rebuild">Rebuild TypoScript Help</label>
+			<label index="referenceExplanation">Choose from the following reference data</label>
+			<label index="displayReferences">Display TypoScript Online Help</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="submit_button_label">Leit</label>
+			<label index="opt_type_1">Hluti orðs</label>
+			<label index="opt_type_2">Upphaf orðs</label>
+			<label index="opt_type_3">Endir orðs</label>
+			<label index="opt_type_10">Líkt</label>
+			<label index="opt_type_20">Setning</label>
+			<label index="opt_defOp_0">Öll orð (OG)</label>
+			<label index="opt_defOp_1">Eitt eða fleiri af orðunum (EÐA)</label>
+			<label index="opt_sections_0">Öll síðan</label>
+			<label index="opt_sections_-1">Aðeins þessi síða</label>
+			<label index="opt_sections_-2">Fyrsta lag og eitt undirlag</label>
+			<label index="opt_sections_-3">Lag 2 og öll undirlög</label>
+			<label index="opt_media_-1">Allir miðlar</label>
+			<label index="opt_media_0">Innri síður</label>
+			<label index="opt_media_-2">Ytri</label>
+			<label index="opt_order_rank_freq">Tíðni</label>
+			<label index="opt_order_rank_first">Ofarlega</label>
+			<label index="opt_order_rank_count">Fjöldi orða</label>
+			<label index="opt_order_mtime">Síðast breytt</label>
+			<label index="opt_order_title">Titill skjals</label>
+			<label index="opt_order_crdate">Stofnað</label>
+			<label index="opt_group_flat">Flatur listi</label>
+			<label index="opt_lang_-1">Öll tungumál</label>
+			<label index="opt_lang_0">Sjálfgefið</label>
+			<label index="opt_desc_0">Hæst fyrst</label>
+			<label index="opt_desc_1">Lægst fyrst</label>
+			<label index="opt_RL1">Lag 1:</label>
+			<label index="opt_RL1ALL">Allar síður á 1. lagi:</label>
+			<label index="opt_RL2">- Lag 2:</label>
+			<label index="opt_RL2ALL">- Allar síður á 2. lagi:</label>
+			<label index="form_searchFor">Leita að:</label>
+			<label index="form_orderBy">Raða eftir:</label>
+			<label index="form_searchIn">Leita í:</label>
+			<label index="form_style">Snið:</label>
+			<label index="rules_header">Reglur:</label>
+			<label index="opt_type_0">Eitt orð</label>
+			<label index="opt_freeIndexUid_0">Síður</label>
+			<label index="opt_freeIndexUid_header_-1">Blandaðir flokkar</label>
+			<label index="opt_freeIndexUid_header_0">Vefsíður</label>
+			<label index="form_atATime">í einu</label>
+			<label index="form_freeIndexUid">Flokkur:</label>
+			<label index="rules_text">Einungis er hægt að leita að orðum með tveimur eða fleiri stöfum.
+Hámarkslegt er 200 stafir
+Orðabil er notað til að skipta orðum. Hægt er að nota &quot;gæsalappir&quot; til að leita að heilli setningu (Þó ekki þegar atriðisskrá er notuð)
+OG, EÐA, og EKKI eru formerki sem skipt er út fyrir +/|/- 
+Öllum leitaroðum er breytt í lágstafi</label>
+			<label index="searchFor">Leita að</label>
+			<label index="searchFor_or">eða</label>
+			<label index="searchFor_and">og</label>
+			<label index="searchFor_butNot">en ekki</label>
+			<label index="noResults">Ekkert fannst</label>
+			<label index="word_page">síða</label>
+			<label index="word_pages">síður</label>
+			<label index="unnamedSection">Annað</label>
+			<label index="link_regularSearch">Venjuleg leit</label>
+			<label index="link_advancedSearch">Ítarleg leit</label>
+			<label index="res_path">Slóð:</label>
+			<label index="res_modified">Síðast breytt:</label>
+			<label index="res_created">Stofnuð:</label>
+			<label index="res_size">Stærð:</label>
+			<label index="res_noResume">ATH: Hugsanlegt er að leitarniðurstaðan samsvarist ekki alveg innihaldi þessarar síðu. Ekki tókst að kalla fram útdrátt síðunnar.</label>
+			<label index="res_otherMatching">Aðrar síður í sama skjali:</label>
+			<label index="pi_list_browseresults_prev">&lt; Til baka</label>
+			<label index="pi_list_browseresults_page">Síða</label>
+			<label index="pi_list_browseresults_next">Næsta &gt;</label>
+			<label index="pi_list_browseresults_display">Sýni niðurstöður ###TAG_BEGIN###%s til %s###TAG_END### af ###TAG_BEGIN###%s###TAG_END###</label>
+			<label index="local_operator_AND">OG</label>
+			<label index="local_operator_OR">EÐA</label>
+			<label index="local_operator_NOT">EKKI</label>
+			<label index="makerating_addToCurrentSearch">Bæta í leitarorð</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="submit_button_label" type="integer">20138052</label>
+			<label index="opt_type_1" type="integer">172284783</label>
+			<label index="opt_type_2" type="double">11548209</label>
+			<label index="opt_type_3" type="integer">194788751</label>
+			<label index="opt_type_10" type="integer">257918215</label>
+			<label index="opt_type_20" type="double">6717355</label>
+			<label index="opt_defOp_0" type="integer">19166264</label>
+			<label index="opt_defOp_1" type="integer">88959896</label>
+			<label index="opt_sections_0" type="integer">161604964</label>
+			<label index="opt_sections_-1" type="integer">203612347</label>
+			<label index="opt_sections_-2" type="integer">136579338</label>
+			<label index="opt_sections_-3" type="integer">29488068</label>
+			<label index="opt_media_-1" type="integer">206891359</label>
+			<label index="opt_media_0" type="integer">120599252</label>
+			<label index="opt_media_-2" type="integer">266235480</label>
+			<label index="opt_order_rank_freq" type="integer">131021139</label>
+			<label index="opt_order_rank_first" type="integer">179714757</label>
+			<label index="opt_order_rank_count" type="integer">117255308</label>
+			<label index="opt_order_mtime" type="integer">135056589</label>
+			<label index="opt_order_title" type="integer">73334076</label>
+			<label index="opt_order_crdate" type="integer">51454473</label>
+			<label index="opt_group_flat" type="integer">94149241</label>
+			<label index="opt_lang_-1" type="integer">180223936</label>
+			<label index="opt_lang_0" type="integer">128029197</label>
+			<label index="opt_desc_0" type="integer">240944334</label>
+			<label index="opt_desc_1" type="integer">254650938</label>
+			<label index="opt_RL1" type="double">1249320</label>
+			<label index="opt_RL1ALL" type="integer">148264678</label>
+			<label index="opt_RL2" type="integer">110063240</label>
+			<label index="opt_RL2ALL" type="integer">23854170</label>
+			<label index="form_searchFor" type="integer">123652778</label>
+			<label index="form_orderBy" type="integer">126205067</label>
+			<label index="form_searchIn" type="integer">248140624</label>
+			<label index="form_style" type="double">6624914</label>
+			<label index="rules_header" type="integer">150084822</label>
+			<label index="opt_type_0" type="integer">222720720</label>
+			<label index="opt_freeIndexUid_0" type="integer">72592619</label>
+			<label index="opt_freeIndexUid_header_-1" type="integer">21983530</label>
+			<label index="opt_freeIndexUid_header_0" type="integer">131617847</label>
+			<label index="form_atATime" type="integer">71962386</label>
+			<label index="form_freeIndexUid" type="integer">90868382</label>
+			<label index="rules_text" type="integer">170496710</label>
+			<label index="searchFor" type="integer">238893195</label>
+			<label index="searchFor_or" type="integer">243385572</label>
+			<label index="searchFor_and" type="integer">199611859</label>
+			<label index="searchFor_butNot" type="integer">38330962</label>
+			<label index="noResults" type="integer">189977502</label>
+			<label index="word_page" type="integer">119038151</label>
+			<label index="word_pages" type="integer">188428962</label>
+			<label index="unnamedSection" type="integer">103881441</label>
+			<label index="link_regularSearch" type="integer">208110947</label>
+			<label index="link_advancedSearch" type="integer">130779860</label>
+			<label index="res_path" type="integer">266188054</label>
+			<label index="res_modified" type="integer">206911454</label>
+			<label index="res_created" type="integer">97474279</label>
+			<label index="res_size" type="integer">183911828</label>
+			<label index="res_noResume" type="integer">91987015</label>
+			<label index="res_otherMatching" type="integer">95914486</label>
+			<label index="pi_list_browseresults_prev" type="integer">20121992</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">232350798</label>
+			<label index="pi_list_browseresults_display" type="integer">130943821</label>
+			<label index="local_operator_AND" type="integer">89718728</label>
+			<label index="local_operator_OR" type="integer">30412413</label>
+			<label index="local_operator_NOT" type="integer">17691606</label>
+			<label index="makerating_addToCurrentSearch" type="integer">165743725</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="submit_button_label">Search</label>
+			<label index="opt_type_1">Part of word</label>
+			<label index="opt_type_2">First part of word</label>
+			<label index="opt_type_3">Last part of word</label>
+			<label index="opt_type_10">Sounds like</label>
+			<label index="opt_type_20">Sentence</label>
+			<label index="opt_defOp_0">All words (AND)</label>
+			<label index="opt_defOp_1">Any words (OR)</label>
+			<label index="opt_sections_0">Whole site</label>
+			<label index="opt_sections_-1">Only this page</label>
+			<label index="opt_sections_-2">Top + level 1</label>
+			<label index="opt_sections_-3">Level 2 and out</label>
+			<label index="opt_media_-1">All media</label>
+			<label index="opt_media_0">Internal pages</label>
+			<label index="opt_media_-2">All External</label>
+			<label index="opt_order_rank_freq">Frequency</label>
+			<label index="opt_order_rank_first">Close to top</label>
+			<label index="opt_order_rank_count">Number of words</label>
+			<label index="opt_order_mtime">Date Modified</label>
+			<label index="opt_order_title">Document title</label>
+			<label index="opt_order_crdate">Creation date</label>
+			<label index="opt_group_flat">Flat list</label>
+			<label index="opt_lang_-1">All languages</label>
+			<label index="opt_lang_0">Default</label>
+			<label index="opt_desc_0">Highest first</label>
+			<label index="opt_desc_1">Lowest first</label>
+			<label index="opt_RL1">Level 1:</label>
+			<label index="opt_RL1ALL">All pages on level 1</label>
+			<label index="opt_RL2">- Level 2:</label>
+			<label index="opt_RL2ALL">- All pages on level 2</label>
+			<label index="form_searchFor">Search for:</label>
+			<label index="form_orderBy">Order by:</label>
+			<label index="form_searchIn">Search in:</label>
+			<label index="form_style">Style:</label>
+			<label index="rules_header">Rules:</label>
+			<label index="opt_type_0">Distinct word</label>
+			<label index="opt_freeIndexUid_0">Pages</label>
+			<label index="opt_freeIndexUid_header_-1">Mixed categories</label>
+			<label index="opt_freeIndexUid_header_0">Website Pages</label>
+			<label index="form_atATime">at a time</label>
+			<label index="form_freeIndexUid">Category:</label>
+			<label index="rules_text">
+			Only words with 2 or more characters are accepted
+			Max 200 chars total
+			Space is used to split words, &quot;&quot; can be used to search for a whole string (not indexed search then)
+			AND, OR and NOT are prefix words, overruling the default operator
+			+/|/- equals AND, OR and NOT as operators.
+			All search words are converted to lowercase.
+		</label>
+			<label index="searchFor">Search for</label>
+			<label index="searchFor_or">or</label>
+			<label index="searchFor_and">and</label>
+			<label index="searchFor_butNot">but not</label>
+			<label index="noResults">NO results found.</label>
+			<label index="word_page">page</label>
+			<label index="word_pages">pages</label>
+			<label index="unnamedSection">Other</label>
+			<label index="link_regularSearch">Regular search</label>
+			<label index="link_advancedSearch">Advanced search</label>
+			<label index="res_path">Path:</label>
+			<label index="res_modified">Modified:</label>
+			<label index="res_created">Created:</label>
+			<label index="res_size">Size:</label>
+			<label index="res_noResume">Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</label>
+			<label index="res_otherMatching">Other matching pages in the same document:</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="pi_list_browseresults_display">Displaying results ###TAG_BEGIN###%s to %s###TAG_END### out of ###TAG_BEGIN###%s###TAG_END###</label>
+			<label index="local_operator_AND">AND</label>
+			<label index="local_operator_OR">OR</label>
+			<label index="local_operator_NOT">NOT</label>
+			<label index="makerating_addToCurrentSearch">Add to current search words</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:72:"typo3/sysext/lang/locallang_mod_help.xml|06-10-2010 10:40:03|version=2.3";s:10:"LOCAL_LANG";a:2:{s:7:"default";a:2:{s:21:"mlang_labels_tablabel";s:16:"Help and support";s:14:"mlang_tabs_tab";s:4:"Help";}s:2:"de";s:48:"typo3conf/l10n/de/lang/de.locallang_mod_help.xml";}}

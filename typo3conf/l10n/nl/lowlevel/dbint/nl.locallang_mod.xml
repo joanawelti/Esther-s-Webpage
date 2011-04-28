@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">Integriteitscontrole van de database</label>
+			<label index="mlang_labels_tabdescr">Hier kunt u de integriteit van de databasetabellen controleren geconfigureerd door de $TCA. Zo moeten bijvoorbeeld records gekoppeld zijn aan een paginarecord. Bovendien wordt de aanwezigheid van de geuploade bestanden (normaal gesproken gevonden in de map uploads/*) gekoppeld aan records ook geverifieerd. U kunt ook een totaaloverzicht van de totale paginastructuur inclusief verwijderde pagina's opvragen. Tenslotte heeft u de mogelijkheid de totale database te doorzoeken.&lt;br /&gt;&lt;em&gt;Alleen toegang voor 'admin' gebruikers!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB controle</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">Database integrity check</label>
+			<label index="mlang_labels_tabdescr">Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB check</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

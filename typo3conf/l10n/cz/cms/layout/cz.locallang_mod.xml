@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Obsah stránky</label>
+			<label index="mlang_labels_tabdescr">Tento modul umožňuje vytvářet a editovat webové stránky, ukazuje statistiku přístupů pro jednotlivé stránky, umožňuje spravovat různé jazyky i sloupce obsahu na stránce a speciální obsah stránek, jako je třeba návštěvní kniha nebo položky zboží v obchodu.</label>
+			<label index="mlang_tabs_tab">Stránka</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel" type="integer">73079758</label>
+			<label index="mlang_labels_tabdescr" type="integer">259361662</label>
+			<label index="mlang_tabs_tab" type="integer">26464201</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Page content</label>
+			<label index="mlang_labels_tabdescr">This module allows you to create and edit webpages, view page hit statistics, manage different languages and columns of content per page and access special page contents like guesbooks and shopping items.</label>
+			<label index="mlang_tabs_tab">Page</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

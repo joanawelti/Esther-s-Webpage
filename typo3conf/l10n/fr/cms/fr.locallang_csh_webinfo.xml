@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="pagetree_overview.alttitle">Arborescence (vue d'ensemble)</label>
+			<label index="pagetree_overview.description">La vue de l'arborescence montre des informations en relation avec les pages pour une branche de l'arbre. Ceci inclut le nombre d'enregistrement, des paramètres de page comme l'alias, période de visibilité, paramètre du cache etc.</label>
+			<label index="func_0.alttitle">Configuration de base</label>
+			<label index="func_1.alttitle">Enregistrement (vue d'ensemble)</label>
+			<label index="func_2.alttitle">Cache et Age</label>
+			<label index="stat.alttitle">Statistiques de fréquentation</label>
+			<label index="lang.alttitle">Localisation (vue d'ensemble)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="lang.alttitle">Localization overview</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

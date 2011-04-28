@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Outils &gt; Gestionnaire d'Extensions (EM)</label>
+			<label index=".description">Le Gestionnaire d'Extension contrôle l'import, l'installation et la mise à niveau des Extensions dans TYPO3.</label>
+			<label index="loaded.alttitle">Extensions Chargées</label>
+			<label index="avail.alttitle">Extensions Disponibles</label>
+			<label index="import.alttitle">Importer des Extensions</label>
+			<label index="import_ter.alttitle">Extensions dans le TER</label>
+			<label index="info.alttitle">Détails de l'Extension</label>
+			<label index="info.description">Affiche les détails à propos de l'extension.</label>
+			<label index="backup_delete.alttitle">Sauvegarder l'extension dans un fichier.</label>
+			<label index="upload.alttitle">Soumettre une extension au dépôt (TER)</label>
+			<label index="editfiles.alttitle">Editions des scripts d'une extension</label>
+			<label index="editfiles.details">&lt;b&gt;Note:&lt;/b&gt;
+Afin que l'édition de scripts d'extension soit possible vous devez désactiver l'option de configuration &quot;TYPO3_CONF_VARS[EXT][noEdit]&quot; dans &quot;localconf.php&quot;.</label>
+			<label index="settings.alttitle">Paramètre du Gestionnaire d'Extension</label>
+			<label index="settings.image_descr">Paramètre des connexions TER</label>
+			<label index="emconf_shy.alttitle">Timide</label>
+			<label index="emconf_category.alttitle">Catégorie</label>
+			<label index="emconf_category.description">À quelle catégorie l'extension appartient.</label>
+			<label index="emconf_dependencies.alttitle">Dépendances à d'autres extensions?</label>
+			<label index="emconf_state.alttitle">Etat de développement</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Vide le cache une fois installée</label>
+			<label index="emconf_private.alttitle">Privé</label>
+			<label index="emconf_download_password.alttitle">Mot de passe de téléchargement</label>
+			<label index="emconf_download_password.description">Mot de passe additionnel nécessaire pour télécharger les extensions privé.</label>
+			<label index="emconf_type.alttitle">Type d'installation</label>
+			<label index="emconf_type.description">Le type d'installation (tout bêtement)</label>
+			<label index="emconf_doubleInstall.alttitle">Installé 2 fois ou plus?</label>
+			<label index="emconf_doubleInstall.description">Indique si l'extension est installé à plusieurs endroits Système, Local ou Global.</label>
+			<label index="emconf_rootfiles.alttitle">Fichiers racines</label>
+			<label index="emconf_dbReq.alttitle">Besoin au niveau de la base de données</label>
+			<label index="emconf_flags.alttitle">Drapeaux</label>
+			<label index="emconf_TSfiles.alttitle">Fichiers Typoscript statiques</label>
+			<label index="emconf_locallang.alttitle">Fichiers locallang</label>
+			<label index="emconf_classNames.alttitle">Noms de classes PHP</label>
+			<label index="emconf_classNames.description">Affiche quelles classes PHP ont été trouvées dans les fichiers .php et .inc.</label>
+			<label index="emconf_errors.alttitle">Erreurs</label>
+			<label index="emconf_errors.description">Affiche si des erreurs concernant l'extension ont été découvertes.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle" type="integer">217593800</label>
+			<label index=".description" type="integer">212219576</label>
+			<label index="loaded.alttitle" type="integer">240199548</label>
+			<label index="avail.alttitle" type="integer">251693128</label>
+			<label index="import.alttitle" type="integer">65383042</label>
+			<label index="import_ter.alttitle" type="integer">137151967</label>
+			<label index="info.alttitle" type="integer">195885354</label>
+			<label index="info.description" type="integer">59055841</label>
+			<label index="backup_delete.alttitle" type="integer">213063528</label>
+			<label index="upload.alttitle" type="integer">217213386</label>
+			<label index="editfiles.alttitle" type="integer">167010666</label>
+			<label index="editfiles.details" type="integer">178826894</label>
+			<label index="settings.alttitle" type="integer">49620262</label>
+			<label index="settings.image_descr" type="integer">81559812</label>
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_dependencies.alttitle" type="integer">6158334</label>
+			<label index="emconf_state.alttitle" type="integer">8968835</label>
+			<label index="emconf_clearCacheOnLoad.alttitle" type="integer">26668595</label>
+			<label index="emconf_private.alttitle" type="integer">75468930</label>
+			<label index="emconf_download_password.alttitle" type="integer">102196861</label>
+			<label index="emconf_download_password.description" type="integer">120757501</label>
+			<label index="emconf_type.alttitle" type="integer">121209022</label>
+			<label index="emconf_type.description" type="integer">113056504</label>
+			<label index="emconf_doubleInstall.alttitle" type="integer">262159324</label>
+			<label index="emconf_rootfiles.alttitle" type="integer">234183730</label>
+			<label index="emconf_flags.alttitle" type="integer">82475009</label>
+			<label index="emconf_locallang.alttitle" type="integer">182381040</label>
+			<label index="emconf_classNames.alttitle" type="integer">155053783</label>
+			<label index="emconf_classNames.description" type="integer">83027952</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+			<label index="emconf_doubleInstall.description" type="integer">60133779</label>
+			<label index="emconf_dbReq.alttitle" type="integer">28332369</label>
+			<label index="emconf_TSfiles.alttitle" type="integer">43118947</label>
+			<label index="emconf_errors.description" type="integer">57596160</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Tools &gt; Extension Manager (EM)</label>
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index="loaded.alttitle">Loaded Extensions</label>
+			<label index="avail.alttitle">Available Extensions</label>
+			<label index="import.alttitle">Importing Extensions</label>
+			<label index="import_ter.alttitle">Extensions in TER</label>
+			<label index="info.alttitle">Extension Details</label>
+			<label index="info.description">Shows details about the extension.</label>
+			<label index="backup_delete.alttitle">Backup Extension as a file</label>
+			<label index="upload.alttitle">Upload an Extension to the repository (TER)</label>
+			<label index="editfiles.alttitle">Editing scripts in an extension</label>
+			<label index="editfiles.details">&lt;b&gt;Notice:&lt;/b&gt;
+Before editing of extension scripts can be performed you have to disable the configuration option &quot;TYPO3_CONF_VARS[EXT][noEdit]&quot; in &quot;localconf.php&quot;.</label>
+			<label index="settings.alttitle">Extension Manager Settings</label>
+			<label index="settings.image_descr">Settings for TER connections.</label>
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_state.alttitle">Development state</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Clear cache when installed</label>
+			<label index="emconf_private.alttitle">Private</label>
+			<label index="emconf_download_password.alttitle">Download password</label>
+			<label index="emconf_download_password.description">Additional password required for download of private extensions.</label>
+			<label index="emconf_type.alttitle">Installation type</label>
+			<label index="emconf_type.description">The type of the installation</label>
+			<label index="emconf_doubleInstall.alttitle">Installed twice or more?</label>
+			<label index="emconf_rootfiles.alttitle">Root files</label>
+			<label index="emconf_flags.alttitle">Flags</label>
+			<label index="emconf_locallang.alttitle">locallang-files</label>
+			<label index="emconf_classNames.alttitle">PHP Class names</label>
+			<label index="emconf_classNames.description">Shows which PHP-classes were found in .php and .inc files.</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+			<label index="emconf_doubleInstall.description">Tells you if the extensions is installed in more than one of the System, Global or Local locations.</label>
+			<label index="emconf_dbReq.alttitle">Database requirements</label>
+			<label index="emconf_TSfiles.alttitle">Static TypoScript files</label>
+			<label index="emconf_errors.description">Displays if any errors with the extension were discovered.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

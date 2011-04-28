@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel">Administrador de Extensões do Typo3</label>
+			<label index="mlang_labels_tabdescr">Administra as extensões do Typo3, que incluem plugins, módulos, classes, código de configuração, etc. a partir de um depósito central.</label>
+			<label index="mlang_tabs_tab">Admin. de Extensões</label>
+			<label index="display_nle">Incluir na listagem extensões desativadas</label>
+			<label index="display_files">Exibir a lista de arquivos modificados</label>
+			<label index="header_upd_ext">Há novas versões  para as seguintes extensões no TER</label>
+			<label index="header_vers_ret">Informações da versão</label>
+			<label index="tab_mod_name">Extensão</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remoto</label>
+			<label index="tab_mod_comment">Comentário de Envio</label>
+			<label index="tab_mod_location">Localização</label>
+			<label index="msg_warn_diff">Foi detectada uma diferença entre a versão originalmente instalada e a atual!</label>
+			<label index="msg_modified">Arquivos Modificados:</label>
+			<label index="note_last_update">Última atualização da lista de extensões:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">182827319</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_comment" type="integer">111200332</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_warn_diff" type="integer">64279198</label>
+			<label index="msg_modified" type="integer">76649526</label>
+			<label index="note_last_update" type="integer">92684231</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository,  which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_comment">Upload-Comment</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_warn_diff">A difference between the originally installed version and the current was detected!</label>
+			<label index="msg_modified">Modified Files:</label>
+			<label index="note_last_update">Last update of list of extensions:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

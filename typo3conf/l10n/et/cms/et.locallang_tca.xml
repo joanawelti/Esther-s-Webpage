@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="et" type="array">
+			<label index="mod_tx_cms_webinfo_page">Sisupuu ülevaade</label>
+			<label index="mod_tx_cms_webinfo_lang">Lokaliseerimise ülevaade</label>
+			<label index="pages.doktype.I.0">Laiendatud seaded</label>
+			<label index="pages.doktype.I.2">Otsetee</label>
+			<label index="pages.doktype.I.3">Pole menüüs</label>
+			<label index="pages.doktype.I.4">Backend sektsioon</label>
+			<label index="pages.doktype.I.5">Paigalda lehekülg</label>
+			<label index="pages.doktype.I.7">Menüü eraldaja</label>
+			<label index="pages.doktype.I.8">Väline link</label>
+			<label index="pages.doktype.div.page">Leht</label>
+			<label index="pages.doktype.div.link">Link</label>
+			<label index="pages.doktype.div.special">Eriline</label>
+			<label index="pages.hidden">Peida lehekülg:</label>
+			<label index="pages.layout.I.1">Paigutus 1</label>
+			<label index="pages.layout.I.2">Paigutus 2</label>
+			<label index="pages.layout.I.3">Paigutus 3</label>
+			<label index="pages.extendToSubpages">Kaasa alamlehed:</label>
+			<label index="pages.nav_title">Navigeerimise pealkiri:</label>
+			<label index="pages.nav_hide">Peida menüüs:</label>
+			<label index="pages.subtitle">Alapealkiri:</label>
+			<label index="pages.target">Suunamine:</label>
+			<label index="pages.alias">Alias:</label>
+			<label index="pages.url">URL:</label>
+			<label index="pages.lastUpdated">Viimati uuendatud:</label>
+			<label index="pages.newUntil">'Uus' kuni:</label>
+			<label index="pages.cache_timeout">Vahemälu aegub:</label>
+			<label index="pages.cache_timeout.I.1">1 min</label>
+			<label index="pages.cache_timeout.I.2">5 min</label>
+			<label index="pages.cache_timeout.I.3">15 min</label>
+			<label index="pages.cache_timeout.I.4">30 min</label>
+			<label index="pages.cache_timeout.I.5">1 tund</label>
+			<label index="pages.cache_timeout.I.6">4 tundi</label>
+			<label index="pages.cache_timeout.I.7">1 päev</label>
+			<label index="pages.cache_timeout.I.8">2 päeva</label>
+			<label index="pages.cache_timeout.I.9">7 päeva</label>
+			<label index="pages.cache_timeout.I.10">1 kuu</label>
+			<label index="pages.tabs.metadata">Metainfo</label>
+			<label index="pages.tabs.files">Ressursid</label>
+			<label index="pages.tabs.access">Ligipääsuõigused</label>
+			<label index="pages.tabs.options">Lisavalikud</label>
+			<label index="pages.tabs.mount">Ühenduspunkt</label>
+			<label index="pages.tabs.shortcut">Otsetee</label>
+			<label index="pages.tabs.url">URL</label>
+			<label index="pages.tabs.extended">Laiendatud</label>
+			<label index="pages.no_cache">Vahemälu puudub:</label>
+			<label index="pages.no_search">Otsing puudub:</label>
+			<label index="pages.shortcut_mode">Otsetee reziim:</label>
+			<label index="pages.shortcut_mode.I.1">Esimene alamleht</label>
+			<label index="pages.shortcut_mode.I.2">Juhuslik alamleht</label>
+			<label index="pages.content_from_pid">Näita sisu sellelt leheküljelt:</label>
+			<label index="pages.mount_pid">Paigalduspunkt (edasijõudnutele):</label>
+			<label index="pages.mount_pid_ol">Asenda Paigalduspunkt (see lehekülg) Paigaldatud leheküljega:</label>
+			<label index="pages.abstract">Üldistus:</label>
+			<label index="pages.media">Failid:</label>
+			<label index="pages.is_siteroot">On veebilehe juur:</label>
+			<label index="pages.module">Sisaldab pluginaid:</label>
+			<label index="pages.module.I.1">Pood</label>
+			<label index="pages.module.I.2">Tahvel</label>
+			<label index="pages.module.I.3">Uudised</label>
+			<label index="pages.module.I.4">Veebilehe kasutajad</label>
+			<label index="pages.module.I.5">Otsepost</label>
+			<label index="pages.module.I.6">Nõusolekud</label>
+			<label index="pages.l18n_cfg">Lokaliseerimise seaded</label>
+			<label index="pages.l18n_cfg.I.1">Peida leht vaikimisi keeles</label>
+			<label index="pages.l18n_cfg.I.2">Peida leht kui vastavas keeles tõlge puudub</label>
+			<label index="pages.l18n_cfg.I.2a">Kuva leht ka siis kui tõlge puudub</label>
+			<label index="pages.fe_login_mode">Sisselogimise viis</label>
+			<label index="pages.fe_login_mode.disable">Lülita välja</label>
+			<label index="pages.fe_login_mode.enable">Lülita sisse</label>
+			<label index="tt_content">Lehe sisu</label>
+			<label index="fe_users">Kodulehe kasutaja</label>
+			<label index="fe_users.username">Kasutajanimi:</label>
+			<label index="fe_users.password">Parool:</label>
+			<label index="fe_users.usergroup">Grupid:</label>
+			<label index="fe_users.lockToDomain">Lukusta domeen:</label>
+			<label index="fe_users.tabs.personelData">Isiklikud andmed</label>
+			<label index="fe_users.tabs.access">Ligipääsuõigused</label>
+			<label index="fe_users.tabs.options">Lisavalikud</label>
+			<label index="fe_users.tabs.extended">Laiendatud</label>
+			<label index="fe_groups">Veebilehe kasutajagrupp</label>
+			<label index="fe_groups.title">Grupi nimi:</label>
+			<label index="fe_groups.lockToDomain">Lukusta domeen:</label>
+			<label index="fe_groups.subgroup">Alamgrupid:</label>
+			<label index="fe_groups.tabs.options">Lisavalikud</label>
+			<label index="fe_groups.tabs.extended">Laiendatud</label>
+			<label index="sys_domain">Domeen</label>
+			<label index="sys_domain.domainName">Domeen</label>
+			<label index="sys_domain.redirectTo">Suuna:</label>
+			<label index="sys_domain.prepend_params">Kaasa parameetrid suunatud URL-ile:</label>
+			<label index="sys_template">Mall</label>
+			<label index="sys_template.title">Malli nimi:</label>
+			<label index="sys_template.root">Juurtasand:</label>
+			<label index="sys_template.clear">Puhasta:</label>
+			<label index="sys_template.sitetitle">Veebilehe pealkiri:</label>
+			<label index="sys_template.constants">Konstandid:</label>
+			<label index="sys_template.resources">Ressursid:</label>
+			<label index="sys_template.nextLevel">Mall järgmisel tasandil:</label>
+			<label index="sys_template.include_static">Kaasa staatiline mall:</label>
+			<label index="sys_template.include_static_file">Kaasa lisamooduli staatiline mall:</label>
+			<label index="sys_template.basedOn">Kaasa algne mall:</label>
+			<label index="sys_template.includeStaticAfterBasedOn">Kaasa staatiline mall PÄRAST algset malli:</label>
+			<label index="sys_template.config">Setup:</label>
+			<label index="sys_template.editorcfg">BE redaktori seaded:</label>
+			<label index="sys_template.description">Kirjeldus:</label>
+			<label index="sys_template.static_file_mode">Staatilised mallid T3 laiendusmoodulitest:</label>
+			<label index="sys_template.basedOn_add">Lisa uus algne mall</label>
+			<label index="sys_template.tabs.files">Ressursid</label>
+			<label index="sys_template.tabs.include">Kaasatud</label>
+			<label index="sys_template.tabs.options">Lisavalikud</label>
+			<label index="sys_template.tabs.access">Ligipääsuõigused</label>
+			<label index="pages_language_overlay">Alternatiivne keel</label>
+			<label index="static_template">Staatilised kujundusmallid</label>
+			<label index="sys_language">Keel</label>
+			<label index="sys_language.isocode">Vali ametlik keel (ISO kood):</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="et" type="array">
+			<label index="mod_tx_cms_webinfo_page" type="integer">46867233</label>
+			<label index="pages.doktype.I.0" type="integer">162944094</label>
+			<label index="pages.doktype.I.2" type="integer">123085069</label>
+			<label index="pages.doktype.I.3" type="integer">172261511</label>
+			<label index="pages.doktype.I.4" type="integer">213052016</label>
+			<label index="pages.doktype.I.5" type="integer">167908391</label>
+			<label index="pages.doktype.I.7" type="integer">248195370</label>
+			<label index="pages.hidden" type="integer">65518437</label>
+			<label index="pages.layout.I.1" type="integer">186159068</label>
+			<label index="pages.layout.I.2" type="integer">144093188</label>
+			<label index="pages.layout.I.3" type="integer">85298801</label>
+			<label index="pages.extendToSubpages" type="integer">113222983</label>
+			<label index="pages.nav_title" type="integer">213163145</label>
+			<label index="pages.nav_hide" type="integer">163349812</label>
+			<label index="pages.subtitle" type="integer">252742192</label>
+			<label index="pages.target" type="integer">253363033</label>
+			<label index="pages.alias" type="integer">169830525</label>
+			<label index="pages.url" type="integer">62115936</label>
+			<label index="pages.lastUpdated" type="integer">68543275</label>
+			<label index="pages.newUntil" type="integer">15740872</label>
+			<label index="pages.cache_timeout" type="integer">250768080</label>
+			<label index="pages.cache_timeout.I.1" type="integer">17751255</label>
+			<label index="pages.cache_timeout.I.2" type="integer">226471786</label>
+			<label index="pages.cache_timeout.I.3" type="integer">25025547</label>
+			<label index="pages.cache_timeout.I.4" type="integer">63694871</label>
+			<label index="pages.cache_timeout.I.5" type="integer">120240592</label>
+			<label index="pages.cache_timeout.I.6" type="integer">182216352</label>
+			<label index="pages.cache_timeout.I.7" type="integer">238766109</label>
+			<label index="pages.cache_timeout.I.8" type="integer">3514198</label>
+			<label index="pages.cache_timeout.I.9" type="integer">213446991</label>
+			<label index="pages.cache_timeout.I.10" type="integer">23285350</label>
+			<label index="pages.no_cache" type="integer">221004140</label>
+			<label index="pages.no_search" type="integer">8650986</label>
+			<label index="pages.shortcut_mode" type="integer">49005128</label>
+			<label index="pages.shortcut_mode.I.1" type="integer">115282268</label>
+			<label index="pages.shortcut_mode.I.2" type="integer">93918891</label>
+			<label index="pages.content_from_pid" type="integer">151843742</label>
+			<label index="pages.mount_pid" type="integer">258972787</label>
+			<label index="pages.mount_pid_ol" type="integer">72364821</label>
+			<label index="pages.abstract" type="integer">268186811</label>
+			<label index="pages.media" type="integer">147226768</label>
+			<label index="pages.is_siteroot" type="integer">250187229</label>
+			<label index="pages.module" type="integer">136180287</label>
+			<label index="pages.module.I.1" type="integer">167257368</label>
+			<label index="pages.module.I.2" type="integer">100887818</label>
+			<label index="pages.module.I.3" type="integer">231848472</label>
+			<label index="pages.module.I.4" type="integer">164445273</label>
+			<label index="pages.module.I.5" type="integer">141759446</label>
+			<label index="pages.module.I.6" type="integer">19589821</label>
+			<label index="tt_content" type="integer">102203127</label>
+			<label index="fe_users" type="integer">178974165</label>
+			<label index="fe_users.username" type="integer">212632006</label>
+			<label index="fe_users.password" type="integer">187963993</label>
+			<label index="fe_users.usergroup" type="integer">142097351</label>
+			<label index="fe_users.lockToDomain" type="integer">230344003</label>
+			<label index="fe_groups" type="integer">102868901</label>
+			<label index="fe_groups.title" type="integer">76352857</label>
+			<label index="fe_groups.lockToDomain" type="integer">230344003</label>
+			<label index="sys_domain" type="integer">246309786</label>
+			<label index="sys_domain.domainName" type="integer">198572531</label>
+			<label index="sys_domain.redirectTo" type="integer">31400985</label>
+			<label index="sys_domain.prepend_params" type="integer">103981266</label>
+			<label index="pages_language_overlay" type="integer">56559649</label>
+			<label index="sys_language" type="integer">144875845</label>
+			<label index="sys_template" type="integer">41469073</label>
+			<label index="static_template" type="integer">141130377</label>
+			<label index="sys_language.isocode" type="integer">49440593</label>
+			<label index="mod_tx_cms_webinfo_lang" type="integer">255687278</label>
+			<label index="pages.l18n_cfg" type="double">4046046</label>
+			<label index="pages.l18n_cfg.I.1" type="integer">248921960</label>
+			<label index="pages.l18n_cfg.I.2" type="integer">219008572</label>
+			<label index="pages.l18n_cfg.I.2a" type="integer">27002828</label>
+			<label index="fe_groups.subgroup" type="integer">19345373</label>
+			<label index="pages.fe_login_mode" type="integer">87698450</label>
+			<label index="pages.fe_login_mode.disable" type="integer">198159566</label>
+			<label index="pages.fe_login_mode.enable" type="integer">49998879</label>
+			<label index="pages.doktype.I.8" type="integer">195066299</label>
+			<label index="pages.doktype.div.page" type="integer">26464201</label>
+			<label index="pages.doktype.div.link" type="integer">159284378</label>
+			<label index="pages.doktype.div.special" type="integer">189541205</label>
+			<label index="pages.tabs.metadata" type="integer">216142960</label>
+			<label index="pages.tabs.files" type="integer">232584460</label>
+			<label index="pages.tabs.access" type="integer">200750040</label>
+			<label index="pages.tabs.options" type="integer">229542606</label>
+			<label index="pages.tabs.mount" type="integer">246210925</label>
+			<label index="pages.tabs.shortcut" type="integer">123085069</label>
+			<label index="pages.tabs.url" type="integer">241907994</label>
+			<label index="pages.tabs.extended" type="integer">253974415</label>
+			<label index="fe_users.tabs.personelData" type="integer">218694354</label>
+			<label index="fe_users.tabs.access" type="integer">200750040</label>
+			<label index="fe_users.tabs.options" type="integer">229542606</label>
+			<label index="fe_users.tabs.extended" type="integer">253974415</label>
+			<label index="fe_groups.tabs.options" type="integer">229542606</label>
+			<label index="fe_groups.tabs.extended" type="integer">253974415</label>
+			<label index="sys_template.title" type="integer">257570979</label>
+			<label index="sys_template.root" type="integer">173360784</label>
+			<label index="sys_template.clear" type="integer">221369989</label>
+			<label index="sys_template.sitetitle" type="integer">161875242</label>
+			<label index="sys_template.constants" type="integer">9435897</label>
+			<label index="sys_template.resources" type="integer">164459359</label>
+			<label index="sys_template.nextLevel" type="integer">24700453</label>
+			<label index="sys_template.include_static" type="integer">94184533</label>
+			<label index="sys_template.include_static_file" type="integer">43976405</label>
+			<label index="sys_template.basedOn" type="integer">60429336</label>
+			<label index="sys_template.includeStaticAfterBasedOn" type="integer">86872212</label>
+			<label index="sys_template.config" type="integer">99513535</label>
+			<label index="sys_template.editorcfg" type="integer">224681865</label>
+			<label index="sys_template.description" type="integer">218120871</label>
+			<label index="sys_template.static_file_mode" type="integer">221323314</label>
+			<label index="sys_template.basedOn_add" type="integer">168153644</label>
+			<label index="sys_template.tabs.files" type="integer">232584460</label>
+			<label index="sys_template.tabs.include" type="integer">188167013</label>
+			<label index="sys_template.tabs.options" type="integer">229542606</label>
+			<label index="sys_template.tabs.access" type="integer">200750040</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="et" type="array">
+			<label index="mod_tx_cms_webinfo_page">Pagetree overview</label>
+			<label index="mod_tx_cms_webinfo_lang">Localization overview</label>
+			<label index="pages.doktype.I.0">Advanced</label>
+			<label index="pages.doktype.I.2">Shortcut</label>
+			<label index="pages.doktype.I.3">Not in menu</label>
+			<label index="pages.doktype.I.4">Backend User Section</label>
+			<label index="pages.doktype.I.5">Mount Point</label>
+			<label index="pages.doktype.I.7">Visual menu separator</label>
+			<label index="pages.hidden">Hide page:</label>
+			<label index="pages.layout.I.1">Layout 1</label>
+			<label index="pages.layout.I.2">Layout 2</label>
+			<label index="pages.layout.I.3">Layout 3</label>
+			<label index="pages.extendToSubpages">Include subpages:</label>
+			<label index="pages.nav_title">Navigation title:</label>
+			<label index="pages.nav_hide">Hide in menu:</label>
+			<label index="pages.subtitle">Subtitle:</label>
+			<label index="pages.target">Target:</label>
+			<label index="pages.alias">Alias:</label>
+			<label index="pages.url">URL:</label>
+			<label index="pages.lastUpdated">Last updated:</label>
+			<label index="pages.newUntil">'New' until:</label>
+			<label index="pages.cache_timeout">Cache expires:</label>
+			<label index="pages.cache_timeout.I.1">1 min</label>
+			<label index="pages.cache_timeout.I.2">5 min</label>
+			<label index="pages.cache_timeout.I.3">15 min</label>
+			<label index="pages.cache_timeout.I.4">30 min</label>
+			<label index="pages.cache_timeout.I.5">1 hour</label>
+			<label index="pages.cache_timeout.I.6">4 hours</label>
+			<label index="pages.cache_timeout.I.7">1 day</label>
+			<label index="pages.cache_timeout.I.8">2 days</label>
+			<label index="pages.cache_timeout.I.9">7 days</label>
+			<label index="pages.cache_timeout.I.10">1 month</label>
+			<label index="pages.no_cache">No cache:</label>
+			<label index="pages.no_search">No search:</label>
+			<label index="pages.shortcut_mode">Shortcut mode:</label>
+			<label index="pages.shortcut_mode.I.1">First subpage</label>
+			<label index="pages.shortcut_mode.I.2">Random subpage</label>
+			<label index="pages.content_from_pid">Show content from this page instead:</label>
+			<label index="pages.mount_pid">Mount Point (advanced):</label>
+			<label index="pages.mount_pid_ol">Substitute Mount Point (this page) with Mounted page:</label>
+			<label index="pages.abstract">Abstract:</label>
+			<label index="pages.media">Files:</label>
+			<label index="pages.is_siteroot">Is root of website:</label>
+			<label index="pages.module">Contains plugin:</label>
+			<label index="pages.module.I.1">Shop</label>
+			<label index="pages.module.I.2">Board</label>
+			<label index="pages.module.I.3">News</label>
+			<label index="pages.module.I.4">Website users</label>
+			<label index="pages.module.I.5">Direct Mail</label>
+			<label index="pages.module.I.6">Approvals</label>
+			<label index="pages.l18n_cfg">Localization settings:</label>
+			<label index="tt_content">Pagecontent</label>
+			<label index="fe_users">Website user</label>
+			<label index="fe_users.username">Username:</label>
+			<label index="fe_users.password">Password:</label>
+			<label index="fe_users.usergroup">Groups:</label>
+			<label index="fe_users.lockToDomain">Lock to domain:</label>
+			<label index="fe_groups">Website usergroup</label>
+			<label index="fe_groups.title">Grouptitle:</label>
+			<label index="fe_groups.lockToDomain">Lock to domain:</label>
+			<label index="sys_domain">Domain</label>
+			<label index="sys_domain.domainName">Domain:</label>
+			<label index="sys_domain.redirectTo">Redirect to:</label>
+			<label index="sys_domain.prepend_params">Transfer parameters to Redirect URL:</label>
+			<label index="pages_language_overlay">Alternative Page Language</label>
+			<label index="sys_template">Template</label>
+			<label index="static_template">Static templates</label>
+			<label index="pages.l18n_cfg.I.1">Hide default translation of page</label>
+			<label index="pages.l18n_cfg.I.2">Hide page if no translation for current language exists</label>
+			<label index="pages.l18n_cfg.I.2a">Show page even if no translation exists</label>
+			<label index="fe_groups.subgroup">Subgroups:</label>
+			<label index="pages.fe_login_mode">Login Mode:</label>
+			<label index="pages.fe_login_mode.disable">Disable</label>
+			<label index="pages.fe_login_mode.enable">Enable</label>
+			<label index="pages.doktype.I.8">Link to external URL</label>
+			<label index="pages.doktype.div.page">Page</label>
+			<label index="pages.doktype.div.link">Link</label>
+			<label index="pages.doktype.div.special">Special</label>
+			<label index="pages.tabs.metadata">Metadata</label>
+			<label index="pages.tabs.files">Resources</label>
+			<label index="pages.tabs.access">Access</label>
+			<label index="pages.tabs.options">Options</label>
+			<label index="pages.tabs.mount">Mount</label>
+			<label index="pages.tabs.shortcut">Shortcut</label>
+			<label index="pages.tabs.url">URL</label>
+			<label index="pages.tabs.extended">Extended</label>
+			<label index="fe_users.tabs.personelData">Personal Data</label>
+			<label index="fe_users.tabs.access">Access</label>
+			<label index="fe_users.tabs.options">Options</label>
+			<label index="fe_users.tabs.extended">Extended</label>
+			<label index="fe_groups.tabs.options">Options</label>
+			<label index="fe_groups.tabs.extended">Extended</label>
+			<label index="sys_template.title">Template title:</label>
+			<label index="sys_template.root">Rootlevel:</label>
+			<label index="sys_template.clear">Clear:</label>
+			<label index="sys_template.sitetitle">Website title:</label>
+			<label index="sys_template.constants">Constants:</label>
+			<label index="sys_template.resources">Resources:</label>
+			<label index="sys_template.nextLevel">Template on next level:</label>
+			<label index="sys_template.include_static">Include static:</label>
+			<label index="sys_template.include_static_file">Include static (from extensions):</label>
+			<label index="sys_template.basedOn">Include basis template:</label>
+			<label index="sys_template.includeStaticAfterBasedOn">Include static AFTER basedOn:</label>
+			<label index="sys_template.config">Setup:</label>
+			<label index="sys_template.editorcfg">Backend Editor Configuration:</label>
+			<label index="sys_template.description">Description:</label>
+			<label index="sys_template.static_file_mode">Static template files from T3 Extensions:</label>
+			<label index="sys_template.basedOn_add">Add new basis template</label>
+			<label index="sys_template.tabs.files">Resources</label>
+			<label index="sys_template.tabs.include">Includes</label>
+			<label index="sys_template.tabs.options">Options</label>
+			<label index="sys_template.tabs.access">Access</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

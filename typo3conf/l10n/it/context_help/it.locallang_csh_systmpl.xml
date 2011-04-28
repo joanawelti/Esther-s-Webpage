@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">Registro template di TypoScript</label>
+			<label index=".details">I registri di &quot;Template&quot; sono i componenti vitali useti per difinire il design delle pagine web. Non importa come (quasi) si voglia costruire il proprio sito web, deve essere iniziato con una ragistrazione del &quot;Template&quot; situato nella directory radice dell'albero del sito.
+Di base, bisogna creare un registro di &quot;Template&quot;,  inserire un titolo e controllare le Clear constants, i settaggi e la Rootline. Successivamente inserire alcune confgurazioni di TypoScript nel campo Setup e il gioco è fatto.
+È molto importante leggere come fare tutto ciò nei documenti elencati qui sotto! Inoltre bisogna assicurarsi di il modulo Web&gt;TS per fare tutto il lavoro con i template. Il modulo Web&gt;TS è un tool specializzato per aiutarvi con questo.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".description" type="integer">48577171</label>
+			<label index=".details" type="integer">31901980</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">TypoScript template record.</label>
+			<label index=".details">The 'Template' records are the vital components used to set the design of the webpages. No matter how (almost) you would like to build your website, it must be initiated by a 'Template' record placed in the root of the page tree of the site.
+Basically, create a 'Template' record, enter a title and make sure to check of Clear constants, setup and Rootline. Then enter some TypoScript configuration in the Setup field and you're set.
+It's very important to read how to do all this in the documents listed below! Also make sure you use the Web&gt;Template module to do all the working with templates. It's a specialized tool to help you with this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

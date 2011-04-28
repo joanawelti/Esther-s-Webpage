@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="tables">Töflur:</label>
+			<label index="fixLostRecord">Smelltu til að flytja þessa færslu niður á neðsta lag (pid=0)</label>
+			<label index="doktype">Tegundir:</label>
+			<label index="pages">Síður:</label>
+			<label index="total_pages">Fjöldi síða:</label>
+			<label index="deleted_pages">Eyddar síður</label>
+			<label index="hidden_pages">Faldar síður:</label>
+			<label index="relations">Tengsl:</label>
+			<label index="relations_description">Þetta tól mun athuga innihald tafla í gagnagrunninum og leita að tómum tengslum milli færsla og skráa í skráarstjórnum. Tólið mun láta vita ef skrár vantar í skráarstjórann.</label>
+			<label index="files_many_ref">Skrár notaðar í fleiri en einni færslu:</label>
+			<label index="files_no_ref">Skrár sem ekki eru notaðar (og ætti helst að eyða)</label>
+			<label index="files_no_file">Týndar skrár:</label>
+			<label index="select_db">Merktir reitir:</label>
+			<label index="group_db">Hópa saman reiti:</label>
+			<label index="tree">Veftré:</label>
+			<label index="tree_description">Þetta tól sýnir allar síður í kerfinu í einu stóru veftré. Athugið að tólið mun að öllum líkindum sýna mjög langa síðu og þar af leiðandi taka nokkurn tíma að hlaða henni.</label>
+			<label index="records">Tölfræði fyrir gagnafærslur:</label>
+			<label index="records_description">Þetta tól sýnir tölfræði fyrir færslur í gagnagrunninum. Tólið leitar gegn um allt veftréð og mun þess vegna vera baggi á vinnslu vefþjónsins um stundar sakir.</label>
+			<label index="search">Leita í öllum gagnagrunninum</label>
+			<label index="search_description">Með þessu tóli er hægt að leita í öllum töflum og færslum gagnagrunnsins</label>
+			<label index="filesearch">Leita í skráarnöfnum (Með RegEx)</label>
+			<label index="filesearch_description">Með þessu tóli er hægt að leita að skrá einhverstaðar á vefnum, ekki bara í skráarstjórnaum. Þú þarft að kunna á &quot;Regular Expressions&quot; til að geta notað þetta tól.</label>
+			<label index="refindex">Leita að og uppfæra tengsl</label>
+			<label index="refindex_description">Þetta tól er notað til að viðhalda tengslaskrá TYPO3</label>
+			<label index="title">Reyna innri byggingu gagnagrunns (integrity check)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="tables" type="integer">267355363</label>
+			<label index="fixLostRecord" type="integer">264598103</label>
+			<label index="doktype" type="integer">59646372</label>
+			<label index="pages" type="integer">9915692</label>
+			<label index="total_pages" type="integer">120516512</label>
+			<label index="deleted_pages" type="integer">251989828</label>
+			<label index="hidden_pages" type="integer">56221326</label>
+			<label index="relations" type="integer">158458960</label>
+			<label index="relations_description" type="integer">98163255</label>
+			<label index="files_many_ref" type="integer">253873964</label>
+			<label index="files_no_ref" type="integer">51429792</label>
+			<label index="files_no_file" type="integer">103076812</label>
+			<label index="select_db" type="integer">222215195</label>
+			<label index="group_db" type="integer">89872761</label>
+			<label index="tree" type="integer">254322778</label>
+			<label index="tree_description" type="integer">13437987</label>
+			<label index="records" type="integer">107937849</label>
+			<label index="records_description" type="integer">36151804</label>
+			<label index="search" type="integer">201691087</label>
+			<label index="search_description" type="integer">44447557</label>
+			<label index="filesearch" type="integer">138409460</label>
+			<label index="filesearch_description" type="integer">206400326</label>
+			<label index="refindex" type="integer">67579080</label>
+			<label index="refindex_description" type="integer">26536462</label>
+			<label index="title" type="integer">152428276</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="tables">Tables:</label>
+			<label index="fixLostRecord">Click to move this lost record to rootlevel (pid=0)</label>
+			<label index="doktype">Document types:</label>
+			<label index="pages">Pages:</label>
+			<label index="total_pages">Total number of pages:</label>
+			<label index="deleted_pages">Marked-deleted pages:</label>
+			<label index="hidden_pages">Hidden pages:</label>
+			<label index="relations">Relations:</label>
+			<label index="relations_description">This will analyse the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</label>
+			<label index="files_many_ref">Files referenced from more than one record:</label>
+			<label index="files_no_ref">Files with no references at all (delete them!):</label>
+			<label index="files_no_file">Missing files:</label>
+			<label index="select_db">Select fields:</label>
+			<label index="group_db">Group fields:</label>
+			<label index="tree">The Page Tree:</label>
+			<label index="tree_description">This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</label>
+			<label index="records">Records Statistics:</label>
+			<label index="records_description">This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</label>
+			<label index="search">Search Whole Database</label>
+			<label index="search_description">This searches through all database tables and records for a text string.</label>
+			<label index="filesearch">Search all filenames for pattern</label>
+			<label index="filesearch_description">Will search recursively for filenames in the PATH_site (subdirs to the website path) matching a certain regex pattern.</label>
+			<label index="refindex">Check and update global reference index</label>
+			<label index="refindex_description">Allows you to maintain the reference index kept by TYPO3.</label>
+			<label index="title">Database integrity check</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

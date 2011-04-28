@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description">Szablony statyczne są centralnie dystrybuowaną biblioteką TypoScript. Nigdy nie powinieneś zmieniać ich zawartości.</label>
+			<label index="title.description">Tytuł szablonu. Będzie widoczny w liście szablonów statycznych rekordów szablonów.</label>
+			<label index="constants.description">Pole stałych TypoScript.</label>
+			<label index="config.description">Pole ustawień TypoScript</label>
+			<label index="include_static.description">Wstawienie innych szablnów statycznych.</label>
+			<label index="description.description">Opis rekordu szablonu statycznego.</label>
+			<label index="editorcfg.description">Konfiguracja edytora - używana do skonfigurowania edytora stylów CSS.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description" type="integer">141335854</label>
+			<label index="title.description" type="integer">109933303</label>
+			<label index="constants.description" type="integer">223175493</label>
+			<label index="config.description" type="integer">111115390</label>
+			<label index="include_static.description" type="integer">40219504</label>
+			<label index="description.description" type="integer">118570401</label>
+			<label index="editorcfg.description" type="integer">242715050</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description">Static templates are a centrally distributed TypoScript library. You should never change these values.</label>
+			<label index="title.description">Template Title. Will be visible in the list of static templates in Template Records</label>
+			<label index="constants.description">TypoScript Constants field</label>
+			<label index="config.description">TypoScript Setup code field</label>
+			<label index="include_static.description">Inclusion of other static templates</label>
+			<label index="description.description">Description of the static template record.</label>
+			<label index="editorcfg.description">Editor Configuration - used to configure Stylesheet editor.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

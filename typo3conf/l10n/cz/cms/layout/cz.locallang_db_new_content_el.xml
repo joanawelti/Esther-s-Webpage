@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="sel1">Zvolte si prosím, jaký druh obsahu stránky chcete vytvořit:</label>
+			<label index="sel2">Nyní klikněte na pozici, kde chcete umístit prvek na stránce:</label>
+			<label index="common">Typický obsah stránky</label>
+			<label index="common_regularText_title">Běžný textový prvek</label>
+			<label index="common_regularText_description">Běžný textový prvek s poli hlavička a článek.</label>
+			<label index="common_textImage_title">Text s obrázky</label>
+			<label index="common_textImage_description">Libovolný počet obrázků umístěných vpravo a obtečených běžným textovým prvkem.</label>
+			<label index="common_imagesOnly_title">Pouze obrázky</label>
+			<label index="common_imagesOnly_description">Libovolný počet obrázků zarovnaný ve sloupcích a řádcích s titulky.</label>
+			<label index="common_bulletList_title">Odrážkový seznam</label>
+			<label index="common_bulletList_description">Jeden odrážkový seznam.</label>
+			<label index="common_table_title">Tabulka</label>
+			<label index="common_table_description">Jednoduchá tabulka s až 8 řádky.</label>
+			<label index="special">Speciální prvky</label>
+			<label index="special_filelinks_title">Odkazy na soubory</label>
+			<label index="special_filelinks_description">Vytvoří seznam souborů ke stažení.</label>
+			<label index="special_multimedia_title">Multimédia</label>
+			<label index="special_multimedia_description">Vloží multimediální objekt jako třeba Flash animaci, zvukový soubor nebo videoklip.</label>
+			<label index="special_sitemap_title">Mapa webu</label>
+			<label index="special_sitemap_description">Vytvoří mapu webu pro websajt.</label>
+			<label index="special_plainHTML_title">Prostý HTML</label>
+			<label index="special_plainHTML_description">S tímto prvkem můžete vkládat do schránky surový kód HTML.</label>
+			<label index="forms">Formulářové prvky</label>
+			<label index="forms_mail_title">E-mailový formulář</label>
+			<label index="forms_mail_description">E-mailový formulář umožní uživatelům webu odesílat reakce.</label>
+			<label index="forms_search_title">Vyhledávací formulář</label>
+			<label index="forms_search_description">Vloží vyhledávací formulář a výsledek hledání, pokud toto proběhne.</label>
+			<label index="forms_login_title">Přihlašovací formulář</label>
+			<label index="forms_login_description">Přihlašovací a odhlašovací formulář používaný pro přístup ke stránkám chráněným heslem a umožňující přístup pouze autorizovaným uživatelům a skupinám websajtu.</label>
+			<label index="plugins">Doplňky</label>
+			<label index="plugins_general_title">Obecný doplněk</label>
+			<label index="plugins_general_description">Vyberte tento typ prvku pro vložení doplňku, který neodpovídá ani jedné z možností dole.</label>
+			<label index="common_1_title">Běžný textový prvek</label>
+			<label index="common_1_description">Běžný textový prvek s nadpisem a statí.</label>
+			<label index="common_2_title">Text s obrázkem dole</label>
+			<label index="common_2_description">Běžný textový prvek s polem, které může obsahovat jakýkoliv počet obrázků, které jsou umístěny pod textem.</label>
+			<label index="common_3_title">Text s obrázkem vpravo</label>
+			<label index="common_3_description">Stejně jako nahoře, ale obrázky jsou umístěny napravo od textu a text je obtéká.</label>
+			<label index="common_4_title">Jen obrázky</label>
+			<label index="common_4_description">Jakýkoliv počet obrázků zarovnaný do sloupců a řad s popisky. Jako u možností obrázků nahoře, ale bez textu.</label>
+			<label index="common_5_title">Výčet</label>
+			<label index="common_5_description">Jednoduchý výčet.</label>
+			<label index="common_6_title">Tabulka</label>
+			<label index="common_6_description">Jednoduchá tabulka až s osmi sloupci.</label>
+			<label index="special_1_title">Odkazy na soubory</label>
+			<label index="special_1_description">Vytvoří seznam souborů ke stažení.</label>
+			<label index="special_2_title">Multimédia</label>
+			<label index="special_2_description">Vloží multimediální prvek: Flash animaci, zvukový soubor nebo videoklip.</label>
+			<label index="special_3_title">Mapa webu</label>
+			<label index="special_3_description">Vytvoří mapu webu.</label>
+			<label index="special_4_title">Prostý HTML</label>
+			<label index="special_4_description">S tímto prvkem můžete vkládat do stránky neupravený kód HTML.</label>
+			<label index="forms_1_title">E-mailový formulář</label>
+			<label index="forms_1_description">E-mailový formulář, jehož prostřednictvím mohou uživatelé webu odesílat své reakce.</label>
+			<label index="forms_2_title">Vyhledávací formulář</label>
+			<label index="forms_2_description">Vytvoří vyhledávací formulář a výsledky vyhledávání, je-li použito.</label>
+			<label index="forms_3_title">Přihlašovací formulář (login)</label>
+			<label index="forms_3_description">Formulář pro přihlášení/odhlášení uživatelů webu. Lze použít pro ochranu stran heslem. Pro jeho úspěšnou funkci musíte vytvořit také uživatele a skupiny.</label>
+			<label index="plugins_1_title">Obecný doplněk</label>
+			<label index="plugins_1_description">Vyberte tento typ prvku pro vložení doplňku, který není zobrazen v možnostech dole.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="sel1" type="integer">125258284</label>
+			<label index="sel2" type="integer">142688057</label>
+			<label index="common" type="integer">57063941</label>
+			<label index="common_1_title" type="integer">134955826</label>
+			<label index="common_1_description" type="integer">29135748</label>
+			<label index="common_2_title" type="integer">153490096</label>
+			<label index="common_2_description" type="integer">57288467</label>
+			<label index="common_3_title" type="integer">13066984</label>
+			<label index="common_3_description" type="integer">49907931</label>
+			<label index="common_4_title" type="integer">62677049</label>
+			<label index="common_4_description" type="integer">232160004</label>
+			<label index="common_5_title" type="integer">88917113</label>
+			<label index="common_5_description" type="integer">136121208</label>
+			<label index="common_6_title" type="integer">85738935</label>
+			<label index="common_6_description" type="integer">145590635</label>
+			<label index="special" type="integer">183531399</label>
+			<label index="special_1_title" type="integer">23062602</label>
+			<label index="special_1_description" type="integer">154390211</label>
+			<label index="special_2_title" type="integer">49638223</label>
+			<label index="special_2_description" type="integer">87627445</label>
+			<label index="special_3_title" type="integer">92355808</label>
+			<label index="special_3_description" type="integer">36006628</label>
+			<label index="special_4_title" type="integer">238583373</label>
+			<label index="special_4_description" type="integer">92097111</label>
+			<label index="forms" type="integer">14172094</label>
+			<label index="forms_1_title" type="integer">173513512</label>
+			<label index="forms_1_description" type="integer">194025956</label>
+			<label index="forms_2_title" type="integer">184654558</label>
+			<label index="forms_2_description" type="integer">71325784</label>
+			<label index="forms_3_title" type="integer">149378624</label>
+			<label index="forms_3_description" type="integer">191931555</label>
+			<label index="plugins" type="integer">196313238</label>
+			<label index="plugins_1_title" type="integer">188310073</label>
+			<label index="plugins_1_description" type="integer">104752280</label>
+			<label index="common_regularText_title" type="integer">134955826</label>
+			<label index="common_regularText_description" type="integer">29135748</label>
+			<label index="common_textImage_title" type="integer">9972609</label>
+			<label index="common_textImage_description" type="integer">143238382</label>
+			<label index="common_imagesOnly_title" type="integer">62677049</label>
+			<label index="common_imagesOnly_description" type="integer">232160004</label>
+			<label index="common_bulletList_title" type="integer">88917113</label>
+			<label index="common_bulletList_description" type="integer">136121208</label>
+			<label index="common_table_title" type="integer">85738935</label>
+			<label index="common_table_description" type="integer">145590635</label>
+			<label index="special_filelinks_title" type="integer">23062602</label>
+			<label index="special_filelinks_description" type="integer">154390211</label>
+			<label index="special_multimedia_title" type="integer">49638223</label>
+			<label index="special_multimedia_description" type="integer">87627445</label>
+			<label index="special_sitemap_title" type="integer">92355808</label>
+			<label index="special_sitemap_description" type="integer">36006628</label>
+			<label index="special_plainHTML_title" type="integer">238583373</label>
+			<label index="special_plainHTML_description" type="integer">92097111</label>
+			<label index="forms_mail_title" type="integer">173513512</label>
+			<label index="forms_mail_description" type="integer">194025956</label>
+			<label index="forms_search_title" type="integer">184654558</label>
+			<label index="forms_search_description" type="integer">71325784</label>
+			<label index="forms_login_title" type="integer">149378624</label>
+			<label index="forms_login_description" type="integer">191931555</label>
+			<label index="plugins_general_title" type="integer">188310073</label>
+			<label index="plugins_general_description" type="integer">104752280</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="plugins_1_title">General Plugin</label>
+			<label index="plugins_1_description">Select this element type to insert a plugin which cannot be found amongst the options below.</label>
+			<label index="sel1">Please select the type of page content you wish to create:</label>
+			<label index="sel2">Now, click the position where you wish to place the element on the page:</label>
+			<label index="common">Typical page content</label>
+			<label index="common_1_title">Regular text element</label>
+			<label index="common_1_description">A regular text element with header and bodytext fields.</label>
+			<label index="common_2_title">Text with image below</label>
+			<label index="common_2_description">A regular text element which can contain any number of images positioned below the text</label>
+			<label index="common_3_title">Text with image to the right</label>
+			<label index="common_3_description">As above but with text wrapped around a right aligned image.</label>
+			<label index="common_4_title">Images only</label>
+			<label index="common_4_description">Any number of images aligned in columns and rows with a caption.</label>
+			<label index="common_5_title">Bullet list</label>
+			<label index="common_5_description">A single bullet list.</label>
+			<label index="common_6_title">Table</label>
+			<label index="common_6_description">A simple table with up to 8 columns.</label>
+			<label index="special">Special elements</label>
+			<label index="special_1_title">Filelinks</label>
+			<label index="special_1_description">Makes a list of files for download.</label>
+			<label index="special_2_title">Multimedia</label>
+			<label index="special_2_description">Inserts a media element like a Flash animation, audio file or video clip.</label>
+			<label index="special_3_title">Sitemap</label>
+			<label index="special_3_description">Creates a sitemap of the website.</label>
+			<label index="special_4_title">Plain HTML</label>
+			<label index="special_4_description">With this element you can insert raw HTML code on the page.</label>
+			<label index="forms">Form elements</label>
+			<label index="forms_1_title">Mail form</label>
+			<label index="forms_1_description">A mail form allowing website users to submit responses.</label>
+			<label index="forms_2_title">Search form</label>
+			<label index="forms_2_description">Draws a search form and the searchresult if a search is performed.</label>
+			<label index="forms_3_title">Login form</label>
+			<label index="forms_3_description">Login/logout form used to password protect pages allowing only authorised website users and groups access.</label>
+			<label index="plugins">Plugins</label>
+			<label index="common_regularText_title">Regular text element</label>
+			<label index="common_regularText_description">A regular text element with header and bodytext fields.</label>
+			<label index="common_textImage_title">Text with image</label>
+			<label index="common_textImage_description">Any number of images wrapped right around a regular text element.</label>
+			<label index="common_imagesOnly_title">Images only</label>
+			<label index="common_imagesOnly_description">Any number of images aligned in columns and rows with a caption.</label>
+			<label index="common_bulletList_title">Bullet list</label>
+			<label index="common_bulletList_description">A single bullet list.</label>
+			<label index="common_table_title">Table</label>
+			<label index="common_table_description">A simple table with up to 8 columns.</label>
+			<label index="special_filelinks_title">Filelinks</label>
+			<label index="special_filelinks_description">Makes a list of files for download.</label>
+			<label index="special_multimedia_title">Multimedia</label>
+			<label index="special_multimedia_description">Inserts a media element like a Flash animation, audio file or video clip.</label>
+			<label index="special_sitemap_title">Sitemap</label>
+			<label index="special_sitemap_description">Creates a sitemap of the website.</label>
+			<label index="special_plainHTML_title">Plain HTML</label>
+			<label index="special_plainHTML_description">With this element you can insert raw HTML code on the page.</label>
+			<label index="forms_mail_title">Mail form</label>
+			<label index="forms_mail_description">A mail form allowing website users to submit responses.</label>
+			<label index="forms_search_title">Search form</label>
+			<label index="forms_search_description">Draws a search form and the searchresult if a search is performed.</label>
+			<label index="forms_login_title">Login form</label>
+			<label index="forms_login_description">Login/logout form used to password protect pages allowing only authorised website users and groups access.</label>
+			<label index="plugins_general_title">General Plugin</label>
+			<label index="plugins_general_description">Select this element type to insert a plugin which cannot be found amongst the options below.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="rte_undoLastChange">Laatste wijziging ongedaan maken/opnieuw (%s geleden)</label>
+			<label index="tsprop">TypoScript eigenschappen (naslag)</label>
+			<label index="tsprop_TSref">TSref online</label>
+			<label index="tsprop_tsconfig">TSconfig online</label>
+			<label index="tsprop_title">Objecttitel</label>
+			<label index="tsprop_prefix">Objectvoorvoegsel</label>
+			<label index="tsprop_mixer_indent">Inspringen +2</label>
+			<label index="tsprop_mixer_outdent">Terugspringen -2</label>
+			<label index="tsprop_mixer_wrap">Omsluiten</label>
+			<label index="tsprop_mixer_transfer">Overdragen &amp; Sluiten</label>
+			<label index="tsprop_addToList">Toevoegen aan lijst...</label>
+			<label index="table_title">Tabelassistent</label>
+			<label index="table_smallFields">Kleine velden</label>
+			<label index="table_addColumn">Kolom rechts toevoegen</label>
+			<label index="table_removeColumn">Verwijder kolom</label>
+			<label index="table_addRow">Rij onder toevoegen</label>
+			<label index="table_removeRow">Rij verwijderen</label>
+			<label index="table_left">Verplaats naar links</label>
+			<label index="table_right">Verplaats naar rechts</label>
+			<label index="table_up">Verplaats naar boven</label>
+			<label index="table_down">Verplaats naar onderen</label>
+			<label index="table_top">Verplaats naar boven</label>
+			<label index="table_bottom">Verplaats naar beneden</label>
+			<label index="table_start">Verplaats naar eerste kolom</label>
+			<label index="table_end">Verplaats naar laatste kolom</label>
+			<label index="table_noData">Geen tabel, veld of uid aangegeven</label>
+			<label index="forms_title">Formulierassistent</label>
+			<label index="forms_refresh">Vernieuwen zonder opslaan</label>
+			<label index="forms_label">Label</label>
+			<label index="forms_type">Type</label>
+			<label index="forms_type_textarea">Tekstveld</label>
+			<label index="forms_type_input">Invulveld</label>
+			<label index="forms_type_password">Wachtwoordveld</label>
+			<label index="forms_type_file">Bestandsupload</label>
+			<label index="forms_type_check">Checkbox</label>
+			<label index="forms_type_select">Selectbox</label>
+			<label index="forms_type_radio">Radioknoppen</label>
+			<label index="forms_type_hidden">Verborgen waarde</label>
+			<label index="forms_type_submit">Submit knop</label>
+			<label index="forms_type_property">Eigenschap</label>
+			<label index="forms_type_label">Label</label>
+			<label index="forms_required">Verplicht</label>
+			<label index="forms_fieldName">Veld</label>
+			<label index="forms_cols">Kolommen</label>
+			<label index="forms_rows">Rijen</label>
+			<label index="forms_size">Grootte</label>
+			<label index="forms_max">Max</label>
+			<label index="forms_autosize">Automatisch aanpassen</label>
+			<label index="forms_extra">Niet afbreken</label>
+			<label index="forms_default">Waarde</label>
+			<label index="forms_multiple">Meervoudig</label>
+			<label index="forms_options">Opties tonen</label>
+			<label index="forms_checked">Gemarkeerd</label>
+			<label index="forms_preview">Voortonen van element</label>
+			<label index="forms_element">Element type</label>
+			<label index="forms_config">Gedetailleerde configuratie</label>
+			<label index="forms_eform_subject">Betreft</label>
+			<label index="forms_eform_recipient">Emailadres ontvanger</label>
+			<label index="forms_eform_html_enabled">HTML-Modus geactiveerd</label>
+			<label index="forms_eform_formtype_mail">Verstuurknop label</label>
+			<label index="forms_special_eform">Speciale configuratie voor emailformulieren</label>
+			<label index="colorpicker_title">Kleur kiezer</label>
+			<label index="colorpicker_setClose">Opslaan en Sluiten</label>
+			<label index="colorpicker_colorValue">Geselecteerde Kleur:</label>
+			<label index="colorpicker_fromImage">Kies kleur uit afbeelding (klik op afbeelding):</label>
+			<label index="colorpicker_fromMatrix">Select kleur uit de matrix (web-veilige kleuren):</label>
+			<label index="colorpicker_fromList">Selecteer HTML kleur naam:</label>
+			<label index="colorpicker_black">ZWART</label>
+			<label index="colorpicker_white">WIT</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="rte_undoLastChange" type="integer">109787245</label>
+			<label index="tsprop" type="integer">45073770</label>
+			<label index="tsprop_TSref" type="integer">119834162</label>
+			<label index="tsprop_tsconfig" type="integer">243384557</label>
+			<label index="tsprop_title" type="integer">172299654</label>
+			<label index="tsprop_prefix" type="integer">35102440</label>
+			<label index="tsprop_mixer_indent" type="integer">48148976</label>
+			<label index="tsprop_mixer_outdent" type="integer">36140827</label>
+			<label index="tsprop_mixer_wrap" type="integer">169945881</label>
+			<label index="tsprop_mixer_transfer" type="integer">47301371</label>
+			<label index="tsprop_addToList" type="integer">135970903</label>
+			<label index="table_title" type="integer">252535019</label>
+			<label index="table_smallFields" type="integer">116673870</label>
+			<label index="table_addColumn" type="integer">4457870</label>
+			<label index="table_removeColumn" type="integer">5198593</label>
+			<label index="table_addRow" type="integer">240730244</label>
+			<label index="table_removeRow" type="integer">253938706</label>
+			<label index="table_left" type="integer">234587254</label>
+			<label index="table_right" type="integer">195367589</label>
+			<label index="table_up" type="integer">259501942</label>
+			<label index="table_down" type="integer">232386759</label>
+			<label index="table_top" type="integer">120043265</label>
+			<label index="table_bottom" type="integer">181578777</label>
+			<label index="table_start" type="integer">192358879</label>
+			<label index="table_end" type="integer">140964884</label>
+			<label index="table_noData" type="integer">166317379</label>
+			<label index="forms_title" type="integer">202256935</label>
+			<label index="forms_refresh" type="integer">17773422</label>
+			<label index="forms_label" type="integer">184688118</label>
+			<label index="forms_type" type="integer">169845367</label>
+			<label index="forms_type_textarea" type="integer">135041913</label>
+			<label index="forms_type_input" type="integer">163951494</label>
+			<label index="forms_type_password" type="integer">185890512</label>
+			<label index="forms_type_file" type="integer">205677908</label>
+			<label index="forms_type_check" type="integer">35664037</label>
+			<label index="forms_type_select" type="integer">189682630</label>
+			<label index="forms_type_radio" type="integer">146641062</label>
+			<label index="forms_type_hidden" type="integer">122270803</label>
+			<label index="forms_type_submit" type="integer">71911650</label>
+			<label index="forms_required" type="integer">191176445</label>
+			<label index="forms_fieldName" type="integer">116484703</label>
+			<label index="forms_cols" type="integer">23640109</label>
+			<label index="forms_rows" type="integer">87094408</label>
+			<label index="forms_size" type="integer">116837234</label>
+			<label index="forms_max" type="integer">111173937</label>
+			<label index="forms_autosize" type="integer">219459941</label>
+			<label index="forms_extra" type="integer">60246377</label>
+			<label index="forms_default" type="integer">109649956</label>
+			<label index="forms_multiple" type="integer">168554857</label>
+			<label index="forms_options" type="integer">117958823</label>
+			<label index="forms_checked" type="integer">40007223</label>
+			<label index="forms_preview" type="integer">17911285</label>
+			<label index="forms_element" type="integer">144583413</label>
+			<label index="forms_config" type="integer">46269441</label>
+			<label index="forms_eform_subject" type="integer">209228523</label>
+			<label index="forms_eform_recipient" type="integer">9763756</label>
+			<label index="forms_eform_html_enabled" type="integer">15828015</label>
+			<label index="forms_eform_formtype_mail" type="integer">113492555</label>
+			<label index="forms_special_eform" type="integer">236376464</label>
+			<label index="forms_type_property" type="integer">95232844</label>
+			<label index="forms_type_label" type="integer">184688118</label>
+			<label index="colorpicker_title" type="integer">90157489</label>
+			<label index="colorpicker_setClose" type="integer">253538544</label>
+			<label index="colorpicker_colorValue" type="integer">54418585</label>
+			<label index="colorpicker_fromImage" type="integer">45057637</label>
+			<label index="colorpicker_fromMatrix" type="integer">40876189</label>
+			<label index="colorpicker_fromList" type="integer">120567904</label>
+			<label index="colorpicker_black" type="double">9240594</label>
+			<label index="colorpicker_white" type="integer">190576167</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

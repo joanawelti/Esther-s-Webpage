@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="removeLink">Odstráň odkaz</label>
+			<label index="uploadImage">Natiahni obrázok</label>
+			<label index="update">Aktualizuj</label>
+			<label index="path">Cesta</label>
+			<label index="page">Stránka</label>
+			<label index="file">Súbor</label>
+			<label index="extUrl">Externá URL</label>
+			<label index="email">E-mail</label>
+			<label index="special">Špeciálny</label>
+			<label index="folderTree">Strom zložiek</label>
+			<label index="files">Súbory</label>
+			<label index="target">Cieľ</label>
+			<label index="target_popUpWindow">Otvoriť v novom okne</label>
+			<label index="target_popUpWindow_width">Šírka</label>
+			<label index="target_popUpWindow_height">Výška</label>
+			<label index="anchor_class">Štýl</label>
+			<label index="anchor_title">Nadpis</label>
+			<label index="newWindow">Nové okno</label>
+			<label index="top">Nahor</label>
+			<label index="none">Žiaden - nový odkaz!</label>
+			<label index="pageTree">Strom stránok</label>
+			<label index="contentElements">Prvky obsahu</label>
+			<label index="selectRecords">Vyber záznamy</label>
+			<label index="addToList">Pridať do zoznamu ...</label>
+			<label index="info">Info</label>
+			<label index="emailAddress">E-mailová adresa</label>
+			<label index="setLink">Nastaviť odkaz</label>
+			<label index="clickToRedrawFullSize">Obrázok je väčší ako je tu zobrazené! Klikni na jeho prekreslenie v úplnej velkosti.</label>
+			<label index="findDragDrop">Nájdi si tvoj obrázok, potom naňho klikni a presuň ho na editor v hlavnom okne!</label>
+			<label index="noWebFolder">Nemôžeš presúvať obrázky z tejto zložky (žltej), pretože je to interná zložka na serveri.</label>
+			<label index="currentLink">Súčasný odkaz</label>
+			<label index="invalidChar">CHYBA: Bol nájdený nesprávny znak na súborovej ceste (%s). Nie je možné pridať súbor!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="target_popUpWindow" type="integer">21986240</label>
+			<label index="target_popUpWindow_width" type="integer">53040229</label>
+			<label index="target_popUpWindow_height" type="integer">250375243</label>
+			<label index="anchor_class" type="integer">182617337</label>
+			<label index="anchor_title" type="integer">192455458</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+			<label index="invalidChar" type="integer">103011900</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,79 @@
+temp.MenuOben = HMENU
+temp.MenuOben {     
+        special = directory
+        special.value = 1
+	maxItems = 5
+        excludeUidList = 
+        wrap = |
+        # Hauptmenue
+1 = TMENU
+1 {
+  noBlur = 1
+  wrap = <ul>|</ul>
+  expAll = 1
+  NO {
+     ATagTitle.field = subtitle//title
+     wrapItemAndSub = <li>|</li>
+     ATagParams = accesskey="1"||accesskey="2"||accesskey="3"||accesskey="4"||accesskey="5"||
+     }
+   ACT = 1
+   ACT {
+	ATagParams = class="level1-act"
+        wrapItemAndSub = <li>|</li>
+	ATagTitle.field = description // title
+	}
+
+   IFSUB = 1
+   IFSUB {
+         ATagTitle.field = subtitle//title
+         wrapItemAndSub = <li>|</li>
+         ATagParams = class="ifsub" accesskey="1"||class="ifsub" accesskey="2"||class="ifsub" accesskey="3"||class="ifsub" accesskey="4"||class="ifsub" accesskey="5"||
+         allWrap = |<!--<![endif]-->
+         linkWrap = |<!--[if IE 7]><!-->
+         ATagBeforeWrap = 1
+         }
+   ACTIFSUB = 1
+   ACTIFSUB < .IFSUB
+   ACTIFSUB {
+         wrapItemAndSub = <li>|</li>	
+	     ATagParams = class="level1-actifsub" accesskey="1"||class="level1-actifsub" accesskey="2"||class="level1-actifsub" accesskey="3"||class="level1-actifsub" accesskey="4"||class="level1-actifsub" accesskey="5"||
+         allWrap = |<!--<![endif]-->
+         linkWrap = |<!--[if IE 7]><!-->
+         ATagBeforeWrap = 1
+	    }
+}
+
+2 = TMENU
+2 {
+  noBlur = 1
+  wrap = <table><tr><td><ul>|</ul></td></tr></table><!--[if lte IE 6]></a><![endif]-->
+  expAll = 1
+NO {
+    ATagTitle.field = subtitle//title
+    wrapItemAndSub = <li> | </li>
+  }
+  ACT = 1
+  ACT {
+  ATagParams = class="level2-act"
+  ATagTitle.field = description // title
+  wrapItemAndSub = <li> | </li>
+      }
+
+IFSUB = 1
+IFSUB {
+	ATagTitle.field = subtitle//title
+	wrapItemAndSub = <li> | </li>
+	allWrap = |<!--<![endif]-->
+	linkWrap = |<!--[if IE 7]><!-->
+	ATagBeforeWrap = 1
+        ATagParams = 
+      }
+         ACTIFSUB = 1
+         ACTIFSUB < .IFSUB
+         ACTIFSUB {	
+		  ATagParams = class="level2-act"
+		  }
+ }
+3 < .2
+4 < .2
+}

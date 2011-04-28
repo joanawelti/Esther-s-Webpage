@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description">Cochez cette boîte si vous souhaitez empêcher l'affichage de cet élément .</label>
+			<label index="starttime.description">Entrez la date à partir de laquelle l'élément sera visible.</label>
+			<label index="endtime.description">Entrez la date à partir de laquelle l'élément disparaîtra du site.</label>
+			<label index="fe_group.description">Choisissez un groupe d'utilisateurs Website qui est exclusivement autorisé à visualiser l'élément.</label>
+			<label index="sys_language_uid.description">Choisissez la langue système de cet élément. &lt;strong&gt;Notez&lt;/strong&gt; que ceci affectera l'élément que s'il est visible.</label>
+			<label index="layout.description">Choisissez une mise-en-pages.</label>
+			<label index="date.description">Entrez la date qui sera affichée au-dessus du titre.</label>
+			<label index="header.description">Écrivez un titre pour cet élément.</label>
+			<label index="bodytext.description">Entrez le corps du texte.</label>
+			<label index="text_size.description">Choisissez la taille de police pour le corps du texte.</label>
+			<label index="imagewidth.description">Entrez la largeur de l'image en pixel.</label>
+			<label index="imageheight.description">Entrez la hauteur de l'image en pixel.</label>
+			<label index="imageborder.description">Cochez cette case, si vous souhaitez attribuer une bordure de couleur aux images.</label>
+			<label index="image_link.description">Ajouter un lien aux images.</label>
+			<label index="image_compression.description">Choisissez les options de compression/qualité.</label>
+			<label index="pages.description">Insérez page(s)</label>
+			<label index="menu_type.description">Choisissez le type de menu que vous souhaitez créer.</label>
+			<label index="list_type.description">Choisissez un plugin à insérer.</label>
+			<label index="filelink_size.description">Cochez cette case, si vous souhaitez que la taille des fichiers soit affichée.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description" type="integer">25976972</label>
+			<label index="starttime.description" type="integer">77152936</label>
+			<label index="endtime.description" type="integer">186022731</label>
+			<label index="fe_group.description" type="integer">12088306</label>
+			<label index="sys_language_uid.description" type="integer">83193306</label>
+			<label index="layout.description" type="integer">228016604</label>
+			<label index="date.description" type="integer">172838477</label>
+			<label index="header.description" type="integer">258566451</label>
+			<label index="bodytext.description" type="integer">16432077</label>
+			<label index="text_size.description" type="integer">229916089</label>
+			<label index="imagewidth.description" type="integer">158161907</label>
+			<label index="imageheight.description" type="integer">114105674</label>
+			<label index="imageborder.description" type="integer">50620620</label>
+			<label index="image_link.description" type="integer">249648538</label>
+			<label index="image_compression.description" type="integer">8480021</label>
+			<label index="pages.description" type="integer">57504831</label>
+			<label index="menu_type.description" type="integer">78467976</label>
+			<label index="list_type.description" type="integer">72710976</label>
+			<label index="filelink_size.description" type="integer">167875412</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description">Check this box if you wish to hide the content element from being displayed.</label>
+			<label index="starttime.description">Enter the date from which the content element will be visible.</label>
+			<label index="endtime.description">Enter the date from which the content element will disappear from the website.</label>
+			<label index="fe_group.description">Select a Website usergroup which is exclusively allowed to view the element.</label>
+			<label index="sys_language_uid.description">Select the system language of this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="layout.description">Select a layout.</label>
+			<label index="date.description">Enter a date to be displayed above the header.</label>
+			<label index="header.description">Enter a headline for the content element.</label>
+			<label index="bodytext.description">Enter the body text.</label>
+			<label index="text_size.description">Select a font size for the body text.</label>
+			<label index="imagewidth.description">Enter the width in pixels of the image.</label>
+			<label index="imageheight.description">Enter the height of the image in pixels.</label>
+			<label index="imageborder.description">Check this, if you wish a colored border around the images.</label>
+			<label index="image_link.description">Enter a link for the images.</label>
+			<label index="image_compression.description">Select compression/quality options.</label>
+			<label index="pages.description">Insert page(s)</label>
+			<label index="menu_type.description">Select which kind of menu you wish to create.</label>
+			<label index="list_type.description">Select a plugin to insert.</label>
+			<label index="filelink_size.description">Check this, if you wish the filesizes to be displayed.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

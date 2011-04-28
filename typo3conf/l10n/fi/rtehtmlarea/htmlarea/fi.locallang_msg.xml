@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="Path">Polku</label>
+			<label index="TEXT_MODE">Olet TEXT MODE tilassa. Käytä [&lt;&gt;] näppäintä siirtyksesi takaisin WYSIWYG tilaan.</label>
+			<label index="ActiveX-required">Ladattaessa muokkain Internet Exploreriin tulee ActiveX kontrollien suorittamisen olevan sallittuja.</label>
+			<label index="HTML-document-not-well-formed">HTML dokumentti ei ole oikein muotoiltu.</label>
+			<label index="Moz-Clipboard">Etuoikeudettomat skriptit eivät voi käyttää leikkaa/kopioi/liitä toimintoja ohjelmallisesti turvallisuussyistä. Näpsäytä OKta nähdäksesi teknisen huomautuksen mozilla.org sivuilla, joka näyttää sinulle kuinka voit sallia skriptin käyttävän leikepöytää.</label>
+			<label index="Moz-Extension">Turvallisuud syistä, eivät etuoikeudettomat sovellukset saa käyttää leikepöytää. Näpsäytä OK asentaaksesi komponentin joka oikeuttaa sovellutusten käyttää tätä Typo3 sivustoa leikepöydän käsittelyssä ja suoritta kopiointi, leikkaa ja liitä komentoja.</label>
+			<label index="Moz-Extension-Success">Installointi onnistui. Sinun tulee käynnistää selain uudestaan, jotta muutokset tulisivat voimaan.</label>
+			<label index="Moz-Extension-Failure">Valitan, installointi epäonnistui.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Installointia ei voida suorittaa. Ole ystävällinen ja muuta selaimesi oletuksia salliaksesi ohjelmiston installoinnin tältä TYPO3 sivustolta.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Turvallisuussyistä, etuoikeudettomat sovellukset eivät voi käyttää leikepöytää. Näpsäytä OK näppäintä asentaaksesi komponentin joka mahdollistaa Sinun määrittelevän sivuston tai sivut joilta sallitaan leikepöydän käyttö sekä kopiointi, leikkaa ja liitä toimintojen suoritus.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Asennusta ei voida suorittaa. Ole ystävällinen ja muuta selaimesi asetuksia voidaksesi suorittaa ohjelmiston asentamisen osoitteesta http://ftp.mozilla.org .</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Asennus onnistui. Sinun tulee käynnistää selaimesi uudestaan jotta muutokset tulevat voimaan. Jälkeenpäin, käytä AllowClipboard Helper työkalu valikosta salliaksesi tiettyjen sivustojen käyttää leikepöytää.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

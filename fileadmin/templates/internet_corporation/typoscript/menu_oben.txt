@@ -1,0 +1,67 @@
+
+temp.MenuOben = HMENU
+#temp.MenuOben.wrap = | 
+#temp.MenuOben.excludeUidList = 
+temp.MenuOben.maxItems = 5
+temp.MenuOben {
+	#special = directory
+	#special.value = 1
+	#entryLevel = 0
+
+	1 = TMENU
+	1 {
+		expAll = 1
+		wrap = <ul id="nav">|</ul>
+		noBlur = 1
+		NO = 1
+		NO {
+		wrapItemAndSub = <li>|</li>
+		ATagTitle.field = description // title
+		}
+
+		IFSUB = 1
+		IFSUB {
+		wrapItemAndSub = <li class="menuparent">|</li>
+		ATagParams = 
+		ATagTitle.field = description // title
+		}
+
+		
+		CUR = 1
+		CUR {
+		wrapItemAndSub = <li>|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+
+		CURIFSUB = 1
+		CURIFSUB {
+		wrapItemAndSub = <li class="menuparent">|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+
+		ACT = 1
+		ACT {
+		wrapItemAndSub = <li>|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+		
+		ACTIFSUB = 1
+		ACTIFSUB {
+		wrapItemAndSub = <li class="menuparent">|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+
+
+	}
+	2 < .1	
+	2 {
+		wrap = <ul>|</ul>
+	}
+
+	3 < .2
+	4 < .2
+}

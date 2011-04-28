@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Файл закачването (Filemounts) описва файл пътя на сървъра, относителен или абсолютен.</label>
+			<label index="title.description">Въведете име за файл закачването (filemount)</label>
+			<label index="path.description">Въведете пътя на файл закачването (filemount), относителен или абсолютен в зависимост от настройките на BASE.</label>
+			<label index="hidden.description">Използвайте тази опция за да изключите временно файл закачването (filemount).</label>
+			<label index="hidden.details">Всички backend потребители използващи закачването (mount), няма да имат повече достъп. Това включва и 'Админ' потребителите.</label>
+			<label index="base.description">Определяне дали стойността на ПЪТ (PATH) полето може да бъде разпознато като абсолютен път на сървъра или като относителен път към файладмин/ подпапка на уеб страницата.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

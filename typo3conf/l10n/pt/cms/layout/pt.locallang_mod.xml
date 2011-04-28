@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel">Conteúdo da página</label>
+			<label index="mlang_labels_tabdescr">Este módulo permite-lhe criar e editar páginas da internet. Providência um Editor-Rápido para acesso instantâneo ao conteúdo da página primária. Em adição pode gerir diferentes idiomas e colunas de conteúdo por página. Finalmente pode aceder a páginas de conteúdos especiais tais como livros de visitas, forum e items de loja. O módulo também apresenta estatísticas de visualização para páginas individuais.</label>
+			<label index="mlang_tabs_tab">Página</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">73079758</label>
+			<label index="mlang_labels_tabdescr" type="integer">229943848</label>
+			<label index="mlang_tabs_tab" type="integer">26464201</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

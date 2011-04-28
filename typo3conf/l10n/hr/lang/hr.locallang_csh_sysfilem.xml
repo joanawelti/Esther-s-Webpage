@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Poveznice (filemounts) opisuje putanju na poslužitelju, relativnu ili apsolutnu.</label>
+			<label index=".details">Kreiranjem zapisa poveznice i postavljenjem reference na nju unutar pozadinske grupe korisnika možemo dozvoliti korisnicima da koriste poveznicu unutar Datoteka&gt;Popis (File&gt;List) modula.
+Trebate kreirati i postaviti barem jednu poveznicu s pretincem '_temp_' ukoliko želite da korisnici mogu prenositi datoteke putem web preglednika.
+Poveznice također mogu konfigurirati putanju tako da se može pristupati datotekama do kojih korisnici imaju FTP pristup. Nemojte zaboraviti postaviti dozvole nad datotekama tako da korisnik, pod čijim ovlastima je pokrenut web poslužitelj, može imati barem dozvolu čitanja.</label>
+			<label index="title.description">Unesite naslov za poveznicu</label>
+			<label index="path.description">Unesite putanju poveznice, relativnu ili apsolutnu u zavisnosti od postavljenje opcije BASE.</label>
+			<label index="path.details">Ukoliko je BASE opcija postavljena kao relativna onda putanja pokazuje na potpretinac &quot;fileadmin/&quot; web sjedišta. Tada morate unjeti potpretinac unutar &quot;fileadmin/&quot; kao putanju. Na primjer želite li povezati pristup do &quot;fileadmin/user_uploads/all/&quot; onda unesite vrijednost &quot;user_uploads/all&quot; kao vrijednost putanje.
+Ukoliko je BASE opcija postavljena kao apsolutna onda ptrbate unjeti apsolutnu putanju na poslužitelju, npr. &quot;/home/ftp_upload&quot; ili &quot;C:/home/ftp_upload&quot;.
+
+&lt;strong&gt;Napomena:&lt;/strong&gt; U svakom slučaju budite sigurni da korisnik pod čijim ovlastima je pokrenut web poslužitelj ima &lt;em&gt;najmanje&gt;7em&gt; prava čitanja unesene putanje. Ukoliko nema tih prava povezani sadržaj neće se pojaviti bez ikakvih upozorenja.
+Imate li problema - posebno s apsolutnim povezivanjem - pokušajete povezati nešto &quot;jednostavnije&quot; kao što je relativna ptanja unutar fileadmin pretinca. Ukoliko to radi ispravno probajte s apsolutnom putanjom.
+
+Vaša PHP konfiguracija također može nametnuti određena ograničenja ukoliko je safe-mod ili slična značajka omogućena. Tada koristite ralativnu putanju.</label>
+			<label index="hidden.description">Korištenjem ove opvije privremeno onemogućavate poveznicu.</label>
+			<label index="hidden.details">Svi pozadinski korisnici koriste</label>
+			<label index="base.description">Određuje da li će vrijednost PATH polja biti prepoznat kao apsolutni  put na poslužitelju ili relativni put u odnosu na fileadmin/ podpretinac web sjedišta.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

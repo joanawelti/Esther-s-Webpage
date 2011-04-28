@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="cannotedit_spacer">Diese Seite ist vom Typ &quot;Spacer&quot; und enthält keinen eigenen Inhaltselemente. Daher können Sie den Inhalt dieser Seite nicht bearbeiten.</label>
+			<label index="createnewcontent_selectContentArea">1: Selecteer het gedeelte en plaats waar U het element wilt toevoegen:</label>
+			<label index="createnewcontent_selectType">2: Selecteer elementtype:</label>
+			<label index="newPage">Nieuwe pagina</label>
+			<label index="newPageWizard">Nieuwe pagina (wizard)</label>
+			<label index="new_cont_wizard">Nieuw element toevoegen (wizard)</label>
+			<label index="new_dynelement">Dynamish selement toevoegen</label>
+			<label index="new_image">Plaatje toevoegen</label>
+			<label index="new_text">Tekstelement toevoegen</label>
+			<label index="text_copy">Kopie</label>
+			<label index="text_createnewrecord">Nieuw</label>
+			<label index="text_cut">Knippen</label>
+			<label index="text_editrecord">Bewerken</label>
+			<label index="text_makeLocal">Locale kopie</label>
+			<label index="text_movedown">Verplaats een stap omlaag</label>
+			<label index="text_movedown_short">Verplaats omlaag</label>
+			<label index="text_moveup">Verplaats een stap omhoog</label>
+			<label index="text_moveup_short">Verplaats omhoog</label>
+			<label index="text_paste">Plakken</label>
+			<label index="text_ref">Ref</label>
+			<label index="text_select"> -- Opties voor bewerkingen in element -- </label>
+			<label index="text_select_new"> -- Nieuw element / plak element -- </label>
+			<label index="text_select_new_wiz"> &lt;- Creëer hier een nieuw element  </label>
+			<label index="text_unlinkRecord">Niet gebruiken</label>
+			<label index="text_unlinkRecord_long">Gebruik uitschakelen</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

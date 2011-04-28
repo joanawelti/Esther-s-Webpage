@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index=".alttitle">Splet &gt; Modul Stran</label>
+			<label index=".description">Modul stran se aktivira iz administracijskega vmesnika in je primarni modul za vse osnovne operacije pri urejanju spletne strani.</label>
+			<label index=".details">Izbira tega modula prikaže drevo strani. Če želite urejati vsebino strani, kliknite na njen naslov in v desnem oknu se vam bo prikazala vsebina te strani.
+
+Modul omogoča različne načine prikaza vsebine;
+
+&lt;b&gt;Stolpci&lt;/b&gt;
+Način prikaže vsebinske elemente v stolpcih in vrstem redu, kot se prikazujejo na spletni strani. Gumbi vam omogočajo enostavno prikazovanje/skrivanje, premikanje in urejanje vsebinskih elementov.
+
+&lt;b&gt;Hitro urejanje&lt;/b&gt;
+V načinu &quot;Hitro urejanje&quot; se bo prvi element na strani takoj naložil v obrazec v desnem okviru. Uporabnost tega načina je odvisna od izvedbe vaše spletne strani in vaših osebnih preferenc.
+
+&lt;b&gt;Jeziki&lt;/b&gt;
+Če vaša stran podpira večjezičnost in pri tem uporablja koncept &quot;vse-v-enem-drevesu&quot;, boste ta način potrebovali za nadzor prevodov vsebinskih elementov na strani.
+
+&lt;b&gt;Informacije o strani&lt;/b&gt;
+Način prikazuje nekatere statistične podatke o strani. Podatki vsebujejo tudi statistiko zadetkov, če je ta na voljo.
+
+&lt;b&gt;Splošne možnosti&lt;/b&gt;
+Na vrhu modula Stran boste našli vrstico ikon, ki vas privedejo neposredno do nekaterih značilnosti, kot so Zgodovina/Razveljavi (1), Ustvari nov vsebinski element (2), Premakni stran (3), Ustvari novo stran (4) in Uredi lastnosti strani (5). Glej sliko spodaj.
+
+&lt;b&gt;Določi število prikazanih stolpcev [Administrator]&lt;/b&gt;
+Administratorji lahko določijo, da modul Stran prikazuje samo stolpce, ki jih uporablja spletna stran. Nastavitev se določa v polju &quot;TSconfig strani&quot; (zato jo lahko spreminjamo za posamezno vejo drevesa) in v našem primeru spreminja &quot;mod.web_layout.tt_content.colPos_list&quot;. Na primer &quot;mod.web_layout.tt_content.colPos_list = 0,3&quot; prikaže samo stolpca &quot;Normalni&quot; in &quot;Rob&quot;.
+Za prilagoditev modula stran obstaja še precej drugih možnosti v objektu &quot;mod.web_layout&quot;, ki jih lahko najdete v dokumentu &quot;TSconfig reference&quot; na spodnji povezavi.</label>
+			<label index=".image_descr">Kliknite modul Stran, nato pa naslov strani v drevesu.
+Modul je sedaj aktiviran v desnem okviru in prikazuje vsebino strani, na katero ste kliknili v drevesu.
+Gumbi so neposredne povezave do funkcije Zgodovina/Razveljavi (1), čarovnika Ustvari nov vsebinski element (2), čarovnika Premakni stran (3), čarovnika Ustvari novo stran (4) in obrazca Uredi lastnosti strani (5). Za več podrobnosti glej spodnje povezave.</label>
+			<label index="quickEdit.alttitle">Hitro urejanje</label>
+			<label index="quickEdit.description">Hitri urejevalnik ponuja neposreden dostop do polj obrazca za urejanje vsebine strani.</label>
+			<label index="quickEdit.details">Hitri urejevalnik je zasnovan tako, da zmanjša število klikov na poti do urejanja vsebine strani. S klikom na naziv strani v drevesu strani dostopate neposredno do obrazca za urejanje prve vsebine v normalnem stolpcu. v izbirniku na vrhu strani lahko izberete druge vsebinske elemente na tej strani.</label>
+			<label index="quickEdit.image_descr">Pogled &quot;Hitro urejanje&quot; zmanjša število klikov za dostod do urejanja vsebin tako, da uporabnika po kliku na naziv strani privede neposredno v obrazec za urejanje. Prikazan je vedno prvi zapis v normalnem stolpcu.</label>
+			<label index="quickEdit_selElement.alttitle">Vsebinski elementi</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index=".description" type="integer">255949225</label>
+			<label index=".details" type="integer">190071286</label>
+			<label index=".image_descr" type="integer">259908838</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit.image_descr" type="double">12142174</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index=".description">The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</label>
+			<label index=".details">Selecting the module will display the page tree.  Click the title of the page you wish to edit content on, and in the right frame you will see the content of the page displayed by the Page module.
+
+The page module has various modes of display of content;
+
+&lt;b&gt;Columns&lt;/b&gt;
+The columns view will show Content Elements listed in the columns and in the order that they will appear on the website. A panel of buttons will allow you to hide/unhide, move and edit the elements easily.
+
+&lt;b&gt;QuickEdit&lt;/b&gt;
+In QuickEdit the first element on the page will be loaded into a form right away. It will depend on the implementation of your website as well as your general preferences if you like this mode more than the columns view.
+
+&lt;b&gt;Languages&lt;/b&gt;
+If your site supports multiple languages and uses the &quot;one-tree-fits-all&quot; concept for localization you will need this mode to control the translations of the content elements on a page.
+
+&lt;b&gt;Page information&lt;/b&gt;
+The page information view shows some statistical data about a page. This includes hit statistics if available.
+
+
+&lt;b&gt;General options&lt;/b&gt;
+In the top of the Page module you will find a row of icons that will bring you right to various features such as History/Undo (1), Create new content element (2), Move page (3), Create new page (4) and Edit page properties (5). See image below.
+
+&lt;b&gt;Defining number of displayed columns [Admin]&lt;/b&gt;
+Administrators can configure the Page module to display only the content columns that the website uses. This is done by Page TSconfig (so it can be configured per branch in the page tree!) and this particular option has the object path &quot;mod.web_layout.tt_content.colPos_list&quot;.
+For instance &quot;mod.web_layout.tt_content.colPos_list = 0,3&quot; will set the display of the &quot;Normal&quot; and &quot;Border&quot; columns only.
+There are many other options for customization of the Page module in the object path &quot;mod.web_layout&quot; and Administrators should refer to the &quot;TSconfig&quot; reference linked to below.</label>
+			<label index=".image_descr">Click the Page module, then the title of a page in the page tree.
+The page module is now activated in the right frame, showing the content of the page you clicked in the page tree.
+These buttons are direct links to the History/Undo function (1), Create new content element wizard (2), Move page wizard (3), Create new page wizard (4) and Edit page properties form (5). See the links for more details.</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit.image_descr">The QuickEdit view cuts of one extra click by bringing the user directly to the editing form after clicking a page title in the page tree. The record shown is always the first content element from the Normal column.</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

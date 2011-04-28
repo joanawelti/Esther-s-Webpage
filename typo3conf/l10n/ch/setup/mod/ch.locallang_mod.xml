@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index="mlang_labels_tablabel">个人用户设置</label>
+			<label index="mlang_labels_tabdescr">这个模块允许您制定您的后端用户轮廓.在此您可以更改您的激活系统语言, 名称和email地址. 您也能在您的系统中配置其它普通的特点.</label>
+			<label index="mlang_tabs_tab">设置</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="mlang_labels_tablabel" type="integer">39109629</label>
+			<label index="mlang_labels_tabdescr" type="integer">237774117</label>
+			<label index="mlang_tabs_tab" type="integer">181548907</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

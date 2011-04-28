@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="testTask.name">Planer-Test-Task</label>
+			<label index="testTask.description">Der Test-Task schickt eine E-Mail an eine angegebene E-Mail-Adresse. Er ist zu Testzwecken gedacht.</label>
+			<label index="sleepTask.name">Planer-Pause-Task</label>
+			<label index="sleepTask.description">Dieser Task macht nichts außer PHP eine gewisse Anzahl Sekunden zu pausieren. Er ist zum Testen mehrfacher, gleichzeitiger Ausführungen des Planers gedacht.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="testTask.name" type="integer">109427066</label>
+			<label index="testTask.description" type="integer">263126638</label>
+			<label index="sleepTask.name" type="integer">258894786</label>
+			<label index="sleepTask.description" type="integer">163363153</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="testTask.name">Scheduler test task</label>
+			<label index="testTask.description">The Scheduler test task just sends a mail to a given email address. It is designed to be used for testing purposes.</label>
+			<label index="sleepTask.name">Scheduler sleep task</label>
+			<label index="sleepTask.description">This task does nothing but put PHP to sleep for a number of seconds. It is designed to test multiple executions.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

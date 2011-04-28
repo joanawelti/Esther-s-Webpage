@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="removeLink">إحذف الربط</label>
+			<label index="uploadImage">تحمـيــــل صورة من الحاسب الى الويب</label>
+			<label index="update">تحديث</label>
+			<label index="path">المسار</label>
+			<label index="page">ألصفحة</label>
+			<label index="file">المــلف</label>
+			<label index="extUrl">ربط خارجي</label>
+			<label index="email">بريــد</label>
+			<label index="special">خاص</label>
+			<label index="folderTree">شجرة الملفــات</label>
+			<label index="files">الملفــات</label>
+			<label index="target">الهدف</label>
+			<label index="target_popUpWindow">إفتح في شباك</label>
+			<label index="target_popUpWindow_width">العرض</label>
+			<label index="target_popUpWindow_height">الإرتفاع</label>
+			<label index="newWindow">شباك جديد</label>
+			<label index="top">القمــة</label>
+			<label index="none">ليس ربط جديــد</label>
+			<label index="pageTree">شجرة الصفحــات</label>
+			<label index="contentElements">عناصر المحتويات</label>
+			<label index="selectRecords">إختيــار فقرة</label>
+			<label index="addToList">إضــافة إلى القــائمة</label>
+			<label index="info">معلومــة</label>
+			<label index="emailAddress">عنوان البريــد</label>
+			<label index="setLink">تحديد ربط</label>
+			<label index="clickToRedrawFullSize">الصورحجمهــا أكبــر من المعروضة هنا! إضغط لتراها أكبر</label>
+			<label index="findDragDrop">إبحث عن الصورة و إضغط عليهــا و إسحبهــا إلى داخل شباك التعديــل</label>
+			<label index="noWebFolder">لا تستطيع سحب صور من هده الملفــات لآنهــا ملفــان داخــلية على السيرفر</label>
+			<label index="currentLink">الربط الحــالي</label>
+			<label index="invalidChar">لم تتم عملية إضافة الملف  (%s)خطأ: هناك حرف غير مقبول في في مسار الملف</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="target_popUpWindow" type="integer">21986240</label>
+			<label index="target_popUpWindow_width" type="integer">53040229</label>
+			<label index="target_popUpWindow_height" type="integer">250375243</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+			<label index="invalidChar" type="integer">103011900</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

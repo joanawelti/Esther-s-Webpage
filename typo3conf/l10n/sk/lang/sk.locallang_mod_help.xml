@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="mlang_labels_tablabel">Pomoc a podpora</label>
+			<label index="mlang_tabs_tab">Pomoc</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="mlang_labels_tablabel" type="integer">249232618</label>
+			<label index="mlang_tabs_tab" type="integer">111308628</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+			<label index="mlang_labels_tablabel">Help and support</label>
+			<label index="mlang_tabs_tab">Help</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">Tódolos contidos visibles en Typo3 están xerados normalmente con rexistros &quot;contidos de páxina&quot;. Estes poden ser chamados tamén &quot;elementos de contido&quot;. A miúdo, os elementos decontido son xestionados polo módulo &quot;Páxina&quot; o cal está deseñado para manexar &quot;Elementos de Contido&quot; en múltiples columnas e linguaxes.</label>
+			<label index=".details">Os rexistros de contidos de páxina ordéanse e en consecuencia poden ser recolocados. Nótese tamén que o selector de &quot;Columna&quot; e &quot;Linguaxe&quot; dos rexistros &quot;elemento de contido&quot; determina en qué situación se amosan. Se non desexa cambiar os valores de &quot;Linguaxe&quot; e &quot;Columna&quot; debería asegurarse que ese elemento aparecerá por defecto.</label>
+			<label index=".image_descr">O módulo &quot;Páxina&quot; úsase para xestionar &quot;elementos de contido&quot; de xeito efectivo tal e como aparecerán colocados en columna e linguaxes.
+Un elemento de contido ten un formulario longo de edición con varias opcións. O &quot;tipo&quot; determina qué opcións son visibles. No frontend - na páxina web - un elemento de contido como de arriba podería verse como este.</label>
+			<label index="CType.description">Seleccione o tipo de contido que esta páxina representa. Opcións novas aparecerán cando almacene o rexistro.</label>
+			<label index="CType.details">O 'tipo' de contido que seleccione determina qué opcións terá dispoñibles no formulario de edición, por eso, asegúrese de que almacena o rexistro antes de facer cambios.
+
+Esta é a descrición de varios tipos:
+
+&lt;strong&gt;Cabeceira&lt;/strong&gt;
+Este tipo permite inserir unha cabeceira de contido estándar e nada máis. A maioría dos outros tipos descritos abaixo inclúen unha cabeceira coas mesas opcións. Polo que este tipo só ofrece a posibilidade de incluir unha cabeceira sen nada máis.
+
+&lt;strong&gt;Texto&lt;/strong&gt;
+Permite incluir contido de páxina que sexa texto estándar.
+
+&lt;strong&gt;Texo con imaxe&lt;/strong&gt;
+Permite engadir contido de páxina que sexa texto e a posibilidade de axuntar unha  imaxe.
+
+&lt;strong&gt;Imaxe&lt;/strong&gt;
+Permite incluir unha imaxe sen texto.
+
+&lt;strong&gt;List de elementos&lt;/strong&gt;
+Permite crear unha lista de elementos. Cada liña no campo texto aparecerá como unha liña sinxela la lista.
+
+&lt;strong&gt;Táboa&lt;/strong&gt;
+Permite crear táboas sinxelas. Cada liña represente unha fila e as barras verticais '|' separan cada columna.
+
+&lt;strong&gt;Ligazóns de arquivos&lt;/strong&gt;
+Permite presentar unha lista de arquivos para descarga. Pode ter miniaturas adxuntos á lista incluindo o tamaño de arquivo.
+
+&lt;strong&gt;Multimedia&lt;/strong&gt;
+Permite inserir elementos multimedia tal como son, vídeo, applets java e animacións flash.
+
+&lt;strong&gt;Formulario&lt;/strong&gt;
+Permite crear formularios de correo. Hai sintaxe especial para utilizar cando desexa crear campos de formulario.
+
+&lt;strong&gt;Procura&lt;/strong&gt;
+Insire unha caixa de procura e permitirá amosar resultados da procura se unha consulta é executada na páxina.
+
+&lt;strong&gt;Login&lt;/strong&gt;
+Amosa un cadro de login para usuarios do sitio web. Debe crear polo menos un usuario de sitio web e grupo de usuarios antes de que teña sentido utilizar este tipo.
+
+&lt;strong&gt;Cadro de texto&lt;/strong&gt;
+Utilizado principalmente para deseño personalizado o cal inclúe típicamente algún texto e unha imaxe. En outras palabras, a función non é xeralmente definida. Sen embargo, subtipos por defecto permítenlle elixir varios camiños para amosar algún texto con unha imaxe.
+
+&lt;strong&gt;Menu/Mapa web&lt;/strong&gt;
+Ofrece  a selección de varios enlaces de menú e un mapa do sitio debe ser inserido nunha páxina.
+
+&lt;strong&gt;Inserir rexistros&lt;/strong&gt;
+Lugar para outros rexistros. En outras palabras, con este elemento pode adxuntar outros elementos de contido dende calquera punto e logo inserilos nesta páxina.
+
+&lt;strong&gt;Inserir plugin&lt;/strong&gt;
+Permite inserir un foro, libro de invitados, lista de direccións, cesta da compra, etc. Hai varias funcionalidades dispoñibles se está correctamente configurada o seu modelo do sitio web. Antes de usalo asegúrese de que este é o caso.
+
+&lt;strong&gt;Script&lt;/strong&gt;
+Reservado para intereses personalizados onde o desenvolvedor de modelo pode permitirche insertar contidos de páxina especializados a través de un código que idéntifica un tipo especial de contido que desexe.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+Contido HTML plan. todo o que se introduza neste tipo será amosado directamente sen procesar previamente.</label>
+			<label index="hidden.description">Marcar este recadro se desexa ocultar o elemento de contido.</label>
+			<label index="starttime.description">Introduza a data dende a que o elemento de contido debe ser visible.</label>
+			<label index="endtime.description">Introduza a data dende a que o elemento de contido debe ocultarse.</label>
+			<label index="fe_group.description">Seleccione un grupo de usuarios ó que exclusivamente se lle permita visualizar o elemento.</label>
+			<label index="fe_group.details">As opcións deste recadro depende dos grupos creados e dispoñibles. Cando seleccione un grupo neste punto, o elemento de contido non será visible para usuarios que non están autenticados. Só usuarios do sitio web autenticados poderán  visualizar o elemento. Se selecciona &quot;Ocultar a autenticados&quot; o efecto será o contrario, o elemento &lt;em&gt;desaparece para calquera usuario autenticado&lt;/em&gt;. Esto é útil se desexa amosar información como &quot;como acceder&quot; o cal só é relevante para usuarios anónimos.</label>
+			<label index="sys_language_uid.description">Seleccione a linguaxe de sistema deste elemento &lt;strong&gt;Advertencia&lt;/strong&gt; esto afectarará a si o elemento é visible.</label>
+			<label index="sys_language_uid.details">Esto permítelle asignar unha linguaxe específica ó elemento de contido. Se selecciona outro valor que non sexa o valor &quot;por defecto&quot;, o elemento non será visible excepto que a linguaxe elixida esté configurada no modelo TypoScript. As linguaxes dispoñibles no sistema son creadas polo administrador.</label>
+			<label index="layout.description">Seleccione unha capa de presentación</label>
+			<label index="layout.details">Esta opción non é utilizada nos modelos por defecto, pero pode ser utilizada para unha presentación personalizada.
+
+Hai un número de implementación dependendo do tipo de elemento de contido:
+
+&lt;b&gt;&quot;Link a arquivos&quot;&lt;/b&gt;
+&quot;Normal&quot; dará unha lista de ligazón a arquivos sen miniatura.
+&quot;Presentación 1&quot; engade unha icona á esquerad da ligazón
+&quot;Presentación 2&quot; engade unha miniatura se o arquivo é unha imaxe e non é unha icona, envolta por un borde negro ó redor.
+&quot;Presentación 3&quot; é como 2, pero sen o borde negro.</label>
+			<label index="colPos.description">Seleccione a posición na columna de este elemento. &lt;strong&gt;Advertencia: &lt;/strong&gt; esto afectará a se o elemento é visible.</label>
+			<label index="colPos.details">A maioría de sitios web utilizan só unha columna de contido. Sen embargo, algúns modelos permiten incluir varias columnas de contido. Esta opción permite seleccionar outra columna para o elemento.
+
+&lt;strong&gt;Advertencia&lt;/strong&gt; Seleccionando outra columna da &quot;Normal&quot; fará que o contido desapareza excepto que esa columna sexa amosada no modelo do sitio web. Se o seu contido é invisible (de xeito extraño) asegúrese de que a columna e linguaxe están seleccionados correctamente.</label>
+			<label index="date.description">Introduza unha data para amosar sobre a cabeceira.</label>
+			<label index="header.description">Introduce unha cabeceira para o elemento de contido.</label>
+			<label index="header.details">Case todos os elementos de contido (excepto o tipo HTML, por exemplo) amosarán este contido como cabeceira antes do contido propio. Se non desexa que a cabeceira non se amose, seleccione a capa de presentación de cabeceira como &quot;Oculta&quot;. De xeito alternativo pode non querer introducir contido neste campo.
+
+Algúns elementos de contido non amosan a cabeceira por defecto. En ditos casos o campo cabeceira e normalmente nomeada &quot;Nome&quot;. Un deses tipos é o tipo HTML.</label>
+			<label index="header_position.description">Pon a cabeceira na esquerda, centrada ou na dereita.</label>
+			<label index="header_link.description">Crea unha ligazón dende a cabeceira. Inserte un identificador de páxina, dirección de correo ou url.</label>
+			<label index="header_link.syntax">Se introduce un identificador, por exemplo, 51, a ligazón referirase a unha páxina con identificador id=51 &lt;em&gt;dentro de&lt;/em&gt; Typo3. 
+Se inserta unha dirección de correo electrónico, por exemplo, &quot;nome@meudominio.test&quot;, a ligazón apuntará a dita dirección. 
+Se inserta unha url ou dominio, por exemplo, &quot;www.typo3.com&quot; ou &quot;http://www.omeudominio.org&quot;, a ligazón apuntará a dito sitio web.</label>
+			<label index="header_layout.description">Selecciona un aspecto gráfico para a cabeceira</label>
+			<label index="header_layout.details">Se seleccione como deseño estandar o valor por defecto &quot;Defecto&quot; (o cal é un dos aspectos 1-5) será utilizado. 
+De xeito alternativo pode seleccionar dende o 1 ó valor 5 os cales son configurados no modelo do sitio web con vista gráfica individual.
+Se selecciona &quot;Oculto&quot; a cabeceira simplemente non aparecerá. Esto é útil se desexa unha cabeceira para o elemento de contido (para poder identificalo no backend, por exemplo) pero non amosalo no sitio web.</label>
+			<label index="subheader.description">Introduce unha sub-cabeceira. Esto é amosado debaixo da cabeceira estándar. Se o elemento de contido é de tipo formulario este campo é o correo electrónico</label>
+			<label index="subheader.details">A sub-cabeceira é amosada únicamente co elemento de contido de tipo &quot;Cabeceira&quot;.
+
+&lt;b&gt;Aviso:&lt;/b&gt; Cando utilice o elemento de contido &quot;Formulario&quot;, este campo é nomeado &quot;Destinatario&quot; e contén a dirección de correo electrónico ó que se lle enviará o formulario. Esto é importante para permitor acceso a dito campo ós usuarios.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description" type="integer">112696006</label>
+			<label index=".details" type="integer">87408744</label>
+			<label index=".image_descr" type="integer">101723614</label>
+			<label index="CType.description" type="integer">234975124</label>
+			<label index="CType.details" type="integer">102208438</label>
+			<label index="hidden.description" type="integer">25976972</label>
+			<label index="starttime.description" type="integer">77152936</label>
+			<label index="endtime.description" type="integer">186022731</label>
+			<label index="fe_group.description" type="integer">12088306</label>
+			<label index="fe_group.details" type="integer">238179426</label>
+			<label index="sys_language_uid.description" type="integer">83193306</label>
+			<label index="sys_language_uid.details" type="integer">236252156</label>
+			<label index="layout.description" type="integer">228016604</label>
+			<label index="layout.details" type="integer">186116634</label>
+			<label index="colPos.description" type="integer">247799393</label>
+			<label index="colPos.details" type="integer">36180560</label>
+			<label index="date.description" type="integer">172838477</label>
+			<label index="header.description" type="integer">258566451</label>
+			<label index="header.details" type="integer">241858941</label>
+			<label index="header_position.description" type="integer">129245045</label>
+			<label index="header_link.description" type="integer">192941932</label>
+			<label index="header_link.syntax" type="integer">58311088</label>
+			<label index="header_layout.description" type="integer">177798699</label>
+			<label index="header_layout.details" type="integer">210804488</label>
+			<label index="subheader.description" type="integer">258436767</label>
+			<label index="subheader.details" type="integer">89143048</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">All visible content on webpages in TYPO3 is typically made by &quot;Pagecontent&quot; records. They are typically referred to as &quot;Content Elements&quot;. Often Content Elements are managed by the &quot;Page&quot; module which is designed to handle Content Elements in multiple columns and languages.</label>
+			<label index=".details">&quot;Pagecontent&quot; records is ordered and can thus be rearranged. Also notice that the &quot;Language&quot; and &quot;Column&quot; selector of the &quot;Pagecontent&quot; records determines where and in which situation they appear. If you do not change the value of the &quot;Language&quot; and &quot;Column&quot; selectors you are most sure that the element will appear by default.</label>
+			<label index=".image_descr">The Page module is used to manage Content Elements effectively as they appear arranged in columns and languages.
+A Content Element has a large editing form with many options. The &quot;Type&quot; determines which options are visible.
+In the frontend - on the webpage - a Content Element like the above could look like this.</label>
+			<label index="CType.description">Select the kind of page content this element represents. New options will appear when you save the record.</label>
+			<label index="CType.details">The 'Type' of content you select determines which options you have in the editform, so make sure to save the record before you make changes.
+
+This is a description of the various types:
+
+&lt;strong&gt;Header&lt;/strong&gt;
+This type allows you insert a standard content element header and nothing more.
+Almost all the other types described below also includes the header with the exact same options. So the Header type just provides a way to insert a header &lt;em&gt;only&lt;/em&gt; without anything else.
+
+&lt;strong&gt;Text&lt;/strong&gt;
+The Text type allows you to insert regular page content.
+
+&lt;strong&gt;Text w/image&lt;/strong&gt;
+This is the same as the Text type (regular page content) but with the option of attaching images.
+
+&lt;strong&gt;Image&lt;/strong&gt;
+The same as Text w/image but without the text field - so only images.
+
+&lt;strong&gt;Bullet list&lt;/strong&gt;
+Lets you create a bullet list. Each line in the text-field will appear as a single line in the bulletlist.
+
+&lt;strong&gt;Table&lt;/strong&gt;
+Lets you create &lt;em&gt;simple&lt;/em&gt; tables. Each line represents a tablerow and vertical bars '|' separates each column.
+
+&lt;strong&gt;Filelinks&lt;/strong&gt;
+Allows you to present a list of files for download. You can have thumbnails attached to the list including filesize.
+
+&lt;strong&gt;Multimedia&lt;/strong&gt;
+Lets you insert multimedia elements such as sound, video, java applets and flash animations.
+
+&lt;strong&gt;Form&lt;/strong&gt;
+Lets you create mail forms. There is a special syntax to use when you wish to create form fields.
+
+&lt;strong&gt;Search&lt;/strong&gt;
+This inserts a search box and it will also display the search result if a query is performed to the page.
+
+&lt;strong&gt;Login&lt;/strong&gt;
+Displays a login box for website users. You must create at least one Website user and user group before this makes any sense to use.
+
+&lt;strong&gt;Textbox&lt;/strong&gt;
+This is mainly for customly defined design which includes typically some text and an image. So in other words the function is not generally defined. However the default subtypes will let you choose various ways to display some text with an image.
+Use only if instructed to.
+
+&lt;strong&gt;Menu/Sitemap&lt;/strong&gt;
+Offers a selection of various link menus and a sitemap you can insert on a page.
+
+&lt;strong&gt;Insert records&lt;/strong&gt;
+This is a placeholder for other records. In other words, by this element you can attach other content elements from elsewhere and thus insert them this page.
+
+&lt;strong&gt;Insert plugin&lt;/strong&gt;
+This will allow you to insert a forum, guestbook, list of addresses, shopping basket etc. The various features are available &lt;em&gt;only&lt;/em&gt; if they are configured correctly in the template of your website. So before you use it, make sure this is the case.
+
+&lt;strong&gt;Script&lt;/strong&gt;
+This is reserved for custom purposes where the template developer can allow you to insert specialized page content by this element type along with a code to identify which special content you want.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+This is plain HTML content. Everything put here will be displayed directly on the page without any preprocessing.</label>
+			<label index="hidden.description">Check this box if you wish to hide the content element from being displayed.</label>
+			<label index="starttime.description">Enter the date from which the content element will be visible.</label>
+			<label index="endtime.description">Enter the date from which the content element will disappear from the website.</label>
+			<label index="fe_group.description">Select a Website usergroup which is exclusively allowed to view the element.</label>
+			<label index="fe_group.details">The options in this box depends on which Website usergroups are created and available for you. When you select a user group here, the content element will no longer be visible to users which are not logged in. Only Website users which are logged in and members of the group you selected will be allowed to see the element.
+If you select &quot;Hide at login&quot; the effect is kind of reversed in that the element &lt;em&gt;disappears&lt;/em&gt; if &lt;em&gt;any&lt;/em&gt; Website user is logged in. This is useful if you want to present information like &quot;How to login&quot; and such which is irrelevant if a user is finally logged in.</label>
+			<label index="sys_language_uid.description">Select the system language of this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="sys_language_uid.details">This allows you to assign a specific language to the content element. If you select anything but the default value, the element will &lt;em&gt;not&lt;/em&gt; be visible unless the language assigned is also configured by the TypoScript template.
+The available system languages are created by the administrator.</label>
+			<label index="layout.description">Select a layout.</label>
+			<label index="layout.details">This option is not used in the default templates but may be used by any custom rendering.
+
+There are a number of default implementations depending on the content element type:
+
+&lt;b&gt;&quot;Filelinks&quot;:&lt;/b&gt;
+&quot;Normal&quot; will provide a list of filelinks with no thumbnail.
+&quot;Layout 1&quot; adds a file icon to the left of the link
+&quot;Layout 2&quot; adds a thumbnail if the file is an image file and if not an icon. A black border is wrapped around.
+&quot;Layout 3&quot; is like Layout 2, but without the black border.</label>
+			<label index="colPos.description">Select the column position this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="colPos.details">Most websites use only one column of content. However some templates lets you put content in multiple columns and this option allows you to select another column for the element.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that selecting another column than &quot;Normal&quot; will make the content element disappear unless that column is also displayed in the website template. If your content element is 'strangely' not visible please make sure the Column and Language selectors are set correctly.</label>
+			<label index="date.description">Enter a date to be displayed above the header.</label>
+			<label index="header.description">Enter a headline for the content element.</label>
+			<label index="header.details">Almost all content elements (except the HTML type for instance) will display this header above the content. If you don't want a header displayed, select the header Layout to &quot;Hidden&quot;. Alternatively you can choose not to enter any content in this field.
+
+Some content element types do not display the header by default. In those cases the Header field is typically labeled &quot;Name&quot; instead. One of these are the HTML type content element.</label>
+			<label index="header_position.description">Places the header to the left, centered or to the right.</label>
+			<label index="header_link.description">Creates a link from the header. Insert a page id, email address or URL.</label>
+			<label index="header_link.syntax">If you insert an id-number, eg. &quot;51&quot;, the link will refer to page with id=51 &lt;em&gt;inside&lt;/em&gt; TYPO3.
+If you insert an email address, eg. &quot;name@my-domain.test&quot;, the link will point to that email address.
+If you insert an URL or domain, eg. &quot;www.typo3.com&quot; or &quot;http://www.my-domain.org&quot;, the link will point to that website.</label>
+			<label index="header_layout.description">Select a visual design for the header.</label>
+			<label index="header_layout.details">If you select &quot;Default&quot; the standard design (which is one of the layouts 1-5) will be used.
+Alternatively you can select from Layout 1 through 5 which are configured in the website template with individual visual designs.
+If you select &quot;Hidden&quot; the header will simply not appear. This is usefull if you wish a header for the content element (in order to identify it in the backend) but do not wish the header to be displayed on the website.</label>
+			<label index="subheader.description">Enter a subheader. This is displayed below the ordinary headline. If the content element type is &quot;Form&quot; this field is the recipient email.</label>
+			<label index="subheader.details">A subheader is displayed only with the &quot;Header&quot; content element type.
+
+&lt;b&gt;Notice:&lt;/b&gt; When using the content element type &quot;Form&quot;, this field is named 'Recipient-email:' and contains the email address of the form mail recipient. It's therefore important to allow access to this field for the users.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

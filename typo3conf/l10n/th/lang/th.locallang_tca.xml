@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="pages">หน้า</label>
+			<label index="doktype.I.0">มาตรฐาน</label>
+			<label index="doktype.I.1">แฟ้มระบบ</label>
+			<label index="doktype.I.2">นำกลับมาใช้ใหม่</label>
+			<label index="title">ชื่อหน้า:</label>
+			<label index="php_tree_stop">หยุด page tree:</label>
+			<label index="is_siteroot">ใช่ รากของเว็บไซต์:</label>
+			<label index="storage_pid">หน้าเก็บระเบียนทั่วไป:</label>
+			<label index="be_users">ผู้ใช้ส่วนหลัง</label>
+			<label index="be_groups">กลุ่มผู้ใช้ส่วนหลัง</label>
+			<label index="sys_filemounts">Filemount</label>
+			<label index="sys_language">ภาษาของเว็บไซต์</label>
+			<label index="sys_language.isocode">เลือกภาษาทางการ (โค้ด ISO)</label>
+			<label index="sys_language.flag">เลือก ไอคอนธงชาติ:</label>
+			<label index="editlock">จำกัดการแก้ไข โดยผู้ที่ไม่ใช่ ผู้ดูแลระบบ:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="pages" type="integer">26464201</label>
+			<label index="doktype.I.0" type="integer">246864046</label>
+			<label index="doktype.I.1" type="integer">260649090</label>
+			<label index="doktype.I.2" type="integer">184146156</label>
+			<label index="title" type="integer">66854616</label>
+			<label index="php_tree_stop" type="integer">90999720</label>
+			<label index="is_siteroot" type="integer">250187229</label>
+			<label index="storage_pid" type="integer">147559019</label>
+			<label index="be_users" type="integer">104926801</label>
+			<label index="be_groups" type="integer">190780417</label>
+			<label index="sys_filemounts" type="integer">140334923</label>
+			<label index="sys_language" type="integer">144875845</label>
+			<label index="sys_language.isocode" type="integer">49440593</label>
+			<label index="sys_language.flag" type="integer">145114393</label>
+			<label index="editlock" type="integer">177820058</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

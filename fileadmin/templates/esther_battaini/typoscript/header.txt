@@ -1,0 +1,21 @@
+lib.header = IMAGE
+lib.header {
+	file = fileadmin/templates/esther_battaini/images/Atea.jpg
+	wrap = <div id="logo"><a href="">|</a></div>
+}
+
+lib.backgroundImage = TEXT
+lib.backgroundImage {
+  data = levelmedia:-1, slide
+  listNum = 0
+  wrap ( 
+      <style type="text/css"> 
+          #logo { background: #fff url(uploads/media/|) no-repeat right top; }
+		  
+      </style>
+  )
+}
+
+#logo { background: #fff url(fileadmin/templates/esther_battaini/images/header/|) no-repeat right top; }
+
+page.headerData.10 < lib.backgroundImage

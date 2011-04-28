@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="clipBoard">Erakutsi arbela</label>
+			<label index="clip_paste">Itsatsi arbeleko edukia</label>
+			<label index="clip_pasteInto">Itsasi hemen: Arbelaren edukia karpeta honetan sartzen da</label>
+			<label index="clip_markRecords">Markatu/desmarkatu denak</label>
+			<label index="clip_selectMarked">Pasatu fitxategi aukera arbelera</label>
+			<label index="clip_deleteMarked">Ezabatu markatutakoak</label>
+			<label index="clip_deleteMarkedWarning">Ziur markatutako fitxategi guztiak ezabatu nahi dituzula karpeta honetatik?</label>
+			<label index="displayThumbs">Erakutsi koadro txikiak</label>
+			<label index="c_file">Fitxategi izena</label>
+			<label index="c_size">Tamaina</label>
+			<label index="c_fileext">Mota</label>
+			<label index="c_tstamp">Data</label>
+			<label index="c_rw">RW</label>
+			<label index="files">fitxategiak</label>
+			<label index="mlang_labels_tablabel">Direktorioko fitxategien zerrenda</label>
+			<label index="mlang_labels_tabdescr">Hau Typo3-ko fitxategi administrazio sistema da. Zure saoi hasieran montatutako fitxategiak aukeratzea baimentzen dizu. Modulu honen bidez fitxategiak igo, kopiatu, mugitu eta ezabatu ditzazkezu zerbitzarian.</label>
+			<label index="mlang_tabs_tab">Fitxategi Zerrenda</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="displayThumbs" type="integer">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

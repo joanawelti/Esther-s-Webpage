@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Toon TypoScript Help</label>
+			<label index="rebuild">Bouw TypoScript Help opnieuw</label>
+			<label index="referenceExplanation">Kies uit de volgende referentie gegevens</label>
+			<label index="referenceExplanationDetailed">Selecteer uit de volgende iconen om de verschillende TypoScript help popup-schermen te bekijken. Deze online helpinfo wordt automatisch opgebouwd uit de handleidingen van de geinstalleerde extensies. Selecteer de 'Rebuild TypoScript Help' functie van deze module om deze info te updaten bij het toevoegen of verwijderen van een extensie.</label>
+			<label index="displayReferences">Toon TypoScript online help</label>
+			<label index="loadedTSfrom">TypoScript geladen vanaf:</label>
+			<label index="sections">sectie</label>
+			<label index="rebuildTS">Bouw TypoScript online help opnieuw op</label>
+			<label index="warning_manualsWithoutMarkers">De volgende handleidingen bevatten één of meer tabellen zonder markers:</label>
+			<label index="warning_duplicateMarkers">De volgende markers komen voor in meerdere handleidingen, of meerdere keren in dezelfde handleiding.</label>
+			<label index="updateWarnings">Update waarschuwingen</label>
+			<label index="rebuildExplanation">Het opnieuw bouwen van van de online help wist de totale help database voordat Typoscript help geanalyseerd (geparsd) wordt op geladen extensies. ADVIES: zorg dat doc_core_tsref en doc-core_tsconfig zijn geïnstalleerd zodat deze ook geanalyseerd kunnen worden.</label>
+			<label index="adminAccessOnly">Alleen admins hebben toegang tot deze functie.</label>
+			<label index="noRebuildOnWindows">De Rebuild functie werkt niet op windows systemen. Sorry!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="title" type="integer">55592368</label>
+			<label index="display" type="integer">162496165</label>
+			<label index="rebuild" type="integer">196790076</label>
+			<label index="referenceExplanation" type="integer">76872201</label>
+			<label index="displayReferences" type="integer">232607003</label>
+			<label index="loadedTSfrom" type="integer">119709196</label>
+			<label index="sections" type="integer">267706088</label>
+			<label index="rebuildTS" type="integer">12733294</label>
+			<label index="warning_manualsWithoutMarkers" type="integer">59628706</label>
+			<label index="warning_duplicateMarkers" type="integer">256167033</label>
+			<label index="updateWarnings" type="integer">219429374</label>
+			<label index="adminAccessOnly" type="integer">148709790</label>
+			<label index="noRebuildOnWindows" type="integer">94511047</label>
+			<label index="referenceExplanationDetailed" type="integer">10254758</label>
+			<label index="rebuildExplanation" type="integer">45457758</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Display TypoScript Help</label>
+			<label index="rebuild">Rebuild TypoScript Help</label>
+			<label index="referenceExplanation">Choose from the following reference data</label>
+			<label index="displayReferences">Display TypoScript Online Help</label>
+			<label index="loadedTSfrom">Loaded TypoScript from:</label>
+			<label index="sections">sections</label>
+			<label index="rebuildTS">Rebuild TypoScript online help</label>
+			<label index="warning_manualsWithoutMarkers">The following manuals contain one or more tables without markers: </label>
+			<label index="warning_duplicateMarkers">The following markers appear in several manuals or several times in the same manual:</label>
+			<label index="updateWarnings">Update warnings</label>
+			<label index="adminAccessOnly">Access to this function of the module is restricted to admins.</label>
+			<label index="noRebuildOnWindows">The Rebuild function does not run on Windows systems. Sorry!</label>
+			<label index="referenceExplanationDetailed">In order to view the different TypoScript help popup windows, select from the following reference icons. This online help is built automatically from the manuals available in the installed extensions on your TYPO3 server. To rebuild the help files when you add or remove an extension, you will need to select the &quot;Rebuild TypoScript Help&quot; function of this module.</label>
+			<label index="rebuildExplanation">Rebuilding the online help will totally wipe the online help database before parsing the TypoScript help for loaded extensions. We suggest you to have doc_core_tsref and doc_core_tsconfig installed to have them parsed as well.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index="clipBoard">显示剪贴板</label>
+			<label index="clip_paste">粘贴剪贴板内容</label>
+			<label index="clip_pasteInto">粘贴入:粘贴板中内容插入该目录中</label>
+			<label index="clip_markRecords">标注所有/删除所有标注</label>
+			<label index="clip_selectMarked">传送选择的文件到粘贴板中</label>
+			<label index="clip_deleteMarked">删除已标志文件</label>
+			<label index="clip_deleteMarkedWarning">您确定要删除该目录下所有标志了的文件?</label>
+			<label index="displayThumbs">显示小图</label>
+			<label index="c_file">文件名</label>
+			<label index="c_size">文件大小</label>
+			<label index="c_fileext">文件类型</label>
+			<label index="c_tstamp">创建日期</label>
+			<label index="c_rw">读写</label>
+			<label index="files">文件</label>
+			<label index="mlang_labels_tablabel">列表目录中的文件</label>
+			<label index="mlang_labels_tabdescr">这是TYPO3的文件管理系统. 它让您可以访问您登录的文件根目录. 通过它您可以上传, 复制, 移动和删除服务器上的文件.</label>
+			<label index="mlang_tabs_tab">文件列表</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="displayThumbs" type="integer">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

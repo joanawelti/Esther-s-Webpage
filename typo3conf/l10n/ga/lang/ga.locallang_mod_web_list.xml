@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel">Lista de rexistros</label>
+			<label index="mlang_labels_tabdescr">O módulo Web&gt;Lista permite o acceso a máis baixo nivel dos rexistros que forman unha páxina. En tanto que os outros módulos están especializados en certas operacións en certas táboas, este módulo permite o acceso total aos rexistros en cru dispoñibles para o usuario.</label>
+			<label index="mlang_tabs_tab">Lista</label>
+			<label index="clip_pasteAfter">Pegar despois: o contido do portaretallos é inserido logo deste rexistro</label>
+			<label index="clip_pasteInto">Pegar en: o contido do portaretallos é inserido nesta páxina</label>
+			<label index="clip_paste">Pegar o contido do portaretallos</label>
+			<label index="clip_markRecords">Marcar/Desmarcar todos</label>
+			<label index="clip_selectMarked">Transferir a selección de rexistros ao portaretallos</label>
+			<label index="clip_duplicates">Marcar duplicados</label>
+			<label index="clip_editMarked">Editar marcados</label>
+			<label index="clip_deleteMarked">Borrar marcados</label>
+			<label index="clip_deleteMarkedWarning">¿Seguro que quere borrar todos os rexistros marcados da táboa '%s'?</label>
+			<label index="showInfo">Mostrar información</label>
+			<label index="edit">Editar rexistro</label>
+			<label index="editPage">Editar propiedades da páxina</label>
+			<label index="new">Novo rexistro</label>
+			<label index="newPage">Crear páxina logo desta páxina</label>
+			<label index="newRecord">Crear novo rexistro logo deste rexistro</label>
+			<label index="newRecordGeneral">Crear novo rexistro</label>
+			<label index="moveUp">Subir na lista</label>
+			<label index="moveDown">Baixar na lista</label>
+			<label index="move_record">Recolocar elemento de contido</label>
+			<label index="move_page">Mover páxina</label>
+			<label index="hide">Ocultar rexistro</label>
+			<label index="unHide">Mostrar rexistro</label>
+			<label index="hidePage">Ocultar páxina</label>
+			<label index="unHidePage">Mostrar páxina</label>
+			<label index="prevLevel">Mover esta páxina á posición posterior á páxina pai actual (cara a dentro)</label>
+			<label index="nextLevel">Mover esta páxina a unha subpáxina da páxina superior (cara a fóra)</label>
+			<label index="delete">Eliminar rexistro (!)</label>
+			<label index="history">Amosar historial de cambios / Desfacer</label>
+			<label index="displayVersions">Amosar versións</label>
+			<label index="permissions">Establecer permisos para esta páxina</label>
+			<label index="largeControl">Vista estendida</label>
+			<label index="contractView">Listar todas as táboas</label>
+			<label index="expandView">Listar soamente esta táboa</label>
+			<label index="showClipBoard">Mostrar portaretallos</label>
+			<label index="editShownColumns">Editar os campos mostrados nos rexistros listados</label>
+			<label index="editThisColumn">Editar o campo &quot;%s&quot; nos rexistros listados</label>
+			<label index="deleteWarning">¿Seguro que desexa eliminar este rexistro?</label>
+			<label index="localization">Vista de tradución</label>
+			<label index="defaultLanguage">Predeterminado</label>
+			<label index="multipleLanguages">Todos os idiomas</label>
+			<label index="Localize">Traducir a:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel" type="integer">234857507</label>
+			<label index="mlang_labels_tabdescr" type="integer">2001556</label>
+			<label index="mlang_tabs_tab" type="integer">82717130</label>
+			<label index="clip_pasteAfter" type="integer">12147320</label>
+			<label index="clip_pasteInto" type="integer">179341666</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">73984189</label>
+			<label index="clip_duplicates" type="integer">54279918</label>
+			<label index="clip_editMarked" type="integer">193825665</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">50666174</label>
+			<label index="showInfo" type="integer">18178327</label>
+			<label index="edit" type="integer">148343509</label>
+			<label index="editPage" type="integer">219852795</label>
+			<label index="new" type="integer">153049580</label>
+			<label index="newPage" type="integer">101902723</label>
+			<label index="newRecord" type="integer">217661453</label>
+			<label index="newRecordGeneral" type="integer">54021068</label>
+			<label index="moveUp" type="integer">263415460</label>
+			<label index="moveDown" type="integer">53528924</label>
+			<label index="move_record" type="integer">167081647</label>
+			<label index="move_page" type="integer">32081372</label>
+			<label index="hide" type="integer">36165326</label>
+			<label index="unHide" type="integer">141242332</label>
+			<label index="hidePage" type="integer">262097628</label>
+			<label index="unHidePage" type="integer">260510626</label>
+			<label index="prevLevel" type="integer">24123263</label>
+			<label index="nextLevel" type="integer">42130533</label>
+			<label index="delete" type="integer">257712260</label>
+			<label index="history" type="integer">106067206</label>
+			<label index="permissions" type="integer">57344679</label>
+			<label index="largeControl" type="integer">97098220</label>
+			<label index="contractView" type="integer">204145058</label>
+			<label index="expandView" type="integer">80203533</label>
+			<label index="showClipBoard" type="integer">249278403</label>
+			<label index="editShownColumns" type="integer">18795941</label>
+			<label index="editThisColumn" type="integer">118469315</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="localization" type="integer">248902375</label>
+			<label index="defaultLanguage" type="integer">128029197</label>
+			<label index="multipleLanguages" type="integer">180223936</label>
+			<label index="Localize" type="integer">172102978</label>
+			<label index="displayVersions" type="integer">43603780</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel">List of database-records</label>
+			<label index="mlang_labels_tabdescr">The Web&gt;List module provides low level access to records appearing on a page.</label>
+			<label index="mlang_tabs_tab">List</label>
+			<label index="clip_pasteAfter">Paste after: Clipboard content is inserted after this record</label>
+			<label index="clip_pasteInto">Paste into: Clipboard content is inserted on this page</label>
+			<label index="clip_paste">Paste in clipboard content</label>
+			<label index="clip_markRecords">Mark All/Mark none</label>
+			<label index="clip_selectMarked">Transfer the selection of records to clipboard</label>
+			<label index="clip_duplicates">Mark duplicates</label>
+			<label index="clip_editMarked">Edit marked</label>
+			<label index="clip_deleteMarked">Delete marked</label>
+			<label index="clip_deleteMarkedWarning">Are you sure you want to delete all marked records from the table '%s'?</label>
+			<label index="showInfo">Display information</label>
+			<label index="edit">Edit record</label>
+			<label index="editPage">Edit page properties</label>
+			<label index="new">New record</label>
+			<label index="newPage">Create new page after this page</label>
+			<label index="newRecord">Create new record after this record</label>
+			<label index="newRecordGeneral">Create new record</label>
+			<label index="moveUp">Move up in list</label>
+			<label index="moveDown">Move down in list</label>
+			<label index="move_record">Re-position content element</label>
+			<label index="move_page">Move page</label>
+			<label index="hide">Hide record</label>
+			<label index="unHide">Un-hide record</label>
+			<label index="hidePage">Hide page</label>
+			<label index="unHidePage">Un-hide page</label>
+			<label index="prevLevel">Move this page to the position after the current parent page (Inwards)</label>
+			<label index="nextLevel">Move this page to be a subpage of the page above (Outwards)</label>
+			<label index="delete">Delete record (!)</label>
+			<label index="history">Display change history / Un-do</label>
+			<label index="permissions">Set permissions for page</label>
+			<label index="largeControl">Extended view</label>
+			<label index="contractView">List all tables</label>
+			<label index="expandView">List only this table</label>
+			<label index="showClipBoard">Show clipboard</label>
+			<label index="editShownColumns">Edit all shown fields of the listed records</label>
+			<label index="editThisColumn">Edit the '%s' field of the listed records</label>
+			<label index="deleteWarning">Are you sure you want to delete this record?</label>
+			<label index="localization">Localization view</label>
+			<label index="defaultLanguage">Default</label>
+			<label index="multipleLanguages">All languages</label>
+			<label index="Localize">Localize to:</label>
+			<label index="displayVersions">Display versions</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

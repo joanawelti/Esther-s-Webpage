@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gl" type="array">
+			<label index="deleteItem">Nunguteruk</label>
+			<label index="deleteWarning">Ilumut immersugassaq taanna nunguterniarpiuk?</label>
+			<label index="openDocs">ALLAKKAT AMMASUT</label>
+			<label index="noDocuments">Ammasumik allagaqanngilaq</label>
+			<label index="noDocuments_OR">imal.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gl" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

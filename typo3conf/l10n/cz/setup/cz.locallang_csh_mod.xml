@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index=".alttitle">Uživatel &gt; Modul nastavení</label>
+			<label index=".description">Modul nastavení umožňuje uživateli nastavit si TYPO3 podle svých potřeb. Včetně volby jazyka a dalších možností.</label>
+			<label index=".details">&lt;b&gt;Poznámka [Pro Administrátory]:&lt;/b&gt; Tato nastavení mohou změněna nebo určeny standardní hodnoty pomocí &quot;User TSconfig&quot;. Pro více informací použij odkaz níže.</label>
+			<label index=".image_descr">Modul nastavení je vybrán v levém menu. 
+Takto vypadá prostředí Modulu nastavení - výběr možností nastavení.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index=".details" type="integer">127028415</label>
+			<label index=".image_descr" type="integer">55722408</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index=".details">&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by &quot;User TSconfig&quot;. To read more about this concept, see the link below!</label>
+			<label index=".image_descr">The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

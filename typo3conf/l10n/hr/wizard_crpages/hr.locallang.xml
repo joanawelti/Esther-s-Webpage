@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="wiz_crMany">Napravi više stranica</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Napravi nove stranice</label>
+			<label index="wiz_newPages_page">Stranica</label>
+			<label index="wiz_newPages_currentMenu">Struktura novih stranica</label>
+			<label index="wiz_newPages_helpText">Ovdje možete napraviti nove prazne stranice. To je korisno ako želite brzo generirati strukturu stranica za novo web sjedište ili sekciju.&lt;BR /&gt; Samo unesite naslove stranica koje trebate. Samo unesena polja će kreirati nove stranice.</label>
+			<label index="wiz_newPages_errorMsg1">Nije vam dozvoljeno da radite nove podstranice ovoj stranici!</label>
+			<label index="wiz_newPages_lCreate">Napravi stranice</label>
+			<label index="wiz_newPages_listEnd">Postavi nove stranice nakon postojećih.</label>
+			<label index="wiz_newPages_hidePages">Sakri nove stranice</label>
+			<label index="wiz_newPages_lCreate_msg1">Napraviti ćete više novih stranica. Jeste li sigurni da želite nastaviti.</label>
+			<label index="wiz_newPages_lReset">Počisti polja</label>
+			<label index="wiz_newPages_noCreate">Nijedna stranica nije napravljena</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="integer">1353175</label>
+			<label index="wiz_newPages_helpText" type="integer">257879061</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="integer">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

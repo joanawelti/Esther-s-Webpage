@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eo" type="array">
+			<label index="labels.cancel">Nuligo</label>
+			<label index="labels.starttime">Komenco</label>
+			<label index="labels.endtime">Fino</label>
+			<label index="labels.allow">Permesi</label>
+			<label index="labels.close">Fermi</label>
+			<label index="labels.new">Nova</label>
+			<label index="file_edit.php.submit">Savi</label>
+			<label index="file_edit.php.saveAndClose">Savi kaj Fermi</label>
+			<label index="rm.delete">Viau</label>
+			<label index="buttons.logout">Adia</label>
+			<label index="cm.delete">Viau</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eo" type="array">
+			<label index="labels.new" type="integer">38618522</label>
+			<label index="labels.cancel" type="integer">245659783</label>
+			<label index="labels.starttime" type="integer">174138022</label>
+			<label index="labels.endtime" type="integer">141907953</label>
+			<label index="labels.allow" type="integer">73338807</label>
+			<label index="labels.close" type="integer">222113377</label>
+			<label index="file_edit.php.submit" type="integer">211601612</label>
+			<label index="file_edit.php.saveAndClose" type="integer">253538544</label>
+			<label index="rm.delete" type="integer">254438473</label>
+			<label index="buttons.logout" type="double">3292644</label>
+			<label index="cm.delete" type="integer">254438473</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eo" type="array">
+			<label index="labels.new">NEW</label>
+			<label index="labels.cancel">Cancel</label>
+			<label index="labels.starttime">Start</label>
+			<label index="labels.endtime">End</label>
+			<label index="labels.allow">Allow</label>
+			<label index="labels.close">Close</label>
+			<label index="file_edit.php.submit">Save</label>
+			<label index="file_edit.php.saveAndClose">Save and Close</label>
+			<label index="rm.delete">Delete</label>
+			<label index="buttons.logout">Logout</label>
+			<label index="cm.delete">Delete</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

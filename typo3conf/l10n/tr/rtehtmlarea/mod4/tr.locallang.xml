@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="folderTree">Klasör ağacı</label>
+			<label index="uploadImage">Resim yükle</label>
+			<label index="path">Yol</label>
+			<label index="images">Resimler</label>
+			<label index="magicImage_msg">&quot;Sihirli&quot; modta farklı boyutlarıyla resim türü seçebilirsiniz. Resim otomatik olarak web formatına veya bazı ayarlamalara dönüştürülür resmin ebatının belirlenmesi resmin ebatı ve kalitesini en iyi şekilde kullanılabilmesinden sonraki süreçtir.</label>
+			<label index="plainImage_msg">&quot;Basit&quot; modta sadece web resim formatları ekleyebilirsiniz (JPG,GIF ve PNG) 640x480 piksele kadar. Bu metod resimler için tasarlanmış olup web için en iyi şekilde kullanılmıştır.</label>
+			<label index="width">Genişlik</label>
+			<label index="height">Yükseklik</label>
+			<label index="border">Kenar</label>
+			<label index="margin_tb">Üst/alt marj</label>
+			<label index="margin_lr">Sol/Sağ marj</label>
+			<label index="title">Başlık</label>
+			<label index="update">Güncelle</label>
+			<label index="magicImage">Yeni Sihirli Resim</label>
+			<label index="plainImage">Yeni Basit Resim</label>
+			<label index="dragDropImage">Sürükle ve Bırak</label>
+			<label index="currentImage">Güncel Resim</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

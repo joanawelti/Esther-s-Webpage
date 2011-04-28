@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="permissions">Права доступа</label>
+			<label index="ch_permissions">Изменить права доступа</label>
+			<label index="Legend">Легенда</label>
+			<label index="Owner">Владелец</label>
+			<label index="Group">Группа</label>
+			<label index="Everybody">Все</label>
+			<label index="EditLock">Доступ закрыт</label>
+			<label index="EditLock_descr">Страница со всеми записями закрыта для всех пользователей, кроме Администраторов.</label>
+			<label index="Save">Сохранить</label>
+			<label index="Abort">Отменить</label>
+			<label index="Edit">РЕДАКТИРОВАНИЕ</label>
+			<label index="recursive">Установить рекурсивно</label>
+			<label index="pages_affected">страниц задействованно</label>
+			<label index="user_overview">Обзор пользователей</label>
+			<label index="Mode">Режим</label>
+			<label index="Depth">Глубина</label>
+			<label index="levels">уровн.</label>
+			<label index="User">Пользователь</label>
+			<label index="def">Определение: 'контент' -- это записи из всех таблиц на странице, кроме записей из таблицы 'pages'</label>
+			<label index="A_Granted">Доступ разрешен</label>
+			<label index="A_Denied">Доступ запрещен</label>
+			<label index="1">Просмотреть страницу</label>
+			<label index="16">Редактировать контент</label>
+			<label index="2">Редактировать страницу</label>
+			<label index="4">Удалить страницу</label>
+			<label index="8">Новые страницы</label>
+			<label index="1_t">Показать/Копировать страницу и ее контент.</label>
+			<label index="16_t">Изменить/Добавить/Удалить/Переместить контент.</label>
+			<label index="2_t">Изменить/Переместить страницу, например, изменить ее заголовок и пр.</label>
+			<label index="4_t">Удалить страницу и ее контент.</label>
+			<label index="8_t">Создать новые дочерние страницы.</label>
+			<label index="mlang_labels_tablabel">Права редактирования страницы</label>
+			<label index="mlang_labels_tabdescr">Установка прав на редактирование страницы необходима, чтобы контролировать доступ к странице для пользователей служебного интерфейса (backend users). Вы можете назначить владельцами страницы пользователя и группу и установить для них доступ.</label>
+			<label index="mlang_tabs_tab">Доступ</label>
+			<label index="WorkspaceWarning">Предупреждение о рабочих областях</label>
+			<label index="WorkspaceWarningText">Настройки доступа, которые вы задаёте, находясь в рабочей области, будут действовать на элементы только &lt;em&gt;после&lt;/em&gt; того, как они будут опубликованы! Если вы хотите задать настройки доступа, которые вступят в силу прямо сейчас, вы должны сделать это в чистовой рабочей области. (Настройки доступа всегда вычисляются для записи, находящейся в чистовой рабочей области/месте для черновой версии)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<label index="1" type="integer">256624387</label>
+			<label index="16" type="integer">102695873</label>
+			<label index="2" type="integer">66732081</label>
+			<label index="4" type="integer">220131191</label>
+			<label index="8" type="integer">146653009</label>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="double">6517083</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+			<label index="WorkspaceWarning" type="integer">247709981</label>
+			<label index="WorkspaceWarningText" type="integer">82844557</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="permissions">Permissions</label>
+			<label index="ch_permissions">Change permissions</label>
+			<label index="Legend">Legend</label>
+			<label index="Owner">Owner</label>
+			<label index="Group">Group</label>
+			<label index="Everybody">Everybody</label>
+			<label index="EditLock">Lock</label>
+			<label index="EditLock_descr">The page and all content is locked for editing by all non-Admin users.</label>
+			<label index="Save">Save</label>
+			<label index="Abort">Abort</label>
+			<label index="Edit">EDIT</label>
+			<label index="recursive">Set recursively</label>
+			<label index="pages_affected">pages affected</label>
+			<label index="user_overview">User overview</label>
+			<label index="Mode">Mode</label>
+			<label index="Depth">Depth</label>
+			<label index="levels">levels</label>
+			<label index="User">User</label>
+			<label index="def">Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</label>
+			<label index="A_Granted">Access Granted</label>
+			<label index="A_Denied">Access Denied</label>
+			<label index="1">Show page</label>
+			<label index="16">Edit content</label>
+			<label index="2">Edit page</label>
+			<label index="4">Delete page</label>
+			<label index="8">New pages</label>
+			<label index="1_t">Show/Copy page and content.</label>
+			<label index="16_t">Change/Add/Delete/Move content.</label>
+			<label index="2_t">Change/Move page, eg. change pagetitle etc.</label>
+			<label index="4_t">Delete page and content.</label>
+			<label index="8_t">Create new pages under this page.</label>
+			<label index="mlang_labels_tablabel">Page editing permissions</label>
+			<label index="mlang_labels_tabdescr">Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</label>
+			<label index="mlang_tabs_tab">Access</label>
+			<label index="WorkspaceWarning">Workspace Warning</label>
+			<label index="WorkspaceWarningText">Permissions you set in the workspace are effective on the elements only &lt;em&gt;after&lt;/em&gt; they are published! If you need to set permissions which are effective right now, you must do so in the Live workspace. (Permissions are always evaluated on the Live workspace record/placeholder of a draft version)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

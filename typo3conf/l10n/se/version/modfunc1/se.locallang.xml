@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="title">Versionshantering</label>
+			<label index="checklabel">Kryssruta 1</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="title" type="integer">26780425</label>
+			<label index="checklabel" type="integer">212639384</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="title">Versioning</label>
+			<label index="checklabel">Check box #1</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

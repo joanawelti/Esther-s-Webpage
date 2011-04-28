@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Wizard</description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:templavoila/mod2/locallang.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">TemplaVoilà Control Center</label>
+			<label index="wiz_title">New site wizard</label>
+			<label index="wiz_step">Step %s</label>
+		</languageKey>
+	</data>
+</T3locallang>

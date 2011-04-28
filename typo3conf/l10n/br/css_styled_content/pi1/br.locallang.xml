@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="label.toTop">Topo</label>
+			<label index="login.username">Usuário:</label>
+			<label index="login.password">Senha:</label>
+			<label index="login.login">Entrar</label>
+			<label index="login.logout">Sair</label>
+			<label index="search.emptySearch">Desculpe, mas sua busca estava vazia!</label>
+			<label index="search.resultRange">Resultado: ###RANGELOW###-###RANGEHIGH### de ###TOTAL###</label>
+			<label index="search.searchResultNext">Próxima</label>
+			<label index="search.searchResultPrev">Anterior</label>
+			<label index="search.searchWord">Busca:</label>
+			<label index="search.searchIn">Buscar em:</label>
+			<label index="search.headersKeywords">Cabeçalhos e palavras-chave</label>
+			<label index="search.pageContent">Conteúdo da página</label>
+			<label index="search.searchButton">Buscar agora!</label>
+			<label index="eIcon.html">Editar conteúdo em HTML</label>
+			<label index="eIcon.header">Editar cabeçalho</label>
+			<label index="eIcon.subheader">Editar sub-cabeçalho</label>
+			<label index="eIcon.bodytext">Editar corpo do texto</label>
+			<label index="eIcon.images">Editar imagens</label>
+			<label index="eIcon.caption">Editar legenda da imagem</label>
+			<label index="eIcon.bullets">Editar lista marcada</label>
+			<label index="eIcon.table">Editar tabela</label>
+			<label index="eIcon.filelist">Editar lista de arquivos</label>
+			<label index="eIcon.menuSitemap">Editar menu / mapa do site</label>
+			<label index="eIcon.recordList">Editar lista de registros</label>
+			<label index="eIcon.plugin">Alterar/configurar plugin</label>
+			<label index="eIcon.multimedia">Editar elemento multimídia</label>
+			<label index="eIcon.form">Editar formulário de e-mail</label>
+			<label index="eIcon.search">Editar elemento de busca</label>
+			<label index="eIcon.login">Editar elemento de entrada</label>
+			<label index="eIcon.page">Página:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="label.toTop" type="integer">256968027</label>
+			<label index="login.username" type="integer">212632006</label>
+			<label index="login.password" type="integer">187963993</label>
+			<label index="login.login" type="integer">161344120</label>
+			<label index="login.logout" type="integer">3292644</label>
+			<label index="search.emptySearch" type="integer">118666163</label>
+			<label index="search.resultRange" type="integer">182339452</label>
+			<label index="search.searchResultNext" type="integer">17482704</label>
+			<label index="search.searchResultPrev" type="integer">21115089</label>
+			<label index="search.searchWord" type="integer">150454913</label>
+			<label index="search.searchIn" type="integer">248140624</label>
+			<label index="search.headersKeywords" type="integer">5479653</label>
+			<label index="search.pageContent" type="integer">73079758</label>
+			<label index="search.searchButton" type="integer">3457966</label>
+			<label index="eIcon.html" type="integer">219732781</label>
+			<label index="eIcon.header" type="integer">263342564</label>
+			<label index="eIcon.subheader" type="integer">106009992</label>
+			<label index="eIcon.bodytext" type="integer">25202894</label>
+			<label index="eIcon.images" type="integer">53347967</label>
+			<label index="eIcon.caption" type="integer">202261956</label>
+			<label index="eIcon.bullets" type="integer">17099413</label>
+			<label index="eIcon.table" type="integer">194091224</label>
+			<label index="eIcon.filelist" type="integer">200322698</label>
+			<label index="eIcon.menuSitemap" type="integer">258217158</label>
+			<label index="eIcon.recordList" type="integer">199959556</label>
+			<label index="eIcon.plugin" type="integer">206199137</label>
+			<label index="eIcon.multimedia" type="integer">66403706</label>
+			<label index="eIcon.form" type="integer">268386904</label>
+			<label index="eIcon.search" type="integer">260269479</label>
+			<label index="eIcon.login" type="integer">135433115</label>
+			<label index="eIcon.page" type="integer">230383377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

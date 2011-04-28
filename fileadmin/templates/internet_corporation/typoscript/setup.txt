@@ -1,0 +1,79 @@
+page = PAGE
+page.typeNum = 0
+page.meta.DESCRIPTION = Esther Battaini
+page.meta.KEYWORDS = Esther Battaini, Therapie, Ernährung, Heilen
+#config.xhtml_cleaning = all
+#config.disablePrefixComment = 1
+#config.pageTitleFirst = 1
+page.includeCSS { 
+   file1 = fileadmin/templates/esther_battaini/css/style.css
+   file2 = fileadmin/templates/esther_battaini/css/menu.css
+}
+#page.includeLibs.tmenu_layers = fileadmin/templates/esther_battaini/scripts/gmenu_layers.php 
+page.headerData.1 = TEXT
+page.headerData.1.value (
+	<script type='text/javascript' src='fileadmin/templates/esther_battaini/scripts/menu.js'></script>
+)
+page.bodyTag = <body>
+page.1 = TEMPLATE
+page.1.marks.PAGE_UID = TEXT
+page.1.marks.PAGE_UID.field = uid
+page.1 {
+   template = FILE
+   template.file = fileadmin/templates/esther_battaini/index.html
+   workOnSubpart = DOKUMENT
+   subparts.INHALT < styles.content.get
+   subparts.MENU_OBEN < temp.MenuOben
+   subparts.MENU_TOP < temp.MenuTop
+   subparts.INHALT_LINKS < styles.content.getLeft
+   #subparts.INHALT_LINKS.select.pidInList = 2
+   #subparts.ROOTLINE < tmp.breadcrump
+   subparts.TITEL = TEXT
+   subparts.TITEL < temp.titel
+   subparts.SEITENTITEL = TEXT
+   subparts.SEITENTITEL < temp.siteTitel
+   subparts.BESCHREIBUNG = TEXT
+   subparts.BESCHREIBUNG < temp.beschreibung
+   #subparts.BANNER < temp.toppic 
+   #subparts.SUCHE < temp.suche
+   #subparts.CONTENT_BORDER < styles.content.getBorder
+   #subparts.COUNTER = TEXT
+   #subparts.COUNTER < plugin.tx_cscounter_pi1
+   #subparts.DRUCKEN < druckansicht
+   #subparts.LASTUPDATE < temp.lu
+   subparts.COPYRIGHT < temp.copyright
+   #subparts.SPRACHE = PHP_SCRIPT
+   #subparts.SPRACHE.file = fileadmin/templates/esther_battaini/scripts/languageMenu.php
+}
+
+
+#page Last Updated
+#subparts.LASTUPDATE = TEXT
+#subparts.LASTUPDATE {
+#data = page:lastUpdated
+#if.isTrue.data = page:lastUpdated
+#date = d.m.Y, H:i
+#wrap = Aktualisiert:&nbsp; |
+#data = register : SYS_LASTCHANGED
+#if >
+#}
+#subparts.MENU_UNTEN < page.12
+#page.12 = ""
+#subparts.IMAGE < temp.ImageOben
+
+#Druckversion Setup
+#alt_print.10.marks.INHALT < styles.content.get
+#page.10.marks.PRINT = TEXT 
+#page.10.marks.PRINT.field = uid
+#page.10.marks.PRINT.wrap = <a href="index.php?id=|&type=98"><img src="fileadmin/templates/esther_battaini/images/print.png" border="0" alt="Seite drucken" title="Seite #drucken"></a> 
+
+# Seite weiterempfehlen
+#page.10.marks.TIP = COA 
+#page.10.marks.TIP { 
+#  wrap = <a href="index.php?id=56"><img src="fileadmin/templates/esther_battaini/images/tip.png" border="0" alt="Seite weiterempfehlen"></a> 
+#  postUserFunc.windowparams = (resizable=yes,toolbar=yes,scrollbars=yes,menubar=no,width=800,height=500) 
+#  1 = TEXT 
+#  1.data = TSFE : | 
+#  1.typolink.tipUrl="index.php?id="|
+#  1.typolink.parameter = | 
+#} 

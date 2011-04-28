@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab">Corbeille</label>
+			<label index="mlang_labels_tablabel">Corbeille TYPO3</label>
+			<label index="mlang_labels_tabdescr">La corbeille offre la possibilité de restaurer les enregistrements supprimés ou de les supprimer définitivement de la BDD. Ces actions peuvent être appliquées à un enregistrement seul, plusieurs enregistrements, et récursivement à des enregistrements enfants  (exemple : restaurer une page permet de restaurer tous les contenus de cette page). Filtrer par page et par table procure un rapide aperçu des enregistrements supprimés avant d'agir sur ceux-ci.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab" type="integer">184146156</label>
+			<label index="mlang_labels_tablabel" type="integer">168924579</label>
+			<label index="mlang_labels_tabdescr" type="integer">17011266</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab">Recycler</label>
+			<label index="mlang_labels_tablabel">TYPO3 Recycler</label>
+			<label index="mlang_labels_tabdescr">The recycler offers the possibility to restore deleted records or remove them from the database permanently. These actions can be applied to a single record, multiple records, and recursively to child records (ex. restoring a page can restore all content elements on that page). Filtering by page and by table provides a quick overview of deleted records before taking action on them.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

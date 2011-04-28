@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ua" type="array">
+			<label index="removeLink">Видалити посилання</label>
+			<label index="uploadImage">Додати зображення</label>
+			<label index="update">Поновити</label>
+			<label index="path">Путь</label>
+			<label index="page">Сторінка</label>
+			<label index="file">Файл</label>
+			<label index="extUrl">Зовнішній URL</label>
+			<label index="email">Email</label>
+			<label index="special">Спеціальний</label>
+			<label index="folderTree">Дерево тек</label>
+			<label index="files">Файли</label>
+			<label index="target">Ціль</label>
+			<label index="title">Назва</label>
+			<label index="target_popUpWindow">Відкрити у вікні</label>
+			<label index="target_popUpWindow_width">Ширина</label>
+			<label index="target_popUpWindow_height">Висота</label>
+			<label index="newWindow">Нове вікно</label>
+			<label index="top">Угорі</label>
+			<label index="none">Немає - нове посилання!</label>
+			<label index="pageTree">Дерево сторінок</label>
+			<label index="contentElements">Елементи вмісту</label>
+			<label index="selectRecords">Обрати записи</label>
+			<label index="addToList">Додати до списку...</label>
+			<label index="info">Інформація</label>
+			<label index="emailAddress">Адреса e-mail</label>
+			<label index="setLink">Встановити посилання</label>
+			<label index="clickToRedrawFullSize">Зображення більше, ніж показано тут!  Клацніть, щоб перемалювати сторінку із зображеннями повного розміру.</label>
+			<label index="findDragDrop">Знайдіть потрібне зображення, клацніть по ньому й перетягніть до редактора у головному вікні!</label>
+			<label index="noWebFolder">Ви не можете перетягнути зображення із цієї (жовтої) теки, тому що вона є внутрішньою для серверу.</label>
+			<label index="currentLink">Поточне посилання</label>
+			<label index="invalidChar">ПОМИЛКА: у путі файлу знайдено невірний символ (%s).  Неможливо додати файл!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ua" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="double">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="double">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="target_popUpWindow" type="integer">21986240</label>
+			<label index="target_popUpWindow_width" type="integer">53040229</label>
+			<label index="target_popUpWindow_height" type="integer">250375243</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="double">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="double">14459647</label>
+			<label index="findDragDrop" type="integer">220992020</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+			<label index="invalidChar" type="integer">103011900</label>
+			<label index="title" type="integer">192455458</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ua" type="array">
+			<label index="removeLink">Remove link</label>
+			<label index="uploadImage">Upload Image</label>
+			<label index="update">Update</label>
+			<label index="path">Path</label>
+			<label index="page">Page</label>
+			<label index="file">File</label>
+			<label index="extUrl">External URL</label>
+			<label index="email">Email</label>
+			<label index="special">Special</label>
+			<label index="folderTree">Folder Tree</label>
+			<label index="files">Files</label>
+			<label index="target">Target</label>
+			<label index="target_popUpWindow">Open in window</label>
+			<label index="target_popUpWindow_width">Width</label>
+			<label index="target_popUpWindow_height">Height</label>
+			<label index="newWindow">New window</label>
+			<label index="top">Top</label>
+			<label index="none">None - new link!</label>
+			<label index="pageTree">Page tree</label>
+			<label index="contentElements">Content elements</label>
+			<label index="selectRecords">Select Records</label>
+			<label index="addToList">Add to list...</label>
+			<label index="info">Info</label>
+			<label index="emailAddress">Email address</label>
+			<label index="setLink">Set Link</label>
+			<label index="clickToRedrawFullSize">Image is larger than shown here! Click to redraw page with full sized images.</label>
+			<label index="findDragDrop">Find and click on your image then drag it into the editor in the main window!</label>
+			<label index="noWebFolder">You cannot drag images from this folder (yellow) because it is internal on the server.</label>
+			<label index="currentLink">Current Link</label>
+			<label index="invalidChar">ERROR: Invalid character found in file path (%s). Cannot add the file!</label>
+			<label index="title">Title</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

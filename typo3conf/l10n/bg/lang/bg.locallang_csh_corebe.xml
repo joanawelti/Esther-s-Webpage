@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index=".alttitle">TYPO3 Ядро</label>
+			<label index=".description">TYPO3 е фреймуорк за управление на съдържанието, който се състои от централно програмно ядро с ограничена функционалност. За да се разшири съществуват стотици разширения, които в комбинация ще осигурят много функционална система.</label>
+			<label index="menu_modules.alttitle">Бекенд модули</label>
+			<label index="menu_adminFunction.alttitle">Администраторски функции</label>
+			<label index="menu_adminFunction.description">Администраторските функции позволяват на администраторите да изчистват кеша и т.н.</label>
+			<label index="pagetree.alttitle">Дървото на страници</label>
+			<label index="filetree.alttitle">Дървото от директории</label>
+			<label index="list_module.alttitle">Модулът Уеб &gt; Списък</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index=".alttitle" type="integer">60773436</label>
+			<label index=".description" type="integer">24519003</label>
+			<label index="menu_modules.alttitle" type="integer">103207836</label>
+			<label index="menu_adminFunction.alttitle" type="integer">182425230</label>
+			<label index="menu_adminFunction.description" type="integer">208114656</label>
+			<label index="pagetree.alttitle" type="integer">178449317</label>
+			<label index="filetree.alttitle" type="integer">187918820</label>
+			<label index="list_module.alttitle" type="integer">259791878</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index=".alttitle">TYPO3 Core</label>
+			<label index=".description">TYPO3 is a Content Management Framework which consists of a central program core with only limited functionality. To extend this core system there are hundreds of extensions which in combination will provide a very capable system.</label>
+			<label index="menu_modules.alttitle">Backend modules</label>
+			<label index="menu_adminFunction.alttitle">Admin Functions</label>
+			<label index="menu_adminFunction.description">The Admin Functions allow administrators to clear caches etc.</label>
+			<label index="pagetree.alttitle">The Page Tree</label>
+			<label index="filetree.alttitle">The Folder Tree</label>
+			<label index="list_module.alttitle">The Web&gt;List module</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

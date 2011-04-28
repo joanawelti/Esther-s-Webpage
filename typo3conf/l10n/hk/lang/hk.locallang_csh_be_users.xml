@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">這是後勤管理使用者的資料表</label>
+			<label index="username.description">輸入後勤使用者的登入名稱</label>
+			<label index="username.details">使用者名稱是必須的和一定以細階輸，其中不能有空隔。使用者名稱是獨一的。假如不是獨一的，會自動加上數字</label>
+			<label index="password.description">輸入上面後勤使用者的密碼（留意你在欄中輸入的值&lt;i&gt;會&lt;/i&gt;被看見）</label>
+			<label index="password.details">需要密碼。在密碼把MD5加密傳送去伺服器之前，因此密碼值本身不會透過互聯網傳送。在使用者修改密碼時和登入時都是這樣。
+這個原則不會啟示原始密碼，但是它&lt;i&gt;不是&lt;/i&gt;與真正的加密相同。假如你要更高程度的保密，你應該把TYPO3的後勤安裝在一個安全的伺服器上。
+密碼以MD5加密的形式儲儲存在資料庫中，因此也不可能從中抽取原本的密碼。這代表使用者「遺失的密碼」一定要用新的密碼取代。</label>
+			<label index="usergroup.description">設定後勤使用者所屬的群組</label>
+			<label index="usergroup.details">後勤使用者群組定義後勤使用者所承襲的權限。因此，除非後勤使用者是「管理員」級使用者，否則他需要成為一個或以上的使用者群組的成員，以致他可以實在地得到所賦予的權限。在使用者群組中所設定的等性大部分被連合成為整體。
+在名中的第一個（最上的）使用者群組，預設為使用者所建立的網頁的擁有者</label>
+			<label index="lockToDomain.description">輸入主機的名稱，使用者必須從此登入</label>
+			<label index="lockToDomain.details">一個TYPO3系統可以有多個網域使用。因此，這個選項保證只可以從某一主機登入</label>
+			<label index="disableIPlock.description">關閉記錄後勤使用者IP位址的功能</label>
+			<label index="disableIPlock.details">你需要關閉此功能，假如有後勤使用者以ISDN或MODEM連結來進入TYPO3，因這些連結會在關閉再連接後得到新的IP位址。用DHCP分配位址亦一樣，常常會分配到新的IP位址</label>
+			<label index="db_mountpoints.description">設定使用者網頁樹圖的起始點</label>
+			<label index="db_mountpoints.details">網頁樹圖被所有網站副模組用以溜覽網頁，它一定要有某個定義的起始點。這裡你應該插入或以上的參照個為樹圖中的新根頁。這稱為「資料庫掛點」
+
+&lt;strong&gt;留意&lt;/strong&gt;使用者可以承襲所屬的後勤使用者群的「資料庫掛點」。因此，假如你想一群組的使用者共用一個樹圖，你應該在他們同屬的群組中掛入樹圖。</label>
+			<label index="file_mountpoints.description">設定檔案資料夾樹圖的起始點</label>
+			<label index="file_mountpoints.details">檔案樹圖被所有檔案副模組用以溜覽網站伺器上的檔案。為了能夠上載&lt;em&gt;任何&lt;/em&gt;檔案，使用者&lt;em&gt;一定&lt;/em&gt;要有一個檔案資料夾掛於一個稱為「_temp_」（這是上載的檔案預設的儲存位置）的資料夾之上。
+留意，正如「資料庫掛點」一樣，檔案資料夾掛點也可以被使用者從使用者群組中承襲。</label>
+			<label index="email.description">輸入使用者的電郵地址</label>
+			<label index="email.details">是否輸入這個地址不太重要，這是寄出訊息的系統的地址。
+&lt;strong&gt;留意&lt;/strong&gt;使用者可以自己在「使用者&gt;設定」模組中改變這個值</label>
+			<label index="realName.description">輸入使用者真姓名</label>
+			<label index="realName.details">&lt;strong&gt;留意&lt;/strong&gt;使用者能夠自己使用「使用者&gt;設定」模組改變這個值</label>
+			<label index="disable.description">這個選項會暫時關閉使用者的登入功能</label>
+			<label index="admin.description">「管理員」使用者對系統有完整的存取權</label>
+			<label index="admin.details">「管理員」可以做任何TYPO3容許的事，而這類使用者應該為了管理的目的才會運用。所有日常的工作應該以普通的使用者處理。「管理員」不需屬於任何後勤使用者群組。然而你應該留意由不屬於任群組的管理員級使用者所建立的所有網頁將不會獲配給任何的有者群組，因此其他使用者也許會看不到這些網頁。假如此問題出現，你可以輕易地透過配給群組給「管理員」使用者來解決這個問題。樣做當然不會影響了權限，因為權限是沒有限制的，但是名單上第一個群組被預設為新建立的網頁的擁有者群組。
+「管理員」使用者是易於辨認的，因為他們擁有紅色的使用者圖示，這與一般使用者籃色圖示有所不同。
+
+你最好除了自己以外，不配給任何使用者作為「管理員」使用者。</label>
+			<label index="options.description">假如使用者應該從群組承襲網頁樹圖或資料夾樹圖掛點，請選擇這個選項</label>
+			<label index="options.details">讓使用者從群組中承襲掛點有很好的好處，因為會使管理多個使用者共同使用一個掛點變為極之容易
+假如你不選擇這個選項，你一定要為使用者特別在網頁樹圖和案樹圖中設定掛點。</label>
+			<label index="fileoper_perms.description">為使用者選擇檔案運作的權限</label>
+			<label index="fileoper_perms.details">這些設定關係到在「檔案&gt;表列」中找到的功能，也關係到一般的檔案上載</label>
+			<label index="starttime.description">輸入帳戶生效的日期</label>
+			<label index="endtime.description">輸入帳戶失效的日期</label>
+			<label index="lang.description">選擇&lt;i&gt;預設&lt;/i&gt;的語言</label>
+			<label index="lang.details">決定使用者所使用的後勤介面的語言。所有可供一般使用者使用的主要部分都可以在選擇的系統語言中運用。然而「管理員使用者」會經歷TYPO3中「只限管理員」部分是英語的。包括了所有「工具」模組中的副模組和「網頁&gt;樣版」模組。
+
+&lt;b&gt;留意&lt;／b&gt;這只是預設語言。一旦使用者已經登入，語言一定要透過「使用者&gt;設定」模組改變</label>
+			<label index="userMods.description">給使用者選擇可以的後勤模組</label>
+			<label index="userMods.details">決定有那些「選單項目」可供使用者使用。
+
+留意後勤使用者群組的模組設定可以是相同的，除了你此擇的模組外，再加上從群組承襲的模組成為了可用的模組名單。較佳辦法是不要為個別使用者設定模組清單，而是在其所屬的後勤使用者群組中設定可用模組的清單。然而這裡的名單可以提供很好的途徑來為某個使用者加入一個模組</label>
+			<label index="TSconfig.description">為使用者輸入附加的 TSconfig（進階）</label>
+			<label index="TSconfig.details">這個欄位容許你極度詳細地延伸使用者的設定。這個選項的簡介包括一個詳盡的後勤模組設定，設定使用者有的資料表欄位值，設定多功能文字編輯器的選項等。這個名單會隨時間增加，並且在管理說明文件中有詳盡的說明，特別是「admin_guide.pdf」（參看以下連結）</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description" type="integer">174805996</label>
+			<label index="username.description" type="integer">169225297</label>
+			<label index="username.details" type="integer">26517555</label>
+			<label index="password.description" type="integer">182240439</label>
+			<label index="password.details" type="integer">135612209</label>
+			<label index="usergroup.description" type="integer">162325927</label>
+			<label index="usergroup.details" type="integer">30843346</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">140149042</label>
+			<label index="disableIPlock.description" type="integer">204135236</label>
+			<label index="disableIPlock.details" type="integer">27220559</label>
+			<label index="db_mountpoints.description" type="integer">83626085</label>
+			<label index="db_mountpoints.details" type="integer">21669967</label>
+			<label index="file_mountpoints.description" type="integer">103273463</label>
+			<label index="file_mountpoints.details" type="integer">170613745</label>
+			<label index="email.description" type="integer">102465996</label>
+			<label index="email.details" type="integer">119942305</label>
+			<label index="realName.description" type="integer">49868929</label>
+			<label index="realName.details" type="integer">184974335</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="admin.description" type="integer">200276487</label>
+			<label index="admin.details" type="integer">124287279</label>
+			<label index="options.description" type="integer">91490880</label>
+			<label index="options.details" type="integer">184652761</label>
+			<label index="fileoper_perms.description" type="integer">25345447</label>
+			<label index="fileoper_perms.details" type="integer">136693371</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="lang.description" type="integer">107431137</label>
+			<label index="lang.details" type="integer">191160570</label>
+			<label index="userMods.description" type="integer">247677460</label>
+			<label index="userMods.details" type="integer">132513125</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index="TSconfig.details" type="integer">220754092</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">This is the table of backend administration users. Backend users can login in the backend of TYPO3 and are typically producers of content on a website.</label>
+			<label index="username.description">Enter the login name of the backend user.</label>
+			<label index="username.details">A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</label>
+			<label index="password.description">Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</label>
+			<label index="password.details">The password is required. Before the password is sent to the server it's md5-hashed, so the password value itself is not transferred over the Internet. This is true both when editing the password and when the user logs in.
+While this principle does not reveal the raw password it is &lt;i&gt;not&lt;/i&gt; the same as real encryption. If you need the highest degree of security you should install the TYPO3 backend on a secure server.
+The password is stored in the database as an md5-hash and thus it's not possible to extract the original password from the database either. This means that 'lost passwords' must be substituted with a new password for the user.
+
+&lt;b&gt;Notice&lt;/b&gt;
+When you enter the password in the password field it is initially visible in clear text! First when the password field focus is lost will the password become a &quot;list of dots&quot;.
+
+&lt;b&gt;User changing password&lt;/b&gt;
+Users can change their password from the User &gt; Setup module</label>
+			<label index="usergroup.description">Assign backend user groups to the user.</label>
+			<label index="usergroup.details">The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
+The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</label>
+			<label index="disableIPlock.description">Disable the lock of the backend users session to the remote IP number.</label>
+			<label index="disableIPlock.details">You will have to disable this lock if backend users are accessing TYPO3 from ISDN or modem connections which may shutdown and reconnect with a new IP. The same would be true for DHCP assignment of IP numbers where new IP numbers are frequently assigned.</label>
+			<label index="db_mountpoints.description">Assign startpoints for the users page tree.</label>
+			<label index="db_mountpoints.details">The page tree used my all Web-submodules to navigate must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a 'Database mount'.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also has DB mounts which can be inherited by the user. So if you want a group of users to share a page tree, you should probably mount the page tree in the backend user group which they share instead.</label>
+			<label index="file_mountpoints.description">Assign startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate between the file folders on the webserver.
+Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
+See Backend Groups for details</label>
+			<label index="email.description">Enter the email address of the user.</label>
+			<label index="email.details">This address is rather important to enter because this is where messages from the system is sent.
+&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</label>
+			<label index="realName.description">Enter the ordinary name of the user, eg. John Doe.</label>
+			<label index="realName.details">&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="admin.description">'Admin' users have TOTAL access to the system!</label>
+			<label index="admin.details">'Admin' can do anything TYPO3 allows and this kind of user should be used only for administrative purposes. All daily handling should be done with regular users.
+'Admin' users don't need to be members of any backend user groups. However you should be aware that any page created by an admin user without a group will not have any owner-group assigned and thus it will probably be invisible for other users. If this becomes a problem you can easily solve it by assigning a user group to the 'Admin' user anyway. This does of course not affect the permissions since they are unlimited, but the first group listed is by default the owner group of newly created pages.
+'Admin' users are easily recognized as they appear with a red icon instead of the ordinary blue user-icon.
+
+You should probably not assign any other users than yourself as an 'Admin' user.</label>
+			<label index="options.description">Select if the user should inherit page tree or folder tree mountpoints from member groups.</label>
+			<label index="options.details">It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
+If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</label>
+			<label index="fileoper_perms.description">Select file operation permissions for the user.</label>
+			<label index="fileoper_perms.details">These settings relates to the functions found in the File&gt;List module as well as general upload of files.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="lang.description">Select the &lt;i&gt;default&lt;/i&gt; language.</label>
+			<label index="lang.details">This determines the language of the backend interface for the user. All mainstream parts available for regular users are available in the system language selected.
+'Admin'-users however will experience that the 'Admin'-only parts of TYPO3 is in english. This includes all submodules in &quot;Tools&quot; and the Web&gt;Template module.
+
+&lt;b&gt;Notice&lt;/b&gt; this is only the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module.</label>
+			<label index="userMods.description">Select available backend modules for the user.</label>
+			<label index="userMods.details">This determines which 'menu items' are available for the user in the backend.
+
+Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index="TSconfig.details">This field allows you to extend the configuration of the user in severe details. A brief summary of the options include a more detailed configuration of the backend modules, setting of user specific default table field values, setting of Rich Text Editor options etc.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

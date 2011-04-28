@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">Konfigurationen af den indekserede søgning giver dig mulighed for at angive resoucer udenfor sidetræet som skal indekseres. Det kan f.eks. være poster (som news), filer (som PDF), en ekstern URL som skal gennenlæses til en hvis dybde eller en tredieparts indhold som er tingængeligt fra andre udvidelser via en hook.</label>
+			<label index=".details">Posterne til indekseringskonfigurationen bruges til angive hvordan indekseringen sker, hvornår det sker og i forhold til hvilken del af sidetræet det sker. Det er vigtigt at huske at udvidelsen 'crawler' skal være indekseret da indekseringen benytter dennes kø som tidsangiver. Brugen af crawer-udvidelsen betyder benyttelsen af et cron-job til at aktivere det fra shell.</label>
+			<label index="title.description">Angiv en titel til konfigurationen.</label>
+			<label index="description.description">Hvis nødvendigt så angiv en beskrivelse eller andre vigtige noter i dette felt.</label>
+			<label index="hidden.description">Afbryd opsætningen med denne afkrydsningsbox.
+Hvis afbrudt, vil 'crawler cron'-jobbet hoppe over konfigurationen.</label>
+			<label index="hidden.details">Bemærk! Deaktivering af indekseringsprocessen vil ikke skjule allerede indekseret indhold i søgeresultatet.</label>
+			<label index="starttime.description">Angiv et starttidspunkt for konfigurationen. Hvis angivet, vil 'crawler cron'-jobbet hoppe over konfigurationen indtil dette tidspunkt er nået.</label>
+			<label index="timer_frequency.description">Brug denne angivelse til at justere hvor ofte du vil have en re-indekserings process til at køre på konfigurationen.</label>
+			<label index="timer_offset.description">Dette justerer på hvilket tidspunkt du vil køre indekseringsprocessen.</label>
+			<label index="timer_next_indexing.description">Dette felt indholder dato og tidspunkt for den næste indekserings session. Hvis blank vil den næste indeksering ske så snart at cron-scriptet kører igen (typisk inden for et minut) og herefter sættes sættes feltet afhængig af frekvens og offset felterne.</label>
+			<label index="type.description">Angiv konfigurationstype for indeksering.</label>
+			<label index="table2index.description">Specificér hvilken database tabel der skal indekseres elementer fra.</label>
+			<label index="get_params.description">Angiv GET parametre som er nødvendige for at vise søgeresultatet. Du kan benytte ###UID### som mærke i parameter skabelonen.</label>
+			<label index="fieldlist.description">Angiv en kommasepareret liste af felter som skal indekseres. Det først angivne felt vil blive benyttet sim titel.</label>
+			<label index="fieldlist.details">&lt;b&gt;Eksempel:&lt;/b&gt; &quot;header,bodytext,image_caption&quot; vil indekserer Overskrift, Brødtekst o Billedetekst felterne fra &quot;tt_content&quot;. Læg mærke til at du skal bruge de rigtige database feltnavne, så sørg for at ikke lave stavefejl!</label>
+			<label index="chashcalc.description">hvis afkrydset, vil URL'en i søgeresultatet for poster blive afkodet med '&amp;cHach' parameter for at gøre det cache-bart. Brug det kun hvis det understøttes af plugin.</label>
+			<label index="recordsbatch.description">Angiv antal poster som skal indekseres for hver process (antal pr. minut), Standard er 100 poster.</label>
+			<label index="externalUrl.description">Indtast URL på det eksterne websted du gerne vil have indekseret.</label>
+			<label index="url_deny.description">Angiv URL på hver linie som 'crawler' ikke skal løbe ned af.</label>
+			<label index="filepath.description">Angiv filsti indenfor fileadmin/ hvor du vil have filer indekseret.</label>
+			<label index="filepath.details">Eksempel: &quot;fileadmin/newsletters/&quot;</label>
+			<label index="extensions.description">Hvis du køne ønsker at indekserer enkelte filer i mappen kan du angive en liste af filtyper her. F.eks. 'html,pdf,doc'</label>
+			<label index="depth.description">Antal niveauer for rekursion.</label>
+			<label index="depth.details">For filindeksering er det antallet af niveauer i mappestrukturen som undersøges. For eksterne URL er det dybden af link som skal følges.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="externalUrl.description" type="integer">166464570</label>
+			<label index="title.description" type="integer">101115713</label>
+			<label index="description.description" type="integer">71563733</label>
+			<label index="table2index.description" type="double">12518999</label>
+			<label index="filepath.details" type="integer">73154051</label>
+			<label index="hidden.description" type="integer">205875653</label>
+			<label index="hidden.details" type="integer">154935713</label>
+			<label index="starttime.description" type="integer">80561389</label>
+			<label index="timer_frequency.description" type="integer">217866213</label>
+			<label index="timer_offset.description" type="integer">106785971</label>
+			<label index="type.description" type="integer">17983076</label>
+			<label index="get_params.description" type="integer">203820507</label>
+			<label index="fieldlist.description" type="integer">145915429</label>
+			<label index="recordsbatch.description" type="integer">185749442</label>
+			<label index="url_deny.description" type="integer">103424011</label>
+			<label index="filepath.description" type="integer">22108393</label>
+			<label index="depth.description" type="integer">199251578</label>
+			<label index="chashcalc.description" type="integer">116193731</label>
+			<label index=".description" type="integer">236048633</label>
+			<label index=".details" type="integer">33180133</label>
+			<label index="timer_next_indexing.description" type="integer">20548169</label>
+			<label index="extensions.description" type="integer">255817846</label>
+			<label index="depth.details" type="integer">106342963</label>
+			<label index="fieldlist.details" type="integer">66869317</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="externalUrl.description">Enter the URL of the external website you want to index.</label>
+			<label index="title.description">Provide a title for the configuration.</label>
+			<label index="description.description">If needed, give it a description or put other important notes in this field.</label>
+			<label index="table2index.description">Specify the database table to index records from.</label>
+			<label index="filepath.details">Example: &quot;fileadmin/newsletters/&quot;</label>
+			<label index="hidden.description">Disable the configuration by this checkbox. If disabled, the configuration will be bypassed by the crawlers cron job.</label>
+			<label index="hidden.details">Notice; Disabling the indexing process will not hide already indexed content in search results!</label>
+			<label index="starttime.description">Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</label>
+			<label index="timer_frequency.description">Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</label>
+			<label index="timer_offset.description">The offset adjusts at what time of day you want the indexing process to run.</label>
+			<label index="type.description">Select the type of Indexing Configuration here.</label>
+			<label index="get_params.description">Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</label>
+			<label index="fieldlist.description">Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</label>
+			<label index="recordsbatch.description">Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</label>
+			<label index="url_deny.description">Enter a URL on each line inside of which the crawler should not decend.</label>
+			<label index="filepath.description">Enter a filepath inside fileadmin/ where you want the files to be indexed.</label>
+			<label index="depth.description">Levels of recursion.</label>
+			<label index="chashcalc.description">If checked, the URL in the search result for records will be encoded with a &quot;&amp;cHash&quot; parameter to make it cachable. Use only if supported by the plugin!</label>
+			<label index=".description">The Indexed Search configuration allows you to set up indexing of resources which are external to the TYPO3 page tree. This could be a library of records (like news), a directory structure of files (like PDFs) or an external URL to be crawled to some depth - or third-party content provided from other extensions via hooks.</label>
+			<label index=".details">The Indexing Configuration records are used to set up how the indexing occurs, at which time and related to which part of the page tree. An important requirement to keep in mind is that the &quot;crawler&quot; extension must be installed since the indexing engine uses the &quot;crawler&quot; extensions queue as a timing device - and using the &quot;crawler&quot; extension means using a cron-job to activate it from the shell.</label>
+			<label index="timer_next_indexing.description">This field contains the date and time of the next occuring indexing session. If left blank the next indexing will occur as soon as the cron-script is run again (typically within the next minute) and afterwards set to the next time according to frequency and offset.</label>
+			<label index="extensions.description">If you want to index only specific files in the directory, enter a list of file extensions here. For example: &quot;html,pdf,doc&quot;</label>
+			<label index="depth.details">For file indexing it is the level of directories to decend. For External URLs it's the depth to which the crawler will go with links.</label>
+			<label index="fieldlist.details">&lt;b&gt;Example:&lt;/b&gt; &quot;header,bodytext,image_caption&quot; would index the Header, Bodytext and Image Caption fields from &quot;tt_content&quot;. Notice that you must use the real database field names, don't spell them wrong!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

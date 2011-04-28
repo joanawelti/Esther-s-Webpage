@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="shortcut_edit">แก้ไข</label>
+			<label index="shortcut_editID">แก้ไข ID ของหน้า</label>
+			<label index="shortcut_save">ทำทางลัดชื่อเรื่องให้ทันสมัย</label>
+			<label index="shortcut_saveClose">ทำให้ทันสมัยและปิด editor</label>
+			<label index="shortcut_close">ปิด editor ทางลัด</label>
+			<label index="shortcut_delete">ลบทางลัดออก</label>
+			<label index="shortcut_loadEdit">ีบรรจุหน้า</label>
+			<label index="shortcut_notEditable">หาหน้าที่แก้ไขได้ไม่เจอ</label>
+			<label index="shortcut_group">กลุ่ม</label>
+			<label index="shortcut_GLOBAL">โกลบอล</label>
+			<label index="shortcut_ALL">ทั้งหมด</label>
+			<label index="shortcut_onlyAdmin">คุณไม่สามารถแก้ไขทางลัดที่ใช้ร่วมกันได้</label>
+			<label index="shortcut_selSC">เลือกทางลัด</label>
+			<label index="shortcut_delAllInCat">ลบทางลัดทั้งหมดในกลุ่มนี้</label>
+			<label index="overwriteExistingFiles">เขียนทับไฟล์ที่มีอยู่</label>
+			<label index="selectPosition">เลือกตำแหน่งสำหรับหน้าใหม่</label>
+			<label index="goBack">กลับไป</label>
+			<label index="createNewPage">สร้างหน้าใหม่</label>
+			<label index="clickForWizard">กดที่นี่สำหรับผู้ช่วยวิเศษ</label>
+			<label index="insertNewPageHere">แทรกหน้าใหม่ที่นี่</label>
+			<label index="insertNewRecordHere">แทรกระเบียนใหม่ที่นี่</label>
+			<label index="movePageToHere">ย้ายหน้ามาที่ตำแหน่งนี่</label>
+			<label index="moveElement">ย้ายองค์ประกอบ</label>
+			<label index="selectPositionOfElement">เลือกตำแหน่งขององค์ประกอบ</label>
+			<label index="movingElement">ย้ายองค์ประกอบ</label>
+			<label index="makeCopy">สำรองแทนทีจะย้ายองค์ประกอบ</label>
+			<label index="newContentElement">องค์ประกอบเนื้อหาใหม่</label>
+			<label index="1_selectType">1:เลือกชนิดองค์ประกอบเนื้อหา:</label>
+			<label index="2_selectPosition">2:เลือกตำแหน่ง:</label>
+			<label index="CM_editAccess">ตั้งค่าการมองเห็น</label>
+			<label index="CM_history">ประวัติ/ยกเลิก</label>
+			<label index="CM_perms">เข้าถึง</label>
+			<label index="CM_moveWizard">ย้ายองค์ประกอบ</label>
+			<label index="CM_moveWizard_page">ย้ายหน้า</label>
+			<label index="CM_newWizard">ผู้ช่วยวิเศษ 'สร้างใหม่'</label>
+			<label index="CM_editPageHeader">แก้ไขหัวข้อหน้า</label>
+			<label index="CM_db_list">เว็ป&gt;แสดงโมดุล</label>
+			<label index="noEditPage">ท่านขอที่จะแก้ไขหน้า &quot;%s&quot; แต่ท่านไม่สามารถที่จะแก้ไขหน้านี้ได้ ตอนนี้ก็โหลด ส่วนหลังเหมือนเดิม</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="mlang_labels_tablabel">Administración de los usuarios del backend</label>
+			<label index="mlang_labels_tabdescr">El módulo de administración de usuarios proporciona un listado de todos los usuarios del backend. Los puede agrupar por sus propiedades para así supervisar sus permisos, puntos de montaje de archivos, TSconfig, pertenencia a grupos, etc. Este módulo es una herramienta indispensable para garantizar la correcta configuración de los usuarios.&lt;br /&gt;&lt;em&gt;¡Acceso solamente para administradores!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Administración de usuarios</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="mlang_labels_tablabel" type="integer">17821603</label>
+			<label index="mlang_labels_tabdescr" type="integer">165149409</label>
+			<label index="mlang_tabs_tab" type="integer">119990797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="mlang_labels_tablabel">Administration of Backend Users</label>
+			<label index="mlang_labels_tabdescr">The User Admin module provides you with an overview of all backend users. You can group them by their properties so you're able to monitor their permissions, filemounts, TSconfig, member groups etc.. This module is an indispensable tool in order to make sure the users are correctly configured.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">User Admin</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

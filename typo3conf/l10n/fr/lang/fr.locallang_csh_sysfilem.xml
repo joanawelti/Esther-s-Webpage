@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description">Utilisez cette option pour désactiver temporairement le point de montage.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description" type="integer">191012042</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

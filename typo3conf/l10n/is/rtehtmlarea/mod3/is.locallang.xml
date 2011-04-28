@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="removeLink">Eyða tengli</label>
+			<label index="uploadImage">Hlaða upp mynd</label>
+			<label index="update">Uppfæra</label>
+			<label index="path">Slóð</label>
+			<label index="page">Síða</label>
+			<label index="file">Skrá</label>
+			<label index="extUrl">Ytri vefslóð</label>
+			<label index="email">Netfang</label>
+			<label index="special">Sérsnið</label>
+			<label index="folderTree">Möpputré</label>
+			<label index="files">Skrár</label>
+			<label index="target">Opnast í</label>
+			<label index="newWindow">Nýr gluggi</label>
+			<label index="top">Efst</label>
+			<label index="none">Enginn - nýr tengill</label>
+			<label index="pageTree">Síðutré</label>
+			<label index="contentElements">Efniseiningar</label>
+			<label index="selectRecords">Velja færslur</label>
+			<label index="addToList">Bæta við á lista...</label>
+			<label index="info">Upplýsingar</label>
+			<label index="emailAddress">Netfang</label>
+			<label index="setLink">Vista tengil</label>
+			<label index="clickToRedrawFullSize">Myndinn er stærri en sést hér! Smeltu til að stækka.</label>
+			<label index="findDragDrop">Findu myndina, smelltu svo á myndina og draga hana svo yfir á lagfæringasvæðið í aðalglugga!</label>
+			<label index="noWebFolder">Þú getur ekki dregið myndir úr þessari gulu möppu vegna þess að hún er (innbyggð)*innri* á netþjónnin.</label>
+			<label index="currentLink">Núverandi tengill</label>
+			<label index="target_popUpWindow">Opna í glugga</label>
+			<label index="target_popUpWindow_width">Breidd</label>
+			<label index="target_popUpWindow_height">Hæð</label>
+			<label index="anchor_class">Snið</label>
+			<label index="anchor_title">Titill</label>
+			<label index="invalidChar">Villa: Ógildur stafur fundinn í slóð (%s). Ekki hægt að setja inn skrá!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+			<label index="target_popUpWindow" type="integer">21986240</label>
+			<label index="target_popUpWindow_width" type="integer">53040229</label>
+			<label index="target_popUpWindow_height" type="integer">250375243</label>
+			<label index="anchor_class" type="integer">182617337</label>
+			<label index="anchor_title" type="integer">192455458</label>
+			<label index="invalidChar" type="integer">103011900</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="extUrl">External URL</label>
+			<label index="email">Email</label>
+			<label index="special">Special</label>
+			<label index="files">Files</label>
+			<label index="target">Target</label>
+			<label index="target_popUpWindow">Open in window</label>
+			<label index="target_popUpWindow_width">Width</label>
+			<label index="target_popUpWindow_height">Height</label>
+			<label index="anchor_class">Style</label>
+			<label index="anchor_title">Title</label>
+			<label index="contentElements">Content elements</label>
+			<label index="selectRecords">Select Records</label>
+			<label index="emailAddress">Email address</label>
+			<label index="setLink">Set Link</label>
+			<label index="invalidChar">ERROR: Invalid character found in file path (%s). Cannot add the file!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

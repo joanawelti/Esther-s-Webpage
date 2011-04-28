@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="folderTree">Arbore directoare</label>
+			<label index="uploadImage">Upload imagine</label>
+			<label index="path">Cale</label>
+			<label index="images">Imagini</label>
+			<label index="class">Stil</label>
+			<label index="width">Lungime</label>
+			<label index="height">Înălţime</label>
+			<label index="border">Bordură</label>
+			<label index="margin_tb">Margine sus/jos</label>
+			<label index="margin_lr">Margine stânga/dreapta</label>
+			<label index="padding_top">Padding sus</label>
+			<label index="padding_right">Padding dreapta</label>
+			<label index="padding_bottom">Padding jos</label>
+			<label index="padding_left">Padding stânga</label>
+			<label index="float">Float</label>
+			<label index="notSet">Nesetat</label>
+			<label index="nonFloating">Fără float</label>
+			<label index="left">Stânga</label>
+			<label index="right">Dreapta</label>
+			<label index="title">Titlu</label>
+			<label index="alt">Text alternativ</label>
+			<label index="update">Update</label>
+			<label index="magicImage">Nouă imagine Magic</label>
+			<label index="plainImage">Nouă imagine Plain</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Imagine curentă</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixeli</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="class" type="integer">182617337</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="padding_top" type="integer">203371002</label>
+			<label index="padding_right" type="integer">72563561</label>
+			<label index="padding_bottom" type="integer">29563473</label>
+			<label index="padding_left" type="integer">92507236</label>
+			<label index="float" type="integer">36364514</label>
+			<label index="notSet" type="integer">163210921</label>
+			<label index="nonFloating" type="integer">169566595</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="alt" type="integer">237067341</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+			<label index="bytes" type="integer">78882337</label>
+			<label index="pixels" type="integer">221878344</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index="folderTree">Folder tree</label>
+			<label index="uploadImage">Upload Image</label>
+			<label index="path">Path</label>
+			<label index="images">Images</label>
+			<label index="class">Style</label>
+			<label index="width">Width</label>
+			<label index="height">Height</label>
+			<label index="border">Border</label>
+			<label index="margin_tb">Margin top/bottom</label>
+			<label index="margin_lr">Margin left/right</label>
+			<label index="padding_top">Top padding</label>
+			<label index="padding_right">Right padding</label>
+			<label index="padding_bottom">Bottom padding</label>
+			<label index="padding_left">Left padding</label>
+			<label index="float">Float</label>
+			<label index="notSet">Not set</label>
+			<label index="nonFloating">Non-floating</label>
+			<label index="left">Left</label>
+			<label index="right">Right</label>
+			<label index="title">Title</label>
+			<label index="alt">Alternate text</label>
+			<label index="update">Update</label>
+			<label index="magicImage">New Magic Image</label>
+			<label index="plainImage">New Plain Image</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Current Image</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixels</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

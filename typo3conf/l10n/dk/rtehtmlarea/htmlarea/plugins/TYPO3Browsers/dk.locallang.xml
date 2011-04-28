@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="external_link_altText">Åbner eksterne links i aktuelt vindue</label>
+			<label index="external_link_titleText">Åbner eksterne links i aktuelt vindue</label>
+			<label index="external_link_new_window_altText">Åbner eksterne links i nyt vindue</label>
+			<label index="external_link_new_window_titleText">Åbner eksterne links i nyt vindue</label>
+			<label index="internal_link_altText">Åbner interne links i aktuelt vindue</label>
+			<label index="internal_link_titleText">Åbner interne links i aktuelt vindue</label>
+			<label index="internal_link_new_window_altText">Åbner interne links i nyt vindue</label>
+			<label index="internal_link_new_window_titleText">Åbner interne links i nyt vindue</label>
+			<label index="download_altText">Aktiverer fil-download</label>
+			<label index="download_titleText">Aktiverer fil-download</label>
+			<label index="mail_altText">Åbner vinduet med send ny mail</label>
+			<label index="mail_titleText">Åbner vinduet med send ny mail</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="external_link_altText" type="integer">127279570</label>
+			<label index="external_link_titleText" type="integer">127279570</label>
+			<label index="external_link_new_window_altText" type="integer">159183899</label>
+			<label index="external_link_new_window_titleText" type="integer">159183899</label>
+			<label index="internal_link_altText" type="integer">7332359</label>
+			<label index="internal_link_titleText" type="integer">7332359</label>
+			<label index="internal_link_new_window_altText" type="integer">198474674</label>
+			<label index="internal_link_new_window_titleText" type="integer">198474674</label>
+			<label index="download_altText" type="integer">27837997</label>
+			<label index="download_titleText" type="integer">27837997</label>
+			<label index="mail_altText" type="integer">210920015</label>
+			<label index="mail_titleText" type="integer">210920015</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

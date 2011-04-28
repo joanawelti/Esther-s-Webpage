@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="Substitute this occurrence?">Bytt ut denne forekomsten?</label>
+			<label index="Enter the text you want to find">Skriv inn teksten du ønsker å finne</label>
+			<label index="Inform a replacement word">Dette vil slette alle forekomster.</label>
+			<label index="found items">funnet</label>
+			<label index="replaced items">byttet ut</label>
+			<label index="found item">funnet</label>
+			<label index="replaced item">byttet ut</label>
+			<label index="not found">ikke funnet</label>
+			<label index="Find and Replace">Søk og erstatt</label>
+			<label index="Options">Valg:</label>
+			<label index="Whole words only">Bare hele ord</label>
+			<label index="Case sensitive search">Skill mellom store og små bokstaver</label>
+			<label index="Substitute all occurrences">Bytt ut alle forekomster</label>
+			<label index="Search for:">Søk etter:</label>
+			<label index="Replace with:">Bytt ut med:</label>
+			<label index="Actions">Gjør dette:</label>
+			<label index="Clear">Tøm</label>
+			<label index="Highlight">Synliggjør</label>
+			<label index="Undo">Gjør om</label>
+			<label index="Next">Neste</label>
+			<label index="Done">Ferdig</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="Substitute this occurrence?" type="integer">11389760</label>
+			<label index="Enter the text you want to find" type="integer">9512867</label>
+			<label index="Inform a replacement word" type="integer">159095757</label>
+			<label index="found items" type="integer">101671820</label>
+			<label index="replaced items" type="integer">167308865</label>
+			<label index="found item" type="integer">16132784</label>
+			<label index="replaced item" type="integer">22779069</label>
+			<label index="not found" type="integer">227494425</label>
+			<label index="Find and Replace" type="integer">39384906</label>
+			<label index="Options" type="integer">247251860</label>
+			<label index="Whole words only" type="integer">58990624</label>
+			<label index="Case sensitive search" type="integer">134324052</label>
+			<label index="Substitute all occurrences" type="integer">42024822</label>
+			<label index="Search for:" type="integer">123652778</label>
+			<label index="Replace with:" type="integer">180836931</label>
+			<label index="Actions" type="integer">86716437</label>
+			<label index="Clear" type="integer">230886336</label>
+			<label index="Highlight" type="integer">12125570</label>
+			<label index="Undo" type="integer">30261366</label>
+			<label index="Next" type="integer">17482704</label>
+			<label index="Done" type="integer">261264990</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

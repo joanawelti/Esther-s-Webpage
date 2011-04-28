@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="introtext">Content Management Systeem</label>
+			<label index="introtext2">Dit is een korte omschrijving van de aanwezige modules:</label>
+			<label index="endText">De aanwezigheid van onderdelen hangt van de configuratie van de website en de rechten af.</label>
+			<label index="userInfo">Ingelogd als gebruiker:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="introtext" type="integer">194562478</label>
+			<label index="introtext2" type="integer">234766952</label>
+			<label index="endText" type="integer">206585252</label>
+			<label index="userInfo" type="integer">170934145</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

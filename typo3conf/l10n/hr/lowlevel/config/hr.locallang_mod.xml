@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="mlang_labels_tablabel">Pregledaj konfiguraciju iz localconf.php i tables.php</label>
+			<label index="mlang_labels_tabdescr">Omogućava pregledavanje vrijednosti $TCA niza (konfiguracija tablice) te $TYPO3_CONF_VARS. Omogućen je samo pregled vrijednosti, ne i njihova promjena.&lt;BR&gt;&lt;em&gt;Pristup samo za 'admin' korisnike!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Konfiguracija</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">205342864</label>
+			<label index="mlang_labels_tabdescr" type="integer">172430134</label>
+			<label index="mlang_tabs_tab" type="integer">39122498</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

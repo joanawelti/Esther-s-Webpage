@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="layout.description">Choisissez une disposition pour la page. Chacun des effets dépend du gabarit du site.</label>
+			<label index="hidden.description">Si cela est coché, la page sera masquée sur le site.</label>
+			<label index="starttime.description">La date 'Début' détermine la date à partir de laquelle la page sera visible sur le site. Utilisez cette propriété pour 'publier' la page à une certaine date. Si la propriété 'Début' n'est pas attribuée, alors la page sera publiée instantanément (sauf si la page est masquée).</label>
+			<label index="starttime.syntax">Le format est JJ-MM-AAAA. Vous pouvez entrer cette date d'une autre façon, elle sera évaluée immédiatement.
+Si vous insérez par exemple un 'd' alors la date actuelle est insérée. Vous pouvez aussi entrer n'importe quelle valeur dans ce champ par exemple '+10' qui ajoutera 10 jours à la date actuelle. Par exemple mettre cette valeur à 'd+10' séléctionnera la date dans 10 jours.</label>
+			<label index="endtime.description">La date 'Stop' est la date à partir de laquelle la page ne sera plus en ligne.</label>
+			<label index="alias.description">Un 'alias' est une chaîne d'identification unique pour la page. Vous pouvez utiliser cette chaîne à la place du nombre id pour accéder à la page.</label>
+			<label index="no_cache.description">Cette option désactive la mise en cache de la page par le serveur.</label>
+			<label index="cache_timeout.description">Paramètre la durée de vie du cache de la page.</label>
+			<label index="author.description">Entrez les noms des auteurs de la page.</label>
+			<label index="author_email.description">Entrez l'adresse email de l'auteur de la page.</label>
+			<label index="module.description">Définit la page comme un 'module' frontend.</label>
+			<label index="media.description">Attacher les fichiers multimédias en relation avec cette pages.</label>
+			<label index="subtitle.description">Entrez un sous-titre si besoin.</label>
+			<label index="url.description">Entrez l'URL vers laquelle cette page est supposée être liée.</label>
+			<label index="keywords.description">Entrez les mots-clés de la page (séparés par des virgules).</label>
+			<label index="description.description">Entrer une rapide description de la page.</label>
+			<label index="abstract.description">Entrez une description de la page.</label>
+			<label index="newUntil.description">Entrez la date d'expiration de la page.</label>
+			<label index="lastUpdated.description">Entrez la date et l'heure de la plus récente modification de la page.</label>
+			<label index="urltype.description">Mettre en place le préfixe de l'URL</label>
+			<label index="l18n_cfg.description">...</label>
+			<label index="title.description.+">C'est habituellement affiché dans le menu de navigation.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="cache_timeout.description" type="integer">146302636</label>
+			<label index="author.description" type="integer">35641560</label>
+			<label index="subtitle.description" type="integer">159881469</label>
+			<label index="abstract.description" type="integer">166752438</label>
+			<label index="newUntil.description" type="integer">266998258</label>
+			<label index="title.description.+" type="integer">122833099</label>
+			<label index="endtime.description" type="integer">239481021</label>
+			<label index="author_email.description" type="integer">263994700</label>
+			<label index="media.description" type="integer">152445229</label>
+			<label index="url.description" type="integer">209817224</label>
+			<label index="keywords.description" type="integer">155037793</label>
+			<label index="lastUpdated.description" type="integer">210484482</label>
+			<label index="l18n_cfg.description" type="integer">49560386</label>
+			<label index="starttime.description" type="integer">225330621</label>
+			<label index="starttime.syntax" type="integer">171815971</label>
+			<label index="alias.description" type="integer">29393799</label>
+			<label index="no_cache.description" type="integer">234280457</label>
+			<label index="module.description" type="integer">122892371</label>
+			<label index="description.description" type="integer">146429238</label>
+			<label index="urltype.description" type="integer">135670396</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="cache_timeout.description">Sets the cache timeout for the page.</label>
+			<label index="author.description">Enter the page authors name.</label>
+			<label index="subtitle.description">Enter a subtitle if needed.</label>
+			<label index="abstract.description">Enter an abstract for the page.</label>
+			<label index="newUntil.description">Enter the 'expiry date' of the page.</label>
+			<label index="title.description.+">This is normally shown in the website navigation.</label>
+			<label index="endtime.description">The 'Stop' time is the date from which the page will not be online anymore.</label>
+			<label index="author_email.description">Enter the page authors email address.</label>
+			<label index="media.description">Attach media files related to the page.</label>
+			<label index="url.description">Enter the URL to which this page is supposed to link.</label>
+			<label index="keywords.description">Enter keywords for the page separated by commas.</label>
+			<label index="lastUpdated.description">Enter the time and date of the most recent update of this page.</label>
+			<label index="l18n_cfg.description">...</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the page will be visible online. Use this to 'publish' the page on a certain date. If 'Start' time is not set, the page will be online instantly (unless the page is hidden otherwise).</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a 'd' the current date is inserted. You can also append any value in the field with eg. '+10' which will add 10 days to the current value. For instance setting the value to 'd+10' would select a date 10 days from now.</label>
+			<label index="alias.description">An 'alias' is a unique identification string for a page. You can use this string instead of the id-number to refer to the page.</label>
+			<label index="no_cache.description">This option disables server caching of the page.</label>
+			<label index="module.description">Define the page as a frontend 'module'.</label>
+			<label index="description.description">Enter a short description for the page.</label>
+			<label index="urltype.description">Set the URL prefix.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

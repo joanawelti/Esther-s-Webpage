@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="removeLink">Ezabatu lotura</label>
+			<label index="uploadImage">Igo irudia</label>
+			<label index="update">Eguneratu</label>
+			<label index="path">Bidea</label>
+			<label index="page">Orria</label>
+			<label index="file">Fitxategia</label>
+			<label index="extUrl">Kanpoko URL-a</label>
+			<label index="email">ePosta</label>
+			<label index="special">Berezia</label>
+			<label index="folderTree">Karpeta zuhaitza</label>
+			<label index="files">Fitxategiak</label>
+			<label index="target">Helburua</label>
+			<label index="newWindow">Leiho berria</label>
+			<label index="top">Goian</label>
+			<label index="none">Bat ez - lotura berria!</label>
+			<label index="pageTree">Orri zuhaitza</label>
+			<label index="contentElements">Eduki elementuak</label>
+			<label index="selectRecords">Aukeratu erregistroak</label>
+			<label index="addToList">Gehitu zerrendara...</label>
+			<label index="info">Info</label>
+			<label index="emailAddress">ePosta helbidea</label>
+			<label index="setLink">Ezarri lotura</label>
+			<label index="clickToRedrawFullSize">Irudia hemen erakutsitakoa baino handiagoa da! Egin klik tamaina osaoan ikusteko.</label>
+			<label index="findDragDrop">Bilatu zure irudia, gero egin klik irudian eta arrastatu leiho nagusiko editorera!</label>
+			<label index="noWebFolder">Ezin duzu karpeta honetatik irudirik arrastatu (horia) zerbitzariaren barnekoa delako</label>
+			<label index="currentLink">Oraingo lotura</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

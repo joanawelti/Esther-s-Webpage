@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="hidden.description">Deze optie schakelt de gebruikersgroep uit.</label>
+			<label index="hidden.details">Wanneer een gebruikersgroep uitgeschakeld wordt, dan zullen alle gebruikers die lid van deze groep zijn, geen eigenschappen van deze gebruikersgroep erven.
+&lt;strong&gt;Voorbeeld:&lt;/strong&gt; Als een bladzijde of inhoudselement alleen toegankelijk was met deze specifieke groep en de groep is uitschakeld dan zal niemand van deze groep meer toegang tot de pagina of het inhoudselement hebben.</label>
+			<label index="title.description">Naam van de groep.</label>
+			<label index="title.details">Deze titel verschijnt als de groepsnaam in de &quot;Toegang&quot;-lijst in andere records.</label>
+			<label index="lockToDomain.description">Voer de hostnaam in van waaruit de groep beschikbaar is.</label>
+			<label index="lockToDomain.details">Deze optie kan van belang zijn wanneer er meerdere websites in één zelfde TYPO3 database zijn ondergebracht met slechts één enkele opslag pagina voor alle website gebruikers. De gebruikers kunnen dan inloggen op elke website url. Dit kan beschouwd worden als een feature (een globale login voor een gebruiker) of een probleem (in welk geval je in ieder geval aparte opslag pagina's voor gebruikers zou moeten hebben). In elk geval kan het zijn dat het gebruik van een bepaalde website beperkt dient te worden tot een bepaalde gebruikersgroep. U wilt niet dat een groep ingeschakeld wordt voor een gebruiker die inlogd op een andere url (nog steeds binnen dezelfde database). Door de hostnaam van de website hier in te voeren wordt de groep beperkt tot gebruik binnen dit domein.
+
+&lt;strong&gt;N.B.&lt;/strong&gt; Het gebruik van deze optie is niet kritisch wanneer er meerdere opslag pagina's zijn voor gebruikers, namelijk één voor elke site.</label>
+			<label index="subgroup.description">Lid van andere groepen.</label>
+			<label index="subgroup.details">Lijst van andere groepen waar deze groep een lid van is.</label>
+			<label index="description.description">Voer een beschrijving van de groep in.</label>
+			<label index="description.details">Dit is voor intern gebruik, en slechts om een notitie toe te voegen over het doel van de groep, waarom u de groep heeft aangemaakt en wie de leden zouden moeten zijn.
+Gebruik het naar eigen inzicht.</label>
+			<label index="TSconfig.description">TSconfig voor de groep (geavanceerd)</label>
+			<label index="TSconfig.details">Dit is de gebruikers TSconfig voor de groep. De waarden worden geërfd door elke gebruiker die lid is van deze groep.
+De configuratie kan worden overschreven in andere groepen en door de TSconfig van de gebruiker zelf.</label>
+			<label index="TSconfig.syntax">TypoScript syntaxis, zonder condities en constanten</label>
+			<label index=".description">Gebruikersgroepen voor website gebruikers</label>
+			<label index=".details">De toegangsbeperkingen in TYPO3 worden aan deze groepen toegekend. Wanneer de toegang tot een pagina of inhoudselement is beperkt tot een groep, dan kunnen alleen de websitegebruikers die lid van deze groep zijn dit element op de website zien.</label>
+			<label index=".image_descr">Het formulier voor het aanpasssen van frontend gebruikersgroepen, pagina's, inhouds elementen en andere records voor frontend weergave bevat vaak een selectieveld waar U de toegangsrechten kunt bepalen door het selecteren van toegang voor enkel bepaalde groepen.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="hidden.description" type="integer">168238848</label>
+			<label index="hidden.details" type="integer">210621597</label>
+			<label index="title.description" type="integer">200720346</label>
+			<label index="title.details" type="integer">203471735</label>
+			<label index="lockToDomain.description" type="integer">178950964</label>
+			<label index="lockToDomain.details" type="integer">148174258</label>
+			<label index="description.description" type="integer">159132670</label>
+			<label index="description.details" type="integer">40579879</label>
+			<label index="TSconfig.description" type="integer">256600387</label>
+			<label index="TSconfig.details" type="integer">90803241</label>
+			<label index="TSconfig.syntax" type="integer">117035971</label>
+			<label index=".description" type="integer">181980664</label>
+			<label index=".details" type="integer">225347704</label>
+			<label index=".image_descr" type="integer">263527684</label>
+			<label index="subgroup.description" type="integer">40324340</label>
+			<label index="subgroup.details" type="integer">134394144</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="hidden.description">This option disables the user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.
+For instance if a page or content element was assigned access only by this group and you disable the group, no one would gain access to that page or content element.</label>
+			<label index="title.description">Name of the group.</label>
+			<label index="title.details">This title will appear as the group name in the 'Access'-list in other records.</label>
+			<label index="lockToDomain.description">Enter the host name from which the group will be available only.</label>
+			<label index="lockToDomain.details">This options may be important if you have multiple websites in the same TYPO3 database but still only one main storage page for all Website users. Thus the users may log in on any of the website URLs. This may be considered a feature (having a global login as a user) or a problem (in which case you should have multiple user storages anyway). However you may wish to limit the use of a Website usergroup to a specific website and thus you don't want the group to be enabled for the user when he logs in at another URL (still from the same database of course). By entering the host name of the website here, you restrict the group to be used only from within this domain.
+
+&lt;b&gt;Notice:&lt;/b&gt; The use for this option is not critical if you have multiple Website user storages, namely one for each site.</label>
+			<label index="description.description">Enter a description of the group.</label>
+			<label index="description.details">This is for internal use and is just a way to put a note on what the group is for, why you created it and who should be members.
+Use it as you like.</label>
+			<label index="TSconfig.description">TSconfig for the group (advanced).</label>
+			<label index="TSconfig.details">This is the user TSconfig for the group. The values are inherited by any Website user who is a member of this group.
+The configuration is subject to being overridden in other groups and by the TSconfig of the user himself.</label>
+			<label index="TSconfig.syntax">TypoScript syntax, without conditions and constants.</label>
+			<label index=".description">Usergroups for Website users.</label>
+			<label index=".details">The access restriction in TYPO3 is assigned to these usergroups. When a page or other element is access restricted to a group, only Website users which are members or that group will be able to view the element on the website.</label>
+			<label index=".image_descr">The form for editing frontend users groups.
+Pages, Content Elements and other records for frontend display often have a selector box where you can define access restriction by selecting access for a certain group only.</label>
+			<label index="subgroup.description">Member of other groups.</label>
+			<label index="subgroup.details">List of other groups that this group is a member of.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

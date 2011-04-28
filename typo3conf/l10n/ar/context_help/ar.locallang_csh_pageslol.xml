@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">عرض لغة بديلة للصفحة.</label>
+			<label index=".details">تحتوي هذه السجلات على خانات مماثلة تماماً لسجلات الصفحة ، وخاصة السجلات المراد ترجمتها لغة آخرى في حالة ما إن كنت تريد عمل إصدار آخر مترجم للصفحة.
+عليك بإنشاء سجل واحد بديل للغة خاصة ويدرج في كل لغة.إنشاء أكثر من سجل سيترك هذه السجلات غير محددة أيَ منها يمكن أن يستخدم عند عرض الصفحة.
+قبل أن تنشئ سجلات لغة الصفحة البديلة عليك أولاً تحديد اللغة’ الأصلية’ و التى ستكون دائماً متاحة في جزر صفحة الوب والتي تسمى (لغة صفحة الوب) وعليه فلابد من ضبط نموذج مخطوطة تيبو الخاصة لتتناسب مع جميع اللغات.
+
+قبل إنشاء سجلات اللغة البديلة عليك أولاً إنشاء اللغة , الأصلية، بحيث تكون متاحة في جزر صفحة الوب وتسمى ( &quot; لغة صفحة الوب&quot;)وعليه فلابد لك من ضبط نموذج مخطوطة تيبو الخاصة بحيث تكون قادرة على السماح بأكثر من لغة.
+
+ وبصورة تلقائية ما إن تم عرض اللغة البديلة، فإن السجل البديل لصفحة اللغة سيتم إحلاله على سجلات الصفحة الحاليةوبالتالي فإن عملية إبدال الخانات شئ أساسي بالنسبة للغة.</label>
+			<label index="hidden.description">إستخدم هذه العملية للإلغاء المؤقت للغة البديلة المعروضة في هذه الصفحة.</label>
+			<label index="hidden.details">ويعتبر ضبط هذه الخاصية أساسي بالنسبة لطور إضافة اللغة الإضافية.وإذا ما تمت عملية الضبط فإن محتويات اللغة البديلة لن تعرض إلا إذا قمت بتفعيل المشرف Panel&gt;Preview&gt;Show hidden records option.وهذا ما إذا كنت مسجلاً في قائمة الدخول في الصفحة</label>
+			<label index="starttime.description">يحدد وقت ’البدء’تاريخ بدء ظهور اللغة البديلة على الخط مباشرة.</label>
+			<label index="endtime.description">يحدد وقت’النهاية’ التاريخ الذي بعده ستختفي اللغة البديلة من على الخط.</label>
+			<label index="title.description">إدخل عنواناً للغة البديلة.</label>
+			<label index="subtitle.description">إدخل عنواناً فرعياً للغة البديلة.</label>
+			<label index="keywords.description">إدخل الكلمات الهامة المتعلقة باللغة البديلة.</label>
+			<label index="description.description">إدخل توصيفاً للغة البديلة</label>
+			<label index="abstract.description">إدخل إقتباساً للغة البديلة.</label>
+			<label index="author.description">إدخل اسم مؤلف اللغة البديلة.</label>
+			<label index="author_email.description">إدخل العنوان الإلكتروني الخاص بمؤلف اللغة البديلة.</label>
+			<label index="media.description">إدخل ملفات الوسائط الخاصة باللغة البديلة.</label>
+			<label index="sys_language_uid.description">قم بإختيار اللغات الآخرى البديلة التى يمكن أن تعرض من خلال هذا السجل.</label>
+			<label index="nav_title.description">إدخل عنوان خاصية التجول الخاص بالغة البديلة.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description" type="integer">230200392</label>
+			<label index=".details" type="integer">27958106</label>
+			<label index="hidden.description" type="integer">148737156</label>
+			<label index="hidden.details" type="integer">56904419</label>
+			<label index="starttime.description" type="integer">162646530</label>
+			<label index="endtime.description" type="integer">213075354</label>
+			<label index="title.description" type="integer">168754082</label>
+			<label index="subtitle.description" type="integer">249795538</label>
+			<label index="keywords.description" type="integer">81696492</label>
+			<label index="description.description" type="integer">137311270</label>
+			<label index="abstract.description" type="integer">114774738</label>
+			<label index="author.description" type="integer">135693417</label>
+			<label index="author_email.description" type="integer">230171675</label>
+			<label index="media.description" type="integer">117106707</label>
+			<label index="sys_language_uid.description" type="integer">76275608</label>
+			<label index="nav_title.description" type="integer">132510765</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">Represents an alternative language for the page.</label>
+			<label index=".details">These records contains fields very similar to the Page records, exactly those fields which should be translated to another language in case you want a localized version of the page.
+Create only ONE Alternative Page Language record of a specific language in each page. Having more than one record will leave it uncertain which of them is used when the page is displayed.
+
+Before you can create Alternative Page Language records you should create a 'master' language to be available in the root of the website (&quot;Website Language&quot;)
+The TypoScript template must be configured to allow other languages as well.
+
+Technically when an alternative language is being viewed, the content of the Alternative Page Language record is simply overlaid on the actual page records thus substituting the content of the fields in the default language.</label>
+			<label index="hidden.description">Use this to temporarily disable the alternative language overlay for this page.</label>
+			<label index="hidden.details">Setting this option is practical in the phase of adding the extra language. When it is set, the alternative content will not be displayed unless you - as an logged in backend user - enableds the Admin Panel&gt;Preview&gt;Show hidden records option.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the alternative language will be available online.</label>
+			<label index="endtime.description">The 'End' time determines the date from which the alternative language will be available online.</label>
+			<label index="title.description">Enter the title of the alternative language.</label>
+			<label index="subtitle.description">Enter the subtitle of the alternative language.</label>
+			<label index="keywords.description">Enter the keywords of the alternative language.</label>
+			<label index="description.description">Enter the description of the alternative language.</label>
+			<label index="abstract.description">Enter the abstract of the alternative language.</label>
+			<label index="author.description">Enter the author of the alternative language.</label>
+			<label index="author_email.description">Enter the author email address of the alternative language.</label>
+			<label index="media.description">Enter the media files of the alternative language.</label>
+			<label index="sys_language_uid.description">Select the Alternative Language represented by this record.</label>
+			<label index="nav_title.description">Enter optional navigation title of the alternative language.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

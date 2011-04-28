@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index=".alttitle">Web -&gt; Módulo Páxina</label>
+			<label index=".description">O módulo de páxina actívase dende o menú e é o módulo principal para tódalas operacións básicas de CMS que necesita para manter o contido do sitio web.</label>
+			<label index=".details">Se selecciona o módulo amosarase a árbore de contidos. Para editor unha páxina pulse no título de unha páxina e amosarase o contido no marco da dereita. Dito contido é xerado polo módulo de páxina. 
+
+o módulo de páxinas ten varios modos de amosar contido:
+
+&lt;b&gt; Columnas&lt;/b&gt;
+Vista que amosará os contidos listados en columnas e na orde que aparecerán no sitio web. Un panel de botóns permitirán mostrar, ocultar, mover e editar os elementos fácilmente.
+
+&lt;b&gt; Edición rápida&lt;/b&gt;
+Na edición rápida o primeiro elemento da páxina cargarase nun formulario correctamente. Dependerá da implementación do sitio web e tamén das preferencias se prefires este modo máis que o de vista de columnas.
+
+&lt;b&gt; Linguaxes&lt;/b&gt;
+Se o teu sitio web soporta múltiples linguaxes e utiliza o concepto &quot;unha árbores inclúe todos&quot; para a localización necesitarás dito modo para controlar as traduccións de contido nunha páxina.
+
+&lt;b&gt; Información de páxina&lt;/b&gt;
+A información de páxina amosa datos estatísticos da páxina. Inclúe estatísticas de clics se está dispoñible.
+
+&lt;b&gt; Opcións xerais&lt;/b&gt;
+Na cabeceira do módulo páxina verás unha fila de iconas que permitirán levar a cabo varias operacións tal como &quot;historial/desfacer&quot; (1), crear novos elementos de contido (2), mover páxina (e), crear nova páxina (4) e editar propiedades de páxina (5). Ver a imaxe arriba.
+
+&lt;b&gt; Definición do número de columnas amosadas [admin]&lt;/b&gt;
+Os administradores poden configurar o módulo de páxina para amosar as columnas que o sitio web utilizar. Esto faise usando o TSConfig de páxina (por eso se pode configurar por rama dentro da árbore) e esta opción particular ten a ruta de obxeto &quot;mod.web_layout.tt_content.colPos_list&quot;. Por exemplo, &quot;mod.web_layout.tt_content.colPos_list = 0,3&quot; permitirá visualizar só as columnas de  &quot;Normal&quot; e &quot;Borde&quot;. Hai varias outras opcións para personalización do módulo páxina na ruta de obxeto &quot;mod.web_layout&quot; e os administradores deberían referirse ó &quot;TSConfig&quot; enlazado abaixo.</label>
+			<label index=".image_descr">Facer clic no módulo de páxina, despois no título da páxina na árbore de páxinas amosado.
+
+O módulo de páxina é entón activado no marco da dereita amosando o contido da páxina na que fixo clic previamente na árbore.
+
+Estes botóns están directamente ligados ás operacións de   &quot;historial/desfacer&quot; (1), asistente para crer novo elemento de contido (2), asistente para mover páxina (3), asistente para crear páxinas novas (4) e formulario de edición de propiedades (5). Ver as ligazóns para máis detalles.</label>
+			<label index="quickEdit.alttitle">Edición rápida.</label>
+			<label index="quickEdit.description">A edición rápida permítelle acceso directo ós campos do formulario do contido de páxina</label>
+			<label index="quickEdit.details">O editor rápido está diseñado para reducir o número de clics necesarios para editor o contido de páxina. Con só facer clic no título de páxina na árbore de páxinas obterá o primeiro elemento de contido nunha columna normal cargada no marco lista. Na barra de ferramentas da parte superior poderá seleciconar os outros elementos na páxina no cadro de selección.</label>
+			<label index="quickEdit.image_descr">A vista de edición rápida recuce en un click dando acceso directo ó formulario de acceso despois de facer clic no título de unha páxina da árbore de páxinas. O rexistro amosado será sempre o primeiro dos amosados na columna normal.</label>
+			<label index="quickEdit_selElement.alttitle">Elementos de contido</label>
+			<label index="quickEdit_selElement.description">Resumo de elementos de contido da páxina en modo edición rápida. Seleccionar outros elementos par a editar ou fai clic na icona de &quot;Novo&quot; para crear un novo elemento de contido.</label>
+			<label index="quickEdit_selElement.image_descr">Resumo de elementos de contido na vista de edición rápida. Na parte inferior hai ligazóns a dous asistentes: O &quot;asistemte para mover elementos de contido&quot; e o &quot;asistente para crear novo elemento de contido&quot;. Ver enlaces abaixo.</label>
+			<label index="columns_1.alttitle">Listado por columnas</label>
+			<label index="columns_1.description">Na vista de &quot;Columnas&quot; pode controlar o contido da páxina web como se estivese posicionada en conlumnas.</label>
+			<label index="columns_2.alttitle">Listar por linguaxe</label>
+			<label index="columns_2.description">Na vista de &quot;Linguaxes&quot; pode controlar o contido de unha páxina dividida nas diferentes linguaxes e columnas.</label>
+			<label index="columns_3.alttitle">Información de páxina</label>
+			<label index="columns_3.description">Na &quot;información de páxina&quot; pode ver diferentes tipos de estatísticas da páxina.</label>
+			<label index="columns_3.details">A información de páxina amosa información tal como data de creación ou última modificación de páxina e dos seus contidos.
+
+Pode ver o subtítulo, palabras clave e descricións. Esta información é utilizada en sitios web para meta-información ou procura.</label>
+			<label index="language_list.alttitle">Vista de linguaxe</label>
+			<label index="language_list.description">Esta vista amosará as traduccións dos contdos de páxina &quot;cara a cara&quot;. Permite ós usuarios crear novas traduccións de unha páxina.</label>
+			<label index="language_list.image_descr">Na vista de linguaxe permítese crear unha nova traducción de unha páxina se non existe previamente. As linguaxes dispoñibles deben estar definidas previamente en rexistros na raíz da árbore de páxinas.
+
+Este exemplo amosa como unha páxina para tres linguaxes e amosado cara a cara no módulo páxina. Na parte superior da páxina pode seleccionar entre varias traduccións...
+... e se seleccionar calquera das linguaxe adicionais (neste caso &quot;danés&quot; ou &quot;alemán&quot;) verá o contido por defecto amosado &quot;cara a cara&quot; coa linguaxe seleccionada.</label>
+			<label index="columns_single.alttitle">Elementos de contidos en unha única columna</label>
+			<label index="columns_single.description">Esta vista de columna simple amosará os elementos de contido que definen o contido da páxina no sitio web. Faga clic na icona de edición ou no texto para editar un elemento.</label>
+			<label index="columns_single.details">Pode ocular, borrar e mover utilizando os paneis de control.
+
+Pulsando na icona &quot;Novo elemento de contido&quot; poderá crear novos elementos de contido entre os elementos existentes.
+Pulse na icona de elemento de contido se desexa acceder ó menú contextual de un elemento.</label>
+			<label index="columns_single.image_descr">Elementos de contido nunha páxina son amosados en unha orde específica -a orde na que apareceŕa   no sitio web-. Esta orde tamén será amosada no módulo de páxina. O panel de control permite mover elementos cara arriba e cara abaixo, tal como editar, ocultar e borrar. Polo facer clic no texto de previsualización para acceder ó formulario de edición do elemento.</label>
+			<label index="columns_multi.alttitle">Elementos de contido en columnas múltiples</label>
+			<label index="columns_multi.description">A vista de múltiples columnas amosarán o contido do sitio organizado en múltiples columnas. Neste caso o seu sitio web soportará máis de unha zona de contido e os elementos de contidos serán organizados por columnas.</label>
+			<label index="columns_multi.image_descr">Cando o seu sitio web soporte varias zonas de elementos de contido nun modelo permitirá utilizar outra columna diferente da &quot;Normal&quot;. Aquí a columna &quot;Esquerda&quot; está habilitada. TYPO3 ofrece catro columnas por defecto &quot;Normal&quot;, &quot;Dereita&quot;, &quot;Esquerda&quot;, &quot;Borde&quot;. O seu significado dependerá de implementacións individuais nos modelos de frontend.</label>
+			<label index="button_panel.alttitle">Botóns xigantes</label>
+			<label index="button_panel.description">Estes botóns permitirán utilizar as funcións máis comúns en relación con contruir páxinas. Dende aquí poderá editar propiedades de páxunas (p.e. título), poderá mover a páxina actual a outra posición na árbore, crear novas páxinas en calquera punto da árbore ou crear novos elementos de páxina de dita páxina.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index=".description" type="integer">255949225</label>
+			<label index=".details" type="integer">190071286</label>
+			<label index=".image_descr" type="integer">259908838</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit.image_descr" type="integer">12142174</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="quickEdit_selElement.image_descr" type="integer">151834889</label>
+			<label index="columns_1.alttitle" type="integer">183363228</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+			<label index="columns_2.alttitle" type="integer">8205541</label>
+			<label index="columns_2.description" type="integer">120555273</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+			<label index="columns_3.description" type="integer">128375441</label>
+			<label index="columns_3.details" type="integer">153613364</label>
+			<label index="language_list.alttitle" type="integer">5495420</label>
+			<label index="language_list.description" type="integer">59701089</label>
+			<label index="language_list.image_descr" type="integer">101996599</label>
+			<label index="columns_single.alttitle" type="integer">177139761</label>
+			<label index="columns_single.description" type="integer">13095439</label>
+			<label index="columns_single.details" type="integer">71652362</label>
+			<label index="columns_single.image_descr" type="integer">154250732</label>
+			<label index="columns_multi.alttitle" type="integer">129089861</label>
+			<label index="columns_multi.description" type="integer">150957199</label>
+			<label index="columns_multi.image_descr" type="integer">85769047</label>
+			<label index="button_panel.alttitle" type="integer">66291190</label>
+			<label index="button_panel.description" type="integer">160878502</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index=".description">The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</label>
+			<label index=".details">Selecting the module will display the page tree.  Click the title of the page you wish to edit content on, and in the right frame you will see the content of the page displayed by the Page module.
+
+The page module has various modes of display of content;
+
+&lt;b&gt;Columns&lt;/b&gt;
+The columns view will show Content Elements listed in the columns and in the order that they will appear on the website. A panel of buttons will allow you to hide/unhide, move and edit the elements easily.
+
+&lt;b&gt;QuickEdit&lt;/b&gt;
+In QuickEdit the first element on the page will be loaded into a form right away. It will depend on the implementation of your website as well as your general preferences if you like this mode more than the columns view.
+
+&lt;b&gt;Languages&lt;/b&gt;
+If your site supports multiple languages and uses the &quot;one-tree-fits-all&quot; concept for localization you will need this mode to control the translations of the content elements on a page.
+
+&lt;b&gt;Page information&lt;/b&gt;
+The page information view shows some statistical data about a page. This includes hit statistics if available.
+
+
+&lt;b&gt;General options&lt;/b&gt;
+In the top of the Page module you will find a row of icons that will bring you right to various features such as History/Undo (1), Create new content element (2), Move page (3), Create new page (4) and Edit page properties (5). See image below.
+
+&lt;b&gt;Defining number of displayed columns [Admin]&lt;/b&gt;
+Administrators can configure the Page module to display only the content columns that the website uses. This is done by Page TSconfig (so it can be configured per branch in the page tree!) and this particular option has the object path &quot;mod.web_layout.tt_content.colPos_list&quot;.
+For instance &quot;mod.web_layout.tt_content.colPos_list = 0,3&quot; will set the display of the &quot;Normal&quot; and &quot;Border&quot; columns only.
+There are many other options for customization of the Page module in the object path &quot;mod.web_layout&quot; and Administrators should refer to the &quot;TSconfig&quot; reference linked to below.</label>
+			<label index=".image_descr">Click the Page module, then the title of a page in the page tree.
+The page module is now activated in the right frame, showing the content of the page you clicked in the page tree.
+These buttons are direct links to the History/Undo function (1), Create new content element wizard (2), Move page wizard (3), Create new page wizard (4) and Edit page properties form (5). See the links for more details.</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit.image_descr">The QuickEdit view cuts of one extra click by bringing the user directly to the editing form after clicking a page title in the page tree. The record shown is always the first content element from the Normal column.</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="quickEdit_selElement.image_descr">Overview of page content elements in the QuickEdit view. In the bottom there are links to two wizards: The &quot;Move Content Element Wizard&quot; and the &quot;Create new Content Element Wizard&quot;. See the links below.</label>
+			<label index="columns_1.alttitle">Listing by Column</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+			<label index="columns_2.alttitle">Listing by Language</label>
+			<label index="columns_2.description">In the &quot;Languages&quot; view you can control the content of the web page as it is divided into languages and columns.</label>
+			<label index="columns_3.alttitle">Page Information</label>
+			<label index="columns_3.description">In the &quot;Page Information&quot; view you can see various statistics about a page.</label>
+			<label index="columns_3.details">The page information reveals information such as the date of creation and last modification of the page and its content.
+You can also see the subtitle, keywords and descriptions. This information is often used on websites for meta data or searching.</label>
+			<label index="language_list.alttitle">Language view</label>
+			<label index="language_list.description">This view will display the available translations of the page content side-by-side. It enables users to create a new translation of a page.</label>
+			<label index="language_list.image_descr">In the Language view you can select to create a new translation of the page if one does not exist already. The available languages must be defined first by language records created in the root of the page tree.
+This example shows how page content for three languages is shown side-by-side in the Page module.
+In the top of the Page module you can also select between the available translations...
+... and if you select any of the additional languages (here &quot;Danish&quot; and &quot;German&quot;) you will see the default language displayed side-by-side with the selected language</label>
+			<label index="columns_single.alttitle">Page content elements in a single column</label>
+			<label index="columns_single.description">The single column view will show the page content elements that define the content on this page of your website. Click an edit icon or element text to edit an element.</label>
+			<label index="columns_single.details">You can also hide, delete and move elements by using the control panels.
+Clicking the &quot;New content element&quot; icon you will be able to create new content elements in between the existing elements on the page.
+Click the icon of a content element if you wish to access the context menu of the element.</label>
+			<label index="columns_single.image_descr">Content Elements on a page are arranged in a specific order - the order they appear on the website. This order is also shown in the page module. The control panel allows you to move elements up and down as well as edit, hide and delete them. You can also just click the preview text shown here to access the editing form of the element.</label>
+			<label index="columns_multi.alttitle">Page content elements in a multiple columns</label>
+			<label index="columns_multi.description">The multiple column view will show the content of your website arranged in multiple columns. This is the case if your website supports more than one content zone and the content elements from each zone is arranged in &quot;columns&quot;.</label>
+			<label index="columns_multi.image_descr">When your website supports multiple content element zones in the template you will be able to use another column than the &quot;Normal&quot; column. Here the &quot;Left&quot; column is enabled. TYPO3 offers four columns by default, &quot;Normal&quot;, &quot;Right&quot;, &quot;Left&quot; and &quot;Border&quot;. Their significance depends on individual implementations in the frontend templates.</label>
+			<label index="button_panel.alttitle">The &quot;Big Buttons&quot;</label>
+			<label index="button_panel.description">These buttons will bring you to four most used functions in relation to building pages. From here you can edit the page properties (eg. the page title), you can move the current page to another position in the page tree, create a new page somewhere in the page tree or create new content elements on this page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">TypoScript zapis predloška.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description" type="integer">48577171</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">TypoScript template record.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

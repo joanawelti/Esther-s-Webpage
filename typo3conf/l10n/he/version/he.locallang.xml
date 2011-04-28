@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="title">גירסות</label>
+			<label index="mlang_tabs_tab">גירסות</label>
+			<label index="clickAPage_header">אינטרנט&lt;גירסות</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="title" type="integer">26780425</label>
+			<label index="mlang_tabs_tab" type="integer">26780425</label>
+			<label index="clickAPage_header" type="integer">90732202</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="title">Versioning</label>
+			<label index="mlang_tabs_tab">Versioning</label>
+			<label index="clickAPage_header">Web&gt;Versioning module</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

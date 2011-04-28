@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="welcome">TYPO3 Système de Gestion de Contenu Web Professionnel</label>
+			<label index="minor">TYPO3 est un &quot;logiciel libre&quot; flexible et professionnel de gestion de contenu web basé sur PHP4 et mySQL.&lt;br /&gt;&lt;br /&gt;TYPO3 est &lt;b&gt;disponible gratuitement&lt;/b&gt; selon les termes de la &lt;A HREF=&quot;http://typo3.com/1244.0.html&quot; target=&quot;_blank&quot;&gt;licence TYPO3 (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">A propos de TYPO3</label>
+			<label index="mlang_labels_tabdescr">Affiche les informations de base à propos de TYPO3, sa version, et les termes de sa licence.</label>
+			<label index="mlang_tabs_tab">A propos de ...</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">259198789</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

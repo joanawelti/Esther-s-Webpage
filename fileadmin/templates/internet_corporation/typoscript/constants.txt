@@ -1,0 +1,46 @@
+#page.shortcutIcon = fileadmin/templates/internet_corporation/images/desktop.ico
+
+#SeitenID der suche
+suche = 9
+#Konstanten Druckversion
+#plugin.alt.print.file.template = fileadmin/templates/internet_corporation/printversion.tmpl
+#plugin.alt.print.file.stylesheet = fileadmin/templates/internet_corporation/css/print.css
+
+plugin.feadmin.fe_users {
+  file.templateFile = fileadmin/templates/internet_corporation/scripts/fe_admin_fe_users.tmpl
+  email = info@mysite.ch
+  emailName = mysite
+  pid = 16
+  usergroupOverride = 1
+}
+
+styles.content.loginform.pid = 9
+temp.loginScript.file= fileadmin/templates/internet_corporation/scripts/fe_user.inc
+
+# Seite weiterempfehlen
+#plugin.tipafriend { 
+#    file.templateFile = fileadmin/templates/internet_corporation/tipafriend_template.tmpl
+#    file.stylesheet = fileadmin/templates/internet_corporation/css/style.css
+#    PIDtipForm = 45  
+#    htmlMail = 0
+#color1 =
+#color2 =
+#color3 =
+#     wrap1 = <font face="Verdana, Arial, Helvetica, sans-serif" size=2 color=#000000> | </font>
+#     wrap2 = <font face="Verdana, Arial, Helvetica, sans-serif" size=1 color=#000000> | </font>
+#}
+
+
+[globalVar = GP:L = 1]
+standort=You are here:
+prn = Print
+[else]
+standort=Sie sind hier:
+prn = Drucken
+[end]
+[global]
+
+plugin.feadmin.dmailsubscription.pid = 33
+plugin.feadmin.dmailsubscription.file.templateFile = fileadmin/newsletter_anmeldung.html
+plugin.feadmin.dmailsubscription.email = admin@rasi.ch
+plugin.feadmin.dmailsubscription.emailName = TYPO3 Template Newsletter Anmeldung

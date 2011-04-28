@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">Sjabloon werkset</label>
+			<label index="mlang_labels_tabdescr">Hier managed u de TypoScript sjablonen. Deze verzorgen de 'look' van de website in de frontend. De module biedt speciale opties zoals een object browser, een constanten editor en faciliteiten om inhoud te bewerken.&lt;br /&gt;&lt;em&gt;Toegang alleen voor 'admins'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Sjabloon</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel" type="integer">25422173</label>
+			<label index="mlang_tabs_tab" type="integer">41469073</label>
+			<label index="mlang_labels_tabdescr" type="integer">256862236</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">Template tools</label>
+			<label index="mlang_tabs_tab">Template</label>
+			<label index="mlang_labels_tabdescr">Here you manage the TypoScript templates which are in charge of the look of your website on the frontend. The module provides specialized features like an object browser, a constant editor and raw editing facilities.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

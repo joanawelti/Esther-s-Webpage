@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="details">Detalhes</label>
+			<label index="syntax">Sintaxe</label>
+			<label index="seeAlso">Veja também</label>
+			<label index="goBack">Voltar</label>
+			<label index="fullDescription">Veja descrição completa da tabela</label>
+			<label index="close">Fechar</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="details" type="integer">65812061</label>
+			<label index="syntax" type="integer">154049890</label>
+			<label index="seeAlso" type="integer">101781834</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="fullDescription" type="integer">233674735</label>
+			<label index="close" type="integer">222113377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

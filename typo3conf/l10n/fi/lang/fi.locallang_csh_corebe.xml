@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle">TYPO3 ydin</label>
+			<label index="menu_modules.alttitle">Taustaohjelmat</label>
+			<label index="menu_adminFunction.alttitle">Hallintatoiminnot</label>
+			<label index="pagetree.alttitle">Sivujen puurakenne</label>
+			<label index="filetree.alttitle">Hakemistopuun rakenne</label>
+			<label index="list_module.alttitle">Web&gt;List moduli</label>
+			<label index="list_module_noId.alttitle">Web&gt;List moduli ilman annettua ID numeroa</label>
+			<label index="list_module_root.alttitle">Sivujen puurakenteen juuri</label>
+			<label index="list_clipboard.alttitle">TYPO3 leikepöytä</label>
+			<label index="list_searchbox.alttitle">Hakulaatikko</label>
+			<label index="list_options.alttitle">Listaohjelman vaihtoehdot</label>
+			<label index="new_regular.alttitle">Luo uusi tieto</label>
+			<label index="new_pages.alttitle">Luo uusi sivu velho</label>
+			<label index="new_ce.alttitle">Luo uusi sisältö elemnttin velho</label>
+			<label index="move_el_pages.alttitle">Siirrä sivua velho</label>
+			<label index="move_el_cs.alttitle">Siirrä sisältö elementiä velho</label>
+			<label index="history_log.alttitle">Historia loki</label>
+			<label index="history_sum.alttitle">Historian yhteenveto</label>
+			<label index="history_entry.alttitle">Lokitietojen historia</label>
+			<label index="TCEforms.alttitle">TYPO3 Muokkauslomakkeet</label>
+			<label index="TCEforms_docSelector.alttitle">Dokumentin valitsin</label>
+			<label index="TCEforms_cacheSelector.alttitle">Lomakevalikko</label>
+			<label index="perm_module.alttitle">Näytetään sivun oikeuksia</label>
+			<label index="perm_module_setting.alttitle">Asetetaan oikeudet sivulle</label>
+			<label index="filelist_module.alttitle">File &gt; Filelist moduli (Tiedosto &gt; Tiedostolista moduli)</label>
+			<label index="filelist_clipboard.alttitle">Tiedostolistan leikepöytä</label>
+			<label index="filelist_options.alttitle">File &gt; Filelist (Tiedosto &gt; Tiedostolista) vaihtoehdot</label>
+			<label index="file_edit.alttitle">Tiedoston muokkaus</label>
+			<label index="file_newfolder.alttitle">Luodaan uusi hakemisto</label>
+			<label index="file_newfile.alttitle">Luodaan uusi tiedosto</label>
+			<label index="file_rename.alttitle">Tiedoston tai hakemiston uudelleen nimeäminen</label>
+			<label index="file_upload.alttitle">Päivitetään tiedostoja</label>
+			<label index="wizard_forms_wiz.alttitle">Lomake velho</label>
+			<label index="wizard_forms_wiz_buttons.alttitle">Lomake velhon näppäimet</label>
+			<label index="wizard_forms_wiz_formmail_info.alttitle">Email lomakkeen tietokentät</label>
+			<label index="wizard_table_wiz.alttitle">Taulukko velho</label>
+			<label index="wizard_table_wiz_buttons.alttitle">Taulukko velhon näppäimet</label>
+			<label index="shortcuts.alttitle">Taustan pikavalinnat (oikopolut)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle" type="integer">60773436</label>
+			<label index="menu_modules.alttitle" type="integer">103207836</label>
+			<label index="menu_adminFunction.alttitle" type="integer">182425230</label>
+			<label index="pagetree.alttitle" type="integer">178449317</label>
+			<label index="filetree.alttitle" type="integer">187918820</label>
+			<label index="list_module.alttitle" type="integer">259791878</label>
+			<label index="list_module_noId.alttitle" type="integer">150603828</label>
+			<label index="list_module_root.alttitle" type="integer">229421007</label>
+			<label index="list_clipboard.alttitle" type="integer">144923347</label>
+			<label index="list_searchbox.alttitle" type="integer">247774595</label>
+			<label index="list_options.alttitle" type="integer">40663100</label>
+			<label index="new_regular.alttitle" type="integer">54021068</label>
+			<label index="new_pages.alttitle" type="integer">199767829</label>
+			<label index="new_ce.alttitle" type="integer">229302243</label>
+			<label index="move_el_pages.alttitle" type="integer">54884231</label>
+			<label index="move_el_cs.alttitle" type="integer">21330178</label>
+			<label index="history_log.alttitle" type="integer">179384962</label>
+			<label index="history_sum.alttitle" type="integer">15545092</label>
+			<label index="history_entry.alttitle" type="integer">108629287</label>
+			<label index="TCEforms.alttitle" type="integer">113789050</label>
+			<label index="TCEforms_docSelector.alttitle" type="integer">120900559</label>
+			<label index="TCEforms_cacheSelector.alttitle" type="integer">252004266</label>
+			<label index="perm_module.alttitle" type="integer">132860991</label>
+			<label index="perm_module_setting.alttitle" type="integer">192801235</label>
+			<label index="filelist_module.alttitle" type="integer">219238489</label>
+			<label index="filelist_clipboard.alttitle" type="integer">181555508</label>
+			<label index="filelist_options.alttitle" type="integer">97030544</label>
+			<label index="file_edit.alttitle" type="integer">26447061</label>
+			<label index="file_newfolder.alttitle" type="integer">199708088</label>
+			<label index="file_newfile.alttitle" type="integer">150545622</label>
+			<label index="file_rename.alttitle" type="integer">154248562</label>
+			<label index="file_upload.alttitle" type="integer">30016445</label>
+			<label index="wizard_forms_wiz.alttitle" type="integer">116384697</label>
+			<label index="wizard_forms_wiz_buttons.alttitle" type="integer">205467540</label>
+			<label index="wizard_forms_wiz_formmail_info.alttitle" type="integer">174732738</label>
+			<label index="wizard_table_wiz.alttitle" type="integer">252535019</label>
+			<label index="wizard_table_wiz_buttons.alttitle" type="integer">90697255</label>
+			<label index="shortcuts.alttitle" type="integer">195525974</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle">TYPO3 Core</label>
+			<label index="menu_modules.alttitle">Backend modules</label>
+			<label index="menu_adminFunction.alttitle">Admin Functions</label>
+			<label index="pagetree.alttitle">The Page Tree</label>
+			<label index="filetree.alttitle">The Folder Tree</label>
+			<label index="list_module.alttitle">The Web&gt;List module</label>
+			<label index="list_module_noId.alttitle">Web&gt;List module with no ID given</label>
+			<label index="list_module_root.alttitle">Root of the Page Tree</label>
+			<label index="list_clipboard.alttitle">TYPO3 Clipboard</label>
+			<label index="list_searchbox.alttitle">Search Box</label>
+			<label index="list_options.alttitle">List module options</label>
+			<label index="new_regular.alttitle">Create new record</label>
+			<label index="new_pages.alttitle">Create new page wizard</label>
+			<label index="new_ce.alttitle">Create new Content Element Wizard</label>
+			<label index="move_el_pages.alttitle">Move page wizard</label>
+			<label index="move_el_cs.alttitle">Move Content Element Wizard</label>
+			<label index="history_log.alttitle">History log</label>
+			<label index="history_sum.alttitle">History Summary</label>
+			<label index="history_entry.alttitle">Log entry history</label>
+			<label index="TCEforms.alttitle">TYPO3 Editing Forms</label>
+			<label index="TCEforms_docSelector.alttitle">Document Selector</label>
+			<label index="TCEforms_cacheSelector.alttitle">Forms Menu</label>
+			<label index="perm_module.alttitle">Viewing page permissions</label>
+			<label index="perm_module_setting.alttitle">Setting permissions for a page</label>
+			<label index="filelist_module.alttitle">File &gt; Filelist module</label>
+			<label index="filelist_clipboard.alttitle">Filelist Clipboard</label>
+			<label index="filelist_options.alttitle">File &gt; Filelist options</label>
+			<label index="file_edit.alttitle">Editing a file</label>
+			<label index="file_newfolder.alttitle">Creating a new folder</label>
+			<label index="file_newfile.alttitle">Creating a new file</label>
+			<label index="file_rename.alttitle">Rename a file or folder</label>
+			<label index="file_upload.alttitle">Uploading files.</label>
+			<label index="wizard_forms_wiz.alttitle">Forms Wizard</label>
+			<label index="wizard_forms_wiz_buttons.alttitle">Form Wizard buttons</label>
+			<label index="wizard_forms_wiz_formmail_info.alttitle">Mailform Info Fields</label>
+			<label index="wizard_table_wiz.alttitle">Table wizard</label>
+			<label index="wizard_table_wiz_buttons.alttitle">Table wizard buttons</label>
+			<label index="shortcuts.alttitle">Backend Shortcuts</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="title">Ajutor TypoScript</label>
+			<label index="display">Afişează ajutor TypoScript</label>
+			<label index="rebuild">Regenerare ajutor TypoScript</label>
+			<label index="referenceExplanation">Alegeţi dintre următoarele informaţii de referinţă</label>
+			<label index="referenceExplanationDetailed">Pentru a vedea nenumăratele ferestre de popup cu ajutor TypoScript, selectaţi din următoarele pictograme de referinţă. Acest ajutor online este generat automat din manualele disponibile în extensiile instalate de pe serverul dumneavoastră TYPO3. Pentru a regenera fişierele de ajutor când adăugaţi sau ştergeţi o extensie, va trebui să selectaţi funcţia &quot;Regenerare ajutor TypoScript&quot; a acestui modul.</label>
+			<label index="displayReferences">Afişează ajutor online TypoScript</label>
+			<label index="loadedTSfrom">TypoScript încărcat din:</label>
+			<label index="sections">secţiuni</label>
+			<label index="rebuildTS">Regenerare ajutor online TypoScript</label>
+			<label index="warning_manualsWithoutMarkers">Următoarele manuale conţin una sau mai multe tabele fără marcaje:</label>
+			<label index="warning_duplicateMarkers">Următoarele marcaje apar în câteva manuale sau de câteva ori în acelaşi manual:</label>
+			<label index="updateWarnings">Modifică atenţionările</label>
+			<label index="adminAccessOnly">Accesul la această funcţie a modulului este permis doar administratorilor.</label>
+			<label index="noRebuildOnWindows">Funcţia de regenerare nu rulează şi pe Windows. Ne pare rău!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="title" type="integer">55592368</label>
+			<label index="display" type="integer">162496165</label>
+			<label index="rebuild" type="integer">196790076</label>
+			<label index="referenceExplanation" type="integer">76872201</label>
+			<label index="referenceExplanationDetailed" type="integer">10254758</label>
+			<label index="displayReferences" type="integer">232607003</label>
+			<label index="loadedTSfrom" type="integer">119709196</label>
+			<label index="sections" type="integer">267706088</label>
+			<label index="rebuildTS" type="integer">12733294</label>
+			<label index="warning_manualsWithoutMarkers" type="integer">59628706</label>
+			<label index="warning_duplicateMarkers" type="integer">256167033</label>
+			<label index="updateWarnings" type="integer">219429374</label>
+			<label index="adminAccessOnly" type="integer">148709790</label>
+			<label index="noRebuildOnWindows" type="integer">94511047</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Display TypoScript Help</label>
+			<label index="rebuild">Rebuild TypoScript Help</label>
+			<label index="referenceExplanation">Choose from the following reference data</label>
+			<label index="referenceExplanationDetailed">In order to view the different TypoScript help popup windows, select from the following reference icons. This online help is built automatically from the manuals available in the installed extensions on your TYPO3 server. To rebuild the help files when you add or remove an extension, you will need to select the &quot;Rebuild TypoScript Help&quot; function of this module.</label>
+			<label index="displayReferences">Display TypoScript Online Help</label>
+			<label index="loadedTSfrom">Loaded TypoScript from:</label>
+			<label index="sections">sections</label>
+			<label index="rebuildTS">Rebuild TypoScript online help</label>
+			<label index="warning_manualsWithoutMarkers">The following manuals contain one or more tables without markers: </label>
+			<label index="warning_duplicateMarkers">The following markers appear in several manuals or several times in the same manual:</label>
+			<label index="updateWarnings">Update warnings</label>
+			<label index="adminAccessOnly">Access to this function of the module is restricted to admins.</label>
+			<label index="noRebuildOnWindows">The Rebuild function does not run on Windows systems. Sorry!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

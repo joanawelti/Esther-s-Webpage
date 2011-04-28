@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel">Typo3 ผู้จัดการส่วนเพิ่มเติม (Extension)</label>
+			<label index="mlang_labels_tabdescr">จัดการ ส่วนเพิ่มเติม ของ Typo3 ซึ่งประกอบด้วย ปลั้กอิน โมดูล คลาส โค๊ดการปรับแต่ง และอื่นๆ จากที่เก็บส่วนกลางแบบออนไล</label>
+			<label index="mlang_tabs_tab">ผู้จัดการ Ext</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">130260296</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Interne notitie peplaatst op de pagina.</label>
+			<label index=".details">Dit voorziet in een eenvoudige manier om instructieve notities aan een pagina te koppelen die betrekking hebben op backend gerelateerde zaken. Gebruik het voor herinneringen, instructies enz.</label>
+			<label index="category.description">Selecteer een categorie waar de inhoud van de notitie onder valt.</label>
+			<label index="subject.description">Vul een title voor de notitie in</label>
+			<label index="message.description">Dit is de notitie zelf</label>
+			<label index="author.description">Vul uw naam in</label>
+			<label index="email.description">Vul uw emailadres in</label>
+			<label index="personal.description">Markeer dit, als u niet wilt dat andere gebruikers deze notitie kunnen zien.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">112425504</label>
+			<label index=".details" type="integer">141602016</label>
+			<label index="category.description" type="integer">222277377</label>
+			<label index="subject.description" type="integer">58235458</label>
+			<label index="message.description" type="integer">268248387</label>
+			<label index="author.description" type="integer">205434485</label>
+			<label index="email.description" type="integer">259302369</label>
+			<label index="personal.description" type="integer">172550456</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Internal reminder note placed on a the page.</label>
+			<label index=".details">This provides a simple way to attach instructional notes to a page regarding backend related issues. Use it as you like for reminders, instructions etc. </label>
+			<label index="category.description">Select a category which describes the character of the note.</label>
+			<label index="subject.description">Enter a title for the note.</label>
+			<label index="message.description">This is the note itself.</label>
+			<label index="author.description">Enter your name. </label>
+			<label index="email.description">Enter your email address.</label>
+			<label index="personal.description">Check this, if you don't want other users to see this note.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

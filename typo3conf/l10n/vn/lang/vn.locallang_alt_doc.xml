@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="vn" type="array">
+			<label index="deleteItem">Hũy bỏ</label>
+			<label index="deleteWarning">Bạn có chắc chán muốn Xóa dữ kiền này không?</label>
+			<label index="undoLastChange">Làm lại</label>
+			<label index="recordHistory">Xem dữ kiện trong trang sử</label>
+			<label index="editWholeRecord">Xửa tất cả record</label>
+			<label index="openDocs">Documents Đang Mở</label>
+			<label index="noDocuments">Không có hồ sơ</label>
+			<label index="noDocuments_msg">Không có documents nào để chỉnh.</label>
+			<label index="noDocuments_msg2">Bạn có thể mở %s để tìm trang hay dữ kiện mà bạn muốn chỉnh.</label>
+			<label index="noDocuments_msg3">Bạn có thể chọn một cái dữ kiện gần nhất từ trong cái list này:</label>
+			<label index="noDocuments_pagemodule">Trang module</label>
+			<label index="noDocuments_OR">hay là</label>
+			<label index="noDocuments_listmodule">Danh Sách module</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="vn" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="editWholeRecord" type="integer">195506325</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_msg" type="integer">264542935</label>
+			<label index="noDocuments_msg2" type="integer">15726238</label>
+			<label index="noDocuments_msg3" type="integer">187019899</label>
+			<label index="noDocuments_pagemodule" type="integer">126847616</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+			<label index="noDocuments_listmodule" type="integer">97512249</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="vn" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

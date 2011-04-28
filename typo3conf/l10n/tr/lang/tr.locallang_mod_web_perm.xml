@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="permissions">İzinler</label>
+			<label index="ch_permissions">İzinleri değiştir</label>
+			<label index="Legend">Açıklama</label>
+			<label index="Owner">Sahip</label>
+			<label index="Group">Grup</label>
+			<label index="Everybody">Herkes</label>
+			<label index="EditLock">Kilitli</label>
+			<label index="EditLock_descr">Sayfa ve tüm içerikleri düzenlemek için kiltlendi tüm yönetici olmayan kullanıcılar tarafından.</label>
+			<label index="Save">Kaydet</label>
+			<label index="Abort">İptal et</label>
+			<label index="Edit">DÜZELT</label>
+			<label index="recursive">Yinelemeli olarak kur</label>
+			<label index="pages_affected">etkilenen sayfalar</label>
+			<label index="user_overview">Kullanıcı genel görüntüsü</label>
+			<label index="Mode">Mod</label>
+			<label index="Depth">Derinlik</label>
+			<label index="levels">seviyeler</label>
+			<label index="User">Kullanıcı</label>
+			<label index="def">Tanım: 'içerik' sayfa üzerindeki tüm tabloların kayıtlarıdır - 'sayfa' (Sayfalar) tablosundaki kayıtlardan hariç.</label>
+			<label index="A_Granted">Erişim kabul edildi</label>
+			<label index="A_Denied">Erişim reddedildi</label>
+			<numIndex index="1">Sayfa göster</numIndex>
+			<numIndex index="16">İçerik düzenle</numIndex>
+			<numIndex index="2">Sayfa düzenle</numIndex>
+			<numIndex index="4">Sayfa sil</numIndex>
+			<numIndex index="8">Yeni sayfalar</numIndex>
+			<label index="1_t">Sayfa ve içeriği Göster/Kopyala.</label>
+			<label index="16_t">Değiştir/Ekle/Sil/Taşı içeriği.</label>
+			<label index="2_t">Sayfayı Değiştir/Taşı, sayfa başlığı değişikliği gibi vs.</label>
+			<label index="4_t">Sayfa ve içeriği sil.</label>
+			<label index="8_t">Bu sayfanın altında yeni sayfalar yarat.</label>
+			<label index="mlang_labels_tablabel">Sayfa düzenleme yetkileri</label>
+			<label index="mlang_labels_tabdescr">Sayfa izinlerinin atanması arkaplana erişme açısından hayati önem taşıyor.Kullanıcı sayfaya erişir. Sayfanın sahipleri olarak bir kullanıcı ve bir grup atayabilir ve herbiri için erişim izinleri kurabilirsiniz.</label>
+			<label index="mlang_tabs_tab">Erişim</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="double">3749651</label>
+			<label index="Everybody" type="double">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="double">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="double">9809855</label>
+			<numIndex index="1" type="integer">256624387</numIndex>
+			<numIndex index="16" type="integer">102695873</numIndex>
+			<numIndex index="2" type="integer">66732081</numIndex>
+			<numIndex index="4" type="integer">220131191</numIndex>
+			<numIndex index="8" type="integer">146653009</numIndex>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="double">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="double">6517083</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

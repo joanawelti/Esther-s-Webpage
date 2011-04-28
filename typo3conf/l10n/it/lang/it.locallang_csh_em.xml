@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">L'Extension Manager gestisce l'importazione, l'installazione e l'aggiornamento delle Estensioni di TYPO3</label>
+			<label index="loaded.alttitle">Estensioni Attive</label>
+			<label index="avail.alttitle">Estensioni Disponibili</label>
+			<label index="import.alttitle">Importa Estensioni</label>
+			<label index="emconf_errors.alttitle">Errori</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".description" type="integer">212219576</label>
+			<label index="loaded.alttitle" type="integer">240199548</label>
+			<label index="avail.alttitle" type="integer">251693128</label>
+			<label index="import.alttitle" type="integer">65383042</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index="loaded.alttitle">Loaded Extensions</label>
+			<label index="avail.alttitle">Available Extensions</label>
+			<label index="import.alttitle">Importing Extensions</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="quickEdit.description">快速編輯器使你可以直接存取網頁內容中的表格內容</label>
+			<label index="quickEdit.details">快速編輯器設計以減少修改網頁內容時需要的點擊的次數。單單點擊網頁樹圖中的網頁名稱你就會得到正常欄中第一個內容元件顯示在視窗中。在工具列中的頂部你可以用選項盒子選擇其他網頁上的內容元件。</label>
+			<label index="quickEdit_selElement.description">這是這網頁上的內容元件概覽。選擇另一個元件來修改或點擊「建立」圖示來建立一個新的內容元件。</label>
+			<label index="columns_1.description">透過「欄」預覽你可以控制網頁的內容，如在欄中放置的一樣。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

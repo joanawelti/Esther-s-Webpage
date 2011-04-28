@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="mlang_labels_tablabel">Verificarea integrităţii bazei de date</label>
+			<label index="mlang_labels_tabdescr">Aici puteţi verifica integritatea tabelelor de date configurate de către $TCA. De exemplu, toate înregistrările trebuie să aparţină unei pagini de înregistrări. Existenţa fişierelor upload-ate ataşate unor înregistrări (fişierele aflate implicit în directorul /uploads) sînt, de asemeni, verificate. Puteţi să obţineţi o vedere de ansamblu a structurii de pagini, incluzînd şi paginile şterse. În cele din urmă, puteţi avea acces la o căutare globală în toată baza de date. &lt;br /&gt;&lt;em&gt;Acces permis doar administratorilor.&lt;/em&gt;|</label>
+			<label index="mlang_tabs_tab">Verificare bază de date</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,6422 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Context Sensitive Help (CSH)
+
+$Id: element_csh.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a.typo3-csh-link span.typo3-csh-inline {
+	display: none;
+}
+
+a.typo3-csh-link:hover span.typo3-csh-inline {
+	display: block;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Docheader
+
+$Id: element_docheader.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+div#typo3-docbody {
+	bottom: 0;
+	overflow: auto;
+	position: absolute;
+	top: 51px;
+	width: 100%;
+}/* - - - - - - - - - - - - - - - - - - - - -
+TYPO3 backend scaffolding
+
+$Id: main_scaffolding.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+iframe {
+	width: 100%;
+}
+
+#typo3-side-menu,
+iframe {
+	height: 100%;
+	overflow: auto;
+}/* - - - - - - - - - - - - - - - - - - - - -
+
+Title  : TYPO3 general backend styles for printing
+
+Description :	Stylesheet for the TYPO3 backend when printing.
+				You can configure another/additional stylesheet for
+				use by the $TBE_STYLES global var
+
+	$Id: print.css 7906 2010-06-13 14:56:44Z ohader $
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@media print {
+	div#typo3-docbody {
+		overflow: visible;
+	}
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Toolbar inside the Topbar
+
+$Id: toolbar.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-toolbar li {
+	float: left;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Topbar (whole upper area), containts Logo and toolbar
+
+$Id: topbar.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-logo {
+	float: left;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Basic styles
+
+$Id: main_content.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a img {
+	border: none;
+}
+
+span.t3-icon {
+	display: inline-block;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+}
+.t3-icon {
+	background-image:url('../../typo3/gfx/icon_fatalerror.gif');
+	background-repeat:no-repeat;
+}
+.t3-icon .c-inputButton {
+	width:16px;
+	height:16px;
+}
+/* Auto-Generated via t3lib_spritemanager_SimpleHandler */
+
+.t3-icon-sys_filemounts-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/i/_icon_ftp_2.gif') !important;
+}
+	
+.t3-icon-sys_note-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/sys_note/ext_icon.gif') !important;
+}
+	
+.t3-icon-tx_rtehtmlarea_acronym-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3/sysext/rtehtmlarea/extensions/Acronym/skin/images/acronym.gif') !important;
+}
+	
+.t3-icon-tx_powermail_fieldsets-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/powermail/icon_tx_powermail_fieldsets.gif') !important;
+}
+	
+.t3-icon-tx_powermail_fields-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/powermail/icon_tx_powermail_fields.gif') !important;
+}
+	
+.t3-icon-tx_powermail_mails-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/powermail/icon_tx_powermail_mails.gif') !important;
+}
+	
+.t3-icon-static_territories-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/static_info_tables/icon_static_territories.gif') !important;
+}
+	
+.t3-icon-static_countries-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/static_info_tables/icon_static_countries.gif') !important;
+}
+	
+.t3-icon-static_country_zones-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/static_info_tables/icon_static_countries.gif') !important;
+}
+	
+.t3-icon-static_languages-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/static_info_tables/icon_static_languages.gif') !important;
+}
+	
+.t3-icon-static_currencies-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/static_info_tables/icon_static_currencies.gif') !important;
+}
+	/* - - - - - - - - - - - - - - - - - - - - -
+Go back A-tags
+
+$Id: element_button_back.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a.typo3-goBack {
+	padding: 1px 1px 1px 1px;
+}
+
+a.typo3-goBack img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+span.typo3-moduleHeader img {
+	margin-right: 4px;
+	vertical-align: middle;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Clipboard
+
+$Id: element_clipboard.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-clipboard,
+div#typo3-newRecordLink,
+table#typo3-dblist-search {
+	margin-top: 10px;
+}
+
+table#typo3-clipboard tr.bgColor5 td img {
+	vertical-align: middle;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Context sensitive help
+
+$Id: element_csh.css 7989 2010-06-20 14:34:23Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-csh-inline {
+	margin: 5px 4px 20px 0px;
+	padding: 0;
+}
+
+table.typo3-csh-inline a.typo3-csh-link {
+	float: none;
+	margin-right: 0;
+}
+
+a.typo3-csh-link .typo3-csh-inline {
+	display: none;
+	padding: 0px;
+	position: absolute;
+	width: 200px;
+	z-index: 100;
+}
+
+a.typo3-csh-link .typo3-csh-inline.show-right {
+	right: 10px;
+}
+
+table.typo3-csh-inline a.typo3-csh-link,
+table.typo3-csh-inline span.t3-row-header,
+span.typo3-csh-inline span.t3-row-header,
+a.typo3-csh-link span.typo3-csh-inline span.t3-row-header {
+	display: block;
+}
+
+a.typo3-csh-link:hover .typo3-csh-inline {
+	display: block;
+}
+
+.typo3-csh-inline h2.t3-row-header {
+	margin: 0;
+	height: auto;
+}
+
+.typo3-csh-inline p.t3-csh-short {
+	padding: 3px;
+}
+
+table.typo3-csh-inline a.typo3-csh-link {
+	height: 16px;
+}
+
+table.typo3-csh-inline tr td h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table.typo3-csh-inline span.paragraph,
+a.typo3-csh-link span.typo3-csh-inline span.paragraph {
+	display: block;
+	padding: 3px;
+}
+
+img.typo3-csh-icon {
+	vertical-align: middle;
+}
+
+div.typo3-view-help h1 {
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+div.typo3-view-help h2 {
+	margin-top: 0;
+	padding: 4px 2px 4px 10px;
+}
+
+div.typo3-view-help h3 {
+	padding: 5px 10px;
+}
+
+div.typo3-view-help h4 {
+	padding: 2px 10px;
+}
+
+div.typo3-view-help {
+	margin: 0;
+	width: 100%;
+}
+
+div.typo3-view-help p {
+	margin: 4px 4px 12px 10px;
+}
+
+div.typo3-view-help div.c-toc {
+	padding-left: 6px;
+}
+
+div.typo3-view-help div.c-toc p {
+	margin: 0;
+}
+
+div.typo3-view-help div.c-toc ul {
+	padding: 2px 5px;
+}
+
+div.typo3-view-help div.c-toc ul li ul {
+	margin-left: 10px;
+}
+
+div.typo3-view-help div.c-toc ul li {
+	padding: 2px;
+}
+
+div.typo3-view-help .manual-title,
+div.typo3-view-help .introduction {
+	padding: 0 12px 6px;
+}
+
+div.typo3-view-help img.c-inlineimg  {
+	margin-left: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Context Sensitive Menu / Layer (alt_clickmenu.php creates it)
+Notice: Rollover color is set by ->bgColor5 in the template object of alt_clickmenu.php
+
+$Id: element_csm.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-CSM tr.typo3-CSM-itemRow td {
+	padding: 2px 6px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+special backend elements
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Context Sensitive Menu / Top frame (alt_clickmenu.php): */
+
+body#typo3-alt-clickmenu-php {
+	margin-top: 10px;
+}
+
+table#typo3-CSM-top img {
+	margin-bottom: 2px;
+	vertical-align: middle;
+}
+
+table#typo3-CSM-top tr td.c-closebutton {
+	padding-left: 10px;
+}
+
+table#typo3-CSM-top tr td.c-itemicon {
+	padding-left: 10px;
+}
+
+table#typo3-CSM-top img.c-roimg {
+	margin-right: 2px;
+}
+
+div#contentMenu0 {
+	position: absolute;
+	z-index: 10;
+}
+
+div#contentMenu1 {
+	position: absolute;
+	z-index: 20;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Docheader
+
+$Id: element_docheader.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Record editing (alt_doc.php)
+- - - - - - - - - - - - - - - - - - - - - */
+
+div#typo3-docheader {
+	left: 0;
+	min-width: 260px;
+	top: 0;
+	z-index: 5;
+}
+
+#typo3-pagetree #typo3-docheader,
+#typo3-alt-file-navframe-php #typo3-docheader {
+	min-width: 0px;
+}
+
+div#typo3-docheader-row1 {
+	height: 22px;
+}
+
+div#typo3-docheader-row2 {
+	height: 21px;
+	padding-top: 6px;
+}
+
+div.docheader-row2-left {
+	margin-top: -3px;
+}
+
+div.docheader-row2-left div.docheader-funcmenu {
+	float: left;
+	padding-right: 4px;
+}
+
+div.docheader-row2-left div.docheader-csh {
+	float: left;
+	padding-top: 3px;
+}
+
+div#typo3-docheader div.buttonsleft {
+	float: left;
+	margin: 0 0 0 3px;
+}
+
+div#typo3-docheader div.buttonsright {
+	float: right;
+	margin: 0 3px 0 0;
+}
+
+div#typo3-docheader-row1 img,
+div#typo3-docheader-row1 input,
+div#typo3-docheader-row1 span.t3-icon {
+	margin: 2px 3px 0;
+	vertical-align: top;
+}
+
+div#typo3-docheader img.typo3-csh-icon {
+	margin: 2px 2px 0 2px;
+}
+
+div#typo3-docheader-row2 img {
+	margin-top: -1px !important;
+}
+
+div#typo3-docheader select {
+	margin: 2px 0 0;
+}
+
+div#typo3-docheader div.docheader-row2-left {
+	float: left;
+	margin-left: 6px;
+}
+
+div#typo3-docheader div.docheader-row2-right {
+	float: right;
+	margin-right: 20px;
+}
+
+div#typo3-docbody {
+	bottom: 0;
+	overflow: auto;
+	position: absolute;
+	top: 49px;
+	width: 100%;
+	z-index: 2;
+}
+
+div#typo3-inner-docbody {
+	padding: 10px;
+}
+
+/* Fix for IE 6 */
+* html div#typo3-inner-docbody {
+	width: 95%;
+}
+
+/* Fix for IE 7 */
+* + html div#typo3-inner-docbody {
+	width: 95%;
+}
+
+* html div#typo3-docbody {
+	height: 90%;
+	padding-bottom: 0;
+	padding-top: 0;
+	top: 51px;
+}
+
+* html div#typo3-docbody table.typo3-TCEforms {
+	margin-top: 20px;
+}
+
+div#typo3-docheader div.buttonsleft div.buttongroup {
+	float: left;
+	height: 20px;
+	margin-right: 5px;
+	padding-right: 20px;
+}
+
+div#typo3-docheader div.buttonsright {
+	margin-right: 18px;
+}
+
+div#typo3-docheader div.buttonsright div.buttongroup {
+	float: left;
+	height: 20px;
+	margin-left: 5px;
+	padding-left: 20px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+History / Undo
+
+$Id: element_history.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-history tr td,
+table#typo3-history-item tr td {
+	vertical-align: top;
+}
+
+table#typo3-history img,
+table#typo3-history-item img {
+	margin: 1px 1px 1px 1px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Information popup, show_item.php
+
+$Id: element_infopopup.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-show-item-php {
+	width: 100%;
+}
+#typo3-show-item-php > div {
+	padding: 0 10px;
+}
+
+#typo3-show-item-php h3 {
+	margin-top: 0;
+	padding-left: 10px;
+}
+
+table#typo3-showitem {
+	margin: 10px 0;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Flash Messages (template.php)
+
+$Id: element_message.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-messages {
+	margin-bottom: 10px;
+}
+
+.typo3-message {
+	margin-bottom: 4px;
+	padding: 12px;
+	padding-left: 36px;
+}
+
+.typo3-message ul,
+.typo3-message ol {
+	padding-left: 16px;
+}
+
+.typo3-message .message-header {
+	display: block;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Move Element
+
+$Id: element_move_element.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-move-el-php img {
+	vertical-align: middle;
+}
+
+body#typo3-move-el-php table#typo3-ttContentList img,
+body#typo3-move-el-php img#c-recIcon {
+	margin-right: 4px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Palette display for TCEforms (top frame, alt_palette.php)
+
+$Id: element_palette.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-alt-palette-php {
+	margin-left: 6px;
+	margin-top: 8px;
+}
+
+body#typo3-alt-palette-php table#typo3-TCEforms-palette {
+	bottom: 1px;
+	height: 20px;
+	position: absolute;
+}
+
+body#typo3-alt-palette-php table td {
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+body#typo3-alt-palette-php table img {
+	margin: 0;
+	padding: 0;
+}
+
+body#typo3-alt-palette-php table td.c-csh input.checkbox {
+	margin: 0px 3px 0 0;
+}
+
+body#typo3-alt-palette-php span.nbsp {
+	display: none;
+}
+
+table#typo3-TCEforms-palette tr td.c-label {
+	padding-top: 3px;
+}
+
+table#typo3-TCEforms-palette tr td.c-close {
+	padding-top: 3px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Document, listing recently edited records if no records were open
+(alt_doc_nodoc.php) - this is effectively the Doc module
+
+$Id: element_recent_edited.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-recent-edited {
+	width: 100%;
+}
+
+table.typo3-recent-edited img.c-recicon {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+body#typo3-alt-doc-nodoc-php p img {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+body#typo3-alt-doc-nodoc-php {
+	margin-left: 5px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Element Browser / RTE link selection
+
+$Id: element_rte.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-browse-links-php {
+	width: 100%;
+}
+
+#typo3-browse-links-php #typo3-tabmenu {
+	margin-top: 10px;
+}
+
+table#typo3-curUrl {
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+table#typo3-RTElinkMenu tr td {
+	width: 15%;
+}
+
+table#typo3-linkTarget {
+	margin-bottom: 25px;
+}
+
+
+#typo3-browse-links-php form,
+table#typo3-linkPages tr td.c-wCell,
+table#typo3-linkFiles tr td.c-wCell,
+table#typo3-EBrecords tr td.c-wCell,
+table#typo3-EBfiles tr td.c-wCell {
+	padding: 0 10px;
+}
+
+table#typo3-linkPages h3,
+table#typo3-linkFiles h3,
+table#typo3-EBrecords h3,
+table#typo3-EBfiles h3 {
+	padding: 0 0 0 5px;
+}
+
+table#typo3-linkPages,
+table#typo3-linkFiles,
+table#typo3-EBrecords,
+table#typo3-EBfiles {
+}
+
+body#typo3-browse-links-php img,
+body#ext-rte-app-rte-select-image-php img {
+	vertical-align: middle;
+}
+
+body#typo3-browse-links-php img.c-blinkArrowL {
+	margin: 0px 3px 0px 3px;
+}
+
+table#typo3-linkMail,
+table#typo3-linkURL,
+table#typo3-linkTarget {
+	margin-top: 5px;
+}
+
+table#typo3-msgBox {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table#typo3-msgBox tr td {
+	padding: 10px 50px 10px 50px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Animated spinner icon
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+span.spinner {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Animated spinner icon
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+span.spinner {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Tab menu (template.php)
+
+$Id: element_tab.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-tabmenu {
+	margin-top: 5px;
+}
+
+table#typo3-tabmenu tr {
+	height: 1.5em;
+}
+
+table#typo3-tabmenu td.tab {
+	padding: 0;
+}
+
+table#typo3-tabmenu td.disabled {
+	padding: 5px 10px 5px 10px;
+}
+
+table#typo3-tabmenu td a {
+	display: block;
+	margin-top: 1px;
+	padding: 5px 10px 5px 10px;
+	margin-right: 1px;
+}
+
+table#typo3-tabmenu td.tabact a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Dynamic Tab menu (template.php)
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.typo3-dyntabmenu-divs {
+	padding: 0;
+}
+
+div.typo3-dyntabmenu-tabs,
+div.typo3-dyntabmenu-divs p.c-descr {
+	margin: 0;
+	padding: 0;
+}
+
+table.typo3-dyntabmenu tr {
+	height: 1.5em;
+}
+
+table.typo3-dyntabmenu td {
+	padding: 0;
+}
+
+table.typo3-dyntabmenu td.disabled,
+table.typo3-dyntabmenu td.disabled_over {
+	padding: 5px 10px 5px 10px;
+}
+
+table.typo3-dyntabmenu td a {
+	display: block;
+	padding: 5px 10px 5px 10px;
+	margin-right: 1px;
+	position: relative;
+	top: 1px;
+}
+
+table.typo3-dyntabmenu td.tabact a,
+table.typo3-dyntabmenu td.tabact_over a,
+table#typo3-tabmenu td.tabact a,
+table#typo3-tabmenu td.tabact_over a {
+	margin-top: 0px;
+}
+
+table.typo3-dyntabmenu td.tab_over a,
+table#typo3-tabmenu td.tab_over a {
+	margin-top: 0px;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.c-tablayer {
+	margin-left: 20px;
+}
+
+.c-tablayer {
+	margin: 0;
+	padding: 0;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tab,
+div.typo3-dyntabmenu-divs-foldout div.tab_over,
+div.typo3-dyntabmenu-divs-foldout div.tabact,
+div.typo3-dyntabmenu-divs-foldout div.tabact_over,
+div.typo3-dyntabmenu-divs-foldout div.disabled,
+div.typo3-dyntabmenu-divs-foldout div.disabled_over {
+	margin-top: 5px;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.disabled {
+	padding: 2px 2px 2px 18px;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.disabled_over {
+	padding: 2px 2px 2px 18px;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tab a,
+div.typo3-dyntabmenu-divs-foldout div.tabact a,
+div.typo3-dyntabmenu-divs-foldout div.tab_over a,
+div.typo3-dyntabmenu-divs-foldout div.tabact_over a {
+	display: block;
+	padding: 2px 2px 2px 18px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms
+
+$Id: element_tceforms.css 8009 2010-06-21 16:51:09Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+img.t3-TCEforms-reqImg {
+	display: inline-block;
+	height: 16px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 4px;
+	width: 16px;
+}
+
+img.t3-TCEforms-reqTabImg {
+	height: 16px;
+	margin-left: 4px;
+	margin-bottom: -3px;
+	width: 16px;
+}
+
+img.t3-TCEforms-contentchangedImg {
+	display: inline-block;
+	margin-bottom: 2px;
+	width: 7px;
+}
+
+.t3-form-palette-icon-required {
+	display: inline-block;
+	height: 16px;
+	margin-right: 2px;
+	width: 16px;
+}
+/* renamed to .t3-form-palette-icon-required, lines below kept for backwards-compatibility */
+img.t3-TCEforms-reqPaletteImg {
+	display: inline-block;
+	height: 16px;
+	margin-right: 2px;
+	width: 16px;
+}
+
+.t3-form-palette-icon-contentchanged {
+	width: 7px;
+}
+/* renamed to .t3-form-palette-icon-contentchanged, lines below kept for backwards-compatibility */
+img.t3-TCEforms-contentchangedPaletteImg {
+	width: 7px;
+}
+
+table.typo3-TCEforms {
+	width: 93%;
+}
+
+table.typo3-TCEforms tr.typo3-TCEforms-recHeaderRow td {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+table.typo3-TCEforms .bgColor2,
+table.typo3-TCEforms tr.bgColor2 td {
+	padding-bottom: 5px;
+}
+
+table.typo3-TCEforms optgroup.c-divider,
+select option.c-divider {
+	margin-top: 10px;
+	padding: 0px;
+}
+
+table.typo3-TCEforms optgroup option {
+	margin: 0px;
+	padding: 2px;
+}
+
+
+table.typo3-TCEforms select.icon-select option {
+	padding-left: 22px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox {
+	margin-bottom: 10px;
+	width: 98%;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr td {
+	padding: 1px 3px 1px 3px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr td.c-labelCell {
+	padding-right: 30px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr td.c-labelCell P.c-descr {
+	margin-left: 30px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-header td {
+	padding-left: 4px;
+	padding-top: 10px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-header-checkbox-controls td {
+	padding-right: 16px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-header-checkbox-controls td a {
+	padding-left: 16px;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox td.c-descr img {
+	float: right;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-singlebox {
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+
+table.typo3-TCEforms div.typo3-dyntabmenu-tabs {
+	padding-top: 10px;
+}
+
+.checkbox,
+.checkbox:hover {
+	margin: 4px 0 4px 2px;
+}
+
+table.typo3-TCEforms .class-main1 td,
+table.typo3-TCEforms .class-main11 td,
+table.typo3-TCEforms .class-main21 td,
+table.typo3-TCEforms .class-main31 td,
+table.typo3-TCEforms .class-main41 td,
+table.typo3-TCEforms .class-main51 td {
+	padding: 2px 0px 2px 0px;
+}
+
+table.typo3-TCEforms .class-main2 td,
+table.typo3-TCEforms .class-main12 td,
+table.typo3-TCEforms .class-main22 td,
+table.typo3-TCEforms .class-main32 td,
+table.typo3-TCEforms .class-main42 td,
+table.typo3-TCEforms .class-main52 td {
+	padding: 6px 0px 2px 0px;
+}
+
+table.typo3-TCEforms .class-main3,
+table.typo3-TCEforms .class-main13,
+table.typo3-TCEforms .class-main23,
+table.typo3-TCEforms .class-main33,
+table.typo3-TCEforms .class-main43,
+table.typo3-TCEforms .class-main53 {
+	padding: 2px 0px 2px 0px;
+}
+
+table.typo3-TCEforms .formField,
+table.typo3-TCEforms .formField1,
+table.typo3-TCEforms .formField2,
+table.typo3-TCEforms .formField3,
+table.typo3-TCEforms .formField4,
+table.typo3-TCEforms .formField5 {
+	margin: 4px 2px;
+	padding: 1px;
+	vertical-align: middle;
+}
+
+table.typo3-TCEforms .wrapperTable,
+table.typo3-TCEforms .wrapperTable1,
+table.typo3-TCEforms .wrapperTable2,
+table.typo3-TCEforms .wrapperTable3,
+table.typo3-TCEforms .wrapperTable4,
+table.typo3-TCEforms .wrapperTable5 {
+	padding: 5px 0 5px 0;
+}
+
+table.typo3-TCEforms td.icons {
+	padding: 6px 2px;
+}
+
+table.typo3-TCEforms td.thumbnails {
+	padding-top: 6px;
+}
+
+.typo3-TCEforms-palette .typo3-csh-link img {
+	padding-top: 3px;
+	vertical-align: top;
+}
+
+.typo3-TCEforms-palette selct.select {
+	margin-top: 2px;
+}
+
+.t3-form-palette-field-container {
+	display:inline-block;
+	margin-left:20px;
+	vertical-align:top;
+}
+
+.t3-form-palette-field-container .t3-form-palette-field-label, .t3-form-palette-field-container .t3-form-palette-field {
+	display:block;
+}
+
+.typo3-TCEforms .typo3-csh-link {
+	margin-left: 5px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms suggest
+- - - - - - - - - - - - - - - - - - - - - */
+div.typo3-TCEforms-suggest-position-right {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+div.typo3-TCEforms-suggest label {
+	margin-right: 5px;
+}
+
+div.typo3-TCEforms-suggest-indicator {
+	left: 230px;
+	position: relative;
+	top: -18px;
+}
+
+div.typo3-TCEforms-suggest-choices {
+	position: absolute;
+	width: 250px;
+}
+
+div.typo3-TCEforms-suggest-choices ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.typo3-TCEforms-suggest-choices li {
+	display: block;
+	margin: 0;
+	padding: 4px 2px 4px 24px;
+}
+
+div.typo3-TCEforms-suggest-choices li.suggest-noresults {
+	height: auto;
+}
+
+div.typo3-TCEforms-suggest-choices span.suggest-uid {
+	margin-left: 0.3em;
+}
+
+div.typo3-TCEforms-suggest-choices span.suggest-path {
+	margin-top: 0.3em;
+}
+
+input.typo3-TCEforms-suggest-search {
+	width: 200px;
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms Flexforms
+- - - - - - - - - - - - - - - - - - - - - */
+/** tabs inside the table => flexforms */
+table.typo3-TCEforms .wrapperTable .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable1 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable2 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable3 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable4 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable5 .typo3-dyntabmenu-divs {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.t3-form-field-label-flex {
+	padding: 5px;
+}
+
+.t3-form-field-flex {
+	padding: 0 5px 5px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms Inline-Relational-Record-Editing
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-TCEforms div.inlineDivMSIE {
+	display: inline-block;
+}
+
+.t3-form-field-container-inline {
+	margin-right: 20px;
+	margin-bottom: 3px;
+}
+
+.t3-form-field-header-inline {
+	padding: 0 5px;
+}
+
+.t3-form-field-record-inline {
+	padding: 0 5px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms Sections
+- - - - - - - - - - - - - - - - - - - - - */
+.t3-form-field-container-flexsection {
+	padding-left: 20px;
+}
+
+.t3-form-field-header-flexsection {
+	width: 100%;
+	height: 16px;
+}
+
+.t3-form-field-label-flexsection {
+	padding: 5px 10px;
+}
+
+.t3-form-field-toggle-flexsection {
+	padding: 5px 0 5px 20px;
+}
+
+.t3-form-field-add-flexsection {
+	padding: 10px 5px 5px 20px;
+}
+
+.t3-form-field-container-flexsections {
+	margin: 5px 0;
+}
+
+.t3-form-field-record-flexsection {
+	padding: 5px 0;
+}
+
+.t3-form-field-record-flexsection > div {
+	margin:0 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Trees
+
+$Id: element_tree.css 8725 2010-08-29 10:41:49Z stephenking $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-tree {
+	margin: 10px 0 20px 10px;
+	width: 95%;
+}
+
+table#typo3-tree tr td {
+	padding: 0px;
+}
+
+table#typo3-tree tr td img {
+	vertical-align: middle;
+}
+
+table#typo3-tree tr td img.c-recIcon {
+	margin-right: 1px;
+}
+
+p.c-refresh img {
+	margin-right: 7px;
+	vertical-align: middle;
+}
+
+#typo3-pagetree #typo3-docheader div.buttonsright,
+#typo3-alt-file-navframe-php #typo3-docheader div.buttonsright {
+	margin-right: 3px;
+}
+
+body#typo3-alt-db-navframe-php div.c-notice {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px 5px 5px 5px;
+	width: 95%;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Configuration trees, used in Admin Tools => Configuration
+- - - - - - - - - - - - - - - - - - - - - */
+table.t3-tree-config {
+	min-width: 500px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+AJAX Page Tree
+- - - - - - - - - - - - - - - - - - - - - */
+body#typo3-pagetree,
+body#typo3-alt-file-navframe-php {
+	margin: 0;
+	padding: 0;
+}
+
+body#typo3-pagetree #typo3-inner-docbody,
+body#typo3-alt-file-navframe-php #typo3-inner-docbody {
+	padding: 0 0 10px 0;
+}
+
+ul.tree {
+	clear: both;
+	margin: 16px 0 0 10px;
+	padding: 0;
+}
+
+ul.tree ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul.tree ul {
+	padding-left: 19px;
+}
+
+ul #pages0_0 > ul {
+	padding-left: 0;
+}
+
+ul.tree ul li {
+	padding: 0;
+	margin: 0;
+}
+
+ul.tree div.treeLinkItem {
+	display: block;
+	height: 16px;
+	padding-left: 2px;
+}
+span.dragIcon {
+	display: inline-block;
+	height: 16px;
+}
+
+ul.tree div.treeLinkItem span.dragId,
+ul.tree div.treeLinkItem span.dragTitle,
+ul.tree div.treeLinkItem img {
+	vertical-align: middle;
+}
+
+ul.tree div.treeLinkItem span.dragIcon {
+	vertical-align: top;
+}
+#dragIcon {
+	position: absolute;
+	visibility: hidden;
+	z-index: 20;
+}
+
+#treeFilterBox {
+	display: none;
+	height: 27px;
+	position: absolute;
+	top: 22px;
+	width: 280px;
+	z-index: 3;
+}
+
+#searchBubble {
+	padding-left: 10px;
+}
+
+#treeFilter {
+	margin: 6px 0 0 17px !important;
+	height: 16px;
+	width: 160px;
+}
+
+#treeFilterReset {
+	left: 192px;
+	position: absolute;
+	top: 5px;
+	visibility: hidden;
+}
+
+#typo3-pagetree #typo3-docheader img,
+#typo3-alt-file-navframe-php #typo3-docheader img {
+	margin: 2px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Workspace
+
+$Id: element_version.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.workspace-info {
+	padding: 7px;
+}
+
+table.workspace-overview td {
+	vertical-align: top;
+}
+
+table.ver-subtree tr td img {
+	vertical-align: middle;
+}
+
+table.ver-verElement {
+	width: 100%;
+}
+
+.ver-wl-details-table {
+	width: 100%;
+	margin: 5px 0 10px;
+}
+
+.ver-wl-details {
+	padding: 0 2px;
+	vertical-align: top;
+}
+
+.ver-wl-details-label {
+	width: 150px;
+	vertical-align: top;
+}
+
+.ver-wl-details-user-list-label {
+	width: 100px;
+}
+
+#ver-wl-new-workspace-icon {
+	margin-right: 5px;
+	float: left;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Wizards
+
+$Id: element_wizard.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-wizard-tsconfig-php {
+	margin-left: 5px;
+}
+
+table#typo3-tablewizard span.c-wizButtonsH input {
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+table#typo3-tablewizard span.c-wizButtonsV input {
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+table#typo3-formwizard span.c-wizButtonsV input {
+	margin-bottom: 2px;
+}
+
+input.c-inputButton,
+img.c-inputButton {
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+div#c-saveButtonPanel,
+div#c-inputMode {
+	margin-top: 10px;
+}
+
+table#typo3-formwizard tr td {
+	padding: 0px 2px 0px 2px;
+}
+
+body#typo3-wizard-rte-php,
+body#typo3-wizard-rte-php table#typo3-rtewizard {
+	height: 98%;
+}
+
+body#typo3-wizard-rte-php table#typo3-rtewizard tr td#c-formContent {
+	height: 100%;
+	vertical-align: top;
+}
+
+body#typo3-wizard-colorpicker-php p.c-head {
+	margin-top: 4px;
+}/* Login Screen
+ * Warning:
+ * DO NOT prevent the copyright notice from being shown!
+ * According to the GPL license an interactive application must show such a notice on start-up ('If the program is interactive, make it output a short notice... ' - see GPL.txt)
+ * Therefore preventing this notice from being properly shown is a violation of the license, regardless of whether you remove it or use the stylesheet to obstruct the display.
+
+ */
+body#typo3-index-php {
+	height: auto;
+	margin: 0;
+	padding-top: 75px;
+}
+
+body#typo3-index-php #t3-login-form-outer {
+	width: 100%;
+}
+
+body#typo3-index-php #t3-login-form {
+	margin: 30px 16% 10px;
+	width: 456px;
+}
+
+body#typo3-index-php .t3-headline {
+	height: auto !important;
+	height: 24px;
+	margin: 0;
+	min-height: 24px;
+	padding-bottom: 2px;
+	width: auto;
+}
+
+body#typo3-index-php .t3-headline h2 {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 40px;
+	vertical-align: middle;
+}
+
+body#typo3-index-php #t3-login-process h2 {
+	display: inline;
+	padding: 20px 0 20px 50px;
+	position: relative;
+	top: 45%;
+	vertical-align: middle;
+}
+
+body#typo3-index-php .t3-headline .t3-login-news-headline {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 40px;
+	vertical-align: middle;
+}
+
+body#typo3-index-php .t3-headline:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+body#typo3-index-php .t3-icons {
+	float: left;
+	padding: 3px 5px 0 0;
+}
+
+body#typo3-index-php .t3-login-username {
+	margin-top: 15px;
+}
+
+body#typo3-index-php .t3-login-field {
+	height: 21px;
+	margin: 5px 0 0;
+	padding: 0;
+	position: relative;
+}
+
+body#typo3-index-php .t3-login-field .t3-login-clearInputField {
+	left: 280px;
+	position: absolute;
+	top: 4px;
+}
+
+body#typo3-index-php .t3-login-field .t3-login-alert-capslock {
+	left: 307px;
+	position: absolute;
+	top: 2px;
+}
+
+body#typo3-index-php .t3-login-field label {
+	float: left;
+	padding-right: 10px;
+	width: 90px;
+}
+
+body#typo3-index-php .t3-login-field input {
+	height: 18px;
+	margin: 0;
+	padding: 2px 23px 0 5px;
+	width: 168px;
+}
+
+body#typo3-index-php #t3-login-form-fields {
+	margin: 0;
+	padding: 14px 0 5px 30px;
+}
+
+body#typo3-index-php #t3-interfaceselector {
+	width: 198px;
+}
+
+body#typo3-index-php #t3-interfaceselector option {
+	height: 19px;
+}
+
+body#typo3-index-php .t3-login-form-footer {
+	margin: 10px 0 0;
+	vertical-align: middle;
+}
+
+body#typo3-index-php #t3-login-openIdLogo {
+	position: absolute;
+	right: 0;
+	top: -4px;
+}
+
+body#typo3-index-php .t3-login-openid-disabled .t3-login-form-footer,
+body#typo3-index-php .t3-login-openid-disabled #t3-login-openIdLogo {
+	display: none;
+}
+
+body#typo3-index-php .t3-login-submit {
+	margin: 15px 0 0 100px;
+	padding: 3px 16px;
+}
+
+body#typo3-index-php .t3-login-error {
+	margin: 2px;
+	padding: 10px;
+}
+
+#t3-nocookies-ignore {
+	margin-top: 10px;
+}
+
+body#typo3-index-php div#t3-copyright-notice {
+	margin-top: 15px;
+}
+
+* html body#typo3-index-php div#t3-copyright-notice {
+	height: 35px;
+}
+
+body#typo3-index-php div#t3-copyright-notice img {
+	display: none;
+}
+
+body#typo3-index-php div#t3-login-image {
+	height: auto;
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+body#typo3-index-php #t3-footer {
+	margin: 40px 16% 10px;
+	width: 456px;
+}
+
+body#typo3-index-php #t3-meta-links {
+	margin-top: 15px;
+}
+
+/**
+ * @section login news
+ */
+body#typo3-index-php #t3-login-news-outer {
+	margin-top: 35px;
+}
+
+body#typo3-index-php #t3-login-news-outer .t3-login-box-body {
+	padding-bottom: 20px;
+	padding-top: 0;
+}
+
+body#typo3-index-php #t3-login-news-outer #t3-login-news {
+	clear: both;
+	margin: 0 30px;
+}
+
+body#typo3-index-php #t3-login-news-outer #t3-login-news .t3-login-news-item {
+	padding-top: 20px;
+}
+
+body#typo3-index-php #t3-login-news-outer #t3-login-news dd {
+	clear: both;
+	margin-left: 0;
+	padding: 0;
+}
+
+/**
+ * @section logout
+ */
+body#typo3-index-php .t3-login-logout-form .t3-username-current {
+	float: left;
+	height: 21px;
+	vertical-align: middle;
+}
+
+body#typo3-index-php .t3-login-logout-form div.t3-login-label {
+	float: left;
+	padding-right: 10px;
+	width: 70px;
+}
+
+/**
+ * @section erros/warnings
+ */
+.t3-login-alert {
+	padding: 15px;
+}
+
+.t3-login-alert h2 {
+	margin: 0;
+	padding: 0 10px 0 30px;
+}
+
+.t3-login-alert p {
+	margin: 10px 0 0 0;
+	padding: 0 10px 0 30px;
+}
+
+/**
+ * @section box layout
+ */
+
+.t3-login-box-body {
+	padding: 10px;
+}
+
+.t3-login-box-shadow {
+	height: 3px;
+}
+
+.t3-login-box-border-bottom {
+	height: 6px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+body tags
+
+$Id: main_body.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Set default values for bodytags: */
+body {
+	height: 100%;
+	margin: 0;
+/*	overflow: hidden;*/
+	padding: 0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+specific wrappers
+
+The "template" class is usually instantiated as either
+bicDoc, mediumDoc, smallDoc or noDoc.
+Each of these will result in the whole page content between the bodytags being
+wrapped in a DIV-section with a class.
+The class name will be "typo3-[classname]"
+In particular we set the width of these wrapper-sections:
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.typo3-bigDoc,
+div.typo3-noDoc {
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 740px;
+}
+
+div.typo3-noDoc h2 {
+	width: 740px;
+}
+
+div.typo3-mediumDoc {
+	width: 470px;
+}
+
+div.typo3-smallDoc {
+	width: 350px;
+}
+
+div.typo3-fullDoc {
+	height: 100%;
+	width: 100%;
+}/* - - - - - - - - - - - - - - - - - - - - -
+TYPO3 styles for basic elements
+
+$Id: main_content.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+html {
+	height: 100%;
+}
+
+select,
+textarea,
+input,
+td,
+body,
+.defstyle,
+p,
+div {
+	margin: 0px;
+}
+
+/* Occasionally used, eg. in About Modules: */
+h1 {
+	margin: 6px 0 16px 0;
+}
+
+h2 {
+	margin: 6px 0;
+}
+
+/* Normal section headers */
+h3 {
+	padding: 2px 0;
+	margin: 8px 0 10px;
+}
+
+/* Discrete section headers (no background) */
+h4 {
+	margin: 6px 0;
+}
+
+/* Preformatted text - not used so much in TYPO3 */
+pre {
+	margin: 0px;
+}
+
+/* horizontal ruler */
+hr,
+div.hr {
+	height: 1px;
+}
+
+th,
+td {
+	vertical-align: top;
+}
+
+.t3-row-header {
+	padding: 1px 4px;
+}
+
+.t3-row-header span.t3-icon {
+	margin-right: 3px;
+}
+
+/** .uppercase is kept for backwards-compatibility, use .divider */
+.divider,
+.uppercase {
+	padding-bottom: 6px;
+}
+
+a span {
+	cursor: pointer;
+}
+/* Forms */
+
+/* Reformatting of the submit buttons */
+form {
+	margin: 0px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	padding: 2px 4px 2px 4px;
+}
+
+label {
+	vertical-align: middle;
+}
+
+.checkbox,
+.radio,
+.checkbox:hover {
+	height: 13px;
+	margin-right: 5px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 13px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Various classes
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.diff-r {
+	padding: 3px 3px 3px 3px;
+}
+
+div.diff-g {
+	padding: 3px 3px 3px 3px;
+}
+
+img.absmiddle {
+	vertical-align: middle;
+}
+
+.smallCheckboxes {
+	height: 12px;
+	margin: 0px;
+	width: 12px;
+}
+
+.tableheader td {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.lrPadding td {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.alignToInputText, .alignToInputText:hover {
+	margin-top: 5px;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+table.t3-table-info td {
+	padding: 2px 4px;
+}
+
+.t3-col-header {
+	padding: 0 10px 0 3px;
+}
+
+/** used in the admin tools => DB check **/
+.t3-overview-list dt {
+	padding: 0px 0px 2px 20px;
+}
+
+.t3-overview-list dt img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.t3-overview-list dd {
+	margin: 2px 0 15px 20px;
+	padding-left: 22px; 
+}/* - - - - - - - - - - - - - - - - - - - - -
+Decorations (shadows etc.)
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+.shadow-box-bottom-424 {
+	height: 3px;
+}
+
+.shadow-box-top-428 {
+	height: 4px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+TYPO3 backend scaffolding
+
+$Id: main_scaffolding.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-backend-php {
+	margin: 0;
+	padding: 0;
+}
+
+#typo3-main-container {
+	clear: both;
+}
+
+#typo3-top {
+	margin-left: 160px;
+}
+
+iframe {
+	width: 100%;
+}
+
+#typo3-side-menu,
+iframe {
+	height: 100%;
+	overflow: auto;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Tools > Extension Manager
+
+$Id: module_admin_extension_manager.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-mod-tools-em-index-php a {
+	display: inline-block;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Admin Tools > User Admin
+
+$Id: module_admin_useradmin.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#ext-beuser-mod-index-php a {
+	display: inline-block;
+}/* - - - - - - - - - - - - - - - - - - - - -
+File > List
+
+$Id: module_file_list.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-filelist {
+	margin-top: 10px;
+	width: 98%;
+}
+
+table#typo3-filelist img {
+	vertical-align: middle;
+}
+
+table#typo3-filelist tr td {
+	padding: 5px 3px;
+}
+
+table#typo3-filelist tr.t3-row-header td {
+	padding: 3px;
+}
+
+table#typo3-filelist tr.c-headLine td {
+	height: 16px;
+}
+
+table#typo3-filelist tr td div.typo3-clipCtrl {
+	float: left;
+}
+
+table#typo3-filelist tr td div.typo3-editCtrl {
+	float: left;
+	padding-right: 10px;
+}
+
+table#typo3-filelist-top tr {
+	vertical-align: bottom;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+File scripts
+- - - - - - - - - - - - - - - - - - - - - */
+body#typo3-file-upload-php div#c-submit,
+body#typo3-file-upload-php div#c-upload,
+body#typo3-file-upload-php div#c-override,
+body#typo3-file-upload-php div#c-select {
+	margin-top: 10px;
+}
+
+body#typo3-file-rename-php div#c-submit,
+body#typo3-file-rename-php div#c-rename {
+	margin-top: 10px;
+}
+
+body#typo3-file-newfolder-php div#c-select,
+body#typo3-file-newfolder-php div#c-createFolders,
+body#typo3-file-newfolder-php div#c-submitFolders,
+body#typo3-file-newfolder-php div#c-newFile,
+body#typo3-file-newfolder-php div#c-submitFiles {
+	margin-top: 10px;
+}
+
+body#typo3-file-edit-php div#c-submit,
+body#typo3-file-edit-php div#c-edit {
+	margin-top: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+File Upload Window
+
+$Id: module_file_upload.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.swfupload {
+	display: block;
+	height: 22px;
+	position: absolute;
+	z-index: 2000;
+}
+
+#t3-upload-window-infopanel div div {
+	padding: 10px;
+}
+.t3-upload-window-infopanel div div {
+	padding: 0 10px 10px;
+}
+
+.t3-upload-window-infopanel input {
+	margin-right: 3px;
+	vertical-align: text-bottom;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Help > About
+
+$Id: module_help_about.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-mod-help-about-index-php-outer {
+	margin: 0px auto;
+	width: 500px;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner {
+	margin: 10px auto 20px;
+	padding: 10px;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner h2 {
+	margin-top: 0;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner h3 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Help > About modules (alt_intro.php)
+
+$Id: module_help_about_module.css 8052 2010-06-24 22:27:08Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.typo3-alt-intro-php {
+	height: 100%;
+	overflow: auto;
+}
+
+#typo3-alt-intro-php-sub {
+	margin: 30px 20px;
+	width: 600px;
+}
+
+#typo3-alt-intro-php-sub p a img {
+	margin-right: 8px;
+	margin-bottom: 2px;
+}
+
+table#typo3-about-modules tr td {
+	padding: 2px 2px 2px 2px;
+	vertical-align: top;
+}
+
+table#typo3-about-modules tr.c-mainitem td {
+	padding-top: 14px;
+}
+
+table#typo3-about-modules tr.c-mainitem:first-child td {
+	padding-top: 0;
+}
+
+table#typo3-about-modules tr.c-mainitem td img {
+	padding: 0px 2px 2px 4px;
+	vertical-align: middle;
+}
+
+table#typo3-about-modules tr.c-subitem-row td:first-child {
+	padding-left: 23px;
+}
+
+table#typo3-about-modules tr.c-subitem-row td.module-description {
+	padding-right: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Context Sensitive Help window (view_help.php)
+
+$Id: module_help_manual.css 7989 2010-06-20 14:34:23Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.typo3-view-help img.c-inlineimg {
+
+}
+
+div.typo3-view-help div.c-toc ul li {
+	margin-top: 10px;
+}
+
+div.typo3-view-help div.c-toc ul li ul li {
+	margin-top: 0px;
+}
+
+div.typo3-view-help p.c-nav {
+	margin: 10px 10px 0 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Module menu
+
+$Id: module_menu.css 8021 2010-06-21 21:24:51Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-menu {
+	padding-top: 22px;
+}
+
+#typo3-menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#typo3-menu li {
+	clear: both;
+	margin-bottom: 1px;
+}
+
+#typo3-menu li a {
+	display: block;
+}
+
+#typo3-menu li img {
+	vertical-align: baseline;
+}
+
+#typo3-menu li div {
+	margin: 4px 0px 2px 4px;
+	overflow: hidden;
+	padding: 2px 0px 4px 16px;
+	vertical-align: middle;
+}
+
+#typo3-menu li span.submodule-icon {
+	display: block;
+	float: left;
+	vertical-align: top;
+	width: 20px;
+}
+
+#typo3-menu li ul {
+	margin-bottom: 5px;
+}
+
+#typo3-menu li ul li {
+	min-height: 21px;
+}
+
+#typo3-menu li ul li a {
+	display: block;
+	margin-bottom: 1px;
+	padding: 3px 0 3px 15px;
+}
+
+#typo3-menu li ul li a:hover,
+#typo3-menu li ul li.hover a,
+#typo3-menu li ul li.highlighted a {
+	margin-bottom: 1px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+#typo3-menu div.expanded,
+#typo3-menu div.collapsed {
+	margin-left: 0px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+User settings
+
+$Id: module_user_settings.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-usersettings {
+	padding-bottom: 10px;
+}
+
+table.typo3-usersettings td {
+	width: 300px;
+	padding-left: 8px;
+}
+
+table.typo3-usersettings td.td-label label {
+	float: left;
+	margin-left: 3px;
+	width: 275px;
+}
+
+table.typo3-usersettings a.typo3-csh-link {
+	float: left;
+}
+
+table.typo3-usersettings img.csh-dummy {
+	float: left;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+table.typo3-usersettings td.td-label-right {
+	padding-left: 30px;
+	width: 50px;
+}
+
+#ext-setup-mod-index-php #user-setup-wrapper {
+	float: left;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+User > Task Center
+
+$Id: module_user_taskcenter.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#ext-taskcenter-task-index-php {
+	height: 95%;
+}/**
+ * Styling for the module User => Workspace
+ */
+#typo3-mod-user-ws-index-php .typo3-dyntabmenu-divs {
+	padding: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Access
+
+$Id: module_web_access.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-permissionList img {
+	vertical-align: middle;
+}
+
+table#typo3-permissionMatrix td {
+	width: 16%;
+}
+
+table#typo3-permissionMatrix td.bgColor2 {
+	padding-left: 10px;
+	padding-right: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Info
+
+$Id: module_web_info.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-mod-web-info-index-php img {
+	vertical-align: middle;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > List
+
+$Id: module_web_list.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-dblist {
+	margin-top: 10px;
+	width: 98%;
+}
+
+table.typo3-dblist img {
+	vertical-align: middle;
+}
+
+table.typo3-dblist tr td {
+	padding: 3px 1px 3px 6px;
+}
+
+table.typo3-dblist tr.db_list_normal td {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+table.typo3-dblist tr td.c-headLine,
+table.typo3-dblist tr.c-headLine td {
+	height: 24px;
+}
+
+table.typo3-dblist tr.c-table-row-spacer td {
+	display: none;
+}
+
+table.typo3-dblist tr td div.typo3-DBctrl {
+	height: 16px;
+	min-width: 252px;
+}
+
+tr.t3-row-header td {
+	padding: 3px 7px;
+}
+
+* html table.typo3-dblist tr td div.typo3-DBctrl {
+	width: 252px;
+}
+
+table.typo3-dblist tr td div.typo3-clipCtrl {
+	height: 16px;
+	min-width: 72px;
+}
+
+* html table.typo3-dblist tr td div.typo3-clipCtrl {
+	width: 72px;
+}
+
+table.typo3-dblist tr td .typo3-DBctrl .typo3-ctrl-versioning {
+	display: block;
+	float: left;
+	height: 16px;
+	margin: 0px 1px;
+	width: 16px;
+}
+
+table.typo3-dblist tr td .typo3-DBctrl .typo3-ctrl-versioning-hidden {
+	visibility: hidden;
+}
+
+table.typo3-dblist tr td div.typo3-clipCtrl span.t3-icon,
+table.typo3-dblist tr td div.typo3-DBctrl span.t3-icon {
+	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+table.typo3-dblist tr td.col-icon {
+	padding-left: 4px;
+	padding-right: 0px;
+	vertical-align: middle;
+	width: 20px;
+}
+
+table.typo3-dblist tr td.col-icon a img.collapseIcon {
+	margin: 1px 0px 0px 2px;
+}
+
+table.typo3-dblist tr td.col-title {
+	overflow: hidden;
+	vertical-align: middle;
+	width: 240px;
+}
+
+table.typo3-dblist tr td.col-title.localization {
+	padding-left: 18px;
+}
+
+table.typo3-dblist tr td.col-control {
+	width: 250px;
+}
+
+table.typo3-dblist tr td.col-control-space {
+	width: 4px;
+}
+
+table.typo3-dblist tr td.col-clipboard {
+	width: 74px;
+}
+
+table#typo3-dblist-fieldSelect {
+	margin-top: 20px;
+}
+
+table.typo3-dblist-overview {
+	margin-top: 10px;
+	margin-left: 1px;
+	width: 410px;
+}
+
+table.typo3-dblist-overview td.c-tableDescription {
+	padding-left: 10px;
+}
+
+table.typo3-dblist-overview td.c-tableDescription img {
+	margin-right: 10px;
+}
+
+table#typo3-versionSelector {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+table#typo3-versionSelector td {
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align:middle;
+}
+
+div#typo3-newRecordLink,
+div.typo3-newRecordLink,
+div.typo3-localizationLink,
+div.typo3-synchronizationLink {
+	margin: 5px 0px 5px 0px;
+}
+
+div#typo3-newRecordLink img,
+div.typo3-newRecordLink img,
+div.typo3-localizationLink img,
+div.typo3-synchronizationLink img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+input.smallCheckboxes {
+	height: 12px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	width: 12px;
+}
+
+div#typo3-listOptions {
+	margin: 10px 0px 10px 0px;
+	width: 93%;
+}
+
+div#typo3-dblist-pagination {
+	padding: 5px 0 1px 0;
+}
+
+div#typo3-dblist-pagination img,
+div#typo3-dblist-pagination span.pageIndicator {
+	margin-right: 6px;
+}
+
+div#typo3-dblist-pagination img {
+	padding-bottom: 2px;
+	vertical-align: bottom;
+}
+
+div#typo3-dblist-pagination span.bar {
+	padding: 0 2px;
+}
+
+.db_list_normal td.col-control, .db_list_alt td.col-control,
+.db_list_normal td.col-clipboard, .db_list_alt td.col-clipboard {
+	padding-left: 3px;
+	padding-right: 0px;
+}
+
+#typo3-dblist-search-container {
+	position: relative;
+}
+
+#typo3-dblist-search input[type="submit"] {
+	height: 19px;
+	margin-left: 5px;
+	padding: 0 4px 2px 4px;
+}
+
+.t3-list-table-header-icon-down {
+	display: inline-block;
+	height: 6px;
+	padding: 5px 4px;
+	width: 9px;
+}
+
+.t3-list-table-header-icon-right {
+	display: inline-block;
+	height: 8px;
+	padding: 4px 5px;
+	width: 7px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+New Record Wizard
+
+$Id: module_web_new_element.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-db-new-php img {
+	vertical-align: middle;
+}
+
+body#typo3-db-new-php a img {
+	margin-right: 5px;
+}
+
+body#typo3-db-new-php img.c-helpImg {
+	margin-left: 20px;
+}
+
+body#typo3-db-new-php div#typo3-newPageLink {
+	margin-top: 20px;
+}
+
+body#typo3-db-new-php  table#typo3-newRecord tr td {
+	padding-right: 20px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Page
+
+$Id: module_web_page.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+td.t3-page-column {
+	min-width: 150px;
+	max-width: 300px;
+}
+
+.t3-page-colHeader {
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+.t3-page-colHeader a {
+	position: relative;
+}
+
+.t3-page-colHeader-icons {
+	position: absolute;
+	left: 4px;
+}
+
+.t3-page-ce {
+	margin-bottom: 10px;
+}
+
+.t3-page-ce h4 {
+	margin: 0;
+}
+
+.t3-page-ce .t3-row-header {
+	visibility: hidden;
+}
+
+.t3-page-ce.active .t3-row-header {
+	visibility: visible;
+}
+
+.t3-page-ce-icons-move {
+	float: right;
+}
+
+.t3-page-ce .t3-row-header .t3-icon,
+.t3-page-colHeader .t3-icon {
+	margin-top: 2px;
+}
+
+.t3-page-ce-icons-move span {
+	float: left;
+}
+
+.t3-page-ce-body {
+	padding: 7px;
+}
+
+.t3-page-ce-type {
+	margin-bottom: 5px;
+}
+
+.t3-page-ce-type a {
+	vertical-align: text-bottom;
+}
+
+table.typo3-page-columnsMode img.c-divider {
+	margin: 10px 0px 5px 0px;
+}
+
+table.typo3-page-stdlist {
+	margin-top: 10px;
+}
+
+table.typo3-page-stdlist tr td.c-headLine {
+	height: 24px;
+}
+
+table.typo3-page-stdlist tr.c-table-row-spacer td {
+	display: none;
+}
+
+table.typo3-page-stdlist tr td div.typo3-DBctrl {
+	padding: 2px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Web > Permissions
+
+$Id: module_web_permissions.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a.perm-allowed,
+a.perm-denied,
+#perm-legend .perm-allowed,
+#perm-legend .perm-denied {
+	display: block;
+	float: left;
+	height: 10px;
+	padding: 2px;
+	width: 10px;
+}
+
+#perm-legend .perm-allowed,
+#perm-legend .perm-denied {
+	clear: left;
+}
+
+#perm-legend {
+	margin-top: 10px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Template
+
+$Id: module_web_template.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-tstemplate-ceditor-control {
+	margin-right: 3px;
+	vertical-align: bottom;
+}
+
+div.typo3-tstemplate-ceditor-row {
+	margin-top: 2px;
+	padding: 3px;
+}
+
+div.typo3-tstemplate-ceditor-colorblock {
+	display: -moz-inline-box;
+	display: inline-block;
+	margin-left: 5px;
+	width: 50px;
+}
+
+* html div.typo3-tstemplate-ceditor-colorblock {
+	display: inline;
+}
+
+/* IE 6 Fix */
+* + html div.typo3-tstemplate-ceditor-colorblock {
+	display: inline;
+}
+
+/* IE 7 Fix */
+dl.typo3-tstemplate-ceditor-constant {
+	margin: 0px 0px 20px 10px;
+}
+
+dl.typo3-tstemplate-ceditor-constant dd {
+	margin-left: 0px;
+}
+
+dl.typo3-tstemplate-ceditor-constant dt {
+	display: inline;
+	margin-right: 5px;
+}
+
+#ext-tstemplate-ts-index-php td.bgColor4 {
+	vertical-align: middle;
+	padding: 5px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Toolbar inside the Topbar
+
+$Id: toolbar.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-top-toolbar {
+	margin-top: 9px;
+	padding-right: 15px;
+	position: absolute;
+	right: 0px;
+}
+
+#typo3-toolbar {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+#typo3-toolbar li {
+	display: inline;
+	float: left;
+	margin-right: -1px; /* necessary for overlaying the separators with the active state background */
+}
+
+#typo3-toolbar * li {
+	display: list-item;
+}
+
+#typo3-toolbar div {
+	overflow: visible !important;
+}
+
+#typo3-toolbar span.spinner {
+	background-image: url('../../typo3/sysext/t3skin/images/spinner/3f3f3f.gif');
+}
+
+.toolbar-item {
+	display: block;
+	padding-bottom: 9px;
+	padding-top: 2px;
+}
+
+.toolbar-item-menu {
+	position: absolute;
+	top: 25px;
+	z-index: 100;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Clear-Cache menu inside the toolbar
+
+$Id: toolbar_caching.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#clear-cache-actions-menu {
+	width: 30px;
+}
+
+#clear-cache-actions-menu ul {
+	margin: 0px;
+	padding: 2px 0px 0px;
+	position: absolute;
+	width: 180px;
+}
+
+#clear-cache-actions-menu li {
+	float: none;
+	min-height: 19px;
+	padding-left: 2px;
+	padding-top: 2px;
+	vertical-align: middle;
+}
+
+* html #clear-cache-actions-menu li {
+	height: 19px;
+}
+
+#clear-cache-actions-menu li img {
+	float: left;
+	padding-right: 6px;
+}
+
+#clear-cache-actions-menu li a {
+	display: block;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	vertical-align: middle;
+}
+
+#clear-cache-actions-menu li a span.t3-icon {
+	vertical-align: middle;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Logout-Button
+
+$Id: toolbar_logout.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#login-info p {
+	padding-bottom: 30px;
+	padding-top: 5px;
+}
+
+#logout-button {
+	padding-left: 4px;
+	padding-right: 7px;
+}
+
+#logout-button input {
+	height: 20px;
+	padding: 0 0 2px 0;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Backend Search
+
+$Id: toolbar_search.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#backend-search-menu {
+	width: 30px;
+}
+
+#backend-search-menu div {
+	margin: 0px;
+	padding: 3px 5px;
+	position: absolute;
+	width: 180px;
+}
+
+#search-query {
+	padding: 1px;
+	width: 170px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Shortcuts menu in the toolbar
+
+$Id: toolbar_shortcut.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#shortcut-menu {
+	width: 30px;
+}
+
+#shortcut-menu .toolbar-item-menu {
+	margin: 0px;
+	padding: 2px 0px 0px;
+	position: absolute;
+	width: 220px;
+}
+
+#shortcut-menu .shortcut-list {
+	width: 100%;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut td {
+	padding: 2px 1px;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut.first-row td {
+	padding-top: 4px;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut-group td.shortcut-group-icon,
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-icon,
+#shortcut-menu .shortcut-list td.shortcut-edit,
+#shortcut-menu .shortcut-list td.shortcut-delete {
+	vertical-align: top;
+	width: 18px;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-label a {
+	display: block;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-edit img,
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-delete img {
+	display: none;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut:hover td.shortcut-edit img,
+#shortcut-menu .shortcut-list tr.shortcut:hover td.shortcut-delete img {
+	display: inline;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut-group td.shortcut-group-icon,
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-icon {
+	padding-left: 7px;
+	vertical-align: top;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Username inside the toolbar
+
+$Id: toolbar_username.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#username {
+	margin-left: 25px;
+	margin-right: 10px;
+	padding-top: 2px;
+}
+
+#username span {
+	padding-right: 4px;
+	vertical-align: bottom;
+}
+
+#username img {
+	padding-right: 4px;
+	vertical-align: bottom;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Workspace Selector
+
+$Id: toolbar_workspace.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#workspace-selector-menu {
+	width: 30px;
+}
+
+#workspace-selector-menu ul {
+	margin: 0px;
+	padding: 2px 0px 0px;
+	position: absolute;
+	width: 180px;
+}
+
+#workspace-selector-menu li {
+	float: none;
+	min-height: 19px;
+	vertical-align: middle;
+}
+
+* html #workspace-selector-menu li {
+	height: 19px;
+}
+
+#workspace-selector-menu li img {
+	float: left;
+	position: relative;
+	margin-right: 2px;
+}
+
+#workspace-selector-menu li a {
+	display: block;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	vertical-align: middle;
+}
+
+#workspace-selector-menu li.divider {
+	padding-top: 4px;
+}
+
+#workspace-selector-menu li span.t3-icon {
+	float: left;
+	margin-top: 0;
+	margin-right: 2px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Topbar (whole upper area), containts Logo and toolbar
+
+$Id: topbar.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-topbar {
+	z-index: 200;
+}
+
+#typo3-topbar div {
+	overflow: visible !important;
+}
+
+#typo3-top-container {
+	height: 100%;
+}
+
+#typo3-logo {
+	margin: 8px 0 0 6px;
+	padding: 1px 0px 0px 10px;
+	width: 159px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+TYPO3 debug panel
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-debugPanel-dragDropOver {
+}
+
+.typo3-debugPanel-dragDropArrowDown {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/arrowdown.png');
+	display: block;
+	visibility: visible;
+	z-index: 20000;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 0;
+	left: 0;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Go back A-tags
+
+$Id: element_button_back.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a.typo3-goBack {
+	font-weight: bold;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Clipboard
+
+$Id: element_clipboard.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-clipboard {
+	background-color: #efeff4;
+	border: 1px solid #a2aab8;
+	border-top: 1px solid #a2aab8;
+}
+
+table#typo3-clipboard tr.bgColor2 {
+	background-color: #efeff4;
+}
+
+table#typo3-clipboard tr.bgColor2 td {
+	background-color: #585858;
+	color: #fff;
+}
+
+table#typo3-clipboard tr.typo3-clipboard-head {
+	background-color: #efeff4;
+	background-image: url('../../typo3/sysext/t3skin/backgrounds/list_sep.gif');
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #a2aab8;
+	border-top: 1px solid #fefefe;
+}
+
+table#typo3-clipboard tr.bgColor5 td {
+	background-color: #f8f9fa;
+}
+
+table#typo3-clipboard tr.bgColor5 td a {
+	text-decoration: none;
+}
+
+tr.typo3-clipboard-head {
+	background-color: #ccc;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Context Sensitive Help (CSH)
+
+$Id: element_csh.css 7989 2010-06-20 14:34:23Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-csh-inline {
+	background-color: #ffffff;
+	border: 1px solid #a2aab8;
+}
+
+.typo3-csh-inline {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	line-height: 16px;
+}
+
+a.typo3-csh-link .typo3-csh-inline {
+	background: #ffffff;
+	color: #000000;
+	font-weight: normal;
+}
+
+div.typo3-csh-inline p.t3-csh-short {
+	border: #b6b6b6 1px solid;
+	border-top: none;
+}
+
+img.typo3-csh-icon {
+	cursor: help;
+}
+
+a.typo3-csh-link {
+	white-space: normal;
+}
+
+/*  view_help.php */
+#typo3-view-help-php {
+}
+
+
+div.typo3-view-help h1 {
+	background: none;
+	color: #000;
+	text-align: left;
+}
+
+
+div.typo3-view-help p {
+}
+
+div.typo3-view-help p.c-nav a {
+	background-color: transparent;
+}
+
+div.typo3-view-help div.c-toc {
+	background: none;
+	border: none;
+}
+
+div.typo3-view-help div.c-toc ul {
+	list-style: none;
+}
+
+div.typo3-view-help div.c-toc ul li ul {
+	list-style: disc;
+}
+
+div.typo3-view-help .manual-title,
+div.typo3-view-help .introduction {
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+div.typo3-view-help .manual-title a,
+div.typo3-view-help div.c-toc a,
+div.typo3-view-help p a {
+	text-decoration: underline;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Context Sensitive Menu / Layer (alt_clickmenu.php creates it)
+Notice: Rollover color is set by ->bgColor5 in the template object of alt_clickmenu.php
+
+$Id: element_csm.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-CSM-wrapperCM {
+	background: #fff;
+	border: #b6b6b6 1px solid;
+}
+
+table.typo3-CSM td.typo3-CSM-item {
+	white-space: nowrap;
+}
+
+table.typo3-CSM tr.typo3-CSM-itemRow {
+	cursor: pointer;
+}
+
+table.typo3-CSM tr.bgColor2 {
+	background-color: #b6b6b6;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+special backend elements
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Context Sensitive Menu / Top frame (alt_clickmenu.php): */
+
+body#typo3-alt-clickmenu-php {
+	background-image: url('../../typo3/sysext/icons/gfx/alt_topmenu_back_full.gif');
+}
+
+body#typo3-alt-clickmenu-php-notop {
+	background-image: url('../../typo3/sysext/icons/gfx/alt_topmenu_back_dummy.gif');
+}
+
+table#typo3-CSM-top a {
+	text-decoration: none;
+}
+
+table#typo3-CSM-top tr td {
+	white-space: nowrap;
+}
+
+table#typo3-CSM-top tr td.c-itemicon {
+	font-weight: bold;
+}
+
+#contentMenu0 {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}/* - - - - - - - - - - - - - - - - - - - - -
+Docheader
+
+$Id: element_docheader.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+span.typo3-docheader-pagePath {
+	font-weight: bold;
+}
+
+span.typo3-docheader-pagePath abbr {
+	border-bottom: none;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Record editing (alt_doc.php)
+- - - - - - - - - - - - - - - - - - - - - */
+
+div#typo3-docheader-row1 {
+	background-color: #585858;
+}
+
+div#typo3-docheader-row2 {
+	background-color: #dadada;
+	line-height: 27px;
+}
+
+div#typo3-docheader div.buttonsleft {
+	line-height: 16px;
+}
+
+div#typo3-docheader div.buttonsright {
+	line-height: 16px;
+}
+
+div#typo3-docheader img,
+div#typo3-docheader input {
+	cursor: pointer;
+}
+
+div#typo3-docheader-row2 div {
+	line-height: normal;
+}/* - - - - - - - - - - - - - - - - - - - - -
+extJS icons
+
+$Id: element_extjs_icons.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.t3icon-ext-upload {
+	background: url('../../typo3/sysext/t3skin/icons/gfx/upload.gif') 3px 4px no-repeat !important;
+}
+
+.t3icon-ext-cancel {
+	background: url('../../typo3/sysext/t3skin/icons/gfx/icon_fatalerror.gif') 2px 3px no-repeat !important;
+}
+
+.t3iconstyle-center {
+	background-position: center center;
+}/* - - - - - - - - - - - - - - - - - - - - -
+History / Undo
+
+$Id: element_history.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-history tr.c-head td,
+table#typo3-history-item tr.c-head td {
+	font-weight: bold;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Flash Messages (template.php)
+
+$Id: element_message.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-message {
+	border: 1px solid;
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+}
+
+.typo3-message a {
+	text-decoration: underline;
+}
+
+.typo3-message .message-header {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.message-notice {
+	color: #777;
+	background-color: #f6f7fa;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/notice.png');
+	border-color: #c2cbcf;
+}
+
+.message-notice a {
+	color: #777;
+}
+
+.message-information {
+	color: #4c73a1;
+	background-color: #eaf7ff;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/information.png');
+	border-color: #c5dbe6;
+}
+
+.message-information a {
+	color: #4c73a1;
+}
+
+.message-ok {
+	color: #3b7826;
+	background-color: #cdeaca;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/ok.png');
+	border-color: #58b548;
+}
+
+.message-ok a {
+	color: #3b7826;
+}
+
+.message-warning {
+	color: #9e7d4a;
+	background-color:#fbf6de;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/warning.png');
+	border-color: #b1905c;
+}
+
+.message-warning a {
+	color: #9e7d4a;
+}
+
+.message-error {
+	color: #aa0225;
+	background-color: #f6d3cf;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/error.png');
+	border-color: #d66c68;
+}
+
+.message-error a {
+	color: #aa0225;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Palette display for TCEforms (top frame, alt_palette.php)
+
+$Id: element_palette.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-alt-palette-php {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/topmenu_background_palette.jpg');
+}
+
+table#typo3-TCEforms-palette td {
+	white-space: nowrap;
+}
+
+table#typo3-TCEforms-palette td.c-label {
+	color: #fff;
+}
+
+body#typo3-alt-palette-php table td.c-csh input.checkbox {
+	background-color: transparent;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Document, listing recently edited records if no records were open
+(alt_doc_nodoc.php) - this is effectively the Doc module
+
+$Id: element_recent_edited.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-recent-edited td {
+	white-space: nowrap;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Element Browser / RTE link selection
+
+$Id: element_rte.css 8245 2010-07-21 08:34:07Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-browse-links-php {
+	background: #ececec;
+	background-image: linear-gradient(center top, #ffffff 30px, #ececec 130px);
+	background-image: -moz-linear-gradient(center top, #ffffff 30px, #ececec 130px);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(30px, #ffffff), color-stop(130px, #ececec));
+	background-repeat: repeat-x;
+}
+
+table#typo3-curUrl {
+	font-weight: bold;
+}
+
+table#typo3-RTElinkMenu tr td {
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+}
+
+table#typo3-linkPages tr td.c-wCell,
+table#typo3-linkFiles tr td.c-wCell,
+table#typo3-EBrecords tr td.c-wCell,
+table#typo3-EBfiles tr td.c-wCell {
+	white-space: nowrap;
+}
+
+body#typo3-browse-links-php a {
+	text-decoration: none;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+RTE select image
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#ext-rte-app-rte-select-image-php a {
+	text-decoration: none;
+}
+
+body#ext-rte-app-rte-select-image-php table tr td table tr.bgColor4 td a {
+	text-decoration: underline;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Animated spinner icon
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+span.spinner {
+	background-image: url('../../typo3/sysext/t3skin/images/spinner/f1f1f1.gif');
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Animated spinner icon
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+span.spinner {
+	background-image: url('../../typo3/sysext/t3skin/images/spinner/f1f1f1.gif');
+}/* - - - - - - - - - - - - - - - - - - - - -
+Tab menu (template.php)
+
+$Id: element_tab.css 8264 2010-07-24 10:58:56Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-dyntabmenu td a,
+table#typo3-tabmenu td.tab,
+table#typo3-tabmenu td.tabact {
+	background: #dadada;
+	border: 1px solid #adadad;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+}
+
+table.typo3-dyntabmenu td.tabact a,
+table.typo3-dyntabmenu td.tab_over a,
+table.typo3-dyntabmenu td.tabact_over a,
+table#typo3-tabmenu td.tabact,
+table#typo3-tabmenu td.tab:hover,
+table#typo3-tabmenu td.tabact:hover {
+	color: #000;
+	background: #ffffff;
+}
+
+table.typo3-dyntabmenu td.disabled a,
+table.typo3-dyntabmenu td.disabled_over a {
+	background: #ccc;
+	color: #999;
+	cursor: default;
+}
+
+table.typo3-dyntabmenu td a {
+	border-bottom: 1px solid #ffffff;
+}
+
+table.typo3-dyntabmenu td.tab a,
+table.typo3-dyntabmenu td.tab_over a {
+	border-bottom: 1px solid #c0c0c0;
+}
+
+table.typo3-dyntabmenu td a,
+table#typo3-tabmenu td a {
+	color: #666;
+	text-decoration: none;
+}
+
+div.typo3-dyntabmenu-divs {
+	background-color: #ececec;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/tab.png');
+	background-image: linear-gradient(center top, #ffffff 0px, #ececec 100px);
+	background-image: -moz-linear-gradient(center top, #ffffff 0px, #ececec 100px);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0px, #ffffff), color-stop(100px, #ececec));
+	background-repeat: repeat-x;
+	border: 1px solid #adadad;
+}
+
+div.typo3-dyntabmenu-divs p.c-descr {
+	background: #e7dba8;
+	font-style: italic;
+}
+
+/* Foldout tabs */
+div.typo3-dyntabmenu-divs-foldout div.tab,
+div.typo3-dyntabmenu-divs-foldout div.tab_over,
+div.typo3-dyntabmenu-divs-foldout div.tabact,
+div.typo3-dyntabmenu-divs-foldout div.tabact_over,
+div.typo3-dyntabmenu-divs-foldout div.disabled,
+div.typo3-dyntabmenu-divs-foldout div.disabled_over {
+	border: solid black 1px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tab {
+	background: #c4d4cd;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/ol/plusbullet.gif');
+	background-repeat: no-repeat;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tab_over {
+	background: #f6eab7;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/ol/arrowbullet.gif');
+	background-repeat: no-repeat;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tabact {
+	background: #e7dba8;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/ol/minusbullet.gif');
+	background-repeat: no-repeat;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tabact_over {
+	background: #f6eab7;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/ol/arrowbullet.gif');
+	background-repeat: no-repeat;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.disabled {
+	background: #ccc;
+	color: #999;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.disabled_over {
+	background: #f6eab7;
+	color: #999;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tab a,
+div.typo3-dyntabmenu-divs-foldout div.tabact a,
+div.typo3-dyntabmenu-divs-foldout div.tab_over a,
+div.typo3-dyntabmenu-divs-foldout div.tabact_over a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*
+table#typo3-tabmenu td.tab,
+table.typo3-dyntabmenu td {
+	border: solid 1px #a2aab8;
+	border-bottom: 0;
+	color: #606060;
+	cursor: pointer;
+}
+
+table#typo3-tabmenu td.tab,
+table.typo3-dyntabmenu td.tab {
+	background-color: #dadada;
+}
+
+table#typo3-tabmenu td.tabact,
+table.typo3-dyntabmenu td.tabact:hover,
+table.typo3-dyntabmenu td.tabact a {
+	background-color: #ffffff;
+}
+
+table#typo3-tabmenu td.disabled,
+table.typo3-dyntabmenu td.disabled,
+table.typo3-dyntabmenu td.disabled_over {
+	color: #a2aab8;
+	background-color: #efeff4;
+}
+
+table#typo3-tabmenu td.tab:hover,
+table#typo3-tabmenu td a:hover,
+table.typo3-dyntabmenu td:hover,
+table.typo3-dyntabmenu td a:hover {
+	background-color: #ffffff;
+}
+*/
+div.typo3-dyntabmenu-divs-foldout div.disabled,
+div.typo3-dyntabmenu-divs-foldout div.disabled_over {
+	background: #ccc;
+}
+div.typo3-dyntabmenu-divs-foldout div.tab,
+div.typo3-dyntabmenu-divs-foldout div.tabact {
+	background: #fefefe;
+}
+
+div.typo3-dyntabmenu-divs-foldout div.tab_over,
+div.typo3-dyntabmenu-divs-foldout div.tabact_over {
+	background: #d7dbe2;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Default tables
+
+$Id: module_web_list.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.t3-table {
+	background: #fff;
+	border: 1px solid #a2aab8;
+}
+
+table.t3-table .t3-row-odd td,
+table.t3-table .t3-row-odd th {
+	background-color: #f7f7f7;
+}
+
+table.t3-table .t3-row-even td,
+table.t3-table .t3-row-even th {
+	background-color: #ffffff;
+}
+
+table.t3-table .t3-row-odd:hover td,
+table.t3-table .t3-row-odd:hover th,
+table.t3-table .t3-row-even:hover td,
+table.t3-table .t3-row-even:hover th {
+	background-color: #dedede;
+}
+
+table.t3-table tr.t3-row-header td {
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 16px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms
+
+$Id: element_tceforms.css 8009 2010-06-21 16:51:09Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-TCEforms {
+	border-collapse: collapse;
+	background-color: #ececec;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/tab.png');
+	background-image: linear-gradient(center top, #ffffff 30px, #ececec 130px);
+	background-image: -moz-linear-gradient(center top, #ffffff 0px, #ececec 130px);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(30px, #ffffff), color-stop(130px, #ececec));
+	background-repeat: repeat-x;
+}
+
+
+table.typo3-TCEforms tr.bgColor2 td {
+	color: #212424;
+}
+
+table.typo3-TCEforms tr.bgColor2 {
+	background-image: none;
+}
+
+table#typo3-altdoc-header input,
+.c-inputButton {
+	background: none;
+	border: 0;
+}
+
+.checkbox,
+.checkbox:hover {
+	background: #efeff4;
+	border: 0;
+}
+
+table.typo3-TCEforms table#typo3-altdoc-header input:hover,
+.c-inputButton:hover {
+	background: none;
+	border: 0;
+}
+
+table.typo3-TCEforms span.typo3-TCEforms-recHeader {
+	color: #555555;
+	font-weight: bold;
+}
+
+table.typo3-TCEforms div.typo3-dyntabmenu-tabs,
+table.typo3-TCEforms tr.typo3-TCEforms-recHeaderRow td {
+	background: #F1F1F1;
+}
+
+table.typo3-TCEforms tr.typo3-TCEforms-recHeaderRow td {
+	text-align: right;
+}
+
+table.typo3-TCEforms span.typo3-TCEforms-newToken {
+	color: #990000;
+	font-weight: bold;
+}
+
+table.typo3-TCEforms span.typo3-TCEforms-helpText {
+	background: transparent;
+	color: #fff;
+}
+
+table.typo3-TCEforms-select-checkbox  {
+	background-color: #efeff4;
+	border: 1px solid #aaa;
+}
+
+table.typo3-TCEforms-select-checkbox tr {
+	background-color: #efeff4;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-selectedItem {
+	background-color: #d7dbe2;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-unselectedItem {
+	background-color: #efeff4;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-invalidItem {
+	background-color: #ff6600;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-header-checkbox-controls td {
+	background-color: #b8bec9;
+	text-align: right;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-header-checkbox-controls td a {
+	color: white;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr.c-header td {
+	background-color: #fff;
+	border-bottom: 1px solid #999999;
+	font-weight: bold;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr td {
+	border-bottom: 1px #999 dashed;
+}
+
+table.typo3-TCEforms table.typo3-TCEforms-select-checkbox tr td.c-labelCell p.c-descr {
+	font-style: italic;
+}
+
+table.typo3-TCEforms optgroup.c-divider,
+select option.c-divider {
+	background-color: #eee;
+	border-top: 1px solid #666;
+	color: #666;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+table.typo3-TCEforms optgroup option {
+	background-color: white;
+	border-bottom: none;
+	color: black;
+	font-style: normal;
+	text-indent: 0px;
+	text-transform: none;
+}
+
+table.typo3-TCEforms div.typo3-TCEforms-originalLanguageValue {
+	background-color: #bbccbb;
+}
+
+table.typo3-TCEforms div.typo3-TCEforms-diffBox {
+	background-color: white;
+	border: 1px solid black;
+}
+
+table.typo3-TCEforms div.typo3-TCEforms-diffBox-header {
+	background-color: red;
+	font-weight: bold;
+}
+
+table.typo3-TCEforms div.typo3-dyntabmenu-divs {
+	border-bottom: 0;
+}
+
+/* Default. Always used on main-palettes in the bottom of the forms */
+table.typo3-TCEforms .class-main1,
+table.typo3-TCEforms .class-main11,
+table.typo3-TCEforms .class-main21,
+table.typo3-TCEforms .class-main31,
+table.typo3-TCEforms .class-main41,
+table.typo3-TCEforms .class-main51 {
+}
+
+table.typo3-TCEforms .class-main2 td,
+table.typo3-TCEforms .class-main12 td,
+table.typo3-TCEforms .class-main22 td,
+table.typo3-TCEforms .class-main32 td,
+table.typo3-TCEforms .class-main42 td,
+table.typo3-TCEforms .class-main52 td {
+	border-top: 1px solid #c0c0c0;
+}
+
+table.typo3-TCEforms tr.class-main2:first-child td,
+table.typo3-TCEforms tr.class-main12:first-child td,
+table.typo3-TCEforms tr.class-main22:first-child td,
+table.typo3-TCEforms tr.class-main32:first-child td,
+table.typo3-TCEforms tr.class-main42:first-child td,
+table.typo3-TCEforms tr.class-main52:first-child td {
+	border-top: 0;
+}
+
+table.typo3-TCEforms .class-main2,
+table.typo3-TCEforms .class-main12,
+table.typo3-TCEforms .class-main22,
+table.typo3-TCEforms .class-main32,
+table.typo3-TCEforms .class-main42,
+table.typo3-TCEforms .class-main52 {
+}
+
+
+
+
+table.typo3-TCEforms table.wrapperAttention .class-main2,
+table.typo3-TCEforms table.wrapperAttention .class-main12,
+table.typo3-TCEforms table.wrapperAttention .class-main22,
+table.typo3-TCEforms table.wrapperAttention .class-main32,
+table.typo3-TCEforms table.wrapperAttention .class-main42,
+table.typo3-TCEforms table.wrapperAttention .class-main52 {
+
+}
+
+
+table.typo3-TCEforms .class-main4,
+table.typo3-TCEforms .class-main14,
+table.typo3-TCEforms .class-main24,
+table.typo3-TCEforms .class-main34,
+table.typo3-TCEforms .class-main44,
+table.typo3-TCEforms .class-main54 {
+	color: #000000;
+}
+
+table.typo3-TCEforms .class-main5,
+table.typo3-TCEforms .class-main15,
+table.typo3-TCEforms .class-main25,
+table.typo3-TCEforms .class-main35,
+table.typo3-TCEforms .class-main45,
+table.typo3-TCEforms .class-main55 {
+	color: #3c3c44;
+}
+
+table.typo3-TCEforms .wrapperTable,
+table.typo3-TCEforms .wrapperTable1,
+table.typo3-TCEforms .wrapperTable2,
+table.typo3-TCEforms .wrapperTable3,
+table.typo3-TCEforms .wrapperTable4,
+table.typo3-TCEforms .wrapperTable5 {
+	border: 1px solid #c0c0c0;
+	border-top: none;
+}
+
+table.typo3-TCEforms .wrapperTable1 {
+	border-top: 1px solid #c0c0c0;
+}
+
+table.typo3-TCEforms .typo3-dyntabmenu-divs .wrapperTable,
+table.typo3-TCEforms .typo3-dyntabmenu-divs .wrapperTable1,
+table.typo3-TCEforms .typo3-dyntabmenu-divs .wrapperTable2,
+table.typo3-TCEforms .typo3-dyntabmenu-divs .wrapperTable3,
+table.typo3-TCEforms .typo3-dyntabmenu-divs .wrapperTable4,
+table.typo3-TCEforms .typo3-dyntabmenu-divs .wrapperTable5 {
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+table.typo3-TCEforms table.wrapperAttention .wrapperTable,
+table.typo3-TCEforms table.wrapperAttention .wrapperTable1,
+table.typo3-TCEforms table.wrapperAttention .wrapperTable2,
+table.typo3-TCEforms table.wrapperAttention .wrapperTable3,
+table.typo3-TCEforms table.wrapperAttention .wrapperTable4,
+table.typo3-TCEforms table.wrapperAttention .wrapperTable5 {
+}
+
+.t3-form-palette-fieldset {
+	border:none;
+}
+
+input.typo3-TCEforms-suggest-search {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/zoom.gif');
+	background-position: 2px center;
+	background-repeat: no-repeat;
+}
+
+div.typo3-TCEforms-suggest-choices {
+	background-color: white;
+	border: 1px solid #888;
+}
+
+div.typo3-TCEforms-suggest-choices ul {
+	list-style-type: none;
+}
+
+div.typo3-TCEforms-suggest-choices li.selected {
+	background-color: #ffb !important;
+}
+
+div.typo3-TCEforms-suggest-choices li {
+	cursor: pointer;
+	background-color: #efeff4;
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	list-style-type: none;
+}
+
+div.typo3-TCEforms-suggest-choices li.pages {
+	background-color: #fcc;
+}
+
+div.typo3-TCEforms-suggest-choices span.suggest-uid {
+	font-size: 0.9em;
+}
+
+div.typo3-TCEforms-suggest-choices span.suggest-path {
+	font-size: 0.9em;
+}
+
+div.typo3-TCEforms-suggest-choices span.suggest-path abbr {
+	border-bottom: none;
+}
+
+div.typo3-TCEforms-suggest-choises a {
+	cursor: pointer;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms Flexforms
+- - - - - - - - - - - - - - - - - - - - - */
+.t3-form-field-container-flex {
+}
+
+.t3-form-field-label-flex {
+	border-top: 1px solid #c0c0c0;
+}
+
+.t3-form-field-container:first-child .t3-form-field-label-flex {
+	border-top: 0;
+}
+
+/** no separate background for dyntabs in flexforms **/
+table.typo3-TCEforms .wrapperTable div.typo3-dyntabmenu-tabs ,
+table.typo3-TCEforms .wrapperTable1 div.typo3-dyntabmenu-tabs,
+table.typo3-TCEforms .wrapperTable2 div.typo3-dyntabmenu-tabs,
+table.typo3-TCEforms .wrapperTable3 div.typo3-dyntabmenu-tabs,
+table.typo3-TCEforms .wrapperTable4 div.typo3-dyntabmenu-tabs,
+table.typo3-TCEforms .wrapperTable5 div.typo3-dyntabmenu-tabs {
+	background: transparent;
+}
+
+/** tabs inside the table => flexforms */
+table.typo3-TCEforms .wrapperTable .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable1 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable2 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable3 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable4 .typo3-dyntabmenu-divs,
+table.typo3-TCEforms .wrapperTable5 .typo3-dyntabmenu-divs {
+	border: 1px solid #c0c0c0;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms Inline-Relational-Record-Editing
+- - - - - - - - - - - - - - - - - - - - - */
+.t3-form-field-container-inline {
+	border: 1px solid #c0c0c0;
+}
+
+.t3-form-field-header-inline {
+	background: #DADADA;
+}
+
+.t3-form-field-record-inline {
+	border-top: 1px solid #c0c0c0;
+}
+
+table.typo3-TCEforms .t3-form-field-container-inline .wrapperTable,
+table.typo3-TCEforms .t3-form-field-container-inline .wrapperTable1,
+table.typo3-TCEforms .t3-form-field-container-inline .wrapperTable2,
+table.typo3-TCEforms .t3-form-field-container-inline .wrapperTable3,
+table.typo3-TCEforms .t3-form-field-container-inline .wrapperTable4,
+table.typo3-TCEforms .t3-form-field-container-inline .wrapperTable5 {
+	border: 0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+TCEforms Sections
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-TCEforms-flexForm .bgColor4,
+.typo3-TCEforms-flexForm .bgColor5 {
+	background: none;
+	display: inline-block;
+}
+
+.t3-form-field-label-flexsection {
+	border-top: 1px solid #cdcdcd;
+}
+
+.t3-form-field-container-flexsections {
+	background: #dadada;
+}
+
+.t3-form-field-record-flexsection {
+	background: #eee;
+}
+
+.t3-form-field-add-flexsection {
+	border-top: 1px solid #cdcdcd;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Tree
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-tree a {
+	text-decoration: none;
+}
+
+body#typo3-alt-db-navframe-php div.c-notice {
+	border: 1px solid black;
+}
+
+.navFrameHL {
+	background-color: #d7dbe2;
+}
+
+.navFrameHL a {
+	font-weight: bold;
+}
+
+table#typo3-tree tr:hover {
+	background-color: #d7dbe2;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Configuration trees, used in Admin Tools => Configuration
+- - - - - - - - - - - - - - - - - - - - - */
+table.t3-tree-config {
+	background: #ececec;
+	background-image: linear-gradient(center top, #ffffff 0px, #ececec 100px);
+	background-image: -moz-linear-gradient(center top, #ffffff 0px, #ececec 100px);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0px, #ffffff), color-stop(100px, #ececec));
+	border: 1px solid #adadad;
+}
+
+table.t3-tree-config .t3-tree-config-header {
+	text-align: left;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+AJAX Page Tree
+- - - - - - - - - - - - - - - - - - - - - */
+
+ul.tree {
+	line-height: 12px;
+	list-style: none;
+}
+
+ul.tree a {
+	text-decoration: none;
+}
+
+ul.tree a.pm {
+	cursor: pointer;
+}
+
+ul.tree ul {
+	list-style: none;
+}
+
+ul.tree ul li {
+	list-style: none;
+	white-space: nowrap;
+}
+
+ul.tree ul li.expanded ul {
+	background: transparent url('../../typo3/sysext/t3skin/icons/gfx/ol/line.gif') 2px top repeat-y;
+}
+
+ul.tree ul li.last > ul {
+	background: none;
+}
+
+ul.tree li.active > div.treeLinkItem,
+ul.tree ul li.active > div.treeLinkItem {
+	background-color: #d8d8d8;
+}
+
+ul.tree li.active span a,
+ul.tree ul li.active span a {
+	font-weight: bold;
+}
+
+ul.tree li.active ul span a,
+ul.tree ul li.active ul span a {
+	font-weight: normal;
+}
+
+#dragIcon {
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	white-space: nowrap;
+	-moz-opacity: 0.5;
+}
+
+#treeFilterBox {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/filter_bg.gif');
+	background-repeat: no-repeat;
+	background-position: 0 -2px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #dadada;
+}
+
+#treeFilter {
+	background: transparent;
+	border: 0px;
+	font-size: 11px;
+}
+
+#treeFilterReset {
+	border: 0;
+	cursor: pointer;
+}
+
+#tree-toolbar-filter-item {
+	display: inline-block;
+	height: 22px;
+	width: 20px;
+}
+
+#tree-toolbar-filter-item.active {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/toolbar_item_active_bg.png')
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+TypoScript Highlighting
+
+$Id: element_typoscript.css 8178 2010-07-13 20:35:00Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+pre.ts-hl {
+	font-family: "Lucida Console", "Lucida Sans Typewriter", "Bitsream Vera Sans Mono", monospace;
+	font-size: 11px;
+}
+
+pre.ts-hl .ts-operator {
+	color: black;
+	font-weight: bold;
+}
+
+pre.ts-hl .ts-value {
+	color: #cc0000;
+}
+
+pre.ts-hl .ts-objstr {
+	color: #0000cc;
+}
+
+pre.ts-hl .ts-value_copy {
+	color: #006600;
+}
+
+pre.ts-hl .ts-value_unset {
+	background-color: #66cc66;
+}
+
+pre.ts-hl .ts-ignored {
+	background-color: #66cc66;
+}
+
+pre.ts-hl .ts-default {
+	background-color: #66cc66;
+}
+
+pre.ts-hl .ts-comment {
+	color: #666;
+	font-style: italic;
+}
+
+pre.ts-hl .ts-condition {
+	background-color: maroon;
+	color: #fff;
+	font-weight: bold;
+}
+
+pre.ts-hl .ts-error {
+	background-color: yellow;
+	border: 1px red dashed;
+	font-weight: bold;
+	color: #000;
+	color: #000;
+}
+
+pre.ts-hl .ts-linenum {
+	background-color: #eee;
+	color: #212424;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Workspace
+
+$Id: element_version.css 8260 2010-07-24 10:42:50Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-pagetree .workspace-info {
+	background-color: #ffec97;
+	font-weight: bold;
+}
+
+table#typo3-versionSelector {
+	background-color: #ffec97;
+	border: 1px solid #a2aab8;
+}
+
+.ver-element div.treeLinkItem,
+.ver-versions div.treeLinkItem,
+.ver-page div.treeLinkItem {
+	background-color: #ffec97;
+}
+
+.ver-branch div.treeLinkItem,
+.ver-branchpoint div.treeLinkItem {
+	background-color: #ff9999;
+}
+
+.ver-element ul div.treeLinkItem,
+.ver-versions ul div.treeLinkItem,
+.ver-page ul div.treeLinkItem,
+.ver-branch div.treeLinkItem,
+.ver-branchpoint div.treeLinkItem {
+	background-color: transparent;
+}
+
+table.ver-subtree a {
+	text-decoration: none;
+}
+
+table.ver-subtree tr td.iconTitle {
+	white-space: nowrap;
+}
+
+table.ver-subtree tr td.diffCell {
+	white-space: normal;
+}
+
+table.ver-subtree table.diffTable {
+	background-color: white;
+	border: 1px solid black;
+}
+
+table.ver-subtree div.diffLayer,
+div.logLayer {
+	background-color: white;
+	border: 1px solid black;
+}
+
+table.ver-subtree,
+table.ver-verElement td.c-diffCell {
+	border: 1px solid #666;
+}
+
+table.ver-subtree tr.typo3-ver td.iconTitle,
+table.ver-subtree tr.typo3-ver td.diffCell,
+table.ver-subtree tr.typo3-ver td.cmdCell {
+	background-color: #c5c1b5;
+}
+
+table.ver-subtree tr.typo3-ver-hl td.iconTitle,
+table.ver-subtree tr.typo3-ver-hl td.diffCell,
+table.ver-subtree tr.typo3-ver-hl td.cmdCell {
+	background-color: #999;
+}
+
+table.ver-subtree tr.typo3-ver-new td {
+	background-color: #eee;
+	color: #666;
+}
+
+table.ver-subtree tr.typo3-ver-noComp td {
+	font-style: italic;
+}
+
+.ver-wl-table {
+	border: 1px solid black;
+}
+
+.ver-wl-details-table {
+	border: 1px solid #cccccc;
+}
+
+.ver-wl-details {
+	background-color: #ffffff;
+}
+
+.ver-wl-details-label {
+	background-color: #ffffff;
+	white-space: nowrap;
+}
+
+#ver-wl-new-workspace-icon {
+	border: none;
+}
+
+.ver-wl-mp-inacessible {
+	color: #7c7c7c;
+	font-style: italic;
+}
+
+.ver-wl-current-user {
+	font-weight: bold;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Wizards
+
+$Id: element_wizard.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-formwizard tr#typo3-formWizardHeader td {
+	font-weight: bold;
+	text-align: center;
+}
+
+body#typo3-wizard-colorpicker-php p.c-head {
+	font-weight: bold;
+}/* Login Screen
+ * Warning:
+ * DO NOT prevent the copyright notice from being shown!
+ * According to the GPL license an interactive application must show such a notice on start-up ('If the program is interactive, make it output a short notice... ' - see GPL.txt)
+ * Therefore preventing this notice from being properly shown is a violation of the license, regardless of whether you remove it or use the stylesheet to obstruct the display.
+
+ */
+body#typo3-index-php {
+	background: #4f4f4f;
+	background-attachment: fixed;
+	background-image: url('../../typo3/sysext/t3skin/images/login/background.png');
+	background-repeat: repeat-x;
+}
+
+body#typo3-index-php #t3-login-form {
+	color: #606060;
+	font-size: 11px;
+	text-align: left;
+}
+
+body#typo3-index-php .t3-headline {
+	background: #585858;
+}
+
+body#typo3-index-php .t3-headline h2 {
+	background: transparent no-repeat 10px 5px;
+	background-image: url('../../typo3/sysext/t3skin/icons/login-icon-key.gif');
+	color: #fff;
+	font-size: 11px !important;
+	line-height: 24px;
+}
+
+body#typo3-index-php #t3-login-process {
+	text-align: center;
+}
+
+body#typo3-index-php #t3-login-process h2 {
+	background: url('../../typo3/sysext/t3skin/icons/login-submit-progress.gif') no-repeat 10px center;
+	font-size: 11px !important;
+}
+
+body#typo3-index-php .t3-headline .t3-login-news-headline {
+	background: transparent url('../../typo3/sysext/t3skin/icons/login-icon-news.gif') no-repeat 10px center;
+	color: #fff;
+	font-size: 11px !important;
+	line-height: 24px;
+}
+
+body#typo3-index-php .t3-login-field {
+	line-height: 18px;
+}
+
+body#typo3-index-php .t3-login-field input {
+	background: #fff;
+	border: 1px solid #7c7c7c;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	box-shadow: 0 1px 1px #cbcbcb inset;
+	-moz-box-shadow: 0 1px 1px #cbcbcb inset;
+	-webkit-box-shadow: 0 1px 1px #cbcbcb inset;
+	color: #000;
+	font-size: 11px;
+	line-height: 19px;
+	-webkit-appearance: textfield;
+	
+}
+
+body#typo3-index-php #t3-login-form-fields {
+	font-size: 11px;
+}
+
+body#typo3-index-php #t3-interfaceselector {
+	font-size: 11px;
+}
+
+body#typo3-index-php .t3-login-form-footer {
+	text-align: right;
+}
+
+body#typo3-index-php .t3-login-form-footer a {
+	cursor: pointer;
+}
+
+body#typo3-index-php .t3-login-form-footer,
+body#typo3-index-php .t3-login-form-footer a.switchToOpenId,
+body#typo3-index-php dl#t3-login-news a {
+	color: #888;
+	font-size: 10px;
+}
+
+body#typo3-index-php .t3-login-form-footer a.switchToOpenId,
+body#typo3-index-php dl#t3-login-news a {
+	text-decoration: underline;
+}
+
+body#typo3-index-php .t3-login-form-footer a.switchToOpenId:hover,
+body#typo3-index-php dl#t3-login-news a:hover {
+	color: #333;
+}
+
+body#typo3-index-php .t3-login-submit {
+	text-align: left;
+}
+
+body#typo3-index-php div#t3-copyright-notice {
+	font-weight: normal;
+	color: #797878;
+}
+
+body#typo3-index-php div#t3-copyright-notice a {
+	color: #797878;
+	text-decoration: underline;
+}
+
+body#typo3-index-php div#t3-copyright-notice a:hover {
+	color: #b0b0b0;
+}
+
+body#typo3-index-php div#t3-login-image {
+	text-align: left;
+}
+
+body#typo3-index-php #t3-footer {
+	border-top: 1px solid #5c5c5c;
+	font-size: 10px;
+}
+
+body#typo3-index-php #t3-meta-links {
+	color: #797878;
+}
+
+body#typo3-index-php #t3-meta-links a {
+	color: #797878;
+	text-decoration: underline;
+}
+
+body#typo3-index-php #t3-meta-links a.t3-login-link-donate {
+	font-weight: bold;
+}
+
+body#typo3-index-php #t3-meta-links a:hover {
+	color: #b0b0b0;
+}
+
+/**
+ * @section login news
+ */
+body#typo3-index-php #t3-login-news-outer #t3-login-news dt {
+	font-weight: bold;
+}
+
+body#typo3-index-php #t3-login-news-outer #t3-login-news dd {
+	border: 0;
+}
+
+/**
+ * @section logout
+ */
+body#typo3-index-php .t3-login-logout-form .t3-username-current,
+body#typo3-index-php .t3-login-logout-form div.t3-login-label {
+	color: #606060;
+	line-height: 21px;
+}
+
+/**
+ * @section erros/warnings
+ */
+.t3-login-alert h2 {
+	background: none;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.t3-login-alert p {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.t3-login-alert a {
+	text-decoration: underline;
+}
+
+.t3-login-alert-error {
+	background: #f6d3cf;
+	border: 1px solid #d66c68;
+}
+
+.t3-login-alert-error h2 {
+	background: url('../../typo3/sysext/t3skin/icons/login-alert-error.gif') no-repeat left 2px;
+	color: #be0027;
+}
+
+.t3-login-alert-error p,
+.t3-login-alert-error a {
+	color: #be0027;
+}
+
+#t3-nocookies-ignore {
+	text-align: center;
+}
+
+.t3-login-alert-warning {
+	background: #fbf6de;
+	border: 1px solid #b1905c;
+}
+
+.t3-login-alert-warning h2 {
+	background: url('../../typo3/sysext/t3skin/icons/login-alert-warning.gif') no-repeat left 2px;
+	color: #9e7d4a;
+}
+
+.t3-login-alert-warning p,
+.t3-login-alert-warning a {
+	color: #9e7d4a;
+}
+
+/**
+ * @section box layout
+ */
+.t3-login-box-body {
+	background-color: #c9c9c9;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/login-box.png');
+	background-image: linear-gradient(center top, #ebebeb 0%, #c9c9c9 100%);
+	background-image: -moz-linear-gradient(center top, #ebebeb 0%, #c9c9c9 100%);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #ebebeb), color-stop(1, #c9c9c9));
+	background-repeat: repeat-x;
+}/* - - - - - - - - - - - - - - - - - - - - -
+body tags
+
+$Id: main_body.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Set default values for bodytags: */
+body {
+	background-color: #f1f1f1;
+}/* - - - - - - - - - - - - - - - - - - - - -
+TYPO3 styles for basic elements
+
+$Id: main_content.css 7978 2010-06-20 11:09:24Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+h1,
+h2,
+h3,
+h4 {
+	color: #555555;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* Occasionally used, eg. in About Modules: */
+h1 {
+	font-size: 14px;
+	text-align: center;
+}
+
+/* MAIN page header: */
+h2 {
+	font-size: 14px;
+}
+
+/* Normal section headers */
+h3 {
+	font-size: 12px;
+}
+
+/* Discrete section headers (no background) */
+h4 {
+	font-size: 12px;
+}
+
+body {
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+/* Preformatted text - not used so much in TYPO3 */
+pre {
+	font-family: "Lucida Console", "Lucida Sans Typewriter", "Bitstream Vera Sans Mono", monospace;
+	font-size: 11px;
+}
+
+/* Links in general */
+a {
+	color: #212424;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	background-color: transparent;
+}
+
+a.t3-link {
+	text-decoration: underline;
+}
+
+/* horizontal ruler */
+hr, div.hr {
+	background-color: #ddd;
+	border-bottom: 1px solid black;
+	border-top: 1px solid #7a7a7a;
+	color: #ddd;
+}
+
+img {
+	border: 0px;
+}
+
+em {
+	font-style: italic;
+}
+
+th,
+strong {
+	font-weight: bold;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Background color classes
+- - - - - - - - - - - - - - - - - - - - - */
+
+.bgColor-20 {
+	background-color: #e3dfdb;
+}
+
+.bgColor2 {
+	background-color: #585858;
+	color: #ffffff;
+}
+
+.bgColor3 {
+	background-color: #f6f2e6;
+}
+
+.bgColor3-20 {
+	background-color: #f7f7f7;
+}
+
+.bgColor4 {
+	background-color: #f1f1f1;
+	color: #212424;
+}
+
+.bgColor4-20 {
+	background-color: #f8f9fa;
+}
+
+.bgColor5 {
+	background-color: #9b9b9b;
+}
+
+.bgColor6 {
+	background-color: #f7f7f7;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Various classes
+- - - - - - - - - - - - - - - - - - - - - */
+
+/** used for any table where a table is used for displaying information (and thus, there is air to breathe) **/
+table.t3-table-info {
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+}
+
+.t3-row-header {
+	background-color: #5b5b5b;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/row-header.png');
+	background-image: linear-gradient(center top , #7f7f7f 10%, #5b5b5b 100%);
+	background-image: -moz-linear-gradient(center top , #7f7f7f 10%, #5b5b5b 100%);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.1, #7f7f7f), color-stop(1, #5b5b5b));
+	background-repeat: repeat-x;
+	color: #fff;
+	font-size: 10px;
+	line-height: 19px;
+	height: 20px;
+}
+
+.t3-row-header a {
+	color: #fff;
+	float: left;
+}
+
+.t3-col-header {
+	background-color: #585858;
+	color: #fff;
+	font-size: 10px;
+	line-height: 19px;
+	height: 20px;
+	font-weight: bold;
+}
+
+.nobr {
+	white-space: nowrap;
+}
+
+.diff-r {
+	color: red;
+}
+
+.diff-g {
+	color: green;
+}
+
+div.diff-r {
+	background-color: red;
+	color: black;
+}
+
+div.diff-g {
+	background-color: green;
+	color: black;
+}
+
+textarea.fixed-font {
+	font-family: "Lucida Console", "Lucida Sans Typewriter", "Bitstream Vera Sans Mono", monospace;
+	font-size: 11px;
+}
+
+/** .uppercase is kept for backwards-compatibility, use .divider */
+.divider,
+.uppercase {
+	border-bottom: 1px solid #cdcdcd;
+}
+.tableheader td {
+	font-weight: bold;
+}
+
+/** used in the admin tools => DB check **/
+.t3-overview-list dt {
+	font-weight: bold;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+Dimmed span tag color (disabled)
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-dimmed {
+	color: #666;
+}
+
+.c-na {
+	color: #666;
+	font-style: italic;
+}
+
+.not-found a {
+	color: #cccccc;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Red span tag color (warning, notice)
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-red {
+	color: red;
+}
+
+.typo3-red-background {
+	background-color: red;
+}
+
+table.warningbox {
+	border: solid 2px black;
+	background-color: yellow;
+	margin: 20px 0px 20px 0px;
+}
+
+table.warningbox td {
+	padding: 20px 20px 20px 20px;
+	font-weight: bold;
+}
+
+table.warningbox td a {
+	text-decoration: underline;
+}
+
+div.warningbox {
+	border: solid 2px black;
+	background-color: yellow;
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+span.warningboxheader {
+	margin-left: 5px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - -
+input elements
+- - - - - - - - - - - - - - - - - - - - - */
+
+input,
+textarea,
+select,
+submit {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+textarea {
+	background-color: #fefefe;
+	border: 1px solid #7c7c7c;
+}
+
+textarea:hover {
+	border: 1px solid #737f91;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background-color: #f6f6f6;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/button.png');
+	background-image: linear-gradient(center top, #f6f6f6 10%, #d5d5d5 90%);
+	background-image: -moz-linear-gradient(center top, #f6f6f6 10%, #d5d5d5 90%);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.1, #f6f6f6), color-stop(0.9, #d5d5d5));
+	background-position: bottom;
+	background-repeat: repeat-x;
+	border: 1px solid #7c7c7c;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	color: #434343;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	background-color: #c8c8c8;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/button-hover.png');
+	background-image: linear-gradient(center top, #f6f6f6 10%, #c8c8c8 90%);
+	background-image: -moz-linear-gradient(center top, #f6f6f6 10%, #bdbcbc 90%);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.1, #f6f6f6), color-stop(0.9, #c8c8c8));
+	background-position: bottom;
+	background-repeat: repeat-x;
+	border: 1px solid #737f91;
+	color: #1e1e1e;
+	cursor: pointer;
+}
+
+.checkbox,
+.checkbox:hover,
+input[type="checkbox"] {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Decorations (shadows etc.)
+
+$Id$
+- - - - - - - - - - - - - - - - - - - - - */
+
+.shadow-box-bottom-424 {
+	background-image: url('../../typo3/sysext/t3skin/images/shadows/box-bottom-424.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.shadow-box-top-428 {
+	background-image: url('../../typo3/sysext/t3skin/images/shadows/box-top-428.png');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Tools > Extension Manager
+
+$Id: module_admin_extension_manager.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-mod-tools-em-index-php .em-listbg1 {
+	background-color: #d8ecd0;
+}
+
+body#typo3-mod-tools-em-index-php .em-listbg2 {
+	background-color: #e6e6e6;
+}
+
+body#typo3-mod-tools-em-index-php .em-listbg3 {
+	background-color: #efefef;
+}
+
+body#typo3-mod-tools-em-index-php tr.bgColor5 td {
+	font-weight: bold;
+}
+
+body#typo3-mod-tools-em-index-php tr.unsupported-ext {
+	background-color: #ffdddd;
+}
+
+body#typo3-mod-tools-em-index-php tr.unsupported-ext td {
+	color: #ff0000;
+}
+
+body#typo3-mod-tools-em-index-php tr.unsupported-ext td a {
+	color: #ff0000;
+}
+
+body#typo3-mod-tools-em-index-php tr td.extstate {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+File > List
+
+$Id: module_file_list.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-filelist {
+	border: 1px solid #a2aab8;
+}
+
+table#typo3-filelist tr td.c-headLine {
+	background-color: #b8bec9;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/alt_menu_mainitem_bg.gif');
+	background-repeat: repeat-x;
+	font-weight: bold;
+}
+
+table#typo3-filelist tr td.c-headLine a {
+	color: #fff;
+}
+
+table#typo3-filelist td {
+	border-right: 1px solid #f1f1f1;
+}
+
+table#typo3-filelist td:last-child {
+	border-right: none;
+}
+
+table#typo3-filelist tbody tr:hover td {
+	background-color: #dedede;
+}
+
+table#typo3-filelist tr td img {
+	text-align: center;
+}
+
+table#typo3-filelist tr td div.typo3-clipCtrl,
+table#typo3-filelist tr td div.typo3-editCtrl {
+	text-align: center;
+}/* - - - - - - - - - - - - - - - - - - - - -
+File Upload Window
+
+$Id: module_file_upload.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.t3icon-ext-upload {
+	background: url('../../typo3/sysext/t3skin/icons/gfx/upload.gif') 1px 1px no-repeat !important;
+}
+.t3icon-ext-cancel {
+	background: url('../../typo3/sysext/t3skin/icons/gfx/icon_fatalerror.gif') 1px 1px no-repeat !important;
+}
+
+.t3-upload-window-progressbar .x-progress-text div {
+	text-align: left;
+	text-indent: 6px;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Help > About
+
+$Id: module_help_about.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-mod-help-about-index-php-outer {
+	text-align: center;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner {
+	background: #ffffff;
+	border: 1px solid #adadad;
+	text-align: left;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner h3 {
+	font-size: 14px;
+	text-align: left;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner p {
+	color: #555555;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner a {
+	color: black;
+	text-decoration: underline;
+}
+
+#typo3-mod-help-about-index-php-outer .typo3-mod-help-about-index-php-inner a:hover {
+	text-decoration: none;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Help > About modules (alt_intro.php)
+
+$Id: module_help_about_module.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-about-modules {
+	background: #ffffff;
+	border-collapse: collapse;
+}
+
+table#typo3-about-modules tr.c-first td {
+	border-top: 1px solid #ccc;
+}
+
+table#typo3-about-modules tr.c-endrow td {
+	border-bottom: 1px solid #ccc;
+}
+
+table#typo3-about-modules tr.c-first,
+table#typo3-about-modules tr.c-endrow,
+table#typo3-about-modules tr.c-subitem-row {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Context Sensitive Help window (view_help.php)
+
+$Id: module_help_manual.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+div.typo3-view-help img.c-inlineimg {
+	border: 1px solid #cccccc;
+}
+
+div.typo3-view-help div.c-toc {
+	border: 1px solid #cccccc;
+}
+
+div.typo3-view-help div.c-toc ul li {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div.typo3-view-help div.c-toc ul li ul li {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+div.typo3-view-help p.c-nav a {
+	font-weight: bold;
+}
+
+div.typo3-view-help a.glossary-term {
+	font-style: italic;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Module menu
+
+$Id: module_menu.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-module-menu {
+	background: #dddddd;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/module-menu-right.gif');
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+#typo3-module-menu .x-panel-body {
+	background-color: transparent;
+}
+
+#typo3-side-menu {
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/module-menu-top.png');
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+#typo3-menu,
+#typo3-menu ul {
+	list-style: none;
+}
+
+#typo3-menu a {
+	color: #1e2121;
+}
+
+#typo3-menu > li {
+	border-bottom: 1px solid #c7c7c7;
+	border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+}
+
+#typo3-menu > li:last-child {
+	border-bottom: none;
+}
+
+#typo3-menu li.menuSection li a:hover,
+#typo3-menu li.menuSection li.hover a,
+#typo3-menu li.highlighted a {
+	background-color: #f1f1f1;
+	border-top: 1px solid #b8b8b8;
+	border-bottom: 1px solid #b8b8b8;
+}
+
+#typo3-menu li.highlighted {
+	font-weight: bold;
+}
+
+#typo3-menu li div {
+	color: #252524;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#typo3-menu li div.collapsed {
+	background-image: url('../../typo3/sysext/t3skin/images/arrows/module-menu-right.png');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+
+#typo3-menu li div.expanded {
+	background-image: url('../../typo3/sysext/t3skin/images/arrows/module-menu-down.png');
+	background-position: 4px 7px;
+	background-repeat: no-repeat;
+}
+
+#typo3-menu li ul li {
+	cursor: pointer;
+	font-weight: normal;
+	line-height: 15px;
+}
+
+#typo3-menu li ul li a {
+	text-decoration: none;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Web > Access
+
+$Id: module_web_access.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-permissionMatrix td {
+	text-align: center;
+}
+
+table#typo3-permissionMatrix td.bgColor2 {
+	font-weight: bold;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Info
+
+$Id: module_web_info.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-page-pages tr td.c-headLine {
+	background-color: #abbbb4;
+}
+
+table.typo3-page-sysnote tr td {
+	background-color: #d9d5c9;
+}
+
+table.typo3-page-sysnote tr td.c-headLine {
+	background-color: #c5c1b5;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > List
+
+$Id: module_web_list.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-dblist,
+table.typo3-page-stdlist {
+	background: #fff;
+	border: 1px solid #a2aab8;
+}
+
+table.typo3-dblist tr td.db_list_alt {
+	background-color: #e3dfd3;
+}
+
+table.typo3-dblist tr.db_list_alt td,
+table.typo3-page-stdlist tr.db_list_alt td {
+	background-color: #e4e5f0;
+}
+
+tr.t3-row-header td {
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 16px;
+}
+
+table.typo3-page-stdlist .bgColor4,
+table#typo3-dblist-top table.bgColor4 {
+	background-color: #efeff4;
+}
+
+table.typo3-dblist tr td.c-headLine,
+table.typo3-page-stdlist tr td.c-headLine,
+table.typo3-dblist tr.c-headLine td {
+	border-bottom: 1px solid #cdcdcd;
+}
+
+table.typo3-dblist tr.c-headLine td.col-title a {
+	font-weight: bold;
+}
+
+table.typo3-dblist-overview td.c-tableDescription {
+	color: #333;
+	font-style: italic;
+}
+
+table.typo3-dblist tr td .typo3-DBctrl .typo3-ctrl-versioning {
+	font-weight: bold;
+	line-height: 16px;
+	text-align: center;
+}
+
+table.typo3-dblist tr td .typo3-DBctrl .typo3-ctrl-versioning-multipleVersions {
+	background-color: #ffff00;
+}
+
+table.typo3-dblist tr td .typo3-DBctrl .typo3-ctrl-versioning-oneVersion {
+	background-color: #9999cc;
+}
+
+table.typo3-dblist tr.db_list_normal:nth-child(odd) td {
+	background-color: #f7f7f7;
+}
+
+table.typo3-dblist tr.db_list_normal:nth-child(even) td {
+	background-color: #ffffff;
+}
+
+table.typo3-dblist tr.db_list_normal:hover td,
+table.typo3-dblist tr.c-headLine:hover td {
+	background-color: #dedede;
+}
+
+table#typo3-versionSelector {
+	/*background-color: #abbbb4;*/
+}
+
+div#typo3-newRecordLink,
+div.typo3-newRecordLink,
+div.typo3-localizationLink,
+div.typo3-synchronizationLink {
+	font-weight: bold;
+}
+
+div#typo3-dblist-pagination {
+	white-space: nowrap;
+}
+
+div#typo3-dblist-pagination span.bar {
+	border-left: 1px solid #5485c3;
+}
+
+/* Special treatment for searchfield on page */
+#typo3-dblist-search input[type="submit"] {
+	border: 1px solid #acb3be;
+	color: #333;
+	cursor: pointer;
+}
+
+#typo3-dblist-search input[type="submit"]:hover {
+	border: 1px solid #737f91;
+	color: #000;
+	cursor: pointer;
+}/* - - - - - - - - - - - - - - - - - - - - -
+New Record Wizard
+
+$Id: module_web_new_element.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-db-new-php a {
+	text-decoration: none;
+}
+
+body#typo3-db-new-php img.c-helpImg {
+	text-align: right;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Page
+
+$Id: module_web_page.css 8451 2010-07-30 11:45:08Z steffenk $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.t3-page-colHeader {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.t3-page-colHeader-label {
+	text-align: center;
+}
+
+.t3-page-ce-header {
+	background-color: #cacaca;
+}
+
+.t3-page-ce .t3-page-ce-body,
+.t3-page-ce.active .t3-page-ce-body {
+	background-color: #ffffff;
+	border: 1px solid #e2e2e2;
+	border-top: none;
+	font-size: 10px;
+}
+
+.t3-page-ce.active .t3-page-ce-body {
+	border-color: #5b5b5b;
+}
+
+.t3-page-ce-hidden .t3-page-ce-body,
+.t3-page-ce-hidden .t3-page-ce-body a {
+	color: #bbbbbb;
+}
+
+.t3-page-ce-hidden.active .t3-page-ce-body,
+.t3-page-ce-hidden.active .t3-page-ce-body a {
+	color: #000000;
+}
+
+.t3-page-ce-hidden .t3-page-ce-body {
+	background-color: transparent;
+	border-style: none dotted dotted;
+}
+
+.t3-page-ce-hidden .t3-page-ce-body .t3-icon ,
+.t3-page-ce-hidden .t3-page-ce-body img {
+	opacity: 0.4;
+}
+
+.t3-page-ce.active .t3-page-ce-body {
+	background-color: #ffffff;
+}
+
+.t3-page-ce.active .t3-page-ce-body .t3-icon ,
+.t3-page-ce.active .t3-page-ce-body img {
+	opacity: inherit;
+}
+
+.t3-page-ce-hidden .t3-page-ce-header {
+	background-color: #e5e5e5;
+}
+
+table.typo3-page-columnsMode tr td a {
+	text-decoration: none;
+}
+
+table.typo3-page-columnsMode tr td a b {
+	text-decoration: underline;
+}
+
+table.t3-page-columns tr td span.exampleContent a {
+	text-decoration: none;
+}
+
+table#typo3-page-stdlist tr td.c-headLine {
+	background-color: #d7dbe2;
+}
+
+table.typo3-page-buttons td {
+	padding-right: 10px;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+Web > Permissions
+
+$Id: module_web_permissions.css 7974 2010-06-20 08:05:51Z benni $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a.perm-allowed,
+a.perm-denied,
+#perm-legend .perm-allowed,
+#perm-legend .perm-denied {
+	cursor: pointer;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+a.perm-allowed:hover,
+a.perm-denied:hover {
+	background-color: #e3dfdb;
+}
+
+a.perm-allowed,
+#perm-legend .perm-allowed {
+	background: transparent url('../../typo3/sysext/t3skin/icons/gfx/perm-allowed.gif') no-repeat scroll center;
+	color: green;
+}
+
+a.perm-denied,
+#perm-legend .perm-denied {
+	background: transparent url('../../typo3/sysext/t3skin/icons/gfx/perm-denied.gif') no-repeat scroll center;
+	color: red;
+}
+
+.ug_selector,
+.ug_selector a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.not_set,
+.not_set a,
+.editlock,
+.editlock a {
+	color: #ccc;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.not_set:hover,
+.not_set a:hover,
+.editlock:hover,
+.editlock a:hover {
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.not_set {
+	color: #000;
+	font-style: italic;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Web > Template
+
+$Id: module_web_template.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.typo3-tstemplate-ceditor-control {
+	cursor: pointer;
+}
+
+dt.typo3-tstemplate-ceditor-label {
+	font-size: 11px;
+	font-weight: bold;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Toolbar inside the Topbar
+
+$Id: toolbar.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-toolbar {
+	list-style: none;
+}
+
+.toolbar-item {
+	text-align: center;
+}
+
+#typo3-toolbar .no-separator {
+	background-image: none;
+}
+
+.toolbar-item-active {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/toolbar_item_active_bg.png');
+}/* - - - - - - - - - - - - - - - - - - - - -
+Clear-Cache menu inside the toolbar
+
+$Id: toolbar_caching.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#clear-cache-actions-menu ul {
+	background-color: #f9f9f9;
+	border: 1px solid #abb2bc;
+	border-top: none;
+	list-style: none;
+}
+
+#clear-cache-actions-menu li {
+	text-align: left;
+}
+
+#clear-cache-actions-menu li a {
+	font-size: 11px;
+	line-height: 12px;
+	text-decoration: none;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Logout-Button
+
+$Id: toolbar_logout.css 7978 2010-06-20 11:09:24Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#logout-button input {
+	background: #494949;
+	border: 1px solid #636363;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+}
+
+#logout-button input:hover {
+	background-color: #c8c8c8;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/button-hover.png');
+	background-image: linear-gradient(center top, #f6f6f6 10%, #c8c8c8 90%);
+	background-image: -moz-linear-gradient(center top, #f6f6f6 10%, #bdbcbc 90%);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.1, #f6f6f6), color-stop(0.9, #c8c8c8));
+	border: 1px solid #737f91;
+	color: #000;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Backend Search
+
+$Id: toolbar_search.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#backend-search-menu div {
+	background-color: #f9f9f9;
+	border: 1px solid #abb2bc;
+	border-top: none;
+	text-align: right;
+}
+
+#search-query {
+	border: 1px #848484 solid;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Shortcuts menu in the toolbar
+
+$Id: toolbar_shortcut.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#shortcut-menu .toolbar-item-menu {
+	background-color: #f9f9f9;
+	border: 1px solid #abb2bc;
+	border-top: none;
+	list-style: none;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut td {
+	line-height: 16px;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut.first-row td {
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/shortcutgroups-bg.png');
+	background-repeat: repeat-x;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut-group td.shortcut-group-icon,
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-icon,
+#shortcut-menu .shortcut-list td.shortcut-edit,
+#shortcut-menu .shortcut-list td.shortcut-delete {
+	text-align: center;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-label a {
+	cursor: pointer;
+}
+
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-edit img,
+#shortcut-menu .shortcut-list tr.shortcut td.shortcut-delete img {
+	cursor: pointer;
+}
+
+#shortcut-menu .shortcut-list .shortcut-group td {
+	background-color: #dbdbdb;
+	border-bottom: 1px solid #a5a5a5;
+	border-top: 1px solid #a5a5a5;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Username inside the toolbar
+
+$Id: toolbar_username.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#username.su-user {
+	color: #eb6e5a;
+	font-weight: bold;
+}
+
+#username a {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 16px;
+	text-decoration: none;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Workspace Selector
+
+$Id: toolbar_workspace.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#workspace-selector-menu ul {
+	list-style: none;
+	background-color: #f9f9f9;
+	border: 1px solid #abb2bc;
+	border-top: none;
+}
+
+#workspace-selector-menu li {
+	text-align: left;
+}
+
+#workspace-selector-menu li a {
+	font-size: 11px;
+	line-height: 12px;
+	text-decoration: none;
+}
+
+#workspace-selector-menu li.divider {
+	border-right: 1px solid #a5a5a5;
+	border-top: 1px solid #a5a5a5;
+	background-image: url('../../typo3/sysext/t3skin/icons/gfx/shortcutgroups-bg.png');
+	background-repeat: repeat-x;
+}/* - - - - - - - - - - - - - - - - - - - - -
+Topbar (whole upper area), containts Logo and toolbar
+
+$Id: topbar.css 7978 2010-06-20 11:09:24Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-top-container {
+	background-color: #3f3f3f;
+	background-image: url('../../typo3/sysext/t3skin/images/backgrounds/topbar.png');
+	background-image: gradient(center top , #494949 0%, #373737 91%, #343434 92%, #2A2A2A 100%);
+	background-image: -moz-linear-gradient(center top , #494949 0%, #373737 91%, #343434 92%, #2A2A2A 100%);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #494949) color-stop(0.91, #373737), color-stop(0.92, #343434), color-stop(1, #2a2a2a));
+	background-repeat: repeat-x;
+}span.t3-icon {
+	margin-right: 2px;
+	vertical-align: middle;
+}
+span.t3-icon-overlay {
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-decoration: none;
+	padding: 0;
+}
+.t3-icon-empty {
+	background-image: none;
+}
+
+.t3-icon-actions {
+	background-image:url('../../typo3/sysext/t3skin/images/sprites/t3-icon-actions.png');
+}
+
+.t3-icon-actions.t3-icon-move-down {
+	background-position: 0 0px;
+}
+.t3-icon-actions.t3-icon-edit-add {
+	background-position: 0 -24px;
+}
+.t3-icon-actions.t3-icon-move-to-bottom {
+	background-position: 0 -48px;
+}
+.t3-icon-actions.t3-icon-document-move {
+	background-position: 0 -72px;
+}
+.t3-icon-actions.t3-icon-system-list-open {
+	background-position: 0 -96px;
+}
+.t3-icon-actions.t3-icon-document-export-t3d {
+	background-position: 0 -120px;
+}
+.t3-icon-actions.t3-icon-version-swap-workspace {
+	background-position: 0 -144px;
+}
+.t3-icon-actions.t3-icon-move-left {
+	background-position: 0 -168px;
+}
+.t3-icon-actions.t3-icon-view-go-forward {
+	background-position: 0 -192px;
+}
+.t3-icon-actions.t3-icon-view-paging-next {
+	background-position: 0 -216px;
+}
+.t3-icon-actions.t3-icon-system-cache-clear-impact-low {
+	background-position: 0 -240px;
+}
+.t3-icon-actions.t3-icon-document-close {
+	background-position: 0 -264px;
+}
+.t3-icon-actions.t3-icon-system-shortcut-new {
+	background-position: 0 -288px;
+}
+.t3-icon-actions.t3-icon-version-page-open {
+	background-position: 0 -312px;
+}
+.t3-icon-actions.t3-icon-edit-copy {
+	background-position: 0 -336px;
+}
+.t3-icon-actions.t3-icon-insert-record {
+	background-position: 0 -360px;
+}
+.t3-icon-actions.t3-icon-selection-delete {
+	background-position: 0 -384px;
+}
+.t3-icon-actions.t3-icon-system-extension-uninstall {
+	background-position: 0 -408px;
+}
+.t3-icon-actions.t3-icon-page-open {
+	background-position: 0 -432px;
+}
+.t3-icon-actions.t3-icon-view-go-back {
+	background-position: 0 -456px;
+}
+.t3-icon-actions.t3-icon-system-tree-search-open {
+	background-position: 0 -480px;
+}
+.t3-icon-actions.t3-icon-document-save-view {
+	background-position: 0 -504px;
+}
+.t3-icon-actions.t3-icon-system-extension-update {
+	background-position: 0 -528px;
+}
+.t3-icon-actions.t3-icon-system-backend-user-emulate {
+	background-position: 0 -552px;
+}
+.t3-icon-actions.t3-icon-system-cache-clear-impact-high {
+	background-position: 0 -576px;
+}
+.t3-icon-actions.t3-icon-view-paging-first-disabled {
+	background-position: 0 -600px;
+}
+.t3-icon-actions.t3-icon-document-save-new {
+	background-position: 0 -624px;
+}
+.t3-icon-actions.t3-icon-edit-unhide {
+	background-position: 0 -648px;
+}
+.t3-icon-actions.t3-icon-document-new {
+	background-position: 0 -672px;
+}
+.t3-icon-actions.t3-icon-page-move {
+	background-position: 0 -696px;
+}
+.t3-icon-actions.t3-icon-document-save-close {
+	background-position: 0 -720px;
+}
+.t3-icon-actions.t3-icon-document-import-t3d {
+	background-position: 0 -744px;
+}
+.t3-icon-actions.t3-icon-edit-localize-status-high {
+	background-position: 0 -768px;
+}
+.t3-icon-actions.t3-icon-move-move {
+	background-position: 0 -792px;
+}
+.t3-icon-actions.t3-icon-edit-upload {
+	background-position: 0 -816px;
+}
+.t3-icon-actions.t3-icon-document-info {
+	background-position: 0 -840px;
+}
+.t3-icon-actions.t3-icon-system-cache-clear {
+	background-position: 0 -864px;
+}
+.t3-icon-actions.t3-icon-edit-rename {
+	background-position: 0 -888px;
+}
+.t3-icon-actions.t3-icon-edit-cut {
+	background-position: 0 -912px;
+}
+.t3-icon-actions.t3-icon-view-paging-previous {
+	background-position: 0 -936px;
+}
+.t3-icon-actions.t3-icon-version-document-remove {
+	background-position: 0 -960px;
+}
+.t3-icon-actions.t3-icon-system-help-open {
+	background-position: 0 -984px;
+}
+.t3-icon-actions.t3-icon-view-paging-last-disabled {
+	background-position: 0 -1008px;
+}
+.t3-icon-actions.t3-icon-move-up {
+	background-position: 0 -1032px;
+}
+.t3-icon-actions.t3-icon-insert-reference {
+	background-position: 0 -1056px;
+}
+.t3-icon-actions.t3-icon-edit-undelete-edit {
+	background-position: 0 -1080px;
+}
+.t3-icon-actions.t3-icon-document-duplicates-select {
+	background-position: 0 -1104px;
+}
+.t3-icon-actions.t3-icon-system-extension-install {
+	background-position: 0 -1128px;
+}
+.t3-icon-actions.t3-icon-document-save {
+	background-position: 0 -1152px;
+}
+.t3-icon-actions.t3-icon-edit-restore {
+	background-position: 0 -1176px;
+}
+.t3-icon-actions.t3-icon-system-backend-user-switch {
+	background-position: 0 -1200px;
+}
+.t3-icon-actions.t3-icon-document-paste-after {
+	background-position: 0 -1224px;
+}
+.t3-icon-actions.t3-icon-system-typoscript-documentation {
+	background-position: 0 -1248px;
+}
+.t3-icon-actions.t3-icon-document-open-read-only {
+	background-position: 0 -1272px;
+}
+.t3-icon-actions.t3-icon-system-typoscript-documentation-open {
+	background-position: 0 -1296px;
+}
+.t3-icon-actions.t3-icon-edit-pick-date {
+	background-position: 0 -1320px;
+}
+.t3-icon-actions.t3-icon-view-paging-previous-disabled {
+	background-position: 0 -1344px;
+}
+.t3-icon-actions.t3-icon-edit-cut-release {
+	background-position: 0 -1368px;
+}
+.t3-icon-actions.t3-icon-system-extension-import {
+	background-position: 0 -1392px;
+}
+.t3-icon-actions.t3-icon-view-go-down {
+	background-position: 0 -1416px;
+}
+.t3-icon-actions.t3-icon-document-edit-access {
+	background-position: 0 -1440px;
+}
+.t3-icon-actions.t3-icon-edit-undo {
+	background-position: 0 -1464px;
+}
+.t3-icon-actions.t3-icon-document-open {
+	background-position: 0 -1488px;
+}
+.t3-icon-actions.t3-icon-view-list-expand {
+	background-position: 0 -1512px;
+}
+.t3-icon-actions.t3-icon-view-paging-first {
+	background-position: 0 -1536px;
+}
+.t3-icon-actions.t3-icon-document-localize {
+	background-position: 0 -1560px;
+}
+.t3-icon-actions.t3-icon-view-table-expand {
+	background-position: 0 -1584px;
+}
+.t3-icon-actions.t3-icon-system-refresh {
+	background-position: 0 -1608px;
+}
+.t3-icon-actions.t3-icon-system-extension-documentation {
+	background-position: 0 -1632px;
+}
+.t3-icon-actions.t3-icon-system-cache-clear-rte {
+	background-position: 0 -1656px;
+}
+.t3-icon-actions.t3-icon-page-new {
+	background-position: 0 -1680px;
+}
+.t3-icon-actions.t3-icon-view-paging-next-disabled {
+	background-position: 0 -1704px;
+}
+.t3-icon-actions.t3-icon-view-paging-last {
+	background-position: 0 -1728px;
+}
+.t3-icon-actions.t3-icon-document-paste-into {
+	background-position: 0 -1752px;
+}
+.t3-icon-actions.t3-icon-document-history-open {
+	background-position: 0 -1776px;
+}
+.t3-icon-actions.t3-icon-view-table-collapse {
+	background-position: 0 -1800px;
+}
+.t3-icon-actions.t3-icon-document-export-csv {
+	background-position: 0 -1824px;
+}
+.t3-icon-actions.t3-icon-document-select {
+	background-position: 0 -1848px;
+}
+.t3-icon-actions.t3-icon-version-swap-version {
+	background-position: 0 -1872px;
+}
+.t3-icon-actions.t3-icon-move-to-top {
+	background-position: 0 -1896px;
+}
+.t3-icon-actions.t3-icon-view-list-collapse {
+	background-position: 0 -1920px;
+}
+.t3-icon-actions.t3-icon-edit-copy-release {
+	background-position: 0 -1944px;
+}
+.t3-icon-actions.t3-icon-template-new {
+	background-position: 0 -1968px;
+}
+.t3-icon-actions.t3-icon-system-extension-download {
+	background-position: 0 -1992px;
+}
+.t3-icon-actions.t3-icon-system-cache-clear-impact-medium {
+	background-position: 0 -2016px;
+}
+.t3-icon-actions.t3-icon-view-go-up {
+	background-position: 0 -2040px;
+}
+.t3-icon-actions.t3-icon-edit-hide {
+	background-position: 0 -2064px;
+}
+.t3-icon-actions.t3-icon-document-view {
+	background-position: 0 -2088px;
+}
+.t3-icon-actions.t3-icon-edit-localize-status-low {
+	background-position: 0 -2112px;
+}
+.t3-icon-actions.t3-icon-system-options-view {
+	background-position: 0 -2136px;
+}
+.t3-icon-actions.t3-icon-edit-insert-default {
+	background-position: 0 -2160px;
+}
+.t3-icon-actions.t3-icon-edit-delete {
+	background-position: 0 -2184px;
+}
+.t3-icon-actions.t3-icon-move-right {
+	background-position: 0 -2208px;
+}
+.t3-icon-actions.t3-icon-window-open {
+	background-position: 0 -2232px;
+}
+.t3-icon-apps {
+	background-image:url('../../typo3/sysext/t3skin/images/sprites/t3-icon-apps.png');
+}
+
+.t3-icon-apps.t3-icon-filetree-root {
+	background-position: 0 0px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-frontend-users {
+	background-position: 0 -24px;
+}
+.t3-icon-apps.t3-icon-toolbar-menu-opendocs {
+	background-position: 0 -48px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-recycler {
+	background-position: 0 -72px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-temp {
+	background-position: 0 -96px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-advanced-hideinmenu {
+	background-position: 0 -120px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-shortcut-hideinmenu {
+	background-position: 0 -144px;
+}
+.t3-icon-apps.t3-icon-pagetree-backend-user {
+	background-position: 0 -168px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-frontend-user-hideinmenu {
+	background-position: 0 -192px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-default {
+	background-position: 0 -216px;
+}
+.t3-icon-apps.t3-icon-pagetree-drag-place-denied {
+	background-position: 0 -240px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-user {
+	background-position: 0 -264px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-shortcut-external-hideinmenu {
+	background-position: 0 -288px;
+}
+.t3-icon-apps.t3-icon-toolbar-menu-actions {
+	background-position: 0 -312px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-shortcut-root {
+	background-position: 0 -336px;
+}
+.t3-icon-apps.t3-icon-pagetree-drag-new-inside {
+	background-position: 0 -360px;
+}
+.t3-icon-apps.t3-icon-pagetree-drag-move-into {
+	background-position: 0 -384px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-backend-users-root {
+	background-position: 0 -408px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-add {
+	background-position: 0 -432px;
+}
+.t3-icon-apps.t3-icon-pagetree-folder-contains-fe_users {
+	background-position: 0 -456px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-domain {
+	background-position: 0 -480px;
+}
+.t3-icon-apps.t3-icon-pagetree-folder-contains-shop {
+	background-position: 0 -504px;
+}
+.t3-icon-apps.t3-icon-toolbar-menu-workspace {
+	background-position: 0 -528px;
+}
+.t3-icon-apps.t3-icon-pagetree-drag-new-between {
+	background-position: 0 -552px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-shortcut-external {
+	background-position: 0 -576px;
+}
+.t3-icon-apps.t3-icon-pagetree-drag-move-between {
+	background-position: 0 -600px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-backend-users {
+	background-position: 0 -624px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-locked {
+	background-position: 0 -648px;
+}
+.t3-icon-apps.t3-icon-pagetree-folder-contains-news {
+	background-position: 0 -672px;
+}
+.t3-icon-apps.t3-icon-pagetree-backend-user-hideinmenu {
+	background-position: 0 -696px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-mountpoint {
+	background-position: 0 -720px;
+}
+.t3-icon-apps.t3-icon-pagetree-root {
+	background-position: 0 -744px;
+}
+.t3-icon-apps.t3-icon-pagetree-folder-contains-approve {
+	background-position: 0 -768px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-frontend-user {
+	background-position: 0 -792px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-shortcut-external-root {
+	background-position: 0 -816px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-advanced {
+	background-position: 0 -840px;
+}
+.t3-icon-apps.t3-icon-toolbar-menu-cache {
+	background-position: 0 -864px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-frontend-users-hideinmenu {
+	background-position: 0 -888px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-frontend-users-root {
+	background-position: 0 -912px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-frontend-user-root {
+	background-position: 0 -936px;
+}
+.t3-icon-apps.t3-icon-pagetree-folder-contains-board {
+	background-position: 0 -960px;
+}
+.t3-icon-apps.t3-icon-filetree-mount {
+	background-position: 0 -984px;
+}
+.t3-icon-apps.t3-icon-toolbar-menu-shortcut {
+	background-position: 0 -1008px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-no-icon-found-hideinmenu {
+	background-position: 0 -1032px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-default {
+	background-position: 0 -1056px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-shortcut {
+	background-position: 0 -1080px;
+}
+.t3-icon-apps.t3-icon-clipboard-images {
+	background-position: 0 -1104px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-no-icon-found {
+	background-position: 0 -1128px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-media {
+	background-position: 0 -1152px;
+}
+.t3-icon-apps.t3-icon-pagetree-spacer {
+	background-position: 0 -1176px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-mountpoint-root {
+	background-position: 0 -1200px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-advanced-root {
+	background-position: 0 -1224px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-mountpoint-hideinmenu {
+	background-position: 0 -1248px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-backend-users-hideinmenu {
+	background-position: 0 -1272px;
+}
+.t3-icon-apps.t3-icon-pagetree-folder-default {
+	background-position: 0 -1296px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-not-in-menu {
+	background-position: 0 -1320px;
+}
+.t3-icon-apps.t3-icon-toolbar-menu-search {
+	background-position: 0 -1344px;
+}
+.t3-icon-apps.t3-icon-clipboard-list {
+	background-position: 0 -1368px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-news {
+	background-position: 0 -1392px;
+}
+.t3-icon-apps.t3-icon-pagetree-page-no-icon-found-root {
+	background-position: 0 -1416px;
+}
+.t3-icon-apps.t3-icon-filetree-folder-list {
+	background-position: 0 -1440px;
+}
+.t3-icon-mimetypes {
+	background-image:url('../../typo3/sysext/t3skin/images/sprites/t3-icon-mimetypes.png');
+}
+
+.t3-icon-mimetypes.t3-icon-x-content-link {
+	background-position: 0 0px;
+}
+.t3-icon-mimetypes.t3-icon-text-css {
+	background-position: 0 -24px;
+}
+.t3-icon-mimetypes.t3-icon-media-video {
+	background-position: 0 -48px;
+}
+.t3-icon-mimetypes.t3-icon-x-sys_action {
+	background-position: 0 -72px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-script {
+	background-position: 0 -96px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-plugin {
+	background-position: 0 -120px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-template-extension {
+	background-position: 0 -144px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-page-language-overlay {
+	background-position: 0 -168px;
+}
+.t3-icon-mimetypes.t3-icon-media-audio {
+	background-position: 0 -192px;
+}
+.t3-icon-mimetypes.t3-icon-other-other {
+	background-position: 0 -216px;
+}
+.t3-icon-mimetypes.t3-icon-x-sys_language {
+	background-position: 0 -240px;
+}
+.t3-icon-mimetypes.t3-icon-pdf {
+	background-position: 0 -264px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-divider {
+	background-position: 0 -288px;
+}
+.t3-icon-mimetypes.t3-icon-powerpoint {
+	background-position: 0 -312px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-table {
+	background-position: 0 -336px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-text-picture {
+	background-position: 0 -360px;
+}
+.t3-icon-mimetypes.t3-icon-x-sys_workspace {
+	background-position: 0 -384px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-login {
+	background-position: 0 -408px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-header {
+	background-position: 0 -432px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-form-search {
+	background-position: 0 -456px;
+}
+.t3-icon-mimetypes.t3-icon-excel {
+	background-position: 0 -480px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-template {
+	background-position: 0 -504px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-multimedia {
+	background-position: 0 -528px;
+}
+.t3-icon-mimetypes.t3-icon-text-csv {
+	background-position: 0 -552px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-list-files {
+	background-position: 0 -576px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-text {
+	background-position: 0 -600px;
+}
+.t3-icon-mimetypes.t3-icon-text-text {
+	background-position: 0 -624px;
+}
+.t3-icon-mimetypes.t3-icon-text-php {
+	background-position: 0 -648px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-list-bullets {
+	background-position: 0 -672px;
+}
+.t3-icon-mimetypes.t3-icon-media-image {
+	background-position: 0 -696px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-form {
+	background-position: 0 -720px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-image {
+	background-position: 0 -744px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-menu {
+	background-position: 0 -768px;
+}
+.t3-icon-mimetypes.t3-icon-compressed {
+	background-position: 0 -792px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-domain {
+	background-position: 0 -816px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-html {
+	background-position: 0 -840px;
+}
+.t3-icon-mimetypes.t3-icon-text-html {
+	background-position: 0 -864px;
+}
+.t3-icon-mimetypes.t3-icon-media-flash {
+	background-position: 0 -888px;
+}
+.t3-icon-mimetypes.t3-icon-x-content-template-static {
+	background-position: 0 -912px;
+}
+.t3-icon-mimetypes.t3-icon-text-js {
+	background-position: 0 -936px;
+}
+.t3-icon-places {
+	background-image:url('../../typo3/sysext/t3skin/images/sprites/t3-icon-places.png');
+}
+
+.t3-icon-places.t3-icon-folder-closed {
+	background-position: 0 0px;
+}
+.t3-icon-places.t3-icon-folder-opened {
+	background-position: 0 -24px;
+}
+.t3-icon-status {
+	background-image:url('../../typo3/sysext/t3skin/images/sprites/t3-icon-status.png');
+}
+
+.t3-icon-status.t3-icon-version-17 {
+	background-position: 0 0px;
+}
+.t3-icon-status.t3-icon-version-44 {
+	background-position: 0 -24px;
+}
+.t3-icon-status.t3-icon-version-40 {
+	background-position: 0 -48px;
+}
+.t3-icon-status.t3-icon-version-47 {
+	background-position: 0 -72px;
+}
+.t3-icon-status.t3-icon-version-5 {
+	background-position: 0 -96px;
+}
+.t3-icon-status.t3-icon-overlay-deleted {
+	background-position: 0 -120px;
+}
+.t3-icon-status.t3-icon-version-3 {
+	background-position: 0 -144px;
+}
+.t3-icon-status.t3-icon-overlay-includes-subpages {
+	background-position: 0 -168px;
+}
+.t3-icon-status.t3-icon-version-21 {
+	background-position: 0 -192px;
+}
+.t3-icon-status.t3-icon-dialog-ok {
+	background-position: 0 -216px;
+}
+.t3-icon-status.t3-icon-version-18 {
+	background-position: 0 -240px;
+}
+.t3-icon-status.t3-icon-version-46 {
+	background-position: 0 -264px;
+}
+.t3-icon-status.t3-icon-version-38 {
+	background-position: 0 -288px;
+}
+.t3-icon-status.t3-icon-status-checked {
+	background-position: 0 -312px;
+}
+.t3-icon-status.t3-icon-version-19 {
+	background-position: 0 -336px;
+}
+.t3-icon-status.t3-icon-dialog-error {
+	background-position: 0 -360px;
+}
+.t3-icon-status.t3-icon-version-14 {
+	background-position: 0 -384px;
+}
+.t3-icon-status.t3-icon-version-39 {
+	background-position: 0 -408px;
+}
+.t3-icon-status.t3-icon-version-no-version {
+	background-position: 0 -432px;
+}
+.t3-icon-status.t3-icon-user-group-backend {
+	background-position: 0 -456px;
+}
+.t3-icon-status.t3-icon-status-edit-read-only {
+	background-position: 0 -480px;
+}
+.t3-icon-status.t3-icon-version-11 {
+	background-position: 0 -504px;
+}
+.t3-icon-status.t3-icon-user-group-frontend {
+	background-position: 0 -528px;
+}
+.t3-icon-status.t3-icon-status-permission-granted {
+	background-position: 0 -552px;
+}
+.t3-icon-status.t3-icon-warning-lock {
+	background-position: 0 -576px;
+}
+.t3-icon-status.t3-icon-version-45 {
+	background-position: 0 -600px;
+}
+.t3-icon-status.t3-icon-overlay-hidden {
+	background-position: 0 -624px;
+}
+.t3-icon-status.t3-icon-version-4 {
+	background-position: 0 -648px;
+}
+.t3-icon-status.t3-icon-version-28 {
+	background-position: 0 -672px;
+}
+.t3-icon-status.t3-icon-version-24 {
+	background-position: 0 -696px;
+}
+.t3-icon-status.t3-icon-version-15 {
+	background-position: 0 -720px;
+}
+.t3-icon-status.t3-icon-overlay-icon-missing {
+	background-position: 0 -744px;
+}
+.t3-icon-status.t3-icon-version-33 {
+	background-position: 0 -768px;
+}
+.t3-icon-status.t3-icon-dialog-information {
+	background-position: 0 -792px;
+}
+.t3-icon-status.t3-icon-version-22 {
+	background-position: 0 -816px;
+}
+.t3-icon-status.t3-icon-user-frontend {
+	background-position: 0 -840px;
+}
+.t3-icon-status.t3-icon-version-9 {
+	background-position: 0 -864px;
+}
+.t3-icon-status.t3-icon-version-50 {
+	background-position: 0 -888px;
+}
+.t3-icon-status.t3-icon-status-icon-missing {
+	background-position: 0 -912px;
+}
+.t3-icon-status.t3-icon-version-29 {
+	background-position: 0 -936px;
+}
+.t3-icon-status.t3-icon-version-13 {
+	background-position: 0 -960px;
+}
+.t3-icon-status.t3-icon-version-6 {
+	background-position: 0 -984px;
+}
+.t3-icon-status.t3-icon-user-backend {
+	background-position: 0 -1008px;
+}
+.t3-icon-status.t3-icon-version-41 {
+	background-position: 0 -1032px;
+}
+.t3-icon-status.t3-icon-version-16 {
+	background-position: 0 -1056px;
+}
+.t3-icon-status.t3-icon-version-37 {
+	background-position: 0 -1080px;
+}
+.t3-icon-status.t3-icon-system-extension-required {
+	background-position: 0 -1104px;
+}
+.t3-icon-status.t3-icon-overlay-scheduled {
+	background-position: 0 -1128px;
+}
+.t3-icon-status.t3-icon-version-34 {
+	background-position: 0 -1152px;
+}
+.t3-icon-status.t3-icon-status-reference-soft {
+	background-position: 0 -1176px;
+}
+.t3-icon-status.t3-icon-status-reference-hard {
+	background-position: 0 -1200px;
+}
+.t3-icon-status.t3-icon-version-43 {
+	background-position: 0 -1224px;
+}
+.t3-icon-status.t3-icon-version-2 {
+	background-position: 0 -1248px;
+}
+.t3-icon-status.t3-icon-version-35 {
+	background-position: 0 -1272px;
+}
+.t3-icon-status.t3-icon-version-49 {
+	background-position: 0 -1296px;
+}
+.t3-icon-status.t3-icon-version-1 {
+	background-position: 0 -1320px;
+}
+.t3-icon-status.t3-icon-overlay-locked {
+	background-position: 0 -1344px;
+}
+.t3-icon-status.t3-icon-version-32 {
+	background-position: 0 -1368px;
+}
+.t3-icon-status.t3-icon-version-36 {
+	background-position: 0 -1392px;
+}
+.t3-icon-status.t3-icon-version-48 {
+	background-position: 0 -1416px;
+}
+.t3-icon-status.t3-icon-version-30 {
+	background-position: 0 -1440px;
+}
+.t3-icon-status.t3-icon-version-8 {
+	background-position: 0 -1464px;
+}
+.t3-icon-status.t3-icon-status-locked {
+	background-position: 0 -1488px;
+}
+.t3-icon-status.t3-icon-warning-in-use {
+	background-position: 0 -1512px;
+}
+.t3-icon-status.t3-icon-status-workspace-draft {
+	background-position: 0 -1536px;
+}
+.t3-icon-status.t3-icon-user-admin {
+	background-position: 0 -1560px;
+}
+.t3-icon-status.t3-icon-overlay-scheduled-future-end {
+	background-position: 0 -1584px;
+}
+.t3-icon-status.t3-icon-version-7 {
+	background-position: 0 -1608px;
+}
+.t3-icon-status.t3-icon-version-10 {
+	background-position: 0 -1632px;
+}
+.t3-icon-status.t3-icon-version-27 {
+	background-position: 0 -1656px;
+}
+.t3-icon-status.t3-icon-version-23 {
+	background-position: 0 -1680px;
+}
+.t3-icon-status.t3-icon-version-42 {
+	background-position: 0 -1704px;
+}
+.t3-icon-status.t3-icon-dialog-notification {
+	background-position: 0 -1728px;
+}
+.t3-icon-status.t3-icon-version-20 {
+	background-position: 0 -1752px;
+}
+.t3-icon-status.t3-icon-status-current {
+	background-position: 0 -1776px;
+}
+.t3-icon-status.t3-icon-version-25 {
+	background-position: 0 -1800px;
+}
+.t3-icon-status.t3-icon-overlay-translated {
+	background-position: 0 -1824px;
+}
+.t3-icon-status.t3-icon-version-31 {
+	background-position: 0 -1848px;
+}
+.t3-icon-status.t3-icon-version-12 {
+	background-position: 0 -1872px;
+}
+.t3-icon-status.t3-icon-dialog-warning {
+	background-position: 0 -1896px;
+}
+.t3-icon-status.t3-icon-status-permission-denied {
+	background-position: 0 -1920px;
+}
+.t3-icon-status.t3-icon-overlay-access-restricted {
+	background-position: 0 -1944px;
+}
+.t3-icon-status.t3-icon-version-26 {
+	background-position: 0 -1968px;
+}

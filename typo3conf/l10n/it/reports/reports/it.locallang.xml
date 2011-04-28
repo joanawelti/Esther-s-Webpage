@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="status_report_title">Report di stato</label>
+			<label index="status_ok">OK</label>
+			<label index="status_insecure">Insicuro</label>
+			<label index="status_disabled">Disabilitato</label>
+			<label index="status_enabled">Abilitato</label>
+			<label index="status_empty">Vuoto</label>
+			<label index="status_connectionFailed">Connessione fallita</label>
+			<label index="status_updateComplete">Aggiornamento completato</label>
+			<label index="status_updateIncomplete">Aggiornamento non completato</label>
+			<label index="status_typo3">Sistema TYPO3</label>
+			<label index="status_system">Sistema</label>
+			<label index="status_security">Sicurezza</label>
+			<label index="status_configuration">Configurazione</label>
+			<label index="status_memcachedConfiguration">Configurazione Memcached</label>
+			<label index="status_adminUserAccount">Account Admin</label>
+			<label index="status_encryptionKey">Chiave di criptazione</label>
+			<label index="status_htaccessUploadProtection">Protezione caricamento con .htaccess</label>
+			<label index="status_installToolPassword">Password Modulo Installazione</label>
+			<label index="status_installTool">Modulo Installazione</label>
+			<label index="status_phpVersion">Versione PHP</label>
+			<label index="status_phpTooOld">Versione di PHP troppo vecchia.</label>
+			<label index="status_phpMemory">Limite Memoria PHP</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="status_report_title" type="integer">257479801</label>
+			<label index="status_ok" type="integer">235577377</label>
+			<label index="status_insecure" type="integer">140509493</label>
+			<label index="status_disabled" type="integer">194993273</label>
+			<label index="status_enabled" type="integer">861095</label>
+			<label index="status_empty" type="integer">216189102</label>
+			<label index="status_connectionFailed" type="integer">33836067</label>
+			<label index="status_updateComplete" type="integer">5621219</label>
+			<label index="status_updateIncomplete" type="integer">254533109</label>
+			<label index="status_typo3" type="integer">110664735</label>
+			<label index="status_system" type="integer">172350102</label>
+			<label index="status_security" type="integer">49996582</label>
+			<label index="status_configuration" type="integer">39122498</label>
+			<label index="status_memcachedConfiguration" type="integer">6779846</label>
+			<label index="status_adminUserAccount" type="integer">258776978</label>
+			<label index="status_encryptionKey" type="integer">123645804</label>
+			<label index="status_htaccessUploadProtection" type="integer">18794819</label>
+			<label index="status_installToolPassword" type="integer">51944020</label>
+			<label index="status_installTool" type="integer">91233822</label>
+			<label index="status_phpVersion" type="integer">179719741</label>
+			<label index="status_phpTooOld" type="integer">100296885</label>
+			<label index="status_phpMemory" type="integer">132739621</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="status_report_title">Status Report</label>
+			<label index="status_ok">OK</label>
+			<label index="status_insecure">Insecure</label>
+			<label index="status_disabled">Disabled</label>
+			<label index="status_enabled">Enabled</label>
+			<label index="status_empty">Empty</label>
+			<label index="status_connectionFailed">Connection Failed</label>
+			<label index="status_updateComplete">Update Complete</label>
+			<label index="status_updateIncomplete">Update Incomplete</label>
+			<label index="status_typo3">TYPO3 System</label>
+			<label index="status_system">System</label>
+			<label index="status_security">Security</label>
+			<label index="status_configuration">Configuration</label>
+			<label index="status_memcachedConfiguration">Memcached Configuration</label>
+			<label index="status_adminUserAccount">Admin User Account</label>
+			<label index="status_encryptionKey">Encryption Key</label>
+			<label index="status_htaccessUploadProtection">.htaccess Upload Protection</label>
+			<label index="status_installToolPassword">Install Tool Password</label>
+			<label index="status_installTool">Install Tool</label>
+			<label index="status_phpVersion">PHP Version</label>
+			<label index="status_phpTooOld">Your PHP installation is too old.</label>
+			<label index="status_phpMemory">PHP Memory Limit</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

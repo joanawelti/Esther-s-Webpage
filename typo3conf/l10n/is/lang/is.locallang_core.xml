@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="labels.openInNewWindow">Opna í nýjum glugga</label>
+			<label index="labels.goBack">Til baka</label>
+			<label index="labels.makeShortcut">Búa til flýtileið á þessa síðu?</label>
+			<label index="labels.lockedRecord">%s opnaði þessa færslu til að breyta henni fyrir %s síðan</label>
+			<label index="labels.lockedRecord_content">%s opnaði þessa síðu til að breyta efni hennar fyrir %s síðan</label>
+			<label index="labels.showRecords">Sýna færslur</label>
+			<label index="labels.path">Slóð</label>
+			<label index="labels.table">Tafla</label>
+			<label index="labels.upOneLevel">Upp eitt stig</label>
+			<label index="labels.enterSearchString">Leitarstrengur:</label>
+			<label index="labels.enterSearchLevels">Þessari síðu|1 stig niður|2 stig niður|3 stig niður|4 stig niður</label>
+			<label index="labels.noEditPermission">Þú hefur ekki heimild til að gera þessa breytingu.</label>
+			<label index="labels.fieldsMissing">Ekki hefur verið fyllt rétt í þá reiti sem merktir eru með gulu upphrópunarmerki. Vinsamlegast leiðréttu þá.</label>
+			<label index="labels.fieldsChanged">Það eru breytingar á þessari síðu sem ekki hafa verið vistaðar.
+Viltu halda áfram ÁN ÞESS að vista?</label>
+			<label index="labels.noRTEfound">ATH. Þessum reit er aðeins hægt að breyta með textaritli. Eins og stendur er enginn textaritill í boði.</label>
+			<label index="labels.showPalettes">Sýna undir-valmöguleika</label>
+			<label index="labels.showDescriptions">Sýna lýsingar á reitum</label>
+			<label index="labels.disableRTE">Afvirkja textaritil</label>
+			<label index="labels._CONTROL_">Stýring</label>
+			<label index="labels._PATH_">Slóð</label>
+			<label index="labels._LOCALIZATION_">Þýðingar</label>
+			<label index="labels.setFields">Stilla reiti</label>
+			<label index="labels.search">Leita</label>
+			<label index="labels.author">Höfundur:</label>
+			<label index="labels.note">Athugasemd:</label>
+			<label index="labels.category">Flokkur:</label>
+			<label index="labels.reload">Endurhlaða</label>
+			<label index="labels.csv">Hala niður CSV gagnaskjali</label>
+			<label index="labels.clear_cache">Hreinsa skyndiminni fyrir þessa síðu</label>
+			<label index="labels.no_title">Enginn titill</label>
+			<label index="labels.cancel">Hætta við</label>
+			<label index="labels.hidden">Falinn</label>
+			<label index="labels.starttime">Birta þann</label>
+			<label index="labels.endtime">Fela þann</label>
+			<label index="labels.minutesHoursDaysYears">mín| klst.| dagar| ár</label>
+			<label index="labels.menu">Valmynd:</label>
+			<label index="labels.showPage">Skoða vefsíðu</label>
+			<label index="labels.showList">Sýna færslulista</label>
+			<label index="labels.days">dagar</label>
+			<label index="labels.depth_0">Þessi síða</label>
+			<label index="labels.depth_1">1 stig</label>
+			<label index="labels.depth_2">2 stig</label>
+			<label index="labels.depth_3">3 stig</label>
+			<label index="labels.depth_4">4 stig</label>
+			<label index="labels.depth_infi">taka allt með</label>
+			<label index="labels.allow">Leyfa</label>
+			<label index="labels.deny">Neita</label>
+			<label index="labels.generalTab">Almennt</label>
+			<label index="labels.refresh">Endurhlaða veftré frá vefþjóni</label>
+			<label index="labels.temporaryDBmount">Tengja aftur eins og venjulega</label>
+			<label index="labels.refreshList">Endurhlaða lista frá vefþjóni</label>
+			<label index="labels.close">Loka</label>
+			<label index="labels.new">NÝTT</label>
+			<label index="labels.selected">Merkt</label>
+			<label index="labels.items">Hlutir</label>
+			<label index="labels.remove_selected">Fjarlægja merkta hluti</label>
+			<label index="labels.move_to_top">Færa merkta hluti efst</label>
+			<label index="labels.move_up">Færa merkta hluti upp</label>
+			<label index="labels.move_down">Færa merkta hluti niður</label>
+			<label index="labels.move_to_bottom">Færa merkta hluti neðst</label>
+			<label index="labels.move">Færa þennan hlut</label>
+			<label index="labels.browse_file">Flakka eftir skrám</label>
+			<label index="labels.browse_db">Flakka eftir færslum</label>
+			<label index="labels.clipInsert_file">Skeyta %s skrá(m) frá klemmuspjaldi</label>
+			<label index="labels.clipInsert_db">Skeyta %s færslu(m) frá klemmuspjaldi</label>
+			<label index="labels.generalOptions">Almennir valmöguleikar:</label>
+			<label index="labels.generalOptions_more">Almennir valmöguleikar (frh.):</label>
+			<label index="labels.allTables">[Allar töflur]</label>
+			<label index="labels.moreOptions">Fleiri valmöguleikar...</label>
+			<label index="labels.noMatchingValue">RANGT GILDI (&quot;%s&quot;)</label>
+			<label index="labels.thumbmode_clip">Sýna þumlungsmyndir á klemmuspjaldi</label>
+			<label index="labels.copymode">Afrita hluti í stað þess að færa þá</label>
+			<label index="labels.clipNoEl">Engar einingar</label>
+			<label index="labels.cliptabs">Klemmuspjald #</label>
+			<label index="labels.removeItem">Fjarlægja hlut</label>
+			<label index="labels.holdDownCTRL">Mikilvægt: Haltu niðri CTRL á lylaborðinu meðan þú velur fleiri en einn hlut á listanum</label>
+			<label index="labels.setAllCheckboxes">Merkja allt</label>
+			<label index="labels.changeInOrig">Breytt í upprunalegri þýðingu</label>
+			<label index="labels.expandAll">Þenja alla út</label>
+			<label index="labels.new_section">Stofna nýjan:</label>
+			<label index="labels.count">Fjöldi:</label>
+			<label index="ver.online">Í SAMBANDI</label>
+			<label index="ver.mgm">Umsjón með útgáfum</label>
+			<label index="ver.selVer">Veldu útgáfu:</label>
+			<label index="ver.swap">Skipta/Birta</label>
+			<label index="ver.swapPage">Birta þessa útgáfu af síðunni ásamt innihaldi hennar</label>
+			<label index="TYPO3_Element_Browser">TYPO3 færsluvafri</label>
+			<label index="show_item.php.viewItem">Sýna hlut</label>
+			<label index="show_item.php.file">Skrá</label>
+			<label index="show_item.php.dimensions">Stærð</label>
+			<label index="show_item.php.filesize">Stærð</label>
+			<label index="show_item.php.ftp_area">FTP SVÆÐI</label>
+			<label index="db_new.php.pagetitle">Ný færsla</label>
+			<label index="db_new.php.after">eftir</label>
+			<label index="db_new.php.inside">innan í</label>
+			<label index="file_upload.php.pagetitle">Hala upp skrám</label>
+			<label index="file_upload.php.submit">Hala upp skrám</label>
+			<label index="file_upload.php.files">Skrár</label>
+			<label index="file_rename.php.pagetitle">Endurnefna</label>
+			<label index="file_rename.php.submit">Endurnefna</label>
+			<label index="file_edit.php.pagetitle">Breyta</label>
+			<label index="file_edit.php.submit">Vista</label>
+			<label index="file_edit.php.saveAndClose">Vista og loka</label>
+			<label index="file_edit.php.coundNot">Ekki er hægt að breyta þessari skrártegund&lt;br /&gt;Skráin verður að hafa endingu eins og:&lt;br /&gt;&lt;br /&gt;&lt;b&gt;%s&lt;/b&gt;</label>
+			<label index="file_newfolder.php.pagetitle">Ný skrá og mappa</label>
+			<label index="file_newfolder.php.submit">Búa til möppur</label>
+			<label index="file_newfolder.php.folders">möppur</label>
+			<label index="file_newfolder.php.newfile_submit">Ný skrá</label>
+			<label index="file_newfolder.php.newfile">Ný textaskrá</label>
+			<label index="file_clipupload.php.warning_head">Villa í slóð fyrir upphleðslu</label>
+			<label index="file_clipupload.php.warning">Engin mappa fannst fyrir upphleðsluna. Þú ættir að búa til möppu fyrir tímabundnar skrár (&quot;_temp_&quot;) í rót eins tengipunktar fyrst.</label>
+			<label index="mess.redraw">Ef þú endurhleður síðunni missir þú allar breytingar sem þú hefur gert. Ertu viss?</label>
+			<label index="mess.delete">Ertu viss um að þú viljir eyða &quot;%s&quot;?</label>
+			<label index="mess.deleteClip">Ertu viss um að þú viljir eyða öllum völdum hlutum (%s) á klemmuspjaldinu?</label>
+			<label index="mess.refresh_login">Innskráning þín er útrunnin.
+Viltu endurvirkja hana núna (opnast í nýjum glugga)?</label>
+			<label index="mess.noSelItemForEdit">Vinsamlegast veldu einn eða fleiru hluti á listanum til að breyta.</label>
+			<label index="mess.onChangeAlert">Þessi breyting hefur áhrif á þá reiti sem eru til staðar í eyðublaðinu.
+Smelltu á &quot;Í lagi&quot;/&quot;OK&quot; til að vista og endurhlaða?</label>
+			<label index="mess.move_into">Færa &quot;%s&quot; inn í &quot;%s&quot;?</label>
+			<label index="mess.move_after">Færa &quot;%s&quot; á eftir &quot;%s&quot;?</label>
+			<label index="mess.copy_into">Afrita &quot;%s&quot; inn í &quot;%s&quot;?</label>
+			<label index="mess.copy_after">Afrita &quot;%s&quot; á eftir &quot;%s&quot;?</label>
+			<label index="mess.copycb_into">Afrita alla hluti (%s) af klemmuspjaldi inn í &quot;%s&quot;?</label>
+			<label index="mess.copycb_after">Afrita alla hluti (%s) af klemmuspjaldi á eftir &quot;%s&quot;?</label>
+			<label index="mess.movecb_into">Færa alla hluti (%s) af klemmuspjaldi inn í &quot;%s&quot;?</label>
+			<label index="mess.movecb_after">Færa alla hluti (%s) af klemmuspjaldi á eftir &quot;%s&quot;?</label>
+			<label index="rm.menu">[valmynd]</label>
+			<label index="rm.saveDoc">Vista skjal</label>
+			<label index="rm.saveDocShow">Vista skjal og skoða síðu</label>
+			<label index="rm.saveCloseDoc">Vista og loka skjali</label>
+			<label index="rm.translationSaveDoc">Þýðingu lokið og vista</label>
+			<label index="rm.saveCloseAllDocs">Vista og loka öllum skjölum</label>
+			<label index="rm.saveNewDoc">Vista skjal og búa til nýtt</label>
+			<label index="rm.closeDoc">Loka skjali</label>
+			<label index="rm.closeAllDocs">Loka öllum skjölum</label>
+			<label index="rm.clearCache_clearCache">Hreinsa skyndiminni</label>
+			<label index="rm.clearCache_thisPage">Þessi síða</label>
+			<label index="rm.clearCache_all">Hreinsa skyndiminni vefsíðu</label>
+			<label index="rm.clearCache_allTypo3Conf">Hreinsa skyndiminni í typo3conf/</label>
+			<label index="rm.clearCacheMenu_all">Hreinsa öll skyndiminni</label>
+			<label index="rm.clearCacheMenu_pages">Hreina skyndiminni síðu</label>
+			<label index="rm.clearCacheMenu_allTypo3Conf">Hreina skyndiminni stillinga</label>
+			<label index="rm.adminFunctions">Aðgerðir vefstjóra</label>
+			<label index="rm.edit">Breyta</label>
+			<label index="rm.export">Flytja út</label>
+			<label index="rm.delete">Eyða</label>
+			<label index="buttons.logout">Skrá út</label>
+			<label index="buttons.exit">Hætta</label>
+			<label index="buttons.selMenu_modules">EININGAR</label>
+			<label index="buttons.clear">Hreinsa</label>
+			<label index="buttons.clipboard">Klemmuspjald</label>
+			<label index="cm.copy">Afrita</label>
+			<label index="cm.cut">Klippa</label>
+			<label index="cm.view">Sýna</label>
+			<label index="cm.edit">Breyta</label>
+			<label index="cm.new">Nýtt</label>
+			<label index="cm.pasteinto">Skeyta inn í</label>
+			<label index="cm.pasteafter">Skeyta eftir</label>
+			<label index="cm.select">Merkja</label>
+			<label index="cm.deselect">Afmerkja</label>
+			<label index="cm.selectto">Velja að</label>
+			<label index="cm.deselectto">Óvirkja val að</label>
+			<label index="cm.delete">Eyða</label>
+			<label index="cm.hide">Fela</label>
+			<label index="cm.unhide">Birta</label>
+			<label index="cm.upload">Sækja skrár</label>
+			<label index="cm.rename">Endurnefna</label>
+			<label index="cm.open">Opna</label>
+			<label index="cm.save">Vista</label>
+			<label index="cm.unzip">Afþjappa</label>
+			<label index="cm.info">Upplýsingar</label>
+			<label index="cm.createnew">Búa til nýtt</label>
+			<label index="cm.tempMountPoint">Tengja sem rót á tré</label>
+			<label index="cm.copyPage_into">Afrita síðu inn í</label>
+			<label index="cm.copyPage_after">Afrita síðu aftan við</label>
+			<label index="cm.movePage_into">Færa síðu inn í</label>
+			<label index="cm.movePage_after">Færa síðu aftan við</label>
+			<label index="cm.copyFolder_into">Afrita möppu inn í</label>
+			<label index="cm.moveFolder_into">Færa möppu inn í</label>
+			<label index="cm.createNewRelation">Stofna nýja tengingu</label>
+			<label index="rm.clearCache_pages">Hreinsa skyndiminni síðu</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="labels.goBack" type="integer">36398395</label>
+			<label index="show_item.php.file" type="double">11696408</label>
+			<label index="show_item.php.filesize" type="integer">116837234</label>
+			<label index="file_upload.php.files" type="integer">73111091</label>
+			<label index="file_edit.php.pagetitle" type="integer">131916066</label>
+			<label index="file_edit.php.submit" type="integer">211601612</label>
+			<label index="cm.copy" type="integer">100361047</label>
+			<label index="cm.delete" type="integer">254438473</label>
+			<label index="cm.open" type="integer">205255751</label>
+			<label index="cm.save" type="integer">211601612</label>
+			<label index="labels.disableRTE" type="integer">236608630</label>
+			<label index="labels._PATH_" type="integer">180814866</label>
+			<label index="labels.search" type="integer">20138052</label>
+			<label index="labels.no_title" type="integer">184697729</label>
+			<label index="labels.cancel" type="integer">245659783</label>
+			<label index="labels.starttime" type="integer">174138022</label>
+			<label index="labels.endtime" type="integer">141907953</label>
+			<label index="labels.minutesHoursDaysYears" type="integer">180541581</label>
+			<label index="labels.menu" type="integer">260506399</label>
+			<label index="labels.showPage" type="integer">150194952</label>
+			<label index="labels.days" type="integer">72343236</label>
+			<label index="labels.depth_1" type="integer">200641290</label>
+			<label index="labels.depth_2" type="integer">228799796</label>
+			<label index="labels.depth_3" type="integer">195275893</label>
+			<label index="labels.author" type="integer">152306160</label>
+			<label index="labels.note" type="integer">264885215</label>
+			<label index="labels.category" type="integer">90868382</label>
+			<label index="labels.reload" type="integer">80857126</label>
+			<label index="labels.csv" type="integer">27365093</label>
+			<label index="labels.hidden" type="integer">128769925</label>
+			<label index="labels.depth_4" type="integer">97262614</label>
+			<label index="labels.depth_infi" type="integer">185655876</label>
+			<label index="labels.allow" type="integer">73338807</label>
+			<label index="labels.deny" type="integer">57158934</label>
+			<label index="labels.generalTab" type="double">14366585</label>
+			<label index="labels.openInNewWindow" type="integer">43359464</label>
+			<label index="labels.makeShortcut" type="integer">172171229</label>
+			<label index="labels.lockedRecord" type="integer">198827351</label>
+			<label index="labels.showRecords" type="integer">159375536</label>
+			<label index="labels.path" type="integer">180814866</label>
+			<label index="labels.upOneLevel" type="integer">206589180</label>
+			<label index="labels.enterSearchString" type="integer">109099181</label>
+			<label index="labels.enterSearchLevels" type="integer">93282459</label>
+			<label index="labels.noEditPermission" type="integer">199778334</label>
+			<label index="cm.cut" type="integer">246625500</label>
+			<label index="cm.view" type="integer">77133724</label>
+			<label index="cm.edit" type="integer">131916066</label>
+			<label index="cm.new" type="double">3944062</label>
+			<label index="cm.pasteinto" type="integer">46910930</label>
+			<label index="cm.pasteafter" type="integer">48443221</label>
+			<label index="cm.select" type="integer">235284002</label>
+			<label index="cm.hide" type="integer">103439945</label>
+			<label index="cm.upload" type="integer">194920219</label>
+			<label index="cm.rename" type="integer">151300144</label>
+			<label index="cm.unzip" type="integer">31401173</label>
+			<label index="cm.info" type="integer">67476226</label>
+			<label index="cm.createnew" type="integer">260012217</label>
+			<label index="labels.lockedRecord_content" type="integer">187177677</label>
+			<label index="labels.table" type="integer">85738935</label>
+			<label index="labels.fieldsMissing" type="integer">244447562</label>
+			<label index="labels.fieldsChanged" type="integer">196203045</label>
+			<label index="labels.noRTEfound" type="integer">167686583</label>
+			<label index="labels.showDescriptions" type="integer">52412881</label>
+			<label index="labels.setFields" type="integer">263441433</label>
+			<label index="labels.clear_cache" type="integer">256573092</label>
+			<label index="labels.showList" type="integer">112377765</label>
+			<label index="labels.depth_0" type="integer">98872550</label>
+			<label index="labels.refresh" type="integer">218889859</label>
+			<label index="labels.refreshList" type="integer">267625353</label>
+			<label index="labels.close" type="integer">222113377</label>
+			<label index="labels.new" type="integer">38618522</label>
+			<label index="labels.selected" type="integer">152781869</label>
+			<label index="labels.items" type="integer">165585921</label>
+			<label index="labels.remove_selected" type="integer">174131744</label>
+			<label index="labels.move_to_top" type="integer">234987422</label>
+			<label index="labels.move_up" type="integer">182650699</label>
+			<label index="labels.move_down" type="integer">73063474</label>
+			<label index="labels.move_to_bottom" type="integer">34443035</label>
+			<label index="labels.clipInsert_file" type="integer">72963835</label>
+			<label index="labels.clipInsert_db" type="integer">123875466</label>
+			<label index="labels.generalOptions" type="integer">70509926</label>
+			<label index="labels.allTables" type="integer">64435182</label>
+			<label index="labels.moreOptions" type="integer">220835237</label>
+			<label index="labels.noMatchingValue" type="integer">216503775</label>
+			<label index="labels.thumbmode_clip" type="integer">251068306</label>
+			<label index="labels.copymode" type="integer">24481846</label>
+			<label index="labels.clipNoEl" type="integer">213419996</label>
+			<label index="labels.cliptabs" type="integer">219248137</label>
+			<label index="labels.removeItem" type="integer">61210410</label>
+			<label index="labels.holdDownCTRL" type="integer">246729511</label>
+			<label index="labels.expandAll" type="integer">218803276</label>
+			<label index="ver.online" type="integer">141368811</label>
+			<label index="ver.mgm" type="integer">75564445</label>
+			<label index="ver.selVer" type="integer">141725286</label>
+			<label index="show_item.php.viewItem" type="integer">31794211</label>
+			<label index="show_item.php.dimensions" type="integer">256394177</label>
+			<label index="show_item.php.ftp_area" type="integer">213910632</label>
+			<label index="db_new.php.pagetitle" type="integer">153049580</label>
+			<label index="db_new.php.after" type="integer">103981632</label>
+			<label index="file_upload.php.pagetitle" type="integer">209578095</label>
+			<label index="file_upload.php.submit" type="integer">209578095</label>
+			<label index="file_rename.php.pagetitle" type="integer">151300144</label>
+			<label index="file_rename.php.submit" type="integer">151300144</label>
+			<label index="file_edit.php.saveAndClose" type="integer">253538544</label>
+			<label index="file_edit.php.coundNot" type="integer">155023303</label>
+			<label index="file_newfolder.php.pagetitle" type="integer">37247196</label>
+			<label index="file_newfolder.php.submit" type="integer">50275779</label>
+			<label index="file_newfolder.php.folders" type="integer">130756931</label>
+			<label index="file_newfolder.php.newfile_submit" type="integer">25278735</label>
+			<label index="file_newfolder.php.newfile" type="integer">77930857</label>
+			<label index="mess.delete" type="double">11983227</label>
+			<label index="mess.deleteClip" type="integer">86922765</label>
+			<label index="mess.refresh_login" type="integer">16856853</label>
+			<label index="mess.noSelItemForEdit" type="integer">260947711</label>
+			<label index="mess.move_into" type="integer">267594206</label>
+			<label index="mess.move_after" type="integer">160860895</label>
+			<label index="mess.copy_into" type="integer">231649592</label>
+			<label index="mess.copy_after" type="integer">190775159</label>
+			<label index="mess.copycb_into" type="integer">233579989</label>
+			<label index="mess.copycb_after" type="integer">233968527</label>
+			<label index="mess.movecb_into" type="integer">206869075</label>
+			<label index="mess.movecb_after" type="integer">184153362</label>
+			<label index="rm.menu" type="integer">41019420</label>
+			<label index="rm.saveDoc" type="integer">34922005</label>
+			<label index="rm.saveDocShow" type="integer">266586540</label>
+			<label index="rm.saveCloseDoc" type="integer">43846535</label>
+			<label index="rm.saveCloseAllDocs" type="integer">105962057</label>
+			<label index="rm.saveNewDoc" type="integer">35091769</label>
+			<label index="rm.closeDoc" type="integer">64132522</label>
+			<label index="rm.closeAllDocs" type="integer">55835955</label>
+			<label index="rm.clearCache_clearCache" type="integer">127667564</label>
+			<label index="rm.clearCache_thisPage" type="integer">98872550</label>
+			<label index="rm.clearCache_pages" type="integer">110711253</label>
+			<label index="rm.clearCache_all" type="integer">251966384</label>
+			<label index="rm.clearCache_allTypo3Conf" type="integer">166481656</label>
+			<label index="rm.adminFunctions" type="integer">190550998</label>
+			<label index="rm.edit" type="integer">131916066</label>
+			<label index="rm.export" type="double">613023</label>
+			<label index="rm.delete" type="integer">254438473</label>
+			<label index="buttons.logout" type="double">3292644</label>
+			<label index="buttons.selMenu_modules" type="integer">23513772</label>
+			<label index="buttons.clear" type="integer">230886336</label>
+			<label index="buttons.clipboard" type="integer">37640827</label>
+			<label index="cm.deselect" type="integer">155289095</label>
+			<label index="cm.unhide" type="integer">205596222</label>
+			<label index="labels.showPalettes" type="integer">29229235</label>
+			<label index="labels._CONTROL_" type="integer">169186731</label>
+			<label index="labels._LOCALIZATION_" type="integer">57239651</label>
+			<label index="labels.temporaryDBmount" type="integer">54643159</label>
+			<label index="labels.browse_file" type="integer">252183313</label>
+			<label index="labels.browse_db" type="integer">3203407</label>
+			<label index="labels.generalOptions_more" type="integer">28006124</label>
+			<label index="labels.setAllCheckboxes" type="integer">249015448</label>
+			<label index="ver.swap" type="integer">60665691</label>
+			<label index="ver.swapPage" type="integer">206706262</label>
+			<label index="TYPO3_Element_Browser" type="integer">97099900</label>
+			<label index="db_new.php.inside" type="integer">53858117</label>
+			<label index="file_clipupload.php.warning_head" type="integer">159379252</label>
+			<label index="file_clipupload.php.warning" type="integer">223829658</label>
+			<label index="mess.redraw" type="integer">39712654</label>
+			<label index="mess.onChangeAlert" type="integer">215006725</label>
+			<label index="buttons.exit" type="integer">267339493</label>
+			<label index="cm.tempMountPoint" type="integer">10294929</label>
+			<label index="cm.copyPage_into" type="integer">121982700</label>
+			<label index="cm.copyPage_after" type="integer">153137342</label>
+			<label index="cm.movePage_into" type="integer">199131423</label>
+			<label index="cm.movePage_after" type="integer">35697297</label>
+			<label index="cm.copyFolder_into" type="integer">188539305</label>
+			<label index="cm.moveFolder_into" type="integer">247629774</label>
+			<label index="labels.move" type="integer">236525846</label>
+			<label index="labels.changeInOrig" type="integer">97464470</label>
+			<label index="labels.new_section" type="integer">235813185</label>
+			<label index="labels.count" type="integer">64016889</label>
+			<label index="rm.translationSaveDoc" type="integer">154172873</label>
+			<label index="rm.clearCacheMenu_all" type="integer">178010177</label>
+			<label index="rm.clearCacheMenu_pages" type="integer">156459465</label>
+			<label index="rm.clearCacheMenu_allTypo3Conf" type="integer">103495975</label>
+			<label index="cm.selectto" type="integer">188624416</label>
+			<label index="cm.deselectto" type="integer">198679702</label>
+			<label index="cm.createNewRelation" type="integer">191818165</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="labels.goBack">Go back</label>
+			<label index="show_item.php.file">File</label>
+			<label index="show_item.php.filesize">Size</label>
+			<label index="file_upload.php.files">files</label>
+			<label index="file_edit.php.pagetitle">Edit</label>
+			<label index="file_edit.php.submit">Save</label>
+			<label index="cm.copy">Copy</label>
+			<label index="cm.delete">Delete</label>
+			<label index="cm.open">Open</label>
+			<label index="cm.save">Save</label>
+			<label index="labels.disableRTE">Disable Rich Text Editor (RTE)</label>
+			<label index="labels._PATH_">Path</label>
+			<label index="labels.search">Search</label>
+			<label index="labels.no_title">No title</label>
+			<label index="labels.cancel">Cancel</label>
+			<label index="labels.starttime">Start</label>
+			<label index="labels.endtime">End</label>
+			<label index="labels.minutesHoursDaysYears">min| hrs| days| yrs</label>
+			<label index="labels.menu">Menu:</label>
+			<label index="labels.showPage">View webpage</label>
+			<label index="labels.days">days</label>
+			<label index="labels.depth_1">1 level</label>
+			<label index="labels.depth_2">2 levels</label>
+			<label index="labels.depth_3">3 levels</label>
+			<label index="labels.author">Author:</label>
+			<label index="labels.note">Note:</label>
+			<label index="labels.category">Category:</label>
+			<label index="labels.reload">Reload</label>
+			<label index="labels.csv">Download CSV file</label>
+			<label index="labels.hidden">Hidden</label>
+			<label index="labels.depth_4">4 levels</label>
+			<label index="labels.depth_infi">Infinite</label>
+			<label index="labels.allow">Allow</label>
+			<label index="labels.deny">Deny</label>
+			<label index="labels.generalTab">General</label>
+			<label index="labels.openInNewWindow">Open in new window</label>
+			<label index="labels.makeShortcut">Create a shortcut to this page?</label>
+			<label index="labels.lockedRecord">The user '%s' began to edit this record %s ago.</label>
+			<label index="labels.showRecords">Show records</label>
+			<label index="labels.path">Path</label>
+			<label index="labels.upOneLevel">Up one level</label>
+			<label index="labels.enterSearchString">Search String:</label>
+			<label index="labels.enterSearchLevels">This page|1 level down|2 levels down|3 levels down|4 levels down</label>
+			<label index="labels.noEditPermission">Sorry, you didn't have proper permissions to perform this change.</label>
+			<label index="cm.cut">Cut</label>
+			<label index="cm.view">Show</label>
+			<label index="cm.edit">Edit</label>
+			<label index="cm.new">New</label>
+			<label index="cm.pasteinto">Paste into</label>
+			<label index="cm.pasteafter">Paste after</label>
+			<label index="cm.select">Select</label>
+			<label index="cm.hide">Hide</label>
+			<label index="cm.upload">Upload Files</label>
+			<label index="cm.rename">Rename</label>
+			<label index="cm.unzip">Unzip</label>
+			<label index="cm.info">Info</label>
+			<label index="cm.createnew">Create new</label>
+			<label index="labels.lockedRecord_content">The user '%s' began to edit content on this page %s ago.</label>
+			<label index="labels.table">Table</label>
+			<label index="labels.fieldsMissing">The fields marked with a yellow exclamation mark are not yet correctly filled in. Please complete them properly.</label>
+			<label index="labels.fieldsChanged">There are unsaved changes in the form!
+Do you want to continue WITHOUT saving?</label>
+			<label index="labels.noRTEfound">Notice: This field can only be edited with a Rich Text Editor. No editor is currently available or enabled.</label>
+			<label index="labels.showDescriptions">Show field descriptions</label>
+			<label index="labels.setFields">Set fields</label>
+			<label index="labels.clear_cache">Clear cache for this page</label>
+			<label index="labels.showList">Show record list</label>
+			<label index="labels.depth_0">This page</label>
+			<label index="labels.refresh">Reload the tree from server</label>
+			<label index="labels.refreshList">Reload list from server</label>
+			<label index="labels.close">Close</label>
+			<label index="labels.new">NEW</label>
+			<label index="labels.selected">Selected</label>
+			<label index="labels.items">Items</label>
+			<label index="labels.remove_selected">Remove selected items</label>
+			<label index="labels.move_to_top">Move selected items to top</label>
+			<label index="labels.move_up">Move selected items upwards</label>
+			<label index="labels.move_down">Move selected items downwards</label>
+			<label index="labels.move_to_bottom">Move selected items to bottom</label>
+			<label index="labels.clipInsert_file">Insert %s file(s) from the clipboard</label>
+			<label index="labels.clipInsert_db">Insert %s record(s) from the clipboard</label>
+			<label index="labels.generalOptions">General options:</label>
+			<label index="labels.allTables">[All tables]</label>
+			<label index="labels.moreOptions">More options...</label>
+			<label index="labels.noMatchingValue">INVALID VALUE (&quot;%s&quot;)</label>
+			<label index="labels.thumbmode_clip">Show Thumbnails on ClipBoard</label>
+			<label index="labels.copymode">Copy items instead of moving them</label>
+			<label index="labels.clipNoEl">No elements</label>
+			<label index="labels.cliptabs">Clipboard #</label>
+			<label index="labels.removeItem">Remove item</label>
+			<label index="labels.holdDownCTRL">Important: Hold down the CTRL key while toggling elements in this list!</label>
+			<label index="labels.expandAll">Expand all</label>
+			<label index="ver.online">ONLINE</label>
+			<label index="ver.mgm">Version Management</label>
+			<label index="ver.selVer">Select version:</label>
+			<label index="show_item.php.viewItem">View Item</label>
+			<label index="show_item.php.dimensions">Dimensions</label>
+			<label index="show_item.php.ftp_area">FTP AREA</label>
+			<label index="db_new.php.pagetitle">New record</label>
+			<label index="db_new.php.after">after</label>
+			<label index="file_upload.php.pagetitle">Upload files</label>
+			<label index="file_upload.php.submit">Upload files</label>
+			<label index="file_rename.php.pagetitle">Rename</label>
+			<label index="file_rename.php.submit">Rename</label>
+			<label index="file_edit.php.saveAndClose">Save and Close</label>
+			<label index="file_edit.php.coundNot">This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br /&gt; &lt;b&gt;%s&lt;/b&gt;</label>
+			<label index="file_newfolder.php.pagetitle">New file or folder</label>
+			<label index="file_newfolder.php.submit">Create folders</label>
+			<label index="file_newfolder.php.folders">folders</label>
+			<label index="file_newfolder.php.newfile_submit">Create file</label>
+			<label index="file_newfolder.php.newfile">Create new textfile</label>
+			<label index="mess.delete">Are you sure you want to delete &quot;%s&quot;?</label>
+			<label index="mess.deleteClip">Are you sure you want to delete ALL selected elements (%s) on the clipboard?</label>
+			<label index="mess.refresh_login">Your login has probably expired.
+Do you want to refresh it now?</label>
+			<label index="mess.noSelItemForEdit">Please select one or more items in the list before you can edit.</label>
+			<label index="mess.move_into">Move &quot;%s&quot; into &quot;%s&quot;?</label>
+			<label index="mess.move_after">Move &quot;%s&quot; to after &quot;%s&quot;?</label>
+			<label index="mess.copy_into">Copy &quot;%s&quot; into &quot;%s&quot;?</label>
+			<label index="mess.copy_after">Copy &quot;%s&quot; to after &quot;%s&quot;?</label>
+			<label index="mess.copycb_into">Copy all elements (%s) from the clipboard into &quot;%s&quot;?</label>
+			<label index="mess.copycb_after">Copy all elements (%s) from the clipboard to the position after &quot;%s&quot;?</label>
+			<label index="mess.movecb_into">Move all elements (%s) from the clipboard into &quot;%s&quot;?</label>
+			<label index="mess.movecb_after">Move all elements (%s) from the clipboard to the position after &quot;%s&quot;?</label>
+			<label index="rm.menu">[menu]</label>
+			<label index="rm.saveDoc">Save document</label>
+			<label index="rm.saveDocShow">Save document and view page</label>
+			<label index="rm.saveCloseDoc">Save and close document</label>
+			<label index="rm.saveCloseAllDocs">Save and close all documents</label>
+			<label index="rm.saveNewDoc">Save document and create a new one</label>
+			<label index="rm.closeDoc">Close document</label>
+			<label index="rm.closeAllDocs">Close all documents</label>
+			<label index="rm.clearCache_clearCache">Clear cache</label>
+			<label index="rm.clearCache_thisPage">This page</label>
+			<label index="rm.clearCache_pages">Clear Page Cache</label>
+			<label index="rm.clearCache_all">Clear FE cache</label>
+			<label index="rm.clearCache_allTypo3Conf">Clear cache in typo3conf/</label>
+			<label index="rm.adminFunctions">Admin functions</label>
+			<label index="rm.edit">Edit</label>
+			<label index="rm.export">Export</label>
+			<label index="rm.delete">Delete</label>
+			<label index="buttons.logout">Logout</label>
+			<label index="buttons.selMenu_modules">MODULES</label>
+			<label index="buttons.clear">Clear</label>
+			<label index="buttons.clipboard">Clipboard</label>
+			<label index="cm.deselect">Deselect</label>
+			<label index="cm.unhide">Unhide</label>
+			<label index="labels.showPalettes">Show secondary options (palettes)</label>
+			<label index="labels._CONTROL_">Control</label>
+			<label index="labels._LOCALIZATION_">Localization</label>
+			<label index="labels.temporaryDBmount">Cancel temporary DB mount</label>
+			<label index="labels.browse_file">Browse for files</label>
+			<label index="labels.browse_db">Browse for records</label>
+			<label index="labels.generalOptions_more">General options (continued):</label>
+			<label index="labels.setAllCheckboxes">Select All Checkboxes</label>
+			<label index="ver.swap">Swap/Publish</label>
+			<label index="ver.swapPage">Publish this version of the page including content</label>
+			<label index="TYPO3_Element_Browser">TYPO3 Element Browser</label>
+			<label index="db_new.php.inside">inside</label>
+			<label index="file_clipupload.php.warning_head">Upload path error</label>
+			<label index="file_clipupload.php.warning">No upload-folder is found. You should create a TEMP-folder (&quot;_temp_&quot;) in the root of one of your mounts first!</label>
+			<label index="mess.redraw">Redrawing the page will discard the current data. Do you want to continue?</label>
+			<label index="mess.onChangeAlert">This change will affect which fields are available in the form.
+Would you like to save now in order to refresh the display?</label>
+			<label index="buttons.exit">Exit</label>
+			<label index="cm.tempMountPoint">Mount as treeroot</label>
+			<label index="cm.copyPage_into">Copy page into</label>
+			<label index="cm.copyPage_after">Copy page after</label>
+			<label index="cm.movePage_into">Move page into</label>
+			<label index="cm.movePage_after">Move page after</label>
+			<label index="cm.copyFolder_into">Copy folder into</label>
+			<label index="cm.moveFolder_into">Move folder into</label>
+			<label index="labels.move">Move this item</label>
+			<label index="labels.changeInOrig">Changed in original translation</label>
+			<label index="labels.new_section">Create new:</label>
+			<label index="labels.count">Quantity:</label>
+			<label index="rm.translationSaveDoc">Translation finished and save</label>
+			<label index="rm.clearCacheMenu_all">Clear all caches</label>
+			<label index="rm.clearCacheMenu_pages">Clear page content cache</label>
+			<label index="rm.clearCacheMenu_allTypo3Conf">Clear configuration cache</label>
+			<label index="cm.selectto">Select to</label>
+			<label index="cm.deselectto">Deselect to</label>
+			<label index="cm.createNewRelation">Create new relation</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

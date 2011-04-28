@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:78:"typo3conf/ext/powermail/mod1/locallang_mod.xml|06-11-2010 19:37:13|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:3:{s:14:"mlang_tabs_tab";s:9:"Powermail";s:21:"mlang_labels_tabdescr";s:90:"List of all registered mails in database. Possibility to filter and export to CSV (Excel).";s:21:"mlang_labels_tablabel";s:14:"Powermail list";}}}

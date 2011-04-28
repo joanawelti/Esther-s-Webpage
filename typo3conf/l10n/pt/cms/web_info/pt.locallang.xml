@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="page_title">Visualização da Árvore</label>
+			<label index="page_sysnote">Notas internas</label>
+			<label index="pageInformation">Informação da página</label>
+			<label index="pages_0">Definições básicas</label>
+			<label index="pages_2">Cache e Idade</label>
+			<label index="pages_1">Visualização do registo</label>
+			<label index="stat_type_0">Visualizações da página</label>
+			<label index="stat_type_1">Visualizações totais</label>
+			<label index="stat_type_2">Visualizações em áreas principais</label>
+			<label index="stat_period">Estatísticas no período %s até %s</label>
+			<label index="pI_crUser">Criado por</label>
+			<label index="pI_crDate">Criado em</label>
+			<label index="pI_lastChange">Última alteração</label>
+			<label index="pI_lastChangeContent">Última alteração, conteúdo</label>
+			<label index="hits_title">Estatísticas de Visualização</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="page_title" type="integer">46867233</label>
+			<label index="page_sysnote" type="integer">267841144</label>
+			<label index="pageInformation" type="integer">9265976</label>
+			<label index="pages_0" type="integer">155022480</label>
+			<label index="pages_2" type="integer">198333821</label>
+			<label index="pages_1" type="integer">71658561</label>
+			<label index="stat_type_0" type="integer">131565852</label>
+			<label index="stat_type_1" type="integer">110417445</label>
+			<label index="stat_type_2" type="integer">86813859</label>
+			<label index="stat_period" type="integer">100779727</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="hits_title" type="integer">55072016</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

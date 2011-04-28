@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="tsconfig_hierarchy.alttitle">العارض الهرمي لصفحة TSconfig.</label>
+			<label index="tsconfig_hierarchy.description">يمكن هذا العارض المستخدم من عرض بنية مجمعة لصفحة TSconfig لفرع من فروع صفحة الشجرة.</label>
+			<label index="tsconfig_hierarchy.details">يعد هذا العارض ضروري للقيام بضوابط العرض العام لصفحة TSconfig حيث أنه يطبق على العديد من فروع صفحة الشجرة.
+يمكنك رؤية ضبط الإعداد الخاص بأي صفحة حيث يتم تحليل موروث صفحة TSconfig و تعرض النتائج.وهذا يساعدك على التقيم ما إن كانت الضوابط التي قمت بتطبيقها موجودة فعليا في مكانها الصحيح داخل ضبط الشجرة.
+كما يمكنك أيضا رؤية كود  Page TSconfig TypoScript لكل صفحة داخل خط الجزر مرفقا بها العارض الخاص بها.
+إنظر إلى الروابط لمزيد من المعلومات عن صفحة TSconfig.</label>
+			<label index="tsconfig_hierarchy.image_descr">هكذا يمكن أن يكون مظهر صفحة شجرة   TSconfig المدمجة.فهي تحتوي على &quot;مجموع&quot; لجميع أكواد الضبط من خط الجذر و جميع الضوابط الأخرى الأساسية.وعلى الرغم من أن هذا فإنه يتم  عرض الشجرة بأكملها إلا أنه بأمكانك بإختيار عناصر مستوى علوي (TLO) من داخل صندوق الإختيار بالأعلى وذلك ما إن أردت قصر العرض على  الفرع المنفرد فقط.
+ويمتلك إحدى فروع   Page TSconfig صفة خاصة تمكنه من إلغاء أيUser TSconfig من نفس مسار الهدف المعطى لمستخدم الوجهة اخلفية الحالي.وإنك عندما تعرض &quot;mod&quot; TLO فقط فإن أي ضوابط للمستخدم خاصة بالمستخدم الحالي للوجهة الخلفية ستطبق أيضا.وهذا دليل على أنه بعض الضوابط الإضافية لابد و أن تطبق على المستخدم  ما إن وجد &quot;mod.SHARED.colPos_list&quot;فعليا داخلPage TSconfig (وهذا طبقا &quot;لكل&quot;عرض في الصورة الأولى)</label>
+			<label index="tsconfig_edit.alttitle">عارض محتوى صفحة TSconfig.</label>
+			<label index="tsconfig_edit.description">إظهار صف كود TSconfig الخاص بجميع الصفحات المدرجة داخل خط الجزر الحالي  متضمنة أي كود آخر أساسي.</label>
+			<label index="tsconfig_edit.details">وفي الواقع إن شجرة صفحةTSconfig المدمجة و التي يمكنك رؤيتها داخل العرض الأساسي  في الواقع ما هي إلا تجميع لكودTSconfig بنفس الترتيب المعروض به هنا.
+يمكنك أيضا النقر على أيقونة-تحرير للصفحات المتعددة للذهاب مباشرة إلى حقول TSconfig الخاصة بهذه الصفحات.</label>
+			<label index="tsconfig_edit.image_descr">يعرض كود صف صفحة TSconfig.عليك أولا برؤية المتوى الأساسي من TYPO3_CONF_VARS (والذي غالبا ما تقوم الإمتدادات بإضافته)،كما ويجدر بك الإضطلاع على المحتوى  المدرج داخل حقل &quot;TSconfig&quot; الخاص بالصفحة الأولى و المدرج في خط الجزر (&quot;Intro&quot;)،وبعد ذلك عليك بالنظر إلى كل خط جزر يوجد أعلى الصفحة الحالية (وغير ظاهرا داخل  لقطة الشاشة) 
+
+
+وفي قاع الصفحة يمكنك رؤية الرابط الذي يفتح نماذج للتحرير لجميع حقول TSconfig المعروضة بالقائمة!
+وهنا يمكنك رؤية حقول TSconfig على الأخص في الصفحة الأولى و الثانية داخل خط الجذز الذي قد تم  تحريره.ولاحظ بأن أيكونة &quot;TS&quot;(المشاركة الزمنية) التالية للحق الأول -تمكنك من إستدعاء المرشد الذي يساعدك على الإختيار من بين خصائص صفحة  Page TSconfig المتاحة.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="tsconfig_hierarchy.alttitle" type="integer">57288638</label>
+			<label index="tsconfig_hierarchy.description" type="integer">34139528</label>
+			<label index="tsconfig_edit.alttitle" type="integer">123654165</label>
+			<label index="tsconfig_hierarchy.details" type="integer">177660665</label>
+			<label index="tsconfig_edit.description" type="integer">148641553</label>
+			<label index="tsconfig_edit.details" type="integer">105827446</label>
+			<label index="tsconfig_edit.image_descr" type="integer">142598899</label>
+			<label index="tsconfig_hierarchy.image_descr" type="integer">188033426</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Page TSconfig hierarchy viewer</label>
+			<label index="tsconfig_hierarchy.description">Allows the user to view the compiled Page TSconfig structure for a branch of the pagetree.</label>
+			<label index="tsconfig_edit.alttitle">Page TSconfig content viewer</label>
+			<label index="tsconfig_hierarchy.details">This viewer is indispensable for getting an overview of Page TSconfig settings as they apply to various branches in the page tree. You can see the configuration structure of any page where all inherited Page TSconfig is parsed and the result shown. This helps you to evaluate that the settings you have applied are actually found at the correct position in the configuration tree.
+You can also see the Page TSconfig TypoScript code for each page in the root line with the viewer.
+
+See the links for more information about what Page TSconfig is.</label>
+			<label index="tsconfig_edit.description">Displays the raw TSconfig code of all pages in the current root line including any default code.</label>
+			<label index="tsconfig_edit.details">The parsed Page TSconfig tree you see in the default view is actually compiled from this TSconfig code in the order it appears here. This view lets you see how the parsed version came to be.
+You can also click the edit-icons of the various pages to go directly to the TSconfig fields of the pages.</label>
+			<label index="tsconfig_edit.image_descr">Shows the raw Page TSconfig code. First you see the default content from TYPO3_CONF_VARS (probably added by extensions), then the content from the &quot;TSconfig&quot; field of the first page in the root line (&quot;Intro&quot;) and then for each root line page up to the current page (not shown in screenshot).
+In the bottom of the page you will see a link which will open editing forms for all of the TSconfig fields shown in the list!
+Here you see specifically the TSconfig fields of the first and second page in the rootline being edited. Notice the &quot;TS&quot; icon next to the first field - this will bring up a wizard that helps you to select among available Page TSconfig properties.</label>
+			<label index="tsconfig_hierarchy.image_descr">This is how the parsed Page TSconfig tree can look. It contains the &quot;sum&quot; of all the configuration code from the root line and any default settings. This shows the whole tree but you can also select other top level objects (TLO) in the selector box in the top if you want to limit the view to a single branch
+One of the branches in Page TSconfig has the special property that it is overridden with any User TSconfig in the same object path given for the current backend user. When you view only the &quot;mod&quot; TLO any user settings for the current backend user are applied as well. Here it is evident that some additional settings must apply for the user since only &quot;mod.SHARED.colPos_list&quot; was actually found in Page TSconfig (according to the &quot;All&quot; view in the first image).</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

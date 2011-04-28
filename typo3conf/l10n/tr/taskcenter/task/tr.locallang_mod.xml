@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="mlang_labels_tablabel">Görev merkezi ile genel görüntü, mesajlar, Yapılacaklar listesi</label>
+			<label index="mlang_labels_tabdescr">Görev merkezi sizin iç kısma ait yapılacak listenize, mesajlara, hızlı notunuza, aksiyonlarınıza vs erişim imkanı sağlar. Birde sizin mevcut önplan modülleri ve en son düzenlenen sayfalarınıza kısayol imkanı sağlar. Görev Merkezi sizin günlük görevlerinizi ve iş akışlarınızı takip etmenizi sağlayan yerdir.</label>
+			<label index="mlang_tabs_tab">Görev merkezi</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

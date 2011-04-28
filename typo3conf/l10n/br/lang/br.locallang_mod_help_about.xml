@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="welcome">Typo3 Administrador de Conteúdo Web Profissional</label>
+			<label index="minor">Typo3 é um Web-CMS de Código Aberto flexível e profissional baseado em PHP4 e MySQL.&lt;br /&gt;&lt;br /&gt;Typo3 está &lt;b&gt;disponível gratuitamente&lt;/b&gt; sob a licença &lt;a href=&quot;http://typo3.com/1316.0.html&quot; target=&quot;_blank&quot;&gt;Typo3-license (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">Sobre o TYPO3</label>
+			<label index="mlang_labels_tabdescr">Mostra as informações básicas sobre a aplicação, versão e termos de licenciamento do Typo3.</label>
+			<label index="mlang_tabs_tab">Sobre</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">110305519</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="welcome">TYPO3 Professional Web Content Management System</label>
+			<label index="minor">TYPO3 is a flexible and professional Open Source Web-CMS based on PHP and MySQL.&lt;br /&gt;&lt;br /&gt;TYPO3 is &lt;b&gt;freely available&lt;/b&gt; under the &lt;a href=&quot;http://typo3.com/1316.0.html&quot; target=&quot;_blank&quot;&gt;TYPO3-license (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">About TYPO3</label>
+			<label index="mlang_labels_tabdescr">Displays the basic facts about the TYPO3 application, version and licensing terms.</label>
+			<label index="mlang_tabs_tab">About</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

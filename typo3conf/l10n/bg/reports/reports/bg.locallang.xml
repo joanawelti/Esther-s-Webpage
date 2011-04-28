@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="status_report_title">Статус на отчета</label>
+			<label index="status_report_description">Вземи статусен отчет за оперативността на вашия сайт и всякакви засечени проблеми.</label>
+			<label index="status_report_explanation">Тук вие можете да намерите кратък преглед на параметрите на вашия сайт, както и всякакви проблеми, отчетени във вашата инсталация. Полезно е да копирате и поставите тази информация в заявки за поддръжка в TYPO3 мейлинглистите и системата за отчет на проблемите (тракър).</label>
+			<label index="status_ok">ОК</label>
+			<label index="status_insecure">Несигурен</label>
+			<label index="status_disabled">Непозволен</label>
+			<label index="status_enabled">Позволен</label>
+			<label index="status_empty">Празен</label>
+			<label index="status_connectionFailed">Връзката се провали</label>
+			<label index="status_updateComplete">Обновяване завършено</label>
+			<label index="status_updateIncomplete">Обновяване незавършено</label>
+			<label index="status_typo3">TYPO3 система</label>
+			<label index="status_system">Система</label>
+			<label index="status_security">Защита</label>
+			<label index="status_configuration">Конфигурация</label>
+			<label index="status_referenceIndex">Референтен индекс</label>
+			<label index="status_memcachedConfiguration">Конфигурация на memcache</label>
+			<label index="status_adminUserAccount">Администраторски потребителски акаунт</label>
+			<label index="status_encryptionKey">Криптиращ ключ</label>
+			<label index="status_fileDenyPattern">Забраняваш шаблон за файлове</label>
+			<label index="status_htaccessUploadProtection">.htaccess защита при качване</label>
+			<label index="status_installToolPassword">Парола за инсталиращия инструмент</label>
+			<label index="status_installTool">Инсталиращ инструмент</label>
+			<label index="status_phpVersion">PHP версия</label>
+			<label index="status_phpTooOld">Вашата PHP версия е твърде стара.</label>
+			<label index="status_phpMemory">PHP ограничение на паметта</label>
+			<label index="status_phpMemoryRecommendation">В зависимост от вашата конфигурация, TYPO3 може да работи в %1$s PHP ограничение на паметта. ВЪпреки това, %2$s PHP ограничение на паметта или повече се препоръчва, особено ако сайтът ви използва допълнителни разширения.</label>
+			<label index="status_phpMemoryRequirement">В зависимост от вашата конфигурация, TYPO3 може да работи в %1$s PHP ограничение на паметта. ВЪпреки това, %2$s PHP ограничение на паметта или повече се изисква, особено ако сайтът ви използва допълнителни разширения.</label>
+			<label index="status_phpMemoryEditLimit">Повишете ограничението на паметта чрез редактиране на параметъра memory_limit  във файла %s и последващо рестартиране на вашия сървър (или се свържете с вашия системен администратор или хостинг провайдър за допълнителна помощ).</label>
+			<label index="status_phpMemoryContactAdmin">Свържете се с вашия системен администратор или хостинг провайдър за помощ при повишаване на ограничението на PHP паметта.</label>
+			<label index="status_phpRegisterGlobals">PHP Register Globals</label>
+			<label index="status_phpRegisterGlobalsEnabled">%s е позволен. TYPO3 изисква тази конфигурационна директива да бъде забранена.</label>
+			<label index="status_phpRegisterGlobalsSecurity">Вашият сайт може да бъде застрашен, когато %s е разрешен.</label>
+			<label index="status_phpRegisterGlobalsHowToChange">как да промените конфигурационните настройки</label>
+			<label index="status_phpRegisterGlobalsPHPManual">PHP ръководството съдържа инструкции за %s.</label>
+			<label index="status_webServer">Уеб сървър</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="status_report_title" type="integer">257479801</label>
+			<label index="status_report_description" type="integer">178369786</label>
+			<label index="status_report_explanation" type="integer">34318536</label>
+			<label index="status_ok" type="integer">235577377</label>
+			<label index="status_insecure" type="integer">140509493</label>
+			<label index="status_disabled" type="integer">194993273</label>
+			<label index="status_enabled" type="integer">861095</label>
+			<label index="status_empty" type="integer">216189102</label>
+			<label index="status_connectionFailed" type="integer">33836067</label>
+			<label index="status_updateComplete" type="integer">5621219</label>
+			<label index="status_updateIncomplete" type="integer">254533109</label>
+			<label index="status_typo3" type="integer">110664735</label>
+			<label index="status_system" type="integer">172350102</label>
+			<label index="status_security" type="integer">49996582</label>
+			<label index="status_configuration" type="integer">39122498</label>
+			<label index="status_referenceIndex" type="integer">97303782</label>
+			<label index="status_memcachedConfiguration" type="integer">6779846</label>
+			<label index="status_adminUserAccount" type="integer">258776978</label>
+			<label index="status_encryptionKey" type="integer">123645804</label>
+			<label index="status_fileDenyPattern" type="integer">238106880</label>
+			<label index="status_htaccessUploadProtection" type="integer">18794819</label>
+			<label index="status_installToolPassword" type="integer">51944020</label>
+			<label index="status_installTool" type="integer">91233822</label>
+			<label index="status_phpVersion" type="integer">179719741</label>
+			<label index="status_phpTooOld" type="integer">100296885</label>
+			<label index="status_phpMemory" type="integer">132739621</label>
+			<label index="status_phpRegisterGlobalsPHPManual" type="integer">121757632</label>
+			<label index="status_webServer" type="integer">65115972</label>
+			<label index="status_phpMemoryRecommendation" type="integer">197413250</label>
+			<label index="status_phpMemoryRequirement" type="integer">175603326</label>
+			<label index="status_phpMemoryEditLimit" type="integer">167405875</label>
+			<label index="status_phpMemoryContactAdmin" type="integer">70568242</label>
+			<label index="status_phpRegisterGlobals" type="integer">38606043</label>
+			<label index="status_phpRegisterGlobalsEnabled" type="integer">163930679</label>
+			<label index="status_phpRegisterGlobalsSecurity" type="integer">131291074</label>
+			<label index="status_phpRegisterGlobalsHowToChange" type="integer">174788835</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="status_report_title">Status Report</label>
+			<label index="status_report_description">Get a status report about your site's operation and any detected problems.</label>
+			<label index="status_report_explanation">Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</label>
+			<label index="status_ok">OK</label>
+			<label index="status_insecure">Insecure</label>
+			<label index="status_disabled">Disabled</label>
+			<label index="status_enabled">Enabled</label>
+			<label index="status_empty">Empty</label>
+			<label index="status_connectionFailed">Connection Failed</label>
+			<label index="status_updateComplete">Update Complete</label>
+			<label index="status_updateIncomplete">Update Incomplete</label>
+			<label index="status_typo3">TYPO3 System</label>
+			<label index="status_system">System</label>
+			<label index="status_security">Security</label>
+			<label index="status_configuration">Configuration</label>
+			<label index="status_referenceIndex">Reference Index</label>
+			<label index="status_memcachedConfiguration">Memcached Configuration</label>
+			<label index="status_adminUserAccount">Admin User Account</label>
+			<label index="status_encryptionKey">Encryption Key</label>
+			<label index="status_fileDenyPattern">File Deny Pattern</label>
+			<label index="status_htaccessUploadProtection">.htaccess Upload Protection</label>
+			<label index="status_installToolPassword">Install Tool Password</label>
+			<label index="status_installTool">Install Tool</label>
+			<label index="status_phpVersion">PHP Version</label>
+			<label index="status_phpTooOld">Your PHP installation is too old.</label>
+			<label index="status_phpMemory">PHP Memory Limit</label>
+			<label index="status_phpRegisterGlobalsPHPManual">The PHP manual has instructions for %s.</label>
+			<label index="status_webServer">Web Server</label>
+			<label index="status_phpMemoryRecommendation">Depending on your configuration, TYPO3 can run with a %1$s PHP memory limit. However, a %2$s PHP memory limit or above is recommended, especially if your site uses additional extensions.</label>
+			<label index="status_phpMemoryRequirement">Depending on your configuration, TYPO3 can run with a %1$s PHP memory limit. However, a %2$s PHP memory limit or above is required especially if your site uses additional extensions.</label>
+			<label index="status_phpMemoryEditLimit">Increase the memory limit by editing the memory_limit parameter in the file %s and then restart your web server (or contact your system administrator or hosting provider for assistance).</label>
+			<label index="status_phpMemoryContactAdmin">Contact your system administrator or hosting provider for assistance with increasing your PHP memory limit.</label>
+			<label index="status_phpRegisterGlobals">PHP Register Globals</label>
+			<label index="status_phpRegisterGlobalsEnabled">%s is enabled. TYPO3 requires this configuration directive to be disabled.</label>
+			<label index="status_phpRegisterGlobalsSecurity">Your site may not be secure when %s is enabled.</label>
+			<label index="status_phpRegisterGlobalsHowToChange">how to change configuration settings</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

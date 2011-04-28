@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="hidden.description">Esta opção desativa o grupo de usuários.</label>
+			<label index="title.description">Nome do grupo de usuários.</label>
+			<label index="lockToDomain.description">Entre o nome de servidor do qual o grupo estará disponível exclusivamente.</label>
+			<label index="description.description">Entre uma descrição do grupo.</label>
+			<label index="TSconfig.description">TSconfig do grupo (avançado).</label>
+			<label index=".description">Grupos de usuários para usuários de website.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="hidden.description" type="integer">168238848</label>
+			<label index="title.description" type="integer">200720346</label>
+			<label index="lockToDomain.description" type="integer">178950964</label>
+			<label index="description.description" type="integer">159132670</label>
+			<label index="TSconfig.description" type="integer">256600387</label>
+			<label index=".description" type="integer">181980664</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="hidden.description">This option disables the user group.</label>
+			<label index="title.description">Name of the group.</label>
+			<label index="lockToDomain.description">Enter the host name from which the group will be available only.</label>
+			<label index="description.description">Enter a description of the group.</label>
+			<label index="TSconfig.description">TSconfig for the group (advanced).</label>
+			<label index=".description">Usergroups for Website users.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

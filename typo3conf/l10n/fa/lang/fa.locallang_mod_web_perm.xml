@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="permissions">اجازه دسترسی‌ها</label>
+			<label index="ch_permissions">تغییر اجازه دسترسی</label>
+			<label index="Legend">شرح</label>
+			<label index="Owner">مالک</label>
+			<label index="Group">گروه</label>
+			<label index="Everybody">همه</label>
+			<label index="EditLock">قفل</label>
+			<label index="EditLock_descr">این صفحه و همه محتویات برای ویرایش کاربران غیر مدیر قفل شده است.</label>
+			<label index="Save">ذخیره</label>
+			<label index="Abort">توقف</label>
+			<label index="Edit">ویرایش</label>
+			<label index="recursive">بازگشتی</label>
+			<label index="Mode">سبک</label>
+			<label index="Depth">ژرفا</label>
+			<label index="levels">سطوح</label>
+			<label index="User">کاربر</label>
+			<label index="A_Granted">دسترسی مجاز</label>
+			<label index="A_Denied">دسترسی غیرمجاز</label>
+			<label index="1">نشان دادن صفحه</label>
+			<label index="16">ویرایش محتوا</label>
+			<label index="2">ویرایش صفحه</label>
+			<label index="4">حذف صفحه</label>
+			<label index="8">صفحات جديد</label>
+			<label index="1_t">نشان دادن/کپی صفحه و محتویات.</label>
+			<label index="16_t">تغيير/افزودن/حذف/جابجایی محتویات.</label>
+			<label index="2_t">تغییر/جابجای صفحه، همانند عنوان صفحه، غیره.</label>
+			<label index="4_t">حذف صفحه و محتویات.</label>
+			<label index="8_t">ایجاد صفحات جدید پس از این صفحه.</label>
+			<label index="mlang_labels_tablabel">اجازه دسترسی ویرایش صفحه</label>
+			<label index="mlang_labels_tabdescr">تعیین اجازه دسترسی به صفحات . وبإمكانك تحديد مستخدم أو مجموعة كمالكين للصفحة وتحديد أذونات دخول لكل منهما.</label>
+			<label index="mlang_tabs_tab">دسترسی</label>
+			<label index="pages_affected">صفحات تحت تأثیر</label>
+			<label index="user_overview">بازبینی کاربر</label>
+			<label index="def">تعریف: ’محتويات‘  - رکوردهایی از همه جدول‌ها در یک صفحه - به جز رکوردهای جدول 'صفحات' هستند. (صفحات)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="double">3749651</label>
+			<label index="Everybody" type="double">2223491</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="double">8697959</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="double">9809855</label>
+			<label index="1" type="integer">256624387</label>
+			<label index="16" type="integer">102695873</label>
+			<label index="2" type="integer">66732081</label>
+			<label index="4" type="integer">220131191</label>
+			<label index="8" type="integer">146653009</label>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="double">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="double">6517083</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="def" type="integer">262383439</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="permissions">Permissions</label>
+			<label index="ch_permissions">Change permissions</label>
+			<label index="Legend">Legend</label>
+			<label index="Owner">Owner</label>
+			<label index="Group">Group</label>
+			<label index="Everybody">Everybody</label>
+			<label index="EditLock">Lock</label>
+			<label index="EditLock_descr">The page and all content is locked for editing by all non-Admin users.</label>
+			<label index="Save">Save</label>
+			<label index="Abort">Abort</label>
+			<label index="Edit">EDIT</label>
+			<label index="recursive">Set recursively</label>
+			<label index="Mode">Mode</label>
+			<label index="Depth">Depth</label>
+			<label index="levels">levels</label>
+			<label index="User">User</label>
+			<label index="A_Granted">Access Granted</label>
+			<label index="A_Denied">Access Denied</label>
+			<label index="1">Show page</label>
+			<label index="16">Edit content</label>
+			<label index="2">Edit page</label>
+			<label index="4">Delete page</label>
+			<label index="8">New pages</label>
+			<label index="1_t">Show/Copy page and content.</label>
+			<label index="16_t">Change/Add/Delete/Move content.</label>
+			<label index="2_t">Change/Move page, eg. change pagetitle etc.</label>
+			<label index="4_t">Delete page and content.</label>
+			<label index="8_t">Create new pages under this page.</label>
+			<label index="mlang_labels_tablabel">Page editing permissions</label>
+			<label index="mlang_labels_tabdescr">Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</label>
+			<label index="mlang_tabs_tab">Access</label>
+			<label index="pages_affected">pages affected</label>
+			<label index="user_overview">User overview</label>
+			<label index="def">Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

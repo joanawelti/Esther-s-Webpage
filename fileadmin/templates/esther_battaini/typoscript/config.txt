@@ -1,0 +1,66 @@
+config {
+
+#Ausgabe von XHTML aktivieren 
+xhtml_cleaning = all
+
+#Doctype auf XHTML 1.0 einstellen
+#doctype = xhtml_trans
+doctype = xhtml_strict
+
+#Sprache für die Attribute "xml:lang" und "lang" im <html>-Tag
+htmlTag_langKey = de
+
+#XML Prolog unterdrücken, weil der Internet Explorer ansonsten in den nicht standartkonfomen Quirks-Modus wechselt
+xmlprologue = none
+
+#Sprache
+language = de
+locale_all = german
+
+# Spam Protection
+#spamProtectEmailAddresses = 2
+#spamProtectEmailAddresses_atSubst = (at)
+
+#index_enable = 1
+
+}
+
+
+config.linkVars = L
+config.sys_language_uid = 0
+config.language = de
+config.locale_all = german
+
+[globalVar = GP:L = 1]
+config.sys_language_uid = 1
+config.language = en
+config.locale_all = english
+[global]
+
+
+lib.parseFunc_RTE.tags.link.typolink.target = _self
+
+# Popup für Bilder fomatieren
+tt_content.textpic.20{ 
+1.imageLinkWrap = 1 
+1.imageLinkWrap { 
+enable = 1 
+bodyTag = <BODY bgColor=white leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
+wrap = <A href="javascript:close();"> | </A> 
+JSwindow = 1 
+JSwindow.newWindow = 1 
+JSwindow.expand = 0,0 
+} 
+}
+
+tt_content.image.20 { 
+1.imageLinkWrap = 1 
+1.imageLinkWrap { 
+enable = 1 
+bodyTag = <BODY bgColor=white leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
+wrap = <A href="javascript:close();"> | </A> 
+JSwindow = 1 
+JSwindow.newWindow = 1 
+JSwindow.expand = 0,0 
+} 
+}

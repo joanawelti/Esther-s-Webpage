@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index=".alttitle">Tīmeklis &gt; Lapa Modulis</label>
+			<label index="quickEdit.alttitle">Ātrā rediģēšana</label>
+			<label index="quickEdit.description">Ātrais Redaktors dod jums tiešu pieeju lapas satura formas laukiem.</label>
+			<label index="quickEdit.details">Ātrais Redaktors ir radīts, lai jūs ātrāk varētu tikt pie lapas satura labošanas. Vienkārši klikšķinot uz lapas virsraksta lapu kokā, jūs iegūstat pirmo satura elementu no centrālās kolonnas atvērtu redaktorā. Izvēlnē, kas atrodas rīku joslā augšā, jūs varat izvēlēties citus satura elementus.</label>
+			<label index="quickEdit_selElement.alttitle">Satura elementi</label>
+			<label index="quickEdit_selElement.description">Tas ir satura elementu pārskats šajā lapā. Jūs varat izvēlēties citu elementu labošanai, vai uzklikšķināt uz ikonas &quot;Jauns&quot;, lai izveidotu jaunu satura elementu.</label>
+			<label index="columns_1.description">Ar skatu &quot;Kolonnas&quot; jūs varat kontrolēt lapas saturu, kā tas ir izvietots kolonnās.</label>
+			<label index="columns_3.alttitle">Lapas informācija</label>
+			<label index="columns_3.description">Lapas informācijas pārskatā var redzēt dažādu statistiku par noteiktu lapu.</label>
+			<label index="language_list.alttitle">Valodas skatījums</label>
+			<label index="language_list.description">Šis skatījums parādīs visus pieejamos lapas tulkojumus blakus vienu pie otra. Tas arī ļauj lietotājam izveidot jaunu lapas tulkojumu.</label>
+			<label index="columns_single.alttitle">Lapas satura elementi vienā kolonnā</label>
+			<label index="columns_multi.alttitle">Lapas satura elementi vairākās kolonnās.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+			<label index="columns_3.description" type="integer">128375441</label>
+			<label index="language_list.alttitle" type="integer">5495420</label>
+			<label index="language_list.description" type="integer">59701089</label>
+			<label index="columns_single.alttitle" type="integer">177139761</label>
+			<label index="columns_multi.alttitle" type="integer">129089861</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="columns_3.alttitle">Page Information</label>
+			<label index="columns_3.description">In the &quot;Page Information&quot; view you can see various statistics about a page.</label>
+			<label index="language_list.alttitle">Language view</label>
+			<label index="language_list.description">This view will display the available translations of the page content side-by-side. It enables users to create a new translation of a page.</label>
+			<label index="columns_single.alttitle">Page content elements in a single column</label>
+			<label index="columns_multi.alttitle">Page content elements in a multiple columns</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

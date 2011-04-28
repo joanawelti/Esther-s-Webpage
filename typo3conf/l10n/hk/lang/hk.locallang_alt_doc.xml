@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="deleteItem">刪除</label>
+			<label index="deleteWarning">你是否真的要刪除這個記錄？</label>
+			<label index="undoLastChange">復原／重做上次的改變（％秒之前）</label>
+			<label index="recordHistory">檢視記錄改變歷史</label>
+			<label index="editWholeRecord">修改整個記錄</label>
+			<label index="openDocs">開啟文件</label>
+			<label index="noDocuments">沒有開啟的文件</label>
+			<label index="noDocuments_msg">沒有開啟的文件可供修改</label>
+			<label index="noDocuments_msg2">你可以到％秒去尋找你想修改的網頁或記錄</label>
+			<label index="noDocuments_msg3">你可以從這個清單中選取其中一個你最近修改過的記錄</label>
+			<label index="noDocuments_pagemodule">網站＞網頁模組</label>
+			<label index="noDocuments_OR">或</label>
+			<label index="noDocuments_listmodule">網站＞表列模組</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="editWholeRecord" type="integer">195506325</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_msg" type="integer">264542935</label>
+			<label index="noDocuments_msg2" type="integer">15726238</label>
+			<label index="noDocuments_msg3" type="integer">187019899</label>
+			<label index="noDocuments_pagemodule" type="integer">126847616</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+			<label index="noDocuments_listmodule" type="integer">97512249</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="msg_step1_title">Benvenuto in TYPO3</label>
+			<label index="msg_step2_title">Seleziona la lingua</label>
+			<label index="msg_step5_title">Crea un utente amministratore</label>
+			<label index="msg_step6_title">Congratulazioni</label>
+			<label index="label_step">Passo %d</label>
+			<label index="label_next_step">Avanti</label>
+			<label index="label_available_languages">Seleziona la tua lingua</label>
+			<label index="label_admin_username">Inserisci lo username per l'amministratore</label>
+			<label index="label_admin_password">Inserisci la password per l'amministratore</label>
+			<label index="label_admin_password_2">Re-inserisci la password</label>
+			<label index="msg_warning_passwordmatch">Le password che hai inserito non sono identiche</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="msg_step1_title" type="integer">2783007</label>
+			<label index="msg_step2_title" type="integer">106133368</label>
+			<label index="msg_step5_title" type="integer">74046916</label>
+			<label index="msg_step6_title" type="integer">242070928</label>
+			<label index="label_step" type="integer">130061993</label>
+			<label index="label_next_step" type="integer">17482704</label>
+			<label index="label_available_languages" type="integer">211219761</label>
+			<label index="label_admin_username" type="integer">231680932</label>
+			<label index="label_admin_password" type="integer">201238293</label>
+			<label index="label_admin_password_2" type="integer">86594661</label>
+			<label index="msg_warning_passwordmatch" type="integer">129698855</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="msg_step1_title">Welcome to TYPO3</label>
+			<label index="msg_step2_title">Select language</label>
+			<label index="msg_step5_title">Create admin user</label>
+			<label index="msg_step6_title">Congratulation</label>
+			<label index="label_step">Step %d</label>
+			<label index="label_next_step">Next</label>
+			<label index="label_available_languages">Select your language</label>
+			<label index="label_admin_username">Enter username for administrator</label>
+			<label index="label_admin_password">Enter a password for administrator</label>
+			<label index="label_admin_password_2">Retype the password</label>
+			<label index="msg_warning_passwordmatch">The passwords you entered don't match.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

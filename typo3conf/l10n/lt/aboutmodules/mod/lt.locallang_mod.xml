@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel">Informacija apie modulius</label>
+			<label index="mlang_labels_tabdescr">Rodomas puslapis apie prieinamus modulius.</label>
+			<label index="mlang_tabs_tab">Apie modulius</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">175887609</label>
+			<label index="mlang_labels_tabdescr" type="integer">84694866</label>
+			<label index="mlang_tabs_tab" type="integer">191277313</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel">Information about modules</label>
+			<label index="mlang_labels_tabdescr">Shows this page about available modules.</label>
+			<label index="mlang_tabs_tab">About modules</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

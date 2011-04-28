@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="lDelete">מחק</label>
+			<label index="lUpdate">עדכן</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="lDelete" type="integer">254438473</label>
+			<label index="lUpdate" type="integer">6894342</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="lDelete">Delete</label>
+			<label index="lUpdate">Update</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

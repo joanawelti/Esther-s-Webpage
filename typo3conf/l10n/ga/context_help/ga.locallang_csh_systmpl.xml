@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">Rexistro de modelo TypoScript</label>
+			<label index=".details">Os rexistros de &quot;Modelo&quot; son compoñentes vitais utilizados para diseñar as páxinas web. Non importa como lle guste construir a sía páxina, debe ser iniciado con un rexistro de &quot;Modelo&quot; incluído na raíz da súa árbore de páxinas.
+
+Básicamente, cree un rexistro &quot;Modelo&quot;, introduza un título e asegúrese de ir marcando Limpar constantes, configuración e liña raíz. Despois, introduza algunha configuración TypoScript no campo &quot;Configuración&quot; e xa está.
+
+É moi importante ler como facer esto nos documentos listados abaixo! Debe asegurarse de que utiliza o módulo &quot;Web-&gt;Modelo&quot; para traballar con modelos. É unha ferramenta especializada para axudarlle a traballar con modelos.</label>
+			<label index=".image_descr">Un rexistro de modelo con constantes e código de configuración. 
+
+O módulo &quot;Web-&gt;modelo&quot; contén ferramentas que lle axudarán a editar e validar as estructuras TypoScript.</label>
+			<label index="hidden.description">Ocultar o modelo desactivará o rexistro de model.</label>
+			<label index="hidden.details">Se o rexistro de modelo foi o primeiro rexistro en ser ocultado, exporase un segundo rexistro na súa vez.</label>
+			<label index="starttime.description">Tempo de comezo. Utilice esto para habilitar un modelo en certa data.</label>
+			<label index="endtime.description">Tempo de finalización. Utilice esto para deshabilitar un modelo en certa data.</label>
+			<label index="title.description">O título do rexistro de modelo é únicamente unha etiqueta interna e non ten efecto de cara á saída no frontend.</label>
+			<label index="sitetitle.description">Título do sitio web. Automáticamente será engadido como prefixo a tódolos títulos de páxinas na etiqueta título (&lt;título&gt;) das páxinas de frontend.</label>
+			<label index="constants.description">Constantes TypoScript.</label>
+			<label index="config.description">Código de configuracón TypoScript.</label>
+			<label index="config.details">Lea máis sobre modelos TypoScript nos documentos &quot;TSref&quot;, &quot;TypoScript por exemplo&quot; e &quot;Cómo comezar&quot;.</label>
+			<label index="resources.description">Arquivos de recursos para o modelo. Por exemplo, un logo, unha fonte TTF, etc.</label>
+			<label index="resources.details">Arquivos de recursos poden ser referenciados en código de modelo TypoScript co texto &quot;[nomearquivo]*.[ext] e ten a venxata de que a referencia dende TypoScript non romperá se copia ou exporta un rexistro de modelo onde os recursos finalizan outra parte do nome do arquivo (ten que comezar polo mesmo nome).</label>
+			<label index="clear.description">Etiquetas que limpan a herdanza de código TypoScript de modelos superiores da liña raíz. Hai unha etiqueta para Constantes e outra para código de Configuración.</label>
+			<label index="clear.details">No módulo &quot;Web -&gt; Modelo -&gt; Analizador de modelos&quot; poderá ver na árbore do modelo qué constantes e código de configuración é herdada.</label>
+			<label index="root.description">Define qué modelo representa a raíz de un sitio web.</label>
+			<label index="includeStaticAfterBasedOn.description">Se é establecido, modelos estáticos serán incluidos despois dos modelos base (&quot;based-on templates&quot;). Básicamente intercambia a orde de inclusión desas fontes de modelos externos.</label>
+			<label index="includeStaticAfterBasedOn.details">O módulo &quot;Web -&gt; Modelo -&gt; Analizador de modelo&quot; permítelle ver a orde de inclusión das fontes TypoScript que utiliza o modelo.</label>
+			<label index="include_static.description">Rexistros de modelo estáticos a incluir.</label>
+			<label index="include_static_file.description">Arquivos de modelo estáticos a incluir.</label>
+			<label index="include_static_file.details">Os arquivos de modelo estáticos rexístranse por extensións en contra dos rexistros de modelo estáticos os cales veñen da táboa de base de datos estática, &quot;static_template&quot;.</label>
+			<label index="basedOn.description">Outros rexistros de modelo que son incluídos como &quot;modelos estáticos&quot;.</label>
+			<label index="static_file_mode.description">Define o modo de inclusión de arquivos estáticos de modelo.</label>
+			<label index="static_file_mode.details">Se ten dúbidas sobre a orde de inclusión, asegúrese de utilizar o módulo de backend &quot;Web -&gt; Modelo -&gt; Analizador de modelo&quot; para ver a orde.</label>
+			<label index="nextLevel.description">Define un rexistro para activar un nivel na árbore de páxina desta rama. Esto pódese activar para definir outro rexistro de modelo para o sitio xeral mentres que se ten un modelo especial para o frontend.</label>
+			<label index="description.description">Introduza unha descrición do modelo se desexa.</label>
+			<label index="editorcfg.description">Editor de configuración para a extensión de edición de configuración.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description" type="integer">48577171</label>
+			<label index=".details" type="integer">31901980</label>
+			<label index=".image_descr" type="integer">34751722</label>
+			<label index="hidden.description" type="integer">165916776</label>
+			<label index="hidden.details" type="integer">198600233</label>
+			<label index="starttime.description" type="integer">233646736</label>
+			<label index="endtime.description" type="integer">23552607</label>
+			<label index="title.description" type="integer">261538508</label>
+			<label index="sitetitle.description" type="integer">238031316</label>
+			<label index="constants.description" type="integer">254401529</label>
+			<label index="config.description" type="integer">214015943</label>
+			<label index="config.details" type="integer">58707367</label>
+			<label index="resources.description" type="integer">99516465</label>
+			<label index="resources.details" type="integer">110839343</label>
+			<label index="clear.description" type="integer">151164366</label>
+			<label index="clear.details" type="integer">137952541</label>
+			<label index="root.description" type="integer">49046128</label>
+			<label index="includeStaticAfterBasedOn.description" type="integer">63212350</label>
+			<label index="includeStaticAfterBasedOn.details" type="integer">92376705</label>
+			<label index="include_static.description" type="integer">19421470</label>
+			<label index="include_static_file.description" type="integer">199479612</label>
+			<label index="include_static_file.details" type="integer">261693166</label>
+			<label index="basedOn.description" type="integer">11395224</label>
+			<label index="static_file_mode.description" type="integer">236592272</label>
+			<label index="static_file_mode.details" type="integer">17143581</label>
+			<label index="nextLevel.description" type="integer">222981704</label>
+			<label index="description.description" type="integer">115472033</label>
+			<label index="editorcfg.description" type="integer">181379116</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">TypoScript template record.</label>
+			<label index=".details">The 'Template' records are the vital components used to set the design of the webpages. No matter how (almost) you would like to build your website, it must be initiated by a 'Template' record placed in the root of the page tree of the site.
+Basically, create a 'Template' record, enter a title and make sure to check of Clear constants, setup and Rootline. Then enter some TypoScript configuration in the Setup field and you're set.
+It's very important to read how to do all this in the documents listed below! Also make sure you use the Web&gt;Template module to do all the working with templates. It's a specialized tool to help you with this.</label>
+			<label index=".image_descr">A Template Record with constants and setup code.
+The Web&gt;Template module contains tools which will help you to edit and validate TypoScript structures.</label>
+			<label index="hidden.description">Hiding the template will deactivate the template record.</label>
+			<label index="hidden.details">If the Template Record was the first record on a page hiding it will expose the second record on the page instead.</label>
+			<label index="starttime.description">Start time. Use this to enable a template on a certain date.</label>
+			<label index="endtime.description">End time. Use this to disable a template on a certain date.</label>
+			<label index="title.description">The title of the template record is only an internal label and does not have any effect on the output in the frontend.</label>
+			<label index="sitetitle.description">Website title. Typically this will automatically be prefixed all page titles in the &lt;title&gt; tag of the frontend pages.</label>
+			<label index="constants.description">TypoScript Constants.</label>
+			<label index="config.description">TypoScript Setup code</label>
+			<label index="config.details">Read more about TypoScript Templates in TSref, TypoScript by Example and Getting Started.</label>
+			<label index="resources.description">Resource files for the template. For example a logo, a TTF-font etc.</label>
+			<label index="resources.details">Resource files can be referenced in TypoScript Template code by [filename]*.[ext] and has the advantage that the reference from TypoScript is not broken if you copy or export a Template Record where the resources ends up with new names.</label>
+			<label index="clear.description">Flags that will clear the inheritance of TypoScript code from former templates in the root line. There is a flag for Constants and one for Setup code.</label>
+			<label index="clear.details">In the Web &gt; Template / Template Analyser module you can see how far back in the template tree that constants and setup code is inherited.</label>
+			<label index="root.description">Defines that the template represents a root of a website.</label>
+			<label index="includeStaticAfterBasedOn.description">If set, static templates will be included after &quot;based-on&quot; templates. It basically swaps the order of inclusion of these external TypoScript sources.</label>
+			<label index="includeStaticAfterBasedOn.details">The Web &gt; Template / Template Analyser module allows you to view the order of inclusion of all TypoScript sources your template uses.</label>
+			<label index="include_static.description">Static Template records to include.</label>
+			<label index="include_static_file.description">Static Template files to include.</label>
+			<label index="include_static_file.details">Static template files are registered by extensions contrary to Static Template records which come from the static database table, &quot;static_template&quot;.</label>
+			<label index="basedOn.description">Other Template Records that are included like &quot;static templates&quot;.</label>
+			<label index="static_file_mode.description">Define the mode of inclusion of static template files.</label>
+			<label index="static_file_mode.details">If you are in doubt about the inclusion order, make sure to use the Web &gt; Template / Template Analyser to view the order.</label>
+			<label index="nextLevel.description">Defines a template record to make active one level out in the page tree of this branch. This can be used to define another template record for the general website while having a special template for the frontpage.</label>
+			<label index="description.description">Enter a description of the template if you like.</label>
+			<label index="editorcfg.description">Editor Configuration for the stylesheet editor extension.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

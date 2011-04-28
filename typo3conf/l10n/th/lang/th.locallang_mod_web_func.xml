@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="title">ฟังก์ชั่นชั้นสูง</label>
+			<label index="clickAPage_content">โปรดกดปุ่มชื่อหน้า ที่ page tree</label>
+			<label index="mlang_labels_tablabel">ฟังก์ชั่นชั้นสูง</label>
+			<label index="mlang_labels_tabdescr">คุณจะเจอฟังก์ชั่นส่งออก (export) และนำเข้า (import) ที่นี่ นอกจากนี้โมดูลยังมี ฟังชั่นพิเศษ -ผู้ช่วยวิเศษ- มีประโยชน์ในสถานการณ์เฉพาะ เช่นคุณสามารสร้าง และการจัดลำดับหลายหน้าพร้อมกัน</label>
+			<label index="mlang_tabs_tab">ฟังก์ชั่น</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="title" type="integer">155530193</label>
+			<label index="clickAPage_content" type="integer">74170385</label>
+			<label index="mlang_labels_tablabel" type="integer">155530193</label>
+			<label index="mlang_labels_tabdescr" type="integer">178291472</label>
+			<label index="mlang_tabs_tab" type="integer">244559025</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

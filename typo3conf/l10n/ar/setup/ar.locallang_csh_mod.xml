@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".alttitle">مستخدم&lt;وحدة الإعداد.</label>
+			<label index=".description">تساعد وحدة الإعداد مستخدم الوجهة الخلفية لإعداد تيبو3 لإستقبال جلسات الدخول الخاص بالمستخدم. ويتضمن ذلك إختيار لغة الوجهة الخلفية و العديد من خصائص الأخرى الخاصة بالوجهة الأمامية.</label>
+			<label index=".details">&lt;b&gt;لاحظ [خاص بالمرشدين]:&lt;/b&gt;يمكن التجاوز عن كل عمليات الضبط هذه كما ويمكن &quot;User TSconfig&quot;تغير القيم الأساسية لها. لقراءة المزيد عن هذا الموضوع برجاء النظر إلى الرابط بالأسفل.</label>
+			<label index=".image_descr">يتم إختيار وحدة الإعدادمن القائمة المدرجة على اليسار.هكذا يكون شكل وحدة الإعداد المدرجة على الوجهة الأمامسة-تدرج قائمة بالخصائص للضبط.</label>
+			<label index="language.alttitle">إختيار لغة الجبهة الخلفية</label>
+			<label index="language.description">أختر اللغة التي تفضلها في الجبهة الخلفية.يتم ترجمة معظم اللغات المستخدمة في الجبهة الخلفية(للمستخدمين العادين) إلى لغات أخرى.</label>
+			<label index="language.details">&lt;b&gt;Warning [technical]:&lt;/b&gt;إذا لم يكن تيبو3 معدا لأستخدام هيئة حرف مفرد (through $TYPO3_CONF_VARS[BE][forceCharset])فإن  جميع البيانات المدخلة على الواجهة الخلفية ترسل إلى هئة الحرف  الخاصة بالغلة المختارة للواجهة الخلفية.</label>
+			<label index="language.image_descr">تم ترجمة تيبو3 إلى أكثر من 40 لغة.و اللغة الإنجليزية هي اللغة الأساسية ويجب أن تصدر جميع العناوين أولا وبصفة أساسة باللغة الإنجليزية.وتعرض لقطة الشاشة هذه العديد من التراجمات إلى العبرية، الهربية،الروسية،و كذلك الصينية.</label>
+			<label index="option_condensedMode.alttitle">نمط مكثف</label>
+			<label index="option_condensedMode.description">عند ضبط هذه الخاصية، فإن الوجهة الخلفية لن تقوم بتحميل الوحدات الجزيئية سواء الخاصة بصفحة الوب أو تك الخاصة بالملف إلى ضبط الإطار ولكنها تتيح لصفحة الجذر و ملفاتها بتحميل الوحدات الجزئية إلى المحتوى الأساسي فى الإطار.وهذا يتيح عرضا أفضل على شاشات العرض الصغيرة.</label>
+			<label index="option_condensedMode.image_descr">ويتاح في هذا المثال نمط عرض مركز.ولا تعرض صفحة الشجرة داخل نمط التصفح الطبيعي ولكنها تعرض في محتوى الإطار الكامل و المدرج على يمين القائمة.وعند النقر على عنوان الصفحة داخل صفحة الشجرة (هنا  الوب &lt;لآئحة السجلات)فإنه سيتم تحميل وحدة الصفحة على&lt;u&gt;نفس &lt;/u&gt;إطار الوجهة الخلفية.وبهذه الطريقة يقوم نمط العرض المركز بتخزين مساحة الشاشة الأفقية و ذلك منذ أن تم مسح نمط التصفح.</label>
+			<label index="option_noMenuMode.alttitle">نمط تصفح</label>
+			<label index="option_noMenuMode.description">ضبط انماط بديلة للوجهة الخلفية.</label>
+			<label index="option_noMenuMode.details">وبصفة أساسية يمكنك التصفح بين لآئحة سجلات الوجهة الخلفية وذلك من خلال القائمة المدرجة في الإطار الأيسر.وبهذا الخيار يمكنك أختيار نماذج تصفح بديلة:
+
+&lt;b&gt;صندوق الإختيار أعلى الإطار :&lt;/b&gt;
+عند الضبط، لن تحمل الجهة الخلفية داخل الإطار الأيسر للقائمة ولكن ضع صندوقا للإختيار في القائمة المدرجة أعلى الإطار.وهذا قد يوفر فراغات كبيرة في الشاشات الصغيرة.
+
+&lt;b&gt;الأيقونات المدرجة أعلى الإطار&lt;/b&gt;
+يعرض هذا الخيار جميع عناصر القائمة المدرجة أعلى الإطار على هيئة قائمة أفقية من الأيقونات.هذا يكون بالنسبة للمستخدمين المتمرسين الذين لديهم دراية بترتيب الوحدات كما و يمكنهم التعرف على هذه الوحدات من خلال أيقوناتهم.</label>
+			<label index="option_noMenuMode.image_descr">قائمة&quot;صندوق الخيارات&quot;. إن إختيار بند ما يساعد الوجهة الخلفية على القفز إلى تلك الوحدة.قائمة&quot;الأيقونات&quot;.وكما هو معلوم لديك فلابد لك من  حفظ أماكن هذه الايقونات عن ظهر قلب.يمكنك أيضا وضع مؤشر الفأرة على الأيقونة وسيظهر نص تعريف الأدوات اسم الوحدة</label>
+			<label index="option_showThumbs.alttitle">يقوم  هذا الخيار بعرض صورا مصغرة بصورة أساسية.</label>
+			<label index="option_showThumbs.description">وفي الوحدات مثل &quot;وب&gt;قائمة &quot; وملف&quot;&lt;قائمة ملفات&quot;يمكنك من خلال صندوق الخيرا إتاحة عرض صورا مصغرة للملفات (صورا/أنماطا للكتابة)و أيضا عرض سجلات (و ذلك في حالة إرفاق صورا بالملف). إن ضبط هذه الخاصية سيتيح هذا العرض بصورة أساسية</label>
+			<label index="option_showThumbs.image_descr">عند إتاحة عرض الصور المصغر،فإنه سيتم عرض الملفات المرفقة بالسجلات 
+داخل الوحدة بهذه الطريقة&quot;وب&lt;قائمة&quot;.</label>
+			<label index="option_helpText.alttitle">عرض نص المساعد إن أمكن تطبيقة</label>
+			<label index="option_helpText.description">عند ضبط هذا الخيار ستظهر بعض نصوص المساعدة بصورة أساسية.وهذه الخيارات تنطبق  مثلا على وحدة وب&gt;دخول.</label>
+			<label index="option_maxTitleLen.alttitle">الحد الأقصى لطول العنوان.</label>
+			<label index="option_maxTitleLen.description">وغالبا ما يقوم تيبو3 بقص اسماء العناوين الطويلة للسجلات إلخ.وعليه فإنه يتم عرض أول أحرف (س)فقط .وغالبا ما يعتمد عدد الأحرف المعروضة على هذا التنوع.فعلى سبيل المثال تستخدم هذه القيمة في تحديد طول عنوان الصفحة داخل صفحة الشجرة.</label>
+			<label index="option_maxTitleLen.image_descr">وفي هذه الحالة فإنه يتم تحديد أقصى طول للعنوان بعشرة أحرف-وتكون النتيجة أنه سيتم قطع العناوين التي يزيد عدد احرفها عن عشرة أحرف سواء كانت هذه العناوين داخل صفحة الشجرة أو في أي مكان آخر-ثم يلحق بها الداخلة &quot;...&quot;.مع العلم بأن القيمة الأساسية لطول العنوان هي&quot;30&quot; حرف.</label>
+			<label index="option_copyLevels.alttitle">النسخ التكراري</label>
+			<label index="option_copyLevels.description">عند نسخ صفحة ما فإن الصفحات الفرعية تنسخ بالتبعية فقط عند ضبطك لهذه الخاصية.فإن الرقم الذي تقوم بتحديده يعرف عدد المستويات المدرجة أسفل الصفة المقرر نسخها.</label>
+			<label index="option_recursiveDelete.alttitle">المسح التكراري</label>
+			<label index="option_recursiveDelete.description">لا يمكنك  مسح صفحة ما يندرج تحتها صفحات فرعية إلا إذا تم ضبط إشارة الراية.كن حذر-فإن ضبط هذه الخاصية يعني أن صفحة الشجرة يمكن مسحها بالكامل بضغة واحدة.</label>
+			<label index="option_recursiveDelete.details">عليك مراعات المشاكل الوظيفية التي قد تحدث إلغاء صفحة شجرة كبيرة. قد ذلك وقتا طويلا وإذا ما تم إلغاء ملفات PHPقبل إنتهاء العملية فقد تكون النتائج غير متوقعة.</label>
+			<label index="option_edit_wideDocument.alttitle">وثيقة عريضة للخلفية</label>
+			<label index="option_edit_wideDocument.description">عند ضبط هذه الخاصية فإن ذلك سيزيد من الإتساع الأساسي للسجل وذلك بتحرير نماذج داخل تيبو3 تصل إلى حوالى 50%.</label>
+			<label index="option_edit_RTE.alttitle">إتاحة محرر النص الغني.</label>
+			<label index="option_edit_RTE.description">عند ضبط هذا الخيار،سيكون محرر النصوص الغني الخاص بتيو3 متاحا لك. و الطبع فإنك لست بحاجه لإلغاء هذه الخاصية.</label>
+			<label index="option_edit_RTE.details">ونعني بمحرر النص الغني (RTE) أن ملف تحرير النص يحتوي على مجموعة من الأزرار لجعل خط النص المختار عريضا، مائل إلخ.وساء كان محرر النص الغني متاحا أم لا فإنه يعتمد على عوامل أخرى مثل المستعرض الذي تستخدمه والإمتدادات التي قمت بتحميلها.وأخيرا تطبق خواص محرر النص الغني فقط على مجموعة قليلة من سجلات الملفات.ومن أكثر الأمثلة المعروفة على ذلك هو ملف النص الخاص بعنصر المحتوى.</label>
+			<label index="option_edit_docModuleUpload.alttitle">تفعيل خاصية تحديث الملف فى نماذج التحرير.</label>
+			<label index="option_edit_docModuleUpload.description">تمكنك هذه الخاصية من إتاحة صندوق &quot;التحديث&quot;لكل ملف من سجلات تيبو3حيث يمكنك إرفاق صورة أو ملف.غالبا فإنك لا ترغب إبطال هذه الخاصية حيث أنها عادة من الخواص الجيد الحصول عليها.</label>
+			<label index="option_edit_docModuleUpload.details">حتى إذا ما قمت بإبطال هذه الخاصية فإنك بذلك لا تلغي صندوق التحديث المجود في مستعرض العنصر في تيبو3و المتروك من أجل إلحاق صورة أو ملف.</label>
+			<label index="option_edit_showFieldHelp.alttitle">نمط المساعدة الحساسة للسياق</label>
+			<label index="option_edit_showFieldHelp.description">تساعد هذه الخاصية في تعريف النمط الخاص بالمساعدة الحساسة للسياق داخل تيبو3.ومن المفترض أن تظهر أيقونات صغيرة للمساعدة أينما أتيح بند مساعدة.فبالنقر على الأيقونة يظهر لك نافذة المساعدة.</label>
+			<label index="option_edit_showFieldHelp.details">وبالتبادل يمكنك إختيار هذه المواصفات لتظهر لك متضمنة في النص.فهي مفيدة بالنسبة للذين يتعلمون كيفية التعامل مع تيبو3 والذين في حاجة إلى إستعراض هذه المواصفات مباشرة على الواجهة الخلفية.
+وبصورة دائمة يريد المستخدمين المتمرسين إلغاء أيقونات المساعدة في حالة ما إذا كانوا إلى زيادة سعة الواجهة الخلفية.
+
+وتكون المساعدة الحساسة للسياق أيضا متاحة كدليل كامل للمستخدم داخل وحدة مساعدة&gt;دليل.</label>
+			<label index="option_edit_showFieldHelp.image_descr">سيقوم النموذج الإفتراضي &quot;أيقونة عرض المساعدة فقط&quot; بعرض أيقونات المساعدة دون وجود أي نصوص إضافية.وفي حالة اختيار&quot;عرض نص الرسالة كاملا&quot;فستجد وصفا مختصرا مرافقا لأيقونة المساعدة ومجمعا داخل صندوق.وعند الضغط على أيقونة المساعدة يظهر لك دائما وصفا كاملا للعنصر المعروض داخل النافذة المنبثقة.</label>
+			<label index="option_disableCMlayers.alttitle">إلغاء قوائم النصوص المنبثقة</label>
+			<label index="option_disableCMlayers.description">عند عرض أيقونة ما خاصة بسجل ملف أو قاعدة بيانات داخل الواجهة الخلفية لتيبو3غالبا ما يتاح لك النقر على الأيقونة و عندها ستظهر لك قائمة نصية فوق الأيقونة متضمنة لجميع الخصائص المتعلقة بها.تمكنك هذه الخاصية من إلغاء هذا السلوك، على الرغم من أنك قد لا تكون في حاجة إلى ذلك.</label>
+			<label index="option_disableCMlayers.image_descr">هذه هي قائمة السياق (&quot;قائمة النقر&quot;)الخاصة بصفحة ما داخل صفحة الشجرة.ولاحظ بأنه يتم تفعيل هذه العنملية &quot;بالنقر على الزر الأيسر&quot;والمقابل لعملية التفعيل العادية باستخدام &quot;النقر بالمفتاح الأيمن&quot;والمطبقة في معظم أنظمة التشغيل.</label>
+			<label index="option_beUser_realName.alttitle">اسمك الحقيقي</label>
+			<label index="option_beUser_realName.description">إدخل اسمك الحقيقي هنا.</label>
+			<label index="option_beUser_email.alttitle">إدخل بريدك الإلكتروني.</label>
+			<label index="option_beUser_email.description">تأكد من أن هذا هو بريدك الإلكتروني المستخدم.وسيكون  هو عنوان الإتصال الذي يستخدمه مشرف الواجهة الخلفية للإتصال بك.وقد يكون نظام تيبو3 في حاجة إلى مراسلتك في أوقات متعددة وسيكون هذا العنوان هو المستقبل لجميع رسائلك.</label>
+			<label index="option_emailMeAtLogin.alttitle">الإعلام بالدخول.</label>
+			<label index="option_emailMeAtLogin.description">عند ضبط هذا الخيار سيصل لك بريدا إلكترونيا من تيبو3 في كل مرة تقوم  أنت( أو أي شخص أخر )بالدخول مستخدما اسم المرور الخاص بك.وقد تكون قي حاجة إلي عملية &quot; التحذير&quot; كوسيلة لإختبار الأمان وعليه فستعرف ما إن تعرف على كلمة السر الخاصة بك ويستخدمها للدخول إلى حسابك الخاص.</label>
+			<label index="option_newPassword.alttitle">تغير كلمة السر</label>
+			<label index="option_newPassword.description">إدخل كلمة السر جديدية لحسابك على الواجهة الخلفية.</label>
+			<label index="option_newPassword.details">عند ترك هذا الحقل يتم تشفير كلمات السر بالإمتداد MD5 hash وعليه فلا يرسل نص خالي لكلمة السر عبر اتلأسلاك.</label>
+			<label index="option_newPasswordAgain.alttitle">تأكيد تغير كلمة السر</label>
+			<label index="option_newPasswordAgain.description">قم بتأكيد كلمة السر الخاصة بك و ذلك بإدخالها مرة أخرى، مطابقة لما كتبتبه تماما. وإذا لم تتطابق كلمتى السر، فإن كلمة السر يتم تغيرها مباشرة.</label>
+			<label index="reset.alttitle">إعادة ضبط جميع القيم كقيم إفتراضية.</label>
+			<label index="reset.description">عند إختيار هذه الخاصية فإنه سيتم عادة ضبط جميع ضوابط هذه الوحدة كضوابطا إفتراضية للنظام.</label>
+			<label index="reset.details">وهذه الخاصية غير مطبقة بالطبع على تضبيط اسم المستخدم،بريده الإلكتروني و كلمة المرور الخاصة به.</label>
+			<label index="simuser.alttitle">يقوم هذا الملف بمحاكاة مستخدم الواجهة الخلفية.</label>
+			<label index="simuser.description">يمكن هذا الخيار المستخدمين &quot;المرشدين&quot;من تغير الضوابط لتناسب مستخدم آخر من مستخدمي الواجهة الخلفية للنظام.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index="language.alttitle" type="integer">189480609</label>
+			<label index=".details" type="integer">127028415</label>
+			<label index=".image_descr" type="integer">55722408</label>
+			<label index="language.description" type="integer">107138542</label>
+			<label index="language.image_descr" type="integer">67910929</label>
+			<label index="option_condensedMode.alttitle" type="integer">195403291</label>
+			<label index="option_condensedMode.description" type="integer">263779261</label>
+			<label index="option_condensedMode.image_descr" type="integer">64262732</label>
+			<label index="option_noMenuMode.alttitle" type="integer">146834180</label>
+			<label index="option_noMenuMode.description" type="integer">43681789</label>
+			<label index="option_noMenuMode.details" type="integer">63013137</label>
+			<label index="option_noMenuMode.image_descr" type="integer">206430016</label>
+			<label index="option_showThumbs.alttitle" type="integer">111890184</label>
+			<label index="option_showThumbs.description" type="integer">261154751</label>
+			<label index="option_showThumbs.image_descr" type="integer">182315096</label>
+			<label index="option_helpText.alttitle" type="integer">40561585</label>
+			<label index="option_helpText.description" type="double">985533</label>
+			<label index="option_maxTitleLen.alttitle" type="integer">119741080</label>
+			<label index="option_maxTitleLen.description" type="integer">233830264</label>
+			<label index="option_maxTitleLen.image_descr" type="integer">158787531</label>
+			<label index="option_copyLevels.alttitle" type="integer">28112499</label>
+			<label index="option_recursiveDelete.alttitle" type="integer">169322059</label>
+			<label index="option_copyLevels.description" type="integer">29159056</label>
+			<label index="option_recursiveDelete.description" type="integer">213702407</label>
+			<label index="option_edit_wideDocument.alttitle" type="integer">47472072</label>
+			<label index="option_edit_wideDocument.description" type="integer">139642801</label>
+			<label index="option_edit_RTE.alttitle" type="integer">241224049</label>
+			<label index="option_edit_RTE.description" type="integer">244751398</label>
+			<label index="option_edit_RTE.details" type="double">4695323</label>
+			<label index="option_edit_docModuleUpload.alttitle" type="integer">191752606</label>
+			<label index="option_edit_docModuleUpload.description" type="integer">249009123</label>
+			<label index="option_edit_docModuleUpload.details" type="integer">213009802</label>
+			<label index="option_edit_showFieldHelp.alttitle" type="integer">156260410</label>
+			<label index="option_edit_showFieldHelp.description" type="integer">29048466</label>
+			<label index="option_edit_showFieldHelp.details" type="integer">38461946</label>
+			<label index="option_edit_showFieldHelp.image_descr" type="integer">38749169</label>
+			<label index="option_disableCMlayers.alttitle" type="integer">256285755</label>
+			<label index="option_beUser_realName.alttitle" type="integer">117879142</label>
+			<label index="option_beUser_realName.description" type="integer">257488800</label>
+			<label index="option_beUser_email.alttitle" type="integer">26761284</label>
+			<label index="option_newPassword.alttitle" type="double">11770970</label>
+			<label index="option_emailMeAtLogin.alttitle" type="integer">54992831</label>
+			<label index="option_newPassword.description" type="integer">165291839</label>
+			<label index="option_newPasswordAgain.alttitle" type="integer">34314409</label>
+			<label index="option_newPasswordAgain.description" type="integer">264203021</label>
+			<label index="option_beUser_email.description" type="integer">170498615</label>
+			<label index="option_disableCMlayers.description" type="integer">167086611</label>
+			<label index="option_disableCMlayers.image_descr" type="double">12432975</label>
+			<label index="option_emailMeAtLogin.description" type="integer">101170650</label>
+			<label index="simuser.alttitle" type="integer">213794209</label>
+			<label index="simuser.description" type="integer">51461529</label>
+			<label index="reset.details" type="integer">55338225</label>
+			<label index="reset.alttitle" type="integer">243973144</label>
+			<label index="reset.description" type="integer">206520611</label>
+			<label index="language.details" type="double">13611574</label>
+			<label index="option_recursiveDelete.details" type="integer">237219119</label>
+			<label index="option_newPassword.details" type="integer">209512178</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index="language.alttitle">Backend Language selection</label>
+			<label index=".details">&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by &quot;User TSconfig&quot;. To read more about this concept, see the link below!</label>
+			<label index=".image_descr">The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</label>
+			<label index="language.description">Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</label>
+			<label index="language.image_descr">TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</label>
+			<label index="option_condensedMode.alttitle">Condensed Mode</label>
+			<label index="option_condensedMode.description">If set, the backend will not load the Web-submodules and File-submodules in a frameset but allow the page and folder trees to load the submodule in the main content frame. This allows for a better display on small screens.</label>
+			<label index="option_condensedMode.image_descr">In this example Condensed Mode is enabled. The page tree is &lt;em&gt;not&lt;/em&gt; shown in the normal navigation frame but rather in the full content frame to the right of the menu.
+When a page title is clicked in the page tree the module page (here the Web &gt; List module) will be loaded in the &lt;u&gt;same&lt;/u&gt; frame of the backend. In this way Condensed Mode saves horizontal screen space since the navigation frame is removed - but it takes an extra click if you need to go to another page.</label>
+			<label index="option_noMenuMode.alttitle">Navigation Mode</label>
+			<label index="option_noMenuMode.description">Setting alternative backend menu modes</label>
+			<label index="option_noMenuMode.details">By default you navigate between backend modules with the menu in the left frame. By this option you can select alternative navigation modes:
+
+&lt;b&gt;Selectorbox in top frame:&lt;/b&gt;
+If set, the backend will not load the left menu frame but rather put a selector-box menu in the topframe. This saves a lot of space on small screens.
+
+&lt;b&gt;Icons in top frame&lt;/b&gt;
+This option shows all menu items in the top frame as a horizontal list of icons. This is for experienced users only who knows the order of modules and can recognize them based on their icon.</label>
+			<label index="option_noMenuMode.image_descr">The &quot;Selectorbox&quot; menu. Selecting an item makes the backend jump to that module.
+The &quot;Icons&quot; menu. As you can see you will need to know the icons by heart. You can also position the mouse over the icon and the tool-tip text will reveal the module name.</label>
+			<label index="option_showThumbs.alttitle">Show Thumbnails by default</label>
+			<label index="option_showThumbs.description">In modules like the &quot;Web &gt; List&quot; and &quot;File &gt; Filelist&quot; you can enable the display of thumbnails of files (images/fonts) and records (if images are attached) with a checkbox. Setting this option will enable the display by default.</label>
+			<label index="option_showThumbs.image_descr">When thumbnails display is enabled, files attached to records will be shown in the &quot;Web &gt; List&quot; module like this.</label>
+			<label index="option_helpText.alttitle">Show help text when applicable</label>
+			<label index="option_helpText.description">If set, some help texts will appear by default. Applies to the &quot;Legend&quot; text in the Web&gt;Access module for instance.</label>
+			<label index="option_maxTitleLen.alttitle">Maximum title length</label>
+			<label index="option_maxTitleLen.description">TYPO3 will often crop long titles of records etc. so only the first X characters are shown. Often the number of shown characters depends on this variable. For instance the length of page titles in the page tree is determined by this value.</label>
+			<label index="option_maxTitleLen.image_descr">In this case the Maximum Title lenght is set to 10 - and the result is that titles in the page tree - as well as other places in the backend - will be cropped after 10 characters, then suffixed by &quot;...&quot;. The default value is &quot;30&quot;.</label>
+			<label index="option_copyLevels.alttitle">Recursive Copy</label>
+			<label index="option_recursiveDelete.alttitle">Recursive Delete</label>
+			<label index="option_copyLevels.description">When you copy a page, subpages can also be copied along if you set this option. The number you set here defines the number of levels under a page to include in a copy operation.</label>
+			<label index="option_recursiveDelete.description">You cannot delete a page with subpages unless this flag is set. Be careful - setting this option means that TYPO3 will allow a whole tree of pages to be deleted in one go!</label>
+			<label index="option_edit_wideDocument.alttitle">Wide document background</label>
+			<label index="option_edit_wideDocument.description">Setting this option will enlarge the default width of record editing forms in TYPO3 by around 50%</label>
+			<label index="option_edit_RTE.alttitle">Enable Rich Text Editor</label>
+			<label index="option_edit_RTE.description">If set, the Rich Text Editor in TYPO3 will be enabled for you. Normally you wouldn't want to disable this option.</label>
+			<label index="option_edit_RTE.details">A Rich Text Editor (RTE) means that a text editing field has buttons for making selected text bold, italic etc. Whether a RTE is available also depends on factors like the browser you are using and which extensions are installed. Finally RTEs are applied to only a few record fields. The most wellknown example would be the Text field of a Content Element.</label>
+			<label index="option_edit_docModuleUpload.alttitle">Enable File Uploads in editing forms</label>
+			<label index="option_edit_docModuleUpload.description">This option will enable an &quot;Upload&quot; box for each field in TYPO3 records where you can attach a file or image. Most likely you don't want to disable this since it is usually just a nice thing to have.</label>
+			<label index="option_edit_docModuleUpload.details">If you disable the Upload box there is still the TYPO3 Element Browser left for attaching files and images.</label>
+			<label index="option_edit_showFieldHelp.alttitle">Context Sensitive Help mode</label>
+			<label index="option_edit_showFieldHelp.description">Defines the mode of Context Sensitive Help (CSH) in TYPO3. The default is that small help icons are shown everywhere a help item is available. You can click the icon and help will appear in a window for you.</label>
+			<label index="option_edit_showFieldHelp.details">Alternatively you can select that descriptions are shown inline. This is useful for people who are still learning how TYPO3 works and want to browse the backend with descriptions shown directly.
+Finally experienced users will want to totally disable the help icons if they seem to just bloat the backend interface.
+
+Context Sensitive Help is also available as a full user manual in the Help&gt;Manual module.</label>
+			<label index="option_edit_showFieldHelp.image_descr">The default mode, &quot;Display help icon only&quot;, will show the help icons with no additional text.
+When &quot;Display full text message&quot; is selected you will see a short description shown together with the help icon and framed into a box. Clicking the help icon always links to the full description of the element shown in a pop-up window.</label>
+			<label index="option_disableCMlayers.alttitle">Disable Popup Context Menus</label>
+			<label index="option_beUser_realName.alttitle">Your real name</label>
+			<label index="option_beUser_realName.description">Enter your real name here.</label>
+			<label index="option_beUser_email.alttitle">Your email address</label>
+			<label index="option_newPassword.alttitle">Change password</label>
+			<label index="option_emailMeAtLogin.alttitle">Notify by login</label>
+			<label index="option_newPassword.description">Enter a new password for your backend account:</label>
+			<label index="option_newPasswordAgain.alttitle">Change password, confirm</label>
+			<label index="option_newPasswordAgain.description">Confirm the new password by entering it again, exactly like above. If the two new passwords do not match, the password will not be changed.</label>
+			<label index="option_beUser_email.description">Make sure this is a valid email address for you. This is the contact address that the backend administrator will use if he needs to contact you. Also, the TYPO3 system might need to send you messages at various times and this will be the recipient address.</label>
+			<label index="option_disableCMlayers.description">When an icon for a file or database record is shown inside the TYPO3 backend you can often click on the icon and a contextual menu will appear over the icon with options related to it. You can disable this behaviour by this option. However you probably don't want to do that.</label>
+			<label index="option_disableCMlayers.image_descr">This is the context menu (or &quot;Clickmenu&quot;) of a page in the page tree. Notice that it is activated by a regular &quot;left-click&quot; opposite to the normal &quot;right-click&quot; activation known from most Operating Systems.</label>
+			<label index="option_emailMeAtLogin.description">If you set this option you will receive an email from TYPO3 each time you (or &quot;someone&quot;) logs in using your username. You might like to receive such a &quot;warning&quot; as a security measure so you will know if someone else picks up your password and uses your account.</label>
+			<label index="simuser.alttitle">Simulate backend user</label>
+			<label index="simuser.description">This option allows &quot;admin&quot;-users to change settings for another backend user in the system.</label>
+			<label index="reset.details">This does not apply to user name, email and password settings of course.</label>
+			<label index="reset.alttitle">Reset all Values to default</label>
+			<label index="reset.description">If you select this option all settings in this module will be reset to the default settings of the system.</label>
+			<label index="language.details">&lt;b&gt;Warning [technical]:&lt;/b&gt; If TYPO3 is not configured to use a single character set (through $TYPO3_CONF_VARS[BE][forceCharset]) then all data entered in the backend is submitted in the character set of the selected backend language. This leads to inconsistent data storage if some users are using the backend in Russian and others in English which uses different character sets.
+The solution clearly is to set the configuration option mentioned above to a value like &quot;utf-8&quot;. This must be done by the developers responsible for the whole system configuration.</label>
+			<label index="option_recursiveDelete.details">You should also consider the performance issues involved when deleting a large page tree. It might take a considerable amount of time to do that and if PHP times out before the operation is finished the results might be unpredictable.</label>
+			<label index="option_newPassword.details">The passwords are encrypted to an MD5 hash when you leave the field so no plain text password is sent over the wire.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

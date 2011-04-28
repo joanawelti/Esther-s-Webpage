@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index="adminOptions">管理面板</label>
+			<label index="preview">预览</label>
+			<label index="preview_showHiddenPages">显示隐藏页面:</label>
+			<label index="preview_showHiddenRecords">显示隐藏记录:</label>
+			<label index="preview_simulateDate">模拟时间:</label>
+			<label index="preview_simulateUserGroup">模拟用户组:</label>
+			<label index="cache">缓冲</label>
+			<label index="cache_noCache">没有缓冲:</label>
+			<label index="cache_doit">现在清除缓冲!</label>
+			<label index="cache_clearLevels">清除层:</label>
+			<label index="cache_cacheEntries">缓冲实体:</label>
+			<label index="publish">发布</label>
+			<label index="publish_levels">发布层:</label>
+			<label index="publish_tree">发布页:</label>
+			<label index="publish_doit">现在发布!</label>
+			<label index="edit">编辑</label>
+			<label index="edit_displayIcons">显示编辑面板:</label>
+			<label index="edit_displayFieldIcons">显示编辑图标:</label>
+			<label index="edit_editFormsOnPage">编辑页面上的表单:</label>
+			<label index="edit_editNoPopup">没有弹出窗口:</label>
+			<label index="edit_openAB">打开TYPO3后台管理</label>
+			<label index="edit_recordHistory">观看记录更改历史</label>
+			<label index="edit_newContentElement">创建新的内容元素</label>
+			<label index="edit_move_page">移动页面</label>
+			<label index="edit_newPage">创建新页面</label>
+			<label index="edit_editPageHeader">编辑页头</label>
+			<label index="edit_db_list">Web&gt;List 模块</label>
+			<label index="tsdebug">TypoScript</label>
+			<label index="tsdebug_tree">树状显示:</label>
+			<label index="tsdebug_LR">跟踪内容显示:</label>
+			<label index="tsdebug_forceTemplateParsing">强制TypoScript显示:</label>
+			<label index="tsdebug_displayTimes">显示所有次数:</label>
+			<label index="tsdebug_displayMessages">显示讯息:</label>
+			<label index="tsdebug_displayContent">显示内容:</label>
+			<label index="tsdebug_displayQueries">解释SELECT查询:</label>
+			<label index="info">信息</label>
+			<label index="div_Levels_0">本页</label>
+			<label index="div_Levels_1">+1 子层</label>
+			<label index="div_Levels_2">+2 子层</label>
+			<label index="update">更新</label>
+			<label index="p_editRecord">编辑记录</label>
+			<label index="p_moveUp">上移</label>
+			<label index="p_moveDown">下移</label>
+			<label index="p_unhide">显示</label>
+			<label index="p_hide">隐藏</label>
+			<label index="p_newSubpage">新建子页面</label>
+			<label index="p_newRecordAfter">在后面新建记录</label>
+			<label index="p_delete">删除</label>
+			<label index="p_deleteConfirm">您是否确定删除该记录?</label>
+			<label index="p_hideConfirm">隐藏记录将令其在页面上不可见, 您必需进入后台或者打开前台预览然后才能编辑它.
+是否继续?</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="adminOptions" type="integer">147511050</label>
+			<label index="preview" type="integer">52420219</label>
+			<label index="preview_showHiddenPages" type="integer">134294512</label>
+			<label index="preview_showHiddenRecords" type="integer">197480530</label>
+			<label index="preview_simulateDate" type="integer">165211717</label>
+			<label index="preview_simulateUserGroup" type="integer">140125754</label>
+			<label index="cache" type="integer">179359504</label>
+			<label index="cache_noCache" type="integer">7012371</label>
+			<label index="cache_doit" type="integer">82152402</label>
+			<label index="cache_clearLevels" type="integer">9304802</label>
+			<label index="cache_cacheEntries" type="integer">248899248</label>
+			<label index="publish" type="integer">17867952</label>
+			<label index="publish_levels" type="integer">266651712</label>
+			<label index="publish_tree" type="integer">130627303</label>
+			<label index="publish_doit" type="integer">142429021</label>
+			<label index="edit" type="integer">186429311</label>
+			<label index="edit_displayIcons" type="integer">160544396</label>
+			<label index="edit_displayFieldIcons" type="integer">75845684</label>
+			<label index="edit_editFormsOnPage" type="integer">251694161</label>
+			<label index="edit_editNoPopup" type="integer">143991461</label>
+			<label index="edit_openAB" type="integer">177133592</label>
+			<label index="edit_recordHistory" type="integer">38913415</label>
+			<label index="edit_newContentElement" type="integer">165001110</label>
+			<label index="edit_move_page" type="integer">32081372</label>
+			<label index="edit_newPage" type="integer">10918545</label>
+			<label index="edit_editPageHeader" type="integer">60384081</label>
+			<label index="edit_db_list" type="integer">182815575</label>
+			<label index="tsdebug" type="integer">6141239</label>
+			<label index="tsdebug_tree" type="integer">60618427</label>
+			<label index="tsdebug_LR" type="integer">38630757</label>
+			<label index="tsdebug_forceTemplateParsing" type="integer">28246343</label>
+			<label index="tsdebug_displayTimes" type="integer">67634135</label>
+			<label index="tsdebug_displayMessages" type="integer">61942828</label>
+			<label index="tsdebug_displayContent" type="integer">118594150</label>
+			<label index="tsdebug_displayQueries" type="integer">26860700</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="div_Levels_0" type="integer">98872550</label>
+			<label index="div_Levels_1" type="integer">81949190</label>
+			<label index="div_Levels_2" type="integer">92317091</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="p_editRecord" type="integer">148343509</label>
+			<label index="p_moveUp" type="integer">259501942</label>
+			<label index="p_moveDown" type="integer">232386759</label>
+			<label index="p_unhide" type="integer">152488466</label>
+			<label index="p_hide" type="integer">103439945</label>
+			<label index="p_newSubpage" type="integer">81409489</label>
+			<label index="p_newRecordAfter" type="integer">264860337</label>
+			<label index="p_delete" type="integer">254438473</label>
+			<label index="p_deleteConfirm" type="integer">75838368</label>
+			<label index="p_hideConfirm" type="integer">202576585</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

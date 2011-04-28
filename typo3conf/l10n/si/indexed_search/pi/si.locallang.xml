@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="submit_button_label">Iskanje</label>
+			<label index="opt_type_0">Natančna beseda</label>
+			<label index="opt_type_1">Del besede</label>
+			<label index="opt_type_2">Prvi del besede</label>
+			<label index="opt_type_3">Zadnji del besede</label>
+			<label index="opt_type_10">Je podobno</label>
+			<label index="opt_type_20">Poved</label>
+			<label index="opt_defOp_0">Vse besede (AND)</label>
+			<label index="opt_defOp_1">Katerakoli beseda (OR)</label>
+			<label index="opt_sections_0">Vse strani</label>
+			<label index="opt_sections_-1">Samo ta stran</label>
+			<label index="opt_sections_-2">Najvišja in prva raven</label>
+			<label index="opt_sections_-3">Od druge ravni dalje</label>
+			<label index="opt_freeIndexUid_-1">Vse, mešano</label>
+			<label index="opt_freeIndexUid_-2">Vse, kategorizirano</label>
+			<label index="opt_freeIndexUid_0">Strani</label>
+			<label index="opt_freeIndexUid_header_-1">Mešane kategorije</label>
+			<label index="opt_freeIndexUid_header_0">Strani spletnega mesta</label>
+			<label index="opt_media_-1">Vsi mediji</label>
+			<label index="opt_media_0">Notranje strani</label>
+			<label index="opt_media_-2">Vse zunanje</label>
+			<label index="opt_order_rank_flag">Teža/pogostost</label>
+			<label index="opt_order_rank_freq">Frekvenca</label>
+			<label index="opt_order_rank_first">Blizu vrha</label>
+			<label index="opt_order_rank_count">Število besed</label>
+			<label index="opt_order_mtime">Spremenjeno (datum)</label>
+			<label index="opt_order_title">Naslov dokumenta</label>
+			<label index="opt_order_crdate">Ustvarjeno (datum)</label>
+			<label index="opt_group_sections">Hierarhija oddelkov</label>
+			<label index="opt_group_flat">Odprt seznam</label>
+			<label index="opt_lang_-1">Vsi jeziki</label>
+			<label index="opt_lang_0">Privzeto</label>
+			<label index="opt_desc_0">Najprej najvišje</label>
+			<label index="opt_desc_1">Najprej najnižje</label>
+			<label index="opt_RL1">Prva raven:</label>
+			<label index="opt_RL1ALL">Vse strani na prvi ravni</label>
+			<label index="opt_RL2">- Druga raven:</label>
+			<label index="opt_RL2ALL">- Vse strani na drugi ravni</label>
+			<label index="form_searchFor">Najdi:</label>
+			<label index="form_extResume">Razširjeni življenjepis</label>
+			<label index="form_atATime">ob</label>
+			<label index="form_orderBy">Razvrsti glede na:</label>
+			<label index="form_fromSection">Iz oddelka:</label>
+			<label index="form_freeIndexUid">Kategorija:</label>
+			<label index="form_searchIn">Išči v:</label>
+			<label index="form_match">Natančno ujemanje z:</label>
+			<label index="form_style">Slog:</label>
+			<label index="rules_header">Pravila:</label>
+			<label index="rules_text">Upoštevane bodo samo besede z dvema ali več znaki
+Največje število dovoljenih znakov je 200
+Besede ločite s presledkom, za iskanje nizov besed uporabite dvojne narekovaje &quot;&quot;(kar ni več iskanje po kazalu)
+AND, OR in NOT so predponske besede, ki nadomestijo privzeti operator
++/|/- predstavljajo operatorje AND, OR in NOT
+Vse iskane besede bodo pretvorjene v male črke</label>
+			<label index="searchFor">Najdi</label>
+			<label index="searchFor_or">ali</label>
+			<label index="searchFor_and">in</label>
+			<label index="searchFor_butNot">ne pa</label>
+			<label index="noResults">NI rezultatov iskanja.</label>
+			<label index="inSection">v oddelku</label>
+			<label index="inNsection">v %s oddelku:</label>
+			<label index="inNsections">v %s oddelkih:</label>
+			<label index="word_page">stran</label>
+			<label index="word_pages">strani</label>
+			<label index="unnamedSection">Ostalo</label>
+			<label index="link_regularSearch">Iskanje z regularnimi izrazi</label>
+			<label index="link_advancedSearch">Napredno iskanje</label>
+			<label index="res_path">Pot:</label>
+			<label index="res_modified">Spremenjeno:</label>
+			<label index="res_created">Ustvarjeno:</label>
+			<label index="res_size">Velikost:</label>
+			<label index="res_noResume">Opomba: Ta rezultat iskanja ne ustreza popolnoma iskanemu kriterije, saj ni mogoče prikazati življenjepisa strani.</label>
+			<label index="res_otherMatching">Ostale najdene strani v istem dokumentu:</label>
+			<label index="res_otherPageAsWell">Opomba: Najdena je bila še ena stran... Verjetno je bila dodeljena drugi uporabniški skupini ali pa sploh ni bila dodeljena.</label>
+			<label index="res_memberGroups">Zahtevaj članstvo številk skupin %s</label>
+			<label index="pi_list_browseresults_prev">&lt; Prejšnja</label>
+			<label index="pi_list_browseresults_page">Stran</label>
+			<label index="pi_list_browseresults_next">Naslednja &gt;</label>
+			<label index="pi_list_browseresults_display">Prikazujem rezultate ###TAG_BEGIN###%s do %s###TAG_END### od ###TAG_BEGIN###%s###TAG_END###</label>
+			<label index="local_operator_AND">AND</label>
+			<label index="local_operator_OR">OR</label>
+			<label index="local_operator_NOT">NOT</label>
+			<label index="makerating_addToCurrentSearch">Dodaj med trenutne iskane besede</label>
+			<label index="maketitle_matches">zadetki</label>
+			<label index="pi_list_browseresults_displays">Prikaz rezultatov ###SPAN_BEGIN###%s do %s&lt;/span&gt; od ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="opt_media_1">HTML</label>
+			<label index="opt_media_2">PDF</label>
+			<label index="opt_media_3">MS Word</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="submit_button_label" type="integer">20138052</label>
+			<label index="opt_type_0" type="integer">222720720</label>
+			<label index="opt_type_1" type="integer">172284783</label>
+			<label index="opt_type_2" type="integer">11548209</label>
+			<label index="opt_type_3" type="integer">194788751</label>
+			<label index="opt_type_10" type="integer">257918215</label>
+			<label index="opt_type_20" type="integer">6717355</label>
+			<label index="opt_defOp_0" type="integer">19166264</label>
+			<label index="opt_defOp_1" type="integer">88959896</label>
+			<label index="opt_sections_0" type="integer">161604964</label>
+			<label index="opt_sections_-1" type="integer">203612347</label>
+			<label index="opt_sections_-2" type="integer">136579338</label>
+			<label index="opt_sections_-3" type="integer">29488068</label>
+			<label index="opt_media_-1" type="integer">206891359</label>
+			<label index="opt_media_0" type="integer">120599252</label>
+			<label index="opt_media_-2" type="integer">266235480</label>
+			<label index="opt_media_1" type="integer">222419149</label>
+			<label index="opt_media_2" type="integer">222419149</label>
+			<label index="opt_media_3" type="integer">222419149</label>
+			<label index="opt_order_rank_flag" type="integer">248504647</label>
+			<label index="opt_order_rank_freq" type="integer">131021139</label>
+			<label index="opt_order_rank_first" type="integer">179714757</label>
+			<label index="opt_order_rank_count" type="integer">117255308</label>
+			<label index="opt_order_mtime" type="integer">135056589</label>
+			<label index="opt_order_title" type="integer">73334076</label>
+			<label index="opt_order_crdate" type="integer">51454473</label>
+			<label index="opt_group_sections" type="integer">150584578</label>
+			<label index="opt_group_flat" type="integer">94149241</label>
+			<label index="opt_lang_-1" type="integer">180223936</label>
+			<label index="opt_lang_0" type="integer">128029197</label>
+			<label index="opt_desc_0" type="integer">240944334</label>
+			<label index="opt_desc_1" type="integer">254650938</label>
+			<label index="opt_RL1" type="integer">1249320</label>
+			<label index="opt_RL1ALL" type="integer">148264678</label>
+			<label index="opt_RL2" type="integer">110063240</label>
+			<label index="opt_RL2ALL" type="integer">23854170</label>
+			<label index="form_searchFor" type="integer">123652778</label>
+			<label index="form_extResume" type="integer">255157068</label>
+			<label index="form_atATime" type="integer">71962386</label>
+			<label index="form_orderBy" type="integer">126205067</label>
+			<label index="form_fromSection" type="integer">122193277</label>
+			<label index="form_searchIn" type="integer">248140624</label>
+			<label index="form_match" type="integer">116803683</label>
+			<label index="form_style" type="integer">6624914</label>
+			<label index="rules_header" type="integer">150084822</label>
+			<label index="rules_text" type="integer">170496710</label>
+			<label index="searchFor" type="integer">238893195</label>
+			<label index="searchFor_or" type="integer">243385572</label>
+			<label index="searchFor_and" type="integer">199611859</label>
+			<label index="searchFor_butNot" type="integer">38330962</label>
+			<label index="noResults" type="integer">189977502</label>
+			<label index="inSection" type="integer">57548980</label>
+			<label index="inNsection" type="integer">145204435</label>
+			<label index="inNsections" type="integer">210828352</label>
+			<label index="word_page" type="integer">119038151</label>
+			<label index="word_pages" type="integer">188428962</label>
+			<label index="unnamedSection" type="integer">103881441</label>
+			<label index="link_regularSearch" type="integer">208110947</label>
+			<label index="link_advancedSearch" type="integer">130779860</label>
+			<label index="res_path" type="integer">266188054</label>
+			<label index="res_modified" type="integer">206911454</label>
+			<label index="res_created" type="integer">97474279</label>
+			<label index="res_size" type="integer">183911828</label>
+			<label index="res_noResume" type="integer">91987015</label>
+			<label index="res_otherMatching" type="integer">95914486</label>
+			<label index="res_otherPageAsWell" type="integer">228937065</label>
+			<label index="res_memberGroups" type="integer">33296527</label>
+			<label index="pi_list_browseresults_prev" type="integer">20121992</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">232350798</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="local_operator_AND" type="integer">89718728</label>
+			<label index="local_operator_OR" type="integer">30412413</label>
+			<label index="local_operator_NOT" type="integer">17691606</label>
+			<label index="makerating_addToCurrentSearch" type="integer">165743725</label>
+			<label index="maketitle_matches" type="integer">163745074</label>
+			<label index="opt_freeIndexUid_-1" type="integer">64647442</label>
+			<label index="opt_freeIndexUid_-2" type="integer">196704853</label>
+			<label index="opt_freeIndexUid_0" type="integer">72592619</label>
+			<label index="opt_freeIndexUid_header_-1" type="integer">21983530</label>
+			<label index="opt_freeIndexUid_header_0" type="integer">131617847</label>
+			<label index="form_freeIndexUid" type="integer">90868382</label>
+			<label index="pi_list_browseresults_display" type="integer">130943821</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index="submit_button_label">Search</label>
+			<label index="opt_type_0">Distinct word</label>
+			<label index="opt_type_1">Part of word</label>
+			<label index="opt_type_2">First part of word</label>
+			<label index="opt_type_3">Last part of word</label>
+			<label index="opt_type_10">Sounds like</label>
+			<label index="opt_type_20">Sentence</label>
+			<label index="opt_defOp_0">All words (AND)</label>
+			<label index="opt_defOp_1">Any words (OR)</label>
+			<label index="opt_sections_0">Whole site</label>
+			<label index="opt_sections_-1">Only this page</label>
+			<label index="opt_sections_-2">Top + level 1</label>
+			<label index="opt_sections_-3">Level 2 and out</label>
+			<label index="opt_media_-1">All media</label>
+			<label index="opt_media_0">Internal pages</label>
+			<label index="opt_media_-2">All External</label>
+			<label index="opt_order_rank_flag">Weight/Frequency</label>
+			<label index="opt_order_rank_freq">Frequency</label>
+			<label index="opt_order_rank_first">Close to top</label>
+			<label index="opt_order_rank_count">Number of words</label>
+			<label index="opt_order_mtime">Date Modified</label>
+			<label index="opt_order_title">Document title</label>
+			<label index="opt_order_crdate">Creation date</label>
+			<label index="opt_group_sections">Section hierarchy</label>
+			<label index="opt_group_flat">Flat list</label>
+			<label index="opt_lang_-1">All languages</label>
+			<label index="opt_lang_0">Default</label>
+			<label index="opt_desc_0">Highest first</label>
+			<label index="opt_desc_1">Lowest first</label>
+			<label index="opt_RL1">Level 1:</label>
+			<label index="opt_RL1ALL">All pages on level 1</label>
+			<label index="opt_RL2">- Level 2:</label>
+			<label index="opt_RL2ALL">- All pages on level 2</label>
+			<label index="form_searchFor">Search for:</label>
+			<label index="form_extResume">Extended resume</label>
+			<label index="form_atATime">at a time</label>
+			<label index="form_orderBy">Order by:</label>
+			<label index="form_fromSection">From section:</label>
+			<label index="form_searchIn">Search in:</label>
+			<label index="form_match">Match:</label>
+			<label index="form_style">Style:</label>
+			<label index="rules_header">Rules:</label>
+			<label index="rules_text">
+			Only words with 2 or more characters are accepted
+			Max 200 chars total
+			Space is used to split words, &quot;&quot; can be used to search for a whole string (not indexed search then)
+			AND, OR and NOT are prefix words, overruling the default operator
+			+/|/- equals AND, OR and NOT as operators.
+			All search words are converted to lowercase.
+		</label>
+			<label index="searchFor">Search for</label>
+			<label index="searchFor_or">or</label>
+			<label index="searchFor_and">and</label>
+			<label index="searchFor_butNot">but not</label>
+			<label index="noResults">NO results found.</label>
+			<label index="inSection">in the section</label>
+			<label index="inNsection">in %s section:</label>
+			<label index="inNsections">in %s sections:</label>
+			<label index="word_page">page</label>
+			<label index="word_pages">pages</label>
+			<label index="unnamedSection">Other</label>
+			<label index="link_regularSearch">Regular search</label>
+			<label index="link_advancedSearch">Advanced search</label>
+			<label index="res_path">Path:</label>
+			<label index="res_modified">Modified:</label>
+			<label index="res_created">Created:</label>
+			<label index="res_size">Size:</label>
+			<label index="res_noResume">Note: This search hit may not accurately match the content on this page. The page resume cannot be shown.</label>
+			<label index="res_otherMatching">Other matching pages in the same document:</label>
+			<label index="res_otherPageAsWell">INFO: There was another page indexed as well... Probably indexed with another or no usergroup.</label>
+			<label index="res_memberGroups">Require membership of group numbers %s</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="local_operator_AND">AND</label>
+			<label index="local_operator_OR">OR</label>
+			<label index="local_operator_NOT">NOT</label>
+			<label index="makerating_addToCurrentSearch">Add to current search words</label>
+			<label index="maketitle_matches">matches</label>
+			<label index="opt_freeIndexUid_-1">All, mixed</label>
+			<label index="opt_freeIndexUid_-2">All, categorized</label>
+			<label index="opt_freeIndexUid_0">Pages</label>
+			<label index="opt_freeIndexUid_header_-1">Mixed categories</label>
+			<label index="opt_freeIndexUid_header_0">Website Pages</label>
+			<label index="form_freeIndexUid">Category:</label>
+			<label index="pi_list_browseresults_display">Displaying results ###TAG_BEGIN###%s to %s###TAG_END### out of ###TAG_BEGIN###%s###TAG_END###</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

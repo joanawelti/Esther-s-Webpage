@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index=".alttitle">Web &gt; Modul Stránka</label>
+			<label index="quickEdit.alttitle">Rychlé úpravy</label>
+			<label index="quickEdit.description">Režim rychlých úprav vám dává přímý přístup k polím formuláře obsahu stránky.</label>
+			<label index="quickEdit.details">Režim rychlých úprav je navržen, aby omezil počet kliknutí potřebných pro úpravu obsahu stránky. Kliknutím na název stránky ve stromu dostanete jednoduše první prvek obsahu v normálním sloupci do editačního rámce. V selektoru lišty s nástroji nahoře můžete vybrat další prvky obsahu na stránce.</label>
+			<label index="quickEdit_selElement.alttitle">Prvky obsahu</label>
+			<label index="quickEdit_selElement.description">Toto je přehled prvků obsahu na této stránce. Pro úpravy si vyberte další prvek nebo klikněte na ikonu &quot;Nový&quot; pro vytvoření nového prvku obsahu.</label>
+			<label index="columns_1.alttitle">Výpis podle sloupce</label>
+			<label index="columns_1.description">Pohledem &quot;Sloupce&quot; můžete ovládat obsah webové stránky tak, jak je rozložena ve sloupcích.</label>
+			<label index="columns_2.alttitle">Výpis podle jazyku</label>
+			<label index="columns_3.alttitle">Informace o stránce</label>
+			<label index="language_list.alttitle">Přehled jazyků</label>
+			<label index="columns_single.alttitle">Prvky obsahu stránky v jednom sloupci</label>
+			<label index="columns_multi.alttitle">Prvky obsahu stránky ve více sloupcích</label>
+			<label index="button_panel.alttitle">&quot;Velká tlačítka&quot;</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="columns_1.alttitle" type="integer">183363228</label>
+			<label index="columns_2.alttitle" type="integer">8205541</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+			<label index="language_list.alttitle" type="integer">5495420</label>
+			<label index="columns_single.alttitle" type="integer">177139761</label>
+			<label index="columns_multi.alttitle" type="integer">129089861</label>
+			<label index="button_panel.alttitle" type="integer">66291190</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="columns_1.alttitle">Listing by Column</label>
+			<label index="columns_2.alttitle">Listing by Language</label>
+			<label index="columns_3.alttitle">Page Information</label>
+			<label index="language_list.alttitle">Language view</label>
+			<label index="columns_single.alttitle">Page content elements in a single column</label>
+			<label index="columns_multi.alttitle">Page content elements in a multiple columns</label>
+			<label index="button_panel.alttitle">The &quot;Big Buttons&quot;</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

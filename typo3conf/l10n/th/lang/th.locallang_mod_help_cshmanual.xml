@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel">คู่มือภายในของ TYPO3</label>
+			<label index="mlang_labels_tabdescr">คู่มือภายใน ขึ้นอยู่กับที่มาของข้อมูลข่าวสาร สำหรับเนื้อหาการช่วยเหลือที่รู้ฉับไวของระบบ</label>
+			<label index="mlang_tabs_tab">คู่มือ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel" type="integer">182726937</label>
+			<label index="mlang_labels_tabdescr" type="integer">207607230</label>
+			<label index="mlang_tabs_tab" type="integer">236691797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

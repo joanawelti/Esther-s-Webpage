@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="UserSettings">ユーザ設定</label>
+			<label index="language">ランゲージ</label>
+			<label index="lang_default">英語</label>
+			<label index="lang_dk">デンマーク語</label>
+			<label index="lang_de">ドイツ語</label>
+			<label index="lang_no">ノルウェー語</label>
+			<label index="lang_it">イタリア語</label>
+			<label index="lang_fr">フランス語</label>
+			<label index="lang_es">スペイン語</label>
+			<label index="lang_nl">オランダ語</label>
+			<label index="lang_cz">チェコ語</label>
+			<label index="lang_pl">ポーランド語</label>
+			<label index="lang_si">スロベニア語</label>
+			<label index="lang_fi">フィンランド語</label>
+			<label index="lang_tr">トルコ語</label>
+			<label index="lang_se">スウェーデン語</label>
+			<label index="lang_pt">ポルトガル語</label>
+			<label index="lang_ru">ロシア語</label>
+			<label index="lang_ro">ルーマニア語</label>
+			<label index="lang_ch">中国語(簡体字)</label>
+			<label index="lang_sk">スロバキア語</label>
+			<label index="lang_lt">リトアニア語</label>
+			<label index="lang_is">アイスランド語</label>
+			<label index="lang_hr">クロアチア語</label>
+			<label index="lang_hu">ハンガリー語</label>
+			<label index="lang_gl">グリーンランド語</label>
+			<label index="lang_th">タイ語</label>
+			<label index="lang_gr">ギリシャ語</label>
+			<label index="lang_hk">中国語(繁体字)</label>
+			<label index="lang_eu">バスク語</label>
+			<label index="lang_bg">ブルガリア語</label>
+			<label index="lang_br">ポルトガル語(ブラジル)</label>
+			<label index="lang_et">エストニア語</label>
+			<label index="lang_ar">アラビア語</label>
+			<label index="lang_he">ヘブライ語</label>
+			<label index="lang_ua">ウクライナ語</label>
+			<label index="lang_lv">ラトビア語</label>
+			<label index="lang_jp">日本語</label>
+			<label index="lang_vn">ベトナム語</label>
+			<label index="lang_ca">カタロニア語</label>
+			<label index="lang_ba">ボスニア語</label>
+			<label index="lang_kr">韓国語</label>
+			<label index="lang_eo">エスペラント語</label>
+			<label index="lang_my">マレーシア語</label>
+			<label index="default">デフォルト</label>
+			<label index="simulate">バックエンドユーザをシミュレートする</label>
+			<label index="opening">スタートアップ</label>
+			<label index="personal_data">個人情報</label>
+			<label index="showThumbs">デフォルトでサムネイルを表示</label>
+			<label index="condensedMode">バックエンドでコンパクトな画面を使用&lt;br /&gt;(小さいディスプレイ向け)</label>
+			<label index="noMenuMode">ナビゲーションモード</label>
+			<label index="noMenuMode_def">左のフレームにメニュー(デフォルト)</label>
+			<label index="noMenuMode_sel">上のフレームに選択ボックス</label>
+			<label index="noMenuMode_icons">トップフレームにアイコンを表示</label>
+			<label index="startInTaskCenter">タスクセンターをスタートアップ画面に設定</label>
+			<label index="emailMeAtLogin">このアカウントでログインするごとに&lt;br /&gt;メールで通知する</label>
+			<label index="helpText">必要に応じてヘルプを表示</label>
+			<label index="maxTitleLen">タイトルに表示する文字数の最大値</label>
+			<label index="edit_showFieldHelp">コンテキストセンシティブヘルプモード</label>
+			<label index="edit_showFieldHelp_icon">ヘルプアイコンのみを表示</label>
+			<label index="edit_showFieldHelp_message">ヘルプメッセージ全文を表示</label>
+			<label index="edit_wideDocument">広い編集画面</label>
+			<label index="edit_RTE">(使用できる場合)リッチテキストエディターを有効にする</label>
+			<label index="edit_docModuleUpload">Docモジュールに直接ファイルをアップロード</label>
+			<label index="edit_functions">編集</label>
+			<label index="disableCMlayers">ポップアップコンテキストメニューを無効にする</label>
+			<label index="setToStandard">すべてをデフォルトに戻す</label>
+			<label index="functions">高度な機能</label>
+			<label index="copyLevels">&lt;b&gt;まとめてコピー:&lt;/b&gt; まとめてコピーするときに&lt;br /&gt;含めるサブレベルの数</label>
+			<label index="recursiveDelete">&lt;b&gt;まとめて削除(!):&lt;/b&gt; ページを削除するときに、&lt;br /&gt;そのページのサブページもまとめて削除</label>
+			<label index="activateChanges">注意！ほとんどの設定はバックエンドをリロードしないと有効になりません(ログアウトしてから再度ログインしてください)。</label>
+			<label index="levels">レベル</label>
+			<label index="beUser_realName">名前</label>
+			<label index="beUser_email">メールアドレス</label>
+			<label index="save">設定を保存</label>
+			<label index="newPassword">新しいパスワード</label>
+			<label index="newPasswordAgain">新しいパスワードを再度入力</label>
+			<label index="newPassword_ok">パスワードを変更しました。</label>
+			<label index="newPassword_failed">パスワードが一致しなかったので、パスワードは変更されませんでした。</label>
+			<label index="lang_hi">ヒンズー語</label>
+			<label index="lang_fo">フェロー語</label>
+			<label index="lang_fa">ペルシャ語</label>
+			<label index="lang_sr">セルビア語</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="UserSettings" type="integer">46681867</label>
+			<label index="language" type="integer">77154959</label>
+			<label index="lang_default" type="integer">126116771</label>
+			<label index="lang_dk" type="integer">129789717</label>
+			<label index="lang_de" type="integer">141280017</label>
+			<label index="lang_no" type="integer">228937930</label>
+			<label index="lang_it" type="integer">79597062</label>
+			<label index="lang_fr" type="integer">181544439</label>
+			<label index="lang_es" type="integer">213207052</label>
+			<label index="lang_nl" type="integer">109835111</label>
+			<label index="lang_cz" type="integer">138409032</label>
+			<label index="lang_pl" type="integer">208864137</label>
+			<label index="lang_si" type="integer">115971854</label>
+			<label index="lang_fi" type="integer">162400671</label>
+			<label index="lang_tr" type="integer">202773179</label>
+			<label index="lang_se" type="integer">68252064</label>
+			<label index="lang_pt" type="integer">51262151</label>
+			<label index="lang_ru" type="integer">233547410</label>
+			<label index="lang_ro" type="integer">251294612</label>
+			<label index="lang_ch" type="integer">206546547</label>
+			<label index="lang_sk" type="integer">162319430</label>
+			<label index="lang_lt" type="double">5202008</label>
+			<label index="lang_is" type="integer">80037322</label>
+			<label index="lang_hr" type="double">12697097</label>
+			<label index="lang_hu" type="integer">129523986</label>
+			<label index="lang_gl" type="integer">24211126</label>
+			<label index="lang_th" type="integer">71163000</label>
+			<label index="lang_gr" type="double">11205193</label>
+			<label index="lang_hk" type="integer">31063215</label>
+			<label index="lang_eu" type="integer">176851207</label>
+			<label index="lang_bg" type="integer">101430204</label>
+			<label index="lang_br" type="integer">102669697</label>
+			<label index="lang_et" type="integer">42538748</label>
+			<label index="lang_ar" type="integer">41077944</label>
+			<label index="lang_he" type="integer">208412545</label>
+			<label index="lang_ua" type="integer">242788092</label>
+			<label index="lang_lv" type="integer">124440629</label>
+			<label index="lang_jp" type="integer">254987990</label>
+			<label index="lang_vn" type="integer">129503150</label>
+			<label index="lang_ca" type="integer">151036235</label>
+			<label index="lang_ba" type="integer">165586767</label>
+			<label index="lang_kr" type="integer">218880828</label>
+			<label index="default" type="integer">128029197</label>
+			<label index="opening" type="integer">20867161</label>
+			<label index="personal_data" type="integer">104270938</label>
+			<label index="showThumbs" type="integer">111890184</label>
+			<label index="condensedMode" type="integer">240508039</label>
+			<label index="noMenuMode_icons" type="integer">250425196</label>
+			<label index="startInTaskCenter" type="integer">63015246</label>
+			<label index="emailMeAtLogin" type="integer">242513283</label>
+			<label index="helpText" type="integer">40561585</label>
+			<label index="edit_showFieldHelp_icon" type="integer">174937206</label>
+			<label index="edit_showFieldHelp_message" type="integer">92057802</label>
+			<label index="edit_RTE" type="integer">16864569</label>
+			<label index="edit_functions" type="integer">131916066</label>
+			<label index="disableCMlayers" type="integer">256285755</label>
+			<label index="setToStandard" type="integer">243973144</label>
+			<label index="functions" type="integer">155530193</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="beUser_realName" type="integer">35776261</label>
+			<label index="beUser_email" type="integer">26761284</label>
+			<label index="save" type="double">8749289</label>
+			<label index="newPassword" type="integer">55855176</label>
+			<label index="newPasswordAgain" type="double">985181</label>
+			<label index="newPassword_ok" type="integer">249160755</label>
+			<label index="newPassword_failed" type="integer">202693756</label>
+			<label index="edit_showFieldHelp" type="integer">156260410</label>
+			<label index="copyLevels" type="integer">158680187</label>
+			<label index="recursiveDelete" type="integer">241746651</label>
+			<label index="activateChanges" type="integer">247658693</label>
+			<label index="maxTitleLen" type="integer">197742795</label>
+			<label index="edit_wideDocument" type="integer">47472072</label>
+			<label index="edit_docModuleUpload" type="integer">172878204</label>
+			<label index="noMenuMode" type="integer">20667488</label>
+			<label index="noMenuMode_def" type="integer">125128652</label>
+			<label index="noMenuMode_sel" type="integer">257410868</label>
+			<label index="simulate" type="integer">213794209</label>
+			<label index="lang_eo" type="integer">144185664</label>
+			<label index="lang_my" type="integer">78332405</label>
+			<label index="lang_hi" type="integer">73150833</label>
+			<label index="lang_fo" type="integer">189530758</label>
+			<label index="lang_fa" type="integer">134425620</label>
+			<label index="lang_sr" type="double">5582876</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="UserSettings">User Settings</label>
+			<label index="language">Language</label>
+			<label index="lang_default">English</label>
+			<label index="lang_dk">Danish</label>
+			<label index="lang_de">German</label>
+			<label index="lang_no">Norwegian</label>
+			<label index="lang_it">Italian</label>
+			<label index="lang_fr">French</label>
+			<label index="lang_es">Spanish</label>
+			<label index="lang_nl">Dutch</label>
+			<label index="lang_cz">Czech</label>
+			<label index="lang_pl">Polish</label>
+			<label index="lang_si">Slovenian</label>
+			<label index="lang_fi">Finnish</label>
+			<label index="lang_tr">Turkish</label>
+			<label index="lang_se">Swedish</label>
+			<label index="lang_pt">Portuguese</label>
+			<label index="lang_ru">Russian</label>
+			<label index="lang_ro">Romanian</label>
+			<label index="lang_ch">Chinese (Simpl)</label>
+			<label index="lang_sk">Slovak</label>
+			<label index="lang_lt">Lithuanian</label>
+			<label index="lang_is">Icelandic</label>
+			<label index="lang_hr">Croatian</label>
+			<label index="lang_hu">Hungarian</label>
+			<label index="lang_gl">Greenlandic</label>
+			<label index="lang_th">Thai</label>
+			<label index="lang_gr">Greek</label>
+			<label index="lang_hk">Chinese (Trad)</label>
+			<label index="lang_eu">Basque</label>
+			<label index="lang_bg">Bulgarian</label>
+			<label index="lang_br">Brazilian Portuguese</label>
+			<label index="lang_et">Estonian</label>
+			<label index="lang_ar">Arabic</label>
+			<label index="lang_he">Hebrew</label>
+			<label index="lang_ua">Ukrainian</label>
+			<label index="lang_lv">Latvian</label>
+			<label index="lang_jp">Japanese</label>
+			<label index="lang_vn">Vietnamese</label>
+			<label index="lang_ca">Catalan</label>
+			<label index="lang_ba">Bosnian</label>
+			<label index="lang_kr">Korean</label>
+			<label index="default">Default</label>
+			<label index="opening">Startup</label>
+			<label index="personal_data">Personal data</label>
+			<label index="showThumbs">Show Thumbnails by default</label>
+			<label index="condensedMode">Use condensed mode in backend&lt;br /&gt;(for small screens)</label>
+			<label index="noMenuMode_icons">Icons in top frame</label>
+			<label index="startInTaskCenter">Start up in the module 'Task Center'</label>
+			<label index="emailMeAtLogin">Notify me by email, when somebody logs in &lt;br /&gt;from my account</label>
+			<label index="helpText">Show help text when applicable</label>
+			<label index="edit_showFieldHelp_icon">Display help icon only</label>
+			<label index="edit_showFieldHelp_message">Display full text message</label>
+			<label index="edit_RTE">Enable Rich Text Editor (if available)</label>
+			<label index="edit_functions">Edit</label>
+			<label index="disableCMlayers">Disable Popup Context Menus</label>
+			<label index="setToStandard">Reset all Values to default</label>
+			<label index="functions">Advanced functions</label>
+			<label index="levels">levels</label>
+			<label index="beUser_realName">Your name</label>
+			<label index="beUser_email">Your email address</label>
+			<label index="save">Save Configuration</label>
+			<label index="newPassword">New password</label>
+			<label index="newPasswordAgain">New password, again</label>
+			<label index="newPassword_ok">Password was updated</label>
+			<label index="newPassword_failed">Password was NOT updated because you didn't enter the same password twice.</label>
+			<label index="edit_showFieldHelp">Context Sensitive Help mode</label>
+			<label index="copyLevels">&lt;b&gt;Recursive Copy:&lt;/b&gt; Enter the number of page&lt;br /&gt;sublevels to include, when a page is copied</label>
+			<label index="recursiveDelete">&lt;b&gt;Recursive Delete(!):&lt;/b&gt; Allow ALL subpages&lt;br /&gt;to be deleted when deleting a page</label>
+			<label index="activateChanges">Notice! In order to activate most of these changes, please reload the backend (eg. logout and login again).</label>
+			<label index="maxTitleLen">Max. Title Length</label>
+			<label index="edit_wideDocument">Wide document background</label>
+			<label index="edit_docModuleUpload">File upload directly in Doc-module</label>
+			<label index="noMenuMode">Select navigation mode</label>
+			<label index="noMenuMode_def">Left frame menu (default)</label>
+			<label index="noMenuMode_sel">Selectorbox in top frame</label>
+			<label index="simulate">Simulate backend user</label>
+			<label index="lang_eo">Esperanto</label>
+			<label index="lang_my">Bahasa Malaysia</label>
+			<label index="lang_hi">Hindi</label>
+			<label index="lang_fo">Faroese</label>
+			<label index="lang_fa">Persian</label>
+			<label index="lang_sr">Serbian</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

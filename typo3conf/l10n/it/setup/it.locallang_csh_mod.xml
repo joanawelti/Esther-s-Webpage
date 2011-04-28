@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">Utente &gt; modulo Setup</label>
+			<label index=".description">il modulo Setup permette agli utenti backend di personalizzare TYPO3 per le proprie sessioni di attività.
+Questo include la lingua ed altre caratteristiche dell'interfaccia del backend.</label>
+			<label index=".details">&lt;b&gt;Nota [per gli Amministratori]:&lt;/b&gt; Questi settaggi possono essere tutti sovraselezionati e avare diverse impostazioni di default utilizzando &quot;user TSconfig&quot;.
+Per approfondire questo aspetto, segui il link sottostante!</label>
+			<label index=".image_descr">Il modulo Setup é selezionato nel menù di sinistra.
+Ecco come appare il modulo Setup - una lista di ozioni da configurare.</label>
+			<label index="language.alttitle">Selezione della lingua del backend</label>
+			<label index="language.description">Seleziona la lingua che preferisci. La maggior parte del backend di TYPO3 é tradotta anche in altre lingue.</label>
+			<label index="language.image_descr">TYPO3 é tradotto in circa 40 lingue.
+L'inglese é la lingua di default ed &lt;u&gt;ogni&lt;/u&gt; label deve innazitutto essere disponibile in inglese. Questo screenshot mostra traduzioni in Ebraico, Arabo, Russo e Cinese.</label>
+			<label index="option_condensedMode.alttitle">Modalità Condensed</label>
+			<label index="option_condensedMode.description">Se attivata, il backend non caricherà i sottomoduli Web e File in un frameset, ma permetterà  alle pagine e ai pagetree di caricare i sottomoduli nel frame principale.
+Questa opzione permette una miglior visualizzazione sui schermi piccoli.</label>
+			<label index="option_noMenuMode.alttitle">Modalità di navigazione</label>
+			<label index="option_noMenuMode.description">Seleziona modalità alternative per il menù del moduli backend</label>
+			<label index="option_startModule.alttitle">Modulo di avvio</label>
+			<label index="option_showThumbs.alttitle">Mostra Thumbnails (miniature) di default</label>
+			<label index="option_helpText.alttitle">Mostra l'aiuto quando possibile</label>
+			<label index="option_maxTitleLen.alttitle">Lunghezza massima dei titoli</label>
+			<label index="option_copyLevels.alttitle">Copia Ricorsiva</label>
+			<label index="option_copyLevels.description">Quando copi una pagina, se hai selezionato questa opzione verranno copiate automaticamente anche tutte le relative sottopagine. Il numero che inserisci qui definisce il numero di livelli di profondità da includere in un'operazione di copia.</label>
+			<label index="option_recursiveDelete.alttitle">Eliminazione Ricorsiva</label>
+			<label index="option_recursiveDelete.description">Non puoi eliminare una pgina che ha delle sottopagine, a menoi che questa opzione sia selezionata. Fare molta attenzione: abilitando questa opzione si permetterà a Typo3 di eliminare in un colpo solo tutto l'albero delle pagine.</label>
+			<label index="option_edit_wideDocument.alttitle">Background documenti estesto</label>
+			<label index="option_edit_RTE.alttitle">Abilita RTE (Rich Text Editor)</label>
+			<label index="option_edit_RTE.description">Se selezionata, il Rich Text Editor sarà abilitato. Normalmente vorra ilasciare questa opzione selezionata.</label>
+			<label index="option_edit_docModuleUpload.alttitle">Permetti l'Upload di files dalle form di editing.</label>
+			<label index="option_edit_showFieldHelp.alttitle">Modalità del CSH (aiuto contestuale)</label>
+			<label index="option_edit_showFieldHelp.description">Definisce la modalità dell'Aiuto In Linea (CSH:Context Sensitive Help) di Typo3. Di default sono mostrate delle piccole icone di help ovunque ci sia dell'aiuto disponibile. Puoi qundi cliccare sull'icona e si aprirà una nuova finestra.</label>
+			<label index="option_disableCMlayers.alttitle">Disabilita i popup menù contestuali.</label>
+			<label index="option_beUser_realName.alttitle">Il tuo nome</label>
+			<label index="option_beUser_realName.description">Inserisci il tuo nome reale</label>
+			<label index="option_beUser_email.alttitle">La tua email</label>
+			<label index="option_beUser_email.description">Accertati che sia un tuo valido indirizzo email.
+Questo é l'indirizzo di contatto che l'amministratore del backend userà se necessiterà di contattarti.</label>
+			<label index="option_emailMeAtLogin.alttitle">Notifica il login</label>
+			<label index="option_newPassword.alttitle">Cambia password</label>
+			<label index="option_newPassword.description">Inserisci una nuova password per il tuo account backend:</label>
+			<label index="option_newPasswordAgain.alttitle">Cambio password, conferma</label>
+			<label index="option_newPasswordAgain.description">Conferma la nuova password inserendola di nuovo, esattamente come scritta qui sopra. Se le due password non corrispondono esattamente, la password non sarà modificata.</label>
+			<label index="reset.alttitle">Resetta ai valori di default</label>
+			<label index="reset.description">Se si seleziona questa opzione, tutti i settaggi di questo modulo saranno ripristinati ai valori di default del sistema.</label>
+			<label index="reset.details">Questa operazione non modifica il nome utente, l'email e la password.</label>
+			<label index="simuser.alttitle">Simula utente backend</label>
+			<label index="simuser.description">Questa opzione permette agli utenti &quot;admin&quot; di cambiare i settaggi di un altro utente backend nel sistema.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index=".details" type="integer">127028415</label>
+			<label index=".image_descr" type="integer">55722408</label>
+			<label index="language.alttitle" type="integer">189480609</label>
+			<label index="language.description" type="integer">107138542</label>
+			<label index="option_newPassword.alttitle" type="integer">11770970</label>
+			<label index="language.image_descr" type="integer">67910929</label>
+			<label index="option_condensedMode.alttitle" type="integer">195403291</label>
+			<label index="option_condensedMode.description" type="integer">263779261</label>
+			<label index="option_noMenuMode.alttitle" type="integer">146834180</label>
+			<label index="option_showThumbs.alttitle" type="integer">111890184</label>
+			<label index="option_helpText.alttitle" type="integer">40561585</label>
+			<label index="option_maxTitleLen.alttitle" type="integer">119741080</label>
+			<label index="option_copyLevels.alttitle" type="integer">28112499</label>
+			<label index="option_edit_RTE.alttitle" type="integer">241224049</label>
+			<label index="option_edit_docModuleUpload.alttitle" type="integer">191752606</label>
+			<label index="option_edit_showFieldHelp.alttitle" type="integer">156260410</label>
+			<label index="option_disableCMlayers.alttitle" type="integer">256285755</label>
+			<label index="option_beUser_realName.alttitle" type="integer">117879142</label>
+			<label index="option_beUser_realName.description" type="integer">257488800</label>
+			<label index="option_beUser_email.alttitle" type="integer">26761284</label>
+			<label index="option_beUser_email.description" type="integer">170498615</label>
+			<label index="option_emailMeAtLogin.alttitle" type="integer">54992831</label>
+			<label index="option_newPassword.description" type="integer">165291839</label>
+			<label index="option_newPasswordAgain.alttitle" type="integer">34314409</label>
+			<label index="reset.alttitle" type="integer">243973144</label>
+			<label index="simuser.alttitle" type="integer">213794209</label>
+			<label index="simuser.description" type="integer">51461529</label>
+			<label index="option_copyLevels.description" type="integer">29159056</label>
+			<label index="option_recursiveDelete.alttitle" type="integer">169322059</label>
+			<label index="option_recursiveDelete.description" type="integer">213702407</label>
+			<label index="option_edit_wideDocument.alttitle" type="integer">47472072</label>
+			<label index="option_edit_RTE.description" type="integer">244751398</label>
+			<label index="option_edit_showFieldHelp.description" type="integer">29048466</label>
+			<label index="option_newPasswordAgain.description" type="integer">264203021</label>
+			<label index="reset.description" type="integer">206520611</label>
+			<label index="reset.details" type="integer">55338225</label>
+			<label index="option_noMenuMode.description" type="integer">43681789</label>
+			<label index="option_startModule.alttitle" type="integer">221357830</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index=".details">&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by &quot;User TSconfig&quot;. To read more about this concept, see the link below!</label>
+			<label index=".image_descr">The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</label>
+			<label index="language.alttitle">Backend Language selection</label>
+			<label index="language.description">Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</label>
+			<label index="option_newPassword.alttitle">Change password</label>
+			<label index="language.image_descr">TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</label>
+			<label index="option_condensedMode.alttitle">Condensed Mode</label>
+			<label index="option_condensedMode.description">If set, the backend will not load the Web-submodules and File-submodules in a frameset but allow the page and folder trees to load the submodule in the main content frame. This allows for a better display on small screens.</label>
+			<label index="option_noMenuMode.alttitle">Navigation Mode</label>
+			<label index="option_showThumbs.alttitle">Show Thumbnails by default</label>
+			<label index="option_helpText.alttitle">Show help text when applicable</label>
+			<label index="option_maxTitleLen.alttitle">Maximum title length</label>
+			<label index="option_copyLevels.alttitle">Recursive Copy</label>
+			<label index="option_edit_RTE.alttitle">Enable Rich Text Editor</label>
+			<label index="option_edit_docModuleUpload.alttitle">Enable File Uploads in editing forms</label>
+			<label index="option_edit_showFieldHelp.alttitle">Context Sensitive Help mode</label>
+			<label index="option_disableCMlayers.alttitle">Disable Popup Context Menus</label>
+			<label index="option_beUser_realName.alttitle">Your real name</label>
+			<label index="option_beUser_realName.description">Enter your real name here.</label>
+			<label index="option_beUser_email.alttitle">Your email address</label>
+			<label index="option_beUser_email.description">Make sure this is a valid email address for you. This is the contact address that the backend administrator will use if he needs to contact you. Also, the TYPO3 system might need to send you messages at various times and this will be the recipient address.</label>
+			<label index="option_emailMeAtLogin.alttitle">Notify by login</label>
+			<label index="option_newPassword.description">Enter a new password for your backend account:</label>
+			<label index="option_newPasswordAgain.alttitle">Change password, confirm</label>
+			<label index="reset.alttitle">Reset all Values to default</label>
+			<label index="simuser.alttitle">Simulate backend user</label>
+			<label index="simuser.description">This option allows &quot;admin&quot;-users to change settings for another backend user in the system.</label>
+			<label index="option_copyLevels.description">When you copy a page, subpages can also be copied along if you set this option. The number you set here defines the number of levels under a page to include in a copy operation.</label>
+			<label index="option_recursiveDelete.alttitle">Recursive Delete</label>
+			<label index="option_recursiveDelete.description">You cannot delete a page with subpages unless this flag is set. Be careful - setting this option means that TYPO3 will allow a whole tree of pages to be deleted in one go!</label>
+			<label index="option_edit_wideDocument.alttitle">Wide document background</label>
+			<label index="option_edit_RTE.description">If set, the Rich Text Editor in TYPO3 will be enabled for you. Normally you wouldn't want to disable this option.</label>
+			<label index="option_edit_showFieldHelp.description">Defines the mode of Context Sensitive Help (CSH) in TYPO3. The default is that small help icons are shown everywhere a help item is available. You can click the icon and help will appear in a window for you.</label>
+			<label index="option_newPasswordAgain.description">Confirm the new password by entering it again, exactly like above. If the two new passwords do not match, the password will not be changed.</label>
+			<label index="reset.description">If you select this option all settings in this module will be reset to the default settings of the system.</label>
+			<label index="reset.details">This does not apply to user name, email and password settings of course.</label>
+			<label index="option_noMenuMode.description">Setting alternative backend menu modes</label>
+			<label index="option_startModule.alttitle">Start module</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

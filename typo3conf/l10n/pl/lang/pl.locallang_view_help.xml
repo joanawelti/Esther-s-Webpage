@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="details">Szczegóły</label>
+			<label index="syntax">Składnia</label>
+			<label index="seeAlso">Zobacz również</label>
+			<label index="goBack">Wróć</label>
+			<label index="fullDescription">Zobacz pełny opis tabeli</label>
+			<label index="fullDescription_module">Zobacz pełny opis modułu</label>
+			<label index="goToToc">Idź do spisu treści</label>
+			<label index="to_top">Do góry</label>
+			<label index="TOC">Spis treści</label>
+			<label index="TOC_core">Podstawowe właściwości TYPO3</label>
+			<label index="TOC_modules">Moduły Backend</label>
+			<label index="TOC_tables">Tabele bazy danych</label>
+			<label index="TOC_extensions">Rozszerzenia</label>
+			<label index="TOC_glossary">Słownik</label>
+			<label index="TOC_other">Inne</label>
+			<label index="close">Zamknij</label>
+			<label index="title">Pomoc TYPO3</label>
+			<label index="manual_title">Podręcznik użytkownika TYPO3</label>
+			<label index="introduction">Wprowadzenie</label>
+			<label index="description">Podręcznik użytkownika TYPO3 stworzony jest z całej dostępnej pomocy, zawartej w systemie (pomoc kontekstowa). Znajdziesz w niej ogólny opis modułów podstawowych, modułów specyficznych zainstalowanych w twoim systemie oraz tabel bazy danych, do których masz uprawnienia.</label>
+			<label index="full_manual">Pełny podręcznik (na jednej stronie)</label>
+			<label index="full_manual_chapters">Rozdziały podręcznika</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="details" type="integer">65812061</label>
+			<label index="syntax" type="integer">154049890</label>
+			<label index="seeAlso" type="integer">101781834</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="fullDescription" type="integer">233674735</label>
+			<label index="close" type="integer">222113377</label>
+			<label index="title" type="integer">184225760</label>
+			<label index="fullDescription_module" type="integer">201003905</label>
+			<label index="goToToc" type="integer">21517239</label>
+			<label index="to_top" type="integer">256968027</label>
+			<label index="TOC" type="double">5416024</label>
+			<label index="TOC_core" type="integer">164327555</label>
+			<label index="TOC_modules" type="integer">39991288</label>
+			<label index="TOC_tables" type="integer">247039840</label>
+			<label index="TOC_extensions" type="integer">98760179</label>
+			<label index="TOC_other" type="integer">103881441</label>
+			<label index="manual_title" type="integer">89488469</label>
+			<label index="introduction" type="double">12031893</label>
+			<label index="full_manual" type="integer">68472336</label>
+			<label index="full_manual_chapters" type="integer">161891675</label>
+			<label index="description" type="integer">55775014</label>
+			<label index="TOC_glossary" type="integer">52236445</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="details">Details</label>
+			<label index="syntax">Syntax</label>
+			<label index="seeAlso">See also</label>
+			<label index="goBack">Go back</label>
+			<label index="fullDescription">See full description of table</label>
+			<label index="fullDescription_module">See full description of module</label>
+			<label index="goToToc">Go to TOC</label>
+			<label index="to_top">To top</label>
+			<label index="TOC">Table Of Contents</label>
+			<label index="TOC_core">TYPO3 Core Features</label>
+			<label index="TOC_modules">Backend Modules</label>
+			<label index="TOC_tables">Database Tables</label>
+			<label index="TOC_extensions">Extensions</label>
+			<label index="TOC_glossary">Glossary</label>
+			<label index="TOC_other">Other</label>
+			<label index="close">Close</label>
+			<label index="title">TYPO3 Inline Help</label>
+			<label index="manual_title">TYPO3 Inline User Manual</label>
+			<label index="introduction">Introduction</label>
+			<label index="description">The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials.</label>
+			<label index="full_manual">Full Manual (in one page)</label>
+			<label index="full_manual_chapters">Manual Chapters</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

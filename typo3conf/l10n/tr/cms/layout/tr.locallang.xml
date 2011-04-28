@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="title">Sayfa içeriği</label>
+			<label index="advancedFunctions">Gelişmiş fonksiyonlar</label>
+			<label index="noEditItems">Üzgünüm, bu sayfa üzerinde nesnelerde değişiklik yapma yetkiniz yok!</label>
+			<label index="noEditPage">Üzgünüm, bu sayfada değişiklikyapma yetkiniz yok!</label>
+			<label index="nextThree">Bir sonraki %s kaydı düzelt</label>
+			<label index="moveUp">Kaydı üste kısma taşı</label>
+			<label index="moveDown">Kaydı alta taşı</label>
+			<label index="unHide">Saklama modundan çıkart</label>
+			<label index="hide">Sakla</label>
+			<label index="edit">Değişiklik yap</label>
+			<label index="newAfter">Bu kayıttan sonra yeni kayıt</label>
+			<label index="move_record">Mevcut kaydı yeniden konumlandır</label>
+			<label index="move_page">Sayfayı taşı</label>
+			<label index="deleteItem">Sil</label>
+			<label index="deleteWarning">Bu kaydı silmek istediğinizden emin misiniz?</label>
+			<label index="editColumn">Bu sütunu düzenle</label>
+			<label index="editPageProperties_curLang">Çeviri özelliklerini düzenle</label>
+			<label index="editInRTE">Zengin Metin Düzenleyicide düzenle</label>
+			<label index="newPageContent">Sayfa içeriği oluştur</label>
+			<label index="newPageContent_copyForLang">Standart içerik elementlerini kopyala</label>
+			<label index="newPageContent2">Yeni içerik</label>
+			<label index="newInColumn">Bu sütunun en üst kısmında yeni kayıt oluştur</label>
+			<label index="records">kayıtlar</label>
+			<label index="pageInformation">Sayfa bilgisi</label>
+			<label index="goToTable">Tabloya git</label>
+			<label index="internalNotes">İç kısma ait notlar</label>
+			<label index="clearCache">Bu sayfa önbelleğini temizlemek için tıklayınız.</label>
+			<label index="hiddenCE">Saklı içerik elementlerini göster</label>
+			<label index="new_language">Bu sayfanın yeni çevirisini yap</label>
+			<label index="newLabel">YENİ</label>
+			<label index="defaultLanguage">Standart</label>
+			<label index="editLanguageHeader">Dil başlığını düzenle</label>
+			<label index="editPageProperties">Sayfa özelliklerini düzenle</label>
+			<label index="newRecordGeneral">Yeni kayıt yarat</label>
+			<label index="newContentElement">Yeni içerik elementi yarat</label>
+			<label index="CEonThisPage">Bu sayfadaki içerik elementleri:</label>
+			<label index="newPage">Yeni sayfa yarat</label>
+			<label index="newPage2">Yeni sayfa</label>
+			<label index="noAccess">Düzenleme için erişim izni yok</label>
+			<label index="noAccess_msg">Talep edilen kaydı düzenlemeye yetkiniz yok</label>
+			<label index="undoLastChange">Son değişikliği Geri al/Yinele (%s önce)</label>
+			<label index="recordHistory">Kayıt değişim günlüğünü göster</label>
+			<label index="tt_board_subject">Konu</label>
+			<label index="tt_board_author">Yazar</label>
+			<label index="tt_board_date">Tarih</label>
+			<label index="tt_board_age">Dönem</label>
+			<label index="tt_board_RE">YNT</label>
+			<label index="m_function_0">Hızlı Düzenle</label>
+			<label index="m_function_1">Sütunlar</label>
+			<label index="m_function_2">Diller</label>
+			<label index="m_tt_board_0">Sadece konuları listele</label>
+			<label index="m_tt_board_expand">Bölümleri genişlet</label>
+			<label index="m_tt_address_0">Kısa liste</label>
+			<label index="m_tt_address_1">Adres listesi</label>
+			<label index="m_tt_address_2">Kişisel bilgi</label>
+			<label index="m_tt_links_1">Tam URL</label>
+			<label index="m_tt_links_2">Alternatif not</label>
+			<label index="m_tt_calender_date">Tarih</label>
+			<label index="m_tt_calender_date_ext">Tarih - ayrıntılı</label>
+			<label index="m_tt_calender_todo">Yapılacak işler</label>
+			<label index="m_tt_calender_todo_ext">Yapılacak işler - ayrıntılı</label>
+			<label index="m_tt_calender_ext">Geniş</label>
+			<label index="m_tt_products_ext">Geniş</label>
+			<label index="m_default">Standart</label>
+			<label index="clickAPage_header">Web&gt;Sayfa modülü</label>
+			<label index="clickAPage_content">Sayfa içeriğini düzenlemek istiyorsanız, lütfen soldaki sayfa ağacında sayfa başlığına tıklayınız.</label>
+			<label index="pI_crUser">Oluşturan kişi</label>
+			<label index="pI_crDate">Oluşturulma tarihi</label>
+			<label index="pI_lastChange">Son değişiklik</label>
+			<label index="pI_lastChangeContent">Son değişiklik, içerik</label>
+			<label index="pI_hitsTotal">Toplam erişim sayısı</label>
+			<label index="pI_hitsPeriod">Erişim periyotları</label>
+			<label index="pI_hits24hours">Son 24 saat</label>
+			<label index="pI_hits10days">Son 10 gün</label>
+			<label index="editPageTitle">Sayfa başlığını düzelt</label>
+			<label index="editPageTitle_curLang">Çeviri başlığını düzelt</label>
+			<label index="editPageHeader">Sayfa başlığını düzenle</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="title" type="integer">73079758</label>
+			<label index="advancedFunctions" type="integer">155530193</label>
+			<label index="noEditItems" type="integer">22184829</label>
+			<label index="noEditPage" type="integer">59166922</label>
+			<label index="nextThree" type="integer">52002706</label>
+			<label index="moveUp" type="integer">70382816</label>
+			<label index="moveDown" type="integer">167541671</label>
+			<label index="unHide" type="integer">151399157</label>
+			<label index="hide" type="integer">103439945</label>
+			<label index="edit" type="integer">131916066</label>
+			<label index="newAfter" type="double">9161017</label>
+			<label index="move_record" type="integer">57306690</label>
+			<label index="move_page" type="integer">32081372</label>
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="editColumn" type="double">14150015</label>
+			<label index="editPageTitle" type="integer">60384081</label>
+			<label index="editInRTE" type="integer">50446768</label>
+			<label index="newPageContent" type="integer">100832025</label>
+			<label index="newPageContent2" type="integer">74406052</label>
+			<label index="newInColumn" type="integer">192491768</label>
+			<label index="records" type="integer">115682368</label>
+			<label index="pageInformation" type="double">9265976</label>
+			<label index="goToTable" type="integer">131114258</label>
+			<label index="internalNotes" type="integer">267841144</label>
+			<label index="clearCache" type="integer">128738260</label>
+			<label index="hiddenCE" type="integer">218457432</label>
+			<label index="new_language" type="integer">174017384</label>
+			<label index="newLabel" type="integer">38618522</label>
+			<label index="editLanguageHeader" type="integer">60830633</label>
+			<label index="editPageHeader" type="integer">60384081</label>
+			<label index="newRecordGeneral" type="integer">54021068</label>
+			<label index="newContentElement" type="integer">165001110</label>
+			<label index="CEonThisPage" type="integer">260925574</label>
+			<label index="newPage" type="double">10918545</label>
+			<label index="newPage2" type="integer">107510865</label>
+			<label index="noAccess" type="integer">101501626</label>
+			<label index="noAccess_msg" type="integer">75856839</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="tt_board_subject" type="integer">209228523</label>
+			<label index="tt_board_author" type="integer">173111111</label>
+			<label index="tt_board_date" type="integer">71780721</label>
+			<label index="tt_board_age" type="integer">165204693</label>
+			<label index="tt_board_RE" type="integer">182416032</label>
+			<label index="m_function_0" type="integer">114319247</label>
+			<label index="m_function_1" type="integer">23640109</label>
+			<label index="m_function_2" type="integer">60853806</label>
+			<label index="m_tt_board_0" type="integer">267360715</label>
+			<label index="m_tt_board_expand" type="integer">224753595</label>
+			<label index="m_tt_address_0" type="integer">99410510</label>
+			<label index="m_tt_address_1" type="integer">244323618</label>
+			<label index="m_tt_address_2" type="double">16616904</label>
+			<label index="m_tt_links_1" type="integer">20515061</label>
+			<label index="m_tt_links_2" type="integer">23258562</label>
+			<label index="m_tt_calender_date" type="integer">71780721</label>
+			<label index="m_tt_calender_date_ext" type="integer">248953831</label>
+			<label index="m_tt_calender_todo" type="integer">197754386</label>
+			<label index="m_tt_calender_todo_ext" type="integer">104661576</label>
+			<label index="m_tt_calender_ext" type="integer">253974415</label>
+			<label index="m_tt_products_ext" type="integer">253974415</label>
+			<label index="m_default" type="integer">128029197</label>
+			<label index="clickAPage_header" type="integer">150819539</label>
+			<label index="clickAPage_content" type="integer">255012126</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="pI_hitsTotal" type="integer">203132422</label>
+			<label index="pI_hitsPeriod" type="integer">248983029</label>
+			<label index="pI_hits24hours" type="integer">104044646</label>
+			<label index="pI_hits10days" type="integer">192341173</label>
+			<label index="editPageTitle_curLang" type="double">5915630</label>
+			<label index="newPageContent_copyForLang" type="integer">166684005</label>
+			<label index="defaultLanguage" type="integer">128029197</label>
+			<label index="editPageProperties_curLang" type="double">16542693</label>
+			<label index="editPageProperties" type="integer">219852795</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+			<label index="title">Page content</label>
+			<label index="advancedFunctions">Advanced functions</label>
+			<label index="noEditItems">Sorry, you do not have permissions to edit items on this page!</label>
+			<label index="noEditPage">Sorry, you do not have permissions to edit this page!</label>
+			<label index="nextThree">Edit next %s records</label>
+			<label index="moveUp">Move record up</label>
+			<label index="moveDown">Move record down</label>
+			<label index="unHide">Un-hide</label>
+			<label index="hide">Hide</label>
+			<label index="edit">Edit</label>
+			<label index="newAfter">New record after this one</label>
+			<label index="move_record">Re-position current content element</label>
+			<label index="move_page">Move page</label>
+			<label index="deleteItem">Delete</label>
+			<label index="deleteWarning">Are you sure you want to delete this record?</label>
+			<label index="editColumn">Edit this column</label>
+			<label index="editPageProperties_curLang">Edit translation properties</label>
+			<label index="editInRTE">Edit in Rich Text Editor</label>
+			<label index="newPageContent">Create page content</label>
+			<label index="newPageContent_copyForLang">Copy default content elements</label>
+			<label index="newPageContent2">New content</label>
+			<label index="newInColumn">Create new record in top of this column</label>
+			<label index="records">records</label>
+			<label index="pageInformation">Page information</label>
+			<label index="goToTable">Go to table</label>
+			<label index="internalNotes">Internal notes</label>
+			<label index="clearCache">Click here to clear cache for this page.</label>
+			<label index="hiddenCE">Show hidden content elements</label>
+			<label index="new_language">Make new translation of this page</label>
+			<label index="newLabel">NEW</label>
+			<label index="defaultLanguage">Default</label>
+			<label index="editLanguageHeader">Edit language header</label>
+			<label index="editPageProperties">Edit page properties</label>
+			<label index="newRecordGeneral">Create new record</label>
+			<label index="newContentElement">Create new content element</label>
+			<label index="CEonThisPage">Content elements on this page:</label>
+			<label index="newPage">Create new page</label>
+			<label index="newPage2">New page</label>
+			<label index="noAccess">No edit access</label>
+			<label index="noAccess_msg">You do not have access to edit the requested record.</label>
+			<label index="undoLastChange">Undo/Redo last change (%s ago)</label>
+			<label index="recordHistory">View record change history</label>
+			<label index="tt_board_subject">Subject</label>
+			<label index="tt_board_author">Author</label>
+			<label index="tt_board_date">Date</label>
+			<label index="tt_board_age">Age</label>
+			<label index="tt_board_RE">RE</label>
+			<label index="m_function_0">QuickEdit</label>
+			<label index="m_function_1">Columns</label>
+			<label index="m_function_2">Languages</label>
+			<label index="m_tt_board_0">List topics only</label>
+			<label index="m_tt_board_expand">Expand Threads</label>
+			<label index="m_tt_address_0">Short List</label>
+			<label index="m_tt_address_1">Address list</label>
+			<label index="m_tt_address_2">Personal info</label>
+			<label index="m_tt_links_1">Whole URL</label>
+			<label index="m_tt_links_2">Alternative note</label>
+			<label index="m_tt_calender_date">Date</label>
+			<label index="m_tt_calender_date_ext">Date - extended</label>
+			<label index="m_tt_calender_todo">Todo</label>
+			<label index="m_tt_calender_todo_ext">Todo - extended</label>
+			<label index="m_tt_calender_ext">Extended</label>
+			<label index="m_tt_products_ext">Extended</label>
+			<label index="m_default">Default</label>
+			<label index="clickAPage_header">Web&gt;Page module</label>
+			<label index="clickAPage_content">Please click the page title in the page tree to the left to edit page content.</label>
+			<label index="pI_crUser">Created by</label>
+			<label index="pI_crDate">Created date</label>
+			<label index="pI_lastChange">Last change</label>
+			<label index="pI_lastChangeContent">Last change, content</label>
+			<label index="pI_hitsTotal">Total Hits</label>
+			<label index="pI_hitsPeriod">Hits Period</label>
+			<label index="pI_hits24hours">Last 24 hours</label>
+			<label index="pI_hits10days">Last 10 days</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

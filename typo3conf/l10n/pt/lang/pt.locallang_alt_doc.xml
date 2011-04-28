@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="deleteItem">Apagar</label>
+			<label index="deleteWarning">Tem a certeza de querer apagar este registo?</label>
+			<label index="undoLastChange">Desfazer/Refazer última alteração (%s ant.)</label>
+			<label index="recordHistory">Vêr histórico de alterações de registo</label>
+			<label index="editWholeRecord">Editar todo o registo</label>
+			<label index="openDocs">DOCUMENTOS ABERTOS</label>
+			<label index="noDocuments">Nenhum documento aberto</label>
+			<label index="noDocuments_msg">Não existem documentos abertos disponíveis para editar.</label>
+			<label index="noDocuments_msg2">Pode ir para %s a fim de encontrar a página ou registo que deseja editar.</label>
+			<label index="noDocuments_msg3">Pode selecionar um dos seus registos mais recentemente editados desta lista:</label>
+			<label index="noDocuments_pagemodule">o módulo Web&gt;Página</label>
+			<label index="noDocuments_OR">ou</label>
+			<label index="noDocuments_listmodule">o módulo Web&gt;Lista</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="editWholeRecord" type="integer">195506325</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_msg" type="integer">264542935</label>
+			<label index="noDocuments_msg2" type="integer">15726238</label>
+			<label index="noDocuments_msg3" type="integer">187019899</label>
+			<label index="noDocuments_pagemodule" type="integer">126847616</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+			<label index="noDocuments_listmodule" type="integer">97512249</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

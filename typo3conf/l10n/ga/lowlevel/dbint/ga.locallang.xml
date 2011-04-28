@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="tables">Táboas</label>
+			<label index="fixLostRecord">Fai clic para mover este rexistro perdido ao nivel raíz (rootlevel ou pid=0)</label>
+			<label index="doktype">Tipos de documentos:</label>
+			<label index="pages">Páxinas:</label>
+			<label index="total_pages">Número total de páxinas:</label>
+			<label index="deleted_pages">Marcar as páxinas para borrar:</label>
+			<label index="hidden_pages">Páxinas ocultas:</label>
+			<label index="relations">Relacións;</label>
+			<label index="relations_description">Isto analizará o contido das táboas e comprobarase se hai relacións baleiras entre os rexistros ou se os arquivos non existen na posición desexada
+*posicion esperada</label>
+			<label index="files_many_ref">Arquivos referenciados desde máis de un rexistro:</label>
+			<label index="files_no_ref">Arquivos sen referencias (¡Borralos!):</label>
+			<label index="files_no_file">Arquivos perdidos:</label>
+			<label index="select_db">Campos select:</label>
+			<label index="group_db">Campos group:</label>
+			<label index="tree">O árbore de páxinas:</label>
+			<label index="tree_description">Isto mostra todas as páxinas no sistema en unha árbore longa. Teña coidado con esta vista xa que amosará un documento moi longo que pode tardar en ser xerado polo servidor.</label>
+			<label index="records">Estatísticas de rexistros:</label>
+			<label index="records_description">Amosa estatísticas sobre os rexistros da base de datos. Execútase sobre a árbore de páxinas completo, polo que tamén xerará moita carga no servidor.</label>
+			<label index="search">Buscar en toda a base de datos</label>
+			<label index="search_description">Busca unha cadea de texto en todas as táboas e rexistros da base de datos.</label>
+			<label index="filesearch">Buscar patrón en todos os nomes de arquivo</label>
+			<label index="filesearch_description">Buscará recursivamente nomes de arquivo na ruta PATH_site (subcarpetas da ruta do sitio web) que coincidan cun determinado patrón regex.</label>
+			<label index="refindex">Comprobar e actualizar o índice global de referencias</label>
+			<label index="refindex_description">Permítelle manter o índice de referencias xestionado por TYPO3</label>
+			<label index="title">Verificación da integridade da base de datos</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="tables" type="integer">267355363</label>
+			<label index="fixLostRecord" type="integer">264598103</label>
+			<label index="doktype" type="integer">59646372</label>
+			<label index="pages" type="integer">9915692</label>
+			<label index="total_pages" type="integer">120516512</label>
+			<label index="deleted_pages" type="integer">251989828</label>
+			<label index="hidden_pages" type="integer">56221326</label>
+			<label index="relations" type="integer">158458960</label>
+			<label index="relations_description" type="integer">98163255</label>
+			<label index="files_many_ref" type="integer">253873964</label>
+			<label index="files_no_ref" type="integer">51429792</label>
+			<label index="files_no_file" type="integer">103076812</label>
+			<label index="select_db" type="integer">222215195</label>
+			<label index="group_db" type="integer">89872761</label>
+			<label index="tree" type="integer">254322778</label>
+			<label index="tree_description" type="integer">13437987</label>
+			<label index="records" type="integer">107937849</label>
+			<label index="records_description" type="integer">36151804</label>
+			<label index="search" type="integer">201691087</label>
+			<label index="search_description" type="integer">44447557</label>
+			<label index="filesearch" type="integer">138409460</label>
+			<label index="filesearch_description" type="integer">206400326</label>
+			<label index="refindex" type="integer">67579080</label>
+			<label index="refindex_description" type="integer">26536462</label>
+			<label index="title" type="integer">152428276</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="tables">Tables:</label>
+			<label index="fixLostRecord">Click to move this lost record to rootlevel (pid=0)</label>
+			<label index="doktype">Document types:</label>
+			<label index="pages">Pages:</label>
+			<label index="total_pages">Total number of pages:</label>
+			<label index="deleted_pages">Marked-deleted pages:</label>
+			<label index="hidden_pages">Hidden pages:</label>
+			<label index="relations">Relations:</label>
+			<label index="relations_description">This will analyse the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</label>
+			<label index="files_many_ref">Files referenced from more than one record:</label>
+			<label index="files_no_ref">Files with no references at all (delete them!):</label>
+			<label index="files_no_file">Missing files:</label>
+			<label index="select_db">Select fields:</label>
+			<label index="group_db">Group fields:</label>
+			<label index="tree">The Page Tree:</label>
+			<label index="tree_description">This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</label>
+			<label index="records">Records Statistics:</label>
+			<label index="records_description">This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</label>
+			<label index="search">Search Whole Database</label>
+			<label index="search_description">This searches through all database tables and records for a text string.</label>
+			<label index="filesearch">Search all filenames for pattern</label>
+			<label index="filesearch_description">Will search recursively for filenames in the PATH_site (subdirs to the website path) matching a certain regex pattern.</label>
+			<label index="refindex">Check and update global reference index</label>
+			<label index="refindex_description">Allows you to maintain the reference index kept by TYPO3.</label>
+			<label index="title">Database integrity check</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

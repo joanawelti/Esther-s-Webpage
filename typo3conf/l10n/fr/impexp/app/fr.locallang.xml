@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="import">Importer depuis un .t3d</label>
+			<label index="export">Exporter vers un .t3d</label>
+			<label index="title">Importer / Exporter</label>
+			<label index="tableselec_configuration">Configuration</label>
+			<label index="exportdata_savedFile">FICHIER SAUVEGARDÉ</label>
+			<label index="exportdata_problemsSavingFile">Problème pendant la sauvegarde du fichier</label>
+			<label index="exportdata_badPathS">Mauvais chemin: &quot;%s&quot;</label>
+			<label index="exportdata_advancedOptions">Options avancées</label>
+			<label index="exportdata_messages">Messages</label>
+			<label index="execlistqu_structureToBeExported">Structure à exporter:</label>
+			<label index="makeconfig_exportPagetreeConfiguration">Exporter la configuration de l'arborescence:</label>
+			<label index="makeconfig_pageId">ID de page:</label>
+			<label index="makeconfig_tree">Arborescence</label>
+			<label index="makeconfig_onlyThisPage">Seulement cette page</label>
+			<label index="makeconfig_1Level">1 niveau</label>
+			<label index="makeconfig_2Levels">2 niveaux</label>
+			<label index="makeconfig_3Levels">3 niveaux</label>
+			<label index="makeconfig_4Levels">4 niveaux</label>
+			<label index="makeconfig_infinite">Infini</label>
+			<label index="makeconfig_levels">Niveaux:</label>
+			<label index="makeconfig_record">Enregistrement:</label>
+			<label index="makesavefo_save">Sauvegarder</label>
+			<label index="makesavefo_areYouSure">Etes-vous sûr?</label>
+			<label index="makesavefo_delete">Effacer</label>
+			<label index="makesavefo_title">Titre:</label>
+			<label index="makesavefo_description">Description:</label>
+			<label index="makesavefo_thumbnail">Miniature:</label>
+			<label index="makesavefo_t3dFile">fichier T3D</label>
+			<label index="makesavefo_xml">XML</label>
+			<label index="makesavefo_fileFormat">Format de fichier:</label>
+			<label index="importdata_saveToFilename">Sauvegarder sous</label>
+			<label index="importdata_file">Fichier:</label>
+			<label index="importdata_update">Mettre à jour:</label>
+			<label index="importdata_action">Action:</label>
+			<label index="importdata_preview">Prévisualiser</label>
+			<label index="importdata_update_299e">Mettre à jour</label>
+			<label index="importdata_import">Importer</label>
+			<label index="importdata_areYouSure">Etes-vous sûr?</label>
+			<label index="importdata_newImport">Nouvel import</label>
+			<label index="importdata_browse">Parcourir</label>
+			<label index="importdata_success">Succès:</label>
+			<label index="importdata_upload">Envoyer</label>
+			<label index="importdata_title">Titre:</label>
+			<label index="importdata_description">Description</label>
+			<label index="importdata_email">Email:</label>
+			<label index="importdata_icon">Icône:</label>
+			<label index="importdata_messages">Messages</label>
+			<label index="ALL_tables">TOUTES les tables</label>
+			<label index="impexpcore_displaycon_title">Titre:</label>
+			<label index="impexpcore_displaycon_size">Taille:</label>
+			<label index="impexpcore_displaycon_message">Message</label>
+			<label index="impexpcore_displaycon_updateMode">Mode de mise à jour:</label>
+			<label index="impexpcore_displaycon_currentPath">Chemin actuel:</label>
+			<label index="impexpcore_displaycon_result">Résultat</label>
+			<label index="impexpcore_displaycon_insidePagetree">Dans l'arborescence</label>
+			<label index="impexpcore_singlereco_outsidePagetree">En dehors de l'arborescence</label>
+			<label index="impexpcore_singlereco_update">Mettre à jour</label>
+			<label index="impexpcore_singlereco_insert">Insérer</label>
+			<label index="impexpcore_singlereco_ignorePid">Ignorer les PID</label>
+			<label index="impexpcore_singlereco_respectPid">Respecter les PID</label>
+			<label index="impexpcore_singlereco_exclude">Exclure</label>
+			<label index="impexpcore_singlereco_title">Titre:</label>
+			<label index="impexpcore_singlereco_filename">Nom du fichier:</label>
+			<label index="impexpcore_singlereco_value">Veleur:</label>
+			<label index="impexpcore_softrefsel_record">Enregistrement:</label>
+			<label index="impexpcore_softrefsel_exclude">Exclure</label>
+			<label index="impexpcore_printerror_description">Déscription:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="import" type="integer">176109005</label>
+			<label index="export" type="integer">243149277</label>
+			<label index="title" type="integer">159173914</label>
+			<label index="tableselec_configuration" type="integer">39122498</label>
+			<label index="exportdata_savedFile" type="integer">115450939</label>
+			<label index="exportdata_problemsSavingFile" type="integer">217500640</label>
+			<label index="exportdata_badPathS" type="integer">254355411</label>
+			<label index="exportdata_advancedOptions" type="integer">165660117</label>
+			<label index="exportdata_messages" type="integer">69068502</label>
+			<label index="makeconfig_tree" type="integer">56313694</label>
+			<label index="makeconfig_onlyThisPage" type="integer">203612347</label>
+			<label index="makeconfig_1Level" type="integer">200641290</label>
+			<label index="makeconfig_2Levels" type="integer">228799796</label>
+			<label index="makeconfig_3Levels" type="integer">195275893</label>
+			<label index="makeconfig_4Levels" type="integer">97262614</label>
+			<label index="makeconfig_infinite" type="integer">185655876</label>
+			<label index="makeconfig_levels" type="integer">252893175</label>
+			<label index="makeconfig_record" type="integer">204948081</label>
+			<label index="makesavefo_save" type="integer">211601612</label>
+			<label index="makesavefo_areYouSure" type="integer">120169752</label>
+			<label index="makesavefo_delete" type="integer">254438473</label>
+			<label index="makesavefo_title" type="integer">85903807</label>
+			<label index="makesavefo_description" type="integer">218120871</label>
+			<label index="makesavefo_thumbnail" type="integer">74729175</label>
+			<label index="importdata_update" type="integer">60645742</label>
+			<label index="importdata_action" type="integer">140023463</label>
+			<label index="importdata_update_299e" type="double">6894342</label>
+			<label index="importdata_import" type="integer">120417658</label>
+			<label index="importdata_areYouSure" type="integer">120169752</label>
+			<label index="importdata_newImport" type="integer">27979046</label>
+			<label index="importdata_browse" type="integer">20214859</label>
+			<label index="importdata_success" type="integer">77331493</label>
+			<label index="importdata_title" type="integer">85903807</label>
+			<label index="importdata_description" type="integer">218120871</label>
+			<label index="importdata_email" type="integer">111272549</label>
+			<label index="importdata_icon" type="integer">57819822</label>
+			<label index="importdata_messages" type="integer">69068502</label>
+			<label index="ALL_tables" type="integer">84436380</label>
+			<label index="impexpcore_displaycon_title" type="integer">85903807</label>
+			<label index="impexpcore_displaycon_size" type="integer">183911828</label>
+			<label index="impexpcore_displaycon_message" type="integer">155215423</label>
+			<label index="impexpcore_displaycon_updateMode" type="integer">186500994</label>
+			<label index="impexpcore_displaycon_currentPath" type="integer">122128109</label>
+			<label index="impexpcore_displaycon_result" type="integer">95077261</label>
+			<label index="impexpcore_displaycon_insidePagetree" type="integer">128562357</label>
+			<label index="impexpcore_singlereco_outsidePagetree" type="integer">180151794</label>
+			<label index="impexpcore_singlereco_update" type="double">6894342</label>
+			<label index="impexpcore_singlereco_insert" type="integer">172329952</label>
+			<label index="impexpcore_singlereco_ignorePid" type="integer">132277591</label>
+			<label index="impexpcore_singlereco_respectPid" type="integer">234394398</label>
+			<label index="impexpcore_singlereco_exclude" type="integer">138670721</label>
+			<label index="impexpcore_singlereco_title" type="integer">85903807</label>
+			<label index="impexpcore_singlereco_filename" type="integer">105459047</label>
+			<label index="impexpcore_singlereco_value" type="integer">181254146</label>
+			<label index="impexpcore_softrefsel_record" type="integer">204948081</label>
+			<label index="impexpcore_printerror_description" type="integer">218120871</label>
+			<label index="execlistqu_structureToBeExported" type="integer">198018009</label>
+			<label index="makeconfig_exportPagetreeConfiguration" type="integer">37597973</label>
+			<label index="makeconfig_pageId" type="integer">36562266</label>
+			<label index="makesavefo_t3dFile" type="integer">66222176</label>
+			<label index="makesavefo_xml" type="integer">55581616</label>
+			<label index="makesavefo_fileFormat" type="integer">152564791</label>
+			<label index="importdata_saveToFilename" type="integer">91594981</label>
+			<label index="importdata_file" type="integer">182590850</label>
+			<label index="importdata_preview" type="integer">52420219</label>
+			<label index="importdata_upload" type="integer">152310342</label>
+			<label index="impexpcore_softrefsel_exclude" type="integer">138670721</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="import">Import from .t3d</label>
+			<label index="export">Export to .t3d</label>
+			<label index="title">Import / Export</label>
+			<label index="tableselec_configuration">Configuration</label>
+			<label index="exportdata_savedFile">SAVED FILE</label>
+			<label index="exportdata_problemsSavingFile">Problems saving file</label>
+			<label index="exportdata_badPathS">Bad path: &quot;%s&quot;</label>
+			<label index="exportdata_advancedOptions">Advanced Options</label>
+			<label index="exportdata_messages">Messages</label>
+			<label index="makeconfig_tree">Tree:</label>
+			<label index="makeconfig_onlyThisPage">Only this page</label>
+			<label index="makeconfig_1Level">1 level</label>
+			<label index="makeconfig_2Levels">2 levels</label>
+			<label index="makeconfig_3Levels">3 levels</label>
+			<label index="makeconfig_4Levels">4 levels</label>
+			<label index="makeconfig_infinite">Infinite</label>
+			<label index="makeconfig_levels">Levels:</label>
+			<label index="makeconfig_record">Record:</label>
+			<label index="makesavefo_save">Save</label>
+			<label index="makesavefo_areYouSure">Are you sure?</label>
+			<label index="makesavefo_delete">Delete</label>
+			<label index="makesavefo_title">Title:</label>
+			<label index="makesavefo_description">Description:</label>
+			<label index="makesavefo_thumbnail">Thumbnail:</label>
+			<label index="importdata_update">Update:</label>
+			<label index="importdata_action">Action:</label>
+			<label index="importdata_update_299e">Update</label>
+			<label index="importdata_import">Import</label>
+			<label index="importdata_areYouSure">Are you sure?</label>
+			<label index="importdata_newImport">New import</label>
+			<label index="importdata_browse">Browse:</label>
+			<label index="importdata_success">Success:</label>
+			<label index="importdata_title">Title:</label>
+			<label index="importdata_description">Description:</label>
+			<label index="importdata_email">Email:</label>
+			<label index="importdata_icon">Icon:</label>
+			<label index="importdata_messages">Messages</label>
+			<label index="ALL_tables">ALL tables</label>
+			<label index="impexpcore_displaycon_title">Title:</label>
+			<label index="impexpcore_displaycon_size">Size:</label>
+			<label index="impexpcore_displaycon_message">Message:</label>
+			<label index="impexpcore_displaycon_updateMode">Update Mode:</label>
+			<label index="impexpcore_displaycon_currentPath">Current Path:</label>
+			<label index="impexpcore_displaycon_result">Result:</label>
+			<label index="impexpcore_displaycon_insidePagetree">Inside pagetree:</label>
+			<label index="impexpcore_singlereco_outsidePagetree">Outside pagetree:</label>
+			<label index="impexpcore_singlereco_update">Update</label>
+			<label index="impexpcore_singlereco_insert">Insert</label>
+			<label index="impexpcore_singlereco_ignorePid">Ignore PID</label>
+			<label index="impexpcore_singlereco_respectPid">Respect PID</label>
+			<label index="impexpcore_singlereco_exclude">Exclude</label>
+			<label index="impexpcore_singlereco_title">Title:</label>
+			<label index="impexpcore_singlereco_filename">Filename:</label>
+			<label index="impexpcore_singlereco_value">Value:</label>
+			<label index="impexpcore_softrefsel_record">Record:</label>
+			<label index="impexpcore_printerror_description">Description:</label>
+			<label index="execlistqu_structureToBeExported">Structure to be exported:</label>
+			<label index="makeconfig_exportPagetreeConfiguration">Export pagetree configuration:</label>
+			<label index="makeconfig_pageId">Page ID:</label>
+			<label index="makesavefo_t3dFile">T3D file</label>
+			<label index="makesavefo_xml">XML</label>
+			<label index="makesavefo_fileFormat">File format:</label>
+			<label index="importdata_saveToFilename">Save to filename</label>
+			<label index="importdata_file">File:</label>
+			<label index="importdata_preview">Preview</label>
+			<label index="importdata_upload">Upload</label>
+			<label index="impexpcore_softrefsel_exclude">Exclude</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

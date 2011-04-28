@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="UserSettings">Vartotojo nustatymai</label>
+			<label index="language">Kalba</label>
+			<label index="lang_default">Anglų</label>
+			<label index="lang_dk">Danų</label>
+			<label index="lang_de">Vokiečių</label>
+			<label index="lang_no">Novegų</label>
+			<label index="lang_it">Italų</label>
+			<label index="lang_fr">Prancūzų</label>
+			<label index="lang_es">Ispanų</label>
+			<label index="lang_nl">Olandų</label>
+			<label index="lang_cz">Čekų</label>
+			<label index="lang_pl">Lenkų</label>
+			<label index="lang_si">Slovėnų</label>
+			<label index="lang_fi">Suomių</label>
+			<label index="lang_tr">Turkų</label>
+			<label index="lang_se">Švedų</label>
+			<label index="lang_pt">Portugalų</label>
+			<label index="lang_ru">Rusų</label>
+			<label index="lang_ro">Rumunų</label>
+			<label index="lang_ch">Kinų (Paprasta)</label>
+			<label index="lang_sk">Slovakų</label>
+			<label index="lang_lt">Lietuvių</label>
+			<label index="lang_is">Islandų</label>
+			<label index="lang_hr">Kroatų</label>
+			<label index="lang_hu">Vengrų</label>
+			<label index="lang_gl">Grenlandų</label>
+			<label index="lang_th">Tai</label>
+			<label index="lang_gr">Graikų</label>
+			<label index="lang_hk">Kinų (Tradicinė)</label>
+			<label index="lang_eu">Baskų</label>
+			<label index="lang_bg">Bulgarų</label>
+			<label index="lang_br">Brazilų portugalų</label>
+			<label index="lang_et">Estų</label>
+			<label index="lang_ar">Arabų</label>
+			<label index="lang_he">Hebrajų</label>
+			<label index="lang_ua">Ukrainiečių</label>
+			<label index="lang_lv">Latvių</label>
+			<label index="lang_jp">Japonų</label>
+			<label index="lang_vn">Vietnamiečių</label>
+			<label index="lang_ca">Katalonų</label>
+			<label index="lang_ba">Bosnių</label>
+			<label index="lang_kr">Korėjiečių</label>
+			<label index="lang_eo">Esperanto</label>
+			<label index="lang_my">Malaizietiškai</label>
+			<label index="lang_hi">Hindi</label>
+			<label index="lang_fo">Farerų</label>
+			<label index="lang_fa">Persų</label>
+			<label index="lang_sr">Serbų</label>
+			<label index="lang_sq">Albanų</label>
+			<label index="lang_ge">Gruzinų</label>
+			<label index="lang_ga">Galų</label>
+			<label index="default">Numatytoji</label>
+			<label index="simulate">Imituoti backend vartotoją</label>
+			<label index="opening">Startup</label>
+			<label index="personal_data">Asmeniniai duomenys</label>
+			<label index="showThumbs">Rodyti miniatiūras pagal nutylėjimą</label>
+			<label index="condensedMode">Naudoti sutrauktą režimą backend&lt;br /&gt;(mažiems ekranams)</label>
+			<label index="noMenuMode">Pasirinkti navigacijos režimą</label>
+			<label index="noMenuMode_def">Meniu kairiąjame krašte (numatytasis)</label>
+			<label index="noMenuMode_sel">Pasirinktys viršuje</label>
+			<label index="noMenuMode_icons">Ikonos viršuje</label>
+			<label index="startModule">Prisijungimo metu užkrauti moduli</label>
+			<label index="emailMeAtLogin">Pranešti man el. paštu, kai kas nors prisijungia &lt;br /&gt; mano vardu</label>
+			<label index="helpText">Rodyti pagalbą kai tai įmanoma</label>
+			<label index="maxTitleLen">Maks. antraštės ilgis</label>
+			<label index="edit_showFieldHelp">Kontekstinės pagalbos režimas</label>
+			<label index="edit_showFieldHelp_none">Nerodyti pagalbos</label>
+			<label index="edit_showFieldHelp_icon">Rodyti tik pagalbos ikoną</label>
+			<label index="edit_showFieldHelp_message">Rodyti visą tekstą</label>
+			<label index="edit_wideDocument">Platus dokumento fonas</label>
+			<label index="edit_RTE">Įjungti teksto redaktorių (RTE), jei toks yra</label>
+			<label index="edit_docModuleUpload">Bylų užkrovimas tiesiogiai Doc-režime</label>
+			<label index="edit_functions">Redaguoti</label>
+			<label index="disableCMlayers">Išjungti iššokančius kontekstinius meniu</label>
+			<label index="setToStandard">Gražinti visas reikšmes į nustatytas</label>
+			<label index="setToStandardQuestion">Ar jus tikrai norite gražinta visas reikšmes į pradines?</label>
+			<label index="functions">Fukcijos išsamiai</label>
+			<label index="copyLevels">&lt;b&gt;Rekursinis kopijavimas:&lt;/b&gt; Įvesti sublygių skaičių&lt;br /&gt; kuriuo įtraukti kartu su kopijuojamu puslapiu</label>
+			<label index="recursiveDelete">&lt;b&gt;Rekursinis trynimas(!):&lt;/b&gt; Leisti ištrinti VISUS&lt;br /&gt;trinamo puslapio subpuslapius</label>
+			<label index="activateChanges">Dėmesio! Tam kad aktyvuoti didžiąją dalį šių pakeitimų reikia perkrauti backend (t.y. atsijungti ir prisijungti iš naujo)</label>
+			<label index="levels">lygiai</label>
+			<label index="beUser_realName">Jūsų vardas, pavardė</label>
+			<label index="beUser_email">Jūsų el. pašto adresas</label>
+			<label index="save">Išsaugoti konfiguraciją</label>
+			<label index="newPassword">Naujas slaptažodis</label>
+			<label index="newPasswordAgain">Pakartoti naują slaptažodį</label>
+			<label index="newPassword_ok">Slaptažodis pakeistas</label>
+			<label index="newPassword_failed">Slaptažodis NEPAKEISTAS, nes Jūs neįvedėte to paties slaptažodžio du kart.</label>
+			<label index="adminFunctions">Administratoriaus funkcijos</label>
+			<label index="startInTaskCenter">Pradėti modulyje 'Užduočių centras'</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="UserSettings" type="integer">46681867</label>
+			<label index="language" type="integer">77154959</label>
+			<label index="lang_default" type="integer">126116771</label>
+			<label index="lang_dk" type="integer">129789717</label>
+			<label index="lang_de" type="integer">141280017</label>
+			<label index="lang_no" type="integer">228937930</label>
+			<label index="lang_it" type="integer">79597062</label>
+			<label index="lang_fr" type="integer">181544439</label>
+			<label index="lang_es" type="integer">213207052</label>
+			<label index="lang_nl" type="integer">109835111</label>
+			<label index="lang_cz" type="integer">138409032</label>
+			<label index="lang_pl" type="integer">208864137</label>
+			<label index="lang_si" type="integer">115971854</label>
+			<label index="lang_fi" type="integer">162400671</label>
+			<label index="lang_tr" type="integer">202773179</label>
+			<label index="lang_se" type="integer">68252064</label>
+			<label index="lang_pt" type="integer">51262151</label>
+			<label index="lang_ru" type="integer">233547410</label>
+			<label index="lang_ro" type="integer">251294612</label>
+			<label index="lang_ch" type="integer">206546547</label>
+			<label index="lang_sk" type="integer">162319430</label>
+			<label index="lang_lt" type="double">5202008</label>
+			<label index="lang_is" type="integer">80037322</label>
+			<label index="lang_hr" type="double">12697097</label>
+			<label index="lang_hu" type="integer">129523986</label>
+			<label index="lang_gl" type="integer">24211126</label>
+			<label index="lang_th" type="integer">71163000</label>
+			<label index="lang_gr" type="double">11205193</label>
+			<label index="lang_hk" type="integer">31063215</label>
+			<label index="lang_eu" type="integer">176851207</label>
+			<label index="lang_bg" type="integer">101430204</label>
+			<label index="lang_br" type="integer">102669697</label>
+			<label index="lang_et" type="integer">42538748</label>
+			<label index="lang_ar" type="integer">41077944</label>
+			<label index="lang_he" type="integer">208412545</label>
+			<label index="lang_ua" type="integer">242788092</label>
+			<label index="lang_lv" type="integer">124440629</label>
+			<label index="lang_jp" type="integer">254987990</label>
+			<label index="lang_vn" type="integer">129503150</label>
+			<label index="lang_ca" type="integer">151036235</label>
+			<label index="lang_ba" type="integer">165586767</label>
+			<label index="lang_kr" type="integer">218880828</label>
+			<label index="default" type="integer">128029197</label>
+			<label index="simulate" type="integer">213794209</label>
+			<label index="opening" type="integer">20867161</label>
+			<label index="personal_data" type="integer">104270938</label>
+			<label index="showThumbs" type="integer">111890184</label>
+			<label index="condensedMode" type="integer">240508039</label>
+			<label index="noMenuMode" type="integer">20667488</label>
+			<label index="noMenuMode_def" type="integer">125128652</label>
+			<label index="noMenuMode_sel" type="integer">257410868</label>
+			<label index="noMenuMode_icons" type="integer">250425196</label>
+			<label index="startInTaskCenter" type="integer">63015246</label>
+			<label index="emailMeAtLogin" type="integer">242513283</label>
+			<label index="helpText" type="integer">40561585</label>
+			<label index="maxTitleLen" type="integer">197742795</label>
+			<label index="edit_showFieldHelp" type="integer">156260410</label>
+			<label index="edit_showFieldHelp_icon" type="integer">174937206</label>
+			<label index="edit_showFieldHelp_message" type="integer">92057802</label>
+			<label index="edit_wideDocument" type="integer">47472072</label>
+			<label index="edit_RTE" type="integer">16864569</label>
+			<label index="edit_docModuleUpload" type="integer">172878204</label>
+			<label index="edit_functions" type="integer">131916066</label>
+			<label index="disableCMlayers" type="integer">256285755</label>
+			<label index="setToStandard" type="integer">243973144</label>
+			<label index="functions" type="integer">155530193</label>
+			<label index="copyLevels" type="integer">158680187</label>
+			<label index="recursiveDelete" type="integer">241746651</label>
+			<label index="activateChanges" type="integer">247658693</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="beUser_realName" type="integer">35776261</label>
+			<label index="beUser_email" type="integer">26761284</label>
+			<label index="save" type="double">8749289</label>
+			<label index="newPassword" type="integer">55855176</label>
+			<label index="newPasswordAgain" type="double">985181</label>
+			<label index="newPassword_ok" type="integer">249160755</label>
+			<label index="newPassword_failed" type="integer">202693756</label>
+			<label index="lang_eo" type="integer">144185664</label>
+			<label index="lang_my" type="integer">78332405</label>
+			<label index="lang_hi" type="integer">73150833</label>
+			<label index="lang_fa" type="integer">134425620</label>
+			<label index="lang_sr" type="integer">5582876</label>
+			<label index="lang_sq" type="integer">175205226</label>
+			<label index="lang_ge" type="integer">182191955</label>
+			<label index="setToStandardQuestion" type="integer">267387860</label>
+			<label index="adminFunctions" type="integer">190550998</label>
+			<label index="edit_showFieldHelp_none" type="integer">205463933</label>
+			<label index="lang_fo" type="integer">189530758</label>
+			<label index="lang_ga" type="integer">85370403</label>
+			<label index="startModule" type="integer">90182335</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="UserSettings">User Settings</label>
+			<label index="language">Language</label>
+			<label index="lang_default">English</label>
+			<label index="lang_dk">Danish</label>
+			<label index="lang_de">German</label>
+			<label index="lang_no">Norwegian</label>
+			<label index="lang_it">Italian</label>
+			<label index="lang_fr">French</label>
+			<label index="lang_es">Spanish</label>
+			<label index="lang_nl">Dutch</label>
+			<label index="lang_cz">Czech</label>
+			<label index="lang_pl">Polish</label>
+			<label index="lang_si">Slovenian</label>
+			<label index="lang_fi">Finnish</label>
+			<label index="lang_tr">Turkish</label>
+			<label index="lang_se">Swedish</label>
+			<label index="lang_pt">Portuguese</label>
+			<label index="lang_ru">Russian</label>
+			<label index="lang_ro">Romanian</label>
+			<label index="lang_ch">Chinese (Simpl)</label>
+			<label index="lang_sk">Slovak</label>
+			<label index="lang_lt">Lithuanian</label>
+			<label index="lang_is">Icelandic</label>
+			<label index="lang_hr">Croatian</label>
+			<label index="lang_hu">Hungarian</label>
+			<label index="lang_gl">Greenlandic</label>
+			<label index="lang_th">Thai</label>
+			<label index="lang_gr">Greek</label>
+			<label index="lang_hk">Chinese (Trad)</label>
+			<label index="lang_eu">Basque</label>
+			<label index="lang_bg">Bulgarian</label>
+			<label index="lang_br">Brazilian Portuguese</label>
+			<label index="lang_et">Estonian</label>
+			<label index="lang_ar">Arabic</label>
+			<label index="lang_he">Hebrew</label>
+			<label index="lang_ua">Ukrainian</label>
+			<label index="lang_lv">Latvian</label>
+			<label index="lang_jp">Japanese</label>
+			<label index="lang_vn">Vietnamese</label>
+			<label index="lang_ca">Catalan</label>
+			<label index="lang_ba">Bosnian</label>
+			<label index="lang_kr">Korean</label>
+			<label index="lang_eo">Esperanto</label>
+			<label index="lang_my">Bahasa Malaysia</label>
+			<label index="lang_hi">Hindi</label>
+			<label index="default">Default</label>
+			<label index="simulate">Simulate backend user</label>
+			<label index="opening">Startup</label>
+			<label index="personal_data">Personal data</label>
+			<label index="showThumbs">Show Thumbnails by default</label>
+			<label index="condensedMode">Use condensed mode in backend&lt;br /&gt;(for small screens)</label>
+			<label index="noMenuMode">Select navigation mode</label>
+			<label index="noMenuMode_def">Left frame menu (default)</label>
+			<label index="noMenuMode_sel">Selectorbox in top frame</label>
+			<label index="noMenuMode_icons">Icons in top frame</label>
+			<label index="startInTaskCenter">Start up in the module 'Task Center'</label>
+			<label index="emailMeAtLogin">Notify me by email, when somebody logs in &lt;br /&gt;from my account</label>
+			<label index="helpText">Show help text when applicable</label>
+			<label index="maxTitleLen">Max. Title Length</label>
+			<label index="edit_showFieldHelp">Context Sensitive Help mode</label>
+			<label index="edit_showFieldHelp_icon">Display help icon only</label>
+			<label index="edit_showFieldHelp_message">Display full text message</label>
+			<label index="edit_wideDocument">Wide document background</label>
+			<label index="edit_RTE">Enable Rich Text Editor (if available)</label>
+			<label index="edit_docModuleUpload">File upload directly in Doc-module</label>
+			<label index="edit_functions">Edit</label>
+			<label index="disableCMlayers">Disable Popup Context Menus</label>
+			<label index="setToStandard">Reset all Values to default</label>
+			<label index="functions">Advanced functions</label>
+			<label index="copyLevels">&lt;b&gt;Recursive Copy:&lt;/b&gt; Enter the number of page&lt;br /&gt;sublevels to include, when a page is copied</label>
+			<label index="recursiveDelete">&lt;b&gt;Recursive Delete(!):&lt;/b&gt; Allow ALL subpages&lt;br /&gt;to be deleted when deleting a page</label>
+			<label index="activateChanges">Notice! In order to activate most of these changes, please reload the backend (eg. logout and login again).</label>
+			<label index="levels">levels</label>
+			<label index="beUser_realName">Your name</label>
+			<label index="beUser_email">Your email address</label>
+			<label index="save">Save Configuration</label>
+			<label index="newPassword">New password</label>
+			<label index="newPasswordAgain">New password, again</label>
+			<label index="newPassword_ok">Password was updated</label>
+			<label index="newPassword_failed">Password was NOT updated because you didn't enter the same password twice.</label>
+			<label index="lang_fa">Persian</label>
+			<label index="lang_sr">Serbian</label>
+			<label index="lang_sq">Albanian</label>
+			<label index="lang_ge">Georgian</label>
+			<label index="setToStandardQuestion">Are you sure you want to reset all values to default?</label>
+			<label index="adminFunctions">Admin functions</label>
+			<label index="edit_showFieldHelp_none">Display no help information</label>
+			<label index="lang_fo">Faroese</label>
+			<label index="lang_ga">Galician</label>
+			<label index="startModule">Start up in the following module</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

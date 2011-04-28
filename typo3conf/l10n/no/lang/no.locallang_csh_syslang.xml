@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="title.description">Skriv inn navnet på det ekstra systemspråket</label>
+			<label index="hidden.description">Dette valget vil skjule systemspråket slik at det ikke vil være tilgjengelig i Backend.</label>
+			<label index=".description">Definerer hvilke språk som er tilgjengelige som alternative språk for en webside.</label>
+			<label index=".details">Web&gt;Side-modulen har en funksjon som tillater brukere å redigere innhold ikke bare fordelt på kolonner, men også som språkversjoner. Tilgjengelige språk er definert som Språk-elementer i sidetreets rot. For at en webside skal være tilgjengelig i flere språk må et 'alternativt språk'-element opprettes på siden.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="title.description" type="integer">111675524</label>
+			<label index="hidden.description" type="integer">199895530</label>
+			<label index=".description" type="integer">1687697</label>
+			<label index=".details" type="integer">190956227</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="title.description">Enter the name of this additional system language.</label>
+			<label index="hidden.description">This option will hide the system language from being available in the backend.</label>
+			<label index=".description">Defines which languages are alternatively available on each webpage.</label>
+			<label index=".details">The Web&gt;Page module has a feature which allows users to edit page content divided into not only columns but also languages. The languages available for translation are determined by the number of Website Language record created.
+For a webpage to be available in another language an &quot;Alternative Page Language&quot; record must be created on the page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".alttitle">Werkset &gt; Extension Manager (EM)</label>
+			<label index=".description">De Extensie Manager (EM) regelt het importeren, installeren en opwaarderen van extensies in TYPO3.</label>
+			<label index=".details">TYPO3 kan eenvoudig uitgebreid worden met allerlei functionaliteit. De extensie API voorziet TYPO3 van een krachtig raamwerk om zulke extensies toe te voegen, te verwijderen, te installeren of zelfs te ontwikkelen. Dit wordt hoofdzakelijk geregeld door de Extensie Manager (EM) in TYPO3.
+
+De term &quot;Extensie&quot; omvat twee andere termen, namelijk plugin en module.
+
+Een plugin is iets dat een rol speelt in de website zelf en de werking hiervan is vaak zichtbaar voor een bezoeker. Dit kan een forum zijn, een gastenboek of bijvoorbeeld een winkel. Het is normaal gesproken ingesloten in een PHP class en kan bereikt worden middel een USER of USER_INT cObject via TypoScript. Een plugin is een extensie voor het frontend.
+
+Een module is een backendapplicatie die een eigen plaats heeft in het menu. Om deze te kunnen benaderen moet men toegang hebben tot het backend middels een login en werkt in het raamwerk van het backend. Een module kan gebruik maken van andere modules, en zichzelf toevoegen als subonderdeel van een andere module in het menu. Een module is een extensie voor het backend.</label>
+			<label index="loaded.alttitle">Geladen extensies</label>
+			<label index="loaded.description">&quot;Geladen extensies&quot; zijn werkzaam in het systeem. Deze lijst toont de extensies in de volgorde waarin zij geladen zijn. 
+&quot;Verlegen (Shy)&quot; extensies worden ook geladen maar niet getoond omdat zij systeem gerelateerd zijn en niet bewerkt dienen te worden tenzij u weet wat u doet.</label>
+			<label index="loaded.details">De extensies is deze lijst worden getoond in de volgorde waarin zij gevonden worden in $TYPO3_CONF_VARS[EXT][extList].
+Om extensies te de-installeren klikt u op het groene &quot;-&quot; pictogram. Als er geen andere extensies afhankelijk zijn van deze extensie zal het worden verwijderd uit de lijst van geladen extensies.
+Extensies met &quot;Rq&quot; in de lijst van geladen extensies, zijn extensies die vereist (required) zijn. Deze hebben diep gewortelde relaties met het systeem dat het onmogelijk is deze te verwijderen uit de Extensie Manager.</label>
+			<label index="loaded.image_descr">De lijst van geladen extensies in de volgorde waarin zij geladen zijn.</label>
+			<label index="avail.alttitle">Beschikbare extensies.</label>
+			<label index="avail.description">Beschikbare extensies zijn extensies die aanwezig zijn in de extensiemappen. U kunt elke extensie uit deze lijst installeren. Indien geinstalleerd zullen zij vanaf dat moment door TYPO3 geladen worden in het systeem. 
+In deze lijst zijn de extensies met een donkere achtergrond geinstalleerd (geladen) - de andere zijn alleen beschikbaar (niet geladen), klaar om op afroep geinstalleerd te worden.</label>
+			<label index="avail.details">U kunt een extensie installeren door op het grijze &quot;+&quot; pictogram te klikken in deze lijst. Om een extensie te de-installeren klikt u op het groene &quot;-&quot; pictogram.
+Als u op de installerenknop (&quot;+&quot;) klikt zal vaak een dialoogvenster getoond worden waarin u de aanmaak van databasetabellen en velden dient te bevestigen of u gevraagd wordt alle cache leeg te maken. De Extensie Manager handelt deze vereisten zelf af waardoor het erg eenvoudig is nieuwe extensies te installeren.</label>
+			<label index="avail.image_descr">De lijst van beschikbare extensies op de server. Deze lijst wordt samengesteld uit alle extensies die gevonden worden in de &quot;local&quot;, &quot;global&quot; of &quot;system&quot; extensiemappen.
+Door op de installatieknop (&quot;+&quot;) te klikken, kan een vergelijkbaar dialoogvenster aan u getoond worden. In dit geval is een nieuwe databasetabel vereist. De Extensie Manager gaat automatisch na of deze al bestaat en stelt u voor dat u deze laat maken. Het aanmaken van de tabel gebeurt ook automatisch als u de veranderingen accepteert door te klikken op &quot;Make updates&quot;.</label>
+			<label index="import.alttitle">Extensies importeren</label>
+			<label index="import.description">Dit is het proces om extensies over te brengen naar het bestandssysteem van uw server. U kunt deze importeren van de repository via een URL (Meestal van de TER; TYPO3 Extension Repository te vinden op typo3.org) of door deze handmatig te laden middels een &quot;t3x&quot; bestand, gemaakt via de Extensie Manager op een andere server.</label>
+			<label index="import.details">&lt;b&gt;Importeren vanaf de TER&lt;/b&gt;
+Om verbinding te maken met de TER klikt u op de button &quot;Verbinden met de online repository&quot;. Dit zal een verbinding maken met de URL boven de knop, getoond in de tekst, en deze URL zal een lijst met de te downloaden beschikbare extensies terug geven. Als u weet waar u naar zoekt kunt u een zoekwoord ingeven in het &quot;Opzoeken&quot;-veld. In het bijzonder helpt dit om op zoek te gaan naar een specifieke extensiekey. Dit zal veel sneller werken omdat er minder data op en neer hoeft te worden verzonden.
+
+&lt;b&gt;Uploaden van bestand&lt;/b&gt;
+Voor eigen projecten is de uitwisseling tussen twee systemen hiermee eenvoudig, door een &quot;t3x&quot; bestand te gebruiken. In de ene TYPO3 installatie gaat u naar het menu &quot;Backup/Verwijder&quot; van een extensie en download een &quot;Backup&quot; van de extensie. Dit bestandformaat is een serialized PHP array, eventueel gecomprimeerd. Dit bestand kan worden geladen in de Extensie Manager van het andere systeem waar u het wilt importeren.</label>
+			<label index="import.image_descr">Het &quot;Importeren&quot; scherm. Voordat u verbinding maakt met de repository wilt u wellicht eerst uw typo3.org gebruikersnaam en wachtwoord configureren, omdat dit de extra mogelijkheid geeft om &quot;Member&quot; extensies in de TER te gebruiken, indien aanwezig. U kunt ook &quot;Get own/member/selected extensions only&quot; aanvinken om de lijst verder in lengte te limiteren.</label>
+			<label index="import_ter.alttitle">Extensies in de TER</label>
+			<label index="import_ter.description">Extensies uit deze lijst zijn voor onmiddelijke download van de TYPO3 Extension Repository (TER) beschikbaar. Extensies met een donkere achtergrond zijn al op uw server aanwezig - de andere dienen gedownload te worden van de repository voordat u deze kunt gebruiken. 
+Als u een extensie van de repository wilt gebruiken, klikt u op de &quot;import&quot;-knop met de rode pijl links van de extensie.</label>
+			<label index="import_ter.details">&lt;b&gt;Extensies importeren&lt;/b&gt;
+Als een extensie nog niet aanwezig is op uw server ziet u het pictogram met de rode pijl naast de extensie. Door hier eenmaal op te klikken zal de extensie gedownload en uitgepakt worden op uw server. De map waarin deze geladen wordt is te zien als u met uw muisaanwijzer over het pictogram gaat (in de tool=tip tekst).
+
+&lt;b&gt;Extensies bijwerken&lt;/b&gt;
+U kunt ten alle tijde een extensie op uw systeem bijwerken door op het pictogram te klikken met de groene pijlen. Het &quot;bijwerken&quot;-pictogram zal verschijnen als het nummer van de subversie (middelste getal) is opgehoogd. Dit betekent dat extensies met een opwaardering van de dev-versie (derde getal) niet getoond worden als &quot;klaar voor bijwerken&quot;. (Dit is echter wel te configureren in TYPO3!).
+
+&lt;b&gt;Details bekijken van een extensie in de TER&lt;/b&gt;
+U kunt ook op de naam van een extensie klikken om de details te bekijken. Hierin wordt ook de mogelijkheid geboden om meer gedetailleerd de extensie bij te werken door een keuze te maken van het versienummer of de locatie waarin de extensie geplaatst wordt (lokaal/globaal/systeem).
+U kunt hier ook vragen om de meest recente vertalingen te downloaden.</label>
+			<label index="import_ter.image_descr">Lijst van extensies in de TER. Het pictogram met de rode pijl is een link om de extensie te importeren (voor nieuwe extensies), de groene om bij te werken (voor extensies die al aanwezig zijn op uw server). Als de meest recente versie van een extensie op uw server aanwezig is zal er geen pictogram aan de linkerzijde van de extensie staan.
+Als u op de naam van een extensie klikt, zult u de repository om details over de extensie vragen. Dit geeft u ook de mogelijkheid om een specifieke versie te importeren. U kunt ook de locatie aangeven voor de installatie (globaal/lokaal) en aangeven om de meest recente vertalingen samen te voegen tijdens het binnenhalen van de extensie.</label>
+			<label index="info.alttitle">Extensie details</label>
+			<label index="info.description">Toont details van de extensie</label>
+			<label index="info.details">In dit aanzicht zijn sommige van deze details een opsomming van de informatie die gevonden wordt in het &quot;ext_emconf.php&quot;-bestand in de extensie. Het &quot;emconf&quot;-bestand bevat de metadata voor de Extensie Manager.
+
+De Extensie Manager zal een beetje verder gaan en enkele scripts in de extensie analyseren. De resultaten van deze analyse kunnen ook gevonden worden in deze lijst en eventuele gevonden fouten worden getoond. Normaal gesproken zullen deze fouten de werking van deze extensie niet belemmeren, maar zijn meer een verwijzing naar theoretische problemen waar de ontwikkelaar van de extensie rekening mee dient te houden.</label>
+			<label index="info.image_descr">Het detailaanzicht van de extensie toont live statistieken gevonden door middel van een analyse als statische informatie uit het &quot;ext_emconf.php&quot; bestand.</label>
+			<label index="backup_delete.alttitle">Maak een backup van een extensie als bestand</label>
+			<label index="backup_delete.description">Klik op de &quot;Download&quot; link en het downloaden van de extensie begint. Deze bevat een serialized PHP array, een hash en mogelijk gecomprimeerd indien uw server dit ondersteunt. Sla het bestand op met de bestandextensie &quot;t3x&quot;.</label>
+			<label index="backup_delete.image_descr">&quot;Backup&quot; van extensies - ook erg bruikzaam voor de uitwisseling van extensies tussen leden van een werkgroep.</label>
+			<label index="upload.alttitle">Uploaden van een extensie naar de repository (TER)</label>
+			<label index="upload.description">Hier kunt u een extensie uploaden naar de TER. Hiervoor dient u uw TYPO3.org gebruikersnaam en wachtwoord in te voeren in het formulier. Daarnaast heeft iedere extensie een eigen wachtwoord om deze te kunnen uploaden. Deze dient u hier ook in te voeren. Ben er zeker van dat u de eigenaar bent van de extensiekey en dat u deze heeft geregistreerd!</label>
+			<label index="upload.details">&lt;b&gt;Logboek&lt;/b&gt;
+Dit veld biedt de mogelijkheid de veranderingen aan de extensie te vermelden of de reden van de upload. Dit zal getoond worden in de lijst van nieuwe extensies.
+
+&lt;b&gt;Versienummers&lt;/b&gt;
+Kies een methode voor de ophoging van het versienummer. Voor nieuwe &quot;versies&quot; van uw extensie moet u de &quot;sub&quot; of &quot;main&quot; versie kiezen, waardoor uw versie in de lijst van nieuwe extensies getoond zal worden. Voor een onderhoudsupload kiest u voor &quot;dev&quot;.</label>
+			<label index="upload.image_descr">Het uploadformulier voor extensies. De extensie wordt verzonden naar de gekozen repository, meestal TYPO3.org (standaard).</label>
+			<label index="editfiles.alttitle">Scripts bewerken in een extensie</label>
+			<label index="editfiles.description">De Extensie Manager kan gebruikt worden om scripts van extensies te bewerken. Deze eigenschap is meestal voor noodgrepen omdat een webbrowser niet het ideale gereedschap voor programmeerwerk is.</label>
+			<label index="editfiles.details">&lt;b&gt;Opmerking:&lt;/b&gt;
+Voordat u extensiescripts kunt bewerken, dient u de configuratie-optie &quot;TYPO3_CONF_VARS[EXT][noEdit]&quot; in &quot;localconf.php&quot; uit te zetten.</label>
+			<label index="editfiles.image_descr">Enkele bestandstypen - zoals PHP scripts - kunnen bewerkt worden in een tekstvlak binnen de Extensie Manager.</label>
+			<label index="settings.alttitle">Extensie Manager instellingen</label>
+			<label index="settings.description">Voer hier de instellingen in voor de Extensie Manager. Gebruikersnaam en wachtwoord zijn voor de verbinding met de repository (meestal TYPO3.org) en het upload wachtwoord is om uw eigen extensies te uploaden.</label>
+			<label index="settings.details">&lt;b&gt;Opmerking:&lt;/b&gt;
+Deze informatie is niet erg goed beveiligd! Het wordt verzonden en opgeslagen in platte tekst!</label>
+			<label index="settings.image_descr">Instellingen voor de TER verbindingen.</label>
+			<label index="makenew.alttitle">Een snel begin voor nieuwe extensies</label>
+			<label index="makenew.description">De &quot;Kickstarter&quot; is een applicatie die het mogelijk maakt om zeer snel nieuwe extensies op te zetten. Middels een interface kunt u het basis raamwerk aanleggen zodat al het saaie configuratiewerk uit handen genomen wordt en u direct aan de slag kunt aan het programmeerwerk van uw toepassing.</label>
+			<label index="makenew.details">De Kickstarter is een afzonderlijke extensie, &quot;extrep_wizard&quot;. Meer informatie is beschikbaar over deze applicatie.
+
+&lt;b&gt;Opmerking:&lt;/b&gt;
+De Kickstarter is GEEN editor! Wanneer u bent begonnen met een nieuwe extensie kunt u NIET terugkeren en informatie bewerken! Het zal veranderingen die u in de tussentijd gedaan heeft overschrijven!</label>
+			<label index="makenew.image_descr">Als de &quot;Kickstarter&quot; is geactiveerd zal het zichzelf toevoegen aan het menu van de Extensie Manager. Van hieruit is het mogelijk om met een nieuwe extensie te beginnen. Voordat u hieraan begint dient u een extensiekey aan te vragen samen met een naam en omschrijving als basisgegevens. Hierna hoeft u alleen maar te klikken op de &quot;+&quot; pictogrammen om diverse typen functionaliteit toe te voegen. Uiteindelijk klikt u op &quot;Bekijk resultaat&quot; om de extensie naar de server te schrijven.</label>
+			<label index="emconf_shy.alttitle">Verlegen</label>
+			<label index="emconf_shy.description">Als ingesteld zal deze extensie normaalgesproken verborgen zijn in de EM, omdat het een standaardextensie is of iets dat anders niet zo belangrijk is.</label>
+			<label index="emconf_shy.details">Gebruik deze vlag als een extensie van weinig belang is (niet hetzelfde als onbelangrijk - gewoon een extensie die niet vaak gebruikt wordt...)
+Normaalgesproken staat &quot;verlegen&quot; ingesteld voor alle extensies die standaard geladen worden aan de hand van TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Categorie</label>
+			<label index="emconf_category.description">Categorie van deze extensie</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Backendgeoriënteerd, maar geen module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (Als iets een module is of van een module gebruik maakt)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Algemeen frontend georiënteerd, maar geen &quot;echte&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins ingevoegd als een &quot;Invoegen plugin&quot; inhoudselement)
+
+&lt;b&gt;div:&lt;/b&gt; Diverse zaken (Die niet ergens anders ondergebracht kunnen worden)
+
+&lt;b&gt;voorbeeld:&lt;/b&gt; Voorbeeld extensie (Dient als voorbeeld)</label>
+			<label index="emconf_dependencies.alttitle">Afhankelijk van andere extensies?</label>
+			<label index="emconf_dependencies.description">Dit is een lijst van andere extensie waar deze extensie van afhankelijk is. Deze dienen geladen te worden VOOR de extensie zelf.</label>
+			<label index="emconf_dependencies.details">De EM regelt de afhankelijkheid terwijl de extensielijst naar de localconf geschreven wordt.</label>
+			<label index="emconf_conflicts.alttitle">Conflicteerd met andere extensies?</label>
+			<label index="emconf_conflicts.description">Lijst van extensiesleutels van extensies die niet met deze extensie werken (en dus niet geactiveerd kan worden voordat deze andere extensies gedeïnstalleerd zijn)</label>
+			<label index="emconf_suggests.alttitle">Voorgestelde extensies</label>
+			<label index="emconf_suggests.description">Lijst van extensie sleutels die u wellicht samen met deze extensie wilt uitproberen omdat er bepaalde voordelen ontstaan uit de samenwerking van deze extensies.</label>
+			<label index="emconf_priority.alttitle">Gewenste volgorde van laden</label>
+			<label index="emconf_priority.description">Dit zorgt ervoor dat de EM probeert de extensies als allereerste in de lijst zet. Standaard is laatste.</label>
+			<label index="emconf_module.alttitle">Geïncludeerde backendmodules</label>
+			<label index="emconf_module.description">Wanneer submappen van een extensie backendmodules bevatten dan dienen die mapnamen hier getoond te worden.</label>
+			<label index="emconf_module.details">Dit zorgt ervoor dat de EM weet van het bestaan van de module. Dat is belangrijk, omdat de EM het conf.php bestand van de module moet actualiseren om de juiste TYPO3_MOD_PATH constante in te stellen.</label>
+			<label index="emconf_state.alttitle">Ontwikkelingstoestand</label>
+			<label index="emconf_state.description">In welke ontwikkelingstoestand de extensie zich bevindt.</label>
+			<label index="emconf_state.details">&lt;b&gt;alfa&lt;/b&gt;
+Beginstadium van ontwikkeling. Werkt misschien helemaal niet.V
+
+&lt;b&gt;beta&lt;/b&gt;
+In ontwikkeling. Moet gedeeltelijk werken, maar is nog niet af.
+
+&lt;b&gt;stabiel&lt;/b&gt;
+Stabiel en in productie.
+
+&lt;b&gt;experimenteel&lt;/b&gt;
+Niemand weet waar dit naar toe gaat... Misschien gewoon een idee.
+
+&lt;b&gt;test&lt;/b&gt;
+Test extensie voor concepten enz.</label>
+			<label index="emconf_internal.alttitle">Intern ondersteunt in de core</label>
+			<label index="emconf_internal.description">Deze vlag geeft aan dat de corecode zich specifiek bewust is van de aanwezigheid van de extensie.</label>
+			<label index="emconf_internal.details">Deze vlag dient de boodschap over te  brengen dat &quot;deze extensie niet geschreven kan worden zonder enige corebroncodemodificaties&quot;.
+
+Een extensie is niet alleen intern omdat deze gebruik maakt van TYPO3's algemene classes zoals bijvoorbeeld die uit t3lib/. Daadwerkelijke niet-interne extensies worden gekarakteriseerd door het feit dat deze geschreven kunnen worden zonder gebruik te maken van corebroncodewijzigingen, maar alleen afhankelijk zijn van bestaande classes in TYPO3 en/of andere extensies plus eigen scripts in de extensiemap.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Cache leegmaken wanneer geïnstalleerd</label>
+			<label index="emconf_clearCacheOnLoad.description">Wanneer dit ingesteld is dan zal de EM een verzoek doen de cache leeg te maken zodra de extensie geïnstalleerd is.</label>
+			<label index="emconf_modify_tables.alttitle">Gewijzigde bestaande tabellen</label>
+			<label index="emconf_modify_tables.description">Lijst van tabelnamen die alleen gewijzigd - niet aangemaakt - door deze extensie.</label>
+			<label index="emconf_modify_tables.details">Tabellen van de lijst uit het ext_tables.sql bestand van deze extensie.</label>
+			<label index="emconf_private.alttitle">Privé</label>
+			<label index="emconf_private.description">Als dit is aangevinkt, zal deze versie niet getoond worden in de publieke lijst van de online repository.</label>
+			<label index="emconf_private.details">&quot;Privé&quot; uploads vereisen om handmatig een speciale key in te voegen (welke getoond wordt na het beeindigen van een upload). Dit maakt het mogelijk om deze te importeren en details te bekijken.
+Dit is een mooie eigenschap als u intern aan iets werkt waarvan u niet wilt dat anderen inzage hierin hebben.
+U kunt de &quot;Privé&quot; vlag iedere keer dat u de extensie upload aan en uit zetten.</label>
+			<label index="emconf_download_password.alttitle">Download wachtwoord</label>
+			<label index="emconf_download_password.description">Additioneel wachtwoord vereist voor het downloaden van privé extensies.</label>
+			<label index="emconf_download_password.details">Iedereen die de &quot;speciale sleutel&quot; kent, toegewezen aan de privé upload, zal de mogelijkheid hebben om deze te downloaden. Door een wachtwoord voor het importeren op te geven, heb je de mogelijkheid de downloadsleutel weg te geven voor privé uploads en vereisen ook een wachtwoord. Het wachtwoord kan later gewijzigd worden.</label>
+			<label index="emconf_type.alttitle">Installatietype</label>
+			<label index="emconf_type.description">Het type van de installatie</label>
+			<label index="emconf_type.details">De bestanden voor een extensie staan in een map vernoemd door de extensie key. De locatie van deze map kan zijn in typo3conf/ext/, typo3/ext of typo3/sysext. De extensie moet zo geprogrammeerd zijn dat deze automatisch de juiste locatie detecteerd en kan werken van alle drie locaties.
+
+&lt;b&gt;Locale installatie &quot;typo3conf/ext/&quot;:&lt;/b&gt; Dit is de plaats om extensies te installeren die speciaal bedoelt zijn voor een specifieke lokale TYPO3 installatie. De typo3conf/ map is altijd lokaal en bevat de lokale configuratie (bijvoorbeeld localconf.php), lokale modules etc. Als je in deze map een extensie plaatst, zal deze alleen beschikbaar zijn voor deze TYPO3 installatie alleen. Dit is een &quot;per database&quot; manier om extensies te installeren.
+
+&lt;b&gt;Globale installatie &quot;typo3/ext/&quot;:&lt;/b&gt; Plaats hier extensies die bedoeld zijn voor globaal gebruik voor een enkele TYPO3 broncode op de webserver. Deze extensie zal beschikbaar zijn voor elke TYPO3 installatie op de server die dezelfde TYPO3 broncode delen.
+Als u een upgrade doet van de broncode van TYPO3 wilt u wellicht de typo3/ext/ map van de oude installatie kopieren naar de nieuwe en zo de standaardmap overschrijven. Op deze manier zullen alle globale extensies geinstalleerd worden in de nieuwe broncode. Hierna kunt u altijd met TYPO3 de versies opwaarderen indien nodig.
+Dit is een &quot;per server&quot; manier om extensies te installeren.
+
+&lt;b&gt;Systeem installatie &quot;typo3/sysext&quot;:&lt;/b&gt; Hierin zijn alleen de standaard systeem extensies aanwezig welke niet kunnen en mogen worden opgewaardeerd door de Extensie Manager. Zij worden geleverd met de TYPO3 broncode.
+
+&lt;b&gt;Volgorde van laden&lt;/b&gt;
+Lokale extensies hebben de overhand op globale extensies. Dit wil zeggen dat van extensies die in beide mappen aanwezig zijn, typo3conf/ext/ en typo3/ext/, degene geladen wordt in de map typo3conf/ext/. Globale extensies hebben de overhand op systeem extensies. Dit betekent dat extensies geladen worden in de volgorde van lokaal-globaal-systeem.
+Hierdoor kunt u bijvoorbeeld een &quot;stabiele&quot; versie draaien van een extensie in de globale map, welke bedoelt is voor al uw projecten op een server die de broncode deelt, en hiernaast dezelfde extensie in een &quot;experimentele&quot; versie installeren in een lokale map voor testdoeleinden in een testsite. Alleen voor deze site zal de lokale versie van de extensie gebruikt worden.</label>
+			<label index="emconf_doubleInstall.alttitle">Twee of meer keer geinstalleerd?</label>
+			<label index="emconf_doubleInstall.description">Dit laat zien of een extensie is geinstalleerd op meerdere Systeem, Globale of Lokale lokaties.</label>
+			<label index="emconf_doubleInstall.details">Omdat een extensie geinstalleerd kan zijn op drie locaties, Systeem, Globaal en Lokaal, zal dit aangegeven worden als een extensie gevonden is op een andere lokatie dan de huidige. In dat geval dient u rekening te houden met de volgorde van laden en dus welke er daadwerkelijk geladen wordt.</label>
+			<label index="emconf_rootfiles.alttitle">Root bestanden</label>
+			<label index="emconf_rootfiles.description">Een lijst van de bestanden in de extensiemap. Toont geen bestanden in onderliggende mappen.</label>
+			<label index="emconf_dbReq.alttitle">Database vereisten</label>
+			<label index="emconf_dbReq.description">Toont u de vereisten voor de databasetabellen en velden, indien aanwezig.</label>
+			<label index="emconf_dbReq.details">De bestanden ext_tables.sql en ext_tables_static+adt.sql worden gelezen. Aan de hand van deze bestanden wordt bepaald en getoond welke tabellen, velden en statische tabellen vereist zijn voor deze extensie.</label>
+			<label index="emconf_dbStatus.alttitle">Database vereisten status</label>
+			<label index="emconf_dbStatus.description">Toont de huidige status van de vergelijking tussen de database en de extensie-eisen.</label>
+			<label index="emconf_dbStatus.details">Als de extensie geladen is en enkele tabellen of velden zijn niet aanwezig, dan zal een foutmelding getoond worden.</label>
+			<label index="emconf_flags.alttitle">Vlaggen</label>
+			<label index="emconf_flags.description">Een lijst met speciale codes vertelt u iets over de onderdelen van TYPO3 waarvan de extensie gebruik maakt.</label>
+			<label index="emconf_flags.details">Dit is de lijst van vlaggen:
+
+&lt;b&gt;Module:&lt;/b&gt; Een backend/submodule is gevonden om toe te voegen.
+
+&lt;b&gt;Module+:&lt;/b&gt; De extensie voegt zichzelf toe als hoofdonderdeel van het menu of een bestaande backendmodule.
+
+&lt;b&gt;LoadTCA:&lt;/b&gt; De extensie bevat een aanroep naar t3lib_div:loadTCA om een tabel te laden. Potentieel wil dit zeggen dat dit het systeem langzamer maakt, omdat de complete tabelomschrijving voor sommige tabellen wordt ingesloten. Toch zal hier een goede reden voor zijn. Waarschijnlijk zal de extensie de TCA-config proberen te manipuleren voor een bestaande tabel om deze uit te breiden.
+
+&lt;b&gt;TCA:&lt;/b&gt; De extensie bevat de configuratie voor een tabel in $TCA.
+
+&lt;b&gt;Plugin:&lt;/b&gt; De extensie voegt een frontend plugin toe aan de pluginlijst in het contentelement &quot;Plugin invoegen&quot;.
+
+&lt;b&gt;Plugin/ST43:&lt;/b&gt; TypoScriptcode wordt toegevoegd aan het statisch sjabloon &quot;Content (default)&quot; voor de plugin. &quot;Plugin&quot; en &quot;Plugin/ST43&quot; worden vaak naast elkaar gebruikt.
+
+&lt;b&gt;Page-TSconfig:&lt;/b&gt; Standaard Page-TSconfig wordt toegevoegd.
+
+&lt;b&gt;User-TSconfig:&lt;/b&gt; Standaard User-TSconfig wordt toegevoegd.
+
+&lt;b&gt;TS/Setup:&lt;/b&gt; Standaard TypoScript Setup wordt toegevoegd.
+
+&lt;b&gt;TS/Constants:&lt;/b&gt; Standaard TypoScript Constants wordt toegevoegd.</label>
+			<label index="emconf_conf.description">Toont of de extensie een template bezit voor verdere configuratie.</label>
+			<label index="emconf_TSfiles.alttitle">Statische TypoScript bestanden</label>
+			<label index="emconf_TSfiles.description">Toont de aanwezige TypoScript statische bestanden.</label>
+			<label index="emconf_TSfiles.details">Als de bestanden ext_typoscript_contants.txt en/of ext_typoscript_setup.txt worden gevonden in de extensiemap, zullen deze opgenomen worden in de hierarchie van alle TypoScript templates in TYPO3, achter de rest van de statische templates.</label>
+			<label index="emconf_locallang.alttitle">locallang bestanden</label>
+			<label index="emconf_locallang.description">Toont de beschikbare &quot;locallang.php&quot; bestanden in de bestandsmap van deze extensie. Deze bestanden worden meestal gebruikt om de array $LOCAL_LANG te vullen met labels voor de applicatie in de systeemtalen.</label>
+			<label index="emconf_moduleNames.alttitle">Namen van backendmodules</label>
+			<label index="emconf_moduleNames.description">Toont de gevonden modulenamen in deze extensie.</label>
+			<label index="emconf_classNames.alttitle">PHP Class namen</label>
+			<label index="emconf_classNames.description">Toont de gevonden PHP-classes in .php en .inc bestanden.</label>
+			<label index="emconf_errors.alttitle">Fouten</label>
+			<label index="emconf_errors.description">Toont eventuele fouten in deze extensie.</label>
+			<label index="emconf_NSerrors.alttitle">Namespace fouten</label>
+			<label index="emconf_NSerrors.description">Benamingen van extensies zijn gebonden aan bepaalde vereisten. Hier worden eventuele overtredingen op deze vereisten getoond.</label>
+			<label index="emconf_NSerrors.details">Vereisten met betrekking op naamgevingen van extensies zijn opgenomen in het document &quot;Inside TYPO3&quot;. Om de naamgeving zo simpel mogelijk te houden dient u underscores te vermijden in de extensienamen.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".alttitle" type="integer">217593800</label>
+			<label index=".description" type="integer">212219576</label>
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index="emconf_shy.description" type="integer">196807582</label>
+			<label index="emconf_shy.details" type="integer">15892463</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_category.details" type="integer">78942816</label>
+			<label index="emconf_dependencies.alttitle" type="integer">6158334</label>
+			<label index="emconf_dependencies.description" type="integer">262753637</label>
+			<label index="emconf_dependencies.details" type="integer">209360491</label>
+			<label index="emconf_conflicts.alttitle" type="integer">174778315</label>
+			<label index="emconf_conflicts.description" type="integer">14159431</label>
+			<label index="emconf_priority.alttitle" type="integer">208790249</label>
+			<label index="emconf_priority.description" type="integer">261230598</label>
+			<label index="emconf_module.alttitle" type="integer">222311525</label>
+			<label index="emconf_module.description" type="integer">131352939</label>
+			<label index="emconf_module.details" type="integer">16797237</label>
+			<label index="emconf_state.alttitle" type="integer">8968835</label>
+			<label index="emconf_state.description" type="integer">48322308</label>
+			<label index="emconf_state.details" type="integer">80752734</label>
+			<label index="emconf_internal.alttitle" type="integer">252258090</label>
+			<label index="emconf_internal.description" type="integer">130243565</label>
+			<label index="emconf_internal.details" type="integer">150689078</label>
+			<label index="emconf_clearCacheOnLoad.alttitle" type="integer">26668595</label>
+			<label index="emconf_clearCacheOnLoad.description" type="integer">149991239</label>
+			<label index="emconf_modify_tables.alttitle" type="integer">211801845</label>
+			<label index="emconf_modify_tables.description" type="integer">225814359</label>
+			<label index="emconf_modify_tables.details" type="integer">250561664</label>
+			<label index="emconf_moduleNames.alttitle" type="integer">70637876</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+			<label index="emconf_NSerrors.alttitle" type="integer">190879862</label>
+			<label index=".details" type="integer">130449459</label>
+			<label index="loaded.alttitle" type="integer">240199548</label>
+			<label index="loaded.description" type="integer">171468961</label>
+			<label index="loaded.details" type="integer">96891976</label>
+			<label index="loaded.image_descr" type="integer">182084221</label>
+			<label index="avail.alttitle" type="integer">251693128</label>
+			<label index="avail.description" type="double">2924649</label>
+			<label index="avail.details" type="integer">199115825</label>
+			<label index="avail.image_descr" type="integer">37993915</label>
+			<label index="import.alttitle" type="integer">65383042</label>
+			<label index="import.description" type="integer">195708810</label>
+			<label index="emconf_locallang.alttitle" type="integer">182381040</label>
+			<label index="emconf_locallang.description" type="integer">112585123</label>
+			<label index="emconf_moduleNames.description" type="integer">24342148</label>
+			<label index="emconf_classNames.alttitle" type="integer">155053783</label>
+			<label index="emconf_classNames.description" type="integer">83027952</label>
+			<label index="emconf_errors.description" type="integer">57596160</label>
+			<label index="emconf_NSerrors.description" type="integer">168628900</label>
+			<label index="emconf_NSerrors.details" type="integer">76599956</label>
+			<label index="import.details" type="integer">229384067</label>
+			<label index="import.image_descr" type="integer">82735007</label>
+			<label index="import_ter.alttitle" type="integer">137151967</label>
+			<label index="emconf_conf.description" type="integer">49196456</label>
+			<label index="emconf_TSfiles.alttitle" type="integer">43118947</label>
+			<label index="emconf_TSfiles.description" type="integer">196469558</label>
+			<label index="emconf_TSfiles.details" type="integer">103067229</label>
+			<label index="import_ter.description" type="integer">241131724</label>
+			<label index="import_ter.details" type="integer">69101028</label>
+			<label index="import_ter.image_descr" type="integer">118689817</label>
+			<label index="info.alttitle" type="integer">195885354</label>
+			<label index="info.description" type="integer">59055841</label>
+			<label index="info.details" type="integer">181502990</label>
+			<label index="info.image_descr" type="integer">228782153</label>
+			<label index="backup_delete.alttitle" type="integer">213063528</label>
+			<label index="backup_delete.description" type="integer">229640855</label>
+			<label index="backup_delete.image_descr" type="integer">167423664</label>
+			<label index="upload.alttitle" type="integer">217213386</label>
+			<label index="upload.description" type="integer">174044654</label>
+			<label index="upload.details" type="integer">168581871</label>
+			<label index="upload.image_descr" type="integer">202956590</label>
+			<label index="editfiles.alttitle" type="integer">167010666</label>
+			<label index="editfiles.description" type="integer">223875344</label>
+			<label index="editfiles.details" type="integer">178826894</label>
+			<label index="editfiles.image_descr" type="integer">145835212</label>
+			<label index="settings.alttitle" type="integer">49620262</label>
+			<label index="settings.description" type="integer">93469888</label>
+			<label index="settings.details" type="integer">33394605</label>
+			<label index="settings.image_descr" type="integer">81559812</label>
+			<label index="makenew.alttitle" type="integer">71667781</label>
+			<label index="makenew.description" type="integer">137817259</label>
+			<label index="makenew.details" type="integer">255978736</label>
+			<label index="makenew.image_descr" type="integer">81871110</label>
+			<label index="emconf_private.alttitle" type="integer">75468930</label>
+			<label index="emconf_private.description" type="double">8590515</label>
+			<label index="emconf_private.details" type="integer">183041250</label>
+			<label index="emconf_download_password.alttitle" type="integer">102196861</label>
+			<label index="emconf_download_password.description" type="integer">120757501</label>
+			<label index="emconf_download_password.details" type="integer">92160698</label>
+			<label index="emconf_type.alttitle" type="integer">121209022</label>
+			<label index="emconf_type.description" type="integer">113056504</label>
+			<label index="emconf_type.details" type="integer">153278607</label>
+			<label index="emconf_doubleInstall.alttitle" type="integer">262159324</label>
+			<label index="emconf_doubleInstall.description" type="integer">60133779</label>
+			<label index="emconf_doubleInstall.details" type="integer">201896892</label>
+			<label index="emconf_rootfiles.alttitle" type="integer">234183730</label>
+			<label index="emconf_rootfiles.description" type="integer">157844662</label>
+			<label index="emconf_dbReq.alttitle" type="integer">28332369</label>
+			<label index="emconf_dbReq.description" type="integer">93463627</label>
+			<label index="emconf_dbReq.details" type="integer">199359275</label>
+			<label index="emconf_dbStatus.alttitle" type="integer">204171626</label>
+			<label index="emconf_dbStatus.description" type="integer">166393559</label>
+			<label index="emconf_dbStatus.details" type="integer">198198907</label>
+			<label index="emconf_flags.alttitle" type="integer">82475009</label>
+			<label index="emconf_flags.description" type="integer">42715313</label>
+			<label index="emconf_flags.details" type="integer">209778452</label>
+			<label index="emconf_suggests.alttitle" type="integer">220347711</label>
+			<label index="emconf_suggests.description" type="integer">31378954</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".alttitle">Tools &gt; Extension Manager (EM)</label>
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_shy.description">If set, the extension will normally be hidden in the EM because it might be a default extension or otherwise something which is not so important.</label>
+			<label index="emconf_shy.details">Use this flag if an extension is of &quot;rare interest&quot; (which is not the same as un-important - just an extension not sought for very often...)
+It does not affect whether or not it's enabled. Only display in EM.
+Normally &quot;shy&quot; is set for all extensions loaded by default according to TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Generally backend oriented, but not a module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (When something is a module or connects with one)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Generally frontend oriented, but not a &quot;true&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins inserted as a &quot;Insert Plugin&quot; content element)
+
+&lt;b&gt;misc:&lt;/b&gt; Miscellaneous stuff (Where not easily placed elsewhere)
+
+&lt;b&gt;services:&lt;/b&gt; Contains TYPO3 services.
+
+&lt;b&gt;templates:&lt;/b&gt; Contains website templates
+
+&lt;b&gt;doc:&lt;/b&gt; Documentation (Eg. tutorials, FAQ's etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Example extension (Which serves as examples etc.)</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_dependencies.description">This is a list of other extension keys which this extension depends on being loaded BEFORE it self.</label>
+			<label index="emconf_dependencies.details">The EM will manage that dependency while writing the extension list  to localconf.php. You cannot install an extension unless its dependencies has been installed already.</label>
+			<label index="emconf_conflicts.alttitle">Conflicts with other extensions?</label>
+			<label index="emconf_conflicts.description">List of extension keys of extensions with which this extension does not work (and so cannot be enabled before those other extensions are un-installed)</label>
+			<label index="emconf_priority.alttitle">Requested Loading priority</label>
+			<label index="emconf_priority.description">This tells the EM to try to put the extensions as the very first in the list. Default is last.</label>
+			<label index="emconf_module.alttitle">Backend modules included</label>
+			<label index="emconf_module.description">If any subfolders to an extension contains backend modules, those foldernames should be listed here.</label>
+			<label index="emconf_module.details">It allows the EM to know about the existence of the module, which is important because the EM has to update the conf.php file of the module in order to set the correct TYPO3_MOD_PATH  constant.</label>
+			<label index="emconf_state.alttitle">Development state</label>
+			<label index="emconf_state.description">Which development state the extension is in.</label>
+			<label index="emconf_state.details">&lt;b&gt;alpha&lt;/b&gt;
+Very initial development. May do nothing at all.
+
+&lt;b&gt;beta&lt;/b&gt;
+Under current development. Should work partly but is not finished yet.
+
+&lt;b&gt;stable&lt;/b&gt;
+Stable and used in production.
+
+&lt;b&gt;experimental&lt;/b&gt;
+Nobody knows if this is going anywhere yet... Maybe still just an idea.
+
+&lt;b&gt;test&lt;/b&gt;
+Test extension, demonstrates concepts etc.</label>
+			<label index="emconf_internal.alttitle">Internally supported in core</label>
+			<label index="emconf_internal.description">This flag indicates that the core source code is specifically aware of the extension.</label>
+			<label index="emconf_internal.details">In other words this flag should convey the message that &quot;this extension could not be written without some core source code modifications&quot;.
+
+An extension is not internal just because it uses TYPO3 general classes eg. those from t3lib/.
+True non-internal extensions are characterized by the fact that they could be written without making core source code changes, but relies only on existing classes  in TYPO3 and/or other extensions, plus its own scripts in the extension folder.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Clear cache when installed</label>
+			<label index="emconf_clearCacheOnLoad.description">If set, the EM will request the cache to be cleared when this extension is installed.</label>
+			<label index="emconf_modify_tables.alttitle">Existing tables modified</label>
+			<label index="emconf_modify_tables.description">List of tablenames which are only modified - not fully created - by this extension.</label>
+			<label index="emconf_modify_tables.details">Tables from this list found in the ext_tables.sql file of the extension</label>
+			<label index="emconf_moduleNames.alttitle">Backend Module names</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+			<label index="emconf_NSerrors.alttitle">Namespace errors</label>
+			<label index=".details">TYPO3 can be extended in nearly any direction without loosing backwards compatibility. The Extension API provides a powerful framework for easily adding, removing, installing and developing such extensions to TYPO3. This is in particular powered by the Extension Manager (EM) inside TYPO3.
+
+&quot;Extensions&quot; is a term in TYPO3 which covers two other terms, plugins and modules.
+
+A plugin is something that plays a role on the website itself. For example a board, guestbook, shop etc. It is normally enclosed in a PHP class and invoked through a USER or USER_INT cObject from TypoScript. A plugin is an extension in the frontend.
+
+A module is a backend application which has it's own position in the administration menu. It requires backend login and works inside the framework of the backend. We might also call something a module if it exploits any connectivity of an existing module, that is if it simply adds itself to the function menu of existing modules. A module is an extension in the backend.</label>
+			<label index="loaded.alttitle">Loaded Extensions</label>
+			<label index="loaded.description">&quot;Loaded extensions&quot; are currently running on the system. This list shows you which extensions are loaded and in which order.
+&quot;Shy&quot; extensions are also loaded but &quot;hidden&quot; in this list because they are system related and generally you should just leave them alone unless you know what you are doing.</label>
+			<label index="loaded.details">The extensions in this list are shown in the order they are found in $TYPO3_CONF_VARS[EXT][extList].
+To de-install an extension you simply click the green &quot;-&quot; icon. If there are no dependencies requiring the extension it will be removed from the list of installed extensions.
+The &quot;Rq&quot; extensions in the loaded extensions list are &quot;required extensions&quot;. These are related so deeply to the system that you cannot disable them from the Extension Manager.</label>
+			<label index="loaded.image_descr">The list of loaded extensions shown in the loading order.</label>
+			<label index="avail.alttitle">Available Extensions</label>
+			<label index="avail.description">Available extensions are extensions which are present in the extension folders. You can install any of the available extensions in this list. When you install an extension it will be loaded by TYPO3 from that moment.
+In this list the extensions with dark background are installed (loaded) - the others just available (not loaded), ready to be installed on your request.</label>
+			<label index="avail.details">You can install an extension by clicking the gray &quot;+&quot; icon in this list. If you want to de-install an extension you click the green &quot;-&quot; icon.
+When you click the install button (&quot;+&quot;) you will most often end in a dialog where you have to confirm the creation of database tables and fields or maybe you will be asked to &quot;clear all cache&quot;. The Extension Manager automatically handles these requirements for you which makes it extremely easy to install new extensions.</label>
+			<label index="avail.image_descr">The list of available extension on the server. The list is compiled from extensions found in the &quot;local&quot;, &quot;global&quot; and &quot;system&quot; extension folders.
+If you click the install icon (&quot;+&quot;) of an extension you might end in a dialog like this. In this case a new database table is required. The Extension Manager will automatically detect that it does not exist yet and suggest that you create it. The creation automatically takes place as well, simply by accepting the changes when pressing &quot;Make updates&quot;.</label>
+			<label index="import.alttitle">Importing Extensions</label>
+			<label index="import.description">This is the process of bringing the files of an extension to the servers filesystem. You can do this either by importing from a repository at a URL (usually from TER; TYPO3 Extension Repository at typo3.org) or by uploading a &quot;t3x&quot; file which someone else created from the Extension Manager on another server.</label>
+			<label index="emconf_locallang.alttitle">locallang-files</label>
+			<label index="emconf_locallang.description">Shows which files named &quot;locallang.php&quot; are present in the extension folder (recursive search). Such files are usually used to present an array $LOCAL_LANG with labels for the application in the system languages.</label>
+			<label index="emconf_moduleNames.description">Shows which module names were found inside the extension.</label>
+			<label index="emconf_classNames.alttitle">PHP Class names</label>
+			<label index="emconf_classNames.description">Shows which PHP-classes were found in .php and .inc files.</label>
+			<label index="emconf_errors.description">Displays if any errors with the extension were discovered.</label>
+			<label index="emconf_NSerrors.description">Certain naming convensions apply to extensions. This displays any violations found.</label>
+			<label index="emconf_NSerrors.details">The naming convensions are defined in the &quot;Inside TYPO3&quot; document. To make naming as simple as possible, try to avoid underscores in your extension keys.</label>
+			<label index="import.details">&lt;b&gt;Import from TER&lt;/b&gt;
+To connect to the TER you simply click the button &quot;Connect to online repository&quot;. This will request the URL shown in the text above the button and the URL should return a list of available extension you can import.
+If you know what you are looking for then enter a search word in the look-up box. In particular this helps you to look up a specific extension key. The connection to TER will be much faster if you use this since less data is sent over the wire!
+
+&lt;b&gt;Upload from file&lt;/b&gt;
+For private projects the exchange of extensions is easily done by sending &quot;t3x&quot; files from system to system. In one TYPO3 installation you simply go to the menu &quot;Backup/Delete&quot; of an extension and download a &quot;Backup&quot; of the extension. The fileformat is a serialized PHP array, compressed if possible. This file can then be uploaded in the Extension Manager of another TYPO3 system where you want to import it.</label>
+			<label index="import.image_descr">The &quot;Import&quot; screen. Before you connect to the online repository you might like to configure typo3.org username and password since that will be used to also select &quot;Member&quot; extensions in TER, if any. You can also enable &quot;Get own/member/selected extensions only&quot; if you want to limit the list further.</label>
+			<label index="import_ter.alttitle">Extensions in TER</label>
+			<label index="emconf_conf.description">Shows if the extension has a template for further lowlevel configuration.</label>
+			<label index="emconf_TSfiles.alttitle">Static TypoScript files</label>
+			<label index="emconf_TSfiles.description">Shows which TypoScript static files may be present</label>
+			<label index="emconf_TSfiles.details">If the files ext_typoscript_constants.txt and/or ext_typoscript_setup.txt is found in the extension folder they are included in the hierarchy of all TypoScript templates in TYPO3 right after the inclusion of other static templates.</label>
+			<label index="import_ter.description">Extensions in this list are online for immediate download from the TYPO3 Extension Repository (TER).
+Extensions with dark background are those already on your server - the others must be imported from the repository to your server before you can use them.
+If you want to use an extension from the repository, you should simply click the &quot;import&quot; button with the red arrow left to the extension.</label>
+			<label index="import_ter.details">&lt;b&gt;Import Extensions&lt;/b&gt;
+If an extension does not yet exist on your server you will see the icon with the red arrow next to that extension. A single click and the extension will be downloaded and the files extracted on your server. The download directory is seen if you move the mouse over the icon (in the tool-tip text).
+
+&lt;b&gt;Update Extensions&lt;/b&gt;
+You can update extensions that are always on your system by clicking the icon with the green arrows. The update icon will appear if the &quot;minor&quot; version number (middle digit) has been incremented. This means that extensions updated on the dev-version number (the third digit) will not be shown as &quot;ready for update&quot;. (You can configure TYPO3 to do that though!).
+
+&lt;b&gt;Seeing details about an extension in TER&lt;/b&gt;
+You can also click the title of an extension to see details about it. That will also allow you to perform a more detailed update operation where you can select version number and download location (local/global/system).
+You can also ask to have the most recent translations downloaded.</label>
+			<label index="import_ter.image_descr">List of extensions from TER. The red arrow icon is the &quot;Import&quot; link (for new extensions), the green arrow icon is the &quot;Update&quot; link (for an extension that is already on your server). If an extension is already available in the most recent version you will not see any icon at all to the left of the extension.
+If you clicked the title of an extension you will request the repository for details about the extension. This also allows you to select a specific version for import. You can also select the install location (global/local) and you can request to have the most recent translations merged into the extension upon retrieval.</label>
+			<label index="info.alttitle">Extension Details</label>
+			<label index="info.description">Shows details about the extension.</label>
+			<label index="info.details">In this view some of the details are simply a display of the information from the &quot;ext_emconf.php&quot; file in the extension. The &quot;emconf&quot; file contains meta data for the Extension Manager.
+
+The Extension Manager will also go a bit further and perform some analysis of the scripts in the extension. The list will include the findings of this analysis and if any errors were found they will be displayed. Usually these errors will not prevent the extension from working but more likely point out some theoretical problems that the extension developer should address.</label>
+			<label index="info.image_descr">The details view of an extension displays live statistics from analysis as well as static data from the &quot;ext_emconf.php&quot; file.</label>
+			<label index="backup_delete.alttitle">Backup Extension as a file</label>
+			<label index="backup_delete.description">Click the &quot;Download&quot; link here and you will download the extension as a file containing a serialized PHP array, a hash and everything possibly compressed if the server supports it. Save the file with a filename ending on &quot;t3x&quot;.</label>
+			<label index="backup_delete.image_descr">&quot;Backup&quot; of extensions - also very useful for exchange of extensions between members of a workgroup.</label>
+			<label index="upload.alttitle">Upload an Extension to the repository (TER)</label>
+			<label index="upload.description">Here you can upload an extension to TER. In order to do so you must enter your TYPO3.org username and password in the form. In addition each extension has an upload password you need to add as well. You should also make sure you registered / own the extension key!</label>
+			<label index="upload.details">&lt;b&gt;Changelog&lt;/b&gt;
+In the changelog field you enter the changes made or the reason for the upload. This will be displayed in the list of new extensions.
+
+&lt;b&gt;Version numbers&lt;/b&gt;
+Select a method for incrementation of the version number. For new &quot;versions&quot; of your extension you should select &quot;sub&quot; or &quot;main&quot; which will display your extension in the list of new extensions. For maintenance uploads you select &quot;dev&quot;.</label>
+			<label index="upload.image_descr">The upload form for extensions. The extension is submitted to the selected repository, usually TYPO3.org (default).</label>
+			<label index="editfiles.alttitle">Editing scripts in an extension</label>
+			<label index="editfiles.description">The Extension Manager can be used for editing scripts in extensions. This feature is mostly for emergencies since a webbrowser is not the ideal tool for programming.</label>
+			<label index="editfiles.details">&lt;b&gt;Notice:&lt;/b&gt;
+Before editing of extension scripts can be performed you have to disable the configuration option &quot;TYPO3_CONF_VARS[EXT][noEdit]&quot; in &quot;localconf.php&quot;.</label>
+			<label index="editfiles.image_descr">Some file types - like PHP scripts - can be edited by a textarea field inside the Extension Manager.</label>
+			<label index="settings.alttitle">Extension Manager Settings</label>
+			<label index="settings.description">Enter settings for the Extension Manager. The username and password is for connections to the repository (usually TYPO3.org) and the upload password is that you would normally use for upload of your extensions.</label>
+			<label index="settings.details">&lt;b&gt;Notice:&lt;/b&gt;
+This information is not very well protected! It is send and stored in clear-text!</label>
+			<label index="settings.image_descr">Settings for TER connections.</label>
+			<label index="makenew.alttitle">Kickstarting new extensions</label>
+			<label index="makenew.description">The &quot;Kickstarter&quot; is an application which allows you to start up new extension work very quickly. Through an interface you can create a basic framework for your extension where all the boring stuff is configured from the beginning and you can concentrate directly on coding your application.</label>
+			<label index="makenew.details">The Extension Repository Kickstarter is a separate extension, &quot;extrep_wizard&quot;. Please see more information about the kickstarter otherwise.
+
+&lt;b&gt;Notice:&lt;/b&gt;
+The Kickstarter is NOT an editor! When a new extension is started you cannot - as a rule of thumb - go back an edit it with the kickstarter! It will just overwrite any custom changes you did in the meantime!</label>
+			<label index="makenew.image_descr">When the &quot;Extension Repository Kickstarter&quot; is enabled it adds itself in the menu of the Extension Manager. From here you will be able to start your new extensions. Before you do so you should register an extension key and enter a title and description as base data. From that point it is just clicking the &quot;+&quot; icons to add the various types of functionality you want. Finally you click &quot;View result&quot; to write the extension to the server.</label>
+			<label index="emconf_private.alttitle">Private</label>
+			<label index="emconf_private.description">If set, this version is not shown in the public list in the online repository.</label>
+			<label index="emconf_private.details">&quot;Private&quot; uploads requires you to manually enter a special key (which will be shown to you after an upload has been completed) to be able to import and view details for the uploaded extension.
+This is nice when you are working on something internally which you do not want others to look at.
+You can set and clear the private flag every time you upload your extension.</label>
+			<label index="emconf_download_password.alttitle">Download password</label>
+			<label index="emconf_download_password.description">Additional password required for download of private extensions.</label>
+			<label index="emconf_download_password.details">Anybody who knows the &quot;special key&quot; assigned to the private upload will be able to import it. Specifying an import password allows you to give away the download key for private uploads and also require a password given in addition. The password can be changed later on.</label>
+			<label index="emconf_type.alttitle">Installation type</label>
+			<label index="emconf_type.description">The type of the installation</label>
+			<label index="emconf_type.details">The files for an extension are located in a folder named by the extension key. The location of this folder can be either inside typo3conf/ext/,  typo3/ext/ or typo3/sysext/. The extension must be programmed so that it automatically detects where it is located and can work from all three locations.
+
+&lt;b&gt;Local location &quot;typo3conf/ext/&quot;:&lt;/b&gt; This is where to put extensions which are local for a particular TYPO3 installation. The typo3conf/ directory is always local, containing local configuration (eg. localconf.php), local modules etc. If you put an extension here it will be available for this TYPO3 installation only. This is a &quot;per-database&quot; way to install an extension.
+
+&lt;b&gt;Global location &quot;typo3/ext/&quot;:&lt;/b&gt; This is where to put extensions which are global for the TYPO3 source code on the web server. These extensions will be available for any TYPO3 installation sharing the source code.
+When you upgrade your TYPO3 source code you probably want to copy the typo3/ext/ directory from the former source to the new source, overriding the default directory. In this way all global extension you use will be installed inside the new sourcecode. After that you can always enter TYPO3 and upgrade the versions if needed.
+This is a &quot;per-server&quot; way to install an extension.
+
+&lt;b&gt;System location &quot;typo3/sysext/&quot;:&lt;/b&gt; This is system default extensions which cannot and should not be updated by the EM. They are distributed with the TYPO3 core.
+
+
+&lt;b&gt;Loading precedence&lt;/b&gt;
+Local extensions take precedence which means that if an extension exists both in typo3conf/ext/ and typo3/ext/ the one in typo3conf/ext/ is loaded. Likewise global extension takes predence over system extensions. This means that extensions are loaded in the order of priority local-global-system.
+In effect you can therefore have, say, a &quot;stable&quot; version of an extension installed in the global dir (typo3/ext/) which is used by all your projects on a server sharing source code, but on a single experimental project you can import the same extension in a newer &quot;experimental&quot; version and for that particular project the locally available extension will be used instead.</label>
+			<label index="emconf_doubleInstall.alttitle">Installed twice or more?</label>
+			<label index="emconf_doubleInstall.description">Tells you if the extensions is installed in more than one of the System, Global or Local locations.</label>
+			<label index="emconf_doubleInstall.details">Because an extension can reside at three locations, System, Global and Local, this indicates if the extension is found in other locations than the current. In that case you should be aware which one of the extensions is loaded!</label>
+			<label index="emconf_rootfiles.alttitle">Root files</label>
+			<label index="emconf_rootfiles.description">List of the files in the extension folder. Does not list files in subfolders.</label>
+			<label index="emconf_dbReq.alttitle">Database requirements</label>
+			<label index="emconf_dbReq.description">Shows you the requirements to the database tables and fields, if any.</label>
+			<label index="emconf_dbReq.details">This will read from the files ext_tables.sql and ext_tables_static+adt.sql and show you which tables, fields and static tables are required with this extension.</label>
+			<label index="emconf_dbStatus.alttitle">Database requirements status</label>
+			<label index="emconf_dbStatus.description">Displays the current status of the database compared to the extension requirements.</label>
+			<label index="emconf_dbStatus.details">If the extension is loaded which will display and error message if some tables or fields are not present in the database as they should be!</label>
+			<label index="emconf_flags.alttitle">Flags</label>
+			<label index="emconf_flags.description">A list of special codes which tells you something about what parts of TYPO3 the extension touches.</label>
+			<label index="emconf_flags.details">This is a list of the flags:
+
+&lt;b&gt;Module:&lt;/b&gt; A true backend main/sub module is found to be added.
+
+&lt;b&gt;Module+:&lt;/b&gt; The extension adds itself to the function menu of an existing backend module.
+
+&lt;b&gt;loadTCA:&lt;/b&gt; The extension includes a function call to t3lib_div::loadTCA for loading a table. This potentially means that the system is slowed down, because the full table description of some table is always included. However there probably is a good reason for this to happen. Probably the extension tries to manipulate the TCA-config for an existing table in order to extend it.
+
+&lt;b&gt;TCA:&lt;/b&gt; The extension contains configuration of a table in $TCA.
+
+&lt;b&gt;Plugin:&lt;/b&gt; The extension adds a frontend plugin to the plugin list in Content Element type &quot;Insert Plugin&quot;.
+
+&lt;b&gt;Plugin/ST43:&lt;/b&gt; TypoScript rendering code for the plugin is added to the static template &quot;Content (default)&quot;. &quot;Plugin&quot; and &quot;Plugin/ST43&quot; are commonly used together.
+
+&lt;b&gt;Page-TSconfig:&lt;/b&gt; Default Page-TSconfig is added.
+
+&lt;b&gt;User-TSconfig:&lt;/b&gt; Default User-TSconfig is added.
+
+&lt;b&gt;TS/Setup:&lt;/b&gt; Default TypoScript Setup is added.
+
+&lt;b&gt;TS/Constants:&lt;/b&gt; Default TypoScript Constants is added.</label>
+			<label index="emconf_suggests.alttitle">Suggested extensions</label>
+			<label index="emconf_suggests.description">List of extension keys of extensions which you may want to try in conjunction with this extension because they bring added benefits when working together.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

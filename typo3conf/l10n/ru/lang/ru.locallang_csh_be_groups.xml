@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index=".description">Группы внутренних пользователей, доступные для пользователей бэкенда. Членство в группах определяет права пользователей бэкенда.</label>
+			<label index="title.description">Название группы пользвателей</label>
+			<label index="db_mountpoints.description">Выбрать исходную точку для дерева страниц, видимого пользователями.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

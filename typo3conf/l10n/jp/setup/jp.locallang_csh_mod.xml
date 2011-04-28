@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index=".alttitle">ユーザ&gt;セットアップモジュール</label>
+			<label index=".description">セットアップモジュールでは、バックエンドユーザがバックエンドで使用する言語やインターフェース機能など、ログインセッションをカスタマイズできます。</label>
+			<label index=".details">&lt;b&gt;注意 [管理者向け]&lt;/b&gt;この設定は&quot;User TSconfig&quot;でオーバーライドもしくはデフォルトの値を設定できます。くわしくは次のリンク先を参照してください。</label>
+			<label index=".image_descr">セットアップモジュールは左のメニューに表示されます。セットアップモジュールのインターフェースには、設定可能なオプションのリストが表示されます。</label>
+			<label index="language.alttitle">バックエンドで使用する言語の指定</label>
+			<label index="language.description">バックエンドで使用する言語を指定します。TYPO3の(一般ユーザ向け)バックエンドのほとんどが各国語に翻訳されています。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index=".details" type="integer">127028415</label>
+			<label index=".image_descr" type="integer">55722408</label>
+			<label index="language.alttitle" type="integer">189480609</label>
+			<label index="language.description" type="integer">107138542</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index=".details">&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by &quot;User TSconfig&quot;. To read more about this concept, see the link below!</label>
+			<label index=".image_descr">The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</label>
+			<label index="language.alttitle">Backend Language selection</label>
+			<label index="language.description">Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="pagetree_overview.alttitle">ページツリーの概要</label>
+			<label index="pagetree_overview.description">ページツリーの概要では、開始時間、停止時間、キャッシュ設定などの、ページツリーから枝分かれ(ブランチ)しているページに関連した情報を表示します。</label>
+			<label index="pagetree_overview.image_descr">モジュール「ページツリーの概要」では、あるブランチのページにあるレコードを表示できます。ここでは、あるページツリーの2階層下までに含まれるレコード数が表示されています。</label>
+			<label index="func_0.alttitle">基本設定</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

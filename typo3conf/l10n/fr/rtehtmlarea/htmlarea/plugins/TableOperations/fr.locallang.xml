@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="Not set">Non spécifié</label>
+			<label index="None">Aucune</label>
+			<label index="CSS Style">Style CSS</label>
+			<label index="Class:">Classe:</label>
+			<label index="Class selector">Sélecteur de classe CSS</label>
+			<label index="Table class:">Table:</label>
+			<label index="Table class selector">Classe de la table</label>
+			<label index="Table body class:">Corps:</label>
+			<label index="Table body class selector">Classe du corps de la table</label>
+			<label index="Table header class:">En-tête:</label>
+			<label index="Table header class selector">Classe de l'en-tête de la table</label>
+			<label index="Table footer class:">Pied:</label>
+			<label index="Table footer class selector">Classe du pied de la table</label>
+			<label index="Default">Par défaut</label>
+			<label index="Undefined">Indéfini</label>
+			<label index="Alignment">Alignement</label>
+			<label index="All four sides">Les quatre côtés</label>
+			<label index="Background and colors">Arrière-plan et couleurs</label>
+			<label index="Background:">Arrière-plan:</label>
+			<label index="Baseline">Baseline</label>
+			<label index="Border style">Dessin des bordures</label>
+			<label index="Border style:">Style de bordures:</label>
+			<label index="No border">Sans bordure</label>
+			<label index="Dotted">Pointillée</label>
+			<label index="Dashed">En tirets</label>
+			<label index="Solid">En trait plein</label>
+			<label index="Double">En double trait</label>
+			<label index="Groove">En cannelure</label>
+			<label index="Ridge">En arête</label>
+			<label index="Inset">Bas-relief</label>
+			<label index="Outset">Haut-relief</label>
+			<label index="Borders">Épaisseur</label>
+			<label index="Bottom">Bas</label>
+			<label index="Border width">Épaisseur des bordures</label>
+			<label index="Border width:">Épaisseur:</label>
+			<label index="Border color">Couleur des bordures</label>
+			<label index="Caption:">Légende:</label>
+			<label index="Description of the nature of the table">Description de la nature de la table</label>
+			<label index="Row group">Groupe de rangées</label>
+			<label index="Row group:">Groupe de rangées:</label>
+			<label index="Table section">Section de la table où se trouve la rangée</label>
+			<label index="Table body">Corps de la table</label>
+			<label index="Table header">En-tête de la table</label>
+			<label index="Table footer">Pied de la table</label>
+			<label index="Cell Properties">Propriétés de la cellule</label>
+			<label index="Cell Type and Scope">Type et portée de la cellule</label>
+			<label index="Type of cell">Type de cellule:</label>
+			<label index="Normal">Cellule de données</label>
+			<label index="Header">Cellule de rubrique</label>
+			<label index="Specifies the type of cell">Spécifie le type de la cellule</label>
+			<label index="Scope">Portée:</label>
+			<label index="scope_row">Rangée de la cellule</label>
+			<label index="scope_column">Colonne de la cellule</label>
+			<label index="scope_rowgroup">Groupe de rangées de la cellule</label>
+			<label index="Scope of header cell">Portée de la rubrique</label>
+			<label index="Center">Centré</label>
+			<label index="Character">Caractère</label>
+			<label index="Align on this character">Aligner le texte relativement à ce caractère</label>
+			<label index="Collapsed borders">Bordures fusionnées</label>
+			<label index="Color:">Couleur:</label>
+			<label index="Description">Description</label>
+			<label index="FG Color:">Couleur du texte:</label>
+			<label index="Float:">Flottaison:</label>
+			<label index="Specifies where the table should float">Spécifie où la table doit flotter</label>
+			<label index="Non-floating">Sans flottaison</label>
+			<label index="Frames:">Cadre:</label>
+			<label index="Specifies which sides should have a border">Spécifie quels côtés doivent avoir une bordure</label>
+			<label index="Height:">Hauteur:</label>
+			<label index="Height unit">Unité de hauteur</label>
+			<label index="Table height">Hauteur de la table</label>
+			<label index="Row height">Hauteur de la rangée</label>
+			<label index="Cell height">Hauteur de la cellule</label>
+			<label index="How many columns would you like to merge?">Combien de colonnes désirez-vous fusionner?</label>
+			<label index="How many rows would you like to merge?">Combien de rangées désirez-vous fusionner?</label>
+			<label index="Image URL:">URL de l'image:</label>
+			<label index="URL of the background image">URL de l'image d'arrière-plan</label>
+			<label index="Justify">Justifié</label>
+			<label index="Layout">Disposition</label>
+			<label index="Left">À gauche</label>
+			<label index="Margin">Marge</label>
+			<label index="Middle">Centre</label>
+			<label index="No rules">Aucune règle</label>
+			<label index="No sides">Aucun côté</label>
+			<label index="Cell padding:">Dans les cellules:</label>
+			<label index="Space between content and border in cell">Espace entre le contenu et le bord de la cellule</label>
+			<label index="Please click into some cell">Veuillez cliquer dans une cellule</label>
+			<label index="Right">À droite</label>
+			<label index="Row Properties">Propriétés de la rangée</label>
+			<label index="Rules will appear between all rows and columns">Les règles apparaîtront entre toutes les rangées et colonnes</label>
+			<label index="Rules will appear between columns only">Les règles apparaîtront seulement entre les colonnes</label>
+			<label index="Rules will appear between rows only">Les règles apparaîtront seulement entre les rangées</label>
+			<label index="Rules:">Règles:</label>
+			<label index="Specifies where rules should be displayed">Spécifie où les règles doivent apparaître</label>
+			<label index="Spacing and padding">Espacement</label>
+			<label index="Frame and borders">Cadre et bordures</label>
+			<label index="Cell spacing:">Entre les cellules:</label>
+			<label index="Space between adjacent cells">Espace entre cellules adjacentes</label>
+			<label index="Summary:">Résumé:</label>
+			<label index="Summary of the table purpose and structure">Résumé de l'objet et de la structure de la table</label>
+			<label index="TO-cell-delete">Supprimer la cellule</label>
+			<label index="TO-cell-insert-after">Insérer une cellule après</label>
+			<label index="TO-cell-insert-before">Insérer une cellule avant</label>
+			<label index="TO-cell-merge">Fusionner les cellules</label>
+			<label index="TO-cell-prop">Propriétés de la cellule</label>
+			<label index="TO-cell-split">Scinder la cellule</label>
+			<label index="TO-col-delete">Supprimer la colonne</label>
+			<label index="TO-col-insert-after">Insérer une colonne après</label>
+			<label index="TO-col-insert-before">Insérer une colonne avant</label>
+			<label index="TO-col-split">Scinder la colonne</label>
+			<label index="TO-row-delete">Supprimer la rangée</label>
+			<label index="TO-row-insert-above">Insérer une rangée avant</label>
+			<label index="TO-row-insert-under">Insérer une rangée après</label>
+			<label index="TO-row-prop">Propriétés de la rangée</label>
+			<label index="TO-row-split">Scinder la rangée</label>
+			<label index="TO-table-prop">Propriétés de la table</label>
+			<label index="TO-toggle-borders">Montrer les bordures</label>
+			<label index="Table Properties">Propriétés de la table</label>
+			<label index="Text alignment:">Alignement du texte:</label>
+			<label index="Horizontal alignment of text within cell">Alignement horizontal du texte à l'intérieur de la cellule</label>
+			<label index="The bottom side only">Le côté en bas seulement</label>
+			<label index="The left-hand side only">Le côté gauche seulement</label>
+			<label index="The right and left sides only">Les côtés droit et gauche seulement</label>
+			<label index="The right-hand side only">Le côté droit seulement</label>
+			<label index="The top and bottom sides only">Les côtés en haut et en bas seulement</label>
+			<label index="The top side only">Le côté en haut seulement</label>
+			<label index="Top">Haut</label>
+			<label index="Unset color">Aucune couleur</label>
+			<label index="Vertical alignment:">Alignement vertical:</label>
+			<label index="Vertical alignment of content within cell">Alignement vertical du contenu à l'intérieur de la cellule</label>
+			<label index="Width:">Largeur:</label>
+			<label index="Width unit">Unité de largeur</label>
+			<label index="Table width">Largeur de la table</label>
+			<label index="Row width">Largeur de la rangée</label>
+			<label index="Cell width">Largeur de la cellule</label>
+			<label index="not-del-last-cell">L'éditeur refuse de supprimer la dernière cellule de la rangée.</label>
+			<label index="not-del-last-col">L'éditeur refuse de supprimer la dernière colonne de la table.</label>
+			<label index="not-del-last-row">L'éditeur refuse de supprimer la dernière rangée de la table.</label>
+			<label index="percent">%</label>
+			<label index="pixels">pixels</label>
+			<label index="em">em</label>
+			<label index="Size and Headers">Domension et entêtes</label>
+			<label index="Headers">Entête</label>
+			<label index="captionOrSummary-required">Merci de saisir au moins une légende ou sommaire</label>
+			<label index="caption-required">Merci de saisir une légende</label>
+			<label index="summary-required">Merci de saisir un sommaire</label>
+			<label index="TO-col-prop">Propriété de la colonne</label>
+			<label index="TO-table-restyle">Ré-appliquer le style de table</label>
+			<label index="Headers:">Entête</label>
+			<label index="Table headers">Entête de table</label>
+			<label index="No header cells">Sans entête</label>
+			<label index="Header cells on top">Entête en haut</label>
+			<label index="Header cells on left">Entête à gauche</label>
+			<label index="Header cells on top and left">Entête en haut et à gauche</label>
+			<label index="Make cells header cells">Toutes les cellules sont des entêtes</label>
+			<label index="Make cells data cells">Toutes les cellules sont des données</label>
+			<label index="Header for column">Cellule d'entête de colonne</label>
+			<label index="Header for row">Cellule d'entête de ligne</label>
+			<label index="Header for row group">Cellule d'entête de groupe de ligne</label>
+			<label index="Column Properties">Propriété de la colonne</label>
+			<label index="Type of cells">Type de cellule de la colonne</label>
+			<label index="Type of cells of the column">Type de cellules</label>
+			<label index="Specifies the type of cells">Spécifiez le type de cellules</label>
+			<label index="Data cells">Cellules de donnée</label>
+			<label index="Headers for rows">Entête de ligne</label>
+			<label index="Headers for row groups">Entête de groupe de ligne</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="Not set" type="integer">163210921</label>
+			<label index="None" type="integer">112064895</label>
+			<label index="CSS Style" type="integer">29957176</label>
+			<label index="Class:" type="integer">108564327</label>
+			<label index="Class selector" type="integer">188520371</label>
+			<label index="Table class:" type="integer">82279689</label>
+			<label index="Table class selector" type="integer">146862673</label>
+			<label index="Table body class:" type="integer">213253668</label>
+			<label index="Table body class selector" type="integer">254212122</label>
+			<label index="Table header class:" type="integer">9618284</label>
+			<label index="Table header class selector" type="integer">122458764</label>
+			<label index="Table footer class:" type="integer">174883043</label>
+			<label index="Table footer class selector" type="integer">190618895</label>
+			<label index="Default" type="integer">128029197</label>
+			<label index="Undefined" type="integer">247528449</label>
+			<label index="Alignment" type="integer">174289006</label>
+			<label index="All four sides" type="integer">16317531</label>
+			<label index="Background and colors" type="integer">61070266</label>
+			<label index="Background:" type="integer">225694397</label>
+			<label index="Baseline" type="integer">172634820</label>
+			<label index="Border style" type="integer">253138112</label>
+			<label index="Border style:" type="integer">137702707</label>
+			<label index="No border" type="integer">112064895</label>
+			<label index="Dotted" type="integer">151783737</label>
+			<label index="Dashed" type="integer">246830820</label>
+			<label index="Solid" type="integer">239159307</label>
+			<label index="Double" type="integer">227581240</label>
+			<label index="Groove" type="integer">173899565</label>
+			<label index="Ridge" type="integer">245296292</label>
+			<label index="Inset" type="integer">190239509</label>
+			<label index="Outset" type="integer">99220372</label>
+			<label index="Borders" type="integer">238105858</label>
+			<label index="Bottom" type="integer">44932451</label>
+			<label index="Border width" type="integer">202622068</label>
+			<label index="Border width:" type="integer">134208757</label>
+			<label index="Border color" type="integer">226755782</label>
+			<label index="Caption:" type="integer">173808390</label>
+			<label index="Description of the nature of the table" type="integer">152710580</label>
+			<label index="Row group" type="integer">184698400</label>
+			<label index="Row group:" type="integer">77316628</label>
+			<label index="Table section" type="integer">19988192</label>
+			<label index="Table body" type="integer">71218460</label>
+			<label index="Table header" type="integer">183750203</label>
+			<label index="Table footer" type="integer">205740060</label>
+			<label index="Cell Properties" type="integer">253760836</label>
+			<label index="Cell Type and Scope" type="integer">187896160</label>
+			<label index="Type of cell" type="integer">59279939</label>
+			<label index="Normal" type="integer">85368920</label>
+			<label index="Header" type="integer">210726320</label>
+			<label index="Specifies the type of cell" type="integer">257561183</label>
+			<label index="Scope" type="integer">102986117</label>
+			<label index="scope_row" type="integer">175126138</label>
+			<label index="scope_column" type="integer">26701183</label>
+			<label index="scope_rowgroup" type="integer">61103787</label>
+			<label index="Scope of header cell" type="integer">267814496</label>
+			<label index="Center" type="integer">82966017</label>
+			<label index="Character" type="integer">124403940</label>
+			<label index="Align on this character" type="integer">221374349</label>
+			<label index="Collapsed borders" type="integer">122656109</label>
+			<label index="Color:" type="integer">263561448</label>
+			<label index="Description" type="integer">190479069</label>
+			<label index="FG Color:" type="integer">222267514</label>
+			<label index="Float:" type="integer">69520925</label>
+			<label index="Specifies where the table should float" type="integer">108767642</label>
+			<label index="Non-floating" type="integer">169566595</label>
+			<label index="Frames:" type="integer">229165132</label>
+			<label index="Specifies which sides should have a border" type="integer">40609457</label>
+			<label index="Height:" type="integer">244530626</label>
+			<label index="Height unit" type="integer">68060511</label>
+			<label index="Table height" type="integer">80685722</label>
+			<label index="Row height" type="integer">155230199</label>
+			<label index="Cell height" type="integer">51477732</label>
+			<label index="How many columns would you like to merge?" type="integer">85360030</label>
+			<label index="How many rows would you like to merge?" type="integer">179055693</label>
+			<label index="Image URL:" type="integer">56765140</label>
+			<label index="URL of the background image" type="integer">246467613</label>
+			<label index="Justify" type="integer">78915026</label>
+			<label index="Layout" type="integer">247307244</label>
+			<label index="Left" type="integer">155571682</label>
+			<label index="Margin" type="integer">159607136</label>
+			<label index="Middle" type="integer">186426191</label>
+			<label index="No rules" type="integer">214317658</label>
+			<label index="No sides" type="integer">90557450</label>
+			<label index="Cell padding:" type="integer">81605023</label>
+			<label index="Space between content and border in cell" type="integer">172243927</label>
+			<label index="Please click into some cell" type="integer">66014332</label>
+			<label index="Right" type="integer">153815495</label>
+			<label index="Row Properties" type="integer">235005676</label>
+			<label index="Rules will appear between all rows and columns" type="integer">178165269</label>
+			<label index="Rules will appear between columns only" type="integer">104284842</label>
+			<label index="Rules will appear between rows only" type="integer">154598239</label>
+			<label index="Rules:" type="integer">150084822</label>
+			<label index="Specifies where rules should be displayed" type="integer">219418022</label>
+			<label index="Spacing and padding" type="integer">137006425</label>
+			<label index="Frame and borders" type="integer">200635217</label>
+			<label index="Cell spacing:" type="integer">99196501</label>
+			<label index="Space between adjacent cells" type="integer">241930679</label>
+			<label index="Summary:" type="integer">19926918</label>
+			<label index="Summary of the table purpose and structure" type="integer">111035278</label>
+			<label index="TO-cell-delete" type="integer">144495842</label>
+			<label index="TO-cell-insert-after" type="integer">202094829</label>
+			<label index="TO-cell-insert-before" type="integer">24191980</label>
+			<label index="TO-cell-merge" type="integer">54278067</label>
+			<label index="TO-cell-prop" type="integer">113404121</label>
+			<label index="TO-cell-split" type="integer">68478671</label>
+			<label index="TO-col-delete" type="integer">259140363</label>
+			<label index="TO-col-insert-after" type="integer">229576642</label>
+			<label index="TO-col-insert-before" type="integer">216427802</label>
+			<label index="TO-col-split" type="integer">69961302</label>
+			<label index="TO-row-delete" type="integer">26785364</label>
+			<label index="TO-row-insert-above" type="integer">118938039</label>
+			<label index="TO-row-insert-under" type="integer">172129756</label>
+			<label index="TO-row-prop" type="integer">22656844</label>
+			<label index="TO-row-split" type="integer">205122167</label>
+			<label index="TO-table-prop" type="integer">47832468</label>
+			<label index="TO-toggle-borders" type="integer">50494060</label>
+			<label index="Table Properties" type="integer">33580869</label>
+			<label index="Text alignment:" type="integer">140755028</label>
+			<label index="Horizontal alignment of text within cell" type="integer">124131061</label>
+			<label index="The bottom side only" type="integer">166150482</label>
+			<label index="The left-hand side only" type="integer">250115725</label>
+			<label index="The right and left sides only" type="integer">94712872</label>
+			<label index="The right-hand side only" type="integer">254412369</label>
+			<label index="The top and bottom sides only" type="integer">203373533</label>
+			<label index="The top side only" type="integer">112720877</label>
+			<label index="Top" type="integer">173014479</label>
+			<label index="Unset color" type="integer">231364859</label>
+			<label index="Vertical alignment:" type="integer">128677513</label>
+			<label index="Vertical alignment of content within cell" type="integer">150854455</label>
+			<label index="Width:" type="integer">76336968</label>
+			<label index="Width unit" type="integer">203578597</label>
+			<label index="Table width" type="integer">58219478</label>
+			<label index="Row width" type="integer">150236203</label>
+			<label index="Cell width" type="integer">13770918</label>
+			<label index="not-del-last-cell" type="integer">46420882</label>
+			<label index="not-del-last-col" type="integer">156100342</label>
+			<label index="not-del-last-row" type="integer">224234005</label>
+			<label index="percent" type="integer">55898183</label>
+			<label index="pixels" type="integer">221878344</label>
+			<label index="em" type="integer">75378316</label>
+			<label index="Size and Headers" type="integer">223358079</label>
+			<label index="Headers" type="integer">142858081</label>
+			<label index="captionOrSummary-required" type="integer">136510800</label>
+			<label index="caption-required" type="integer">29774773</label>
+			<label index="summary-required" type="integer">113160336</label>
+			<label index="TO-col-prop" type="integer">117292923</label>
+			<label index="TO-table-restyle" type="integer">63595325</label>
+			<label index="Headers:" type="integer">238719523</label>
+			<label index="Table headers" type="integer">213804848</label>
+			<label index="No header cells" type="integer">130561315</label>
+			<label index="Header cells on top" type="integer">233117187</label>
+			<label index="Header cells on left" type="integer">168927419</label>
+			<label index="Header cells on top and left" type="integer">248962650</label>
+			<label index="Make cells header cells" type="integer">233496686</label>
+			<label index="Make cells data cells" type="integer">117118904</label>
+			<label index="Header for column" type="integer">51770615</label>
+			<label index="Header for row" type="integer">249416943</label>
+			<label index="Header for row group" type="integer">137215636</label>
+			<label index="Column Properties" type="integer">164215224</label>
+			<label index="Type of cells" type="integer">151104163</label>
+			<label index="Type of cells of the column" type="integer">136084462</label>
+			<label index="Specifies the type of cells" type="integer">264234353</label>
+			<label index="Data cells" type="integer">134498347</label>
+			<label index="Headers for rows" type="integer">142823264</label>
+			<label index="Headers for row groups" type="integer">117754066</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="em">em</label>
+			<label index="Size and Headers">Size and Headers</label>
+			<label index="Headers">Headers</label>
+			<label index="captionOrSummary-required">Please enter at least one of caption or summary</label>
+			<label index="caption-required">Please enter a caption</label>
+			<label index="summary-required">Please enter a summary</label>
+			<label index="TO-col-prop">Column properties</label>
+			<label index="TO-table-restyle">Re-apply table styles</label>
+			<label index="Headers:">Headers:</label>
+			<label index="Table headers">Table headers</label>
+			<label index="No header cells">No header cells</label>
+			<label index="Header cells on top">Header cells on top</label>
+			<label index="Header cells on left">Header cells on left</label>
+			<label index="Header cells on top and left">Header cells on top and left</label>
+			<label index="Make cells header cells">Make all row cells header cells</label>
+			<label index="Make cells data cells">Make all row cells data cells</label>
+			<label index="Header for column">Header cell for column</label>
+			<label index="Header for row">Header cell for row</label>
+			<label index="Header for row group">Header cell for row group</label>
+			<label index="Column Properties">Column Cells Properties</label>
+			<label index="Type of cells">Type of cells</label>
+			<label index="Type of cells of the column">Type of cells of the column:</label>
+			<label index="Specifies the type of cells">Specifies the type of cells of the column</label>
+			<label index="Data cells">Data cells</label>
+			<label index="Headers for rows">Headers for rows</label>
+			<label index="Headers for row groups">Headers for row groups</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

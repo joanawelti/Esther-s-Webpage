@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">Lo Static templates è una libreria TypoScript distribuita centralmente. Non si dovrebbe mai cambiare questi valori.</label>
+			<label index=".details">Gli Static templates sono stati progettati per essere inclusi nel TypoScript i salvataggi dei Template  dipendono da quello di cui si ha bisogno. Far riferimento al documento &quot;TSref&quot; (vedere in fondo) per dettagli su questo processo.
+Si noti che in ogni versione di TYPO3 bisogna reinstallare i Static Templates table dall'install tool. Vedere il documento &quot;Install/Upgrade&quot; per dettagli (vedere in fondo).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".description" type="integer">159278355</label>
+			<label index=".details" type="integer">185102512</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">Static templates are a centrally distributed TypoScript library. You should never changes these values.</label>
+			<label index=".details">The Static templates are meant to be included by your TypoScript Template records depending on your needs. Refer to the 'TSref' document (see below) for details on this process.
+Notice that by each release of TYPO3 you should reinstall the Static Templates table by the install tool. See the 'Install/Upgrade' document for details (see below).</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

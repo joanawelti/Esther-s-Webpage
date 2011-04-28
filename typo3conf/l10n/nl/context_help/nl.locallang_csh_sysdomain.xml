@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Legt het beginpunt van een bepaalde hostnaam vast.</label>
+			<label index=".details">Wanneer een TYPO3 database meer dan één website bevat, moet je voor elke website rootpagina een domeinnaam opgeven. In werkelijkheid verwijzen alle domeinen naar dezelfde TYPO3 database op de server, maar je voegt deze domein-records in op de positie in de pagina boom waar je verzoeken voor dit domein wil laten uitkomen. Pagina's buiten deze positie zijn dus niet bereikbaar vanuit dit domein.
+Dit is vergelijkbaar met de &quot;Virtual hosts&quot; bij Apache servers.
+
+(Moet waarschijnlijk alleen voor de admin-gebruiker beschikbaar zijn)</label>
+			<label index="domainName.description">Voer de hostnaam in, bijv. &quot;www.mijn-domein.com&quot;</label>
+			<label index="domainName.details">Voordat een domein record effect heeft, moet je er zeker van zijn dat het A-record van het betreffende domein naar de server verwijst en dat je server zo is ingericht dat verzoeken uitkomen bij deze TYPO3 database. Dus voordat je hier iets invoert moet je er zeker van zijn dat verzoeken voor het domein uitkomen bij de root van de huidige pagina boom.
+Wanneer je een domein record aanmaakt en de ingevoerde hostnaam (ofwel een domeinnaam, ofwel een IP adres) komt overeen met de hostnaam van de URL, dan zal de op TypoScript gebaseerde frontend het aantal beschikbare pagina's beperken tot de pagina's binnen deze pagina boom. In werkelijkheid kom je uit op de pagina waar dit record zich bevindt, en gebruikers kunnen geen pagina's bereiken buiten deze 'tak'.
+
+&lt;strong&gt;Let op,&lt;/strong&gt; als je TYPO3 draait vanaf een subdirectory van de domainnaam, dan moet je de subdirectory ook aangeven, bijv. &quot;www.mijn-domein.com/typo3_subdir/&quot;</label>
+			<label index="redirectTo.description">Alle verzoeken voor het domein zullen worden verwezen naar deze URL, wanneer een waarde is ingevoerd.</label>
+			<label index="redirectTo.details">Zorg ervoor om &quot;http://&quot; aan de waarde toe te voegen! Er wordt slechts een &quot;Location: &quot;header aan deze waarde toegevoegd.
+&lt;strong&gt;Waarschuwing:&lt;/strong&gt; Je kunt dit niet gebruiken om naar een bepaalde pagina-id binnen hetzelfde domein door te verwijzen. Als je dat doet belandt je in een eindeloze lus, omdat de verwijzing naar zichzelf verwijst!
+
+Goed vorrbeeld:
+Domein: &quot;mijn-domein.org&quot;
+Redirect: &quot;www.mijn-domein.org&quot;
+
+Hier wordt een verzoek verwezen van wat in feite een andere domeinnaam is, namelijk &quot;www.mijn-domein.org&quot;
+
+Slecht voorbeeld:
+Domein: &quot;www.mijn-domein.org&quot;
+Redirect: &quot;www.mijn-domein.org/?id=10&quot;
+
+Hiet ontstaat een eindeloze lus, omdat de domeinnaam niet verandert!
+
+Virtuele mappen:
+Wanneer je TYPO# gebruikt op een unix machine, dan kun je in je website &quot;virtuele mappen&quot; aanmaken, nog steeds binnen dezelfde database. Zie de documentatie lijst voor meer informatie. In dat geval moet je de hostnaam met de map invoeren, bijv. &quot;mijn-domein.org/map/&quot;. Wanneer de combinatie van de hostnaam en de huidige map met deze waarde overeenkomt, zal het domein record coreect worden gedetecteerd en de pagina toegang beperken tot de pagina boom onder het domein record.</label>
+			<label index="hidden.description">Gebruik deze optie om het domein record tijdelijk uit te schakelen.</label>
+			<label index="prepend_params.description">Indien ingesteld zal iedere GET parameter in de aangeroepen URL vertaald worden naar de doorverwijzings-URL.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">102441634</label>
+			<label index=".details" type="integer">232530587</label>
+			<label index="domainName.description" type="double">15093983</label>
+			<label index="domainName.details" type="integer">164327412</label>
+			<label index="redirectTo.description" type="integer">191995947</label>
+			<label index="redirectTo.details" type="integer">253314629</label>
+			<label index="hidden.description" type="integer">31618732</label>
+			<label index="prepend_params.description" type="integer">132631349</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Determines the entrypoint of a certain host name.</label>
+			<label index=".details">When a TYPO3 database contains more than a single website, you'll typically have to assign a domain name to each new websites &quot;root-page&quot;. In practice you point all the domains to the same TYPO3 database on the server, but then you insert these Domain records at the positions in the page tree where you want to direct requests to the domain. And thus pages 'outside' that point will not be accessible from that domain.
+This is like &quot;Virtual hosts&quot; in Apache servers.
+
+(Should probably be available for admin only.)</label>
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="domainName.details">Before a domain record will have any effect you must make sure that the domains A-record is pointed towards the server and that your server is setup to direct requests to this TYPO3 database. So basically before entering anything here, make sure a request to the domain you wish to enter arrives at the root of the current page tree.
+When you create a domain record and the host name in it (be it a real domain name or an IP address) matches the hostname of the URL, the TypoScript based front end will limit the available page to only those in the page tree from this point and outwards. In effect you will 'arrive' at the page where this record is and furthermore users cannot see pages with ids outside this branch.
+
+&lt;strong&gt;Notice, &lt;/strong&gt;if you run TYPO3 from a subdirectory of the domain name, you must include the subdirectory as well, eg. &quot;www.my-domain.org/typo3_subdir/&quot;</label>
+			<label index="redirectTo.description">All requests to the domain will be redirected to this URL, if any value is entered.</label>
+			<label index="redirectTo.details">Make sure to prepend &quot;http://&quot; or equally to the value! Basically a &quot;Location: &quot; header is just issued to this value!
+&lt;strong&gt;Warning:&lt;/strong&gt; You cannot use this to 'redirect' to a specific page id within the same domain as the record has! If you do that it'll just go into an endless loop because the redirect is redirecting to itself!
+
+Good Example:
+Domain: &quot;my-domain.org&quot;
+Redirect: &quot;www.my-domain.org&quot;
+
+This redirects requests to what is infact another domain name, namely &quot;www.my-domain.org&quot;
+
+Bad Example:
+Domain: &quot;www.my-domain.org&quot;
+Redirect: &quot;www.my-domain.org/?id=10&quot;
+
+This will go into an eternal loop because the domain name has in fact not changed!
+
+
+Virtual directories:
+If you're using TYPO3 on a unix computer you can make 'virtual subdirectories' to a website, still within the same database. See document list for more information. In that case you should enter the hostname with the subdirectory appended, like this: &quot;my-domain.org/subdir/&quot;. If the combination of host name and current subdirectory matches the value, the domain record will be correctly detected and limit page access to the page tree below the Domain record.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+			<label index="prepend_params.description">If set, any GET parameters in the calling URL will be transferred to the redirect URL.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

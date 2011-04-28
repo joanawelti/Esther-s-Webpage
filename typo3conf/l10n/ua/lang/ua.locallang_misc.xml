@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ua" type="array">
+			<label index="shortcut_edit">Редагувати</label>
+			<label index="shortcut_editID">Редагувати ID сторінки</label>
+			<label index="shortcut_save">Поновити назву посилання</label>
+			<label index="shortcut_saveClose">Поновити та закрити редактор</label>
+			<label index="shortcut_close">Закрити редактор посилань</label>
+			<label index="shortcut_delete">Видалити посилання</label>
+			<label index="shortcut_loadEdit">Завантаження сторінки</label>
+			<label index="shortcut_notEditable">Не знайдено сторінки для редагування!</label>
+			<label index="shortcut_group">Група</label>
+			<label index="shortcut_GLOBAL">ГЛОБАЛЬНА</label>
+			<label index="shortcut_ALL">ВСІ</label>
+			<label index="shortcut_onlyAdmin">Не можна редагувати спільне посилання!</label>
+			<label index="shortcut_selSC">Оберіть посилання</label>
+			<label index="shortcut_delAllInCat">Видалити всі посилання у цій групі?</label>
+			<label index="overwriteExistingFiles">Перезаписувати існуючі файли</label>
+			<label index="selectPosition">Оберіть позицію нової сторінки</label>
+			<label index="goBack">Повернутися</label>
+			<label index="createNewPage">Створити нову сторінку</label>
+			<label index="clickForWizard">Клацніть до помічника!</label>
+			<label index="insertNewPageHere">Вставити нову сторінку тут</label>
+			<label index="insertNewRecordHere">Вставити новий запис тут</label>
+			<label index="movePageToHere">Пересунути сторінку сюди</label>
+			<label index="moveElement">Пересунути елемент</label>
+			<label index="selectPositionOfElement">Оберіть позицію елементу</label>
+			<label index="movingElement">Пересунути елемент</label>
+			<label index="makeCopy">Копіювати замість пересування</label>
+			<label index="newContentElement">Новий елемент</label>
+			<label index="1_selectType">1: оберіть тип елементу:</label>
+			<label index="2_selectPosition">2: оберіть позицію:</label>
+			<label index="CM_editAccess">Видимість</label>
+			<label index="CM_history">Історія/скасувати</label>
+			<label index="CM_perms">Доступ</label>
+			<label index="CM_moveWizard">Пересунути елемент</label>
+			<label index="CM_moveWizard_page">Пересунути сторінку</label>
+			<label index="CM_newWizard">Помічник створення</label>
+			<label index="CM_editPageHeader">Заголовок сторінки</label>
+			<label index="CM_db_list">Модуль Веб&gt;Список</label>
+			<label index="noEditPage">Ви питали редагувати сторінку &quot;%s&quot;, але не можете цього робити.  Завантажується звичайний backend.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ua" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="double">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="double">11634947</label>
+			<label index="shortcut_notEditable" type="double">219401</label>
+			<label index="shortcut_group" type="double">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ua" type="array">
+			<label index="shortcut_edit">Edit</label>
+			<label index="shortcut_editID">Edit Page ID</label>
+			<label index="shortcut_save">Update shortcut title</label>
+			<label index="shortcut_saveClose">Update and close editor</label>
+			<label index="shortcut_close">Close shortcut editor</label>
+			<label index="shortcut_delete">Remove shortcut</label>
+			<label index="shortcut_notEditable">No editable page found!</label>
+			<label index="shortcut_group">Group</label>
+			<label index="shortcut_GLOBAL">GLOBAL</label>
+			<label index="shortcut_ALL">ALL</label>
+			<label index="shortcut_onlyAdmin">You cannot edit a shared shortcut!</label>
+			<label index="shortcut_selSC">Select shortcut</label>
+			<label index="shortcut_delAllInCat">Delete all shortcuts in this group?</label>
+			<label index="overwriteExistingFiles">Overwrite existing files</label>
+			<label index="selectPosition">Select a position for the new page</label>
+			<label index="goBack">Go back</label>
+			<label index="createNewPage">Create a new page</label>
+			<label index="clickForWizard">Click here for wizard!</label>
+			<label index="insertNewPageHere">Insert the new page here</label>
+			<label index="insertNewRecordHere">Insert new record here</label>
+			<label index="movePageToHere">Move page to this position</label>
+			<label index="moveElement">Move element</label>
+			<label index="selectPositionOfElement">Select position of the element</label>
+			<label index="movingElement">Move element</label>
+			<label index="makeCopy">Make copy instead of moving element</label>
+			<label index="newContentElement">New content element</label>
+			<label index="1_selectType">1: Select type of content element:</label>
+			<label index="2_selectPosition">2: Select position:</label>
+			<label index="CM_editAccess">Visibility settings</label>
+			<label index="CM_history">History/Undo</label>
+			<label index="CM_perms">Access</label>
+			<label index="CM_moveWizard">Move element</label>
+			<label index="CM_moveWizard_page">Move page</label>
+			<label index="CM_newWizard">'Create New' wizard</label>
+			<label index="CM_editPageHeader">Edit page header</label>
+			<label index="CM_db_list">Web&gt;List module</label>
+			<label index="noEditPage">You asked to edit page &quot;%s&quot; but you cannot edit this page. Now loading backend as usual.</label>
+			<label index="shortcut_loadEdit">Loading page</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

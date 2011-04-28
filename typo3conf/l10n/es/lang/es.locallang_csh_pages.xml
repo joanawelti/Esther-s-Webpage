@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index=".description">Un registro ?Página? normalmente representa una página web en TYPO3. Todas las páginas contienen un número de identificación (id) por el cual pueden ser enlazadas y referenciadas. El registro ?Página? no contiene por si mismo el contenido de la página ? para este fin debes crear registros ?Contenido de página?.</label>
+			<label index=".details">Dependiendo del ?Tipo?, la página también puede representar un almacen general para elementos de base de datos en TYPO3. En ese caso no necesariamente está disponible como una página web, existirá internamente como un lugar para almacenar elementos como usuarios, subscripciones, etc...
+La tabla de páginas es la espina dorsal de TYPO3. Todos los registros editables por los módulos principales de TYPO3 deben ?pertenecer? a una página. Es exáctamente como las carpetas y ficheros de tu ordenador. Las páginas están organizadas en una estructura de árbol que no es tán solo una manera muy útil de organización en general sino también un reflejo óptimo de como debes organizar las páginas dentro del sitio web. Por tanto normalmente encontrarás que el árbol de páginas es un reflejo fiel de la propia navegación del sitio web.
+
+Técnicamente todos los elementos de la base de datos poseen un campo ?uid? el cual es un número único de identificación. Además, deben tener un campo ?pid? que contiene el número de identificación de la página (uid) a la que pertenecen. Si el campo ?pid? es cero el registro se encuentra en la llamada ?raíz?. Sólo los administradores pueden acceder a la raíz y por lo tanto todos los registros de las tablas deben estar configurados para pertenecer a una página o encontrarse en la raíz.</label>
+			<label index="title.description">Introduce el título de la página o carpeta.</label>
+			<label index="doktype.description">Selecciona el tipo de página. Esto afecta a si la página representa una página visible en la web o si es utilizada para otros propósitos.</label>
+			<label index="doktype.details">El tipo ?Estándar? representa una página web.
+?Carpeta de sistema? representa una página interna, una carpeta que actúa de almacén de elementos. ?Papelera? es una papelera de reciclaje.
+
+&lt;b&gt;Nota:&lt;/b&gt; Cada tipo posee normalmente un icono distinto. Además, ciertos tipos pueden no estar disponibles para un operador (por lo que puede ser que no dispongas de todas estas opciones). Y finalmente cada tipo está configurado para permitir sólo ciertos registros en la página (?Carpeta del sistema? permitirá cualquier tipo de registro si tuvieras un problema).</label>
+			<label index="TSconfig.description">Configuración TypoScript de la página.</label>
+			<label index="TSconfig.details">Básicamente ?TypoScript? es un concepto para introducir valores en una estructura de árbol. Esto es así especialmente en relación con la creación de plantillas para sitios web de TYPO3.
+De cualquier manera el mismo principio para introducir la jerarquía de valores es usada aquí para configurar varias características en relación con el backend, funciones en módulos, el RTE, etc...
+El ?TSConfig? que resulta para una página es actualmente una acumulación de todos los valores ?TSConfig? desde la raíz del árbol de páginas hasta la página actual. Y también las subpáginas serán afectadas igualmente. Una vista del ?TSConfig? de la página está disponible desde el menú ?TSConfig de página? en el módulo ?Web&gt;Info? (requiere que la extensión ?info_pagetsconfig? esté instalada).</label>
+			<label index="TSconfig.syntax">Síntaxis de TypoScript básica &lt;em&gt;sin&lt;/em&gt; ?Condiciones? ni ?Constantes?.
+
+Es recomentado que sólo los usuarios ?Administradores? tengan acceso a este campo.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index=".details" type="integer">266524571</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="TSconfig.details" type="integer">216590510</label>
+			<label index="TSconfig.syntax" type="integer">6236841</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index=".details">The pages table is the very backbone in TYPO3. All records editable by the mainstream modules in TYPO3 must 'belong' to a page. It's exactly like files and folders on your computers harddrive.
+
+&lt;b&gt;The page tree&lt;/b&gt;
+The pages are organized in a tree structure which is not only a very handy way of organizing in general but also a optimal reflection of how you should organize the pages on your website. And thus you'll normally find that the page tree is a reflection of the website navigation itself.
+
+&lt;p&gt;uid, pid and the pagetree root&lt;/b&gt;
+Technically all database elements has a field 'uid' which is a unique identification number. Further they must have a field 'pid' which holds the uid-number of the page (page id) to which they belong. If the 'pid' field is zero the record is found in the so called 'root'. Only administrators are allowed access to the root and furthermore table records must be configured to either belonging to a page or being found in the root.
+
+&lt;b&gt;Storage of database records&lt;/b&gt;
+Depending on the 'Type' of the page, it may also represent a general storage for database elements in TYPO3. In that case it is not necessarily available as a webpage but only internally in the page tree as a place to store items such as users, subscriptions etc. Such pages are typically of the type &quot;SysFolder&quot;.</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="TSconfig.details">Basically 'TypoScript' is a concept for entering values in a tree-structure. This is known especially in relation to creating templates for TYPO3 websites.
+However the same principle for entering the hierarchy of values is used here to configure various features in relation to the backend, functions in modules, the Rich Text Editor etc.
+The resulting 'TSconfig' for a page is actually an accumulation of all 'TSconfig' values from the root of the page tree and outwards to the current page. And thus all subpages are affected as well. A print of the page TSconfig is available from the 'Page TSconfig' menu in the 'Web&gt;Info' module (requires the extension &quot;info_pagetsconfig&quot; to be installed).</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

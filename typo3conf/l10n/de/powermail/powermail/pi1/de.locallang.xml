@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="powermailmarker_notitle">FEHLER: Titel für aktuelles Feld nicht in Datenbank gefunden (%s)</label>
+			<label index="locallangmarker_confirmation_question">Sind diese Angaben korrekt?</label>
+			<label index="locallangmarker_confirmation_back">Zurück</label>
+			<label index="locallangmarker_confirmation_files">Angehängte Datei %s:</label>
+			<label index="locallangmarker_confirmation_submit">Angaben abschicken</label>
+			<label index="locallangmarker_email_receiver">Danke für Ihre E-Mail:</label>
+			<label index="locallangmarker_email_sender">Sie haben eine neue E-Mail erhalten:</label>
+			<label index="locallangmarker_mandatory_message">Bitte beachten Sie folgende Fehlermeldungen:</label>
+			<label index="locallangmarker_mandatory_emptyfield">Bitte dieses Feld ausfüllen:</label>
+			<label index="locallangmarker_mandatory_submit">Zurück zum Formular</label>
+			<label index="locallangmarker_error_validemail">Dies ist keine gültige E-Mail-Adresse:</label>
+			<label index="locallangmarker_error_file_main">Die Datei konnte nicht hochgeladen werden:</label>
+			<label index="locallangmarker_error_file_toolarge">Diese Datei ist zu groß:</label>
+			<label index="locallangmarker_error_file_extension">Diese Dateiendung ist nicht erlaubt:</label>
+			<label index="locallangmarker_error_file_mimetype">Die hochgeladene Datei hat nicht den richtigen mime-Typ.</label>
+			<label index="error_check_prefix">Powermail-Fehler! Bitte folgende Felder im Backend ausfüllen:</label>
+			<label index="error_check_subject_r">Betreff für E-Mail an Empfänger</label>
+			<label index="error_check_recipient">E-Mail-Adresse des Empfängers</label>
+			<label index="error_check_noTS">FEHLER: TypoScript für Powermail fehlt!</label>
+			<label index="error_captcha_empty">Sie haben vergessen, einen Code einzutragen.</label>
+			<label index="error_captcha_wrong">Der eingetragene Code war leider falsch.</label>
+			<label index="error_backend_noip">IP-Protokollierung deaktiviert</label>
+			<label index="error_validemail">Die eingegebenen E-Mail-Adresse ist ungültig.</label>
+			<label index="error_nomx">Die eingegebene E-Mail-Adresse existiert nicht.</label>
+			<label index="error_unique_field">%s wurde schon benutzt.</label>
+			<label index="error_unique_ip">IP-Adresse %s hat schon einen Eintrag gemacht.</label>
+			<label index="error_expression_validation">Überprüfung fehlgeschlagen</label>
+			<label index="error_templateNotFound">Vorlage nicht gefunden. Den Pfad für die powermail-Vorlagen überprüfen.</label>
+			<label index="error_captchaWrongExt">Powermail-Fehler: Die ausgewählte Captcha-Erweiterung ist nicht geladen! Wählen Sie eine andere Captcha-Erweiterung in der Powermail-Konstanten oder installieren Sie die Erweiterung &quot;%s&quot;.</label>
+			<label index="error_captchaNoExtFound">Bitte installieren Sie eine Captcha-Erweiterung wie captcha, sr_freecap, jm_recaptcha oder wt_calculating_captcha!</label>
+			<label index="multiple_forward">Nächster Schritt</label>
+			<label index="multiple_back">Vorheriger Schritt</label>
+			<label index="pagebrowser_inner">von</label>
+			<label index="JSvalidation_label_required">Dies ist ein Pflichtfeld</label>
+			<label index="JSvalidation_label_validate_number">Bitte eine gültige Zahl eintragen</label>
+			<label index="JSvalidation_label_validate_digits">Bitte nur eine Zahl ohne Sonderzeichen wie Punkte und Kommata eintragen</label>
+			<label index="JSvalidation_label_validate_alpha">Bitte nur Buchstaben eintragen (a-z)</label>
+			<label index="JSvalidation_label_validate_alphanum">Bitte nur Buchstaben (a-z) oder Zahlen (0-9) eintragen. Leer- oder andere Zeichen sind nicht erlaubt</label>
+			<label index="JSvalidation_label_validate_date">Bitte ein korrektes Datum eintragen</label>
+			<label index="JSvalidation_label_validate_email">Bitte eine gültige E-Mail Adresse eintragen (test@test.de)</label>
+			<label index="JSvalidation_label_validate_url">Bitte eine gültige URL eintragen (http://www.test.de)</label>
+			<label index="JSvalidation_label_validate_date_au">Bitte das Datum in folgendem Format eintragen: dd/mm/yyyy. (Beispiel: 17/03/2008 für den 17. März 2008)</label>
+			<label index="JSvalidation_label_validate_currency_dollar">Bitte einen Geldbetrag eintragen (z.B. $100.00).</label>
+			<label index="JSvalidation_label_validate_selection">Bitte eine Auswahl treffen</label>
+			<label index="JSvalidation_label_validate_one_required">Bitte eine der obigen Optionen auswählen</label>
+			<label index="geoip_ip">IP-Adresse</label>
+			<label index="geoip_countryCode">Länderkennung</label>
+			<label index="geoip_countryName">Land</label>
+			<label index="geoip_region">Region</label>
+			<label index="geoip_city">Stadt</label>
+			<label index="geoip_zip">PLZ</label>
+			<label index="geoip_lng">Länge</label>
+			<label index="geoip_lat">Breite</label>
+			<label index="geoip_dmaCode">DMA-Kennung</label>
+			<label index="geoip_areaCode">Area-Kennung</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="locallangmarker_confirmation_question" type="integer">188616386</label>
+			<label index="locallangmarker_confirmation_back" type="integer">36398395</label>
+			<label index="locallangmarker_confirmation_files" type="integer">113922966</label>
+			<label index="locallangmarker_confirmation_submit" type="integer">247463137</label>
+			<label index="locallangmarker_email_receiver" type="integer">202173972</label>
+			<label index="locallangmarker_email_sender" type="integer">182398465</label>
+			<label index="locallangmarker_mandatory_message" type="integer">109122602</label>
+			<label index="locallangmarker_mandatory_emptyfield" type="integer">227498237</label>
+			<label index="locallangmarker_mandatory_submit" type="integer">84646919</label>
+			<label index="locallangmarker_error_validemail" type="integer">63159185</label>
+			<label index="locallangmarker_error_file_main" type="integer">89135080</label>
+			<label index="locallangmarker_error_file_toolarge" type="integer">130018105</label>
+			<label index="locallangmarker_error_file_extension" type="integer">182795864</label>
+			<label index="error_check_prefix" type="integer">94242191</label>
+			<label index="error_check_subject_r" type="integer">144146812</label>
+			<label index="error_check_recipient" type="integer">133043798</label>
+			<label index="error_captcha_empty" type="integer">194585973</label>
+			<label index="error_captcha_wrong" type="integer">239274324</label>
+			<label index="error_backend_noip" type="integer">111263537</label>
+			<label index="error_validemail" type="integer">167816393</label>
+			<label index="error_expression_validation" type="integer">219216736</label>
+			<label index="multiple_forward" type="integer">204016217</label>
+			<label index="multiple_back" type="integer">186298610</label>
+			<label index="pagebrowser_inner" type="integer">132636790</label>
+			<label index="JSvalidation_label_required" type="integer">195477513</label>
+			<label index="JSvalidation_label_validate_number" type="integer">42850760</label>
+			<label index="JSvalidation_label_validate_digits" type="integer">83188190</label>
+			<label index="JSvalidation_label_validate_alpha" type="integer">92512164</label>
+			<label index="JSvalidation_label_validate_alphanum" type="integer">120676345</label>
+			<label index="JSvalidation_label_validate_date" type="integer">87058841</label>
+			<label index="JSvalidation_label_validate_email" type="integer">10033793</label>
+			<label index="JSvalidation_label_validate_url" type="integer">20528903</label>
+			<label index="JSvalidation_label_validate_date_au" type="integer">37977572</label>
+			<label index="JSvalidation_label_validate_currency_dollar" type="integer">163075022</label>
+			<label index="JSvalidation_label_validate_selection" type="integer">52679539</label>
+			<label index="JSvalidation_label_validate_one_required" type="integer">220307784</label>
+			<label index="error_nomx" type="integer">187868650</label>
+			<label index="error_unique_field" type="integer">25228898</label>
+			<label index="error_unique_ip" type="integer">140324483</label>
+			<label index="powermailmarker_notitle" type="integer">178881436</label>
+			<label index="error_check_noTS" type="integer">208958781</label>
+			<label index="error_templateNotFound" type="integer">227801436</label>
+			<label index="geoip_ip" type="integer">123447511</label>
+			<label index="geoip_countryCode" type="integer">176281302</label>
+			<label index="geoip_countryName" type="integer">93787849</label>
+			<label index="geoip_region" type="integer">256146120</label>
+			<label index="geoip_city" type="integer">92079470</label>
+			<label index="geoip_zip" type="integer">70553491</label>
+			<label index="geoip_lng" type="integer">162677881</label>
+			<label index="geoip_lat" type="integer">206211834</label>
+			<label index="geoip_dmaCode" type="integer">104494091</label>
+			<label index="geoip_areaCode" type="integer">193838762</label>
+			<label index="error_captchaWrongExt" type="integer">215537546</label>
+			<label index="error_captchaNoExtFound" type="integer">118240955</label>
+			<label index="locallangmarker_error_file_mimetype" type="integer">114028701</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="locallangmarker_confirmation_question">Are these values correct?</label>
+			<label index="locallangmarker_confirmation_back">Go back</label>
+			<label index="locallangmarker_confirmation_files">Attached file %s: </label>
+			<label index="locallangmarker_confirmation_submit">Send values now</label>
+			<label index="locallangmarker_email_receiver">Thank you for your email:</label>
+			<label index="locallangmarker_email_sender">You've got a new email:</label>
+			<label index="locallangmarker_mandatory_message">There are some errors:</label>
+			<label index="locallangmarker_mandatory_emptyfield">This field must be filled:</label>
+			<label index="locallangmarker_mandatory_submit">Go back to the form</label>
+			<label index="locallangmarker_error_validemail">This is not a valid email address:</label>
+			<label index="locallangmarker_error_file_main">This file could not be uploaded:</label>
+			<label index="locallangmarker_error_file_toolarge">This file is too large:</label>
+			<label index="locallangmarker_error_file_extension">This file extension is not allowed:</label>
+			<label index="error_check_prefix">PowerMail error!! Please fill in this backend fields: </label>
+			<label index="error_check_subject_r">Email receiver subject</label>
+			<label index="error_check_recipient">Email address of receiver</label>
+			<label index="error_captcha_empty">Captcha Code empty</label>
+			<label index="error_captcha_wrong">Captcha Code wrong</label>
+			<label index="error_backend_noip">IP logging disabled</label>
+			<label index="error_validemail">Email address is not valid</label>
+			<label index="error_expression_validation">Validation failed</label>
+			<label index="multiple_forward">Next step</label>
+			<label index="multiple_back">Previous step</label>
+			<label index="pagebrowser_inner"> of </label>
+			<label index="JSvalidation_label_required">This is a required field</label>
+			<label index="JSvalidation_label_validate_number">Please enter a valid number in this field</label>
+			<label index="JSvalidation_label_validate_digits">Please use numbers only in this field. please avoid spaces or other characters such as dots or commas</label>
+			<label index="JSvalidation_label_validate_alpha">Please use letters only (a-z) in this field</label>
+			<label index="JSvalidation_label_validate_alphanum">Please use only letters (a-z) or numbers (0-9) only in this field. No spaces or other characters are allowed</label>
+			<label index="JSvalidation_label_validate_date">Please enter a valid date</label>
+			<label index="JSvalidation_label_validate_email">Please enter a valid email address (test@test.com)</label>
+			<label index="JSvalidation_label_validate_url">Please enter a valid URL (http://www.test.com)</label>
+			<label index="JSvalidation_label_validate_date_au">Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006</label>
+			<label index="JSvalidation_label_validate_currency_dollar">Please enter a valid $ amount. For example $100.00</label>
+			<label index="JSvalidation_label_validate_selection">Please make a selection</label>
+			<label index="JSvalidation_label_validate_one_required">Please select one of the above options</label>
+			<label index="error_nomx">Email address doesn't exist</label>
+			<label index="error_unique_field">%s was already used</label>
+			<label index="error_unique_ip">IP address %s already made an entry</label>
+			<label index="powermailmarker_notitle">ERROR: No title to current field found in DB (%s)</label>
+			<label index="error_check_noTS">ERROR: Typoscript for powermail missing!</label>
+			<label index="error_templateNotFound">Template not found, check path to your powermail templates</label>
+			<label index="geoip_ip">IP address</label>
+			<label index="geoip_countryCode">Country Code</label>
+			<label index="geoip_countryName">Country</label>
+			<label index="geoip_region">Region</label>
+			<label index="geoip_city">City</label>
+			<label index="geoip_zip">ZIP</label>
+			<label index="geoip_lng">LNG</label>
+			<label index="geoip_lat">LAT</label>
+			<label index="geoip_dmaCode">DMA Code</label>
+			<label index="geoip_areaCode">Area Code</label>
+			<label index="error_captchaWrongExt">Powermail ERROR: The chosen captcha extension &quot;%s&quot; is not loaded! Choose another captcha extension in the powermail constants or install the extension &quot;%s&quot;.</label>
+			<label index="error_captchaNoExtFound">Please install a captcha extension like captcha, sr_freecap, jm_recaptcha or wt_calculating_captcha!</label>
+			<label index="locallangmarker_error_file_mimetype">Uploaded file don't fits mime check:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

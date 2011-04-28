@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="title">Axuda TypoScript</label>
+			<label index="display">Amosar a axuda TypoScript</label>
+			<label index="rebuild">Reconstruír a axuda TypoScript</label>
+			<label index="referenceExplanation">Elexir dende os seguintes datos de referencia</label>
+			<label index="displayReferences">Mostrar a axuda TypoScript online</label>
+			<label index="loadedTSfrom">TypoScript cargado dende:</label>
+			<label index="sections">seccións</label>
+			<label index="rebuildTS">Reconstruír a axuda online</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="title" type="integer">55592368</label>
+			<label index="display" type="integer">162496165</label>
+			<label index="rebuild" type="integer">196790076</label>
+			<label index="referenceExplanation" type="integer">76872201</label>
+			<label index="displayReferences" type="integer">232607003</label>
+			<label index="loadedTSfrom" type="integer">119709196</label>
+			<label index="sections" type="integer">267706088</label>
+			<label index="rebuildTS" type="integer">12733294</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="title">TypoScript Help</label>
+			<label index="display">Display TypoScript Help</label>
+			<label index="rebuild">Rebuild TypoScript Help</label>
+			<label index="referenceExplanation">Choose from the following reference data</label>
+			<label index="displayReferences">Display TypoScript Online Help</label>
+			<label index="loadedTSfrom">Loaded TypoScript from:</label>
+			<label index="sections">sections</label>
+			<label index="rebuildTS">Rebuild TypoScript online help</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="clipBoard">Arata buffer-ul pentru zona ecran</label>
+			<label index="clip_paste">Copiere in continutul buffer-ului pentru zona ecran</label>
+			<label index="clip_pasteInto">Copiere in: Continutul buffer-ului pentru zona ecran a fost inserat in acest fisier</label>
+			<label index="clip_markRecords">Marcheaza tot/Nu marca nimic</label>
+			<label index="clip_selectMarked">Sterge fisiere marcate</label>
+			<label index="clip_deleteMarked">Sterge fisiere marcate</label>
+			<label index="clip_deleteMarkedWarning">Sunteti sigur a vreti sa stergeti toate fisierele marcate din acest fisier?</label>
+			<label index="displayThumbs">Afiseaza thumbnails</label>
+			<label index="c_file">Nume fisier</label>
+			<label index="c_size">Marime</label>
+			<label index="c_fileext">Tip</label>
+			<label index="c_tstamp">Data</label>
+			<label index="c_rw">Citire/Scriere</label>
+			<label index="files">Fisiere</label>
+			<label index="mlang_labels_tablabel">Listare fisiere in director</label>
+			<label index="mlang_labels_tabdescr">Acesta este sistemul de administrare al fisierelor din Typo3. Acest modul va permite accesarea fisierelor disponibile. Folosind acest modul puteti incarca, copia, muta si sterge fisiere de pe server.</label>
+			<label index="mlang_tabs_tab">Lista fisiere</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="displayThumbs" type="integer">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="Spell Checker">Revisor ortográfico</label>
+			<label index="CONFIRM_LINK_CLICK">Confirme que desea abrir este enlace</label>
+			<label index="Cancel">Cancelar</label>
+			<label index="Dictionary">Diccionario</label>
+			<label index="Finished list of mispelled words">Se ha terminado la lista de palabras mal escritas</label>
+			<label index="I will open it in a new page.">Lo abriré en una nueva página.</label>
+			<label index="Ignore all">Ignorar todas</label>
+			<label index="Ignore">Ignorar</label>
+			<label index="NO_ERRORS">No se han encontrado palabras mal escritas según el diccionario seleccionado.</label>
+			<label index="NO_ERRORS_CLOSING">Revisión ortográfica completada, no se encontraron palabras mal escritas. Cerrando...</label>
+			<label index="OK">Aceptar</label>
+			<label index="Original word">Palabra original</label>
+			<label index="Please wait. Calling spell checker.">Espere. Llamando al revisor ortográfico.</label>
+			<label index="Please wait: changing dictionary to">Espere: cambiando al diccionario</label>
+			<label index="HTMLArea Spell Checker">HTMLArea - Revisor ortográfico</label>
+			<label index="QUIT_CONFIRMATION">Esto anulará los cambios y se abandonará la revisión ortográfica. ¿Quiere continuar?</label>
+			<label index="Re-check">Volver a revisar</label>
+			<label index="Replace all">Sustituir todas</label>
+			<label index="Replace with">Sustituir con</label>
+			<label index="Replace">Sustituir</label>
+			<label index="Learn">Añadir al diccionario</label>
+			<label index="Revert">Restablecer</label>
+			<label index="SC-spell-check">Revisar ortografía</label>
+			<label index="Suggestions">Sugerencias</label>
+			<label index="One occurrence">Una ocurrencia</label>
+			<label index="Two occurrences">Dos ocurrencias</label>
+			<label index="occurrences">ocurrencias</label>
+			<label index="of the word">de la palabra</label>
+			<label index="was found.">se ha encontrado.</label>
+			<label index="were found.">se han encontrado.</label>
+			<label index="Document information">Información sobre el documento</label>
+			<label index="No information available">Ninguna información disponible</label>
+			<label index="Total words">Número de palabras en el documento</label>
+			<label index="Misspelled words">Número de palabras mal escritas</label>
+			<label index="Total suggestions">Número de sugerencias</label>
+			<label index="Total words suggested">Número total de palabras sugeridas</label>
+			<label index="Spelling checked in">Revisión realizada en</label>
+			<label index="seconds">segundos</label>
+			<label index="pliz weit ;-)">Espere par favor...</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="Spell Checker" type="integer">254910581</label>
+			<label index="CONFIRM_LINK_CLICK" type="integer">108074176</label>
+			<label index="Cancel" type="integer">245659783</label>
+			<label index="Dictionary" type="integer">62830429</label>
+			<label index="Finished list of mispelled words" type="integer">133530958</label>
+			<label index="I will open it in a new page." type="integer">265878635</label>
+			<label index="Ignore all" type="integer">178106496</label>
+			<label index="Ignore" type="integer">265304316</label>
+			<label index="NO_ERRORS" type="integer">228321476</label>
+			<label index="NO_ERRORS_CLOSING" type="integer">161618228</label>
+			<label index="OK" type="integer">235577377</label>
+			<label index="Original word" type="integer">66231380</label>
+			<label index="Please wait. Calling spell checker." type="integer">148918033</label>
+			<label index="Please wait: changing dictionary to" type="integer">239672371</label>
+			<label index="HTMLArea Spell Checker" type="integer">53028677</label>
+			<label index="QUIT_CONFIRMATION" type="integer">51730008</label>
+			<label index="Re-check" type="integer">79580335</label>
+			<label index="Replace all" type="integer">143973048</label>
+			<label index="Replace with" type="integer">162009250</label>
+			<label index="Replace" type="integer">15460063</label>
+			<label index="Learn" type="integer">216577856</label>
+			<label index="Revert" type="integer">86547441</label>
+			<label index="SC-spell-check" type="integer">166914019</label>
+			<label index="Suggestions" type="integer">69127335</label>
+			<label index="One occurrence" type="integer">221664781</label>
+			<label index="Two occurrences" type="integer">159856692</label>
+			<label index="occurrences" type="integer">55536701</label>
+			<label index="of the word" type="integer">127518453</label>
+			<label index="was found." type="integer">64986070</label>
+			<label index="were found." type="integer">142112845</label>
+			<label index="Document information" type="integer">71822581</label>
+			<label index="No information available" type="integer">635660</label>
+			<label index="Total words" type="integer">235123490</label>
+			<label index="Misspelled words" type="integer">239097890</label>
+			<label index="Total suggestions" type="integer">50316335</label>
+			<label index="Total words suggested" type="integer">252274671</label>
+			<label index="Spelling checked in" type="integer">26327379</label>
+			<label index="seconds" type="integer">126085346</label>
+			<label index="pliz weit ;-)" type="integer">39751471</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

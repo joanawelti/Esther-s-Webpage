@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="InsertCharacter-Tooltip">Вмъкни специален знак</label>
+			<label index="Insert special character">Вмъкни специален знак</label>
+			<label index="HTML value:">HTML стойност:</label>
+			<label index="Close">Затвори</label>
+			<label index="CharacterMapTooltip">Вмъкни специален знак</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="CharacterMapTooltip" type="integer">211069571</label>
+			<label index="Insert special character" type="integer">211069571</label>
+			<label index="HTML value:" type="integer">111194696</label>
+			<label index="Close" type="integer">222113377</label>
+			<label index="InsertCharacter-Tooltip" type="integer">211069571</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="CharacterMapTooltip">Insert special character</label>
+			<label index="Insert special character">Insert special character</label>
+			<label index="HTML value:">HTML value:</label>
+			<label index="Close">Close</label>
+			<label index="InsertCharacter-Tooltip">Insert special character</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

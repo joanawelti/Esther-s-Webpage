@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="type_1">Duomenų bazė</label>
+			<label index="action_1_1">Įterpti</label>
+			<label index="action_1_2">Atnujinti</label>
+			<label index="action_1_3">Pašalinti</label>
+			<label index="action_1_4">Tikrinti</label>
+			<label index="msg_1_0_1">Kreipties host '%s' ir serverio host '%s' nesutampa!</label>
+			<label index="msg_1_1_11">Bandymas įterpti įrašą į puslapį '%s' (%s), kuriame ši lentelė, %s, yra uždrausta</label>
+			<label index="msg_1_1_12">Bandote įterpti įrašą į puslapį '%s' (%s) iš '%s', kurioje neturite teisių. Arba toks puslapis neegzistuoja.</label>
+			<label index="msg_1_2_1">Bandymas keisti lentelę '%s', kurioje neturite teisių</label>
+			<label index="msg_1_2_2">Bandymas keisti įrašą '%s' (%s) kuriam neturite teisių. Arba toks puslapis neegzistuoja.</label>
+			<label index="msg_1_2_10">Įrašas '%s' (%s) buvo pakeistas.</label>
+			<label index="msg_1_2_12">MySQL klaida: '%s' (%s)</label>
+			<label index="msg_1_4_1">Bandymas perkelti įrašą '%s' (%s) po neegzistuojančio įrašo (uid=%s)</label>
+			<label index="msg_1_4_2">Įrašas '%s' (%s) perkeltas į puslapį '%s' (%s)</label>
+			<label index="msg_1_4_3">Įrašas '%s' (%s) perkeltas iš puslapio '%s' (%s)</label>
+			<label index="msg_1_4_4">Įrašas '%s' (%s) perkeltas puslapyje '%s' (%s)</label>
+			<label index="msg_1_4_10">Bandymas perkelti puslapį '%s' (%s) į jo pačio šaknies vidų (puslapyje '%s' (%s))</label>
+			<label index="msg_1_4_11">Bandymas įterpti įrašą puslapyje '%s' (%s), kuriame lentelė '%s' yra uždrausta</label>
+			<label index="msg_1_4_12">Bandymas įterpti įrašą puslapyje '%s' (%s) iš lentelės '%s', kurioje neturite teisių. Arba toks puslapis neegzistuoja.</label>
+			<label index="type_2">BYLA</label>
+			<label index="action_2_1">Įkelti</label>
+			<label index="action_2_2">Kopijuoti</label>
+			<label index="action_2_3">Perkelti</label>
+			<label index="action_2_4">Šalinti</label>
+			<label index="action_2_5">Pervardinti</label>
+			<label index="action_2_6">Naujas</label>
+			<label index="action_2_7">Išpakuoti</label>
+			<label index="action_2_8">Nauja byla</label>
+			<label index="action_2_9">Redaguoti</label>
+			<label index="msg_2_9_1">Byla išsaugota į &quot;%s&quot;, baitu: %s, MD5: %s</label>
+			<label index="type_254">NUSTATYMAI</label>
+			<label index="action_254_1">Keisti</label>
+			<label index="type_255">PRISIJUNGTI</label>
+			<label index="action_255_1">PRISIJUNGTI</label>
+			<label index="action_255_2">ATSIJUNGTI</label>
+			<label index="action_255_3">BANDYMAS</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="type_1" type="double">10855639</label>
+			<label index="action_1_1" type="integer">172329952</label>
+			<label index="action_1_2" type="double">6894342</label>
+			<label index="action_1_3" type="integer">254438473</label>
+			<label index="action_1_4" type="double">6340397</label>
+			<label index="type_2" type="integer">167532679</label>
+			<label index="action_2_2" type="integer">100361047</label>
+			<label index="action_2_3" type="integer">112997933</label>
+			<label index="action_2_4" type="integer">254438473</label>
+			<label index="action_2_5" type="integer">151300144</label>
+			<label index="action_2_6" type="double">3944062</label>
+			<label index="action_2_7" type="integer">31401173</label>
+			<label index="action_2_8" type="integer">109175050</label>
+			<label index="action_2_9" type="integer">131916066</label>
+			<label index="msg_2_9_1" type="integer">149514802</label>
+			<label index="action_2_1" type="integer">152310342</label>
+			<label index="type_254" type="integer">161787140</label>
+			<label index="action_254_1" type="integer">256820725</label>
+			<label index="type_255" type="integer">77032828</label>
+			<label index="action_255_1" type="integer">77032828</label>
+			<label index="action_255_2" type="integer">112519785</label>
+			<label index="action_255_3" type="integer">161988289</label>
+			<label index="msg_1_0_1" type="integer">70548717</label>
+			<label index="msg_1_1_11" type="integer">113973720</label>
+			<label index="msg_1_1_12" type="integer">167498403</label>
+			<label index="msg_1_2_1" type="integer">187428754</label>
+			<label index="msg_1_2_2" type="integer">168680547</label>
+			<label index="msg_1_2_10" type="integer">50242733</label>
+			<label index="msg_1_2_12" type="integer">164149189</label>
+			<label index="msg_1_4_1" type="integer">75848781</label>
+			<label index="msg_1_4_2" type="integer">24550273</label>
+			<label index="msg_1_4_3" type="integer">243438751</label>
+			<label index="msg_1_4_4" type="integer">159912378</label>
+			<label index="msg_1_4_10" type="integer">219657970</label>
+			<label index="msg_1_4_11" type="integer">113973720</label>
+			<label index="msg_1_4_12" type="integer">167498403</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="type_1">DB</label>
+			<label index="action_1_1">Insert</label>
+			<label index="action_1_2">Update</label>
+			<label index="action_1_3">Delete</label>
+			<label index="action_1_4">Check</label>
+			<label index="type_2">FILE</label>
+			<label index="action_2_2">Copy</label>
+			<label index="action_2_3">Move</label>
+			<label index="action_2_4">Delete</label>
+			<label index="action_2_5">Rename</label>
+			<label index="action_2_6">New</label>
+			<label index="action_2_7">Unzip</label>
+			<label index="action_2_8">New file</label>
+			<label index="action_2_9">Edit</label>
+			<label index="msg_2_9_1">File saved to '%s', bytes: %s, MD5: %s </label>
+			<label index="action_2_1">Upload</label>
+			<label index="type_254">SETTING</label>
+			<label index="action_254_1">Change</label>
+			<label index="type_255">LOGIN</label>
+			<label index="action_255_1">LOGIN</label>
+			<label index="action_255_2">LOGOUT</label>
+			<label index="action_255_3">ATTEMPT</label>
+			<label index="msg_1_0_1">Referer host '%s' and server host '%s' did not match!</label>
+			<label index="msg_1_1_11">Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</label>
+			<label index="msg_1_1_12">Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</label>
+			<label index="msg_1_2_1">Attempt to modify table '%s' without permission</label>
+			<label index="msg_1_2_2">Attempt to modify record '%s' (%s) without permission. Or non-existing page.</label>
+			<label index="msg_1_2_10">Record '%s' (%s) was updated.</label>
+			<label index="msg_1_2_12">MySQL error: '%s' (%s)</label>
+			<label index="msg_1_4_1">Attempt to move record '%s' (%s) to after a non-existing record (uid=%s)</label>
+			<label index="msg_1_4_2">Moved record '%s' (%s) to page '%s' (%s)</label>
+			<label index="msg_1_4_3">Moved record '%s' (%s) from page '%s' (%s)</label>
+			<label index="msg_1_4_4">Moved record '%s' (%s) on page '%s' (%s)</label>
+			<label index="msg_1_4_10">Attempt to move page '%s' (%s) to inside of its own rootline (at page '%s' (%s))</label>
+			<label index="msg_1_4_11">Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</label>
+			<label index="msg_1_4_12">Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="introtext">Sistema de Gerenciamento de Conteúdo para Web</label>
+			<label index="introtext2">Abaixo, uma breve descrição dos módulos disponíveis:</label>
+			<label index="endText">Opções podem variar de acordo com seuwebsite e permissões</label>
+			<label index="userInfo">Você está identificado como: &lt;strong&gt;%s&lt;/strong&gt; (%s)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="introtext" type="integer">194562478</label>
+			<label index="introtext2" type="integer">234766952</label>
+			<label index="endText" type="integer">206585252</label>
+			<label index="userInfo" type="integer">170934145</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="introtext">Web Content Management System</label>
+			<label index="introtext2">This is a brief description of the available modules:</label>
+			<label index="endText">Features may vary depending on your website and permissions</label>
+			<label index="userInfo">You're logged in as user:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

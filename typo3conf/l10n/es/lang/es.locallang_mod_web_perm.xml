@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="permissions">Permisos</label>
+			<label index="ch_permissions">Cambiar permisos</label>
+			<label index="Legend">Leyenda</label>
+			<label index="Owner">Propietario</label>
+			<label index="Group">Grupo</label>
+			<label index="Everybody">Todos</label>
+			<label index="EditLock">Bloquear</label>
+			<label index="EditLock_descr">La página y todo su contenido está bloqueado para su edición para todos los usuarios distintos al administrador.</label>
+			<label index="Save">Guardar</label>
+			<label index="Abort">Abortar</label>
+			<label index="Edit">EDITAR</label>
+			<label index="recursive">Asignar recursivamente</label>
+			<label index="pages_affected">páginas afectadas</label>
+			<label index="user_overview">Resúmen de usuarios</label>
+			<label index="Mode">Modo</label>
+			<label index="Depth">Profundidad</label>
+			<label index="levels">niveles</label>
+			<label index="User">Usuario</label>
+			<label index="def">Definición: &quot;contenido&quot; son los registros de todas las tablas en una página - excepto los registros de la tabla &quot;pages&quot; (páginas)</label>
+			<label index="A_Granted">Acceso concedido</label>
+			<label index="A_Denied">Acceso negado</label>
+			<label index="1">Mostrar página</label>
+			<label index="16">Editar contenido</label>
+			<label index="2">Editar página</label>
+			<label index="4">Eliminar página</label>
+			<label index="8">Crear páginas</label>
+			<label index="1_t">Mostrar/Copiar página y su contenido</label>
+			<label index="16_t">Cambiar/Agregar/Eliminar/Mover contenido</label>
+			<label index="2_t">Cambiar/Mover página, pe cambiar el título, etc.</label>
+			<label index="4_t">Eliminar página y contenido</label>
+			<label index="8_t">Crear nuevas páginas bajo esta página</label>
+			<label index="mlang_labels_tablabel">Edición de permisos de la página</label>
+			<label index="mlang_labels_tabdescr">El especificar los permisos de las páginas es primordial para el control de acceso a las páginas por parte de los usuarios del backend. Ud. puede asignar un usuario y grupo como dueños de la página y especificar los permisos de acceso para cada uno.</label>
+			<label index="mlang_tabs_tab">Acceso</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<label index="1" type="integer">256624387</label>
+			<label index="16" type="integer">102695873</label>
+			<label index="2" type="integer">66732081</label>
+			<label index="4" type="integer">220131191</label>
+			<label index="8" type="integer">146653009</label>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="double">6517083</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="permissions">Permissions</label>
+			<label index="ch_permissions">Change permissions</label>
+			<label index="Legend">Legend</label>
+			<label index="Owner">Owner</label>
+			<label index="Group">Group</label>
+			<label index="Everybody">Everybody</label>
+			<label index="EditLock">Lock</label>
+			<label index="EditLock_descr">The page and all content is locked for editing by all non-Admin users.</label>
+			<label index="Save">Save</label>
+			<label index="Abort">Abort</label>
+			<label index="Edit">EDIT</label>
+			<label index="recursive">Set recursively</label>
+			<label index="pages_affected">pages affected</label>
+			<label index="user_overview">User overview</label>
+			<label index="Mode">Mode</label>
+			<label index="Depth">Depth</label>
+			<label index="levels">levels</label>
+			<label index="User">User</label>
+			<label index="def">Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</label>
+			<label index="A_Granted">Access Granted</label>
+			<label index="A_Denied">Access Denied</label>
+			<label index="1">Show page</label>
+			<label index="16">Edit content</label>
+			<label index="2">Edit page</label>
+			<label index="4">Delete page</label>
+			<label index="8">New pages</label>
+			<label index="1_t">Show/Copy page and content.</label>
+			<label index="16_t">Change/Add/Delete/Move content.</label>
+			<label index="2_t">Change/Move page, eg. change pagetitle etc.</label>
+			<label index="4_t">Delete page and content.</label>
+			<label index="8_t">Create new pages under this page.</label>
+			<label index="mlang_labels_tablabel">Page editing permissions</label>
+			<label index="mlang_labels_tabdescr">Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</label>
+			<label index="mlang_tabs_tab">Access</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

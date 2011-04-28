@@ -1,0 +1,2 @@
+a:2:{s:8:"origFile";s:75:"typo3/sysext/func_wizards/locallang_csh.xml|06-10-2010 10:40:05|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:3:{s:23:"tx_funcwizards.alttitle";s:12:"Page Wizards";s:26:"tx_funcwizards.description";s:159:"This submodule provides a framework where wizards can be added. Available wizards currently include a wizard for creating pages and sorting pages by title etc.";s:23:"_tx_funcwizards.seeAlso";s:64:"_MOD_web_func:tx_wizardcrpages,
+_MOD_web_func:tx_wizardsortpages";}}}

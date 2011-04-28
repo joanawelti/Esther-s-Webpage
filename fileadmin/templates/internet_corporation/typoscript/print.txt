@@ -1,0 +1,46 @@
+druck >
+druck = PAGE
+druck.typeNum=98
+druck.bodyTag =<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript:window.print()">
+druck.stylesheet = {$plugin.alt.print.file.stylesheet}
+
+druck.10 = TEMPLATE
+druck.10 {
+  template = FILE
+  template.file = {$plugin.alt.print.file.template}
+  marks {
+    PAGE_TITLE = TEXT
+    PAGE_TITLE.field = title
+    PAGE_SUBTITLE = TEXT
+    PAGE_SUBTITLE.field = subtitle
+    PAGE_AUTHOR = TEXT
+    PAGE_AUTHOR.field = author
+    PAGE_AUTHOR.required=1
+    PAGE_AUTHOR.typolink.parameter.field = author_email
+    PAGE_UID = TEXT
+    PAGE_UID.field = uid
+    INHALT < styles.content.get
+  }
+  workOnSubpart = DOKUMENT
+}
+####Ende Setup Druckversion#####
+
+druckansicht = COA
+druckansicht {
+10 = TEXT
+10.value = <meta http-equiv="refresh" content="0; URL=javascript:window.print()">
+10.wrap = <a target="_blank" href="index.php?id=|&type=98
+10.field = uid
+20 = TEXT
+20.wrap = &L=|">{$prn}</a>
+20.data = GPvar:L
+}
+
+
+temp1.druck = TEXT 
+temp1.druck {
+     field = uid
+value = <meta http-equiv="refresh" content="0; URL=javascript:window.print()">
+     wrap = <a href="index.php?id=|&type=98"><img src="fileadmin/templates/internet_corporation/images/print.png" border="0" alt="Seite drucken" title="Aktuelle Seite drucken"></a> 
+}
+

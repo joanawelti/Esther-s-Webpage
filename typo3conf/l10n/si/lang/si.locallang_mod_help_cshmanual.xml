@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="mlang_labels_tablabel">Vključen TYPO3 priročnik</label>
+			<label index="mlang_labels_tabdescr">Vključen priročnik, ki temelji na virih za sistem kontekstne pomoči</label>
+			<label index="mlang_tabs_tab">Priročnik</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="mlang_tabs_tab" type="integer">236691797</label>
+			<label index="mlang_labels_tablabel" type="integer">182726937</label>
+			<label index="mlang_labels_tabdescr" type="integer">207607230</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index="mlang_tabs_tab">Manual</label>
+			<label index="mlang_labels_tablabel">TYPO3 Inline Manual</label>
+			<label index="mlang_labels_tabdescr">Inline Manual based on the information sources for Context Sensitive Help in the system.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

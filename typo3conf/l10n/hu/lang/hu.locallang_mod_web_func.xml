@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hu" type="array">
+			<label index="title">Egyéb műveletek</label>
+			<label index="clickAPage_content">Kattints az oldal címére az oldalfában.</label>
+			<label index="mlang_labels_tablabel">Egyéb műveletek</label>
+			<label index="mlang_labels_tabdescr">Itt találod az általános export és import funkciókat, és az egyéb speciális varázslókat.</label>
+			<label index="mlang_tabs_tab">Műveletek</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hu" type="array">
+			<label index="title" type="integer">155530193</label>
+			<label index="clickAPage_content" type="integer">74170385</label>
+			<label index="mlang_labels_tablabel" type="integer">155530193</label>
+			<label index="mlang_labels_tabdescr" type="integer">78025753</label>
+			<label index="mlang_tabs_tab" type="integer">244559025</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

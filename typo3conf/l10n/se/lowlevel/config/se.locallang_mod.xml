@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="mlang_labels_tablabel">Visa konfigurationer gjorda i localconf.php och tables.php</label>
+			<label index="mlang_labels_tabdescr">Ger dig möjlighet att visa värdena i $TCA-vektorn (tabellkonfiguration) och $TYPO3_CONF_VARS. Du kan inte ändra några värden, endast visa dem.&lt;br /&gt;&lt;em&gt;Tillgängligt endast för 'admin'-användare!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Konfiguration</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="mlang_labels_tablabel" type="integer">205342864</label>
+			<label index="mlang_labels_tabdescr" type="integer">172430134</label>
+			<label index="mlang_tabs_tab" type="integer">39122498</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="mlang_labels_tablabel">View configuration from localconf.php and tables.php</label>
+			<label index="mlang_labels_tabdescr">Allows you to browse the values of the $TCA array (table configuration) and $TYPO3_CONF_VARS. You cannot set any values, only browse them.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Configuration</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

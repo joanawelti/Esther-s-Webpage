@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">Taak Centrum met overzichten, berichten, ToDo lijsten</label>
+			<label index="mlang_labels_tabdescr">Het Taak Centrum geeft toegang tot de interne ToDo lijst, berichten, NotitieBlok, Acties enz. Het bevat ook snelkoppelingen naar de beschikbare modules en onlangs aangepaste pagina's. In het Taak Centrum zijn de dagelijkse taken en werkschema's te volgen.</label>
+			<label index="mlang_tabs_tab">Taakcentrum</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">Task Center with overviews, messages, ToDo lists</label>
+			<label index="mlang_labels_tabdescr">The task center provides access to your internal To-Do list, messages, Quick-note, actions etc. It also provides shortcuts to your available frontend modules and most recently edited pages. The Task Center is where you keep track of your daily tasks and workflows.</label>
+			<label index="mlang_tabs_tab">Task center</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

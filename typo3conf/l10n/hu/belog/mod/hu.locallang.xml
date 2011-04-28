@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hu" type="array">
+			<label index="type_1">AB</label>
+			<label index="action_1_1">Beszúrás</label>
+			<label index="action_1_2">Módosítás</label>
+			<label index="action_1_3">Törlés</label>
+			<label index="action_1_4">Ellenőrzés</label>
+			<label index="msg_1_0_1">A(z) '%s' hivatkozó gép és a '%s' szervergép nem egyezik!</label>
+			<label index="msg_1_1_11">Megpróbáltál egy rekordot beszúrni a(z) '%s' %s oldalon, ahol a(z) %s tábla nem engedélyezett</label>
+			<label index="msg_1_1_12">Megpróbáltál egy rekordot beszúrni a(z) '%s' %s oldalon a(z) '%s' táblából jogosultság nélkül. Vagy az oldal nem létezik.</label>
+			<label index="msg_1_2_1">Jogosultság nélkül kísérled meg módosítani a(z) '%s' táblát.</label>
+			<label index="msg_1_2_2">Jogosultság nélkül kísérled meg módosítani a(z) '%s' (%s) rekordot. Vagy nem létező oldal.</label>
+			<label index="msg_1_2_10">A(z) '%s' (%s) rekord frissítve.</label>
+			<label index="msg_1_2_12">MySQL hiba: '%s' (%s)</label>
+			<label index="msg_1_4_1">Megpróbáltad átmozgatni a '%s' (%s) rekordot egy nem létező rekord mögé (uid=%s)</label>
+			<label index="msg_1_4_2">A(z) '%s' (%s) rekordot átmozgattam a(z) '%s' (%s) oldalra</label>
+			<label index="msg_1_4_3">A(z) '%s' (%s) rekordot átmozgattam a(z) '%s' (%s) oldalról</label>
+			<label index="msg_1_4_4">A(z) '%s' (%s) rekordot átmozgattam a(z) '%s' (%s) oldalon</label>
+			<label index="msg_1_4_10">Megpróbáltad mozgatni a '%s' (%s) oldalt a saját gyökerén belülre (a '%s' (%s) oldalnál)</label>
+			<label index="msg_1_4_11">Megpróbáltál rekordot beilleszteni az '%s' (%s) oldalon, ahol ez a táblázat, %s, nem engedélyezett</label>
+			<label index="msg_1_4_12">Megpróbáltál beilleszteni egy rekordot az '%s' (%s) oldalon a '%s' táblázatból jogosultság nélkül. Vagy nem létező oldal.</label>
+			<label index="msg_1_4_13">Megpróbáltad mozgatni a '%s' (%s) rekordot egy másik rekord mögé, habár a táblázatnak nincs rendező sora.</label>
+			<label index="msg_1_4_14">Jogosultság nélkül próbáltad mozgatni a '%s' (%s) rekordot</label>
+			<label index="msg_1_5_1">Nem változtathatod meg az '%s' oldal 'doktype' értékét a kívántra.</label>
+			<label index="msg_1_5_2">A '%s' oldal 'doktype' értéke nem változtatható meg, mert az oldal rekordokat tartalmaz nem engedélyezett táblákból; %s</label>
+			<label index="msg_1_5_3">Túl kevés elem az értékek listájában. (%s)</label>
+			<label index="msg_1_5_10">Nem tudom törölni a következő file-t '%s' (nem létezik). (%s)</label>
+			<label index="msg_1_5_11">A file '%s' másolása nem sikerült!: Célfile (%s) mentése nem lehetséges! (%s)</label>
+			<label index="msg_1_5_12">A '%s' filekiterjesztés nem engedélyezett. (%s)</label>
+			<label index="msg_1_5_13">A mérete (%s) a '%s' file-nak túllépi a megengedettet (%s). (%s)</label>
+			<label index="msg_1_5_14">A cél- (%s) vagy a forrásfile (%s) nem létezik. (%s)</label>
+			<label index="msg_1_5_15">A file '%s' másolása nem sikerült! (%s)</label>
+			<label index="msg_1_5_16">A file '%s' másolása nem sikerült! A cél útvonal (%s) írásvédett lehet. Tedd írhatóvá! (%s)</label>
+			<label index="type_2">FILE</label>
+			<label index="action_2_1">Feltöltés</label>
+			<label index="action_2_2">Másolás</label>
+			<label index="action_2_3">Átmozgatás</label>
+			<label index="action_2_4">Törlés</label>
+			<label index="action_2_5">Átnevezés</label>
+			<label index="action_2_6">Új</label>
+			<label index="action_2_7">Unzip</label>
+			<label index="action_2_8">Új file</label>
+			<label index="action_2_9">Szerkesztés</label>
+			<label index="msg_2_9_1">File elmentve ide '%s', byte-ok: %s, MD5: %s</label>
+			<label index="type_254">BEÁLLÍTÁS</label>
+			<label index="action_254_1">Változtatás</label>
+			<label index="type_255">BELÉPÉS</label>
+			<label index="action_255_1">BELÉPÉS</label>
+			<label index="action_255_2">KILÉPÉS</label>
+			<label index="action_255_3">PRÓBÁLKOZÁS</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hu" type="array">
+			<label index="type_1" type="integer">10855639</label>
+			<label index="action_1_1" type="integer">172329952</label>
+			<label index="action_1_2" type="integer">6894342</label>
+			<label index="action_1_3" type="integer">254438473</label>
+			<label index="action_1_4" type="integer">6340397</label>
+			<label index="msg_1_0_1" type="integer">70548717</label>
+			<label index="msg_1_1_11" type="integer">113973720</label>
+			<label index="msg_1_1_12" type="integer">167498403</label>
+			<label index="msg_1_2_1" type="integer">187428754</label>
+			<label index="msg_1_2_2" type="integer">168680547</label>
+			<label index="msg_1_2_10" type="integer">50242733</label>
+			<label index="msg_1_2_12" type="integer">164149189</label>
+			<label index="msg_1_4_1" type="integer">75848781</label>
+			<label index="msg_1_4_2" type="integer">24550273</label>
+			<label index="msg_1_4_3" type="integer">243438751</label>
+			<label index="msg_1_4_4" type="integer">159912378</label>
+			<label index="msg_1_4_10" type="integer">219657970</label>
+			<label index="msg_1_4_11" type="integer">113973720</label>
+			<label index="msg_1_4_12" type="integer">167498403</label>
+			<label index="msg_1_4_13" type="integer">45136571</label>
+			<label index="msg_1_4_14" type="integer">258165763</label>
+			<label index="msg_1_5_1" type="integer">166647972</label>
+			<label index="msg_1_5_2" type="integer">78624514</label>
+			<label index="msg_1_5_3" type="integer">38942153</label>
+			<label index="msg_1_5_10" type="integer">254767008</label>
+			<label index="msg_1_5_11" type="integer">205650444</label>
+			<label index="msg_1_5_12" type="integer">31746478</label>
+			<label index="msg_1_5_13" type="integer">105741654</label>
+			<label index="msg_1_5_14" type="integer">88412649</label>
+			<label index="msg_1_5_15" type="integer">117185361</label>
+			<label index="msg_1_5_16" type="integer">51969264</label>
+			<label index="type_2" type="integer">167532679</label>
+			<label index="action_2_1" type="integer">152310342</label>
+			<label index="action_2_2" type="integer">100361047</label>
+			<label index="action_2_3" type="integer">112997933</label>
+			<label index="action_2_4" type="integer">254438473</label>
+			<label index="action_2_5" type="integer">151300144</label>
+			<label index="action_2_6" type="integer">3944062</label>
+			<label index="action_2_7" type="integer">31401173</label>
+			<label index="action_2_8" type="integer">109175050</label>
+			<label index="action_2_9" type="integer">131916066</label>
+			<label index="msg_2_9_1" type="integer">149514802</label>
+			<label index="type_254" type="integer">161787140</label>
+			<label index="action_254_1" type="integer">256820725</label>
+			<label index="type_255" type="integer">77032828</label>
+			<label index="action_255_1" type="integer">77032828</label>
+			<label index="action_255_2" type="integer">112519785</label>
+			<label index="action_255_3" type="integer">161988289</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

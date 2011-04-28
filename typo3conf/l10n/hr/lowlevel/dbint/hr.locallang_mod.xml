@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="mlang_labels_tablabel">Provjera cjelovitosti baze podataka</label>
+			<label index="mlang_labels_tabdescr">Ovdje možete provjeriti cjelovitost tablica baze podataka konfiguriranih pomoću $TCA. Na primjer svi zapisi moraju pripadati nekoj stranici zapisa. Također, dodatno se provjerava postojanje snimljenih datoteka pridruženih zapisima (uobičajeno se nalaze u direktorijima uploads/*). Nadalje možete dobiti pregled cijelog stabla stranica, uključujući izbrisane stranice. Na kraju, imate pristup pretraživaču globalne baze podataka.&lt;BR&gt;&lt;em&gt;Pristup samo za 'admin' korisnike!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB provjera</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

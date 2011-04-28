@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index=".description">Nota interna de lembrete adicionada a uma página.</label>
+			<label index=".details">Possibilita um modo simples de anexar notas instrucionais a uma página, sobre assuntos relativos à administração. Use-a como quiser para lembretes, instruções, etc.</label>
+			<label index="category.description">Selecione uma categoria para descrever a característica da nota.</label>
+			<label index="subject.description">Digite um título para a nota.</label>
+			<label index="message.description">Este é o conteúdo da nota.</label>
+			<label index="author.description">Digite seu nome.</label>
+			<label index="email.description">Digite seu endereço de e-mail.</label>
+			<label index="personal.description">Marque esta opção, se não quiser que outros usuários vejam esta nota.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index=".description" type="integer">112425504</label>
+			<label index=".details" type="integer">141602016</label>
+			<label index="category.description" type="integer">222277377</label>
+			<label index="subject.description" type="integer">58235458</label>
+			<label index="message.description" type="integer">268248387</label>
+			<label index="author.description" type="integer">205434485</label>
+			<label index="email.description" type="integer">259302369</label>
+			<label index="personal.description" type="integer">172550456</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

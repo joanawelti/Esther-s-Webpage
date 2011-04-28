@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="username.description">Introduzca el nombre de usuario del usuario del sitio web. Esto es necesario para acceder</label>
+			<label index="username.syntax">Se necesita un nombre de usuario y debe estar en minúsculas y sin espacios. El nombre de usuario debe ser único en la página en la que se almacenó. Si no es único se le añadirá un número automáticamente</label>
+			<label index="password.description">Introduce la clave para el nombre de usuario de arriba. Se necesita para acceder.</label>
+			<label index="password.syntax">Se necesita una clave y debe estar en minúsculas y sin espacios.</label>
+			<label index="usergroup.description">Selecciona un grupo de usuarios para el usuario</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="username.description" type="integer">107422140</label>
+			<label index="username.syntax" type="integer">266882532</label>
+			<label index="password.description" type="integer">10412940</label>
+			<label index="password.syntax" type="integer">68458992</label>
+			<label index="usergroup.description" type="integer">171809046</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="username.description">Enter the username of the website user. This is needed to login.</label>
+			<label index="username.syntax">A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.</label>
+			<label index="password.description">Enter the password for the username above. This is needed to login.</label>
+			<label index="password.syntax">A password is required and must be in lowercase without spaces in it.</label>
+			<label index="usergroup.description">Select a user group for the username.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

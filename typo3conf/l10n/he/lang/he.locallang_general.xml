@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="LGL.endtime">עצור:</label>
+			<label index="LGL.hidden">החביא:</label>
+			<label index="LGL.starttime">התחל:</label>
+			<label index="LGL.fe_group">גישה:</label>
+			<label index="LGL.hide_at_login">החביא בכניסה למערכת</label>
+			<label index="LGL.any_login">הצג בכל כניסה למערכת</label>
+			<label index="LGL.usergroups">קבוצות משתמשים:</label>
+			<label index="LGL.type">סוג:</label>
+			<label index="LGL.description">תיאור:</label>
+			<label index="LGL.prependAtCopy">(העתק %)</label>
+			<label index="LGL.layout">סידור:</label>
+			<label index="LGL.default_value">ברירת מחדל</label>
+			<label index="LGL.normal">רגיל</label>
+			<label index="LGL.images">תמונות:</label>
+			<label index="LGL.image">תמונה:</label>
+			<label index="LGL.caption">מלות-הסבר:</label>
+			<label index="LGL.subheader">תת-כותרת:</label>
+			<label index="LGL.text">טקסט:</label>
+			<label index="LGL.name">שם:</label>
+			<label index="LGL.title">כותרת:</label>
+			<label index="LGL.address">כתובת:</label>
+			<label index="LGL.phone">טלפון:</label>
+			<label index="LGL.fax">פקס:</label>
+			<label index="LGL.author">יוצר:</label>
+			<label index="LGL.email">דוא''ל:</label>
+			<label index="LGL.company">חברה:</label>
+			<label index="LGL.city">עיר:</label>
+			<label index="LGL.zip">מיקוד:</label>
+			<label index="LGL.country">מדינה:</label>
+			<label index="LGL.www">אתר אינטרנט:</label>
+			<label index="LGL.note">הערה:</label>
+			<label index="LGL.parameters">פרמטרים:</label>
+			<label index="LGL.code">קוד:</label>
+			<label index="LGL.links">קישורים:</label>
+			<label index="LGL.language">שפה:</label>
+			<label index="LGL.category">קטגוריה:</label>
+			<label index="LGL.shortcut_page">קיצור דרך לדף:</label>
+			<label index="LGL.keywords">מלות מפתח (,):</label>
+			<label index="LGL.disable">נטרל:</label>
+			<label index="LGL.startingpoint">נקודת התחלה:</label>
+			<label index="LGL.disableRTE">נטרל עורך Rich Text</label>
+			<label index="LGL.external">כתובת אינטרנט חיצונית:</label>
+			<label index="LGL.recursive">רקורסיבי (חוזר על עצמו)</label>
+			<label index="LGL.l18n_parent">תרגום מקור:</label>
+			<label index="LGL.allLanguages">[הכל]</label>
+			<label index="LGL.versionLabel">תווית גרסה:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="LGL.endtime" type="integer">167679436</label>
+			<label index="LGL.hidden" type="integer">187640334</label>
+			<label index="LGL.starttime" type="integer">14051517</label>
+			<label index="LGL.fe_group" type="integer">152799121</label>
+			<label index="LGL.hide_at_login" type="integer">226183283</label>
+			<label index="LGL.any_login" type="integer">160946861</label>
+			<label index="LGL.usergroups" type="integer">157574305</label>
+			<label index="LGL.type" type="integer">241539922</label>
+			<label index="LGL.description" type="integer">218120871</label>
+			<label index="LGL.prependAtCopy" type="integer">255966033</label>
+			<label index="LGL.layout" type="integer">229574886</label>
+			<label index="LGL.default_value" type="integer">128029197</label>
+			<label index="LGL.normal" type="integer">157332556</label>
+			<label index="LGL.images" type="integer">160221445</label>
+			<label index="LGL.image" type="integer">73502731</label>
+			<label index="LGL.caption" type="integer">173808390</label>
+			<label index="LGL.subheader" type="integer">184069646</label>
+			<label index="LGL.text" type="integer">248708136</label>
+			<label index="LGL.name" type="integer">81871034</label>
+			<label index="LGL.title" type="integer">85903807</label>
+			<label index="LGL.address" type="integer">46079327</label>
+			<label index="LGL.phone" type="integer">108244482</label>
+			<label index="LGL.fax" type="integer">14875483</label>
+			<label index="LGL.author" type="integer">152306160</label>
+			<label index="LGL.email" type="integer">111272549</label>
+			<label index="LGL.company" type="integer">98955432</label>
+			<label index="LGL.city" type="integer">201307921</label>
+			<label index="LGL.zip" type="integer">156650211</label>
+			<label index="LGL.country" type="integer">258260574</label>
+			<label index="LGL.www" type="integer">250096340</label>
+			<label index="LGL.note" type="integer">264885215</label>
+			<label index="LGL.parameters" type="integer">222124821</label>
+			<label index="LGL.code" type="integer">102879645</label>
+			<label index="LGL.links" type="integer">198772955</label>
+			<label index="LGL.language" type="integer">8937228</label>
+			<label index="LGL.category" type="integer">90868382</label>
+			<label index="LGL.shortcut_page" type="integer">52292198</label>
+			<label index="LGL.keywords" type="integer">154314501</label>
+			<label index="LGL.disable" type="integer">43554746</label>
+			<label index="LGL.startingpoint" type="integer">79778717</label>
+			<label index="LGL.disableRTE" type="integer">146298503</label>
+			<label index="LGL.external" type="integer">76246465</label>
+			<label index="LGL.recursive" type="integer">152463034</label>
+			<label index="LGL.l18n_parent" type="integer">166415577</label>
+			<label index="LGL.allLanguages" type="integer">24137953</label>
+			<label index="LGL.versionLabel" type="integer">210163440</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Interni podsjetnik postavljen na stranicu.</label>
+			<label index=".details">Ovo je jednostavan način za prilaganje instrukcijskih bilješki na stranicu vezanih uz backend. Koristite ga kako želite za podsjetnike, instrukcije itd.</label>
+			<label index="category.description">Izaberite kategoriju koja opisuje karakter bilješke.</label>
+			<label index="subject.description">Unesite naslov bilješke.</label>
+			<label index="message.description">Ovo je sama bilješka.</label>
+			<label index="author.description">Unesite vaše ime.</label>
+			<label index="email.description">Unesite vašu email adresu.</label>
+			<label index="personal.description">Označite ovo, ako ne želite da ostali korisnici vide ovu bilješku.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description" type="integer">112425504</label>
+			<label index=".details" type="integer">141602016</label>
+			<label index="category.description" type="integer">222277377</label>
+			<label index="subject.description" type="integer">58235458</label>
+			<label index="message.description" type="integer">268248387</label>
+			<label index="author.description" type="integer">205434485</label>
+			<label index="email.description" type="integer">259302369</label>
+			<label index="personal.description" type="integer">172550456</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

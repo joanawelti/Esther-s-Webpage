@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="tx_wizardsortpages.alttitle">مرشد فرز الصفحات</label>
+			<label index="tx_wizardsortpages.description">يمكن هذا الملف من فرز الصفحات أبجديا وفقا العنوان أو العنوان  الجانبي،أو وفقا لتاريخ الإنشاء إلى آخره.ويمكنك ايضا هذا الملف من عكس ترتيب الصفحات داخل صفحة الشجرة.</label>
+			<label index="tx_wizardsortpages.details">عادة ما ترتب الصفحات داخل صفحة الشجرة ترتيبا يدويا.فمن الممكن أن تنقل صفحة إلى أعلى أو إلى أسفل إلى أخ.كما  ويمكنكن هذا المرشد من تغير ترتيب الصفحات الجانبية يدويا.
+فقط عليك بالضغط على على إحدى الروابط المدرجة أسفل صفحة المرشد:
+ 
+&lt;b&gt;عنوان الصفحة&lt;/b&gt;
+يقوم الرابط بفرز الصفحات وفقا لعناوينها.
+
+&lt;b&gt;عنوان جانبي&lt;/b&gt;
+يقوم الرابط بفرز الصفحات وفقا لحق العنوان الجانبي.
+
+
+&lt;b&gt;تاريخ- التغير&lt;/b&gt;
+يقوم الرابط بفرز الصفحات وفقا لتاريخ آخر تغير حدث بها.
+
+&lt;b&gt;تاريخ -الإنشاء&lt;/b&gt;
+يقوم الرابط بفرز الصفحات وفقا لتاريخ نشاءها.
+
+&lt;b&gt;عكس الترتيب الحالي&lt;/b&gt;
+إضغط على هذا الرابط لعكس الترتيب الحالي.على سبيل المثال، إذا ما أردت فرز الصفحات  فرزا أبجديا تنازليا فعليك أولا بفرز الصفحات وفقا للعنوان ثم تقوم بعكس الترتيب بالضغط على هذا الرابط.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="tx_wizardsortpages.alttitle" type="integer">256705929</label>
+			<label index="tx_wizardsortpages.description" type="integer">192390591</label>
+			<label index="tx_wizardsortpages.details" type="integer">122743470</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="tx_wizardsortpages.alttitle">Sort Pages wizard</label>
+			<label index="tx_wizardsortpages.description">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</label>
+			<label index="tx_wizardsortpages.details">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+&lt;b&gt;Page title&lt;/b&gt;
+Will sort pages by their page title.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Will sort page by their Subtitle field.
+
+&lt;b&gt;Change-time&lt;/b&gt;
+Will sort pages by the date they were last changed.
+
+&lt;b&gt;Create-time&lt;/b&gt;
+Will sort pages by their creation date.
+
+&lt;b&gt;Reverse current order&lt;/b&gt;
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

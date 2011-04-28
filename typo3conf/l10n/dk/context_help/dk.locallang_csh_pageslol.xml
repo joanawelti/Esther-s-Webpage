@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">Repræsentrer et alternativt sprog for siden.</label>
+			<label index=".details">Dette post indeholder næsten samme felter som en almindelig sidepost. Dog kun de felter som normalt kræver oversættelse hvis andet sprog bruges. Lav kun én alternativ post for hvert sprog ud over standard sproget. Hvis der eksisterer mere end en post til et givet sprog, er det tilfældigt hvilken post der bliver brugt!
+
+Før alternative sprogversioner kan bruges, skal der laves et 'master' sprog som er det sprog der bliver brugt normalt. F.eks. dansk. TypoScript skabelonen skal være opsat til at bruge alternative sprogversionen for at det virker.
+
+Når en alternativ version af en side vises, virker det ved, at de felter der er defineret i den alternative sprogversion vises i stedet for de data der er fra originalposten (den med default sprog).</label>
+			<label index="hidden.description">Brug dette felt til midlertidigt at deaktivere en alternativ sprogversion af en side.</label>
+			<label index="hidden.details">Denne mulighed er praktisk i processen når en ny sprogversion oprettes. Så længe sprogversionen er deaktiveret, vises den kun hvis man er logget ind i backenden, og har preview aktiveret i administrationspanelet.</label>
+			<label index="starttime.description">'Start'-feltet bestemmer fra hvilken dato sprogversionen er aktiv.</label>
+			<label index="endtime.description">'Stop'-feltet bestemmer fra hvilken dato sprogversionen ikke længere bliver vist i frontenden.</label>
+			<label index="title.description">Sprogversionens titel.</label>
+			<label index="subtitle.description">Sprogversionens alternative undertitel.</label>
+			<label index="keywords.description">Sprogversionens nøgleord. Bruges til meta-tag.</label>
+			<label index="description.description">Sprogversionen beskrivelse.  Bruges til meta-tag.</label>
+			<label index="abstract.description">Sprogversionens resumé. Resuméet bruges i modsætning til 'beskrivelse'-feltet ikke i meta-tags for siden.</label>
+			<label index="author.description">Sprogversionens forfatter. Brug af forfatterfelt for side og sprogversion er afhængig af websitets TypoScript skabelon.</label>
+			<label index="author_email.description">Forfatterens e-mail-adresse.</label>
+			<label index="media.description">Vedhæftede filer. Brugen af vedhæftede filer er defineret i websitets TypoScript skabelon.</label>
+			<label index="sys_language_uid.description">Vælg hvilket sprog denne sprogversion repræsenterer.</label>
+			<label index="nav_title.description">En alternativ navigationstitel for sprogversionen. Hvis denne er angivet bruges denne i menuen i stedet for sidens titel.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description" type="integer">230200392</label>
+			<label index=".details" type="integer">27958106</label>
+			<label index="hidden.description" type="integer">148737156</label>
+			<label index="hidden.details" type="integer">56904419</label>
+			<label index="starttime.description" type="integer">162646530</label>
+			<label index="endtime.description" type="integer">213075354</label>
+			<label index="title.description" type="integer">168754082</label>
+			<label index="subtitle.description" type="integer">249795538</label>
+			<label index="keywords.description" type="integer">81696492</label>
+			<label index="description.description" type="integer">137311270</label>
+			<label index="abstract.description" type="integer">114774738</label>
+			<label index="author.description" type="integer">135693417</label>
+			<label index="author_email.description" type="integer">230171675</label>
+			<label index="media.description" type="integer">117106707</label>
+			<label index="sys_language_uid.description" type="integer">76275608</label>
+			<label index="nav_title.description" type="integer">132510765</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">Represents an alternative language for the page.</label>
+			<label index=".details">These records contains fields very similar to the Page records, exactly those fields which should be translated to another language in case you want a localized version of the page.
+Create only ONE Alternative Page Language record of a specific language in each page. Having more than one record will leave it uncertain which of them is used when the page is displayed.
+
+Before you can create Alternative Page Language records you should create a 'master' language to be available in the root of the website (&quot;Website Language&quot;)
+The TypoScript template must be configured to allow other languages as well.
+
+Technically when an alternative language is being viewed, the content of the Alternative Page Language record is simply overlaid on the actual page records thus substituting the content of the fields in the default language.</label>
+			<label index="hidden.description">Use this to temporarily disable the alternative language overlay for this page.</label>
+			<label index="hidden.details">Setting this option is practical in the phase of adding the extra language. When it is set, the alternative content will not be displayed unless you - as an logged in backend user - enableds the Admin Panel&gt;Preview&gt;Show hidden records option.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the alternative language will be available online.</label>
+			<label index="endtime.description">The 'End' time determines the date from which the alternative language will be available online.</label>
+			<label index="title.description">Enter the title of the alternative language.</label>
+			<label index="subtitle.description">Enter the subtitle of the alternative language.</label>
+			<label index="keywords.description">Enter the keywords of the alternative language.</label>
+			<label index="description.description">Enter the description of the alternative language.</label>
+			<label index="abstract.description">Enter the abstract of the alternative language.</label>
+			<label index="author.description">Enter the author of the alternative language.</label>
+			<label index="author_email.description">Enter the author email address of the alternative language.</label>
+			<label index="media.description">Enter the media files of the alternative language.</label>
+			<label index="sys_language_uid.description">Select the Alternative Language represented by this record.</label>
+			<label index="nav_title.description">Enter optional navigation title of the alternative language.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

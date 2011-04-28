@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="Path">Sti</label>
+			<label index="TEXT_MODE">Du er i TEKST TILSTAND. Benyt [&lt;&gt;] knappen for at skifte til WYSIWYG.</label>
+			<label index="ActiveX-required">Indlæsning af editoren i Internet Explorer kræver at eksekvering af ActiveX kontroller er slået til.</label>
+			<label index="HTML-document-not-well-formed">HTML dokumentet indeholder fejl.</label>
+			<label index="Moz-Clipboard">Uprivilligerede scripts kan ikke tilgå klip/kopiér/indsæt af sikkerheds grunde. Klik OK for at læse et teknisk notat (på engelsk) på mozilla.org, som også viser dig hvordan du kan tillade et script at tilgå klippebordet.</label>
+			<label index="Moz-Extension">Af sikkerhedsmæssige årsager, kan uprivilligerede applikationer ikke tilgå klippebordet. Klik OK for at installere et komponent der vil tillade applikationer fra dette websted i at tilgå klippebordet og udføre klip/kopiér og indsæt.</label>
+			<label index="Moz-Extension-Success">Installationen var succesfuld. Du skal genstarte din browser for at ændringer træder i kraft.</label>
+			<label index="Moz-Extension-Failure">Beklager, installationen fejlede.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Installationen kan ikke gennemføres. Du skal ændre din browsers indstillinger for at kunne installere software fra dette websted.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Af sikkerhedshensyn kan uprivilligerede applikationer ikke tilgå klippebordet. Klik OK for at installere et ufarligt komponent som giver dig muligheder for at aktivere de websteder du ønsker skal kunne tilgå klippebordet og gennemføre klip/kopiér og indsæt operationer.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Installationen kan ikke gennemføres. Du bedes ændre dine browserindstillinger for at tillade download og installaton af software fra http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Installationen var succesfuld. Du skal genstarte din browser for at ændringer træder i kraft. Herefter kan du bruge AllowClipboard Helper fra værktøjsmenuen, for at tillade at specifikke websteder må benytte klippebordet.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

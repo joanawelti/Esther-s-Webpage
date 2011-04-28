@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index=".alttitle">Web&gt;ページモジュール</label>
+			<label index=".description">ページモジュールはバックエンドメニューから有効にでき、ウェブサイトの管理作業の操作に必要な基本モジュールです。</label>
+			<label index=".details">このモジュールを選択するとページツリーが表示されます。コンテンツを編集するには、ページのタイトルをクリックします。右のフレームにページのコンテンツが表示されます。
+
+ページモジュールでは、さまざまなの表示モードでコンテンツを表示できます。
+
+&lt;b&gt;カラム&lt;/b&gt;
+カラム表示では、コンテンツエレメントを実際に表示される順番にカラム形式で表示します。パネルのボタンで簡単に、コンテンツの表示/非表示の切替え、移動、編集ができます。
+
+&lt;b&gt;クイックエディット&lt;/b&gt;
+クイックエディットでは、ページの1番最初のエレメントがフォームで表示されます。この表示形式は、ウェブサイトの構築方法とユーザ設定次第では、カラム表示より使い安いことがあります。
+
+&lt;b&gt;言語&lt;/b&gt;
+ウェブサイトが複数の言語をサポートしていて、ローカリゼーション作業で&quot;1つのツリーにすべてを表示する&quot;というコンセプトで構築されている場合、ページのコンテンツエレメントを翻訳するにはこのモードを使います。
+
+&lt;b&gt;ページ情報&lt;/b&gt;
+ページ情報では、ページのヒット数などの統計データを表示します。
+
+&lt;b&gt;一般オプション&lt;/b&gt;
+ページモジュールの上部に表示されたアイコンを使うと、(1)戻る/やりなおし、(2)新規コンテンツの作成、(3)ページの移動、(4)新規ページの作成、(5)ページヘッダの編集などの作業ができます。
+
+&lt;b&gt;表示されるカラム数の指定 [管理者]&lt;/b&gt;
+管理者は、実際にウェブサイトで使用されるコンテンツカラムだけをページモジュールで表示するように設定できます。TSconfigのオブジェクトパス&quot;mod.web_layout.tt_content.colPos_list&quot;で設定します(つまり、ページツリーの特定の部分にだけ設定することも可能)。たとえば、&quot;mod.web_layout.tt_content.colPos_list = 0,3&quot; と設定すると、&quot;通常”と&quot;ボーダー”カラムだけが表示されます。この他にもオブジェクトパス&quot;mod.web_layout&quot;には、ページモジュールをカスタマイズできるオプションがあります。詳しくは&quot;TSconfig&quot;リファレンスを参照してください。</label>
+			<label index=".image_descr">ページモジュールをクリックして、ページツリーのページタイトルをクリックします。
+ページモジュールが有効になりましたので、クリックされたページのコンテンツが右フレームに表示されます。
+表示されたボタンは、(1)やり直し/戻る、(2)コンテンツエレメントの新規作成、(3)ページ移動ウィザード、(4)ページの新規作成ウィザード、(5)ページヘッダフォームの編集に直接リンクしています。くわしくは次のリンクを参照してください。</label>
+			<label index="quickEdit.alttitle">クイックエディット</label>
+			<label index="quickEdit.description">クイックエディターを使うと、ページコンテンツのフォームフィールドを直接編集できます。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index=".description" type="integer">255949225</label>
+			<label index=".details" type="integer">76380277</label>
+			<label index=".image_descr" type="integer">115369712</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit.description" type="integer">106439756</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index=".description">The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</label>
+			<label index=".details">Selecting the module will display the page tree.  Click the title of the page you wish to edit content on, and in the right frame you will see the content of the page displayed by the Page module.
+
+The page module has various modes of display of content;
+
+&lt;b&gt;Columns&lt;/b&gt;
+The columns view will show Content Elements listed in the columns and in the order that they will appear on the website. A panel of buttons will allow you to hide/unhide, move and edit the elements easily.
+
+&lt;b&gt;QuickEdit&lt;/b&gt;
+In QuickEdit the first element on the page will be loaded into a form right away. It will depend on the implementation of your website as well as your general preferences if you like this mode more than the columns view.
+
+&lt;b&gt;Languages&lt;/b&gt;
+If your site supports multiple languages and uses the &quot;one-tree-fits-all&quot; concept for localization you will need this mode to control the translations of the content elements on a page.
+
+&lt;b&gt;Page information&lt;/b&gt;
+The page information view shows some statistical data about a page. This includes hit statistics if available.
+
+
+&lt;b&gt;General options&lt;/b&gt;
+In the top of the Page module you will find a row of icons that will bring you right to various features such as History/Undo (1), Create new content element (2), Move page (3), Create new page (4) and Edit page header (5). See image below.
+
+&lt;b&gt;Defining number of displayed columns [Admin]&lt;/b&gt;
+Administrators can configure the Page module to display only the content columns that the website uses. This is done by Page TSconfig (so it can be configured per branch in the page tree!) and this particular option has the object path &quot;mod.web_layout.tt_content.colPos_list&quot;.
+For instance &quot;mod.web_layout.tt_content.colPos_list = 0,3&quot; will set the display of the &quot;Normal&quot; and &quot;Border&quot; columns only.
+There are many other options for customization of the Page module in the object path &quot;mod.web_layout&quot; and Administrators should refer to the &quot;TSconfig&quot; reference linked to below.</label>
+			<label index=".image_descr">Click the Page module, then the title of a page in the page tree.
+The page module is now activated in the right frame, showing the content of the page you clicked in the page tree.
+These buttons are direct links to the History/Undo function (1), Create new content element wizard (2), Move page wizard (3), Create new page wizard (4) and Edit page header form (5). See the links for more details.</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="layout.description">Seleziona il layout della pagina. Il risultato dipende dal tempalte del sito.</label>
+			<label index="hidden.description">Se questa opzione è selezionata, nel sito la pagina sarà invisible.</label>
+			<label index="no_cache.description">Questa opzione disabilita la cache per questa pagina.</label>
+			<label index="author.description">Inserisci i nome degli autori di questa pagina.</label>
+			<label index="author_email.description">Inserisci le email degli autori di questa pagina.</label>
+			<label index="module.description">Definisci la pagina come un 'modulo' frontend</label>
+			<label index="subtitle.description">Inserisci un sottotitolo, se lo vuoi.</label>
+			<label index="keywords.description">Inserisci le parole chiave di questa pagina, separate da virgole.</label>
+			<label index="description.description">Una breve descrizione della pagina.</label>
+			<label index="abstract.description">Inserisci un riassunto della pagina.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="no_cache.description" type="integer">234280457</label>
+			<label index="author.description" type="integer">35641560</label>
+			<label index="author_email.description" type="integer">263994700</label>
+			<label index="module.description" type="integer">122892371</label>
+			<label index="subtitle.description" type="integer">159881469</label>
+			<label index="keywords.description" type="integer">155037793</label>
+			<label index="description.description" type="integer">146429238</label>
+			<label index="abstract.description" type="integer">166752438</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="no_cache.description">This option disables server caching of the page.</label>
+			<label index="author.description">Enter the page authors name.</label>
+			<label index="author_email.description">Enter the page authors email address.</label>
+			<label index="module.description">Define the page as a frontend 'module'.</label>
+			<label index="subtitle.description">Enter a subtitle if needed.</label>
+			<label index="keywords.description">Enter keywords for the page separated by commas.</label>
+			<label index="description.description">Enter a short description for the page.</label>
+			<label index="abstract.description">Enter an abstract for the page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

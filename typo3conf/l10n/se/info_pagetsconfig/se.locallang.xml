@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="tsconf_title">Sidans TSconfig</label>
+			<label index="tsconf_parts_0">Alla</label>
+			<label index="tsconf_parts_1">Modulnyckel ('mod') som ändrar användarinställningar</label>
+			<label index="tsconf_parts_1a">Modul: Webb&gt;Sida</label>
+			<label index="tsconf_parts_1b">Modul: Webb&gt;Visa</label>
+			<label index="tsconf_parts_1c">Modul: Webb&gt;Moduler</label>
+			<label index="tsconf_parts_1d">Modul: Webb&gt;Lista</label>
+			<label index="tsconf_parts_1e">Modul: Webb&gt;Info</label>
+			<label index="tsconf_parts_1f">Modul: Webb&gt;Funktioner</label>
+			<label index="tsconf_parts_1g">Modul: Webb&gt;Template</label>
+			<label index="tsconf_configFields">Visa TSconfig-fältens innehåll</label>
+			<label index="editThisColumn">Ändra fältet '%s' i alla sidor i listan</label>
+			<label index="editTSconfig">Ändra TSconfig för denna sida</label>
+			<label index="editTSconfig_all">Ändra TSconfig för alla visade sidor</label>
+			<label index="editTSconfig_default">Standardkonfiguration från TYPO3_CONF_VARS</label>
+			<label index="mod_pagetsconfig">Sidans TSconfig</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="tsconf_title" type="integer">102716901</label>
+			<label index="tsconf_parts_0" type="integer">186422474</label>
+			<label index="tsconf_parts_1" type="integer">72569551</label>
+			<label index="tsconf_parts_1a" type="integer">52234483</label>
+			<label index="tsconf_parts_1b" type="integer">150910794</label>
+			<label index="tsconf_parts_1c" type="integer">94827801</label>
+			<label index="tsconf_parts_1d" type="integer">213817282</label>
+			<label index="tsconf_parts_1e" type="integer">162251880</label>
+			<label index="tsconf_parts_1f" type="integer">206456787</label>
+			<label index="tsconf_parts_1g" type="integer">242913604</label>
+			<label index="tsconf_configFields" type="integer">41802033</label>
+			<label index="editThisColumn" type="integer">35820296</label>
+			<label index="editTSconfig" type="integer">88216336</label>
+			<label index="editTSconfig_all" type="integer">218125815</label>
+			<label index="editTSconfig_default" type="integer">153424219</label>
+			<label index="mod_pagetsconfig" type="integer">102716901</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="tsconf_title">Page TSconfig</label>
+			<label index="tsconf_parts_0">All</label>
+			<label index="tsconf_parts_1">Module key ('mod') with overruling user settings</label>
+			<label index="tsconf_parts_1a">Module: Web&gt;Page</label>
+			<label index="tsconf_parts_1b">Module: Web&gt;View</label>
+			<label index="tsconf_parts_1c">Module: Web&gt;Modules</label>
+			<label index="tsconf_parts_1d">Module: Web&gt;List</label>
+			<label index="tsconf_parts_1e">Module: Web&gt;Info</label>
+			<label index="tsconf_parts_1f">Module: Web&gt;Func</label>
+			<label index="tsconf_parts_1g">Module: Web&gt;Template</label>
+			<label index="tsconf_configFields">View TSconfig fields content</label>
+			<label index="editThisColumn">Edit the field '%s' for all listed pages</label>
+			<label index="editTSconfig">Edit TSconfig for this page</label>
+			<label index="editTSconfig_all">Edit TSconfig for all shown pages</label>
+			<label index="editTSconfig_default">Default Configuration from TYPO3_CONF_VARS</label>
+			<label index="mod_pagetsconfig">Page TSconfig</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="p_NewRecordAfter">Uusi</label>
+			<label index="p_NewRecordAfter_Long">Lisää sisältöä</label>
+			<label index="p_copy">Kopioi</label>
+			<label index="p_copyTitle">Kopioi elementti</label>
+			<label index="p_cut">Leikkaa</label>
+			<label index="p_cutTitle">Leikkaa elementti</label>
+			<label index="p_delete">Poista</label>
+			<label index="p_editRecord">Muokkaa</label>
+			<label index="p_hide">Piilota</label>
+			<label index="p_moveDown">Alaspäin</label>
+			<label index="p_moveUp">Ylöspäin</label>
+			<label index="p_newSubpage">Uusi&amp;nbsp;alasivu</label>
+			<label index="p_paste">Liitä</label>
+			<label index="p_pasteTitle">Liitä elementti olemassa olevan elementin jälkeen</label>
+			<label index="p_unhide">Paljasta</label>
+			<label index="title_p_moveDown">Siirrä yksi kohta alaspäin</label>
+			<label index="title_p_moveUp">Siirrä yksi kohta ylöspäin</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

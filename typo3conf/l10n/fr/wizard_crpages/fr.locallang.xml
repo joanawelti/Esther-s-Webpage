@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="wiz_crMany">Créer plusieurs pages multiples</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Créer des nouvelles pages</label>
+			<label index="wiz_newPages_page">Page</label>
+			<label index="wiz_newPages_currentMenu">Nouvelle structure de page</label>
+			<label index="wiz_newPages_helpText">Ici vous pouvez créer automatiquement des nouvelles pages vides. C'est très utile si vous souhaitez générer une structure de site ou de rubrique.</label>
+			<label index="wiz_newPages_errorMsg1">Vous n'êtes pas authorisé à créer de nouvelles sous-page ici!</label>
+			<label index="wiz_newPages_lCreate">Créer les pages</label>
+			<label index="wiz_newPages_listEnd">Placer les nouvelles pages à la suite</label>
+			<label index="wiz_newPages_hidePages">Masquer les nouvelles pages</label>
+			<label index="wiz_newPages_lCreate_msg1">Vous êtes sur le point de créer de nombreuse nouvelles pages. Souhaitez vous continuer ?</label>
+			<label index="wiz_newPages_lReset">Vider les champs</label>
+			<label index="wiz_newPages_noCreate">Aucune page n'a été créée!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="integer">1353175</label>
+			<label index="wiz_newPages_helpText" type="integer">257879061</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="integer">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

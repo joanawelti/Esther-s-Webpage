@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">Una record 'Pagina' generalmente in TYPO3 rappresenta una pagina web.
+Ogni pagina hanno un proprio numero id con il quale possono essere collegate e richiamate. Il record 'Pagina' non contiente in sè il contenuto della pagina - per farlo dovrete creare dei 'Contenuti di Pagina' (Elementi di Contenuto)</label>
+			<label index="title.description">Inserisci il titolo della pagina o della cartella. Devi inserire un titolo (è un dato obbligatorio)</label>
+			<label index="doktype.description">Seleziona il tipo di pagina. Questa opzione determina se la pagina rappresenta una pagina web visibile, oppure se viene usata in altri modi.</label>
+			<label index="TSconfig.description">Configurazione di TypoScript della pagina.</label>
+			<label index="editlock.description">Se selezionato, gli utenti non-Admin non possono modificare l'intestazione o alcun record di questa pagina (a parte le sottopagine). Non possono inoltre creare nuovi contenuti o altre pagine sotto di questa.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="editlock.description" type="integer">82976191</label>
+			<label index="doktype.description" type="integer">238659907</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="editlock.description">If set, non-Admin users cannot edit the page properties or any records on the page (except subpages). They cannot create new records or pages on the page either.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

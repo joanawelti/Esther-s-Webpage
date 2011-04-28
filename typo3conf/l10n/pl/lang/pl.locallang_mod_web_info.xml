@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="title">Informacje o stronie</label>
+			<label index="depth_0">Ta strona</label>
+			<label index="depth_1">1 poziom</label>
+			<label index="depth_2">2 poziomy</label>
+			<label index="depth_3">3 poziomy</label>
+			<label index="mlang_labels_tablabel">Informacje dotyczące strony, np. ilość odsłon, dziennik zmian, liczba rekordów</label>
+			<label index="mlang_labels_tabdescr">Moduł Web&gt;Info dostarcza statystyczne informacje o stronie. Zawierają one liczbę odsłon stron oraz dziennik zmian umożliwiający przeglądanie historii zmian zawartości strony. Wszystko to przedstawione jest w klasycznym ujęciu drzewiastej struktury witryny.</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="title" type="integer">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">207029193</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="title">Page information</label>
+			<label index="depth_0">This page</label>
+			<label index="depth_1">1 level</label>
+			<label index="depth_2">2 levels</label>
+			<label index="depth_3">3 levels</label>
+			<label index="mlang_labels_tablabel">Page related information, eg. hit statistics, change log, record counts</label>
+			<label index="mlang_labels_tabdescr">The Web&gt;Info module is focused on statistic information about pages. This includes statistics of pagehits and a changelog allowing browsing of page history changes. An overview of the number of records on each page as well as page settings presented in a classic tree structure is provided.</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

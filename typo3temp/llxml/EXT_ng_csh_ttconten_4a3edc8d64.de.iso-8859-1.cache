@@ -1,0 +1,203 @@
+a:3:{s:7:"extlang";s:2:"de";s:8:"origFile";s:93:"typo3conf/l10n/de/context_help/de.locallang_csh_ttcontent.xml|12-10-2008 02:59:24|version=2.3";s:8:"EXT_DATA";a:92:{s:12:".description";s:327:"Alle sichtbaren Inhalte auf Web-Seiten in TYPO3 werden typischerweise mittels "Seiteninhalt"-Datensätzen erzeugt. Sie werden in der Regel als "Inhaltselemente" bezeichnet. Inhaltselemente werden meist durch das Modul "Seite" verwaltet, das dafür eingerichtet ist, Inhalte in mehreren Spalten und mehreren Sprachen zu handhaben.";s:8:".details";s:326:"Seiteninhalte sind geordnet und können daher in beliebiger Reihenfolge angeordnet werden. Beachten Sie auch, dass die Auswahlfelder "Spalte" und "Sprache" bestimmen, wo und unter welchen Umständen die Inhalte erscheinen. Wenn Sie diese Werte nicht ändern, können Sie davon ausgehen, dass Ihre Inhalte standardmäßig erscheinen.";s:12:".image_descr";s:367:"Das Modul "Seite" wird benutzt, um Inhaltselemente effizient zu verwalten: Sie sind in Spalten und Sprachen arrangiert.
+Ein Inhaltselement wird über ein großes Formular mit vielen Optionen bearbeitet. Der "Typ" bestimmt, welche Optionen sichtbar sind.
+Im Frontend - der Web-Seite - könnte ein Inhaltselement, wie das oben sichtbare, etwa so aussehen wie hier gezeigt.";s:17:"CType.description";s:135:"Wählen Sie die Art des Seiteninhalts aus, den dieser Datensatz darstellt. Neue Optionen erscheinen, sobald Sie den Datensatz speichern.";s:13:"CType.details";s:3439:"Der "Typ" des Inhalts-Elements, den Sie auswählen, entscheidet darüber, welche Optionen Ihnen im Formular angezeigt werden. Stellen Sie sicher, dass Sie einen Datensatz sichern, nachdem Sie den Typ geändert haben und bevor Sie weitere Änderungen vornehmen.
+
+Dies ist eine Beschreibung der verschiedenen Typen:
+
+<strong>Überschrift</strong>
+Dieser Typ erlaubt Ihnen ausschließlich, eine Überschrift einzufügen. 
+Fast alle anderen Typen erlauben es ebenfalls, eine Überschrift mit genau den selben Optionen anzugeben. Der Typ "Überschrift" bietet also die Möglichkeit, eine Überschrift <em>ohne</em> irgendetwas anderes einzufügen.
+
+<strong>Text</strong>
+Der Text Typ ermöglicht die Eingabe von normalen Seiteninhalten.
+
+<strong>Text mit Bild</strong>
+Dies entspricht dem Typ "Text" (normale Seiteninhalte) mit der zusätzlichen Option, Bilder anzuhängen.
+
+<strong>Bild</strong>
+Das gleiche wie "Text mit Bild", aber ohne Textfeld (also nur Bilder).
+
+<strong>Aufzählung</strong>
+Damit können Sie eine Aufzählung erstellen. Jede Zeile des Textfeldes erscheint als ein Punkt in einer Liste.
+
+<strong>Tabelle</strong>
+Bietet die Möglichkeit, <em>einfache</em> Tabellen zu erstellen. Jede Zeile stellt eine Tabellenzeile dar und vertikale Striche ('|') trennen die Spalten.
+
+<strong>Dateiverweise</strong>
+Präsentiert eine Liste von Dateien zum Herunterladen. Sie können Vorschausymbole zuordnen und die Dateigröße anzeigen lassen.
+
+<strong>Multimedia</strong>
+Damit können Sie Multimediaelemente einfügen, wie z.B. Sound, Video, Java-Applets und Flash-Animationen.
+
+<strong>Formular</strong>
+Lässt Sie Mail-Formulare erstellen. Für die Erstellung von Formular-Feldern gibt es eine spezielle Syntax (siehe Dokumentation).
+
+<strong>Suche</strong>
+Dies fügt ein Suchfeld ein und zeigt auch das Ergebnis der Suche an, wenn diese Seite als Ziel der Suchergebnisse angegeben wird.
+
+<strong>Anmeldeformular</strong>
+Zeigt eine Anmeldemaske für Web-Site-Benutzer an. Sie müssen mindestens einen Web-Site-Benutzer und eine Benutzergruppe anlegen, damit dieser Typ Sinn hat.
+
+<strong>Textbox</strong>
+Dieser Typ ist vorgesehen für maßgeschneiderte Designs, die typisch einigen Text und ein Bild enthalten. In anderen Worten, dieser Typ ist nicht immer verfügbar. Benutzen Sie diesen Typ also nur, wenn Sie dazu angewiesen werden. Es existieren andere Typen zur Anzeige von Text und Bildern.
+
+<strong>Menü/Sitemap</strong>
+Bietet eine Auswahl von verschiedenen Link-Menüs und eine Sitemap, die Sie auf einer Seite einfügen können.
+
+<strong>Datensatz einfügen</strong>
+Dies ist ein Platzhalter für andere Datensätze. Mit anderen Worten: Mit diesem Element können Sie andere Datensätze von anderen Seiten anhängen und damit in diese Seite integrieren.
+
+<strong>Plug-In einfügen</strong>
+Dies erlaubt es Ihnen, ein Forum, ein Gästebuch, eine Adressliste, einen Einkaufskorb etc. einzubinden. Die verschiedenen Möglichkeiten sind <em>nur</em> dann verfügbar, wenn sie in der Vorlage richtig konfiguriert wurden. Vergewissern Sie sich also, welche Plug-Ins in Ihrer Web-Site verfügbar sind.
+
+<strong>Skript</strong>
+Dies ist reserviert für benutzerdefinierte Zwecke, womit es Ihnen der Vorlagenprogrammierer erlauben kann, spezialisierte Inhalte einzufügen.
+
+<strong>Trenner</strong>
+Damit fügen Sie eine Trennlinie ein.
+
+<strong>HTML</strong>
+Dies ist reiner HTML-Inhalt. Alles, was hier eingegeben wird, wird ohne weitere Verarbeitung auf der Seite angezeigt.";s:18:"hidden.description";s:75:"Ist diese Option aktiviert, wird das Element nicht auf der Seite angezeigt.";s:21:"starttime.description";s:259:"Geben Sie das Datum ein, ab dem das Element sichtbar sein wird. Wie in allen Datumsfeldern können Sie "d" eingeben, um das aktuelle Datum zu erhalten und Sie können einfach Tage addieren oder subtrahieren: mit "d+7" etwa erhalten Sie das Datum in einer Woche.";s:19:"endtime.description";s:294:"Geben Sie das Datum ein, ab dem das Element von der Web-Site verschwindet. Wie in allen Datumsfeldern können Sie "d" eingeben, um das aktuelle Datum zu erhalten und Sie können einfach Tage addieren oder subtrahieren: mit "31-12-2004-7" etwa erhalten Sie das Datum eine Woche vor Sylvester 2004.";s:20:"fe_group.description";s:90:"Wählen Sie eine Benutzergruppe aus, die als einzige befugt ist, das Element zu betrachten.";s:16:"fe_group.details";s:821:"Die Optionen in diesem Auswahlfeld sind davon abhängig, welche Benutzergruppen erstellt wurden und für Sie verfügbar sind. Wenn Sie hier eine Benutzergruppe auswählen, wird das Element nicht mehr für Anwender sichtbar sein, die nicht angemeldet sind. Nur angemeldete Benutzer, die Mitglied der ausgewählten Gruppe sind, bekommen das Element zu sehen.
+
+"Anzeigen, wenn angemeldet" erweitert die Anzeige: solche Inhalte werden nur angemeldeten Benutzern gezeigt, aber unabhängig davon, welcher Gruppe sie angehören.
+
+"Nach Anmeldung verbergen" bewirkt das genaue Gegenteil, d.h. das Element <em>verschwindet</em>, wenn <em>irgendein</em> Benutzer angemeldet ist. Dies ist z.B. sinnvoll, um Informationen wie "Wie melde ich mich an?" oder ähnliches anzuzeigen, die irrelevant sind, wenn der Benutzer letzlich angemeldet ist.";s:28:"sys_language_uid.description";s:137:"Wählen Sie die Systemsprache des Elements aus. <strong>Beachten Sie</strong>, dass dies Einfluss darauf hat, ob das Element sichtbar ist.";s:24:"sys_language_uid.details";s:309:"Dies erlaubt es Ihnen, dem Element eine spezifische Sprache zuzuordnen. Falls Sie etwas anderes als die Standardsprache auswählen, wird das Element <em>nicht</em> sichtbar sein, solange diese Sprache nicht in der Vorlage konfiguriert wurde.
+Die verfügbaren Systemsprachen werden vom Administrator eingestellt.";s:18:"layout.description";s:26:"Wählen Sie ein Layout aus.";s:14:"layout.details";s:489:"Diese Option wird von den Standardvorlagen nicht verwendet und kann für benutzerdefinierte Ansichten verwendet werden.
+
+Es gibt einige Standardimplementierungen, die vom Inhaltstyp abhängig sind:
+
+<b>"Dateiverweise":</b>
+"Normal" erzeugt eine Liste ohne Vorschau-Symbole.
+"Layout 1" fügt ein Dateisymbol links vom Link ein.
+"Layout 2" Fügt ein Vorschausymbol ein, falls die Datei ein Bild ist. Ein schwarzer Rahmen wird hinzugefügt.
+"Layout 3" ist wie Layout 2, aber ohne schwarzen Rahmen.";s:18:"colPos.description";s:134:"Wählen Sie die Spaltenposition des Elements. <strong>Beachten</strong> Sie, dass damit die Sichtbarkeit des Elements beeinflusst wird.";s:14:"colPos.details";s:911:"Die meisten Web-Auftritte verwenden nur eine Spalte für Inhalte. Manche Vorlagen lassen Sie jedoch Inhalte in mehrere Spalten einfügen und diese Option erlaubt es Ihnen, eine andere Spalte auszuwählen.
+
+<strong>Beachten Sie,</strong> dass die Auswahl einer anderen Spalte als "Normal" das Inhaltselement verschwinden lässt, solange diese Spalte nicht auch von der Vorlage vorgesehen ist. Normalerweise werden allerdings Spalten, die die Vorlage nicht darstellt, auch nicht angeboten. Falls Ihr Inhalt aber "seltsamerweise" nicht sichtbar ist, stellen Sie bitte sicher, dass Spalte und Sprache richtig ausgewählt wurden.
+
+Beachten Sie bitte ausserdem, dass der Begriff "Spalte" nicht zu wörtlich genommen werden sollte. Es gibt durchaus Vorlagen, die die "Spalten" ganz anders im Web-Auftritt anzeigen, z.B. könnte die Spalte "Links" im oberen Bereich und die Spalte "Rechts" im unteren Bereich angezeigt werden.";s:16:"date.description";s:69:"Geben Sie ein Datum ein, das oberhalb der Überschrift angezeigt wird.";s:18:"header.description";s:54:"Geben Sie eine Überschrift für das Inhaltselement ein.";s:14:"header.details";s:387:"Fast alle Elemente (außer z.B. HTML) können eine Überschrift vor dem Inhalt anzeigen. Falls Sie nicht wollen, dass ein Titel angezeigt wird, wählen Sie den Überschriftstyp "verborgen" aus. Alternativ können Sie das Feld auch leer lassen.
+
+Einige Inhaltselemente zeigen die Überschrift standardmäßig nicht an. In solchen Fällen wird das Feld "Name" genannt. Einer dieser Typen ist "HTML".";s:27:"header_position.description";s:54:"Richtet die Überschrift links, mittig oder rechts aus.";s:23:"header_link.description";s:100:"Macht aus der Überschrift auch einen Link. Geben Sie eine Seitennummer, E-Mail-Adresse oder URL ein.";s:18:"header_link.syntax";s:401:"Wenn Sie eine ID-Nummer, z.B. "51" eingeben, verweist die Überschrift auf die Seite mit der id=51 <em>innerhalb</em> Ihres TYPO3-Web-Auftritts.
+Wenn Sie eine E-Mail-Adresse, z.B.. "name@my-domain.test" eingeben, wird der Link auf diese E-Mail-Adresse zeigen.
+Wenn Sie eine URL oder Domäne eingeben, z.B. "www.typo3.com" oder "http://www.my-domain.org", wird der Link auf diese externe Web-Site zeigen.";s:25:"header_layout.description";s:46:"Wählen Sie ein Layout für die Überschrift aus.";s:21:"header_layout.details";s:500:"Wenn Sie "Normal" auswählen, wird das Standardlayout (eines der Layouts 1-5) verwendet. Der Standard ist in der Vorlage festgelegt.
+Alternativ können Sie auch ein Layout ausdrücklich (von 1 bis 5) festlegen, das in der Vorlage der Web-Site individuell konfiguriert ist.
+Wenn Sie "Verborgen" auswählen, erscheint die Überschrift einfach nicht. Dies ist hilfreich, wenn Sie dem Element einen Namen geben wollen (um es im Backend zu identifizieren), auf der Seite aber keine Überschrift erscheinen soll.";s:21:"subheader.description";s:188:"Geben Sie einen Untertitel ein. Dieser wird unterhalb der Überschrift angezeigt. Falls es sich um den Inhaltstyp "Formular" handelt, ist hier die E-Mail-Adresse des Empfängers einzutragen.";s:17:"subheader.details";s:310:"Ein Untertitel wird nur für den Inhaltstyp "Überschrift" angezeigt.
+
+<b>Hinweis:</b> Wenn Inhalte des Typs "Formular" eingesetzt werden, wird dieses Feld "E-Mail-Empfänger:" benannt und enthält die E-Mail-Adresse des Formularempfängers. Daher ist es wichtig, dass die Anwender Zugriff auf dieses Feld bekommen.";s:20:"bodytext.description";s:30:"Geben Sie hier den Inhalt ein.";s:16:"bodytext.details";s:3841:"Geben Sie hier den Text des Inhaltselements ein. Oft können Sie diesen Text mit einem "Rich-Text-Editor" bearbeiten, der einem einfachen Textverarbeitungssystem ähnelt (siehe unten). Manchmal sehen Sie nur ein einfaches Eingabefeld, z.B. dann, wenn der Text nicht formatierbar ist.
+
+Dieses Feld wird in fast allen Inhaltstypen verwendet, so dass beim Wechsel zwischen Typen der Inhalt dieses Feldes nicht verloren ist. Sie können den Typ gefahrlos umschalten und nötigenfalls jederzeit zum alten Typ zurückschalten.
+
+<b>Text</b> und <b>Text mit Bild:</b>
+Wenn Sie als Inhaltstyp "Text" oder "Text mit Bild" wählen, ist der Inhalt normaler Text. Jeder harte Zeilenumbruch bewirkt einen neuen Absatz, Sie können das spezielle TYPO3-Tag &lt;LINK&gt; zur Erzeugung eines Links verwenden. Sie können auch verschiedene HTML-Tags verwenden, mit Einschränkungen.
+
+<b>Aufzählung:</b>
+Wenn Sie den Typ "Aufzählung" ausgewählt haben, ist jede Zeile ein Listeneintrag.
+
+<b>Tabelle:</b>
+Wenn der Typ "Tabelle" ist, so repräsentiert jede Zeile eine Tabellenzeile. Innerhalb jeder Zeile werden die Spalten durch einen vertikalen Strich getrennt: "|". Eine Tabellenzeile mit drei Spalten könnte so aussehen:
+"Dies ist Spalte 1 | Spalte 2 hier | Dritte Spalte!"
+
+<b>Skript</b>, <b>Formular</b>, <b>Multimedia</b> und <b>HTML:</b>
+Typen wie "Skript", "Formular" und "Multimedia" benutzen das Feld für Parameter, die Sie dem Element übergeben können. Und der "HTML"-Typ akzeptiert jede Eingabe als reines HTML, das ohne weitere Bearbeitung auf der Web-Seite ausgegeben wird.
+
+<strong>Rich Text Editor:</strong>
+Für die Typen "Text", "Text mit Bild" und "Rich Text" wird der Rich-Text-Editor benutzt, vorausgesetzt, dass der Editor grundsätzlich aktiviert ist. Dann haben Sie eine mehr oder minder umfangreiche Werkzeugleiste zur Verfügung, um den Text zu formatieren. Alle Einschränkungen sind beabsichtigt: die <b>Vorlage</b> ist in der Regel für Formatierung verantwortlich und so beschaffen, dass ein angemessenes, einheitliches Aussehen aller Seiten einer Web-Site garantiert ist. Beachten Sie auch, dass der Inhalt bezüglich HTML "gereinigt" wird, bevor er in die Datenbank geschrieben wird.
+
+Ist der "Rich-Text-Editor" in Ihrem Browser nicht verfügbar, dann sehen Sie stattdessen einfaches HTML, dass Sie auch bearbeiten dürfen, wenn Sie die nötigen Kenntnisse haben. Wenden Sie sich bitte an ihre Administratoren, um, bei Bedarf, eine Grundausbildung in HTML oder den "Rich-Text-Editor" zu bekommen.
+
+<b>Ein Mail-Formular erstellen:</b>
+Wenn Sie den Inhaltstyp "Formular" ausgewählt haben, sollten Sie Parameter in dieses Feld eingeben. Dies ist ein kurzes Beispiel:
+
+<nobr>
+Ihr Name: | *name=input,40 | [Name eingeben!]
+Ihre E-Mail-Adresse: | *email=input,40
+Ihre Adresse: | adresse=textarea,40,10
+Ihre Haarfarbe: |haar=radio|Blau=blau, Rot=rot
+
+|formtype_mail = submit | Formular senden
+|subject=hidden| Betrifft: meine Daten
+|html_enabled=hidden | 1
+</nobr>
+
+Die ersten zwei Zeilen erzeugen Eingabefelder für Name und E-Mail, beide sind mit einem "*" als "benötigt" markiert und das name-Feld hat einen Standardwert: "[Name eingeben!]".
+Die dritte Zeile ist ein Textfeld und die vierte Zeile erstellt Radioknöpfe für die Haarfarbe. Alle vier Zeilen haben je eine Beschriftung
+
+Am Schluss folgen drei wichtige Zeilen. Die erste erzeugt eine Sende-Schaltfläche mit der Aufschrift "Formular senden", die zweite Zeile ist der Betreff der E-Mail und die dritte Zeile sorgt dafür, dass das Ergebnis als HTML-Tabelle verschickt wird.
+Es ist oft einfacher, den Formularassistenten zu benutzen, klicken Sie dazu
+auf das Symbol rechts neben dem Eingabefeld.
+
+<b>Hinweis:</b> Bevor ein Formular funktionieren kann, müssen Sie eine Empfängeradresse angeben. Das Feld "E-Mail-Empfänger:" ist hierfür vorgesehen (das bei anderen Typen als Untertitel benutzt wird).";s:22:"text_align.description";s:47:"Richtet den Text links, mittig oder rechts aus.";s:18:"text_align.details";s:128:"Siehe Seiteninhalt / Schriftart für Kommentare.
+
+<b>Hinweis:</b> Diese Option ist wirkungslos, wenn Ihre Web-Site CSS verwendet.";s:21:"text_face.description";s:44:"Wählen Sie eine Schriftart für den Text aus.";s:17:"text_face.details";s:264:"<strong>Hinweis:</strong> Diese Optionen sind nur für spezielle Designs gedacht. Das normale Design sollte stattdessen in der Vorlage definiert werden. Des weiteren sollten Sie diese Option <em>nicht</em> einsetzen, wenn Ihre Vorlage auf Stylesheets (CSS) aufbaut.";s:21:"text_size.description";s:46:"Wählen Sie eine Schriftgröße für den Text aus.";s:17:"text_size.details";s:128:"Siehe Seiteninhalt / Schriftart für Kommentare.
+
+<b>Hinweis:</b> Diese Option ist wirkungslos, wenn Ihre Web-Site CSS verwendet.";s:22:"text_color.description";s:46:"Wählen Sie eine Schriftfarbe für den Text aus.";s:18:"text_color.details";s:128:"Siehe Seiteninhalt / Schriftart für Kommentare.
+
+<b>Hinweis:</b> Diese Option ist wirkungslos, wenn Ihre Web-Site CSS verwendet.";s:27:"text_properties.description";s:57:"Wählen Sie zusätzliche Schriftattribute für den Text aus.";s:23:"text_properties.details";s:626:"Diese Optionen wählen Schrifteigenschaften für den gesamten Text aus. Falls Sie nur einen Teil des Textes formatieren möchten, nutzen Sie besser die Formatierungsfunktionen des Rich-Text-Editors. Alternativ können Sie auch HTML-Tags verwenden:
+
+&lt;B&gt;<strong>Dies ist fettgedruckt</strong>&lt;/B&gt;
+&lt;I&gt;<em>Dies ist kursiv</em>&lt;/I&gt;
+&lt;U&gt;<u>Dies ist unterstrichen</u>&lt;/U&gt;
+
+Siehe Seiteninhalt / Schriftart für Kommentare.
+
+<b>Hinweis:</b> Diese Option ist wirkungslos, wenn Ihre Web-Site CSS verwendet. Die Formatierung einzelner Textstellen, wie gezeigt, funktioniert dagegen in der Regel auch mit CSS.";s:17:"image.description";s:33:"Fügt ein oder mehrere Bilder ein.";s:13:"image.details";s:872:"Sie können dem Element Bilder in fast beliebiger Anzahl hinzufügen. 
+Abhängig von Ihrer TYPO3-Konfiguration können Sie Bilder in fast jedem Format anfügen. Sie müssen sich insbesondere keine Gedanken über Größe oder Kompression machen, da diese Faktoren normalerweise TYPO3-intern gehandhabt werden.
+
+Wenn Sie "Text mit Bild" verwenden, ist es wichtig, die richtige Position des Bildblocks auszuwählen. Für diesen Zweck nutzen Sie die Positionsauswahl, die unterhalb des Textfelds gezeigt wird. Siehe Link zu Seiteninhalt>Position unten.
+
+Sie können Bilder auch in mehreren Spalten anordnen und eine Option aktivieren, mit der Sie durch Anklicken des kleinen Bildes eine größere Version des Bildes ansehen können. Um nur ein paar Optionen zu nennen. 
+Sehr wahrscheinlich stehen Ihnen gar nicht alle Optionen zur Verfügung. Dies hängt von Ihren Berechtigungen im System ab.";s:17:"image.image_descr";s:160:"Hier sehen Sie alle Optionen, die sich auf das Einfügen von Bildern in Inhaltselementen beziehen. Möglicherweise stehen Ihnen nicht alle Optionen zur Verfügung.";s:22:"imagewidth.description";s:47:"Geben Sie die Breite des Bildes (in Pixeln) an.";s:18:"imagewidth.details";s:245:"Normalerweise ist die Vorlage für eine maximale Bildbreite ausgelegt und daher müssen Sie die Breite nicht angeben, wenn das Bild perfekt in diese Abmessungen passt. Trotzdem haben Sie hier die Gelegenheit, die Breite ausdrücklich zu definieren.";s:23:"imageheight.description";s:45:"Geben Sie die Höhe des Bildes (in Pixeln) an.";s:23:"imageorient.description";s:58:"Wählen Sie die Position des Bilderblocks relativ zum Text.";s:19:"imageorient.details";s:1208:"Die Positionen über und unter dem Text sind von sich aus verständlich.
+
+Die Optionen "Im Text" bedeuten, dass die Bilder vom Text umflossen werden. Wenn Sie dies auswählen, wir die Vorlage die Bilder wahrscheinlich verkleinern, weil es nicht den gleichen Raum einnehmen kann, wenn Text drum herum fließen soll.
+
+Wenn Sie "Im Text" benutzen, können Sie die Optionen oberhalb und unterhalb von "Kein Umbruch" auswählen. Wenn Sie "Im Text" oberhalb auswählen, wird der Text <em>unter</em> dem Bilderblock weiter fließen, sobald der Text das untere Ende des Bilderblocks erreicht hat. Wenn Sie "Im Text" unter dem "Kein Umbruch"-Trenner auswählen, wird der Text nicht unter dem Bild weiter laufen, sondern in seiner Spalte bleiben.
+
+Abgesehen vom Aussehen gibt es auch einen technischen Unterschied. Wenn Sie den Text um den Bilderblock herum fließen lassen, werden Sie ein seltsames Phänomen festellen, falls Sie nicht genug Text haben, um unter dem Bild weiter zu laufen: Sie werden feststellen, dass folgende Seiteninhalte über dem Bilderblock dargestellt werden - und dies sieht wie ein Fehler aus. Dies ist einfach zu beheben, indem Sie die entsprechende Position unter dem "Kein Umbruch"-Trenner auswählen.";s:23:"imageborder.description";s:75:"Wählen Sie diese Option, wenn das Bild einen farbigen Rahmen erhalten soll.";s:24:"image_noRows.description";s:47:"Schaltet durchgehende Zeilen im Bilderblock ab.";s:20:"image_noRows.details";s:604:"Diese Option ist schwer zu erklären, aber stellen Sie sich vor, Sie haben zwei oder mehr Spalten <em>und</em> Zeilen von Bildern. 
+Wenn ein Bild in der obersten Reihe etwas größer ist als ein daneben stehendes, entsteht etwas freier Raum unter dem kleineren Bild. Dies liegt daran, dass die Bilder standardmäßig in Reihen angeordnet sind.
+Wenn Sie dagegen die Option "Keine Reihen" aktivieren, werden alle Bilder einer Spalte <em>direkt</em> untereinander platziert, so dass kein freier Raum unter kleineren Bildern entsteht. Dies mag besser aussehen, falls die Alternative mit Reihen nicht gut aussieht.";s:22:"image_link.description";s:40:"Geben Sie einen Link für die Bilder ein.";s:18:"image_link.details";s:324:"Standardmäßig haben alle Bilder denselben Link. Sie können aber Ihren Administrator darum bitten, die TYPO3-Vorlage so zu ändern, dass jedes Bild seinen eigenen Link erhält. Wenn dies der Fall ist, trennen Sie die einzelnen Links einfach mit einem Komma.
+
+Einzelheiten zur Syntax erhalten Sie unten über Seiteninhalt > Link.";s:22:"image_zoom.description";s:103:"Markieren Sie diese Option und das Bild wird auf ein neues Fenster mit einer größeren Ansicht verlinkt.";s:18:"image_zoom.details";s:51:"Diese Option überschreibt den Wert des Link-Feldes.";s:25:"image_effects.description";s:49:"Wählen Sie spezielle Bildbearbeitungseffekte aus.";s:24:"image_frames.description";s:40:"Wählen Sie spezielle Rahmenoptionen aus.";s:29:"image_compression.description";s:51:"Wählen Sie Qualitäts- und Kompressionsoptionen aus.";s:21:"imagecols.description";s:55:"Wählen Sie die Anzahl der Spalten des Bilderblocks aus.";s:24:"imagecaption.description";s:36:"Geben Sie eine Bildunterschrift ein.";s:20:"imagecaption.details";s:493:"Normalerweise wird die Bildunterschrift unter dem gesamten Bilderblock angezeigt. Die Vorlage der Web-Site kann jedoch so programmiert werden, dass sie individuelle Bildunterschriften anzeigt, indem in den Vorlagenkonstanten "styles.content.imgtext.captionSplit=1" gesetzt wird. 
+In diesem Fall entspricht jede Zeile der Bildunterschrift je eines Bildes.
+
+Das Feld wird außerdem vom Inhaltstypen "Dateiverweise" verwendet, wobei jede Zeile der Beschreibung einer Datei in der Liste entspricht.";s:33:"imagecaption_position.description";s:62:"Richtet die Bildunterschrift links, zentriert oder rechts aus.";s:16:"cols.description";s:44:"Wählen Sie eine feste Anzahl an Spalten aus.";s:17:"pages.description";s:17:"Seite(n) einfügen";s:13:"pages.details";s:1902:"Mit diesem Feld können Sie eine Beziehung zu einer Seite (oder mehreren) in TYPO3 herstellen. Dieses Feld wird von mehreren Inhaltstypen verwendet. Wenn Sie hier keine Seite angeben, wird grundsätzlich die aktuelle Seite verwendet.
+
+Für den Typ "<b>Suche</b>" beinhaltet das Feld die Seite, auf der das Suchergebnis angezeigt wird. Sie müssen sicherstellen, dass das Ziel ein solches "Suche"-Element (oder etwas ähnliches) besitzt, um das Ergebnis darzustellen. Ansonsten ist es nicht sinnvoll.
+
+Das Element "<b>Anmeldeformular</b>" benutzt dies Feld ebenfalls, um den angemeldeten Benutzer auf eine neue Seite zu umzuleiten. Dieses Ziel benötigt allerdings kein Anmeldeformularelement, um die Anmeldung durchzuführen - Sie können den Anwender auf jede beliebige TYPO3-Seite weiterleiten!
+
+Wenn Sie in der Liste eine zweiter Seite angeben, so wird diese Seite an das Anmeldesystem als diejenige Seite weitergeleitet, wo die Datenbank der Anwender zu finden ist. Sie sollten dies nur verwenden, wenn Ihre Vorlage diesen Wert nicht von sich aus weiterleitet.
+
+Damit die Anmeldung funktioniert, müssen Sie sicherstellen, dass 1) Sie einen Benutzer und eine Benutzergruppe erstellt haben, 2) Sie in der Vorlage definiert haben, auf welcher Seite (typisch ein SysOrdner) die Benutzer gefunden werden können - oder sie haben dies durch die zweite Seite in der Seitenliste getan, 3) Cookies im Browser des Anwenders aktiviert sind.
+
+Der Inhaltstyp "<b>Menü/Sitemap</b>" benutzt dieses Feld ebenfalls. In diesem Fall wird damit spezifiziert, von welcher Seite aus das Menü erzeugt wird oder enthält sogar diejenigen Seiten, auf die das Menü verweist. All dies hängt vom ausgewählten Untertyp ab.
+
+Schließlich benutzt das Element "<b>Formular</b>" dieses Feld als Angabe, welche Seite nach Absenden des Formulars angezeigt wird. Sie können auf diese Art eine "Vielen Dank"-Seite für das Mail-Formular erstellen.";s:21:"recursive.description";s:109:"Entscheiden Sie, wie viele Unterebenen für jeder der ausgewählten Seiten zusätzlich ausgewählt werden sollen.";s:17:"recursive.details";s:425:"Ob diese Funktion sinnvoll ist, entscheidet die Vorlage und/oder der Inhaltstyp. Aber grundsätzlich bedeutet die Aktivierung dieser Option, dass alle Unterseiten der ausgewählten Seiten in "Ausgangspunkt" bis zur gewählten Tiefe ebenfalls ausgewählt werden!
+
+<strong>Warnung:</strong> Falls es viele Unterseiten gibt, sollten sie mit dieser Option vorsichtig umgehen. Sie könnten eine unglaubliche Anzahl an Seiten auswählen!";s:21:"menu_type.description";s:53:"Wählen Sie, welche Art von Menü Sie erstellen wollen.";s:17:"menu_type.details";s:2100:"Dies ist eine kurze Beschreibung jedes Typs:
+
+<strong>Menü dieser Seiten</strong>
+Dies erzeugt eine Liste von Links auf die in "Ausgangspunkt" angegebenen Seiten.
+
+<strong>Menü der Unterseiten</strong>
+Dies erzeugt eine Liste von Links auf die in "Ausgangspunkt" angegebenen Seiten und deren Unterseiten. Wenn Sie keine Startseite(n) angeben, werden die Unterseiten der aktuellen Seite aufgelistet.
+
+<strong>Menü der Unterseiten (mit Inhaltsangabe)</strong>
+Wie das Vorherige. Aber dieses enthält den Inhalt des Feldes "Inhaltsangabe" jeder Seite.
+
+<strong>Menü der Unterseiten (mit Seiteninhalt)</strong>
+Wie das Vorherige, inklusive 'Untermenü'-Links auf alle Seiteninhalte der Seite deren Index-Feld markiert ist.
+
+<strong>Sitemap</strong>
+Erzeugt einen klassischen Sitemap-Baum. Vielleicht definiert Ihre Vorlage eine andere Ansicht, aber Sie bekommen eine Sitemap. Beachten Sie, dass die Sitemap auf der aktuellen Seite beginnt, es sei denn, Sie definieren einen davon abweichenden "Ausgangspunkt".
+
+<strong>Abschnittsübersicht (mit Seiteninhalt)</strong>
+Dies erzeugt ein Menü der Seiteninhalte dieser (oder der in "Ausgangspunkt" ausgewählten) Seite. Gut geeignet, um einen Index am Anfang umfangreicher Seiten zu erstellen.
+Beachten Sie, dass alle Elemente angezeigt werden, deren Index-Feld markiert ist. Falls Sie einige Elemente in der Liste nicht angezeigt bekommen möchten, so deaktivieren Sie das Index-Feld für diese Elemente.
+
+<strong>Geänderte Seiten</strong>
+Zeigt die 10 zuletzt geänderten Seiten an. 
+<strong>Hinweis:</strong> Wenn Sie eine Seite ändern und die Liste sich nicht ändert, löschen Sie einfach den Cache dieser Seite und das Problem ist behoben.
+
+<strong>Verwandte Seiten (nach Stichworten)</strong>
+Zeigt verwandte Seiten basierend auf den Stichworten dieser Seite verglichen mit den Stichworten anderer Seiten an.
+
+Hinweis: Für viele der beschriebenen Menütypen ist der Startpunkt die aktuelle Seite. Davon abweichend können Sie jede andere Seite (oder sogar mehrere) als Startpunkt festlegen, indem Sie sie in die Liste "Ausgangspunkt" aufnehmen. Siehe Link unten.";s:21:"list_type.description";s:82:"Wählen Sie das einzufügende Plug-In aus. (Verfügbarkeit hängt von der Vorlage ab).";s:17:"list_type.details";s:143:"Die Liste der Plug-Ins, die Sie auf der Seite einfügen können. Die verfügbaren Plug-Ins hängen davon ab, welche Erweiterungen installiert sind.";s:22:"select_key.description";s:25:"Geben Sie einen Code ein.";s:18:"select_key.details";s:116:"Ob ein Code verwendet wird und wie er interpretiert wird, ist vom Kontext abhängig. Heutzutage gilt er als überholt.";s:25:"table_bgColor.description";s:49:"Wählen Sie eine Hintergrundfarbe für die Tabelle.";s:24:"table_border.description";s:45:"Wählen Sie eine Rahmenbreite für die Tabelle.";s:29:"table_cellspacing.description";s:56:"Wählen Sie einen Zellenabstand für die Tabellenelemente.";s:25:"table_cellspacing.details";s:154:"Zellenabstand ist der Abstand zwischen Zellen in Zeilen und Spalten. Die Distanz wird in allen Richtungen gleich angewandt: oben, unten, links und rechts.";s:29:"table_cellpadding.description";s:36:"Wählen Sie einen Zelleninnenabstand.";s:25:"table_cellpadding.details";s:133:"Mit Zelleninnenabstand bestimmen Sie den "inneren" Rand einer Zelle, also den Abstand zwischen Zellenrand und Zelleninhalt in Pixeln.";s:17:"media.description";s:34:"Fügen Sie der Liste Dateien hinzu.";s:22:"multimedia.description";s:68:"Fügen Sie hier das Multimediaelement ein, z.B. eine Flash-Animation.";s:25:"filelink_size.description";s:75:"Markieren Sie dieses Feld, wenn Sie Dateigrößen angezeigt bekommen möchten.";s:19:"records.description";s:38:"Fügen Sie Verweise auf Datensätze ein.";s:23:"spaceBefore.description";s:92:"Geben Sie den Abstand (in Pixeln) ein, der <em>vor</em> diesem Inhalt eingefügt werden soll.";s:22:"spaceAfter.description";s:93:"Geben Sie den Abstand (in Pixeln) ein, der <em>nach</em> diesem Inhalt eingefügt werden soll.";s:25:"section_frame.description";s:49:"Wählen Sie eine Rahmenoption für das Element aus.";s:25:"splash_layout.description";s:41:"Wählen Sie das Design des Textfeldes aus.";s:21:"splash_layout.details";s:200:"<strong>Hinweis:</strong> Die Textbox hat einige Standardansichten, ist aber hauptsächlich für benutzerspezifische Anwendungen gedacht. Daher hängt die Verfügbarkeit von Funktionen von der Vorlage ab.";s:24:"sectionIndex.description";s:53:"Falls markiert, taucht der Seiteninhalt in Menüs auf.";s:20:"sectionIndex.details";s:42:"Siehe Details zum Menütyp (unten klicken).";s:21:"linkToTop.description";s:79:"Falls markiert, erscheint ein kleiner "Nach oben"-Link nach dem Inhaltselement.";s:23:"rte_enabled.description";s:123:"Der Rich-Text-Editor wird für dieses Element deaktivert, falls diese Option markiert ist (<em>nur für dieses Element</em>).";s:23:"pi_flexform.description";s:35:"FlexForm-Konfiguration von Plug-Ins";s:19:"pi_flexform.details";s:163:"Manche Plug-Ins erfordern eine Konfiguration ihrer Optionen. Sie können dies Feld für FlexForm-basierte Konfigurationseinstellungen (als XML gespeichert) benutzen.";}}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="pagetree_overview.alttitle">Przegląd drzewa stron</label>
+			<label index="pagetree_overview.description">Przegląd drzewa stron pokazuje informacje dotyczące stron w gałęziach drzewa serwisu. Dotyczy to widoczności strony, ustawień cache'u itp.</label>
+			<label index="func_0.alttitle">Ustawienia podstawowe</label>
+			<label index="func_0.description">Wyświetla wybrane pola dla rekordu strony, będące podstawowymi ustawieniami strony. Dotyczy to aliasu, okresu widoczności strony, ograniczeń dostępu itp.</label>
+			<label index="func_1.alttitle">Przegląd rekordu</label>
+			<label index="func_1.description">Przegląd rekordu daje niezbedny informacje o rekordach w drzewie stron. Każda tabela bazy danych w systemie jest reprezentowana przez kolumnę i dla każdej strony można przeglądać dowiązane do niej rekordy.</label>
+			<label index="func_2.alttitle">Cache i wiek</label>
+			<label index="func_2.description">Wyświetla wybrane pola rekordu strony dotyczące cache'owania i czasu widoczności strony.</label>
+			<label index="stat.alttitle">Statystyki odsłon strony</label>
+			<label index="stat.description">Wyświetla statystyki odłon stron serwisu dla gałęzi w drzewie stron. Oparte są one na prostej, wewnętrznej tabeli, która odnotowuje odsłony stron i sesje.</label>
+			<label index="lang.alttitle">Przegląd lokalizacji</label>
+			<label index="lang.description">Pokazuje przegląd stron, które w drzewie są przetłumaczone na języki zainstalowane w systemie.</label>
+			<label index="func_hits.alttitle">Widok statystyk</label>
+			<label index="func_hits.description">Możesz wybrać pomiędzy trzema widokami statystyk: &quot;Odsłony strony&quot;, &quot;Liczba odsłon&quot;, &quot;Wszystkie odsłony&quot;. Użyj selektora z prawej strony aby wybrać poziom zagłębienia widoku drzewa stron.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

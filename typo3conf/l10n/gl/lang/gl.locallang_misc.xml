@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gl" type="array">
+			<label index="shortcut_edit">Naqqiuk</label>
+			<label index="shortcut_editID">Quppernerup ID-a naqqiuk</label>
+			<label index="shortcut_save">Iserasuaatip qulequtaa nutarteruk</label>
+			<label index="shortcut_saveClose">Aaqqissuivik nutarterlugulu matujuk</label>
+			<label index="shortcut_close">Iserasuaatip aaqqissuivia matujuk</label>
+			<label index="shortcut_delete">Iserasuaat peeruk</label>
+			<label index="shortcut_loadEdit">Qupperneq nuilerpoq</label>
+			<label index="shortcut_notEditable">Qupperneq naqqinneqarsinnaasoq nanineqanngilaq!</label>
+			<label index="shortcut_group">Atuisoqatigiit</label>
+			<label index="shortcut_GLOBAL">TAMANI ATUUTTOQ</label>
+			<label index="shortcut_ALL">TAMAAT</label>
+			<label index="shortcut_onlyAdmin">Iserasuaat avinneqartoq naqqissinnaanngilat!</label>
+			<label index="shortcut_selSC">Iserasuaat toqqaruk</label>
+			<label index="overwriteExistingFiles">Fiilit pioreersut qallikkit</label>
+			<label index="selectPosition">Quppernermut nutaamut inissarsiorit</label>
+			<label index="goBack">Uterit</label>
+			<label index="createNewPage">Qupperneq nutaaq pilersiguk</label>
+			<label index="clickForWizard">Angakkuartartoq toqqarlugu una tooruk!</label>
+			<label index="insertNewPageHere">Qupperneq nutaaq uani ivertiguk</label>
+			<label index="CM_perms">Isersinnaaneq</label>
+			<label index="CM_moveWizard_page">Qupperneq nuuguk</label>
+			<label index="CM_newWizard">Angakkuannguaq 'Nutaaq pilersiguk'</label>
+			<label index="CM_editPageHeader">Quppernerup niaqua naqqiuk</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gl" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

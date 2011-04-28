@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel">Центр заданий содержит обзор заданий, сообщения и инструкции</label>
+			<label index="mlang_labels_tabdescr">Центр заданий предоставляет доступ к вашим личным планам, заметкам, действиям и т.д. Также вы найдете здесь ссылки к доступным вам модулям и список страниц, над которыми вы работали последнее время. Центр заданий - это ваш рабочий стол.</label>
+			<label index="mlang_tabs_tab">Центр заданий</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

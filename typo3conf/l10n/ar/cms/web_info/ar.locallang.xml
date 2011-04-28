@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="page_title">عرض عام لشجرة الصفحة</label>
+			<label index="page_sysnote">ملاحظات داخلية</label>
+			<label index="pageInformation">معلومات الصفحة</label>
+			<label index="pages_0">الإعدادات الأساسية</label>
+			<label index="pages_2">الذاكرة المؤقتة والعمر</label>
+			<label index="pages_1">عرض عام للسجل</label>
+			<label index="stat_type_0">زيارات الصفحة</label>
+			<label index="stat_type_1">إجمالي الزيارات</label>
+			<label index="stat_type_2">الزيارات في الأقسام الرئيسية</label>
+			<label index="stat_period">إحصائيات في الفترة من %s ورجوعا إلى %s</label>
+			<label index="pI_crUser">القائم بالإنشاء</label>
+			<label index="pI_crDate">تاريخ الإنشاء</label>
+			<label index="pI_lastChange">آخر تعديل</label>
+			<label index="pI_lastChangeContent">آخر تعديل، محتوى</label>
+			<label index="hits_title">إحصائيات الزيارات</label>
+			<label index="lang_renderl10n_viewPage">استعراض الصفحة</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">تحرير خصائص لغة الصفحة الإفتراضية</label>
+			<label index="lang_renderl10n_editLangOverlays">تحرير جميع سجلات تراكب اللغة</label>
+			<label index="lang_renderl10n_editPageProperties">تحرير خصائص جميع الصفحات</label>
+			<label index="lang_renderl10n_editPage">تحرير الصفحة</label>
+			<label index="lang_renderl10n_editPageLang">تحرير ترجمة الصفحة</label>
+			<label index="lang_renderl10n_badThingThereAre">خطأ: يوجد أكثر من سجل تراكب صفحة لهذه اللغة! لا يسمح بوجود أكثر من سجل واحد!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">تحرير سجل تراكب اللغة</label>
+			<label index="lang_renderl10n_page">صفحة</label>
+			<label index="lang_renderl10n_default">أساسي</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">إنشاء عناوين ترجمة جديدة</label>
+			<label index="lang_renderl10n_CEcount">عدد عناصر المحتوى</label>
+			<label index="lang_renderl10n_editPageHeaders">تحرير جميع رؤوس الصفحة</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="page_title" type="integer">46867233</label>
+			<label index="page_sysnote" type="integer">267841144</label>
+			<label index="pageInformation" type="double">9265976</label>
+			<label index="pages_0" type="integer">155022480</label>
+			<label index="pages_2" type="integer">198333821</label>
+			<label index="pages_1" type="integer">71658561</label>
+			<label index="stat_type_0" type="integer">131565852</label>
+			<label index="stat_type_1" type="integer">110417445</label>
+			<label index="stat_type_2" type="integer">86813859</label>
+			<label index="stat_period" type="integer">100779727</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="hits_title" type="integer">55072016</label>
+			<label index="lang_renderl10n_viewPage" type="integer">258274582</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage" type="integer">187585307</label>
+			<label index="lang_renderl10n_editLangOverlays" type="integer">193717971</label>
+			<label index="lang_renderl10n_editPageHeaders" type="integer">237110134</label>
+			<label index="lang_renderl10n_editPage" type="integer">66732081</label>
+			<label index="lang_renderl10n_editPageLang" type="integer">110674105</label>
+			<label index="lang_renderl10n_badThingThereAre" type="integer">258445119</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord" type="integer">80463324</label>
+			<label index="lang_renderl10n_page" type="integer">26464201</label>
+			<label index="lang_renderl10n_default" type="integer">128029197</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders" type="integer">193499435</label>
+			<label index="lang_renderl10n_CEcount" type="integer">196252064</label>
+			<label index="lang_renderl10n_editPageProperties" type="integer">267546290</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="page_title">Pagetree overview</label>
+			<label index="page_sysnote">Internal notes</label>
+			<label index="pageInformation">Page information</label>
+			<label index="pages_0">Basic settings</label>
+			<label index="pages_2">Cache and Age</label>
+			<label index="pages_1">Record overview</label>
+			<label index="stat_type_0">Page hits</label>
+			<label index="stat_type_1">Total hits</label>
+			<label index="stat_type_2">Hits in main sections</label>
+			<label index="stat_period">Statistics in the period %s back to %s</label>
+			<label index="pI_crUser">Created by</label>
+			<label index="pI_crDate">Created date</label>
+			<label index="pI_lastChange">Last change</label>
+			<label index="pI_lastChangeContent">Last change, content</label>
+			<label index="hits_title">Hit Statistics</label>
+			<label index="lang_renderl10n_viewPage">View page</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">Edit default language page properties</label>
+			<label index="lang_renderl10n_editLangOverlays">Edit all language overlay records</label>
+			<label index="lang_renderl10n_editPageHeaders">Edit all page headers</label>
+			<label index="lang_renderl10n_editPage">Edit page</label>
+			<label index="lang_renderl10n_editPageLang">Edit page translation</label>
+			<label index="lang_renderl10n_badThingThereAre">ERROR: there are two or more page overlay records for this language! Only one is allowed!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">Edit language overlay record</label>
+			<label index="lang_renderl10n_page">Page</label>
+			<label index="lang_renderl10n_default">Default</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">Create new translation headers</label>
+			<label index="lang_renderl10n_CEcount">Content Element Count</label>
+			<label index="lang_renderl10n_editPageProperties">Edit all page properties</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="title">Bijzondere functies</label>
+			<label index="clickAPage_content">Klik op een paginatitel in de paginastructuur.</label>
+			<label index="mlang_labels_tablabel">Bijzondere functies</label>
+			<label index="mlang_labels_tabdescr">Deze module bevat algemene export en import functies evenals gespecialiseerde assistenten voor het sorteren en het batchgewijs aanmaken van pagina's.</label>
+			<label index="mlang_tabs_tab">Functies</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="title" type="integer">155530193</label>
+			<label index="clickAPage_content" type="integer">74170385</label>
+			<label index="mlang_labels_tablabel" type="integer">155530193</label>
+			<label index="mlang_labels_tabdescr" type="integer">78025753</label>
+			<label index="mlang_tabs_tab" type="integer">244559025</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".alttitle">EM</label>
+			<label index=".description">Menadžer ekstenzijama (EM)</label>
+			<label index=".details">TYPO3 može se proširiti u bilo kojem smjeru bez gubitka
+kompatibilnosti unazad. API za ekstenzije pruža moćnu strukturu
+za lagano dodavanje, oduzimanje, instalaciju i razvoj takvih
+ekstenzija u TYPO3 okruženju. To posebno omogućava menadžer
+ekstenzija EM unutat TYPO3.
+
+&quot;Ekstenzije&quot; su pojam koje u TYPO3 pokriva dva druga pojma,
+plugin-ovi i moduli.
+
+Plugin je dio koji ima ulogu u samom web sjedištu.
+Npr. oglasna ploča, knjiga gostiju, dućan itd. Uobičajeno je sadržan
+unutar PHP klase i pozvan kroz USER ili USER_INT cObject
+iz TypoScript-a. Plugin je ekstenzija u frontend-u.
+
+Modul je backend aplikacija koja ima vlastitu poziciju u administracijskom
+meniju. Zahtijeva prijavu na backend sustav i djeluje unutar strukture
+beckenda. Također modulom možemo nazvati ako iskorištava
+bilo kakvu povezivost nekog postojećeg modula, tj. ako se dodaje
+meniju funkcija postojećih modula. Modul je ekstenzija u backend-u.</label>
+			<label index="emconf_shy.alttitle">Prikriveno</label>
+			<label index="emconf_shy.description">Ako je postavljeno, ekstenzija će u biti skrivena u EM-u, npr. jer se radi o uobičajenoj ekstenziji ili nije od veće važnosti.</label>
+			<label index="emconf_shy.details">Koristite ovu zastavicu ako je mali interes za ekstenziju (to ne znači
+da nije važna vć smo da nije često tražena...)
+Ne utječe na uključenost ekstenzije, samo na prikaz u EM-u.
+Uobičajeno je opcija 'skriveno' postavljena za sve ekstenzije koje
+su standardno učitane u skladu s TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Kategorija</label>
+			<label index="emconf_category.description">Kojoj kategoriji pripada ekstenzija</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Uobičajeno backend orijentirana,
+ali nije modul)
+
+&lt;b&gt;modul:&lt;/b&gt; Backend moduli (Kada je nešto modul
+ili se spaja sa modulom)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Uobičajeno frontend orijentirana,
+ali nije &quot;pravi&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugin-ovi (Plugin-ovi ubačeni kao
+sadržajni elementi &quot;Ubaci Plugin&quot; metode)
+
+&lt;b&gt;razno:&lt;/b&gt; Razne stvari (Kada se ne mogu drugdje smejstiti)
+
+&lt;b&gt;primjer:&lt;/b&gt; Primjer ekstenzija (Koja služi kao primjer, itd.)</label>
+			<label index="emconf_dependencies.alttitle">Ovisnost o drugim ekstenzijama?</label>
+			<label index="emconf_dependencies.description">Ovo je lista ključeva ostalih ekstenzija o kojima ova ekstenzija ovisi i koje moraju biti učitane PRIJE nje same.</label>
+			<label index="emconf_dependencies.details">EM će obraditi tu ovisnost dok bude pisao popis ekstenzija u localconf.php.</label>
+			<label index="emconf_conflicts.alttitle">Konflikti s drugim ekstenzijama?</label>
+			<label index="emconf_conflicts.description">Popis ključeva onih ekstenzija s kojim dotična ekstenzija dolazi u sukob (i zato nemože biti uključena prije nego su ostale isključene).</label>
+			<label index="emconf_priority.alttitle">Traženi prioritet učitavanja</label>
+			<label index="emconf_priority.description">Ovo govori EM-u da pokuša upisati ekstenzije na vrh liste. Standardno je na kraj liste.</label>
+			<label index="emconf_module.alttitle">Uključi backend module</label>
+			<label index="emconf_module.description">Ako neki poddirektoriji ekstenzije sadrže backend module, imena tih direktorija moraju ovdje biti popisana.</label>
+			<label index="emconf_module.details">Omogućava EM-u informacije o postojanju modula, što je bitno jer EM mora osvježiti datoteku modula conf.php kako bi se valjano postavila TYPO3_MOD_PATH konstanta.</label>
+			<label index="emconf_state.alttitle">Status razvoja</label>
+			<label index="emconf_state.description">U kojem se statusu razvoja nalazi ekstenzija.</label>
+			<label index="emconf_state.details">&lt;b&gt;alfa&lt;/b&gt;
+Početni razvoj. Ne mora biti funkcionalna.
+
+&lt;b&gt;beta&lt;/b&gt;
+Trenutno u razvoju. Djelomično funkcionalna, ali nije završena.
+
+&lt;b&gt;stabilna&lt;/b&gt;
+Stabilna, koristi se u produkciji.
+
+&lt;b&gt;experimentalna&lt;/b&gt;
+Nepoznanica je da li će uopće biti stvarnih rezultata.
+Možda se radi samo o ideji.
+
+&lt;b&gt;test&lt;/b&gt;
+Test ekstenzije, predstavljanje koncepata, itd.</label>
+			<label index="emconf_internal.alttitle">Interno podržan u jezgri sustava.</label>
+			<label index="emconf_internal.description">Ova zastavica ukazuje da ekstenzija posebno utječe na izvorni kod jezgre sustava.</label>
+			<label index="emconf_internal.details">U stvari ova zastavica bi trebala upozoravati na činjenicu da
+&quot;ekstenzija nije mogla biti napisana bez izmjena u izvornom kodu sustava&quot;
+
+Ekstenzija nije interna samo zato jer upotrebljava TYPO3 opće klase,
+npr. one iz t3lib/.
+Prave ne-interne ekstenzije obilježava činjenica da su napisane
+bez uvođenja promjena u izvornom kodu jezgre sustava. One se
+uz svoje skripte u pretincu ekstenzije oslanjaju samo na postojeće
+klase u TYPO3 i/ili drugim ekstenzijama.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Očisti privremeni spremnik (cache) nakon instalacije.</label>
+			<label index="emconf_clearCacheOnLoad.description">Ako je postavljena, EM će zahtijevati da se privremeni spremnik (cache) očisti kada se ova ekstenzija instalira.</label>
+			<label index="emconf_modify_tables.alttitle">Postojeći tablice su promijenjene</label>
+			<label index="emconf_modify_tables.description">Popis imena tablica koje ova ekstenzija samo mijenja, ne stvara ih.</label>
+			<label index="emconf_modify_tables.details">Tablice iz ove liste pronađene u datoteci ekstenzije ext_tables.sql</label>
+			<label index="emconf_private.alttitle">Privatno</label>
+			<label index="emconf_private.description">Ako je postavljeno, ova verzija se ne pokazuje u javnoj listi online repozitorij.</label>
+			<label index="emconf_private.details">&quot;Privatni&quot;  uploadi zahtjevaju da ručno unesete posebni ključ (koji će vam se prikazati
+nakon što se upload završi) da bi mogli importirati i pregledavati detalje uploadane ekstenzije.
+To je zgodno kad radite na internim stvarima koje ne želite da drugi pregledavaju.
+Možete postaviti i maknuti zastavicu privatno svaki put kada uploadate ekstenziju.</label>
+			<label index="emconf_download_password.alttitle">Download zaporke</label>
+			<label index="emconf_download_password.description">Dodatna zaporka je potrebna za download privatne ekstenzije.</label>
+			<label index="emconf_download_password.details">Svi koji poznaju &quot;poseban ključ&quot; dodijeljen privatnom uploadu mogu taj upload importirati. Specificiranje zaporke za importiranje omogućava vam da podijelite ključ za download privatnih uploada ali i dodatno zahtjevate spomenutu zaporku.Zaporka se može kasnije promijeniti.</label>
+			<label index="emconf_type.alttitle">Tip instalacije</label>
+			<label index="emconf_type.description">Tip instalacije</label>
+			<label index="emconf_type.details">Datoteke pojedine ekstenzije spremljene su u direktorij nazvan po ključu ekstenzije. Mjesto ovog direktorija može biti
+unutar typo3/sysext/, typo3/ext/ , ili typo3conf/ext. Ekstenzija mora biti programirana tako da automatski otkriva
+gdje je smještena i da može rasditi sa sve tri lokacije.
+
+&lt;b&gt;  Lokalni smještaj “typo3conf/ext/”:&lt;/b&gt; Ovdje se spremaju ekstenzije koje su lokalne za pojedinu TYPO3 instalaciju.
+Direktorij typo3conf/ je uvijek lokalan, i sadrži lokalnu konfiguraciju (npr. localconf.php), lokalne module, itd.
+Ako ovdje smjestite ekstenziju biti će dostupna samo ovoj TYPO3 instalaciji.
+To je &quot;po-bazi-podataka&quot; način instalacije ekstenzije.
+
+&lt;b&gt;Globalni smještaj “typo3/ext/”:&lt;/b&gt; Ovdje se spremaju ekstenzije koje su globalne za TYPO3 izvorni kod na web
+poslužitelju. Ove ekstenzije će biti dostupne za sve TYPO3 instalacije koje dijele izvorni kod.
+Kada ažurirate vaš TYPO3 izvorni kod prikladno je kopirati typo3/ext direktorij iz prijašnje u obnovljenu instalaciju,
+nadjačavši preddefinirani direktorij. Na taj će se način sve korištene globalne ekstenzije naći unutar novog izvornog koda.
+Nakon toga uvijek možete ulaskom u TYPO3 po potrebi ažurirati inačice.
+To je &quot;po-serveru&quot; način instalacije ekstenzije.
+
+&lt;b&gt; Sistemski smještaj “typo3/sysext/”:&lt;/b&gt; Ovo su sistemski zadane ekstenzje  koje se nemogu i ne bi trebale ažurirati
+od strane EM-a
+
+&lt;b&gt; Prioriteti učitavanja&lt;/b&gt;
+Lokalne ekstenzije imju prednost što znači da ukoliko ekstenzija postoji u typo3conf/ext/ i typo3/ext/ učitava
+se samo ona iz typo3conf/ext/. Slično globalne ekstenzije imaju prednost nad sistemskim. To znači da se ekstenzije
+učitavaju redosljedom lokalne-globalne-sistemske.
+U praksi možete imati  &quot;stabilnu&quot; inačicu instaliranu u globalni direktorij (typo3/ext/), koju koriste svi vaši projekti
+koji dijele izvorni kod na poslužitelju. S  druge strane na pojedinom pokusnom projektu možete importirati istu
+ekstenziju u novijoj &quot;pokusnoj&quot; inačici, i za taj posebni projekt koristiti će se lokalno dostupne ekstenzije.</label>
+			<label index="emconf_doubleInstall.alttitle">Instalirana dva ili više puta?</label>
+			<label index="emconf_doubleInstall.description">Pokazuje ako je ekstenzija instalirana na više od jednog Sistemskog, Globalnog ili Lokalnog mjesta.</label>
+			<label index="emconf_doubleInstall.details">Kako ekstenzija može postojati na tri mjesta, Sistemsko, Globalno, Lokalno, ovo ukazuje nalaz li se ekstenzijai i na drugim mjestima osim trenutnog. U tom slučaju obratite pažnju koja je ekstenzija učitana!</label>
+			<label index="emconf_rootfiles.alttitle">Početne datoteke</label>
+			<label index="emconf_rootfiles.description">Popis datoteka u direktoriju ekstenzije. Ne prikazuje datoteka u poddirektorijima.</label>
+			<label index="emconf_dbReq.alttitle">Zahtjevi bazi podataka</label>
+			<label index="emconf_dbReq.description">Ako postoje prikazuje zahtjeve tablicama i poljima baze podataka.</label>
+			<label index="emconf_dbReq.details">Ovo će iz datoteka ext_tables.sql i ext_tables_static+adt.sql pročitati i prikazati koje su tablice, polja i statičke tablice potrebne ovoj ekstenziji.</label>
+			<label index="emconf_dbStatus.alttitle">Status zahtjeva bazi podataka.</label>
+			<label index="emconf_dbStatus.description">Prikazuje trenutni status baze podataka s obzirom na zahtjeve ekstenzije.</label>
+			<label index="emconf_dbStatus.details">Ako se ekstenzija učita pojaviti će se poruka greške ako potrebna polja ili tablice nisu prisutni u bazi podataka.</label>
+			<label index="emconf_flags.alttitle">Zastavice</label>
+			<label index="emconf_flags.description">Popis posebnih kodova koji vam govore na koje dijelove TYPO3 sustava ekstenzija utječe.</label>
+			<label index="emconf_flags.details">Ovo je popis zastavica:
+
+&lt;b&gt;Module:&lt;/b&gt; Pravi backend main/sub modul je pronađen
+
+&lt;b&gt;Module+:&lt;/b&gt; Ekstenzija dodaje samu sebe funkcijskom
+meniju postojećeg backend modula
+
+&lt;b&gt;loadTCA:&lt;/b&gt; Ekstenzija sadrži funkcijski poziv prema
+t3lib_div::loadTCA za učitavanje tablice. To potencijalno može
+usporiti sistem zato jer je potpun opis tablice uvijek uključen u
+samu tablicu. U svakom slučaju vjerojatno postoji dobar razlog
+za takav postupak Vjerojatno ekstenzija pokušava manipulirati
+TCA-config za postojeću tablicu kako bi je proširila.
+
+&lt;b&gt;TCA:&lt;/b&gt; Ekstenzija sadrži konfiguraciju tablice u $TCA.
+
+&lt;b&gt;Plugin:&lt;/b&gt; Ekstenzija dodaje frontend plugin listi pluginova
+u Sadržajni Element tipa &quot;Dodaj Plugin&quot;
+
+&lt;b&gt;Plugin/ST43:&lt;/b&gt; TypoScript kod za prikazivanje plugin-a
+dodan je statičkom predlošku &quot;Sadržaj (osnovni)&quot;. &quot;Plugin&quot; i
+&quot;Plugin/ST43&quot; se obično koriste zajedno.
+
+&lt;b&gt;Page-TSconfig:&lt;/b&gt; Osnovna Stranica-TSconfig je dodana.
+
+&lt;b&gt;TS/Setup:&lt;/b&gt; Osnovne TypoScript Postavke su dodane.
+
+&lt;b&gt;TS/Constants:&lt;/b&gt; Osnovne TypoScript Konstante su dodane.</label>
+			<label index="emconf_conf.description">Pokazuje da li ekstenzija ima predložak za daljnju konfiguraciju</label>
+			<label index="emconf_TSfiles.alttitle">Statične TypoScript datoteke</label>
+			<label index="emconf_TSfiles.description">Pokazuje koji TypoScript statične datoteke mogu biti prisutne.</label>
+			<label index="emconf_TSfiles.details">Ako su datoteke ext_typoscript_constants.txt i/ili ext_typoscript_setup.txt pronađene u direktoriju ekstenzije, one se uključuju u hijerarhiju svih TypoScript predložaka u TYPO3 sustavu odmah nakon preostalih uključenih statičkih predložaka.</label>
+			<label index="emconf_locallang.alttitle">locallang-datoteke</label>
+			<label index="emconf_locallang.description">Prikazuje koje su datoteke nazvane &quot;locallang.php&quot; prisutne u direktoriju ekstenzije (rekurzivna pretraga). Takve datoteke se uobičajeno koriste da dodijele nizu $LOCAL_LANG  oznake koje se koriste u sistemskim jezicima.</label>
+			<label index="emconf_moduleNames.alttitle">Imena Backend Modula</label>
+			<label index="emconf_moduleNames.description">Pokazuje koja su imena modula pronađena unutar ekstenzije.</label>
+			<label index="emconf_classNames.alttitle">Imena PHP klasa</label>
+			<label index="emconf_classNames.description">Pokazuje koje su PHP klase pronađene u .php i .inc datotekama.</label>
+			<label index="emconf_errors.alttitle">Greške</label>
+			<label index="emconf_errors.description">Prikazuje otkrivene ozbiljne greške u ekstenziji.</label>
+			<label index="emconf_NSerrors.alttitle">Greške pri imenovanju</label>
+			<label index="emconf_NSerrors.description">Određene konvencije imenovanja odnose se na ekstenzije. Ovdje se prikazuju pronađena prekršenja.</label>
+			<label index="emconf_NSerrors.details">Konvencije imenovanja definirane su u &quot;Inside TYPO3&quot; dokumentu. Da bi se davanje imena maksimalno pojednostavilo, pokušajte izbjeći &quot;underscore&quot; znak u vašim ključevima ekstenzija.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".alttitle" type="integer">217593800</label>
+			<label index=".description" type="integer">212219576</label>
+			<label index=".details" type="integer">130449459</label>
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index="emconf_shy.description" type="integer">196807582</label>
+			<label index="emconf_shy.details" type="integer">15892463</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_category.details" type="integer">78942816</label>
+			<label index="emconf_dependencies.alttitle" type="integer">6158334</label>
+			<label index="emconf_dependencies.description" type="integer">262753637</label>
+			<label index="emconf_dependencies.details" type="integer">209360491</label>
+			<label index="emconf_conflicts.alttitle" type="integer">174778315</label>
+			<label index="emconf_conflicts.description" type="integer">14159431</label>
+			<label index="emconf_priority.alttitle" type="integer">208790249</label>
+			<label index="emconf_priority.description" type="integer">261230598</label>
+			<label index="emconf_module.alttitle" type="integer">222311525</label>
+			<label index="emconf_module.description" type="integer">131352939</label>
+			<label index="emconf_module.details" type="integer">16797237</label>
+			<label index="emconf_state.alttitle" type="integer">8968835</label>
+			<label index="emconf_state.description" type="integer">48322308</label>
+			<label index="emconf_state.details" type="integer">80752734</label>
+			<label index="emconf_internal.alttitle" type="integer">252258090</label>
+			<label index="emconf_internal.description" type="integer">130243565</label>
+			<label index="emconf_internal.details" type="integer">150689078</label>
+			<label index="emconf_clearCacheOnLoad.alttitle" type="integer">26668595</label>
+			<label index="emconf_clearCacheOnLoad.description" type="integer">149991239</label>
+			<label index="emconf_modify_tables.alttitle" type="integer">211801845</label>
+			<label index="emconf_modify_tables.description" type="integer">225814359</label>
+			<label index="emconf_modify_tables.details" type="integer">250561664</label>
+			<label index="emconf_private.alttitle" type="integer">75468930</label>
+			<label index="emconf_private.description" type="integer">8590515</label>
+			<label index="emconf_private.details" type="integer">183041250</label>
+			<label index="emconf_download_password.alttitle" type="integer">102196861</label>
+			<label index="emconf_download_password.description" type="integer">120757501</label>
+			<label index="emconf_download_password.details" type="integer">92160698</label>
+			<label index="emconf_type.alttitle" type="integer">121209022</label>
+			<label index="emconf_type.description" type="integer">113056504</label>
+			<label index="emconf_type.details" type="integer">153278607</label>
+			<label index="emconf_doubleInstall.alttitle" type="integer">262159324</label>
+			<label index="emconf_doubleInstall.description" type="integer">60133779</label>
+			<label index="emconf_doubleInstall.details" type="integer">201896892</label>
+			<label index="emconf_rootfiles.alttitle" type="integer">234183730</label>
+			<label index="emconf_rootfiles.description" type="integer">157844662</label>
+			<label index="emconf_dbReq.alttitle" type="integer">28332369</label>
+			<label index="emconf_dbReq.description" type="integer">93463627</label>
+			<label index="emconf_dbReq.details" type="integer">199359275</label>
+			<label index="emconf_dbStatus.alttitle" type="integer">204171626</label>
+			<label index="emconf_dbStatus.description" type="integer">166393559</label>
+			<label index="emconf_dbStatus.details" type="integer">198198907</label>
+			<label index="emconf_flags.alttitle" type="integer">82475009</label>
+			<label index="emconf_flags.description" type="integer">42715313</label>
+			<label index="emconf_flags.details" type="integer">209778452</label>
+			<label index="emconf_conf.description" type="integer">49196456</label>
+			<label index="emconf_TSfiles.alttitle" type="integer">43118947</label>
+			<label index="emconf_TSfiles.description" type="integer">196469558</label>
+			<label index="emconf_TSfiles.details" type="integer">103067229</label>
+			<label index="emconf_locallang.alttitle" type="integer">182381040</label>
+			<label index="emconf_locallang.description" type="integer">112585123</label>
+			<label index="emconf_moduleNames.alttitle" type="integer">70637876</label>
+			<label index="emconf_moduleNames.description" type="integer">24342148</label>
+			<label index="emconf_classNames.alttitle" type="integer">155053783</label>
+			<label index="emconf_classNames.description" type="integer">83027952</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+			<label index="emconf_errors.description" type="integer">57596160</label>
+			<label index="emconf_NSerrors.alttitle" type="integer">190879862</label>
+			<label index="emconf_NSerrors.description" type="integer">168628900</label>
+			<label index="emconf_NSerrors.details" type="integer">76599956</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index=".alttitle">Tools &gt; Extension Manager (EM)</label>
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index=".details">TYPO3 can be extended in nearly any direction without loosing backwards compatibility. The Extension API provides a powerful framework for easily adding, removing, installing and developing such extensions to TYPO3. This is in particular powered by the Extension Manager (EM) inside TYPO3.
+
+&quot;Extensions&quot; is a term in TYPO3 which covers two other terms, plugins and modules.
+
+A plugin is something that plays a role on the website itself. For example a board, guestbook, shop etc. It is normally enclosed in a PHP class and invoked through a USER or USER_INT cObject from TypoScript. A plugin is an extension in the frontend.
+
+A module is a backend application which has it's own position in the administration menu. It requires backend login and works inside the framework of the backend. We might also call something a module if it exploits any connectivity of an existing module, that is if it simply adds itself to the function menu of existing modules. A module is an extension in the backend.</label>
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_shy.description">If set, the extension will normally be hidden in the EM because it might be a default extension or otherwise something which is not so important.</label>
+			<label index="emconf_shy.details">Use this flag if an extension is of &quot;rare interest&quot; (which is not the same as un-important - just an extension not sought for very often...)
+It does not affect whether or not it's enabled. Only display in EM.
+Normally &quot;shy&quot; is set for all extensions loaded by default according to TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Generally backend oriented, but not a module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (When something is a module or connects with one)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Generally frontend oriented, but not a &quot;true&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins inserted as a &quot;Insert Plugin&quot; content element)
+
+&lt;b&gt;misc:&lt;/b&gt; Miscellaneous stuff (Where not easily placed elsewhere)
+
+&lt;b&gt;services:&lt;/b&gt; Contains TYPO3 services.
+
+&lt;b&gt;templates:&lt;/b&gt; Contains website templates
+
+&lt;b&gt;doc:&lt;/b&gt; Documentation (Eg. tutorials, FAQ's etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Example extension (Which serves as examples etc.)</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_dependencies.description">This is a list of other extension keys which this extension depends on being loaded BEFORE it self.</label>
+			<label index="emconf_dependencies.details">The EM will manage that dependency while writing the extension list  to localconf.php. You cannot install an extension unless its dependencies has been installed already.</label>
+			<label index="emconf_conflicts.alttitle">Conflicts with other extensions?</label>
+			<label index="emconf_conflicts.description">List of extension keys of extensions with which this extension does not work (and so cannot be enabled before those other extensions are un-installed)</label>
+			<label index="emconf_priority.alttitle">Requested Loading priority</label>
+			<label index="emconf_priority.description">This tells the EM to try to put the extensions as the very first in the list. Default is last.</label>
+			<label index="emconf_module.alttitle">Backend modules included</label>
+			<label index="emconf_module.description">If any subfolders to an extension contains backend modules, those foldernames should be listed here.</label>
+			<label index="emconf_module.details">It allows the EM to know about the existence of the module, which is important because the EM has to update the conf.php file of the module in order to set the correct TYPO3_MOD_PATH  constant.</label>
+			<label index="emconf_state.alttitle">Development state</label>
+			<label index="emconf_state.description">Which development state the extension is in.</label>
+			<label index="emconf_state.details">&lt;b&gt;alpha&lt;/b&gt;
+Very initial development. May do nothing at all.
+
+&lt;b&gt;beta&lt;/b&gt;
+Under current development. Should work partly but is not finished yet.
+
+&lt;b&gt;stable&lt;/b&gt;
+Stable and used in production.
+
+&lt;b&gt;experimental&lt;/b&gt;
+Nobody knows if this is going anywhere yet... Maybe still just an idea.
+
+&lt;b&gt;test&lt;/b&gt;
+Test extension, demonstrates concepts etc.</label>
+			<label index="emconf_internal.alttitle">Internally supported in core</label>
+			<label index="emconf_internal.description">This flag indicates that the core source code is specifically aware of the extension.</label>
+			<label index="emconf_internal.details">In other words this flag should convey the message that &quot;this extension could not be written without some core source code modifications&quot;.
+
+An extension is not internal just because it uses TYPO3 general classes eg. those from t3lib/.
+True non-internal extensions are characterized by the fact that they could be written without making core source code changes, but relies only on existing classes  in TYPO3 and/or other extensions, plus its own scripts in the extension folder.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Clear cache when installed</label>
+			<label index="emconf_clearCacheOnLoad.description">If set, the EM will request the cache to be cleared when this extension is installed.</label>
+			<label index="emconf_modify_tables.alttitle">Existing tables modified</label>
+			<label index="emconf_modify_tables.description">List of tablenames which are only modified - not fully created - by this extension.</label>
+			<label index="emconf_modify_tables.details">Tables from this list found in the ext_tables.sql file of the extension</label>
+			<label index="emconf_private.alttitle">Private</label>
+			<label index="emconf_private.description">If set, this version is not shown in the public list in the online repository.</label>
+			<label index="emconf_private.details">&quot;Private&quot; uploads requires you to manually enter a special key (which will be shown to you after an upload has been completed) to be able to import and view details for the uploaded extension.
+This is nice when you are working on something internally which you do not want others to look at.
+You can set and clear the private flag every time you upload your extension.</label>
+			<label index="emconf_download_password.alttitle">Download password</label>
+			<label index="emconf_download_password.description">Additional password required for download of private extensions.</label>
+			<label index="emconf_download_password.details">Anybody who knows the &quot;special key&quot; assigned to the private upload will be able to import it. Specifying an import password allows you to give away the download key for private uploads and also require a password given in addition. The password can be changed later on.</label>
+			<label index="emconf_type.alttitle">Installation type</label>
+			<label index="emconf_type.description">The type of the installation</label>
+			<label index="emconf_type.details">The files for an extension are located in a folder named by the extension key. The location of this folder can be either inside typo3conf/ext/,  typo3/ext/ or typo3/sysext/. The extension must be programmed so that it automatically detects where it is located and can work from all three locations.
+
+&lt;b&gt;Local location &quot;typo3conf/ext/&quot;:&lt;/b&gt; This is where to put extensions which are local for a particular TYPO3 installation. The typo3conf/ directory is always local, containing local configuration (eg. localconf.php), local modules etc. If you put an extension here it will be available for this TYPO3 installation only. This is a &quot;per-database&quot; way to install an extension.
+
+&lt;b&gt;Global location &quot;typo3/ext/&quot;:&lt;/b&gt; This is where to put extensions which are global for the TYPO3 source code on the web server. These extensions will be available for any TYPO3 installation sharing the source code.
+When you upgrade your TYPO3 source code you probably want to copy the typo3/ext/ directory from the former source to the new source, overriding the default directory. In this way all global extension you use will be installed inside the new sourcecode. After that you can always enter TYPO3 and upgrade the versions if needed.
+This is a &quot;per-server&quot; way to install an extension.
+
+&lt;b&gt;System location &quot;typo3/sysext/&quot;:&lt;/b&gt; This is system default extensions which cannot and should not be updated by the EM. They are distributed with the TYPO3 core.
+
+
+&lt;b&gt;Loading precedence&lt;/b&gt;
+Local extensions take precedence which means that if an extension exists both in typo3conf/ext/ and typo3/ext/ the one in typo3conf/ext/ is loaded. Likewise global extension takes predence over system extensions. This means that extensions are loaded in the order of priority local-global-system.
+In effect you can therefore have, say, a &quot;stable&quot; version of an extension installed in the global dir (typo3/ext/) which is used by all your projects on a server sharing source code, but on a single experimental project you can import the same extension in a newer &quot;experimental&quot; version and for that particular project the locally available extension will be used instead.</label>
+			<label index="emconf_doubleInstall.alttitle">Installed twice or more?</label>
+			<label index="emconf_doubleInstall.description">Tells you if the extensions is installed in more than one of the System, Global or Local locations.</label>
+			<label index="emconf_doubleInstall.details">Because an extension can reside at three locations, System, Global and Local, this indicates if the extension is found in other locations than the current. In that case you should be aware which one of the extensions is loaded!</label>
+			<label index="emconf_rootfiles.alttitle">Root files</label>
+			<label index="emconf_rootfiles.description">List of the files in the extension folder. Does not list files in subfolders.</label>
+			<label index="emconf_dbReq.alttitle">Database requirements</label>
+			<label index="emconf_dbReq.description">Shows you the requirements to the database tables and fields, if any.</label>
+			<label index="emconf_dbReq.details">This will read from the files ext_tables.sql and ext_tables_static+adt.sql and show you which tables, fields and static tables are required with this extension.</label>
+			<label index="emconf_dbStatus.alttitle">Database requirements status</label>
+			<label index="emconf_dbStatus.description">Displays the current status of the database compared to the extension requirements.</label>
+			<label index="emconf_dbStatus.details">If the extension is loaded which will display and error message if some tables or fields are not present in the database as they should be!</label>
+			<label index="emconf_flags.alttitle">Flags</label>
+			<label index="emconf_flags.description">A list of special codes which tells you something about what parts of TYPO3 the extension touches.</label>
+			<label index="emconf_flags.details">This is a list of the flags:
+
+&lt;b&gt;Module:&lt;/b&gt; A true backend main/sub module is found to be added.
+
+&lt;b&gt;Module+:&lt;/b&gt; The extension adds itself to the function menu of an existing backend module.
+
+&lt;b&gt;loadTCA:&lt;/b&gt; The extension includes a function call to t3lib_div::loadTCA for loading a table. This potentially means that the system is slowed down, because the full table description of some table is always included. However there probably is a good reason for this to happen. Probably the extension tries to manipulate the TCA-config for an existing table in order to extend it.
+
+&lt;b&gt;TCA:&lt;/b&gt; The extension contains configuration of a table in $TCA.
+
+&lt;b&gt;Plugin:&lt;/b&gt; The extension adds a frontend plugin to the plugin list in Content Element type &quot;Insert Plugin&quot;.
+
+&lt;b&gt;Plugin/ST43:&lt;/b&gt; TypoScript rendering code for the plugin is added to the static template &quot;Content (default)&quot;. &quot;Plugin&quot; and &quot;Plugin/ST43&quot; are commonly used together.
+
+&lt;b&gt;Page-TSconfig:&lt;/b&gt; Default Page-TSconfig is added.
+
+&lt;b&gt;User-TSconfig:&lt;/b&gt; Default User-TSconfig is added.
+
+&lt;b&gt;TS/Setup:&lt;/b&gt; Default TypoScript Setup is added.
+
+&lt;b&gt;TS/Constants:&lt;/b&gt; Default TypoScript Constants is added.</label>
+			<label index="emconf_conf.description">Shows if the extension has a template for further lowlevel configuration.</label>
+			<label index="emconf_TSfiles.alttitle">Static TypoScript files</label>
+			<label index="emconf_TSfiles.description">Shows which TypoScript static files may be present</label>
+			<label index="emconf_TSfiles.details">If the files ext_typoscript_constants.txt and/or ext_typoscript_setup.txt is found in the extension folder they are included in the hierarchy of all TypoScript templates in TYPO3 right after the inclusion of other static templates.</label>
+			<label index="emconf_locallang.alttitle">locallang-files</label>
+			<label index="emconf_locallang.description">Shows which files named &quot;locallang.php&quot; are present in the extension folder (recursive search). Such files are usually used to present an array $LOCAL_LANG with labels for the application in the system languages.</label>
+			<label index="emconf_moduleNames.alttitle">Backend Module names</label>
+			<label index="emconf_moduleNames.description">Shows which module names were found inside the extension.</label>
+			<label index="emconf_classNames.alttitle">PHP Class names</label>
+			<label index="emconf_classNames.description">Shows which PHP-classes were found in .php and .inc files.</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+			<label index="emconf_errors.description">Displays if any errors with the extension were discovered.</label>
+			<label index="emconf_NSerrors.alttitle">Namespace errors</label>
+			<label index="emconf_NSerrors.description">Certain naming convensions apply to extensions. This displays any violations found.</label>
+			<label index="emconf_NSerrors.details">The naming convensions are defined in the &quot;Inside TYPO3&quot; document. To make naming as simple as possible, try to avoid underscores in your extension keys.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

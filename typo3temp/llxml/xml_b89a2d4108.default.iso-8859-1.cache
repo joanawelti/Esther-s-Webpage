@@ -1,0 +1,12 @@
+a:2:{s:8:"origFile";s:74:"typo3/sysext/taskcenter/task/locallang.xml|06-10-2010 10:40:02|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:22:{s:14:"mlang_tabs_tab";s:5:"Tasks";s:13:"task_overview";s:8:"Overview";s:12:"error_header";s:5:"Error";s:12:"error-access";s:25:"No access to this module.";s:17:"error_no-instance";s:98:"The class "%s" does not implement the task interface "%s" which is necessary to be displayed here.";s:8:"no-tasks";s:34:"No tasks have been registered yet.";s:13:"lReplyAddress";s:27:"Reply address is your email";s:5:"lSelf";s:4:"Self";s:8:"lSendNew";s:12:"Send message";s:10:"lSendReply";s:16:"Reply to message";s:20:"listSeparator_Groups";s:11:"__Groups:__";s:8:"lHomedir";s:8:"Home dir";s:5:"lNone";s:6:"[none]";s:7:"lCreate";s:6:"Create";s:7:"lCancel";s:6:"Cancel";s:15:"lDelete_warning";s:42:"Are you sure you want to delete this user?";s:7:"lDelete";s:6:"Delete";s:7:"lUpdate";s:6:"Update";s:16:"task_description";s:29:"Description, blablabla lipusm";s:16:"taskcenter-about";s:481:"
+				
+					<p>The menu on the left side shows all allowed tasks and let you allow to complete your tasks in an effecient way.</p>
+					<ul class="withicons">
+						<li>Clicking on the title of a task will open a detailed view of the task itself.</li>
+						<li>Click on the arrow on the right side will open/close the submenu of the task.</li>
+					</ul>
+					<br />
+					<strong>Note:</strong> Set the taskcenter as the default module after your login to be even faster!
+
+				
+			";s:22:"taskcenter-adminheader";s:13:"Create a task";s:16:"taskcenter-admin";s:135:"It is simple to extend the taskcenter by a custom task. For more information please look into the manual of the extension 'taskcenter'.";}}}

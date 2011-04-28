@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="title">รีไซเคิล</label>
+			<label index="description">รีไซเคิลจะช่วยให้คุณเลือกข้อมูลที่ถูกลบใด ๆ และยกเลิกการลบได้ คุณสามารถยกเลิกการลบ recursive หากผู้ปกครองขององค์ประกอบที่เป็นลบเกินไป</label>
+			<label index="label_alltables">ตารางทั้งหมด</label>
+			<label index="js.label_lostandfound">ลืมและพบ</label>
+			<label index="js.label_deletedTab">ข้อมูลที่ถูกลบ</label>
+			<label index="js.label_loadMessage">โปรดรอ ... &lt;br/&gt; การจะโหลด!</label>
+			<label index="js.label_doDelete_confirmText">ลบบันทึกและหาก subrecords ALL หน้า? &lt;br/&gt; เรียนข้อมูลจะถูกลบในที่สุดจากฐานข้อมูล</label>
+			<label index="js.label_deleteButton_text">ลบ</label>
+			<label index="js.label_deleteButton_tooltip">ลบเลือกรายการ</label>
+			<label index="js.label_undeleteButton_text">ยกเลิกการลบ</label>
+			<label index="js.label_undeleteButton_tooltip">ยกเลิกการลบรายการที่เลือก</label>
+			<label index="js.label_error_NoSelectedRows_title">แถวไม่มีการเลือก</label>
+			<label index="js.label_error_NoSelectedRows_msg">คุณต้องเลือกแถว!</label>
+			<label index="js.label_yes">ใช่</label>
+			<label index="js.label_no">ไม่</label>
+			<label index="js.label_sure">คุณแน่ใจหรือไม่</label>
+			<label index="js.label_crdate">สร้าง</label>
+			<label index="js.label_owner">เจ้าของ</label>
+			<label index="js.label_tstamp">แก้ไขล่าสุด</label>
+			<label index="js.label_clear">ชัดเจน</label>
+			<label index="js.label_filter">กรอง</label>
+			<label index="js.label_title_undelete">ยกเลิกการลบ?</label>
+			<label index="js.label_text_undelete">ยกเลิกการลบระเบียนจากตาราง :</label>
+			<label index="js.label_title_delete">ลบ?</label>
+			<label index="js.label_text_delete">ลบระเบียนจากตาราง :</label>
+			<label index="js.label_boxLabel_undelete_recursive">ยกเลิกการลบ recursively</label>
+			<label index="js.label_tableMenu_label">ตาราง :</label>
+			<label index="js.label_tableMenu_emptyText">เลือกตาราง ...</label>
+			<label index="js.label_filter_emptyText">คำหลัก</label>
+			<label index="js.label_search">ค้นหา :</label>
+			<label index="js.label_pagingMessage">แสดงบันทึก (0) -- (1) of (2)</label>
+			<label index="js.label_pagingEmpty">บันทึกไม่แสดง</label>
+			<label index="js.label_noValueFound">ไม่มีบันทึก (0)</label>
+			<label index="js.label_records">ระเบียน</label>
+			<label index="js.label_table">โต๊ะ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="title" type="integer">184146156</label>
+			<label index="description" type="integer">211122156</label>
+			<label index="label_alltables" type="integer">79396010</label>
+			<label index="js.label_lostandfound" type="integer">203155875</label>
+			<label index="js.label_deletedTab" type="integer">153822893</label>
+			<label index="js.label_loadMessage" type="integer">679303</label>
+			<label index="js.label_doDelete_confirmText" type="integer">178675910</label>
+			<label index="js.label_deleteButton_text" type="integer">254438473</label>
+			<label index="js.label_deleteButton_tooltip" type="integer">193908484</label>
+			<label index="js.label_undeleteButton_text" type="integer">130147676</label>
+			<label index="js.label_undeleteButton_tooltip" type="integer">100957638</label>
+			<label index="js.label_error_NoSelectedRows_title" type="integer">192962803</label>
+			<label index="js.label_error_NoSelectedRows_msg" type="integer">228160843</label>
+			<label index="js.label_yes" type="integer">154974727</label>
+			<label index="js.label_no" type="integer">196073266</label>
+			<label index="js.label_sure" type="integer">73076236</label>
+			<label index="js.label_crdate" type="integer">109504151</label>
+			<label index="js.label_owner" type="integer">191842862</label>
+			<label index="js.label_tstamp" type="integer">177437089</label>
+			<label index="js.label_clear" type="integer">230886336</label>
+			<label index="js.label_filter" type="integer">225933520</label>
+			<label index="js.label_title_undelete" type="integer">98696878</label>
+			<label index="js.label_text_undelete" type="integer">730607</label>
+			<label index="js.label_title_delete" type="integer">126264319</label>
+			<label index="js.label_text_delete" type="integer">161832476</label>
+			<label index="js.label_boxLabel_undelete_recursive" type="integer">33496907</label>
+			<label index="js.label_tableMenu_label" type="integer">82279689</label>
+			<label index="js.label_tableMenu_emptyText" type="integer">97134956</label>
+			<label index="js.label_filter_emptyText" type="integer">35714003</label>
+			<label index="js.label_search" type="integer">38545776</label>
+			<label index="js.label_pagingMessage" type="integer">156690454</label>
+			<label index="js.label_pagingEmpty" type="integer">227929997</label>
+			<label index="js.label_noValueFound" type="integer">93925728</label>
+			<label index="js.label_records" type="integer">229781996</label>
+			<label index="js.label_table" type="integer">85738935</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index="title">Recycler</label>
+			<label index="description">The recycler allows you to select any deleted data and undelete it. You can undelete recursive if the parent of the element is deleted too.</label>
+			<label index="label_alltables">All tables</label>
+			<label index="js.label_lostandfound">Lost and found</label>
+			<label index="js.label_deletedTab">Deleted data</label>
+			<label index="js.label_loadMessage">Please wait...&lt;br/&gt;Records would be loaded!</label>
+			<label index="js.label_doDelete_confirmText">Delete this record AND if page ALL subrecords ? &lt;br/&gt;ATTENTION: Data will be finally deleted from the database</label>
+			<label index="js.label_deleteButton_text">Delete</label>
+			<label index="js.label_deleteButton_tooltip">Delete selected items</label>
+			<label index="js.label_undeleteButton_text">Undelete</label>
+			<label index="js.label_undeleteButton_tooltip">Undelete selected items</label>
+			<label index="js.label_error_NoSelectedRows_title">No row selected</label>
+			<label index="js.label_error_NoSelectedRows_msg">You must select a row!</label>
+			<label index="js.label_yes">Yes</label>
+			<label index="js.label_no">No</label>
+			<label index="js.label_sure">Are you Sure?</label>
+			<label index="js.label_crdate">Create</label>
+			<label index="js.label_owner">Owner</label>
+			<label index="js.label_tstamp">Last edit</label>
+			<label index="js.label_clear">Clear</label>
+			<label index="js.label_filter">Filter</label>
+			<label index="js.label_title_undelete">Undelete?</label>
+			<label index="js.label_text_undelete">Undelete records from tables: </label>
+			<label index="js.label_title_delete">Delete?</label>
+			<label index="js.label_text_delete">Delete records from tables: </label>
+			<label index="js.label_boxLabel_undelete_recursive">Undelete recursively</label>
+			<label index="js.label_tableMenu_label">Table:</label>
+			<label index="js.label_tableMenu_emptyText">Choose a table...</label>
+			<label index="js.label_filter_emptyText">Keyword</label>
+			<label index="js.label_search">Search:</label>
+			<label index="js.label_pagingMessage">Displaying records {0} - {1} of {2}</label>
+			<label index="js.label_pagingEmpty">No records to display</label>
+			<label index="js.label_noValueFound">No records for {0}</label>
+			<label index="js.label_records">Records</label>
+			<label index="js.label_table">Table</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

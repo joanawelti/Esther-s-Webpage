@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index=".description">Une enregistrement 'Page' représente normalement une page sur votre site web. Toutes les pages ont un ID qui leur permet d'être référencées et d'en faire des liens. Une 'Page' ne contient pas directement le contenu (texte, image, ...). Pour cela vous devez créer des enregistrements que nous appelleront 'Contenu de page'.</label>
+			<label index="title.description">Entrez le titre de la page ou du dossier. Vous devez nommer la page, ce champs est obligatoire.</label>
+			<label index="doktype.description">Choisissez le type de page. Cette option va définir si votre page est un simple page visible sur votre site ou si elle va avoir une autre utilisation.</label>
+			<label index="doktype.details">le type 'Standard'  représente une page normal de votre site.
+'SysFolder' réprente une page qui n'apparaitra pas sur votre site mais qui servira à stocker les enregistrements de votre choix.
+'Recycler' vous servira de corbeille.
+
+&lt;strong&gt;Attention:&lt;/strong&gt; Normalement, chaque page à une icône spécifique. De plus certains types ne sont pas disponible pour tous les utilisateurs. Et finalement certains types de page vont automatiquement limiter le contenu qu'elle supportent.
+
+&lt;strong&gt;$PAGES_TYPES [Technical]&lt;/strong&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.description">Configuration TypoScript de la page.</label>
+			<label index="php_tree_stop.description">Arrête le rendu backend de l'arborescence des pages dans la navigation et dans les listes.</label>
+			<label index="php_tree_stop.details">Si vous choisissez cette option alors l'arborescence du cadre de navigation sera arrêtée à cette branche. A la place vous verrez un &quot;+&quot; rouge qui indique que l'arborescence est stoppée ici à cause de cette option.
+
+L'intérêt de cette options est d'empêcher de descendre dans une branche qui peux présenter un nombre anormal de sous-pages (des centaines par exemples).
+
+Vous pouvez cliquer sur le &quot;+&quot; rouge et la page deviendra un point de montage temporaire dans le cadre de navigation.</label>
+			<label index="storage_pid.description">Un dossier général de stockage est une page globale pour stocker les éléments généraux du site. Cela peut être les gabarit, membres etc. Ceux-ci ne se réfère pas à une page unique mais plutôt à l'ensemble du site.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="storage_pid.description" type="integer">154894460</label>
+			<label index="php_tree_stop.description" type="integer">87402840</label>
+			<label index="php_tree_stop.details" type="integer">49793750</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="storage_pid.description">A General Storage Folder is meant to be a global page for storage of general database elements of a website. That could be for templates, frontend users etc. which does not really relate to a single page but more to the whole site.</label>
+			<label index="php_tree_stop.description">Stops backend rendering of the page tree in navigation and lists.</label>
+			<label index="php_tree_stop.details">If you set this flag the page tree in the navigation frame will not expand that branch. Rather you will see a red &quot;+&quot; which indicates that the tree stopped here due to this flag being set.
+
+The point with this flag is to prevent descendence into a branch that might have an unusual amount of subpages (hundreds).
+
+You can click the red &quot;+&quot; and the page will become a temporary mount point in the navigation frame.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

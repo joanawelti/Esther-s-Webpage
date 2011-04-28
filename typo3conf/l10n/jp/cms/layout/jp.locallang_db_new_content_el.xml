@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="sel1">作成するページコンテンツのタイプを選択します</label>
+			<label index="sel2">エレメントを配置する場所をクリックします</label>
+			<label index="common">一般的なページコンテンツ</label>
+			<label index="common_1_title">通常のテキストエレメント</label>
+			<label index="common_1_description">ヘッダと本文で構成される通常のテキストエレメント</label>
+			<label index="common_2_title">テキストの下に画像</label>
+			<label index="common_2_description">通常のテキストエレメントの下に画像</label>
+			<label index="common_3_title">テキストの右に画像</label>
+			<label index="common_3_description">右寄せの画像に回り込むテキスト</label>
+			<label index="common_4_title">画像のみ</label>
+			<label index="common_4_description">表形式に配置された複数の画像と解説文</label>
+			<label index="common_5_title">箇条書き</label>
+			<label index="common_5_description">箇条書き</label>
+			<label index="common_6_title">表</label>
+			<label index="common_6_description">8列以内の表</label>
+			<label index="special">特殊なエレメント</label>
+			<label index="special_1_title">ファイルへのリンク</label>
+			<label index="special_1_description">ダウンロード用にリンクされたファイル</label>
+			<label index="special_2_title">マルチメディア</label>
+			<label index="special_2_description">フラッシュ、音声ファイル、ビデオクリップなどのマルチメディアエレメント</label>
+			<label index="special_3_title">サイトマップ</label>
+			<label index="special_3_description">サイトマップの作成</label>
+			<label index="special_4_title">通常のHTML</label>
+			<label index="special_4_description">このエレメントには直接HTMLを記述できます。</label>
+			<label index="forms">フォームエレメント</label>
+			<label index="forms_1_title">メール送信フォーム</label>
+			<label index="forms_1_description">ビジターはメールフォームを使って問い合わせることができます。</label>
+			<label index="forms_2_title">検索フォーム</label>
+			<label index="forms_2_description">検索フォームを設置して、検索結果を表示できます。</label>
+			<label index="forms_3_title">ログインフォーム</label>
+			<label index="forms_3_description">ログインフォームを使うと、許可されたユーザやグループだけに、パスワードで保護されたページを表示できます。</label>
+			<label index="plugins">プラグイン</label>
+			<label index="plugins_1_title">通常のプラグイン</label>
+			<label index="plugins_1_description">この下に表示されていないプラグインを使うにはこのエレメントを選択します</label>
+			<label index="common_regularText_title">標準的なテキストエレメント</label>
+			<label index="common_regularText_description">標準的なテキストエレメントにヘッダーと本文のフィールド</label>
+			<label index="common_textImage_title">テキストとイメージ</label>
+			<label index="common_textImage_description">いくつかのイメージの右にテキストエレメント</label>
+			<label index="common_imagesOnly_title">イメージのみ</label>
+			<label index="common_imagesOnly_description">キャプション付の並べたイメージ</label>
+			<label index="common_bulletList_title">箇条書き</label>
+			<label index="common_bulletList_description">一つの箇条書き</label>
+			<label index="common_table_title">テーブル</label>
+			<label index="common_table_description">最大８つの分類があるテーブル</label>
+			<label index="special_filelinks_title">ファイルリンク</label>
+			<label index="special_filelinks_description">ファイルのダウンロードリストを作成します</label>
+			<label index="special_multimedia_title">マルチメディア</label>
+			<label index="special_multimedia_description">Flashやオーディオファイル、ビデオクリップなどのメディアを入れます。</label>
+			<label index="special_sitemap_title">サイトマップ</label>
+			<label index="special_sitemap_description">ウェブサイトのサイトマップを作成します。</label>
+			<label index="special_plainHTML_title">プレーンHTML</label>
+			<label index="special_plainHTML_description">プレーンHTMLコードをページに入れることができます。</label>
+			<label index="forms_mail_title">メールフォーム</label>
+			<label index="forms_mail_description">メールフォールを利用して、ウェブサイトユーザーのレスポンスを送信することができます。</label>
+			<label index="forms_search_title">検索フォーム</label>
+			<label index="forms_search_description">検索が行われたら検索結果と検索フォームを表示します。</label>
+			<label index="forms_login_title">ログインフォーム</label>
+			<label index="forms_login_description">ログイン/はログアウトします。パスワードで認可されたウェブサイトユーザだけを許容して、グループがアクセスするページを保護します。</label>
+			<label index="plugins_general_title">グローバルプラグイン</label>
+			<label index="plugins_general_description">標準オプションで見つけることができなかったエレメントを以下の中から選択してください。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="special_3_title" type="integer">92355808</label>
+			<label index="sel1" type="integer">125258284</label>
+			<label index="sel2" type="integer">142688057</label>
+			<label index="common_1_description" type="integer">29135748</label>
+			<label index="common_2_title" type="integer">153490096</label>
+			<label index="common_3_title" type="double">13066984</label>
+			<label index="common_3_description" type="integer">49907931</label>
+			<label index="common_4_title" type="integer">62677049</label>
+			<label index="common_4_description" type="integer">232160004</label>
+			<label index="common_6_title" type="integer">85738935</label>
+			<label index="special_1_title" type="integer">23062602</label>
+			<label index="special_1_description" type="integer">154390211</label>
+			<label index="special_2_title" type="integer">49638223</label>
+			<label index="special_2_description" type="integer">87627445</label>
+			<label index="special_3_description" type="integer">36006628</label>
+			<label index="special_4_title" type="integer">238583373</label>
+			<label index="forms" type="double">14172094</label>
+			<label index="forms_1_title" type="integer">173513512</label>
+			<label index="forms_2_title" type="integer">184654558</label>
+			<label index="forms_3_title" type="integer">149378624</label>
+			<label index="plugins" type="integer">196313238</label>
+			<label index="plugins_1_title" type="integer">188310073</label>
+			<label index="common" type="integer">57063941</label>
+			<label index="common_1_title" type="integer">134955826</label>
+			<label index="common_2_description" type="integer">57288467</label>
+			<label index="common_5_title" type="integer">88917113</label>
+			<label index="common_5_description" type="integer">136121208</label>
+			<label index="common_6_description" type="integer">145590635</label>
+			<label index="special" type="integer">183531399</label>
+			<label index="special_4_description" type="integer">92097111</label>
+			<label index="forms_1_description" type="integer">194025956</label>
+			<label index="forms_2_description" type="integer">71325784</label>
+			<label index="forms_3_description" type="integer">191931555</label>
+			<label index="plugins_1_description" type="integer">104752280</label>
+			<label index="common_regularText_title" type="integer">134955826</label>
+			<label index="common_regularText_description" type="integer">29135748</label>
+			<label index="common_textImage_title" type="double">9972609</label>
+			<label index="common_textImage_description" type="integer">143238382</label>
+			<label index="common_imagesOnly_title" type="integer">62677049</label>
+			<label index="common_imagesOnly_description" type="integer">232160004</label>
+			<label index="common_bulletList_title" type="integer">88917113</label>
+			<label index="common_bulletList_description" type="integer">136121208</label>
+			<label index="common_table_title" type="integer">85738935</label>
+			<label index="common_table_description" type="integer">145590635</label>
+			<label index="special_filelinks_title" type="integer">23062602</label>
+			<label index="special_filelinks_description" type="integer">154390211</label>
+			<label index="special_multimedia_title" type="integer">49638223</label>
+			<label index="special_multimedia_description" type="integer">87627445</label>
+			<label index="special_sitemap_title" type="integer">92355808</label>
+			<label index="special_sitemap_description" type="integer">36006628</label>
+			<label index="special_plainHTML_title" type="integer">238583373</label>
+			<label index="special_plainHTML_description" type="integer">92097111</label>
+			<label index="forms_mail_title" type="integer">173513512</label>
+			<label index="forms_mail_description" type="integer">194025956</label>
+			<label index="forms_search_title" type="integer">184654558</label>
+			<label index="forms_search_description" type="integer">71325784</label>
+			<label index="forms_login_title" type="integer">149378624</label>
+			<label index="forms_login_description" type="integer">191931555</label>
+			<label index="plugins_general_title" type="integer">188310073</label>
+			<label index="plugins_general_description" type="integer">104752280</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="sel1">Please select the type of page content you wish to create:</label>
+			<label index="sel2">Now, click the position where you wish to place the element on the page:</label>
+			<label index="common_1_description">A regular text element with header and bodytext fields.</label>
+			<label index="common_2_title">Text with image below</label>
+			<label index="common_3_title">Text with image to the right</label>
+			<label index="common_3_description">As above but with text wrapped around a right aligned image.</label>
+			<label index="common_4_title">Images only</label>
+			<label index="common_4_description">Any number of images aligned in columns and rows with a caption.</label>
+			<label index="common_6_title">Table</label>
+			<label index="special_1_title">Filelinks</label>
+			<label index="special_1_description">Makes a list of files for download.</label>
+			<label index="special_2_title">Multimedia</label>
+			<label index="special_2_description">Inserts a media element like a Flash animation, audio file or video clip.</label>
+			<label index="special_3_title">Sitemap</label>
+			<label index="special_3_description">Creates a sitemap of the website.</label>
+			<label index="special_4_title">Plain HTML</label>
+			<label index="forms">Form elements</label>
+			<label index="forms_1_title">Mail form</label>
+			<label index="forms_2_title">Search form</label>
+			<label index="forms_3_title">Login form</label>
+			<label index="plugins">Plugins</label>
+			<label index="plugins_1_title">General Plugin</label>
+			<label index="common">Typical page content</label>
+			<label index="common_1_title">Regular text element</label>
+			<label index="common_2_description">A regular text element which can contain any number of images positioned below the text</label>
+			<label index="common_5_title">Bullet list</label>
+			<label index="common_5_description">A single bullet list.</label>
+			<label index="common_6_description">A simple table with up to 8 columns.</label>
+			<label index="special">Special elements</label>
+			<label index="special_4_description">With this element you can insert raw HTML code on the page.</label>
+			<label index="forms_1_description">A mail form allowing website users to submit responses.</label>
+			<label index="forms_2_description">Draws a search form and the searchresult if a search is performed.</label>
+			<label index="forms_3_description">Login/logout form used to password protect pages allowing only authorised website users and groups access.</label>
+			<label index="plugins_1_description">Select this element type to insert a plugin which cannot be found amongst the options below.</label>
+			<label index="common_regularText_title">Regular text element</label>
+			<label index="common_regularText_description">A regular text element with header and bodytext fields.</label>
+			<label index="common_textImage_title">Text with image</label>
+			<label index="common_textImage_description">Any number of images wrapped right around a regular text element.</label>
+			<label index="common_imagesOnly_title">Images only</label>
+			<label index="common_imagesOnly_description">Any number of images aligned in columns and rows with a caption.</label>
+			<label index="common_bulletList_title">Bullet list</label>
+			<label index="common_bulletList_description">A single bullet list.</label>
+			<label index="common_table_title">Table</label>
+			<label index="common_table_description">A simple table with up to 8 columns.</label>
+			<label index="special_filelinks_title">Filelinks</label>
+			<label index="special_filelinks_description">Makes a list of files for download.</label>
+			<label index="special_multimedia_title">Multimedia</label>
+			<label index="special_multimedia_description">Inserts a media element like a Flash animation, audio file or video clip.</label>
+			<label index="special_sitemap_title">Sitemap</label>
+			<label index="special_sitemap_description">Creates a sitemap of the website.</label>
+			<label index="special_plainHTML_title">Plain HTML</label>
+			<label index="special_plainHTML_description">With this element you can insert raw HTML code on the page.</label>
+			<label index="forms_mail_title">Mail form</label>
+			<label index="forms_mail_description">A mail form allowing website users to submit responses.</label>
+			<label index="forms_search_title">Search form</label>
+			<label index="forms_search_description">Draws a search form and the searchresult if a search is performed.</label>
+			<label index="forms_login_title">Login form</label>
+			<label index="forms_login_description">Login/logout form used to password protect pages allowing only authorised website users and groups access.</label>
+			<label index="plugins_general_title">General Plugin</label>
+			<label index="plugins_general_description">Select this element type to insert a plugin which cannot be found amongst the options below.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

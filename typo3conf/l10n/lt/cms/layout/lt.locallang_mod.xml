@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel">Puslapio turinys</label>
+			<label index="mlang_labels_tabdescr">Šis modulis leidžia kurti ir redeguoti tinklapius. Jis suteikia redaktorių leidžiantį prieiti prie pagrindinių puslpaio turinio elementų. Be to galima valdyti ir puslapių turinį skirtingomis kalbomis. Galų gale jūs galite pasiekti specialų puslapio turinį: svečių knygą, skelbimų lentą ir parduotuvės prekes. modulis taip pat pateikia puslapių lankomumo statistiką kiekvienam puslapiui atskirai.</label>
+			<label index="mlang_tabs_tab">Puslapis</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">73079758</label>
+			<label index="mlang_tabs_tab" type="integer">26464201</label>
+			<label index="mlang_labels_tabdescr" type="integer">259361662</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel">Page content</label>
+			<label index="mlang_labels_tabdescr">This module allows you to create and edit webpages, view page hit statistics, manage different languages and columns of content per page and access special page contents like guesbooks and shopping items.</label>
+			<label index="mlang_tabs_tab">Page</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

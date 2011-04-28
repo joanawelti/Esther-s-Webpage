@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="tx_funcwizards.alttitle">Kreatory strony</label>
+			<label index="tx_funcwizards.description">Ten podmoduł jest obszarem gdzie mogą być dodawane różne kreatory. Aktualnie dostępne kreatory pozwalają między innymi na utworzenie wielu stron oraz sortowanie stron np. wg tytułu.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="tx_funcwizards.alttitle" type="integer">159573226</label>
+			<label index="tx_funcwizards.description" type="integer">97945442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="tx_funcwizards.alttitle">Page Wizards</label>
+			<label index="tx_funcwizards.description">This submodule provides a framework where wizards can be added. Available wizards currently include a wizard for creating pages and sorting pages by title etc.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

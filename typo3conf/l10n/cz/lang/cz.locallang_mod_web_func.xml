@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="title">Pokročilé funkce</label>
+			<label index="clickAPage_content">Prosím klikněte na název stránky ve stromu stránek.</label>
+			<label index="mlang_labels_tablabel">Pokročilé funkce</label>
+			<label index="mlang_labels_tabdescr">Tento modul obsahuje obecné funkce pro export a import. Navíc pak obsahuje specializované průvodce, umožňující třídění stránek a jejich hromadné vytváření.</label>
+			<label index="mlang_tabs_tab">Funkce</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="title" type="integer">155530193</label>
+			<label index="clickAPage_content" type="integer">74170385</label>
+			<label index="mlang_labels_tablabel" type="integer">155530193</label>
+			<label index="mlang_labels_tabdescr" type="integer">78025753</label>
+			<label index="mlang_tabs_tab" type="integer">244559025</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="title">Advanced functions</label>
+			<label index="clickAPage_content">Please click a page title in the page tree.</label>
+			<label index="mlang_labels_tablabel">Advanced functions</label>
+			<label index="mlang_labels_tabdescr">This module contains general export and import functions in addition to specialised wizards enabling page sorting and batch creating of pages.</label>
+			<label index="mlang_tabs_tab">Functions</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

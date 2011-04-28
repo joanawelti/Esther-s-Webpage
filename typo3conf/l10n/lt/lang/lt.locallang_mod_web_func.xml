@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="title">Papildomos funkcijos</label>
+			<label index="clickAPage_content">Spustelkite puslapio antrašte puslapių medyje.</label>
+			<label index="mlang_labels_tablabel">Papildomos funkcijos</label>
+			<label index="mlang_labels_tabdescr">Čia jus rasite bendras importo ir eksporto funkcijas. Papildomi moduliai turi specializuotas funkcijas - burtininkus - kurie naudingi specifinėse situacijose. Pvz. jus galite sukurti krūva puslapių ir/ar vykdyti jų rušiavima.</label>
+			<label index="mlang_tabs_tab">Funkcijos</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="title" type="integer">155530193</label>
+			<label index="clickAPage_content" type="integer">74170385</label>
+			<label index="mlang_labels_tablabel" type="integer">155530193</label>
+			<label index="mlang_labels_tabdescr" type="integer">78025753</label>
+			<label index="mlang_tabs_tab" type="integer">244559025</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

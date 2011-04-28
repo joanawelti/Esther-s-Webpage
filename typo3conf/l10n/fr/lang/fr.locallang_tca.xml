@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="pages">Page</label>
+			<label index="doktype.I.0">Standard</label>
+			<label index="doktype.I.1">Dossier Système</label>
+			<label index="doktype.I.2">Corbeille</label>
+			<label index="title">Titre de la page:</label>
+			<label index="php_tree_stop">Arrêter l'arborescence:</label>
+			<label index="is_siteroot">Est la racine du site:</label>
+			<label index="storage_pid">Page de Stockage des Enregistrements Généraux:</label>
+			<label index="be_users">Utilisateur backend</label>
+			<label index="be_groups">Groupe d'utilisateurs backend</label>
+			<label index="sys_filemounts">Point de montage</label>
+			<label index="sys_language">Langue du site web</label>
+			<label index="sys_language.isocode">Séléctionner la langue officielle (ISO Code):</label>
+			<label index="sys_language.flag">Séléctionner le drapeau:</label>
+			<label index="editlock">Restreindre l'édition par les non-admins.</label>
+			<label index="sys_workspace">Espace de travail</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="pages" type="integer">26464201</label>
+			<label index="doktype.I.0" type="integer">246864046</label>
+			<label index="doktype.I.1" type="integer">260649090</label>
+			<label index="doktype.I.2" type="integer">184146156</label>
+			<label index="title" type="integer">66854616</label>
+			<label index="php_tree_stop" type="integer">90999720</label>
+			<label index="is_siteroot" type="integer">250187229</label>
+			<label index="storage_pid" type="integer">147559019</label>
+			<label index="be_users" type="integer">104926801</label>
+			<label index="be_groups" type="integer">190780417</label>
+			<label index="sys_filemounts" type="integer">140334923</label>
+			<label index="sys_language" type="integer">144875845</label>
+			<label index="sys_language.isocode" type="integer">49440593</label>
+			<label index="sys_language.flag" type="integer">145114393</label>
+			<label index="editlock" type="integer">177820058</label>
+			<label index="sys_workspace" type="double">3809681</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="sys_workspace">Workspace</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

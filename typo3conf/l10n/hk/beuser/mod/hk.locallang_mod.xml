@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel">後勤使用者管理</label>
+			<label index="mlang_labels_tabdescr">後勤使用者模組使你有所有後勤使用者的概覽。你可以按著他們的特性來為他們為組，以致你能夠監察他們的權限﹑檔案附殖﹑TSconfig和會員群組等。這個模組於有效和正確地設定使用者是不可或缺的工具。&lt;Br&gt;&lt;em&gt;只許「管理」級使用者使用！&lt;/em?</label>
+			<label index="mlang_tabs_tab">使用者管理</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel" type="integer">17821603</label>
+			<label index="mlang_labels_tabdescr" type="integer">165149409</label>
+			<label index="mlang_tabs_tab" type="integer">119990797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

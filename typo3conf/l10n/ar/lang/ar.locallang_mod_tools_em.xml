@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="mlang_labels_tablabel">مدير امتدادات تيبو3</label>
+			<label index="mlang_labels_tabdescr">يقوم مدير امتدادات تيبو3 بإدارة الامتدادات من مستودع مركزي، يحتوي على الإضافات ووحدات النظام والامتدادات المصنفة وكود الإعداد وما إلى ذلك</label>
+			<label index="mlang_tabs_tab">مدير الامتدادات</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">182827319</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository,  which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index=".description">Alt synlig innhold på TYPO3-websider er vanligvis laget av innholdselementer. Det er vanlig å administrere innholdselementer gjennom 'Side'-modulen. Den er laget for å håndtere innholdselementer i flere kolonner og språk.</label>
+			<label index="CType.description">Velg typen innhold dette innholdselementet representerer. Nye valg vil komme frem når du lagrer dette elementet.</label>
+			<label index="hidden.description">Sett kryss i denne boksen hvis du ønsker å skjule dette innholdselementet.</label>
+			<label index="starttime.description">Skriv inn datoen for når innholdselementer skal bli gjort synlig.</label>
+			<label index="endtime.description">Skriv inn datoen for når innholdselementet skal skjules.</label>
+			<label index="fe_group.description">Velg en eller flere websted-brukergrupper som kan se elementet.</label>
+			<label index="sys_language_uid.description">Velg hvilket språk dette innholdselementet bruker.
+&lt;strong&gt;NB!&lt;/strong&gt; Dette påvirker hvorvidt elementet er synlig eller ikke.</label>
+			<label index="layout.description">Velg layout.</label>
+			<label index="colPos.description">Velg kolonne for innholdselementet.
+&lt;strong&gt;NB!&lt;/strong&gt; Dette kan påvirke hvorvidt elementet er synlig eller ikke.</label>
+			<label index="date.description">Skriv inn en dato som kan vises over overskriften.</label>
+			<label index="header.description">Skriv inn en overskrift for innholdselementet.</label>
+			<label index="header_position.description">Justerer overskriften mot venstre, midten eller høyre.</label>
+			<label index="header_link.description">Lager en link fra overskriften. Sett inn en side-ID, e-postadresse eller webadresse (URL).</label>
+			<label index="header_layout.description">Velg et utseende for overskriften.</label>
+			<label index="subheader.description">Skriv inn en under-overskrift. Denne vises under den vanlige overskriften. Hvis innholdselementets type er 'E-postskjema' vil feltet være for mottakerens e-post.</label>
+			<label index="bodytext.description">Skriv inn brødteksten.</label>
+			<label index="text_align.description">Justerer brødteksten til venstre, sentrert eller mot høyre.</label>
+			<label index="text_face.description">Velg et skriftsnitt for brødteksten.</label>
+			<label index="text_size.description">Velg en skriftstørrelse for brødteksten.</label>
+			<label index="text_color.description">Velg en farge for brødteksten.</label>
+			<label index="text_properties.description">Flere skriftvalg.</label>
+			<label index="image.description">Sett inn ett eller flere bilder.</label>
+			<label index="image.image_descr">Dette viser alle valgene relatert til å sette inn bilder i innholdselementer. Det kan være du ikke kan bruke alle.</label>
+			<label index="imagewidth.description">Skriv inn bildets bredde i piksler.</label>
+			<label index="imageheight.description">Skriv inn bildets høyre i piksler.</label>
+			<label index="imageorient.description">Velg bildeblokkens plassering relativ til brødteksten.</label>
+			<label index="imageborder.description">Sett kryss her hvis du ønsker en farget ramme rundt bildene.</label>
+			<label index="image_noRows.description">Slår av faste tabellrader i bildeblokken.</label>
+			<label index="image_link.description">Skriv inn en lenke for bildene.</label>
+			<label index="image_zoom.description">Sett kryss her hvis du ønsker at bildet skal ha en lenke til et vindu med en større utgave.</label>
+			<label index="image_zoom.details">Dette valget overkjører verdien i Lenke-feltet.</label>
+			<label index="image_effects.description">Velg spesielle bildebehandlingseffekter.</label>
+			<label index="image_frames.description">Spesielle rammevalg for bildene.</label>
+			<label index="image_compression.description">Kompresjons-/kvalitetsvalg.</label>
+			<label index="imagecols.description">Velg antallet kolonner i bildeblokken.</label>
+			<label index="imagecaption.description">Skriv inn en bildetekst for bildeblokken.</label>
+			<label index="imagecaption_position.description">Justerer bildeteksten til venstre, sentrert eller mot høyre.</label>
+			<label index="cols.description">Velg et bestemt antall tabellkolonner.</label>
+			<label index="pages.description">Sett inn side(r).</label>
+			<label index="recursive.description">Velg hvor mange undernivåer som skal velges for hver side i listen.</label>
+			<label index="menu_type.description">Velg hva slags meny du ønsker å lage.</label>
+			<label index="list_type.description">Velg en plugin du vil sette inn.</label>
+			<label index="select_key.description">Skriv inn en kode-tekst.</label>
+			<label index="table_bgColor.description">Velg en bakgrunnsfarge for tabellen.</label>
+			<label index="table_border.description">Velg rammetykkelse for tabellen.</label>
+			<label index="table_cellspacing.description">Velg avstand mellom tabellcellene.</label>
+			<label index="table_cellpadding.description">Velg avstand fra cellekanten til teksten</label>
+			<label index="media.description">Legg filer til listen her.</label>
+			<label index="multimedia.description">Sett inn multimediaelementet, f.eks. en Flash-film.</label>
+			<label index="filelink_size.description">Sett kryss her hvis du ønsker å vise filstørrelsene.</label>
+			<label index="records.description">Sett inn relasjoner til elementer.</label>
+			<label index="spaceBefore.description">Skriv inn hvor stor margen skal være &lt;em&gt;over&lt;/em&gt; innholdselementet.</label>
+			<label index="spaceAfter.description">Skriv inn hvor stor margen skal være &lt;em&gt;under&lt;/em&gt; innholdselementet.</label>
+			<label index="section_frame.description">Velg innramming for innholdselementet.</label>
+			<label index="splash_layout.description">Velg design for tekstboksen.</label>
+			<label index="sectionIndex.description">Sett kryss hvis du ønsker at innholdselementet skal synes i innholdsfortegnelser.</label>
+			<label index="linkToTop.description">Sett kryss for å vise en &quot;Til toppen&quot;-link etter innholdselementet.</label>
+			<label index="rte_enabled.description">Sett kryss for å slå av rik tekst-editoren for innholdselement-typene &quot;Tekst&quot; og &quot;Tekst m/bilde&quot;. (&lt;em&gt;Endringen skjer bare i dette innholdselementet.&lt;/em&gt;)</label>
+			<label index="pi_flexform.description">FlexForm-konfigurasjon av plugin.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index=".description" type="integer">112696006</label>
+			<label index="CType.description" type="integer">234975124</label>
+			<label index="hidden.description" type="integer">25976972</label>
+			<label index="starttime.description" type="integer">77152936</label>
+			<label index="endtime.description" type="integer">186022731</label>
+			<label index="fe_group.description" type="integer">12088306</label>
+			<label index="sys_language_uid.description" type="integer">83193306</label>
+			<label index="layout.description" type="integer">228016604</label>
+			<label index="colPos.description" type="integer">247799393</label>
+			<label index="date.description" type="integer">172838477</label>
+			<label index="header.description" type="integer">258566451</label>
+			<label index="header_position.description" type="integer">129245045</label>
+			<label index="header_link.description" type="integer">192941932</label>
+			<label index="header_layout.description" type="integer">177798699</label>
+			<label index="subheader.description" type="integer">258436767</label>
+			<label index="bodytext.description" type="integer">16432077</label>
+			<label index="text_align.description" type="integer">238240695</label>
+			<label index="text_face.description" type="integer">117416805</label>
+			<label index="text_size.description" type="integer">229916089</label>
+			<label index="text_color.description" type="integer">35741196</label>
+			<label index="text_properties.description" type="integer">87881120</label>
+			<label index="image.description" type="integer">161474510</label>
+			<label index="image.image_descr" type="integer">142853685</label>
+			<label index="imagewidth.description" type="integer">158161907</label>
+			<label index="imageheight.description" type="integer">114105674</label>
+			<label index="imageorient.description" type="integer">200966363</label>
+			<label index="imageborder.description" type="integer">50620620</label>
+			<label index="image_noRows.description" type="integer">21457470</label>
+			<label index="image_link.description" type="integer">249648538</label>
+			<label index="image_zoom.description" type="integer">161499693</label>
+			<label index="image_zoom.details" type="integer">6620959</label>
+			<label index="image_effects.description" type="integer">177685340</label>
+			<label index="image_frames.description" type="integer">89442767</label>
+			<label index="image_compression.description" type="integer">8480021</label>
+			<label index="imagecols.description" type="integer">70204645</label>
+			<label index="imagecaption.description" type="integer">259744768</label>
+			<label index="imagecaption_position.description" type="integer">196983678</label>
+			<label index="cols.description" type="integer">11984393</label>
+			<label index="pages.description" type="integer">57504831</label>
+			<label index="recursive.description" type="integer">165135760</label>
+			<label index="menu_type.description" type="integer">78467976</label>
+			<label index="list_type.description" type="integer">72710976</label>
+			<label index="select_key.description" type="integer">172652721</label>
+			<label index="table_bgColor.description" type="integer">62940699</label>
+			<label index="table_border.description" type="integer">186608350</label>
+			<label index="table_cellspacing.description" type="integer">194710286</label>
+			<label index="table_cellpadding.description" type="integer">101686341</label>
+			<label index="media.description" type="integer">29319306</label>
+			<label index="multimedia.description" type="integer">128801529</label>
+			<label index="filelink_size.description" type="integer">167875412</label>
+			<label index="records.description" type="integer">10597434</label>
+			<label index="spaceBefore.description" type="integer">263512294</label>
+			<label index="spaceAfter.description" type="integer">130971741</label>
+			<label index="section_frame.description" type="integer">240647342</label>
+			<label index="splash_layout.description" type="integer">240182781</label>
+			<label index="sectionIndex.description" type="integer">263148287</label>
+			<label index="linkToTop.description" type="integer">218183690</label>
+			<label index="rte_enabled.description" type="integer">266861622</label>
+			<label index="pi_flexform.description" type="integer">105562012</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index=".description">All visible content on webpages in TYPO3 is typically made by &quot;Pagecontent&quot; records. They are typically referred to as &quot;Content Elements&quot;. Often Content Elements are managed by the &quot;Page&quot; module which is designed to handle Content Elements in multiple columns and languages.</label>
+			<label index="CType.description">Select the kind of page content this element represents. New options will appear when you save the record.</label>
+			<label index="hidden.description">Check this box if you wish to hide the content element from being displayed.</label>
+			<label index="starttime.description">Enter the date from which the content element will be visible.</label>
+			<label index="endtime.description">Enter the date from which the content element will disappear from the website.</label>
+			<label index="fe_group.description">Select a Website usergroup which is exclusively allowed to view the element.</label>
+			<label index="sys_language_uid.description">Select the system language of this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="layout.description">Select a layout.</label>
+			<label index="colPos.description">Select the column position this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="date.description">Enter a date to be displayed above the header.</label>
+			<label index="header.description">Enter a headline for the content element.</label>
+			<label index="header_position.description">Places the header to the left, centered or to the right.</label>
+			<label index="header_link.description">Creates a link from the header. Insert a page id, email address or URL.</label>
+			<label index="header_layout.description">Select a visual design for the header.</label>
+			<label index="subheader.description">Enter a subheader. This is displayed below the ordinary headline. If the content element type is &quot;Form&quot; this field is the recipient email.</label>
+			<label index="bodytext.description">Enter the body text.</label>
+			<label index="text_align.description">Places the body text to the left, centered or to the right.</label>
+			<label index="text_face.description">Select a font fact family for the body text.</label>
+			<label index="text_size.description">Select a font size for the body text.</label>
+			<label index="text_color.description">Select a color for the body text.</label>
+			<label index="text_properties.description">Select additional font properties.</label>
+			<label index="image.description">Insert one or more images.</label>
+			<label index="image.image_descr">This shows all the options related to inserting images in Content Elements. You might not be able to use all of them.</label>
+			<label index="imagewidth.description">Enter the width in pixels of the image.</label>
+			<label index="imageheight.description">Enter the height of the image in pixels.</label>
+			<label index="imageorient.description">Select the position of the imageblock relative to the body text.</label>
+			<label index="imageborder.description">Check this, if you wish a colored border around the images.</label>
+			<label index="image_noRows.description">Disables strict tablerows in the image block.</label>
+			<label index="image_link.description">Enter a link for the images.</label>
+			<label index="image_zoom.description">Check this option, and the image will link to a new window with a bigger version.</label>
+			<label index="image_zoom.details">This option overrides the value in the Link-field.</label>
+			<label index="image_effects.description">Select special image processing effects.</label>
+			<label index="image_frames.description">Select special image framing options.</label>
+			<label index="image_compression.description">Select compression/quality options.</label>
+			<label index="imagecols.description">Select the number of columns in the image block.</label>
+			<label index="imagecaption.description">Enter a caption for the image block</label>
+			<label index="imagecaption_position.description">Places the image caption to the left, centered or to the right.</label>
+			<label index="cols.description">Select a fixed number of table columns</label>
+			<label index="pages.description">Insert page(s)</label>
+			<label index="recursive.description">Select how many subleves should be additionally selected for each page in the list.</label>
+			<label index="menu_type.description">Select which kind of menu you wish to create.</label>
+			<label index="list_type.description">Select a plugin to insert.</label>
+			<label index="select_key.description">Enter a code string.</label>
+			<label index="table_bgColor.description">Select table background color.</label>
+			<label index="table_border.description">Select table border thickness.</label>
+			<label index="table_cellspacing.description">Select table cell spacing.</label>
+			<label index="table_cellpadding.description">Select table cellpadding.</label>
+			<label index="media.description">Add files to the list here.</label>
+			<label index="multimedia.description">Insert the multimedia element, eg. a flash movie here.</label>
+			<label index="filelink_size.description">Check this, if you wish the filesizes to be displayed.</label>
+			<label index="records.description">Insert relations to records.</label>
+			<label index="spaceBefore.description">Enter the amount of whitespace (in pixels) to insert &lt;em&gt;before&lt;/em&gt; this content element.</label>
+			<label index="spaceAfter.description">Enter the amount of whitespace (in pixels) to insert &lt;em&gt;after&lt;/em&gt; this content element.</label>
+			<label index="section_frame.description">Select a framing option for the content element.</label>
+			<label index="splash_layout.description">Select the design for the Text box.</label>
+			<label index="sectionIndex.description">If set, the content element will appear in section indices.</label>
+			<label index="linkToTop.description">If checked, a little &quot;To top&quot; link will be inserted after the content element.</label>
+			<label index="rte_enabled.description">If checked, the Rich Text Editor will be disabled for the &quot;Text&quot; and &quot;Text w/Image&quot; types (&lt;em&gt;in this element only&lt;/em&gt;).</label>
+			<label index="pi_flexform.description">FlexForm Configuration of Plugins</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

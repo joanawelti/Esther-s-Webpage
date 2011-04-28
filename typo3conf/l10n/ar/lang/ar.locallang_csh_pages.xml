@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">عادة ما يعرض سجل الصفحة صفحة الوب الخاصة بتيبو3. ولجميع الصفحات رقم للهوية، والذي من خلاله يمكن الوصول والرجوع للصفحة. ولا يحتوي ‘سجل‘ الصفحة نفسه على محتويات الصفحة- ومن أجل ذلك يجب عليك إنشاء ‘سجل صفحة المحتوى‘ (عنصر المحتوى).</label>
+			<label index=".details">وتعد جداول الصفحة هي المحور الأساسي في تيبو3. وجميع السجلات يمكن تحريها بواسطة وحدات الإتجاه العام داخل تيبو3 و التي يجب أن تكون ‘متعلقة‘ بالصفحة. وهي مطابقة تماما للملفات و المجلدات الموجودة على القرص الصلب لحاسبك الشخصي. 
+
+&lt;b&gt;صفحة الشجرة&lt;/b&gt;
+ترتب الصفحات داخل بنية الشجرة و التي لا تعتبر طريقة مفيدة إلى حد كبير للترتيب بصفة عامة ولكنها تعد طريقة مثالية تعكس كيف يمكنك ترتيب الصفحات داخل صفحة الوب. وعليه فإنك ستجد أن صفحة الشجرة هي إنعكاسا لعملية تصفح موقع الوب نفسه. 
+
+&lt;p&gt;معرف مفرد، معرف آباء، و جذر صفحة الشجرة&lt;/b&gt;
+من الناحية التقنية، فإن جميع عناصر قواعد البيانات لديها حقل ‘معرف مفرد، أو 'uid'، والتي تعد رقم تعريف مفرد. كما ويجب أن تحتوى على  حقل ،معرف آباء، أو 'pid'، والذي يحمل رقم المعرف المفرد للصفحة (صفحة التعريف) الذي ينتمي إليها. وإذا ما كانت قيمة حقل 'pid'تساوي صفر، فإن السجل سيوجد فيما يعرف باسم ‘الجذر،. ويسمح فقط لمشرفي النظام للدخول على الجذر، كما ويجب ضبط سجلات الجدول لأي من الصفحات التي تنتمي إليها، أو أنها تدرج داخل الجذر.
+
+&lt;b&gt;تخزين سجلات قواعد البيانات&lt;/b&gt;
+وبناء على ‘نوع‘ الصفحة، فمن الجائز أن تعتبر الصفحة تسجيلا عاما لعناصر قواعد البيانات داخل تيبو3. وفي مثل هذه الحالة، فليس من الضروري أن تتاح الصفحة كصفحة وب، ولكنها تتاح داخل صفحة الشجرة كمكان تخزن فيه بنود مثل المستخدمين، أو الإشتراكات إلخ. مثل هذه الصفحات تكون مطابقة تماما للنوع &quot;SysFolder&quot;.</label>
+			<label index=".image_descr">من أهم الحقول الأساسية لأي صفحة هي الراية المخفاة، ونوع الصفحة (&quot;doktype&quot;)، وكذلك عنوان الصفحة. كما و أن باقي الحقول تكون متاحة أيضا غير أنها تضاف بصورة نموذجية بواسطة الإمتدادات داخل تيبو3. ويتم ترتيب الصفحات داخل صفحة الشجرة في تيبو3. ولقد كانت الصفحة المنبثقة من نموذج التحرير في لقطة الشاشة السابقة هي صفحة &quot;Intro&quot; المندرجة من صفحة الشجرة هذه. وكما ترى فإن هذه الصفحات تنتمي إلى الجذر في صفحة الشجرة و لديها رقم صفحات &quot;أبناء&quot; أسفلها.</label>
+			<label index="title.description">أدخل عنوان الصفحة أو المجلد. ويجب عليك أن تدخل عنوان الصفحة. كما وان اسم الحقل متطلب.</label>
+			<label index="title.details">ويستخدم عنوان الصفحة في تمثيل الصفحة بصورة مرئية داخل النظام، فعلى سبيل المثال داخل صفحة الشجرة. كما ويستخدم عنوان الصفحة بصورة إفتراضية لروابط التصفح على صفحات الوب. ويمكنك دائما تغير عنوان صفحة ما دون التأثير على روابط الصفحة. وهذا نظرا لأن الصفحات عادة ما يشار إليها بواسطة رقم &quot;uid&quot; و ليس بواسطة عنوانها. وبإمكانك استخدام أي أحرف داخل عنوان الصفحة.</label>
+			<label index="title.image_descr">ويدرج بجوار الحقل الخاص بعنوان الصفحة أيقونة&quot;متطلب&quot;؛ حيث يجب عليك إضافة عنوان الصفحة، ولا يكون بإمكانك تخزين الصفحة بدون إدخال عنوان لها.</label>
+			<label index="doktype.description">قم بتحديد نوع الصفحة. ويكون لذلك تأثير إذا ما كانت الصفحة تمثل صفحة وب مرئية أم أنها تستخدم في أغراض أخرى.</label>
+			<label index="doktype.details">ويمثل النوع ‘القياسي‘ صفحة الوب. في حين يمثل ‘مجلد النظام‘ صفحة غير صفحة الوب- حيث يعمل المجلد كمخزن للسجلات التي تقوم باخيارها. ويعتبر 'Recycler‘ هي سلة المهملات. 
+
+&lt;b&gt;لاحظ:&lt;/b&gt; عادة ما يرفق بكل نوع أيقونة خاصة. كما وأن الأنواع الخاصة قد لا تكون متاحة للمستخدم(وبالتالي فإنك قد يمر عليك بعض الخيارات الغير متاحة لك!). وإخيرا فإن كل نوع يتم ضبطه بحيث يسمح بعدد محدد فقط من سجلات الجدول داخل الصفحة (فإن مجلد النظام سيتيح إي سجل في حالة وقوع أي مشكلة). 
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+ويتم تعريف القيود المطبقة داخل كل صفحة من خلال الأسهم العاملة $PAGES_TYPES. وهي هنا تقوم بتعريف أي الجداول المسموح بها في الصفحة. وعندما تقوم الإمتدادات بإضافة الجداول لتيبو3، فإنهم قد يكونوا في حاجة لتسجيل جداولهم داخل $PAGES_TYPES، وبالتالي يكون من الممكن إنشاءهم داخل الصفحات القياسية.</label>
+			<label index="doktype.image_descr">وتظهر هذه القصاصة من صفحة الشجرة الصفحات المعتادة التي تحتوي عادة على الأيقونات الصفراء المدرجة في لقطة الصفحة هذه. ويمكنك أن ترى أيضا صفحة سلة القمامة. وتعتبر جميع السجلات المخزنة داخل سلة المهملات يعتبر من النفايات و بالتالي فإنه لا يعرض داخل صفحة الوب إلخ. وأخيرا فإن المجلدات الرمادية اللون هي &quot;SysFolders&quot;. مثل هذه المجلدات لايمكن أن تعرض كصفحات الوب المعتادة، ولكنها تعمل كصفحات تخزين لسجلات قواعد البيانات أو ما يشابهها.</label>
+			<label index="TSconfig.description">ضبط صفحة مخطوطة تيبو الخاصة.</label>
+			<label index="TSconfig.details">وبصورة أساسية، تعد ’مخطوطة تيبو الخاصة’ هو المفهوم المتبع في إدخال القيم في البنية الشجرية.وهذا يعرف خصيصا أثناء إنشاء نماذج لصفحات الوب الخاصة بتيبو3. وعلى الرغم من ذلك فإن  نفس المنهج المتبع لإدخال نية القيم المستخدمة لضبط المتغيرات المتغيرة و المرتبطة بالواجهة الخلفية ، ووظائف المستخدمة في الوحدات، محرر النص الغني، إلخ..
+
+إن النتيجة الفعلية لـ'TSconfig' هي تكديس لكل قيم 'TSconfig' من جذر صفحة الشجرة و من الخارج إلى الصفحة الحالية. و عليه فغن جميع الصفحات الفرعية تتأثر أيضا. وتكون طباعة صفحة TSconfig متاحة من قائمة ‘صفحة TSconfig‘ المدرجة داخل وحدة 'Web&gt;Info' ( &quot;info_pagetsconfig&quot; وهذا يتطلب إلى تثبيت الإمتداد ).</label>
+			<label index="TSconfig.syntax">بينية مخطوطة تيبو الأساسية &lt;em&gt;بدون&lt;/em&gt; ‘شروط‘ و ‘شروط‘.
+وأنه ينصح بأن المستخدمين المرشدين فقط هم المسموح لهم بالدخول إلى هذا الحقل!</label>
+			<label index="TSconfig.image_descr">وتعمل صفحة TSconfig على ضبط سلوك محريرين النص الغني في هذا الفرع من فرع صفحة الشجرة. والجميل في صفحة TSconfig أن الضبط يكون خاصا بهذه الصفحة و الصفحات الفرعية منذ أن تم توريث إعدادات الضبط لصفحة الشجرة.</label>
+			<label index="php_tree_stop.description">توقف نقلالواجهة الخلفية لصفحة الشجرة أثناء التصفح و في القوائم.</label>
+			<label index="php_tree_stop.details">عند ضبط هذه الراية،  فلن تعمل صفحة الشجرة المدرجة داخل إيطار التصفح على على زيادة إمتداد هذا الفرع. وسترى عوضا عن ذلك علامة  &quot;+&quot;  حمراء والتي تشير إلى أن الشجرة قد توقفت هنا نتيجة لضبط علامة الراية هنا. 
+
+والنقطة الأساسية في هذه الراية هي منع الإنحدار إلى الفرع والذي قد يحتوى على كمية غير معتادة من الصفحات الفرعية.(مئات).
+
+ويمكنك  النقر على العلامة &quot;+&quot; الحمراء فستصبح هذه الصفحة نقطة تنصيب مؤقتة داخل إيطار التصفح.</label>
+			<label index="php_tree_stop.image_descr">وهنا تضبط راية &quot; توقف صفحة الشجرة&quot;.إنها حقل مجموعة الأدوات المدرج تحت  &quot;TSconfig&quot;.
+ويعبر عن صفحة الإعدادات داخل صفحة الشجرة بالعلامة &quot;+&quot; الحمراء وإنها تشير بأنه لا يمكن زيادة إمتتداد هذا الفرع من الشجرة. 
+وعند  النقر على العلامة &quot;+&quot; الحمراء فستصبح هذه الصفحة نقطة تنصيب مؤقتة داخل إيطار التصفح.</label>
+			<label index="storage_pid.description">ويقصد بمجلد التخزين العام الصفحة العامة المستخدمة في تخزين عناصر قواعد البيانات العامة لصفحات الوب. والتي قد تكون للنماذج، أو لمستخدمي الواجهة الخلفية إلخ. والتي لا ترتبط بصورة فعلية مع الفحة المفردة و لكنها ترتبط أكثر بالموقع ككل.</label>
+			<label index="storage_pid.details">وينصح بأن تدعم التطبيقات &quot;صفحات التخزين العامة&quot;، وعليه فإنها تقوم بالبحث عن السجلات في مواقع مجلد التخزين العام بصورة أساسية كما ويجب ضبطهم أيضا للبحث عنهم في أي مكان آخر. 
+
+وتكون صفحة تخزين السجل العامة مطابقة تماما للصفحة من  النوع  &quot;SysFolder&quot;.</label>
+			<label index="editlock.description">وعند الضبط، فلا يمكن للمستخدمين المرشدين من تحرير واجهة الصفحة أو من تحرير أي سجلات في الصفحة (بإستثناء الصفحات الفرعية). وليس بإمكانهم أيضا  إنشاء الصفحات أو السجلات الجديدة على الصفحة.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index=".details" type="integer">266524571</label>
+			<label index=".image_descr" type="integer">154282212</label>
+			<label index="title.description" type="double">16113526</label>
+			<label index="title.details" type="integer">92653950</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="title.image_descr" type="integer">103204111</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.image_descr" type="integer">177111079</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="TSconfig.syntax" type="double">6236841</label>
+			<label index="TSconfig.image_descr" type="integer">213516592</label>
+			<label index="php_tree_stop.description" type="integer">87402840</label>
+			<label index="php_tree_stop.details" type="integer">49793750</label>
+			<label index="php_tree_stop.image_descr" type="integer">38957251</label>
+			<label index="storage_pid.description" type="integer">154894460</label>
+			<label index="storage_pid.details" type="integer">263556132</label>
+			<label index="editlock.description" type="integer">54611846</label>
+			<label index="TSconfig.details" type="integer">216590510</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index=".details">The pages table is the very backbone in TYPO3. All records editable by the mainstream modules in TYPO3 must 'belong' to a page. It's exactly like files and folders on your computers harddrive.
+
+&lt;b&gt;The page tree&lt;/b&gt;
+The pages are organized in a tree structure which is not only a very handy way of organizing in general but also a optimal reflection of how you should organize the pages on your website. And thus you'll normally find that the page tree is a reflection of the website navigation itself.
+
+&lt;p&gt;uid, pid and the pagetree root&lt;/b&gt;
+Technically all database elements has a field 'uid' which is a unique identification number. Further they must have a field 'pid' which holds the uid-number of the page (page id) to which they belong. If the 'pid' field is zero the record is found in the so called 'root'. Only administrators are allowed access to the root and furthermore table records must be configured to either belonging to a page or being found in the root.
+
+&lt;b&gt;Storage of database records&lt;/b&gt;
+Depending on the 'Type' of the page, it may also represent a general storage for database elements in TYPO3. In that case it is not necessarily available as a webpage but only internally in the page tree as a place to store items such as users, subscriptions etc. Such pages are typically of the type &quot;SysFolder&quot;.</label>
+			<label index=".image_descr">The most basic fields of a page is the hidden flag, the type of page (&quot;doktype&quot;) and the page title. Other fields are also available but typically added by extensions in TYPO3.
+Pages are arranged in a page tree in TYPO3. The page from the editing form in the previous screenshot was the &quot;Intro&quot; page from this page tree. As you can see it belongs in the root of the page tree and has a number of &quot;child&quot; pages under it.</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="title.details">The page title is used to represent the page visually in the system, for example in the page tree. Also the page title is used by default for navigation links on webpages.
+You can always change a page title without affecting links to a page. This is because pages are always referenced by their &quot;uid&quot; number, not their title.
+You can use any characters in the page title.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="title.image_descr">The field for the page title has a little &quot;required&quot; icon next to it; You must supply a page title and you cannot save the new page unless you enter a title for it.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.image_descr">This snippet of the page tree shows regular pages which usually have the yellow icons in top of this screenshot. You also see a Garbage bin page. Any records stored in a garbage bin should be regarded as waste and therefore not shown on the website etc. Finally the gray folders are &quot;SysFolders&quot;. They cannot be viewed as regular webpages but serve as storage pages for database records of some kind.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+			<label index="TSconfig.image_descr">Page TSconfig customizing the Rich Text Editors behaviour in this branch of the page tree. The cool thing about Page TSconfig is that the configuration is specific for that page and subpages since the configuration settings are inherited down the page tree.</label>
+			<label index="php_tree_stop.description">Stops backend rendering of the page tree in navigation and lists.</label>
+			<label index="php_tree_stop.details">If you set this flag the page tree in the navigation frame will not expand that branch. Rather you will see a red &quot;+&quot; which indicates that the tree stopped here due to this flag being set.
+
+The point with this flag is to prevent descendence into a branch that might have an unusual amount of subpages (hundreds).
+
+You can click the red &quot;+&quot; and the page will become a temporary mount point in the navigation frame.</label>
+			<label index="php_tree_stop.image_descr">Here the &quot;Stop page tree&quot; flag is set. It is a palette field under &quot;TSconfig&quot;.
+In the pagetree the setting is reflected with the red &quot;+&quot; and it is not possible to expand that branch of the tree.
+If you click the red &quot;+&quot; you will get the page mounted temporarily in the navigation frame.</label>
+			<label index="storage_pid.description">A General Storage Folder is meant to be a global page for storage of general database elements of a website. That could be for templates, frontend users etc. which does not really relate to a single page but more to the whole site.</label>
+			<label index="storage_pid.details">It is recommended that applications support &quot;General Storage pages&quot; so that they look for records in the sites general storage folder by default and that they should be specifically configured to look elsewhere.
+
+A General Record Storage Page is typically a page of the &quot;SysFolder&quot; type.</label>
+			<label index="editlock.description">If set, non-Admin users cannot edit the page header or any records on the page (except subpages). They cannot create new records or pages on the page either.</label>
+			<label index="TSconfig.details">Basically 'TypoScript' is a concept for entering values in a tree-structure. This is known especially in relation to creating templates for TYPO3 websites.
+However the same principle for entering the hierarchy of values is used here to configure various features in relation to the backend, functions in modules, the Rich Text Editor etc.
+The resulting 'TSconfig' for a page is actually an accumulation of all 'TSconfig' values from the root of the page tree and outwards to the current page. And thus all subpages are affected as well. A print of the page TSconfig is available from the 'Page TSconfig' menu in the 'Web&gt;Info' module (requires the extension &quot;info_pagetsconfig&quot; to be installed).</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

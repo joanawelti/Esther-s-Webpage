@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index=".alttitle">Værktøjer &gt; Extension Manager (EM)</label>
+			<label index=".description">Extension Manageren kontrollerer import, installation og opgradering af Extensions i TYPO3.</label>
+			<label index="loaded.alttitle">Indlæste Extensions</label>
+			<label index="loaded.image_descr">Liste over indlæste extensions sorteret efter indlæsningsorden.</label>
+			<label index="avail.alttitle">Tilgængelige Extensions</label>
+			<label index="import.alttitle">Importerer Extensions</label>
+			<label index="import_ter.alttitle">Extensions i TER</label>
+			<label index="info.alttitle">Extension Detaljer</label>
+			<label index="info.description">Vis detaljer om denne extension.</label>
+			<label index="backup_delete.alttitle">Backup extension som en fil</label>
+			<label index="upload.alttitle">Upload en extension til repository (TER)</label>
+			<label index="editfiles.alttitle">Redigér scripts i en extension</label>
+			<label index="settings.alttitle">Extension Manager Indstillinger</label>
+			<label index="settings.description">Indtast indstillinger for Extension Manageren.
+Brugernavn og password er for forbindelser til repository (normalt TYPO3.org) og upload password er den du normalt vil bruge til upload af dine extensions.</label>
+			<label index="settings.details">&lt;b&gt;Bemærk:&lt;/b&gt;
+Informationen er ikke beskyttet særlig godt! Det bliver sendt og gemt som ren tekst!</label>
+			<label index="settings.image_descr">Indstillinger for TER forbindelser</label>
+			<label index="emconf_shy.alttitle">Sky</label>
+			<label index="emconf_category.alttitle">Kategori</label>
+			<label index="emconf_category.description">Hvilken kategori denne extension tilhører.</label>
+			<label index="emconf_dependencies.alttitle">Afhængig af andre extensions?</label>
+			<label index="emconf_conflicts.alttitle">Konflikter med andre extensions?</label>
+			<label index="emconf_module.alttitle">Backend modul er inkluderet</label>
+			<label index="emconf_state.alttitle">Udviklingsstadie</label>
+			<label index="emconf_state.description">Hvilket udviklingsstadie extensionen er i.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Ryd cachen når installeret</label>
+			<label index="emconf_clearCacheOnLoad.description">Hvis sat så vil EM anmode cachen om at blive ryddet når denne extension er installeret.</label>
+			<label index="emconf_private.alttitle">Privat</label>
+			<label index="emconf_download_password.alttitle">Download kodeord</label>
+			<label index="emconf_type.alttitle">Installationstype</label>
+			<label index="emconf_doubleInstall.alttitle">Installeret dobbelt eller mere?</label>
+			<label index="emconf_rootfiles.alttitle">Rodfiler</label>
+			<label index="emconf_dbReq.alttitle">Database krav</label>
+			<label index="emconf_dbStatus.alttitle">Status over database krav</label>
+			<label index="emconf_flags.alttitle">Flag</label>
+			<label index="emconf_flags.description">En liste af specielle koder der fortæller dig noget om hvilke dele af TYPO3 denne extension berører.</label>
+			<label index="emconf_TSfiles.alttitle">Statiske Typoscript filer</label>
+			<label index="emconf_locallang.alttitle">locallang-filer</label>
+			<label index="emconf_moduleNames.alttitle">Backend modul navne</label>
+			<label index="emconf_classNames.alttitle">PHP Class navne</label>
+			<label index="emconf_errors.alttitle">Fejl</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index=".alttitle" type="integer">217593800</label>
+			<label index="loaded.alttitle" type="integer">240199548</label>
+			<label index="avail.alttitle" type="integer">251693128</label>
+			<label index="import_ter.alttitle" type="integer">137151967</label>
+			<label index="info.alttitle" type="integer">195885354</label>
+			<label index="settings.alttitle" type="integer">49620262</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_dependencies.alttitle" type="double">6158334</label>
+			<label index="emconf_conflicts.alttitle" type="integer">174778315</label>
+			<label index="emconf_module.alttitle" type="integer">222311525</label>
+			<label index="emconf_state.alttitle" type="double">8968835</label>
+			<label index="emconf_private.alttitle" type="integer">75468930</label>
+			<label index="emconf_type.alttitle" type="integer">121209022</label>
+			<label index="emconf_rootfiles.alttitle" type="integer">234183730</label>
+			<label index="emconf_classNames.alttitle" type="integer">155053783</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+			<label index="loaded.image_descr" type="integer">182084221</label>
+			<label index="info.description" type="integer">59055841</label>
+			<label index="editfiles.alttitle" type="integer">167010666</label>
+			<label index="emconf_state.description" type="integer">48322308</label>
+			<label index="emconf_download_password.alttitle" type="integer">102196861</label>
+			<label index="emconf_doubleInstall.alttitle" type="integer">262159324</label>
+			<label index="emconf_dbReq.alttitle" type="integer">28332369</label>
+			<label index="emconf_dbStatus.alttitle" type="integer">204171626</label>
+			<label index="emconf_TSfiles.alttitle" type="integer">43118947</label>
+			<label index="emconf_locallang.alttitle" type="integer">182381040</label>
+			<label index="settings.image_descr" type="integer">81559812</label>
+			<label index=".description" type="integer">212219576</label>
+			<label index="import.alttitle" type="integer">65383042</label>
+			<label index="backup_delete.alttitle" type="integer">213063528</label>
+			<label index="upload.alttitle" type="integer">217213386</label>
+			<label index="settings.description" type="integer">93469888</label>
+			<label index="settings.details" type="integer">33394605</label>
+			<label index="emconf_clearCacheOnLoad.alttitle" type="integer">26668595</label>
+			<label index="emconf_clearCacheOnLoad.description" type="integer">149991239</label>
+			<label index="emconf_flags.alttitle" type="integer">82475009</label>
+			<label index="emconf_flags.description" type="integer">42715313</label>
+			<label index="emconf_moduleNames.alttitle" type="integer">70637876</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index=".alttitle">Tools &gt; Extension Manager (EM)</label>
+			<label index="loaded.alttitle">Loaded Extensions</label>
+			<label index="avail.alttitle">Available Extensions</label>
+			<label index="import_ter.alttitle">Extensions in TER</label>
+			<label index="info.alttitle">Extension Details</label>
+			<label index="settings.alttitle">Extension Manager Settings</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_conflicts.alttitle">Conflicts with other extensions?</label>
+			<label index="emconf_module.alttitle">Backend modules included</label>
+			<label index="emconf_state.alttitle">Development state</label>
+			<label index="emconf_private.alttitle">Private</label>
+			<label index="emconf_type.alttitle">Installation type</label>
+			<label index="emconf_rootfiles.alttitle">Root files</label>
+			<label index="emconf_classNames.alttitle">PHP Class names</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+			<label index="loaded.image_descr">The list of loaded extensions shown in the loading order.</label>
+			<label index="info.description">Shows details about the extension.</label>
+			<label index="editfiles.alttitle">Editing scripts in an extension</label>
+			<label index="emconf_state.description">Which development state the extension is in.</label>
+			<label index="emconf_download_password.alttitle">Download password</label>
+			<label index="emconf_doubleInstall.alttitle">Installed twice or more?</label>
+			<label index="emconf_dbReq.alttitle">Database requirements</label>
+			<label index="emconf_dbStatus.alttitle">Database requirements status</label>
+			<label index="emconf_TSfiles.alttitle">Static TypoScript files</label>
+			<label index="emconf_locallang.alttitle">locallang-files</label>
+			<label index="settings.image_descr">Settings for TER connections.</label>
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index="import.alttitle">Importing Extensions</label>
+			<label index="backup_delete.alttitle">Backup Extension as a file</label>
+			<label index="upload.alttitle">Upload an Extension to the repository (TER)</label>
+			<label index="settings.description">Enter settings for the Extension Manager. The username and password is for connections to the repository (usually TYPO3.org) and the upload password is that you would normally use for upload of your extensions.</label>
+			<label index="settings.details">&lt;b&gt;Notice:&lt;/b&gt;
+This information is not very well protected! It is send and stored in clear-text!</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Clear cache when installed</label>
+			<label index="emconf_clearCacheOnLoad.description">If set, the EM will request the cache to be cleared when this extension is installed.</label>
+			<label index="emconf_flags.alttitle">Flags</label>
+			<label index="emconf_flags.description">A list of special codes which tells you something about what parts of TYPO3 the extension touches.</label>
+			<label index="emconf_moduleNames.alttitle">Backend Module names</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

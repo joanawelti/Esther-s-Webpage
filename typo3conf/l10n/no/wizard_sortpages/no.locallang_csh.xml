@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="tx_wizardsortpages.alttitle">Hjelpefunksjon for sidesortering</label>
+			<label index="tx_wizardsortpages.description">Gjør det mulig å sortere sider alfabetisk etter tittel eller undertittel, etter opprettet-dato el.l. Du kan også snu rekkefølgen på sidene i sidetreet.</label>
+			<label index="tx_wizardsortpages.details">Sidene i sidetreet er alltid i en manuell rekkefølge. Du kan fritt flytte sider opp og ned, etc. Denne hjelpefunksjonen gir deg derimot en rask metode for å endre denne siderekkefølgen.
+
+Du trenger bare å klikke på en av lenkene underst i hjelpefunksjonen:
+
+&lt;b&gt;Sidetittel&lt;/b&gt;
+Sorterer sidene etter tittel.
+
+&lt;b&gt;Undertittel&lt;/b&gt;
+Sorterer sidene etter undertittel.
+
+&lt;b&gt;Endret-tid&lt;/b&gt;
+Sorterer sidene etter tidspunktet de sist ble endret.
+
+&lt;b&gt;Opprettet-tid&lt;/b&gt;
+Sorterer siden etter når de ble opprettet.
+
+&lt;b&gt;Snu nåværende rekkefølge&lt;/b&gt;
+Snur den nåværende rekkefølgen. For å sortere etter tittel i synkende alfabetisk rekkefølge velger du å sortere etter tittel først, for så å snu rekkefølgen med dett valget.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="tx_wizardsortpages.alttitle" type="integer">256705929</label>
+			<label index="tx_wizardsortpages.description" type="integer">192390591</label>
+			<label index="tx_wizardsortpages.details" type="integer">122743470</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="tx_wizardsortpages.alttitle">Sort Pages wizard</label>
+			<label index="tx_wizardsortpages.description">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</label>
+			<label index="tx_wizardsortpages.details">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+&lt;b&gt;Page title&lt;/b&gt;
+Will sort pages by their page title.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Will sort page by their Subtitle field.
+
+&lt;b&gt;Change-time&lt;/b&gt;
+Will sort pages by the date they were last changed.
+
+&lt;b&gt;Create-time&lt;/b&gt;
+Will sort pages by their creation date.
+
+&lt;b&gt;Reverse current order&lt;/b&gt;
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

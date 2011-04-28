@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="title.description">Unesite ime ovog dodatnog sistemskog jezika.</label>
+			<label index="hidden.description">Ova opcija će sakriti sistemski jezik da nije dostupan iz backend-a.</label>
+			<label index=".description">Definira koji jezici su alternativno dostupni na svakoj web stranici.</label>
+			<label index=".details">Web&gt;Stanica modul ima opciju koja omogućuje korisnicima da uređuju
+sadržaj stranice podjeljen ne samo na kolone nego i na jezike. Jezici
+dostupni za prijevod se određuju sa brojem kreiranih zapisa jezika website-a.
+Da bi stranica bila dostupna na drugom jeziku &quot;Alternativni jezik stranice&quot;
+mora biti kreiran na stranici.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="title.description" type="integer">111675524</label>
+			<label index="hidden.description" type="integer">199895530</label>
+			<label index=".description" type="integer">1687697</label>
+			<label index=".details" type="integer">190956227</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index="title.description">Enter the name of this additional system language.</label>
+			<label index="hidden.description">This option will hide the system language from being available in the backend.</label>
+			<label index=".description">Defines which languages are alternatively available on each webpage.</label>
+			<label index=".details">The Web&gt;Page module has a feature which allows users to edit page content divided into not only columns but also languages. The languages available for translation are determined by the number of Website Language record created.
+For a webpage to be available in another language an &quot;Alternative Page Language&quot; record must be created on the page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

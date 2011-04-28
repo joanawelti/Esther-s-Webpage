@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="username.description">Въведете потребителско име на уеб сайт потребителя. Необходимо е при влизане в системата.</label>
+			<label index="username.syntax">Потребителското име е задължително и трябва да бъде с малки букви и без празни разстояния между тях. Потребителското име трябва да бъде уникално сред другите потребителски имена в страницата, в която е съхранено. Ако не е уникално, то към него като префикс автоматично се добавя число.</label>
+			<label index="password.description">Въведете паролата за потребителя отгоре.
+Необходима е за влизане в системата.</label>
+			<label index="password.syntax">Паролата се изисква и трябва да бъде с малки букви и без празни разстояния между тях.</label>
+			<label index="usergroup.description">Изберете потребителска група за потребителското име.</label>
+			<label index="usergroup.details">Когато един потребител влиза в системата, той може да прегледа цялото съдържание, което е органичено към потребителската/ите &lt;em&gt;група(и)&lt;/em&gt;, на която потребителят е член. Следователно потребителският вход първоначално има значение що се отнася до членските групи.</label>
+			<label index="lockToDomain.description">Въведете име на хост, от който потребителят е принуден за влезе в системата.</label>
+			<label index="lockToDomain.details">TYPO3 системата може да има няколко домейна, към които да сочи. Следователно тази опция гарантира потребителски бход само от определен хост.</label>
+			<label index="lockToDomain.syntax">Или име на домейн, &quot;www.typo3.com&quot; или IP  адрес, &quot;10.34.222.83&quot;</label>
+			<label index="name.description">Въведете името на потребителят, и двете име и презиме.</label>
+			<label index="address.description">Въведете адрес на потребителя.</label>
+			<label index="www.description">Въведете URL-то на начална страница</label>
+			<label index="title.description">Въведете длъжностно название, например 'Директор' или 'Счетоводител'</label>
+			<label index="company.description">Въведете името на компанията, в която потребителят е служител.</label>
+			<label index="image.description">Вмъкни снимка на потребителят.</label>
+			<label index="disable.description">Тази опция временно ще забрани на потребителят да влезе в системата.</label>
+			<label index="starttime.description">Въведете датата, от която е активен акаунта.</label>
+			<label index="starttime.syntax">Синтаксисът е дд-мм-гг, но можете да въведете само 'д' в полето за въвеждане на днешна дата. Или 'д+10' за вмъкване на датата 10 дни след днес.
+Полето ще преформатира всеки вход за съвпадане на формата, който разбира, така че можете да експериментирате и ще видите как трябва да се въвеждат дати.</label>
+			<label index="endtime.description">Въведете датата, от която акаунта е деактивиран.</label>
+			<label index="endtime.syntax">Виж &quot;Начало&quot;</label>
+			<label index="TSconfig.description">Въведете допълнителен TSconfig за потребителят (разширен).</label>
+			<label index="TSconfig.syntax">TypoScript синтаксис, без условия и константи.</label>
+			<label index=".description">Уеб сайт логнат потребител.</label>
+			<label index=".details">Това са потребители с име и парола, на които е позволен определен достъп до иначе забранени области на вашия уеб сайт.</label>
+			<label index=".image_descr">Част от формата за редактиране на фронт енд потребител. Типична кутия (стандартна) в уеб сайта, където фронт енд потребителите могат да влязат в системата.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="username.description" type="integer">107422140</label>
+			<label index="username.syntax" type="integer">266882532</label>
+			<label index="password.description" type="double">10412940</label>
+			<label index="password.syntax" type="integer">68458992</label>
+			<label index="usergroup.description" type="integer">171809046</label>
+			<label index="usergroup.details" type="integer">62585212</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">140149042</label>
+			<label index="lockToDomain.syntax" type="double">634244</label>
+			<label index="name.description" type="integer">173302476</label>
+			<label index="address.description" type="integer">268060602</label>
+			<label index="www.description" type="integer">258941487</label>
+			<label index="title.description" type="integer">45554969</label>
+			<label index="company.description" type="double">7843590</label>
+			<label index="image.description" type="integer">222235094</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="starttime.syntax" type="integer">39649228</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="endtime.syntax" type="integer">108743214</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index="TSconfig.syntax" type="integer">117035971</label>
+			<label index=".description" type="integer">156302739</label>
+			<label index=".details" type="integer">253202486</label>
+			<label index=".image_descr" type="integer">110690734</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="username.description">Enter the username of the website user. This is needed to login.</label>
+			<label index="username.syntax">A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.</label>
+			<label index="password.description">Enter the password for the username above. This is needed to login.</label>
+			<label index="password.syntax">A password is required and must be in lowercase without spaces in it.</label>
+			<label index="usergroup.description">Select a user group for the username.</label>
+			<label index="usergroup.details">When a user logs in he is able to view all content which is access restricted to the user &lt;em&gt;group(s)&lt;/em&gt; the user is a member of. Therefore the user login primarily makes sense with regard to the member groups.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</label>
+			<label index="lockToDomain.syntax">Either a domain name, &quot;www.typo3.com&quot; or an IP address, &quot;10.34.222.83&quot;</label>
+			<label index="name.description">Enter the regular name of the user, both first- and surname.</label>
+			<label index="address.description">Enter the street address of the user.</label>
+			<label index="www.description">Enter the homepage URL</label>
+			<label index="title.description">Enter the job title, eg. 'Director' or 'Accountant'.</label>
+			<label index="company.description">Enter the name of the company in which the user is employed.</label>
+			<label index="image.description">Insert a photo of the user.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="starttime.syntax">The syntax is dd-mm-yy, but you can just enter a &quot;d&quot; in the field to insert todays date. Or &quot;d+10&quot; to insert the date 10 days from now etc.
+The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="endtime.syntax">See &quot;Start&quot;</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index="TSconfig.syntax">TypoScript syntax, without conditions and constants.</label>
+			<label index=".description">A website login user.</label>
+			<label index=".details">These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.</label>
+			<label index=".image_descr">Part of the form for editing a frontend user.
+A typical login box (standard) on the website where frontend users can login.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

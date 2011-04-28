@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="time">Χρόνος</label>
+			<label index="age">Ηλικία</label>
+			<label index="user">Χρήστης</label>
+			<label index="tableUid">Πίνακας:uid</label>
+			<label index="differences">Διαφορές</label>
+			<label index="changes">Αρχείο καταγραφής αλλαγών</label>
+			<label index="return">Επιστροφή</label>
+			<label index="returnLink">Πατήστε εδώ για να πάτε πίσω</label>
+			<label index="markState">Σημειώστε αυτή την αλλαγή</label>
+			<label index="unmarkState">Ασημείωτη αυτή η αλλαγή</label>
+			<label index="elementHistory_link">Πρόβαλε την πλήρης σελίδα ιστορικού!</label>
+			<label index="fullView">Επιστροφή στην πλήρης προβολή</label>
+			<label index="insert">εισαγωγή</label>
+			<label index="delete">διαγραφή</label>
+			<label index="settings">Ρυθμίσεις</label>
+			<label index="maxSteps">Προβολή των καταχωρήσεων:</label>
+			<label index="maxSteps_all">ΟΛΑ</label>
+			<label index="maxSteps_marked">Σημειωμένα</label>
+			<label index="showDiff">Προβολή των διαφορών:</label>
+			<label index="showDiff_no">'Οχι</label>
+			<label index="no">Όχι</label>
+			<label index="yes">Ναί</label>
+			<label index="noDifferences">Δεν υπάρχουν διαφορές στην τρέχον σελίδα!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="time" type="integer">175559919</label>
+			<label index="age" type="integer">165204693</label>
+			<label index="user" type="integer">150585321</label>
+			<label index="tableUid" type="integer">70945449</label>
+			<label index="differences" type="integer">172019011</label>
+			<label index="changes" type="integer">206116909</label>
+			<label index="return" type="integer">159972723</label>
+			<label index="returnLink" type="integer">224991832</label>
+			<label index="markState" type="integer">225010576</label>
+			<label index="unmarkState" type="integer">109493640</label>
+			<label index="elementHistory_link" type="integer">56530468</label>
+			<label index="fullView" type="integer">257969727</label>
+			<label index="insert" type="integer">235795955</label>
+			<label index="delete" type="double">10071891</label>
+			<label index="settings" type="integer">256864370</label>
+			<label index="maxSteps" type="integer">93251975</label>
+			<label index="maxSteps_all" type="integer">100343701</label>
+			<label index="maxSteps_marked" type="integer">96203478</label>
+			<label index="showDiff" type="integer">254409558</label>
+			<label index="showDiff_no" type="integer">196073266</label>
+			<label index="no" type="integer">196073266</label>
+			<label index="yes" type="integer">154974727</label>
+			<label index="noDifferences" type="integer">190893026</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="time">Time</label>
+			<label index="age">Age</label>
+			<label index="user">User</label>
+			<label index="tableUid">Table:uid</label>
+			<label index="differences">Differences</label>
+			<label index="changes">Changelog</label>
+			<label index="return">Return</label>
+			<label index="returnLink">Click here to go back</label>
+			<label index="markState">mark this change</label>
+			<label index="unmarkState">unMark this change</label>
+			<label index="elementHistory_link">Show the full page history!</label>
+			<label index="fullView">Return to full view</label>
+			<label index="insert">insert</label>
+			<label index="delete">delete</label>
+			<label index="settings">Settings</label>
+			<label index="maxSteps">Show entries:</label>
+			<label index="maxSteps_all">ALL</label>
+			<label index="maxSteps_marked">marked</label>
+			<label index="showDiff">Show diff:</label>
+			<label index="showDiff_no">No</label>
+			<label index="no">No</label>
+			<label index="yes">Yes</label>
+			<label index="noDifferences">There are no differences to the current page!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="wiz_crMany">Skapa flera sidor</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Skapa nya sidor</label>
+			<label index="wiz_newPages_page">Sida</label>
+			<label index="wiz_newPages_currentMenu">Ny sidstruktur</label>
+			<label index="wiz_newPages_errorMsg1">Du har inte rättighet att skapa nya undersidor till denna sida!</label>
+			<label index="wiz_newPages_lCreate">Skapa sidor</label>
+			<label index="wiz_newPages_listEnd">Placera de nya sidorna efter befintliga undersidor</label>
+			<label index="wiz_newPages_hidePages">Göm nya sidor</label>
+			<label index="wiz_newPages_lCreate_msg1">Du håller på att skapa många nya sidor. Är du säker på att du vill fortsätta?</label>
+			<label index="wiz_newPages_lReset">Töm fälten</label>
+			<label index="wiz_newPages_noCreate">Inga nya sidor skapades!</label>
+			<label index="wiz_newPages_helpText">Här kan du skapa nya tomma sidor i mängd. Här skapar du snabbt en sidstruktur för en ny website eller del av den.&lt;BR&gt;Du behöver bara skriva in titlar på de sidor du behöver. Endast sidor där fälten är fyllda kommer att skapas.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="integer">1353175</label>
+			<label index="wiz_newPages_helpText" type="integer">257879061</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="integer">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="wiz_crMany">Create multiple pages</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Create new pages</label>
+			<label index="wiz_newPages_page">Page</label>
+			<label index="wiz_newPages_currentMenu">New page structure</label>
+			<label index="wiz_newPages_errorMsg1">You are not allowed to create new subpages to this page!</label>
+			<label index="wiz_newPages_lCreate">Create pages</label>
+			<label index="wiz_newPages_listEnd">Place new pages after the existing subpages</label>
+			<label index="wiz_newPages_hidePages">Hide new pages</label>
+			<label index="wiz_newPages_lCreate_msg1">You're about to create many new pages. Are you sure you want to continue?</label>
+			<label index="wiz_newPages_lReset">Clear fields</label>
+			<label index="wiz_newPages_noCreate">No pages was created!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

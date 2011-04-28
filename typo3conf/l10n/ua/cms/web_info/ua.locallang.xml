@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ua" type="array">
+			<label index="page_title">Огляд дерева сторінок</label>
+			<label index="page_sysnote">Внутрішні нотатки</label>
+			<label index="pageInformation">Інформація щодо сторінки</label>
+			<label index="pages_0">Базові налаштування</label>
+			<label index="pages_2">Кеш та вік</label>
+			<label index="pages_1">Огляд записів</label>
+			<label index="stat_type_0">Хітів сторінки</label>
+			<label index="stat_type_1">Хітів загалом</label>
+			<label index="stat_type_2">Хітів основної секції</label>
+			<label index="stat_period">Статистика за період %s до %s</label>
+			<label index="pI_crUser">Створено</label>
+			<label index="pI_crDate">Дата створення</label>
+			<label index="pI_lastChange">Остання зміна</label>
+			<label index="pI_lastChangeContent">Остання зміна, вміст</label>
+			<label index="hits_title">Статистика хітів</label>
+			<label index="lang_renderl10n_viewPage">Перегляд сторінки</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">Редагувати властивості мови сторінки за замовченням</label>
+			<label index="lang_renderl10n_editLangOverlays">Редагувати усі мовні записи перекриття</label>
+			<label index="lang_renderl10n_editPageProperties">Редагувати всі властивості сторінки</label>
+			<label index="lang_renderl10n_editPage">Редагувати сторінку</label>
+			<label index="lang_renderl10n_editPageLang">Редагувати переклад сторінки</label>
+			<label index="lang_renderl10n_badThingThereAre">ПОМИЛКА: для цієї мови є два чи більше записи перекриття! Дозволено тільки один!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">Редагувати мовний запис перекриття</label>
+			<label index="lang_renderl10n_page">Сторінка</label>
+			<label index="lang_renderl10n_default">Типово</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">Створити нові заголовки перекладів</label>
+			<label index="lang_renderl10n_CEcount">Кількість елементів вмісту</label>
+			<label index="lang_renderl10n_editPageHeaders">Редагувати усі заголовки сторінок</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ua" type="array">
+			<label index="page_title" type="integer">46867233</label>
+			<label index="page_sysnote" type="integer">267841144</label>
+			<label index="pageInformation" type="double">9265976</label>
+			<label index="pages_0" type="integer">155022480</label>
+			<label index="pages_2" type="integer">198333821</label>
+			<label index="pages_1" type="integer">71658561</label>
+			<label index="stat_type_0" type="integer">131565852</label>
+			<label index="stat_type_1" type="integer">110417445</label>
+			<label index="stat_type_2" type="integer">86813859</label>
+			<label index="stat_period" type="integer">100779727</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="hits_title" type="integer">55072016</label>
+			<label index="lang_renderl10n_viewPage" type="integer">258274582</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage" type="integer">187585307</label>
+			<label index="lang_renderl10n_editLangOverlays" type="integer">193717971</label>
+			<label index="lang_renderl10n_editPageHeaders" type="integer">237110134</label>
+			<label index="lang_renderl10n_editPage" type="integer">66732081</label>
+			<label index="lang_renderl10n_editPageLang" type="integer">110674105</label>
+			<label index="lang_renderl10n_badThingThereAre" type="integer">258445119</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord" type="integer">80463324</label>
+			<label index="lang_renderl10n_page" type="integer">26464201</label>
+			<label index="lang_renderl10n_default" type="integer">128029197</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders" type="integer">193499435</label>
+			<label index="lang_renderl10n_CEcount" type="integer">196252064</label>
+			<label index="lang_renderl10n_editPageProperties" type="integer">267546290</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ua" type="array">
+			<label index="page_title">Pagetree overview</label>
+			<label index="page_sysnote">Internal notes</label>
+			<label index="pageInformation">Page information</label>
+			<label index="pages_0">Basic settings</label>
+			<label index="pages_2">Cache and Age</label>
+			<label index="pages_1">Record overview</label>
+			<label index="stat_type_0">Page hits</label>
+			<label index="stat_type_1">Total hits</label>
+			<label index="stat_type_2">Hits in main sections</label>
+			<label index="stat_period">Statistics in the period %s back to %s</label>
+			<label index="pI_crUser">Created by</label>
+			<label index="pI_crDate">Created date</label>
+			<label index="pI_lastChange">Last change</label>
+			<label index="pI_lastChangeContent">Last change, content</label>
+			<label index="hits_title">Hit Statistics</label>
+			<label index="lang_renderl10n_viewPage">View page</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">Edit default language page properties</label>
+			<label index="lang_renderl10n_editLangOverlays">Edit all language overlay records</label>
+			<label index="lang_renderl10n_editPageProperties">Edit all page properties</label>
+			<label index="lang_renderl10n_editPage">Edit page</label>
+			<label index="lang_renderl10n_editPageLang">Edit page translation</label>
+			<label index="lang_renderl10n_badThingThereAre">ERROR: there are two or more page overlay records for this language! Only one is allowed!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">Edit language overlay record</label>
+			<label index="lang_renderl10n_page">Page</label>
+			<label index="lang_renderl10n_default">Default</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">Create new translation headers</label>
+			<label index="lang_renderl10n_CEcount">Content Element Count</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

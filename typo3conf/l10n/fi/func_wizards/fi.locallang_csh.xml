@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="tx_funcwizards.alttitle">Sivu velhot</label>
+			<label index="tx_funcwizards.description">Tämä aliohjelma tarjoaa alustan johon erilaiset velhot (ohjaavat ja alustavat) lisätään. Nyt käytettävissä on velhoja joilla voi luoda sivuja, lajitella sivuja otsioin mukaisesti jne.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="tx_funcwizards.alttitle" type="integer">159573226</label>
+			<label index="tx_funcwizards.description" type="integer">97945442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="tx_funcwizards.alttitle">Page Wizards</label>
+			<label index="tx_funcwizards.description">This submodule provides a framework where wizards can be added. Available wizards currently include a wizard for creating pages and sorting pages by title etc.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,169 @@
+config {
+#Ausgabe von XHTML aktivieren 
+xhtml_cleaning = all
+
+#Doctype auf XHTML 1.0 internet_corporational einstellen
+#doctype = xhtml_trans
+doctype = xhtml_strict
+
+
+#renderCharset = utf-8
+
+#Sprache für die Attribute "xml:lang" und "lang" im <html>-Tag
+htmlTag_langKey = de
+
+#XML Prolog unterdrücken, weil der Internet Explorer ansonsten in den nicht standartkonfomen Quirks-Modus wechselt
+xmlprologue = none
+
+#Sprache
+language = de
+locale_all = german
+
+admPanel = 1
+inlineStyle2TempFile = 1
+
+# Externalize CSS and JS
+removeDefaultJS = 0
+
+#Cache
+#cache_clearAtinternet_corporation
+
+
+# Spam Protection
+spamProtectEmailAddresses = 2
+spamProtectEmailAddresses_atSubst = (at)
+
+index_enable = 1
+}
+
+
+config.linkVars = L
+config.sys_language_uid = 0
+config.language = de
+config.locale_all = german
+
+[globalVar = GP:L = 1]
+config.sys_language_uid = 1
+config.language = en
+config.locale_all = english
+[global]
+
+
+lib.parseFunc_RTE.tags.link.typolink.target = _self
+
+# Popup für Bilder fomatieren
+tt_content.textpic.20{ 
+1.imageLinkWrap = 1 
+1.imageLinkWrap { 
+enable = 1 
+bodyTag = <BODY bgColor=white leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
+wrap = <A href="javascript:close();"> | </A> 
+JSwindow = 1 
+JSwindow.newWindow = 1 
+JSwindow.expand = 0,0 
+} 
+}
+
+tt_content.image.20 { 
+1.imageLinkWrap = 1 
+1.imageLinkWrap { 
+enable = 1 
+bodyTag = <BODY bgColor=white leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"> 
+wrap = <A href="javascript:close();"> | </A> 
+JSwindow = 1 
+JSwindow.newWindow = 1 
+JSwindow.expand = 0,0 
+} 
+}
+
+
+
+# ******************
+# CType: mailform
+# ******************
+tt_content.mailform = COA
+tt_content.mailform.10 = < lib.stdheader
+tt_content.mailform.20 = FORM
+tt_content.mailform.20 {
+#	stdWrap.wrap = <fieldset style="border:1px; width:90%; padding:5px;">|</fieldset>
+#	labelWrap.wrap = <div style="width:100px;float:left;">|</div>
+#	REQ.labelWrap.wrap = <div style="width:100px;float:left;">|</div>
+#	commentWrap.wrap = <div style="width:100px;float:left;">|</div>
+#	radioWrap.wrap = <div style="width:100px;float:left;">|</div>
+	params >
+	params.input = class="mf-input"
+	params.password = class="mf-pass"
+	params.textarea = class="mf-text"
+	params.check = class="mf-check"
+	radio = class="mf-radio"
+	params.select = class="mf-select"
+	params.file = class="mf-file"
+	params.reset = class="mf-reset"
+	params.submit = class="mf-submit"
+	badMess = Bitte kontrollieren Sie folgende Angaben:
+	target = _self
+}
+
+
+#Template Title auslesen
+temp.titel = COA
+temp.titel {
+  #wrap=:Das ist der Titel:|
+  5 = RECORDS
+  5 {
+    #id des template-records
+    source = 1
+    tables = sys_template
+    conf.sys_template >
+    conf.sys_template = TEXT
+    conf.sys_template.field=title
+  } 
+}
+
+
+#Template Sitetitle auslesen
+temp.siteTitel = COA
+temp.siteTitel {
+  #wrap=:Das ist der Seitentitel:|
+  5 = RECORDS
+  5 {
+    #id des template-records
+    source = 1
+    tables = sys_template
+    conf.sys_template >
+    conf.sys_template = TEXT
+    conf.sys_template.field=sitetitle
+  } 
+}
+
+#Template Description auslesen
+temp.beschreibung = COA
+temp.beschreibung {
+  #wrap=:Das ist die Beschreibung:|
+  5 = RECORDS
+  5 {
+    #id des template-records
+    source = 1
+    tables = sys_template
+    conf.sys_template >
+    conf.sys_template = TEXT
+    conf.sys_template.field=description
+  } 
+}
+
+# Wechselnde Headgrafik
+    temp.toppic = IMAGE
+    temp.toppic {  
+        file = fileadmin/daten/banner/banner.jpg
+        file.import.data = levelmedia: -1, "slide"
+        file.import = uploads/media/
+        file.import.listNum = 0
+        file.import.override.field = media
+      }
+
+temp.copyright = TEXT
+temp.copyright {
+   data = date : U
+   strftime = %Y
+   wrap = &copy;&nbsp;Copyright&nbsp;|&nbsp;
+   }

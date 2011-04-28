@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="welcome">Typo3專業網站內容管理系統</label>
+			<label index="minor">Typo3是一個富彈性和專業的開放源程式碼網站內容管理系統，此系統建基於PHP4和MySql.&lt;br /&gt;&lt;br /&gt;Typo3在遵守&lt;a href=&quot;http://typo3.com/1244.0.html&quot; target=&quot;_blank&quot;&gt;TYPO3使用證(GNU/GPL)&lt;/a&gt;.&lt;br /&gt;%s%s&lt;br /&gt;&lt;b&gt;免費自由使用&lt;/b&gt;</label>
+			<label index="mlang_labels_tablabel">關於TYPO3</label>
+			<label index="mlang_labels_tabdescr">顯示有關TYPO3的應用、版本和使用證條款的基本事實</label>
+			<label index="mlang_tabs_tab">關於</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">259198789</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

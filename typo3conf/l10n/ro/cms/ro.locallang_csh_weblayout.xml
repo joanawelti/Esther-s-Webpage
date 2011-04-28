@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index=".alttitle">Web &gt; Modul pagini</label>
+			<label index=".description">Modulul de pagini este activat din backend şi este modulul de bază folosit pentru toate operaţiile sistemului CMS atunci când întreţineţi conţinutul paginii de internet</label>
+			<label index="quickEdit.description">Editorul Rapid vă permite accesul direct la câmpurile formularului de conţinut al paginii.</label>
+			<label index="quickEdit.details">Editorul Rapid este proiectat să reducă numărul de clickuri necesare pentru editarea conţinutului unei pagini. Dând un click pe titlul paginii în arborele paginilor se va încărca primul element de conţinut din coloana principală. Din bara de instrumente se sus puteţi selecta alte elemente de conţinut de pe pagină utilizând căsuţa de selecţie.</label>
+			<label index="quickEdit_selElement.alttitle">Elemente de conţinut</label>
+			<label index="quickEdit_selElement.description">Acesta este un rezumat al elementelor de conţinut de pe această pagină. Selectaţi un element pentru a-l edita sau daţi un click pe iconiţa &quot;Nou&quot; pentru a crea un nou element de conţinut.</label>
+			<label index="columns_1.alttitle">Listare pe coloane</label>
+			<label index="columns_1.description">În vederea pe coloane puteţi controla conţinutul paginii cand acesta e poziţionat pe coloane</label>
+			<label index="columns_2.alttitle">Listare după limbă</label>
+			<label index="columns_2.description">În vederea pe limbi puteţi controla conţinutul paginii web, aceasta fiind afişată în coloane corespunzătoare fiecărei limbi definite.</label>
+			<label index="columns_3.alttitle">Informaţie pagină</label>
+			<label index="columns_3.description">În vederea informaţiilor paginii puteţi vedea numeroase statistici ale unei pagini.</label>
+			<label index="language_list.alttitle">Vederea pe limbă</label>
+			<label index="columns_single.alttitle">Elemente de conţinut al paginii într-o singură coloană</label>
+			<label index="columns_multi.alttitle">Elemente de conţinut al paginii în coloane multiple</label>
+			<label index="button_panel.alttitle">Butoanele &quot;Mari&quot;</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index=".description" type="integer">255949225</label>
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.alttitle" type="integer">183363228</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+			<label index="columns_2.alttitle" type="integer">8205541</label>
+			<label index="columns_2.description" type="integer">120555273</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+			<label index="columns_3.description" type="integer">128375441</label>
+			<label index="language_list.alttitle" type="integer">5495420</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="columns_single.alttitle" type="integer">177139761</label>
+			<label index="columns_multi.alttitle" type="integer">129089861</label>
+			<label index="button_panel.alttitle" type="integer">66291190</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index=".description">The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</label>
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.alttitle">Listing by Column</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+			<label index="columns_2.alttitle">Listing by Language</label>
+			<label index="columns_2.description">In the &quot;Languages&quot; view you can control the content of the web page as it is divided into languages and columns.</label>
+			<label index="columns_3.alttitle">Page Information</label>
+			<label index="columns_3.description">In the &quot;Page Information&quot; view you can see various statistics about a page.</label>
+			<label index="language_list.alttitle">Language view</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="columns_single.alttitle">Page content elements in a single column</label>
+			<label index="columns_multi.alttitle">Page content elements in a multiple columns</label>
+			<label index="button_panel.alttitle">The &quot;Big Buttons&quot;</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

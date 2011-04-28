@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="domainName.description">Entrez le nom de domaine, ex: &quot;www.mon-domaine.com&quot;</label>
+			<label index="hidden.description">Utilisez cette option pour désactiver temporairement l'enregistrement de domaine.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="domainName.description" type="integer">15093983</label>
+			<label index="hidden.description" type="integer">31618732</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

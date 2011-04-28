@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Definieert zelf aangemaakte workspaces in TYPO3 die het groepen mogelijk maken samen te werken in het publicatieproces binnen een kladversie. Meer informatie kan gevonden worden in het document &quot;Inside TYPO3&quot;</label>
+			<label index="title.description">Vul de naam in van de workspace. Deze naam wordt getoond in het workspace selectie veld in de backend.</label>
+			<label index="description.description">Beschrijf hier het doel van de workspace. Deze informatie wordt getoond in de Workspace Manager en dient instructies te geven aan de gebruikers van de workspace over het doel er van.</label>
+			<label index="adminusers.description">Eigenaren van de workspace kunnen leden en recensenten toevoegen aan de workspace en startpunten bepalen in de paginastructuur.</label>
+			<label index="adminusers.details">Eigenaren kunnen ook andere eigenaren toevoegen en verwijderen. Als een gebruiker een workspace kan aanmaken dan is deze ook automatisch de eigenaar van de workspace. Zij zijn ook diegenen die uiteindelijk de workspace kunnen publiceren en derhalve ook de hoogste recensentie autoriteit hebben. TYPO3 admins kunnen uiteraard ook publiceren alsmede leden/recensenten die toegang hebben tot de LIVE workspace.</label>
+			<label index="members.description">Leden kunnen backend gebruikers of groepen zijn en hebben toestemming om te werken in de workspace. Ze kunnen geen inhoud publiceren (tenzij ze toegang hebben tot de LIVE workspace). Deze gebruikers kunnen alleen inhoud toevoegen en aanpassen waarna zij het doorsturen ter beoordeling door een recensent.</label>
+			<label index="reviewers.description">Inhoud dient eerst goedgekeurd te worden voordat het uiteindelijk gepubliceerd kan worden door een eigenaar van de workspace. Recensenten kunnen backend gebruikers of groepen zijn en hebben toegang tot de workspace net zoals leden hebben, maar kunnen ook inhoud goedkeuren voor uiteindelijke publicatie.</label>
+			<label index="reviewers.details">In het geval u geen recentie lagen tussen redacteuren (normaalgesproken workspace &quot;leden&quot;) en de workspace eigenaren nodig heeft dan voegt u simpelweg alle redacteuren toe als recensent. Dit geeft de redacteuren de mogelijkheid om inhoud te leiden naar de eigenaar van de workspace. Omdat inhoud standaard wordt geleid van bewerken naar recenseren naar publiceren, geeft dit ook de mogelijkheid van een informele recentie &quot;onder vier ogen&quot; waarbij workspace eigenaren</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">82101164</label>
+			<label index="title.description" type="integer">158098838</label>
+			<label index="description.description" type="integer">189422282</label>
+			<label index="adminusers.description" type="integer">256927453</label>
+			<label index="adminusers.details" type="integer">142331935</label>
+			<label index="members.description" type="integer">263329389</label>
+			<label index="reviewers.description" type="integer">257046881</label>
+			<label index="reviewers.details" type="integer">23289423</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Defines custom workspaces in TYPO3 which allows for groups of people to work together in a publishing process with draft content. More information about workspaces can be found in the document &quot;Inside TYPO3&quot;.</label>
+			<label index="title.description">Enter the name of the workspace. This value is shown in the workspace selector box in the backend.</label>
+			<label index="description.description">Make a description of the workspace purpose here. This information is shown in the Workspace Manager and should instruct the workspace users about the purpose of the workspace.</label>
+			<label index="adminusers.description">Owners of the workspace are those who are allowed to add members and reviewers to the workspace and pick the page tree starting points etc.</label>
+			<label index="adminusers.details">Owners can also add and delete other owners. If a user is allowed to create workspaces himself he will automatically become the initial owner user of the workspace. They are also the only ones who can eventually publish the workspace content (except general TYPO3 &quot;admin&quot; users) and thus the highest review authority (unless members/reviewers have access to the Live workspace).</label>
+			<label index="members.description">Members can be backend users or groups and will have access to work in the workspace. They cannot publish content (unless they have access to the Live workspace) but only edit it after which they will forward it for approval by a reviewer.</label>
+			<label index="reviewers.description">Content have to pass through reviewers approval before it can finally be published by a workspace owner. Reviewers can be backend users or groups and will have access to the workspace just as members have, but can in addition approve content for final publication.</label>
+			<label index="reviewers.details">In case you need no review layer between editors (normally workspace &quot;members&quot;) and the workspace owners what you simply do is to add all editors as reviewers. This give them access to raise content all the way to the workspace owners. Since content is by default raised from editing to review to publish state it even gives the possibility of informal &quot;four-eye&quot; review where workspace owners can require that content has  been raised by action from two different reviewers.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">檔案掛點描述一個伺服器中的路徑，相對或絕對的</label>
+			<label index=".details">透過建立一個檔案掛點和在後勤使用者群組中放置一個參照，你可以許可一名使用者存取在檔案&gt;表列模組中的檔案掛點。
+你需要建立和設定最少一個以 「_temp_」 的檔案掛點，假如你想使用者透過網頁溜覽器上載檔案。
+檔案掛點也許同時設定對一個伺服器上的路徑的存取權限，對此使用者有 ftp 存取權限。只要緊記正確地設定伺器上的檔案存取權限，以玫網頁伺服器使用者（PHP運行時的使用者）有最基本的閱讀權限存取 FTP 資料夾。</label>
+			<label index="title.description">輸入檔案掛點的名稱</label>
+			<label index="path.description">輸入檔案掛點的路徑，相對的或絕對的，視乎基本的設定</label>
+			<label index="path.details">假如基本設定為相對的，被掛的路徑會在網站「fileadmin」的子資料夾中。你應該輸入「fileadmin」的子資料夾為路徑。例如，你想掛上「fileadmin/user_uploads/all」的存取權，你就應該輸入「user_uploads/all」作為路徑的值。
+假如基本設定是絕對的，你應該輸入伺服器上的絕對路徑，例如：「/home/ftp_upload」或「C:/home/ftp_upload」
+
+&lt;strong&gt;留意：&lt;/strong&gt;在任何情況下，肯定網頁伺服器運行PHP的使用者有路徑&lt;em&gt;最基本&lt;/em&gt;的讀取權限。假如沒有，掛點就不會出現，而且不會沒有任何警告。
+假如你有問題 - 特別是絕對掛點 - 嘗試掛入一些「簡單」，如一個在fileadmin中的相對路徑。假如運作良好，再嘗試絕對路徑。
+
+你的 PHP 設定也許同樣會加上其他限制於你，假如啟動了類似安全模式(safe-mode)等的功能。樣就要用相對路徑。</label>
+			<label index="path.image_descr">這是一個相對於「fileadmin/」的檔案掛點。掛載的資料夾是「fileadmin/user_upload/」, 因為「user_upload」是「路徑」欄的值。
+「fileadmin/」的目錄結構中你可以看到「user_upload」資料夾在名單的底部。</label>
+			<label index="hidden.description">使用這個選項來暫時關閉檔案掛點。</label>
+			<label index="hidden.details">所有使用掛點的後勤使用者將不能存取點。包括了「管理員」使用者。</label>
+			<label index="base.description">決定路徑欄的值是被看為伺服器上的絕對路徑或是一個相對於網站中fileadmin的子資料夾的路徑</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+			<label index="path.image_descr" type="integer">198168257</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+			<label index="path.image_descr">This is a filemount relative to &quot;fileadmin/&quot;. The mounted folder is &quot;fileadmin/user_upload/&quot; since &quot;user_upload&quot; is the value of the &quot;Path&quot; field.
+The directory structure of &quot;fileadmin/&quot; where you can see the &quot;user_upload&quot; folder in the bottom of the list.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

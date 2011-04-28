@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="folderTree">Folder tree</label>
+			<label index="uploadImage">Upload immagine</label>
+			<label index="path">Percorso</label>
+			<label index="images">Immagini</label>
+			<label index="magicImage_msg">In 'Magic mode' potete selezionare immagini di qualunque tipo e dimensioni. L'immagine è automaticamente convertita nel formato pronto per il web e qualunque modifica farete alla sua dimensione verrà processata successivamente per ottimizzare grandezza e qualità.</label>
+			<label index="plainImage_msg">In 'Plain mode' potete inserire solo immagini in un formato adatto al web (JPG,GIF e PNG), fino ad una dimensione di 640x480 punti. Usate questo metodo per le immagini che sono già ottimizzate per il web.</label>
+			<label index="class">Stile</label>
+			<label index="width">Larghezza</label>
+			<label index="height">Altezza</label>
+			<label index="border">Bordo</label>
+			<label index="margin_tb">Margine superiore/inferiore</label>
+			<label index="margin_lr">Margine sinistra/destra</label>
+			<label index="float">Float</label>
+			<label index="notSet">Non configurato</label>
+			<label index="nonFloating">Non-float</label>
+			<label index="left">Sinistra</label>
+			<label index="right">Destra</label>
+			<label index="title">Titolo</label>
+			<label index="alt">Testo Alternativo</label>
+			<label index="update">Aggiornamento</label>
+			<label index="magicImage">Nuova Magic Image</label>
+			<label index="plainImage">Nuova Plain Image</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Immagine corrente</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixels</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="class" type="integer">182617337</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="float" type="integer">36364514</label>
+			<label index="notSet" type="integer">163210921</label>
+			<label index="nonFloating" type="integer">169566595</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="alt" type="integer">237067341</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+			<label index="bytes" type="integer">78882337</label>
+			<label index="pixels" type="integer">221878344</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="folderTree">Folder tree</label>
+			<label index="uploadImage">Upload Image</label>
+			<label index="path">Path</label>
+			<label index="images">Images</label>
+			<label index="magicImage_msg">In &quot;Magic&quot; mode you can select any kind of image with any dimensions. The image is automatically converted to a web image format and any adjustments you make to the size of the image is post processed in order to optimize size and quality.</label>
+			<label index="plainImage_msg">In &quot;Plain&quot; mode you can insert only web image formats (jpg,jpeg,gif,png) up to %1$sx%2$s pixels. This method is designed for images which are optimized for web already.</label>
+			<label index="class">Style</label>
+			<label index="width">Width</label>
+			<label index="height">Height</label>
+			<label index="border">Border</label>
+			<label index="margin_tb">Margin top/bottom</label>
+			<label index="margin_lr">Margin left/right</label>
+			<label index="float">Float</label>
+			<label index="notSet">Not set</label>
+			<label index="nonFloating">Non-floating</label>
+			<label index="left">Left</label>
+			<label index="right">Right</label>
+			<label index="title">Title</label>
+			<label index="alt">Alternate text</label>
+			<label index="update">Update</label>
+			<label index="magicImage">New Magic Image</label>
+			<label index="plainImage">New Plain Image</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Current Image</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixels</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

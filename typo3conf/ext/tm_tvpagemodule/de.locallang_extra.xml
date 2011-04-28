@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="cannotedit_spacer">Diese Seite ist vom Typ &quot;Abstand&quot; und kann keinen Inhalt darstellen. Aus diesem Grund wurde das Bearbeiten von Inhalten deaktiviert.</label>
+			<label index="createnewcontent_selectContentArea">1: Wähle einen Inhaltsbereich und Platz, an dem das neue Inhaltselement platziert werden soll:</label>
+			<label index="createnewcontent_selectType">2: Wähle den Typ des Inhaltselements:</label>
+			<label index="newPage">Neue Seite</label>
+			<label index="newPageWizard">Erzeuge neue Seite (Wizard)</label>
+			<label index="new_cont_wizard">Neuen Inhalt hinzufügen (Wizard)</label>
+			<label index="new_dynelement">Füge ein dynamisches Element hinzu</label>
+			<label index="new_image">Bild hinzufügen</label>
+			<label index="new_text">Textelement hinzufügen</label>
+			<label index="path">Seite:</label>
+			<label index="text_copy">Kopieren</label>
+			<label index="text_createnewrecord">Neu</label>
+			<label index="text_cut">Ausschneiden</label>
+			<label index="text_editrecord">Bearbeiten</label>
+			<label index="text_makeLocal">Lokale Kopie</label>
+			<label index="text_movedown">Verschiebe einen Schritt nach unten</label>
+			<label index="text_movedown_short">Verschiebe nach unten</label>
+			<label index="text_moveup">Verschiebe einen Schritt nach oben</label>
+			<label index="text_moveup_short">Verschiebe nach oben</label>
+			<label index="text_paste">Einfügen</label>
+			<label index="text_ref">Verknüpfung</label>
+			<label index="text_select">-- Bearbeitungsoptionen des Elementes --</label>
+			<label index="text_select_new">-- Neues Element / Element zum Einfügen --</label>
+			<label index="text_select_new_wiz">&lt;- Neues Element an dieser Stelle erzeugen</label>
+			<label index="text_text_deleteRecord_long">Inhaltselement entfernen</label>
+			<label index="text_unlinkRecord">Ungenutzt</label>
+			<label index="text_unlinkRecord_long">Verknüpfung entfernen</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

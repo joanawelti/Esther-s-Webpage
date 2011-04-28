@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="et" type="array">
+			<label index="mlang_labels_tablabel">Ülesanded, teated, tegemata tööd</label>
+			<label index="mlang_labels_tabdescr">Ülesannete moodul pakub ligipääsu isiklike teadete, ülesannete, märkmete ja tegemata tööde loetelule. Samuti näitab see otsevaliku linke moodulitele ja viimati muudetud lehekülgedele. Ülesanded on moodul, kus saab hallata oma igapäevaseid tööülesandeid ja märkmeid.</label>
+			<label index="mlang_tabs_tab">Ülesanded</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="et" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="et" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

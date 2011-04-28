@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="Quick Tag Editor">Insérer une balise</label>
+			<label index="Enter the TAG you want to insert">Entrez la balise que vous désirez insérer.</label>
+			<label index="You have to select some text">Aucun texte n'est sélectionné.</label>
+			<label index="There are some unclosed quote">Il y a des guillemets non fermés.</label>
+			<label index="This attribute already exists in the TAG">Cette balise porte déjà cet attribut.</label>
+			<label index="No CSS class avaiable">Aucune classe CSS disponible.</label>
+			<label index="OPTIONS">OPTIONS</label>
+			<label index="ATTRIBUTES">ATTRIBUTS</label>
+			<label index="TAGs">BALISES</label>
+			<label index="Colors">Couleurs</label>
+			<label index="Ok">OK</label>
+			<label index="Cancel">Annuler</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="Quick Tag Editor" type="integer">42781729</label>
+			<label index="Enter the TAG you want to insert" type="integer">105221784</label>
+			<label index="You have to select some text" type="integer">71928577</label>
+			<label index="There are some unclosed quote" type="integer">205096681</label>
+			<label index="This attribute already exists in the TAG" type="integer">200900540</label>
+			<label index="No CSS class avaiable" type="integer">241415811</label>
+			<label index="OPTIONS" type="integer">23387490</label>
+			<label index="ATTRIBUTES" type="integer">231553312</label>
+			<label index="TAGs" type="integer">235329720</label>
+			<label index="Colors" type="integer">97847433</label>
+			<label index="Ok" type="integer">174097711</label>
+			<label index="Cancel" type="integer">245659783</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

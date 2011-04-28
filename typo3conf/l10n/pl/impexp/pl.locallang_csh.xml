@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index=".alttitle">Import/Eksport</label>
+			<label index=".description">Natywny moduł importu i eksportu danych TYPO3. Pozwala na eksport pojedynczych rekordów, zawartości tabel, pojedynczych stron lub całych gałęzi drzewa stron. Dołącza również pliki multimedialne jak obrazki i zachowuje relacje pomiędzy rekordami. Eksport odbywa się do w ściśle określonym formacie do pliku binarnego (.t3d) lub pliku XML. Format ten jest przygotowany specjalnie do wymiany danych pomiędzy innymi systemami TYPO3.</label>
+			<label index="export.alttitle">Eksportowanie rekordów z TYPO3</label>
+			<label index="export.description">Aby w TYPO3 wyeksportować plik T3D/XML wystarczy wybrać dowolną ikonkę rekordu lub strony w drzewie stron (łacznie z korzeniem serwisu), następnie wybrać &quot;Więcej opcji&quot; (wymaga zainstalowania rozszerzenia &quot;extra_page_cm_options&quot;) i &quot;Eksportuj do .t3d&quot;. Wywoła to interfejs eksportu danych, w którym bedziesz mógł skonfigurować opcje eksportu.</label>
+			<label index="pageTreeCfg.alttitle">Konfiguracja eksportu drzewa stron</label>
+			<label index="pageTreeCfg.description">Tutaj możesz skonfigurować jak strona lub gałąź drzewa stron powinna być wyeksportowana. Używając selektora możesz określić liczbę poziomów podstron jakie mają być wyeksportowane. Domyślnie wszystkie rekordy należące do strony są dołączanie w trakcie eksportu.</label>
+			<label index="pageTreeDisplay.alttitle">Drzewo stron</label>
+			<label index="pageTreeDisplay.description">Wyświetla strukturę jaka zostanie wyeksportowana (na podstawie wybranej liczbie poziomów podstron). Strony wyłaczone z eksportu za pomocą opcji wyłaczenia nie są w tym drzewie widoczne.</label>
+			<label index="pageTreeMode.alttitle">Poziomy</label>
+			<label index="pageTreeMode.description">Wybierz jak głęboko w drzewie stron licząc od bieżącej pozycji ma być skuteczna funkcja eksportu.</label>
+			<label index="pageTreeRecordLimit.alttitle">Dołącz tabele</label>
+			<label index="pageTreeRecordLimit.description">W trakcie eksportu strony wszystkie rekordy na stronie są domyślnie dołączane. Za pomocą tego selektora możesz wskazać, które tabele chcesz rzeczywiście dołączyć, a którymi nie jesteś zainteresowany.</label>
+			<label index="singleRecord.alttitle">Ekportuj pojedynczy rekord</label>
+			<label index="singleRecord.description">Ten przegląd pokazuje, które niezależne rekordy zostały wybrane do eksportu.</label>
+			<label index="tableList.alttitle">Eksport tabeli</label>
+			<label index="tableList.description">Eksport wszystkich rekordów na stronie ze wskazanej tabeli. Jest to konfigurowane z modułu Web&gt;Lista, gdzie bedziesz musiał wybrać widok rekordów i kliknąć przyciks w górnej części strony.</label>
+			<label index="tableListMaxNumber.alttitle">Maks. liczba do eksportu</label>
+			<label index="tableListMaxNumber.description">Opcja awaryjna, która zapewni że w przypadku dużej liczby rekordów interfejs nie zostanie zablokowany. Domyślnie jest 100 ale możesz zmienić tą wartość na dowolną.</label>
+			<label index="inclRelations.alttitle">Dołącz relacje</label>
+			<label index="inclRelations.description">Konfiguruje tabele, z których chcesz dołączyć rekordy będące w relacji z głównymi ustawieniami eksportu.</label>
+			<label index="staticRelations.alttitle">Ustaw statyczne tabele</label>
+			<label index="staticRelations.description">Wybiera, dla których tabel poza tabelami statycznymi TYPO3 będą utrzymane relacje w niezmienionej formie. Opcja ta ma wyższy priorytet od &quot;Dołącz realcje&quot;.</label>
+			<label index="excludedElements.alttitle">Elementy wykluczone</label>
+			<label index="excludedElements.description">Przez opcję &quot;Wyklucz&quot; możesz wykluczyć wybrane rekordy z podglądu eksportu. Rekordy, które zostały wybrane do wyłaczenia są przedstawione w liście. Możesz również skasować konfigurację wykluczania.</label>
+			<label index="htmlCssResources.alttitle">Wyklucz zasoby z plików HTML i CSS</label>
+			<label index="htmlCssResources.description">Kiedy pliki HTML lub CSS zostaną wykryte jako luźne powiązania wówczas są one parsowane w celu wyszukania referencji do zewnątrznych plików multimedialnych (np. obrazków). Wszystkie te pliki są wówczas eksportowane. Zaznaczenie tej opcji wyklucza te pliki.</label>
+			<label index="extensionDependencies.alttitle">Zależności rozszerzeń</label>
+			<label index="extensionDependencies.description">Wybierz, które rozszerzenia powinny być zainstalowane na importowanym systemie aby wyeksportowana zawartość działała poprawnie. Przykładami mogą być &quot;templavoila&quot; do obsługi szablonów stron, &quot;css_styled_content&quot; do obsługi szablonów zawartości, &quot;tt_news&quot; do news'ów itp.</label>
+			<label index="presets.alttitle">Ustawienia konfiguracji</label>
+			<label index="presets.description">Pozwala na zapisanie ustawień konfiguracyjnych eksportu do późniejszego zastosowania. Jest to użyteczne, kiedy potrzebujesz wielokrotnie użyć tych samych ustawień.</label>
+			<label index="metadata.alttitle">Ustawienia danych meta</label>
+			<label index="metadata.description">Ustawia dane meta do eksportu. Jest to bardzo pomocna opcja jeżeli zawartość jest eksportowana jako szablon (przykład).</label>
+			<label index="fileFormat.alttitle">Opcje formatu pliku</label>
+			<label index="fileFormat.description">Rekordy są eksportowane w specyficznym formacie binarnym TYPO3 (zserializowana tablica PHP) nazywanym &quot;T3D&quot;. Alternatywnie możesz wybrać plik XML'owy, który może być zaimportowany przez inne aplikacje wspierające ten format. Należy mieć na uwadze, że struktura pliku jest specyficzna dla TYPO3.</label>
+			<label index="import.alttitle">Importowanie rekordów TYPO3</label>
+			<label index="import.description">Aby zaimportować pliki TYPO3 T3D/XML do drzewa stron kliknij wybraną stronę z drzewa (dotyczy to również korzenia serwisu), wybierz &quot;Więcej opcji&quot; (wymaga zainstalowania rozszerzenia &quot;extra_page_cm_options&quot;) i &quot;Import z pliku .t3d&quot;. Wywoła to interfejs importu danych, w którym bedziesz mógł skonfigurować opcje importu.</label>
+			<label index="importFile.alttitle">Wybierz plik do zaimportowania</label>
+			<label index="importFile.description">Pliki jakie możesz wybrać to pliki z rozszerzeniem T3D lub XML z katalogu fileadmin/, fileadmin/export i twojego katalogu &quot;TEMP&quot; (jeżeli taki posiadasz).</label>
+			<label index="update.alttitle">Aktualizuj zamiast Wstawiaj</label>
+			<label index="update.description">Domyślnie operacja importu wstawia nowe rekordy do systemu. Użycie tej opcji zaktualizuje istniejące rekordy.</label>
+			<label index="options.alttitle">Opcje importu</label>
+			<label index="options.description">Różne opcje stosowane w trakcie importowania rekordów.</label>
+			<label index="action.alttitle">Akcja importu</label>
+			<label index="action.description">Naciśniej &quot;Podgląd&quot; aby zobaczyć zawartość importowanego pliku lub zaktualizuj widok podglądu po zmianie konfiguracji. Naciśnij &quot;Importuj/Aktualizuj&quot; jeżeli chcesz rozpocząc akcję.</label>
+			<label index="enableLogging.alttitle">Włacz logowanie systemowe</label>
+			<label index="enableLogging.description">Jeżeli ta opcja jest ustawiona plik logu systemu bedzie uzupełniany o wpisy wszystkich działań wykonanych w trakcie importu.</label>
+			<label index="upload.alttitle">Załaduj plik importu</label>
+			<label index="upload.description">Wybierz plik importu z lokalnego komputera i załaduj na serwer. Po załadowaniu pliku możesz zobaczyć jego zawartość w widoku podglądu.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index=".description" type="integer">68307774</label>
+			<label index="export.alttitle" type="double">9010103</label>
+			<label index="export.description" type="integer">150520112</label>
+			<label index="pageTreeCfg.alttitle" type="integer">236227215</label>
+			<label index="pageTreeCfg.description" type="integer">147952098</label>
+			<label index="pageTreeDisplay.alttitle" type="double">9880458</label>
+			<label index="pageTreeDisplay.description" type="integer">59122430</label>
+			<label index="pageTreeMode.alttitle" type="integer">152759754</label>
+			<label index="pageTreeMode.description" type="integer">261676486</label>
+			<label index="pageTreeRecordLimit.alttitle" type="integer">169123110</label>
+			<label index="pageTreeRecordLimit.description" type="integer">131668315</label>
+			<label index="singleRecord.alttitle" type="integer">128794302</label>
+			<label index="singleRecord.description" type="integer">132615781</label>
+			<label index="tableList.alttitle" type="integer">146883216</label>
+			<label index="tableList.description" type="integer">61027651</label>
+			<label index="tableListMaxNumber.alttitle" type="integer">225797227</label>
+			<label index="tableListMaxNumber.description" type="integer">261288618</label>
+			<label index="inclRelations.alttitle" type="integer">164484847</label>
+			<label index="inclRelations.description" type="integer">75889546</label>
+			<label index="staticRelations.alttitle" type="double">1210228</label>
+			<label index="staticRelations.description" type="integer">220143778</label>
+			<label index="excludedElements.alttitle" type="integer">227920200</label>
+			<label index="excludedElements.description" type="integer">53727313</label>
+			<label index="htmlCssResources.alttitle" type="integer">178718927</label>
+			<label index="htmlCssResources.description" type="integer">45106804</label>
+			<label index="extensionDependencies.alttitle" type="integer">230544289</label>
+			<label index="extensionDependencies.description" type="integer">40923771</label>
+			<label index="presets.alttitle" type="integer">204662048</label>
+			<label index="presets.description" type="integer">76238035</label>
+			<label index="metadata.alttitle" type="integer">266477806</label>
+			<label index="metadata.description" type="integer">268196094</label>
+			<label index="fileFormat.alttitle" type="integer">54960098</label>
+			<label index="fileFormat.description" type="integer">38635585</label>
+			<label index="import.alttitle" type="integer">32716924</label>
+			<label index="import.description" type="integer">195344023</label>
+			<label index="importFile.alttitle" type="integer">36260242</label>
+			<label index="importFile.description" type="integer">46096097</label>
+			<label index="update.alttitle" type="integer">56150550</label>
+			<label index="update.description" type="integer">268353777</label>
+			<label index="options.alttitle" type="integer">55046973</label>
+			<label index="options.description" type="integer">57482610</label>
+			<label index="action.alttitle" type="integer">185830356</label>
+			<label index="action.description" type="integer">104527145</label>
+			<label index="enableLogging.alttitle" type="integer">110785878</label>
+			<label index="enableLogging.description" type="integer">42140704</label>
+			<label index="upload.alttitle" type="integer">182180379</label>
+			<label index="upload.description" type="integer">129992522</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index=".description">Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</label>
+			<label index="export.alttitle">Exporting records from TYPO3</label>
+			<label index="export.description">To export TYPO3 T3D/XML files you click any record icon or page in the page tree (including the root page!), select &quot;More options&quot; (requires the extensions &quot;extra_page_cm_options&quot; to be installed) and then &quot;Export to .t3d&quot;. This will bring up the export interface where you can configure options for your export session.</label>
+			<label index="pageTreeCfg.alttitle">Configuration of page tree export</label>
+			<label index="pageTreeCfg.description">Here you configure how a page or a branch of the page tree should be exported. Using the selector box you can set the number of levels of subpages to include in the export.
+By default all records belonging to a page is included when a page is exported.</label>
+			<label index="pageTreeDisplay.alttitle">Page Tree</label>
+			<label index="pageTreeDisplay.description">Based on the levels selected for page tree export this will show the structure that is about to be exported. If any pages are specifically excluded by the exclude option they are not shown either.</label>
+			<label index="pageTreeMode.alttitle">Levels</label>
+			<label index="pageTreeMode.description">Here you select how deeply in the page tree from the current starting point to go for this export.</label>
+			<label index="pageTreeRecordLimit.alttitle">Include tables</label>
+			<label index="pageTreeRecordLimit.description">When you export a page all records on the page is included by default. By this selector you can pick which tables to include exclusively if there are certain records you are not interested in seeing included.</label>
+			<label index="singleRecord.alttitle">Export single record</label>
+			<label index="singleRecord.description">This overview tells you which independent records has been independently selected for export.</label>
+			<label index="tableList.alttitle">Table export</label>
+			<label index="tableList.description">Export of all records on a page from a specific table. This is configured from the Web&gt;List module where you will have to select table-only view and click a button in the top of the page.</label>
+			<label index="tableListMaxNumber.alttitle">Max number to export</label>
+			<label index="tableListMaxNumber.description">Run-away brake that will make sure a large amount of records does not halt the interface. Default is 100, but you can change it to anything you like of course.</label>
+			<label index="inclRelations.alttitle">Include relations</label>
+			<label index="inclRelations.description">Configure the tables from which you want to include records that are found as relations in the main export configuration.</label>
+			<label index="staticRelations.alttitle">Set static tables</label>
+			<label index="staticRelations.description">Select which tables in addition to the static TYPO3 tables to keep relations untouched for. Takes precedence over &quot;Include relations&quot; configured tables.</label>
+			<label index="excludedElements.alttitle">Excluded elements</label>
+			<label index="excludedElements.description">By the &quot;Exclude&quot; checkbox you can exclude specific records from the preview display of the export. Which records has been picked for specific exclusion is listed here. You can also clear the exclusion configuration.</label>
+			<label index="htmlCssResources.alttitle">Exclude resources from HTML and CSS files</label>
+			<label index="htmlCssResources.description">When an HTML or CSS file is found as a soft reference the files are parsed for references to external media (such as images) and if any are found they are also exported. If you don't want this behaviour, click this option.</label>
+			<label index="extensionDependencies.alttitle">Extension Dependencies</label>
+			<label index="extensionDependencies.description">Select which extensions should be installed in the import system in order for your exported content to work correctly. Examples could be &quot;templavoila&quot; for templating, &quot;css_styled_content&quot; for the template, &quot;tt_news&quot; for a news archive etc.</label>
+			<label index="presets.alttitle">Configuration presets</label>
+			<label index="presets.description">Enables you to save an export configuration for later re-use. Useful if you need to export the same configuration with regular intervals.</label>
+			<label index="metadata.alttitle">Meta data setting</label>
+			<label index="metadata.description">Set meta data for the export. This is highly encouraged if your exported content goes into eg. a template collection of sorts.</label>
+			<label index="fileFormat.alttitle">File format options</label>
+			<label index="fileFormat.description">You can export your records to a TYPO3 specific binary format (serialized PHP array) called &quot;T3D&quot;. Alternatively you can select a plain-text XML export which potentially can be imported by other applications written to support this format. However the schema of the XML is TYPO3 specific.</label>
+			<label index="import.alttitle">Importing TYPO3 records</label>
+			<label index="import.description">To import TYPO3 T3D/XML files into the page tree you click any page in the page tree (including the root page!), select &quot;More options&quot; (requires the extensions &quot;extra_page_cm_options&quot; to be installed) and then &quot;Import from .t3d&quot;. This will bring up the import interface where you can select a file to import or upload a new one.</label>
+			<label index="importFile.alttitle">Select file to import</label>
+			<label index="importFile.description">The files displayed are those with an extension T3D or XML from fileadmin/, fileadmin/export/ and your &quot;TEMP&quot; folder (if any).</label>
+			<label index="update.alttitle">Update instead of Insert</label>
+			<label index="update.description">By default the import operation inserts new records in the system. Using this option will update existing records.</label>
+			<label index="options.alttitle">Import options</label>
+			<label index="options.description">Various options for import.</label>
+			<label index="action.alttitle">Import Action</label>
+			<label index="action.description">Press &quot;Preview&quot; to see the content of the import file or update the preview display according to changed configurations. 
+Press &quot;Import&quot;/&quot;Update&quot; if you want to perform the actual import.
+
+Before importing make sure you change any editable soft references that are shown in the preview data.</label>
+			<label index="enableLogging.alttitle">Enable System Logging</label>
+			<label index="enableLogging.description">If you set this the system backend log will be filled with entries for all the actions that the import actually performs. By default this is left out for the sake of clarity.</label>
+			<label index="upload.alttitle">Upload import file</label>
+			<label index="upload.description">Select a file to import from your local computer and upload it here. If the upload completes succesfully you can immediately see its content displayed in the preview display.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description">Cette option désactive le groupe d'utilisateurs.</label>
+			<label index="hidden.details">Si vous désactivez un groupe d'utilisateurs, tous les membres de ce groupe n'hériteront plus d'aucune propriétés que ce groupe leur attribuait.
+Par exemple, si l'accès à une page ou un contenu était restreint à ce groupe et que vous le désactivez, aucun membre du groupe n'aura accès à cette page ou à ce contenu.</label>
+			<label index="title.description">Nom du groupe.</label>
+			<label index="title.details">Ce titre aparaîtra comme le nom du groupe dans la 'liste d'accès' dans les autres enregistrements</label>
+			<label index="lockToDomain.description">Entrez le nom de machine depuis laquelle l'accès à ce groupe restreint.</label>
+			<label index="description.description">Entrez une description du groupe.</label>
+			<label index="description.details">Ceci est pour une utilisation interne et est une façon de mettre une annotation sur ce à quoi est déstiné ce groupe, pourquoi vous l'avez créer et qui doit en faire partie. Utilisez le comme bon vous semble.</label>
+			<label index="TSconfig.description">TSconfig du groupe (avancé)</label>
+			<label index="TSconfig.details">C'est la TS config pour le groupe. Les valeurs se propagent à tous les membres de ce groupe. Cette configuration peut être écrasée par la configuration TSconfig de l'utilisateur lui-même.</label>
+			<label index="TSconfig.syntax">Syntaxe TypoScript, sans conditions ni constantes.</label>
+			<label index=".description">Groupe utilsateur pour les membres.</label>
+			<label index=".details">Les restrictions d'accès sont attribuées à ces groupes. Quand une page ou tout autre élément est restreint à un groupe, alors seul les membres de ce groupe auront la possibilité de visualiser cet élément sur le site.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description" type="integer">168238848</label>
+			<label index="hidden.details" type="integer">210621597</label>
+			<label index="title.description" type="integer">200720346</label>
+			<label index="title.details" type="integer">203471735</label>
+			<label index="lockToDomain.description" type="integer">178950964</label>
+			<label index="description.description" type="integer">159132670</label>
+			<label index="TSconfig.description" type="integer">256600387</label>
+			<label index="TSconfig.syntax" type="integer">117035971</label>
+			<label index=".description" type="integer">181980664</label>
+			<label index=".details" type="integer">225347704</label>
+			<label index="description.details" type="integer">40579879</label>
+			<label index="TSconfig.details" type="integer">90803241</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="hidden.description">This option disables the user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.
+For instance if a page or content element was assigned access only by this group and you disable the group, no one would gain access to that page or content element.</label>
+			<label index="title.description">Name of the group.</label>
+			<label index="title.details">This title will appear as the group name in the 'Access'-list in other records.</label>
+			<label index="lockToDomain.description">Enter the host name from which the group will be available only.</label>
+			<label index="description.description">Enter a description of the group.</label>
+			<label index="TSconfig.description">TSconfig for the group (advanced).</label>
+			<label index="TSconfig.syntax">TypoScript syntax, without conditions and constants.</label>
+			<label index=".description">Usergroups for Website users.</label>
+			<label index=".details">The access restriction in TYPO3 is assigned to these usergroups. When a page or other element is access restricted to a group, only Website users which are members or that group will be able to view the element on the website.</label>
+			<label index="description.details">This is for internal use and is just a way to put a note on what the group is for, why you created it and who should be members.
+Use it as you like.</label>
+			<label index="TSconfig.details">This is the user TSconfig for the group. The values are inherited by any Website user who is a member of this group.
+The configuration is subject to being overridden in other groups and by the TSconfig of the user himself.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

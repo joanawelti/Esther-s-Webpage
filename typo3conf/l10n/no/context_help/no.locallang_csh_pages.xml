@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="layout.description">Velg layout for siden. Virkningen vil avhenge av webstedets mal.</label>
+			<label index="layout.details">Dette valget trenger ikke å ha noen funksjon på utseendet siden det avhenger av at websidens mal bruker den. Den brukes ikke i de fleste av standardmalene.</label>
+			<label index="doktype.description">Velg en sidetype for å bestemme om dette er en synlig webside eller om siden blir brukt til andre formål.</label>
+			<label index="doktype.details">'Standard' og 'Avansert' er normale websider, med forskjell i hvor mange valg man kan gjøre.
+'Ekstern URL' og 'Snarvei' lar deg bruke en side som en snarveid til en ekstern webside eller til en annen side i sidetreet.
+'Ikke i meny' er også en side, men den vises ikke i navigasjonsmenyer. &lt;em&gt;Denne sidetypen er ikke lenger i bruk! Bruk heller 'Skjul i meny'-valget og de andre sidetypene.&lt;/em&gt;
+'Område for redigeringsbruker' vil vise siden kun for innloggede redigeringsbrukere.
+
+&lt;b&gt;Spesialtyper&lt;/b&gt;
+'Mellomrom' gir mest mening hvis websidenavigasjonen er satt opp til å bruke den. Siden er ikke en side, men ment som en ikke-klikkbart element i navigasjonen. Kan også brukes som et mellomrom i sidetreet.
+'SysMappe' er en side som ikke vises som en webside, men oppfører seg som en lagringsmappe for andre elementer.
+'Papirkurv' er akkurat det. Sider og elementer som flyttes dit vil ikke vises på websiden.
+
+&lt;b&gt;Merk:&lt;/b&gt; Hver sidetype har vanligvis sitt eget symbol i sidetreet. Noen typer kan være skjulte for enkelte brukere (det kan altså hende du ikke ser alle typene). Hver sidetype er satt opp til kun å inneholde bestemte typer elementer (SysMappe kan inneholde alle element-typer, i tilfelle du skulle få problemer).</label>
+			<label index="hidden.description">Hvis dette er merket vil siden være skjult på websiden.</label>
+			<label index="hidden.details">'Skjult', 'Start', 'Stopp' og 'Tilgang' handler om å begrense tilgang, og har derfor en sammenheng. Hvis en side blir skjult på grunnlag av en eller flere av disse vil den ikke vises i navigasjonen på webstedet.
+Merk at disse valgene &lt;em&gt;kun&lt;/em&gt; gjelder for den siden de er satt. Hvis du vil at valgene også skal gjelde for undersidene må du velge dette spesielt.
+Innloggede redigeringsbrukere kan forhåndsvise skjulte sider dersom de har lesetilgang til dem.</label>
+			<label index="hidden.image_descr">Symbolet for en side som er skjult er mørkere og har en rød 'X' på seg. En innlogget redigeringsbruker kan se skjulte sider. Den røde 'Forhåndsvisning'-boksen viser at siden kun er synlig pga. dette.</label>
+			<label index="starttime.description">'Start'-tiden bestemmer når siden skal begynne å vises på webstedet. Bruk dette til å publisere en side på et bestemt dag. Hvis 'Start' ikke er satt vil den bli vist umiddelbart, med mindre den er skjult på annen måte.</label>
+			<label index="starttime.syntax">Formatet er dd-mm-yyyy. Du kan skrive det på andre måte, det vil bli korrigert automatisk. Du kan skrive 'd' for å sette inn dagens dato, legge til '+10' for å legge 10 dager til nåværende verdi. F.eks. 'd+10' for å sette datoen ti dager fra nå.</label>
+			<label index="endtime.description">'Stopp'-tiden er datoen en side vil bli skjult fra webstedet.</label>
+			<label index="endtime.syntax">Format og oppsett er det samme som for 'Start'</label>
+			<label index="fe_group.description">Hvis 'Tilgang' settes til en brukergruppe vil kun web-brukere som er medlemmer av gruppen kunne se siden etter at de har logget inn. Valget 'Skjul ved innlogging' betyr at siden &lt;em&gt;ikke&lt;/em&gt; vil vises for web-brukere som har logget inn. På samme måte vil 'Vis ved innlogging' vise siden for alle web-brukere som har logget inn.</label>
+			<label index="extendToSubpages.description">Som standard er start, stopp, tilgjengelig og skjult valgene &lt;em&gt;bare&lt;/em&gt; aktive for sidene der de er satt. Dersom valget &quot;inkluder undersider&quot; er avkrysset for siden, blir effekten av valgene arvet av alle undersider til denne siden.</label>
+			<label index="extendToSubpages.details">Tenk deg et tilfelle hvor du ønsker å lage en hel seksjon med undersider som bare er tilgjengelige fo brukere som er logget inn. Tilgangsbegrensningene for hovedsiden i seksjonen vil bare påvirke den siden. På denne måten vil siden bare vises i navigasjonen når du har logget inn.
+Allikevel vil undersidene være synlige hvis noen gjetter side IDen til en av sidene og skriver den inn i webadressen (URLen) manuelt. Ved å aktivere denne funksjonen vil innstillingene for hovedsiden også gjelde undersidene.</label>
+			<label index="extendToSubpages.image_descr">Dette sideikonet har tilgjengelighet avgrenset til en bestemt gruppe og &quot;inkluder undersider&quot; satt også. Dette reflekteres i hvordan ikonet skifter utseende.</label>
+			<label index="alias.description">Et 'alias' er en unik identifikasjonsstreng for en side. Du kan bruke denne strengen i stedet for id-nummeret som referer til siden.</label>
+			<label index="alias.syntax">Et alias kan bare inneholde små bokstaver, alfanumeriske tegn og må være unik.
+Vennligst merk: Dersom den innskrevne verdien ikke er unik, vil den bli utvidet med et talltegn.</label>
+			<label index="no_cache.description">Slår av mellomlagring (cache) for siden.</label>
+			<label index="cache_timeout.description">Setter varighet på mellomlagring (cache) for siden.</label>
+			<label index="cache_timeout.details">Som standard varer en mellomlagret side i 24 timer. Etter det vil siden bli konstruert på nytt og skrevet til mellomlageret igjen. Ved konfigurasjon kan også mellomlageret bli automatisk slettet ved midnatt.
+Uansett kan du her sette en annen varighet for siden dersom du trenger det. Dette valget trengs sjelden å brukes.</label>
+			<label index="no_search.description">Dette valget vil hindre denne siden fra å være søkbar på webstedet.</label>
+			<label index="author.description">Skriv inn forfatterens navn.</label>
+			<label index="author_email.description">Epost-adressen til forfatteren.</label>
+			<label index="module.description">Definér siden som en 'frontside-modul'</label>
+			<label index="media.description">Legg ved mediafiler som hører med til siden.</label>
+			<label index="subtitle.description">Skriv inn en undertittel, hvis nødvendig.</label>
+			<label index="url.description">Skriv inn en URL denne siden skal lenke til.</label>
+			<label index="url.details">F.eks. 'http://www.typo3.com' eller 'www.typo3.com' dersom 'type' er satt til 'http://'. Bruk helst type-valget for å sette en prefiks for lenken.
+
+Dette valget er kun i bruk dersom sidetypen er satt til 'Ekstern URL'.</label>
+			<label index="keywords.description">Skriv inn nøkkelord for siden, med komma som skilletegn.</label>
+			<label index="description.description">Skriv inn en kort beskrivelse for siden.</label>
+			<label index="newUntil.description">Skriv inn en 'utløpsdato' for siden</label>
+			<label index="newUntil.details">'Utløpsdatoen' for en side har ingen effekt på visningen av websiden. Den er mer ment for intern bruk, som en påminnelse for når siden burde bli revidert på nytt. Så hvis du vet at innholdet på siden vil bli utdatert kan du sette denne verdien til en estimert dato.
+
+Du kan få en oversikt over utløpsdato for sidene ved å bruke Sidetre-oversikt i modulen Web&gt;Info</label>
+			<label index="newUntil.syntax">Se Startdato</label>
+			<label index="nav_hide.description">Med dette valget vil siden bli skjult i navigasjonsmenyene på webstedet. Siden kan fortsatt lenkes og vises.</label>
+			<label index="nav_title.description">Alternativ tittel for menyene på webstedet. Innhold du skriver i dette feltet brukes i stedet for sidetittelen.</label>
+			<label index="content_from_pid.description">Her kan du bestemme en alternativ side-ID hvor innholdselementene blir hentet fra – i stedet for innholdselementene fra denne siden. Hvordan dette fungerer kommer an på hvilken mal du bruker.</label>
+			<label index="urltype.description">Bestem webadresse-prefiks.</label>
+			<label index="shortcut_mode.description">Velg hvordan snarveien skal fungere. Snarvei-sidetypen må vanligvis ha en side-ID å hoppe til. Alternativt kan den gå til første underside eller en vikårlig underside.</label>
+			<label index="l18n_cfg.description">...</label>
+			<label index="title.description.+">Dette vises vanligvis i websidenavigasjonen.</label>
+			<label index="TSconfig.details.+">&lt;strong&gt;Eksempel&lt;/strong&gt;
+Vanligvis lar 'Web&gt;Side'-modulen deg lage innhold i fire kolonner, Venstre, Normal, Høyre og Ramme. Allikevel bruker de fleste nettstedene bare en enkelt eller to kolonner. Det betyr at noen av disse innholdskolonnene bare tar opp plass og virker villedende på brukerene.
+Hvis du skriver inn dette i 'TSConfig'-feltet vil 'Web&gt;Side'-modulen bare tillate deg å arbeide i 'Normal'- og 'Ramme'-kolonnen.
+
+&lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
+
+(Må skrives inn på en enkelt linje.)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="layout.details" type="integer">123495083</label>
+			<label index="doktype.description" type="integer">89204505</label>
+			<label index="doktype.details" type="integer">205867744</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="hidden.details" type="integer">170290748</label>
+			<label index="hidden.image_descr" type="integer">40371339</label>
+			<label index="starttime.description" type="integer">225330621</label>
+			<label index="starttime.syntax" type="integer">171815971</label>
+			<label index="endtime.description" type="integer">239481021</label>
+			<label index="endtime.syntax" type="integer">211075317</label>
+			<label index="no_cache.description" type="integer">234280457</label>
+			<label index="author_email.description" type="integer">263994700</label>
+			<label index="fe_group.description" type="integer">229271696</label>
+			<label index="extendToSubpages.description" type="integer">20650362</label>
+			<label index="extendToSubpages.image_descr" type="double">5558852</label>
+			<label index="alias.description" type="integer">29393799</label>
+			<label index="alias.syntax" type="integer">229529597</label>
+			<label index="cache_timeout.description" type="integer">146302636</label>
+			<label index="cache_timeout.details" type="integer">129628311</label>
+			<label index="no_search.description" type="integer">174061864</label>
+			<label index="author.description" type="integer">35641560</label>
+			<label index="module.description" type="integer">122892371</label>
+			<label index="media.description" type="integer">152445229</label>
+			<label index="subtitle.description" type="integer">159881469</label>
+			<label index="url.description" type="integer">209817224</label>
+			<label index="url.details" type="integer">250598916</label>
+			<label index="keywords.description" type="integer">114231122</label>
+			<label index="description.description" type="integer">229456529</label>
+			<label index="newUntil.description" type="integer">266998258</label>
+			<label index="newUntil.details" type="integer">114574224</label>
+			<label index="newUntil.syntax" type="integer">211075317</label>
+			<label index="extendToSubpages.details" type="integer">115883799</label>
+			<label index="nav_hide.description" type="integer">109378815</label>
+			<label index="nav_title.description" type="integer">207408422</label>
+			<label index="content_from_pid.description" type="integer">255780249</label>
+			<label index="urltype.description" type="integer">135670396</label>
+			<label index="shortcut_mode.description" type="integer">243396073</label>
+			<label index="l18n_cfg.description" type="integer">49560386</label>
+			<label index="title.description.+" type="integer">122833099</label>
+			<label index="TSconfig.details.+" type="integer">196409432</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="layout.details">This option may not have any impact on the page design since it depends on how (and if) the front end template uses it. In most default templates it's not used.</label>
+			<label index="doktype.description">Select a page type affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">'Standard' and 'Advanced' types are regular webpages, just differing in the number of options.
+'External URL' and 'Shortcut' types allows you to let a page be a shortcut to either an external URL or in the latter case a page in the page tree.
+'Not in menu' is also a regular page, but will not be shown in the navigation. &lt;em&gt;This page type is deprecated! Please use the &quot;Hide in menu&quot; option!&lt;/em&gt;
+'Backend User Section' is an option which requires a backend user to be logged in for the page to be visible.
+
+&lt;b&gt;Special types:&lt;/b&gt;
+'Spacer' is only meaningfull if your frontend navigation is programmed to use it. In this case it does not represent a page with content but is intended to be a non-clickable placeholder in the navigation.
+'SysFolder' is a page type which cannot be shown as a webpage but is rather acting as a storage for records of your choice.
+'Recycler' is a garbage can. Pages and records in a recycler are not visible in the frontend.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="hidden.details">The 'Hidden', 'Start', 'Stop' and 'Access' options are all about limiting access to pages and thus they are related in functionality. In any case where a page is not visible due to one of these options, the page will not show up in the site navigation.
+Notice, these options are related &lt;em&gt;only&lt;/em&gt; to the page for which they are set. If you want their effect to cover the subpages as well, you must enable the 'Include subpages' option.
+When you're logged in as a backend user you can preview hidden pages if you have read access to them.</label>
+			<label index="hidden.image_descr">The page icon of a hidden page is dimmed and a red X is added.
+If you view a page that is hidden and you are logged in into the backend you will still be able to see the page. The red &quot;Preview&quot; box will tell you that this page is visible to you because of this special circumstance.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the page will be visible online. Use this to 'publish' the page on a certain date. If 'Start' time is not set, the page will be online instantly (unless the page is hidden otherwise).</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a 'd' the current date is inserted. You can also append any value in the field with eg. '+10' which will add 10 days to the current value. For instance setting the value to 'd+10' would select a date 10 days from now.</label>
+			<label index="endtime.description">The 'Stop' time is the date from which the page will not be online anymore.</label>
+			<label index="endtime.syntax">See Page / Start (click below)</label>
+			<label index="no_cache.description">This option disables server caching of the page.</label>
+			<label index="author_email.description">Enter the page authors email address.</label>
+			<label index="fe_group.description">If 'Access' is set to a usergroup name, only website users which are members of the selected usergroup will be able to view the page when they are logged in. The special option 'Hide at login' means the page will &lt;em&gt;not&lt;/em&gt; be visible for website users that are logged in. Likewise &quot;Show at login&quot; will make the page visible for any logged in frontend user.</label>
+			<label index="extendToSubpages.description">By default the Start, Stop, Access and Hidden options are effective &lt;em&gt;only&lt;/em&gt; for the page on which they are set. If the option 'Include subpages' is checked for the page, then their effect is inherited by all subpages to that page.</label>
+			<label index="extendToSubpages.image_descr">This page icon has access restricted to a certain group and &quot;Include subpages&quot; set as well. This is reflected in the way the icon changed look.</label>
+			<label index="alias.description">An 'alias' is a unique identification string for a page. You can use this string instead of the id-number to refer to the page.</label>
+			<label index="alias.syntax">An alias can contain only lowercase alphanumeric characters and must be unique.
+Please notice: If the entered value was not unique, it will automatically be prepended with a number.</label>
+			<label index="cache_timeout.description">Sets the cache timeout for the page.</label>
+			<label index="cache_timeout.details">By default pages last for 24 hours in the cache. After that period the page is constructed again and rewritten to the cache. Depending on your configuration, the cache may also be cleared at midnight.
+Anyhow you may here set another timeout time for the page in cache if you need to.
+This option is used quite rarely.</label>
+			<label index="no_search.description">If enabled, this option excludes the page from searching operations on the website.</label>
+			<label index="author.description">Enter the page authors name.</label>
+			<label index="module.description">Define the page as a frontend 'module'.</label>
+			<label index="media.description">Attach media files related to the page.</label>
+			<label index="subtitle.description">Enter a subtitle if needed.</label>
+			<label index="url.description">Enter the URL to which this page is supposed to link.</label>
+			<label index="url.details">Example: 'http://www.typo3.com' or just 'www.typo3.com' provided the 'Type' selector is set to 'http://'.
+Use the 'Type' selector to select a prefix for the URL.
+
+This option is used only if the page 'Type' is set to 'External URL'.</label>
+			<label index="keywords.description">Enter keywords for the page separated by commas. You may also use short phrases.</label>
+			<label index="description.description">Enter a short description of the page. It will be displayed in the result lists of search engines.</label>
+			<label index="newUntil.description">Enter the 'expiry date' of the page.</label>
+			<label index="newUntil.details">The 'expiry date' of the page has no effect on the display of the webpage. This value is rather for internal use meant as a reminder of the date when the content of this page should be revised. So if the content of the page will be outdated at a certain point in time, you could set this value to that approximate date.
+In order to obtain an overview of the expiry dates of pages, use the 'Pagetree overview' in the 'Web&gt;Info' module.</label>
+			<label index="newUntil.syntax">See Page / Start (click below)</label>
+			<label index="extendToSubpages.details">Consider a scenario where you want to create a whole section of subpages only visible for users which are logged in. Setting the 'Access' option for the top page in the section would affect access to that page only. So the page would not show up in the navigation unless you are logged in.
+However the subpages would still be visible if one could guess the id-number of the pages and enter it manually in the URL. But setting this option would extend the effect of the top page setting to cover all subpages as well.</label>
+			<label index="nav_hide.description">With this option the page will be hidden in navigation menus in the frontend. The page can still be viewed if linked by its ID directly.</label>
+			<label index="nav_title.description">Alternative title for menu items in the frontend. This value takes precedence over the page title if this value is filled in.</label>
+			<label index="content_from_pid.description">If set, this is an alternative page id from where Content Elements will be selected instead of Content Elements from the current page.
+Depends on template implementation whether this applies.</label>
+			<label index="urltype.description">Set the URL prefix.</label>
+			<label index="shortcut_mode.description">Select a shortcut mode. By default the shortcut page type must have a page id to jump to. Alternative methods are to go to the first subpage of a page or to a random subpage.</label>
+			<label index="l18n_cfg.description">...</label>
+			<label index="title.description.+">This is normally shown in the website navigation.</label>
+			<label index="TSconfig.details.+">&lt;strong&gt;Example:&lt;/strong&gt;
+Normally the 'Web&gt;Page' module lets you create content in four columns, Left, Normal, Right, Border. However most websites use only a single or two columns. So some of these content columns are just taking up space and may even be confusing to users.
+If you enter this string in the 'TSconfig' field, the 'Web&gt;Page' module will allow you to work only in the 'Normal' and 'Border' column!
+
+&lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
+
+(Must be entered in a single line!)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

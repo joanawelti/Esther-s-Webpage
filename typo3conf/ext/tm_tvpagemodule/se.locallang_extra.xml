@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="be_groups_allow">Ge följande BE-grupper möjlighet att ändra innehållet:</label>
+			<label index="be_groups_restrict">Förhindra följande BE-grupper att ändra innehållet:</label>
+			<label index="be_users">Ge följande BE-användare möjlighet att ändra innehållet:</label>
+			<label index="path">Sida:</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

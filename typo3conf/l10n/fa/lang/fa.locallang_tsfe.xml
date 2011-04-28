@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="adminOptions">پانل ادمین</label>
+			<label index="preview">پیش دید</label>
+			<label index="preview_showHiddenPages">نشان دادن صفحات پنهان:</label>
+			<label index="preview_showHiddenRecords">نشان دادن رکوردهای پنهان:</label>
+			<label index="preview_simulateDate">شبیه سازی زمان:</label>
+			<label index="preview_simulateUserGroup">شبیه سازی گروه کاربری:</label>
+			<label index="cache">ذخیره</label>
+			<label index="cache_noCache">عدم ذخیره‌سازی:</label>
+			<label index="cache_doit">پاک کردن ذخیره اکنون!</label>
+			<label index="cache_clearLevels">مستويات المسح:</label>
+			<label index="cache_cacheEntries">مدخلات الذاكرة المؤقتة:</label>
+			<label index="publish">نشر</label>
+			<label index="publish_levels">نشر سطح‌ها:</label>
+			<label index="publish_tree">نشر صفحه‌ها:</label>
+			<label index="publish_doit">نشر الان!</label>
+			<label index="edit">ویرایش</label>
+			<label index="edit_displayIcons">نشان دادن پانل ویرایش:</label>
+			<label index="edit_displayFieldIcons">نشان دادن آیکون‌های ویرایش:</label>
+			<label index="edit_editFormsOnPage">فرم‌های ویرایش در صفحه:</label>
+			<label index="edit_editNoPopup">بدون پنجره پاپ-آپ:</label>
+			<label index="edit_openAB">باز کردن بخش پشتیبانی تایپو3</label>
+			<label index="edit_recordHistory">نشان دادن پیشینه تغییر رکورد</label>
+			<label index="edit_newContentElement">ایجاد عنصر محتوای جدید</label>
+			<label index="edit_move_page">جابجایی صفحه</label>
+			<label index="edit_newPage">ایجاد صفحه جدید</label>
+			<label index="edit_editPageProperties">ويرايش مشخصات صفحه</label>
+			<label index="edit_db_list">وب&gt;ماژول فهرست</label>
+			<label index="tsdebug">تایپو اسکریپت</label>
+			<label index="tsdebug_tree">نمایش درخت:</label>
+			<label index="tsdebug_LR">پیگردی نمود محتوا:</label>
+			<label index="tsdebug_forceTemplateParsing">اجبار به نمود TS:</label>
+			<label index="tsdebug_displayTimes">نمایش همه زمان‌ها:</label>
+			<label index="tsdebug_displayMessages">نمایش پیام‌ها:</label>
+			<label index="tsdebug_displayContent">نمایش محتوا:</label>
+			<label index="tsdebug_displayQueries">شرح استفسار 'انتخاب':</label>
+			<label index="info">اطلاعات</label>
+			<label index="div_Levels_0">این صفحه</label>
+			<label index="div_Levels_1">+ 1 زیرسطح</label>
+			<label index="div_Levels_2">+ 2 زیرسطح</label>
+			<label index="update">به‌روز رسانی</label>
+			<label index="p_editRecord">ویرایش رکورد</label>
+			<label index="p_moveUp">جابجایی به بالا</label>
+			<label index="p_moveDown">جابجایی به پایین</label>
+			<label index="p_unhide">ناپنهان</label>
+			<label index="p_hide">پنهان</label>
+			<label index="p_newSubpage">زیرصفحه جدید</label>
+			<label index="p_newRecordAfter">رکورد جدید</label>
+			<label index="p_delete">حذف</label>
+			<label index="p_deleteConfirm">آیا مطمئن به حذف این رکورد هستید؟</label>
+			<label index="p_hideConfirm">پنهان کردن یک رکورد آن را در صفحه وب نامریی می‌کند. برای ویرایش رکورد پنهان شده به بخش پشتیبان وارد شده یا پیش‌نمایش بخش پیشانی را فعال کنید
+ادامه می‌دهید؟</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="preview" type="integer">52420219</label>
+			<label index="preview_showHiddenPages" type="integer">134294512</label>
+			<label index="preview_showHiddenRecords" type="integer">197480530</label>
+			<label index="preview_simulateDate" type="integer">165211717</label>
+			<label index="preview_simulateUserGroup" type="integer">140125754</label>
+			<label index="publish" type="integer">17867952</label>
+			<label index="publish_tree" type="integer">130627303</label>
+			<label index="edit" type="integer">186429311</label>
+			<label index="edit_displayIcons" type="integer">160544396</label>
+			<label index="p_delete" type="integer">254438473</label>
+			<label index="adminOptions" type="integer">147511050</label>
+			<label index="cache" type="integer">179359504</label>
+			<label index="cache_noCache" type="double">7012371</label>
+			<label index="cache_doit" type="integer">82152402</label>
+			<label index="cache_clearLevels" type="double">9304802</label>
+			<label index="cache_cacheEntries" type="integer">248899248</label>
+			<label index="publish_levels" type="integer">266651712</label>
+			<label index="publish_doit" type="integer">142429021</label>
+			<label index="edit_displayFieldIcons" type="integer">75845684</label>
+			<label index="edit_editFormsOnPage" type="integer">251694161</label>
+			<label index="edit_editNoPopup" type="integer">143991461</label>
+			<label index="edit_openAB" type="integer">177133592</label>
+			<label index="edit_recordHistory" type="integer">38913415</label>
+			<label index="edit_newContentElement" type="integer">165001110</label>
+			<label index="edit_move_page" type="integer">32081372</label>
+			<label index="edit_newPage" type="double">10918545</label>
+			<label index="edit_db_list" type="integer">182815575</label>
+			<label index="tsdebug" type="double">6141239</label>
+			<label index="tsdebug_tree" type="integer">60618427</label>
+			<label index="tsdebug_LR" type="integer">38630757</label>
+			<label index="tsdebug_forceTemplateParsing" type="integer">28246343</label>
+			<label index="tsdebug_displayTimes" type="integer">67634135</label>
+			<label index="tsdebug_displayMessages" type="integer">61942828</label>
+			<label index="tsdebug_displayContent" type="integer">118594150</label>
+			<label index="tsdebug_displayQueries" type="integer">26860700</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="div_Levels_0" type="integer">98872550</label>
+			<label index="div_Levels_1" type="integer">81949190</label>
+			<label index="div_Levels_2" type="integer">92317091</label>
+			<label index="update" type="double">6894342</label>
+			<label index="p_editRecord" type="integer">148343509</label>
+			<label index="p_moveUp" type="integer">259501942</label>
+			<label index="p_moveDown" type="integer">232386759</label>
+			<label index="p_unhide" type="integer">152488466</label>
+			<label index="p_hide" type="integer">103439945</label>
+			<label index="p_newSubpage" type="integer">81409489</label>
+			<label index="p_newRecordAfter" type="integer">264860337</label>
+			<label index="p_deleteConfirm" type="integer">75838368</label>
+			<label index="p_hideConfirm" type="double">8301973</label>
+			<label index="edit_editPageProperties" type="integer">219852795</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="preview">Preview</label>
+			<label index="preview_showHiddenPages">Show Hidden Pages:</label>
+			<label index="preview_showHiddenRecords">Show Hidden Records:</label>
+			<label index="preview_simulateDate">Simulate Time:</label>
+			<label index="preview_simulateUserGroup">Simulate User Group:</label>
+			<label index="publish">Publish</label>
+			<label index="publish_tree">Publish pages:</label>
+			<label index="edit">Editing</label>
+			<label index="edit_displayIcons">Display Edit Panels:</label>
+			<label index="p_delete">Delete</label>
+			<label index="adminOptions">ADMIN PANEL</label>
+			<label index="cache">Cache</label>
+			<label index="cache_noCache">No caching:</label>
+			<label index="cache_doit">Clear cache now!</label>
+			<label index="cache_clearLevels">Clear levels:</label>
+			<label index="cache_cacheEntries">Cache entries:</label>
+			<label index="publish_levels">Publish levels:</label>
+			<label index="publish_doit">Publish now!</label>
+			<label index="edit_displayFieldIcons">Display Edit Icons:</label>
+			<label index="edit_editFormsOnPage">Editforms on-page:</label>
+			<label index="edit_editNoPopup">No popup window:</label>
+			<label index="edit_openAB">Open TYPO3 Backend</label>
+			<label index="edit_recordHistory">View record change history</label>
+			<label index="edit_newContentElement">Create new content element</label>
+			<label index="edit_move_page">Move page</label>
+			<label index="edit_newPage">Create new page</label>
+			<label index="edit_db_list">Web&gt;List module</label>
+			<label index="tsdebug">TypoScript</label>
+			<label index="tsdebug_tree">Tree display:</label>
+			<label index="tsdebug_LR">Track content rendering:</label>
+			<label index="tsdebug_forceTemplateParsing">Force TS Rendering:</label>
+			<label index="tsdebug_displayTimes">Display all times:</label>
+			<label index="tsdebug_displayMessages">Display messages:</label>
+			<label index="tsdebug_displayContent">Display content:</label>
+			<label index="tsdebug_displayQueries">Explain SELECT queries:</label>
+			<label index="info">Info</label>
+			<label index="div_Levels_0">This page</label>
+			<label index="div_Levels_1">+ 1 sublevel</label>
+			<label index="div_Levels_2">+ 2 sublevels</label>
+			<label index="update">Update</label>
+			<label index="p_editRecord">Edit record</label>
+			<label index="p_moveUp">Move up</label>
+			<label index="p_moveDown">Move down</label>
+			<label index="p_unhide">Un-Hide</label>
+			<label index="p_hide">Hide</label>
+			<label index="p_newSubpage">New subpage</label>
+			<label index="p_newRecordAfter">New record after</label>
+			<label index="p_deleteConfirm">Are you sure you want to delete this record?</label>
+			<label index="p_hideConfirm">Hiding a record will make it invisible on the webpage.  To edit the hidden record enter the backend or enable the frontend preview.
+Continue?</label>
+			<label index="edit_editPageProperties">Edit page properties</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

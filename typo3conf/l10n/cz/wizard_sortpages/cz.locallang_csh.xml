@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="tx_wizardsortpages.alttitle">Průvodce řazením stránek</label>
+			<label index="tx_wizardsortpages.description">Umožňuje vám řadit stránky abecedně podle názvu, podtitulku, nebo času vytvoření atd. Můžete také obrátit jejich pořadí ve stromu stránek.</label>
+			<label index="tx_wizardsortpages.details">Stránky ve stromu stránek jsou vždy řazeny ručně. Je možné pohybovat stránkami nahoru a dolů atd. Ale tento průvodce vám dává rychlý způsob, jak změnit manuální pořadí podstránek.
+
+Jednoduše klikněte na jeden z odkazů ve spodní části obrazovky průvodce:
+
+&lt;b&gt;Název stránky&lt;/b&gt;
+SeřadÍ stránky podle jejich názvu.
+
+&lt;b&gt;Podtitul&lt;/b&gt;
+Seřadí stránky podle jejich podtitulu.
+
+&lt;b&gt;Čas změny&lt;/b&gt;
+Stránky seřadí podle data, kdy byly naposledy změněny.
+
+&lt;b&gt;Čas vytvoření&lt;/b&gt;
+Stránky seřadí podle data jejich vzniku.
+
+&lt;b&gt;Obrátit současného pořadí&lt;/b&gt;
+Klepnutím na tuto možnost obrátíte aktuální pořadí. Například pokud chcete seřadit stránky abecedně avšak v sestupném pořadí, jednoduše je seřaďte podle názvu a poté obraťte jejich pořadí kliknutím na tuto volbu.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="tx_wizardsortpages.alttitle" type="integer">256705929</label>
+			<label index="tx_wizardsortpages.description" type="integer">192390591</label>
+			<label index="tx_wizardsortpages.details" type="integer">122743470</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="tx_wizardsortpages.alttitle">Sort Pages wizard</label>
+			<label index="tx_wizardsortpages.description">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</label>
+			<label index="tx_wizardsortpages.details">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+&lt;b&gt;Page title&lt;/b&gt;
+Will sort pages by their page title.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Will sort page by their Subtitle field.
+
+&lt;b&gt;Change-time&lt;/b&gt;
+Will sort pages by the date they were last changed.
+
+&lt;b&gt;Create-time&lt;/b&gt;
+Will sort pages by their creation date.
+
+&lt;b&gt;Reverse current order&lt;/b&gt;
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

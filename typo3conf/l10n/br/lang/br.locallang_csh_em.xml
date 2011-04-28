@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index=".alttitle">AE</label>
+			<label index=".description">O Administrador de Extensões (AE)</label>
+			<label index="emconf_shy.alttitle">Oculta</label>
+			<label index="emconf_shy.description">Quando selecionada, esta extensão normalmente é oculta no AE por ser considerada uma extensão padrão, ou por algum outro motivo de menor importância.</label>
+			<label index="emconf_shy.details">Use esta opção se uma extensão for de &quot;raro interesse&quot; (o que não significa que seja de pouca importância - apenas uma extensão procurada com pouca freqüência...)
+Esta opção não determina se a extensão está ou não ativada, apenas determina a visualização no AE.
+Normalmente a opção &quot;oculta&quot; é usada em todas as extensões carregadas por padrão, conforme TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Categoria</label>
+			<label index="emconf_category.description">Categoria à qual a extensão pertence.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Administração do Site (Geralmente orientada pela administração do site, mas não é um módulo)
+
+&lt;b&gt;módulo:&lt;/b&gt; Módulos de administração do site (Quando algo é um módulo ou se conecta a algum)
+
+&lt;b&gt;fe:&lt;/b&gt; Site (Geralmente orientado pelo site, mas não um plugin &quot;real&quot;)
+
+&lt;b&gt;plugin&lt;/b&gt; Plugins do site (Plugins inseridos como um elemento de conteúdo &quot;Inserir Plugin&quot;)
+
+&lt;b&gt;misc:&lt;/b&gt; Artigos de Miscelânea (Não podem ser facilmente colocados em outro lugar)
+
+&lt;b&gt;exemplo:&lt;/b&gt; Extensão de exemplo (Que serve como um exemplo, etc.)</label>
+			<label index="emconf_dependencies.alttitle">Depende de outras extensões?</label>
+			<label index="emconf_dependencies.description">Esta é uma lista das extensões das quais esta extensão depende que sejam carregadas ANTES dela.</label>
+			<label index="emconf_dependencies.details">O AE estabelecerá tal dependência ao gravar a lista de extensões em localconf.php</label>
+			<label index="emconf_conflicts.alttitle">Gera conflito com outras extensões?</label>
+			<label index="emconf_conflicts.description">Lista de extensões com as quais esta extensão não funciona (e portanto não pode ser ativada antes que as outras sejam desinstaladas)</label>
+			<label index="emconf_priority.alttitle">Prioridade para carregamento da extensão</label>
+			<label index="emconf_priority.description">Esta opção avisa ao AE para tentar carregar a extensão como a primeira da lista. O padrão é carregá-la por último.</label>
+			<label index="emconf_module.alttitle">Módulos de administração inclusos</label>
+			<label index="emconf_module.description">Se alguma subpasta de uma extensão contiver módulos de administração, os nomes das subpastas serão listados aqui.</label>
+			<label index="emconf_module.details">Informa ao AE sobre a existência do módulo, o que é importante já que o AE precisa atualizar o arquivo conf.php do módulo para atribuir corretamente a constante TYPO3_MOD_PATH.</label>
+			<label index="emconf_state.alttitle">Status de desenvolvimento</label>
+			<label index="emconf_state.description">Em qual status de desenvolvimento a extensão se encontra.</label>
+			<label index="emconf_state.details">&lt;b&gt;alfa&lt;/b&gt;
+Desenvolvimento em fase inicial. A extensão pode não estar executando qualquer função.
+
+&lt;b&gt;beta&lt;/b&gt;
+Sob desenvolvimento. Pode estar funcionando parcialmente, mas não está concluída.
+
+&lt;b&gt;estável&lt;/b&gt;
+Estável e utilizada normalmente em produção.
+
+&lt;b&gt;experimental&lt;/b&gt;
+Não se sabe se vai chegar a algum lugar... Talvez seja ainda apenas uma idéia.
+
+&lt;b&gt;teste&lt;/b&gt;
+Extensão para teste, para demonstrar conceitos, etc.</label>
+			<label index="emconf_internal.alttitle">Internamente suportado pelo núcleo</label>
+			<label index="emconf_internal.description">Esta nota indica que o código fonte do núcleo está especificamente ciente desta extensão.</label>
+			<label index="emconf_internal.details">Em outras palavras, esta marca nota deveria tratar sobre a mensagem &quot;esta extensão não pode ser escrita sem algumas modificações do código fonte do núcleo&quot;.
+
+Uma extensão não é interna só porque usa as classes gerais do TYPO3, por exemplo, aquelas da pasta t3lib/. É claro que extensões não-internas são caracterizadas pelo fato de que elas poderiam ser escritas sem fazer mudanças no código fonte do núcleo, mas depende apenas de classes existentes no TYPO3 e/ou outras extensões, além de seus próprios scripts na pasta de extensões.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Limpar o cache quando instalada</label>
+			<label index="emconf_clearCacheOnLoad.description">Quando selecionada, o AE solicitará a limpeza do cache quando esta extensão for instalada.</label>
+			<label index="emconf_modify_tables.alttitle">Tabelas existentes modificadas</label>
+			<label index="emconf_modify_tables.description">Lista de tabelas que apenas foram modificadas - não criadas a partir do zero - por esta extensão.</label>
+			<label index="emconf_modify_tables.details">Tabelas desta lista encontradas no arquivo ext_tables.sql desta extensão</label>
+			<label index="emconf_private.alttitle">Particular</label>
+			<label index="emconf_private.description">Se marcado, esta versão não é mostrada na lista pública do repositório online.</label>
+			<label index="emconf_private.details">Uploads &quot;Particulares&quot; requerem que você manualmente digite uma chave especial (que será mostrada para você depois que o upload terminar) para ser possível importar e ver os detalhes da extensão enviada. Isso é bom para quando trabalha-se com algo internamente e não quer que outros vejam. Você pode marcar e desmarcar a caixa cada vez que enviar uma extensão.</label>
+			<label index="emconf_download_password.alttitle">Senha para download</label>
+			<label index="emconf_download_password.description">Senha adicional necessária para baixar extensões particulares.</label>
+			<label index="emconf_download_password.details">Qualquer um que conhece a &quot;chave especial&quot;, atribuída ao upload particular, poderá importá-lo. Especificar uma senha para upload permite que você tire a chave de download para uploads particulares dados. A senha pode ser mudada mais tarde.</label>
+			<label index="emconf_type.alttitle">Tipo de instalação</label>
+			<label index="emconf_type.description">O tipo da instalação</label>
+			<label index="emconf_doubleInstall.alttitle">Instalado duas vezes ou mais?</label>
+			<label index="emconf_doubleInstall.description">Diz se a extensão está instalada em mais de uma localidade: Sistema, Global ou Localmente.</label>
+			<label index="emconf_doubleInstall.details">Devido a uma extensão residir em três localidades, Sistema, Global e Local, isso indica se a extensão é achada em outros lugares, além do atual. Nesse caso, você deve estar ciente de qual delas está carregada!</label>
+			<label index="emconf_rootfiles.alttitle">Arquivos da raiz</label>
+			<label index="emconf_rootfiles.description">Lista dos arquivos no diretório da extensão. Não lista arquivos em subdiretórios.</label>
+			<label index="emconf_dbReq.alttitle">Necessidades do Banco de Dados</label>
+			<label index="emconf_dbReq.description">Mostra as necessidades para as tabelas e campos do banco de dados, se tiver algum.</label>
+			<label index="emconf_dbReq.details">Isso irá ler o arquivo ext_tables.sql e ext_tables_static+adt.sql e mostrar a você quais tabelas, campos e tabelas estáticas são requeridas com esta extensão.</label>
+			<label index="emconf_dbStatus.alttitle">Situação de necessidades do banco de dados</label>
+			<label index="emconf_dbStatus.description">Mostra a estatística atual do banco de dados, comparado às necessidades da extensão.</label>
+			<label index="emconf_dbStatus.details">Se a extensão está carregada, qual irá mostrar uma mensagem de erro, se alguma das tabelas ou campos não se apresentarem no banco de dados como eles deveriam ser!</label>
+			<label index="emconf_flags.alttitle">Marcas</label>
+			<label index="emconf_flags.description">Uma lista de códigos especiais que dizem a você algo sobre quais partes de TYPO3 a extensão toca.</label>
+			<label index="emconf_errors.alttitle">Erros</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index=".alttitle" type="integer">217593800</label>
+			<label index=".description" type="integer">212219576</label>
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index="emconf_shy.description" type="integer">196807582</label>
+			<label index="emconf_shy.details" type="integer">15892463</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_category.details" type="integer">78942816</label>
+			<label index="emconf_dependencies.alttitle" type="integer">6158334</label>
+			<label index="emconf_dependencies.description" type="integer">262753637</label>
+			<label index="emconf_dependencies.details" type="integer">209360491</label>
+			<label index="emconf_conflicts.alttitle" type="integer">174778315</label>
+			<label index="emconf_conflicts.description" type="integer">14159431</label>
+			<label index="emconf_priority.alttitle" type="integer">208790249</label>
+			<label index="emconf_priority.description" type="integer">261230598</label>
+			<label index="emconf_module.alttitle" type="integer">222311525</label>
+			<label index="emconf_module.description" type="integer">131352939</label>
+			<label index="emconf_module.details" type="integer">16797237</label>
+			<label index="emconf_state.alttitle" type="integer">8968835</label>
+			<label index="emconf_state.description" type="integer">48322308</label>
+			<label index="emconf_state.details" type="integer">80752734</label>
+			<label index="emconf_internal.alttitle" type="integer">252258090</label>
+			<label index="emconf_internal.description" type="integer">130243565</label>
+			<label index="emconf_internal.details" type="integer">150689078</label>
+			<label index="emconf_clearCacheOnLoad.alttitle" type="integer">26668595</label>
+			<label index="emconf_clearCacheOnLoad.description" type="integer">149991239</label>
+			<label index="emconf_modify_tables.alttitle" type="integer">211801845</label>
+			<label index="emconf_modify_tables.description" type="integer">225814359</label>
+			<label index="emconf_modify_tables.details" type="integer">250561664</label>
+			<label index="emconf_private.alttitle" type="integer">75468930</label>
+			<label index="emconf_private.description" type="integer">8590515</label>
+			<label index="emconf_private.details" type="integer">183041250</label>
+			<label index="emconf_download_password.alttitle" type="integer">102196861</label>
+			<label index="emconf_download_password.description" type="integer">120757501</label>
+			<label index="emconf_download_password.details" type="integer">92160698</label>
+			<label index="emconf_type.alttitle" type="integer">121209022</label>
+			<label index="emconf_type.description" type="integer">113056504</label>
+			<label index="emconf_doubleInstall.alttitle" type="integer">262159324</label>
+			<label index="emconf_doubleInstall.description" type="integer">60133779</label>
+			<label index="emconf_doubleInstall.details" type="integer">201896892</label>
+			<label index="emconf_rootfiles.alttitle" type="integer">234183730</label>
+			<label index="emconf_rootfiles.description" type="integer">157844662</label>
+			<label index="emconf_dbReq.alttitle" type="integer">28332369</label>
+			<label index="emconf_dbReq.description" type="integer">93463627</label>
+			<label index="emconf_dbReq.details" type="integer">199359275</label>
+			<label index="emconf_dbStatus.alttitle" type="integer">204171626</label>
+			<label index="emconf_dbStatus.description" type="integer">166393559</label>
+			<label index="emconf_dbStatus.details" type="integer">198198907</label>
+			<label index="emconf_flags.alttitle" type="integer">82475009</label>
+			<label index="emconf_flags.description" type="integer">42715313</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index=".alttitle">Tools &gt; Extension Manager (EM)</label>
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_shy.description">If set, the extension will normally be hidden in the EM because it might be a default extension or otherwise something which is not so important.</label>
+			<label index="emconf_shy.details">Use this flag if an extension is of &quot;rare interest&quot; (which is not the same as un-important - just an extension not sought for very often...)
+It does not affect whether or not it's enabled. Only display in EM.
+Normally &quot;shy&quot; is set for all extensions loaded by default according to TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Generally backend oriented, but not a module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (When something is a module or connects with one)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Generally frontend oriented, but not a &quot;true&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins inserted as a &quot;Insert Plugin&quot; content element)
+
+&lt;b&gt;misc:&lt;/b&gt; Miscellaneous stuff (Where not easily placed elsewhere)
+
+&lt;b&gt;services:&lt;/b&gt; Contains TYPO3 services.
+
+&lt;b&gt;templates:&lt;/b&gt; Contains website templates
+
+&lt;b&gt;doc:&lt;/b&gt; Documentation (Eg. tutorials, FAQ's etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Example extension (Which serves as examples etc.)</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_dependencies.description">This is a list of other extension keys which this extension depends on being loaded BEFORE it self.</label>
+			<label index="emconf_dependencies.details">The EM will manage that dependency while writing the extension list  to localconf.php. You cannot install an extension unless its dependencies has been installed already.</label>
+			<label index="emconf_conflicts.alttitle">Conflicts with other extensions?</label>
+			<label index="emconf_conflicts.description">List of extension keys of extensions with which this extension does not work (and so cannot be enabled before those other extensions are un-installed)</label>
+			<label index="emconf_priority.alttitle">Requested Loading priority</label>
+			<label index="emconf_priority.description">This tells the EM to try to put the extensions as the very first in the list. Default is last.</label>
+			<label index="emconf_module.alttitle">Backend modules included</label>
+			<label index="emconf_module.description">If any subfolders to an extension contains backend modules, those foldernames should be listed here.</label>
+			<label index="emconf_module.details">It allows the EM to know about the existence of the module, which is important because the EM has to update the conf.php file of the module in order to set the correct TYPO3_MOD_PATH  constant.</label>
+			<label index="emconf_state.alttitle">Development state</label>
+			<label index="emconf_state.description">Which development state the extension is in.</label>
+			<label index="emconf_state.details">&lt;b&gt;alpha&lt;/b&gt;
+Very initial development. May do nothing at all.
+
+&lt;b&gt;beta&lt;/b&gt;
+Under current development. Should work partly but is not finished yet.
+
+&lt;b&gt;stable&lt;/b&gt;
+Stable and used in production.
+
+&lt;b&gt;experimental&lt;/b&gt;
+Nobody knows if this is going anywhere yet... Maybe still just an idea.
+
+&lt;b&gt;test&lt;/b&gt;
+Test extension, demonstrates concepts etc.</label>
+			<label index="emconf_internal.alttitle">Internally supported in core</label>
+			<label index="emconf_internal.description">This flag indicates that the core source code is specifically aware of the extension.</label>
+			<label index="emconf_internal.details">In other words this flag should convey the message that &quot;this extension could not be written without some core source code modifications&quot;.
+
+An extension is not internal just because it uses TYPO3 general classes eg. those from t3lib/.
+True non-internal extensions are characterized by the fact that they could be written without making core source code changes, but relies only on existing classes  in TYPO3 and/or other extensions, plus its own scripts in the extension folder.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Clear cache when installed</label>
+			<label index="emconf_clearCacheOnLoad.description">If set, the EM will request the cache to be cleared when this extension is installed.</label>
+			<label index="emconf_modify_tables.alttitle">Existing tables modified</label>
+			<label index="emconf_modify_tables.description">List of tablenames which are only modified - not fully created - by this extension.</label>
+			<label index="emconf_modify_tables.details">Tables from this list found in the ext_tables.sql file of the extension</label>
+			<label index="emconf_private.alttitle">Private</label>
+			<label index="emconf_private.description">If set, this version is not shown in the public list in the online repository.</label>
+			<label index="emconf_private.details">&quot;Private&quot; uploads requires you to manually enter a special key (which will be shown to you after an upload has been completed) to be able to import and view details for the uploaded extension.
+This is nice when you are working on something internally which you do not want others to look at.
+You can set and clear the private flag every time you upload your extension.</label>
+			<label index="emconf_download_password.alttitle">Download password</label>
+			<label index="emconf_download_password.description">Additional password required for download of private extensions.</label>
+			<label index="emconf_download_password.details">Anybody who knows the &quot;special key&quot; assigned to the private upload will be able to import it. Specifying an import password allows you to give away the download key for private uploads and also require a password given in addition. The password can be changed later on.</label>
+			<label index="emconf_type.alttitle">Installation type</label>
+			<label index="emconf_type.description">The type of the installation</label>
+			<label index="emconf_doubleInstall.alttitle">Installed twice or more?</label>
+			<label index="emconf_doubleInstall.description">Tells you if the extensions is installed in more than one of the System, Global or Local locations.</label>
+			<label index="emconf_doubleInstall.details">Because an extension can reside at three locations, System, Global and Local, this indicates if the extension is found in other locations than the current. In that case you should be aware which one of the extensions is loaded!</label>
+			<label index="emconf_rootfiles.alttitle">Root files</label>
+			<label index="emconf_rootfiles.description">List of the files in the extension folder. Does not list files in subfolders.</label>
+			<label index="emconf_dbReq.alttitle">Database requirements</label>
+			<label index="emconf_dbReq.description">Shows you the requirements to the database tables and fields, if any.</label>
+			<label index="emconf_dbReq.details">This will read from the files ext_tables.sql and ext_tables_static+adt.sql and show you which tables, fields and static tables are required with this extension.</label>
+			<label index="emconf_dbStatus.alttitle">Database requirements status</label>
+			<label index="emconf_dbStatus.description">Displays the current status of the database compared to the extension requirements.</label>
+			<label index="emconf_dbStatus.details">If the extension is loaded which will display and error message if some tables or fields are not present in the database as they should be!</label>
+			<label index="emconf_flags.alttitle">Flags</label>
+			<label index="emconf_flags.description">A list of special codes which tells you something about what parts of TYPO3 the extension touches.</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

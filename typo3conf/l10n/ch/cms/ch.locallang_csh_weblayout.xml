@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index=".alttitle">Web &gt; 页面模块</label>
+			<label index="quickEdit.alttitle">快速编辑</label>
+			<label index="quickEdit.description">快速编辑让您直接访问页面内容域的表格.</label>
+			<label index="quickEdit.details">快速编辑器是设计来删减与获得编辑页面内容有关的点击次数的. 在页面树结构中简单的点击页面标题您就在普通的列中得到安装在列表结构中优先的内容元素. 在工具榄中您可以在页面选择器工具盒里选择其它内容元素.</label>
+			<label index="quickEdit_selElement.alttitle">内容元素</label>
+			<label index="quickEdit_selElement.description">这是此页面内容元素的一个总览.选择另外一个元素来编辑或点击一个&quot;新的&quot;图标来创建一个新的内容元素 .</label>
+			<label index="columns_1.alttitle">按列列表</label>
+			<label index="columns_2.alttitle">按语言列表</label>
+			<label index="columns_3.alttitle">页面信息</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="columns_1.alttitle" type="integer">183363228</label>
+			<label index="columns_2.alttitle" type="double">8205541</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="columns_1.alttitle">Listing by Column</label>
+			<label index="columns_2.alttitle">Listing by Language</label>
+			<label index="columns_3.alttitle">Page Information</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,51 @@
+
+# SEARCH
+  temp.suche = COA
+  temp.suche {
+  
+#  10 = TEXT
+#  10.value = suche.. #Hier kann ein Text stehen
+  20 < tt_content.search.30
+  20.dataArray > 
+  20 { 
+  stdWrap.wrap = |   
+  layout = ###LABEL### ###FIELD###
+
+# Elementen wie Feldern und Buttons eine Klasse zuweisen 
+labelWrap.wrap = |
+
+    params = class="textbox"
+    params.submit = class="f-submit"
+    params.textarea = id="searchsite"
+    dataArray {
+
+# Hier steht für den neuen linken Button der Code (siehe unten) 
+#   10.label > # Einstellung für ein leeres Label
+    10.label = Suche
+    10.type = sword=input,15 # mit der Zahl wird die size des Feldes eingestellt
+    10.value = 
+# Hier könnte eine Select-Box stehen
+#  20.type = scols=select
+#  20.valueArray {
+#  10.label = Headers and keywords
+#  10.value = pages.title-subtitle-keywords-description:tt_content.header
+#  20.label = Pagecontent
+#  20.value = tt_content.header-bodytext-imagecaption
+#  }
+    20.label >
+    20.type = scols=hidden
+    20.value = tt_content.header-bodytext-imagecaption
+    30.type = stype=hidden
+    30.value = L0
+    40.type = submit=submit
+    40.value = Go
+   }
+    redirect = {$suche}
+    target=_self
+    }
+}
+
+plugin.tx_indexedsearch {
+
+result_link_target = _self
+}

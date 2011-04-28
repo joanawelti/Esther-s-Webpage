@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_labels_tablabel">Tableau de bord</label>
+			<label index="mlang_labels_tabdescr">Le tableau de bord montre les différents changements qui sont en cour. Vous pouvez publier les contenus si vous en êtes autorisé.</label>
+			<label index="mlang_tabs_tab">Espace de travail</label>
+			<label index="title">Administration des espaces de travail</label>
+			<label index="menuitem_review">Validation et Publication</label>
+			<label index="menuitem_workspaces">Liste des espaces de travail</label>
+			<label index="filter_drafts">Brouillons</label>
+			<label index="filter_archive">Archive</label>
+			<label index="filter_all">Tout</label>
+			<label index="diff_no_diff">Ne pas montrer les differences</label>
+			<label index="diff_show_inline">Montrer les différences</label>
+			<label index="diff_show_popup">Montrer les différences (popups)</label>
+			<label index="label_errors">Erreurs:</label>
+			<label index="workspace_description_live">L'espace de travail LIVE permet les changements immédiats en ligne sur le site web. Cependant il est toujours possible de créer des versions, de visualiser et archiver des pages avant de les mettre en ligne.</label>
+			<label index="workspace_description_draft">Dans l'espace de travail BROUILLON, tout les changements seront basé sur la création de version des contenus en ligne. Les changments peuvent être prévisualisés, validés et éventuellement mis en ligne.</label>
+			<label index="workspace_description_no_access">Vous avez aucunes autorisations sur les différents espaces de travail. Contactez votre webmestre!</label>
+			<label index="edit_workspace_no_permission">Vous n'avez pas l'autrisation d'éditer cet espace de travail. Seul les administrateurs et proprietaires peuvent modifier les paramètres.</label>
+			<label index="create_workspace_no_permission">Vous n'avez pas l'autrisation de creer un espace de travail. seul els administrateurs peuvent en creer.</label>
+			<label index="submit_publish_workspace">Publier l'espace de travail</label>
+			<label index="submit_publish_workspace_confirmation_1">Etes vous sur de vouloir publier tous les éléments en attente de publication de cet espace de travail ?</label>
+			<label index="submit_publish_workspace_confirmation_2">Etes vous sur de vouloir publier tous les éléments de l'espace de travail ?</label>
+			<label index="submit_swap_workspace">Echanger d'espace de travail</label>
+			<label index="submit_swap_workspace_confirmation_1">Etes vous sur de vouloir publier(echange) tous les éléments en attente de publication de cet espace de travail ?</label>
+			<label index="submit_swap_workspace_confirmation_2">Etes vous sur de vouloir publier(echange) tous les éléments de l'espace de travail ?</label>
+			<label index="no_publish_permission">Vous n'avez pas l'autrisation de publier dans cet espace de travail</label>
+			<label index="label_workspace">Espace de travail:</label>
+			<label index="label_description">Description:</label>
+			<label index="label_options">Options:</label>
+			<label index="label_status">Status:</label>
+			<label index="label_pagetree">Arborescence:</label>
+			<label index="label_live_version">Version LIVE:</label>
+			<label index="label_draft_versions">Versions Brouillon:</label>
+			<label index="label_stage">Etape</label>
+			<label index="label_publish">En attente de publication</label>
+			<label index="label_lifecycle">Cycle</label>
+			<label index="label_access_level">Niveau d'autorisation:</label>
+			<label index="img_title_publish">Mettre en ligne</label>
+			<label index="img_title_swap">Echanger</label>
+			<label index="remove_from_ws_confirmation">Supprimer de l'espace de travail?</label>
+			<label index="img_title_remove_from_ws">Supprimer de l'espace de travail</label>
+			<label index="img_title_edit_page">Editer la page</label>
+			<label index="img_title_edit_element">Editer le contenu</label>
+			<label index="img_title_show_log">Montrer les Logs</label>
+			<label index="diffview_label_field_name">Nom du champ:</label>
+			<label index="diffview_label_colored_diff_view">Coloriser les différentes vues:</label>
+			<label index="diffview_complete_match">Complete match on editable fields.</label>
+			<label index="diffview_cannot_find_records">ERROR: Records could strangely not be found!</label>
+			<label index="img_title_show_more">Montrer plus</label>
+			<label index="img_title_current_workspace">C'est l'espace de travail actuel!</label>
+			<label index="img_title_create_new_workspace">Creer un nouvel espace de travail</label>
+			<label index="link_text_create_new_workspace">Creer un nouvel espace de travail</label>
+			<label index="edit_workspace_go_back">retour</label>
+			<label index="edit_workspace_title_edit">Editer l'espace de travail</label>
+			<label index="edit_workspace_title_new">Creer un nouvel espace de travail</label>
+			<label index="workspace_list_label_current_workspace">Actuel:</label>
+			<label index="workspace_list_label_workspace_title">Titre:</label>
+			<label index="workspace_list_label_workspace_description">Description:</label>
+			<label index="workspace_list_label_owners">Propriétaire:</label>
+			<label index="workspace_list_label_members">Membres:</label>
+			<label index="workspace_list_label_reviewers">Relecteurs:</label>
+			<label index="workspace_list_access_admins_only">Administrateur seulement</label>
+			<label index="workspace_list_access_anyone">Pas d'interdictions</label>
+			<label index="workspace_list_label_file_mountpoints">Point de montage - fichiers:</label>
+			<label index="workspace_list_label_db_mountpoints">Point de montage - page web:</label>
+			<label index="workspace_list_label_frozen">Gelé:</label>
+			<label index="workspace_list_label_publish_date">Date de publication:</label>
+			<label index="workspace_list_label_unpublish_date">Date de dépublication:</label>
+			<label index="workspace_list_label_your_access">Votre autorisation:</label>
+			<label index="workspace_list_label_workspace_users">Utilisateurs de l'espace de travail:</label>
+			<label index="workspace_list_label_frozen_yes">Oui</label>
+			<label index="workspace_list_label_frozen_no">Non</label>
+			<label index="workspace_list_icon_title_edit_workspace">Editer l'espace de travail</label>
+			<label index="workspace_list_icon_title_switch_workspace">Echanger les espaces de travail</label>
+			<label index="workspace_list_access_admin">Administrateur</label>
+			<label index="workspace_list_access_online">En ligne</label>
+			<label index="workspace_list_access_offline">Hors ligne</label>
+			<label index="workspace_list_access_owner">Proprietaires</label>
+			<label index="workspace_list_access_member">Membre</label>
+			<label index="workspace_list_access_reviewer">Relecteur</label>
+			<label index="workspace_list_publishing_count_draft">Brouillon</label>
+			<label index="workspace_list_publishing_count_archive">Archive</label>
+			<label index="workspace_list_publishing_count">Publié %d fois</label>
+			<label index="stage_sent_to_review">&quot;%s&quot; a envoyé une page en validation</label>
+			<label index="stage_approved_for_publish">&quot;%s&quot; valide pour une demande en publication</label>
+			<label index="stage_rejected">&quot;%s&quot; refuse la page!</label>
+			<label index="stage_reset_to_editing">&quot;%s&quot; retourne en cours de rédaction</label>
+			<label index="stage_undefined">[non défini]</label>
+			<label index="stage_label_user_comment">Commentaire de l'utilisateur:</label>
+			<label index="workspace_list_mount_point_inaccessible">This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</label>
+			<label index="workspace_list_file_mount_point_live">Mount points from user profile are used.</label>
+			<label index="workspace_list_file_mount_point_draft">File mount points are not available in draft workspace.</label>
+			<label index="workspace_list_file_mount_point_custom">File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</label>
+			<label index="workspace_list_db_mount_point_live">Mount points from user profile are used.</label>
+			<label index="workspace_list_db_mount_point_draft">Mount points from user profile are used.</label>
+			<label index="workspace_list_db_mount_point_custom">Mount points from user profile are used.</label>
+			<label index="publish_title">Publier l'espace de travail</label>
+			<label index="swap_title">Echanger les espaces de travail</label>
+			<label index="publish_status">Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</label>
+			<label index="swap_status">Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</label>
+			<label index="publish_prepare">TYPO3 se prépare à publier les enregistrements.</label>
+			<label index="swap_prepare">TYPO3 se prépare à echanger les enregistrements.</label>
+			<label index="please_wait">Un momment svp...</label>
+			<label index="return_to_index">Retour au tableau de bord</label>
+			<label index="do_not_interrupt_publishing_1">Do not interrupt publishing process or</label>
+			<label index="do_not_interrupt_publishing_2">workspace may be left in half-published state!</label>
+			<label index="workspace_published">Espace de travail publié.</label>
+			<label index="workspace_swapped">Espace de travail échangé.</label>
+			<label index="label_reject">Refusé</label>
+			<label index="label_review">En cours de validation</label>
+			<label index="label_sendtoreview">Demande de validation</label>
+			<label index="label_approveforpublishing">Demande de publication</label>
+			<label index="stage_editing">En cours de rédaction</label>
+			<label index="stage_review">En cours de validation</label>
+			<label index="stage_publish">En cours de publication</label>
+			<label index="label_subelements">Sous éléments</label>
+			<label index="label_subelementsdetails">Sub elements, click for details</label>
+			<label index="label_commentforreviewer">Commentaire pour la validation:</label>
+			<label index="label_commentforpublisher">Commentaire pour la publication:</label>
+			<label index="label_resetstage">Reinitialiser</label>
+			<label index="label_undefined">Non défini</label>
+			<label index="explain_reject">Expliquer le refus :</label>
+			<label index="label_element">Element</label>
+			<label index="label_page">Page</label>
+			<label index="label_branch">Arborescence</label>
+			<label index="label_newrecord">Nouvel élement</label>
+			<label index="label_deletedrecord">Element supprimé</label>
+			<label index="label_otherversions">Other version(s) in workspace(s):</label>
+			<label index="label_multipleversions">Multiple versions in same workspace!</label>
+			<label index="label_nestedversions">Version dans la version!</label>
+			<label index="label_rejected">Refusé</label>
+			<label index="label_showsubelements">Montrer element enfant</label>
+			<label index="label_onlymychanges">Montrer seulement mes modifications</label>
+			<label index="label_offlineWSes">Espace de travail brouillon</label>
+			<label index="label_allWSes">Tous</label>
+			<label index="label_notapplicable">Indisponible</label>
+			<label index="label_percentchange">%%% change:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">40328641</label>
+			<label index="mlang_labels_tabdescr" type="integer">197882190</label>
+			<label index="mlang_tabs_tab" type="integer">3809681</label>
+			<label index="title" type="integer">221556358</label>
+			<label index="menuitem_review" type="integer">44749096</label>
+			<label index="menuitem_workspaces" type="integer">81058256</label>
+			<label index="filter_drafts" type="integer">229879618</label>
+			<label index="filter_archive" type="integer">242383616</label>
+			<label index="filter_all" type="integer">186422474</label>
+			<label index="diff_no_diff" type="integer">11451820</label>
+			<label index="diff_show_inline" type="integer">197647923</label>
+			<label index="diff_show_popup" type="integer">109470880</label>
+			<label index="label_errors" type="integer">206095404</label>
+			<label index="workspace_description_live" type="integer">160686925</label>
+			<label index="workspace_description_draft" type="integer">261389459</label>
+			<label index="workspace_description_no_access" type="integer">190862066</label>
+			<label index="edit_workspace_no_permission" type="integer">266594566</label>
+			<label index="create_workspace_no_permission" type="integer">170576030</label>
+			<label index="submit_publish_workspace" type="integer">235144352</label>
+			<label index="submit_publish_workspace_confirmation_1" type="integer">129669258</label>
+			<label index="submit_publish_workspace_confirmation_2" type="integer">50181730</label>
+			<label index="submit_swap_workspace" type="integer">67755524</label>
+			<label index="submit_swap_workspace_confirmation_1" type="integer">126599807</label>
+			<label index="submit_swap_workspace_confirmation_2" type="integer">230072718</label>
+			<label index="no_publish_permission" type="integer">203190153</label>
+			<label index="label_workspace" type="integer">246019313</label>
+			<label index="label_description" type="integer">218120871</label>
+			<label index="label_options" type="integer">247251860</label>
+			<label index="label_status" type="integer">38413271</label>
+			<label index="label_pagetree" type="integer">73652558</label>
+			<label index="label_live_version" type="integer">76765232</label>
+			<label index="label_draft_versions" type="integer">189928675</label>
+			<label index="label_stage" type="integer">99910571</label>
+			<label index="label_publish" type="integer">213276400</label>
+			<label index="label_lifecycle" type="integer">100797554</label>
+			<label index="label_access_level" type="integer">130031057</label>
+			<label index="img_title_publish" type="integer">17867952</label>
+			<label index="img_title_swap" type="integer">142053212</label>
+			<label index="remove_from_ws_confirmation" type="integer">21237820</label>
+			<label index="img_title_remove_from_ws" type="integer">21237820</label>
+			<label index="img_title_edit_page" type="integer">66732081</label>
+			<label index="img_title_edit_element" type="integer">31852556</label>
+			<label index="img_title_show_log" type="integer">55060445</label>
+			<label index="diffview_label_field_name" type="integer">132071293</label>
+			<label index="diffview_label_colored_diff_view" type="integer">194740760</label>
+			<label index="diffview_complete_match" type="integer">68113539</label>
+			<label index="diffview_cannot_find_records" type="integer">71582257</label>
+			<label index="img_title_show_more" type="integer">21430242</label>
+			<label index="img_title_current_workspace" type="integer">77949732</label>
+			<label index="img_title_create_new_workspace" type="integer">9718304</label>
+			<label index="link_text_create_new_workspace" type="integer">9718304</label>
+			<label index="edit_workspace_go_back" type="integer">36398395</label>
+			<label index="edit_workspace_title_edit" type="integer">108386348</label>
+			<label index="edit_workspace_title_new" type="integer">9718304</label>
+			<label index="workspace_list_label_current_workspace" type="integer">138034144</label>
+			<label index="workspace_list_label_workspace_title" type="integer">85903807</label>
+			<label index="workspace_list_label_workspace_description" type="integer">218120871</label>
+			<label index="workspace_list_label_owners" type="integer">1756457</label>
+			<label index="workspace_list_label_members" type="integer">229261518</label>
+			<label index="workspace_list_label_reviewers" type="integer">154009364</label>
+			<label index="workspace_list_access_admins_only" type="integer">185325320</label>
+			<label index="workspace_list_access_anyone" type="integer">199306044</label>
+			<label index="workspace_list_label_file_mountpoints" type="integer">205158141</label>
+			<label index="workspace_list_label_db_mountpoints" type="integer">244441921</label>
+			<label index="workspace_list_label_frozen" type="integer">197446221</label>
+			<label index="workspace_list_label_publish_date" type="integer">176273469</label>
+			<label index="workspace_list_label_unpublish_date" type="integer">233753178</label>
+			<label index="workspace_list_label_your_access" type="integer">166543641</label>
+			<label index="workspace_list_label_workspace_users" type="integer">158773513</label>
+			<label index="workspace_list_label_frozen_yes" type="integer">154974727</label>
+			<label index="workspace_list_label_frozen_no" type="integer">196073266</label>
+			<label index="workspace_list_icon_title_edit_workspace" type="integer">108386348</label>
+			<label index="workspace_list_icon_title_switch_workspace" type="integer">22803710</label>
+			<label index="workspace_list_access_admin" type="integer">238747344</label>
+			<label index="workspace_list_access_online" type="integer">89089612</label>
+			<label index="workspace_list_access_offline" type="integer">148494923</label>
+			<label index="workspace_list_access_owner" type="integer">191842862</label>
+			<label index="workspace_list_access_member" type="integer">140032583</label>
+			<label index="workspace_list_access_reviewer" type="integer">149261528</label>
+			<label index="workspace_list_publishing_count_draft" type="integer">251898646</label>
+			<label index="workspace_list_publishing_count_archive" type="integer">242383616</label>
+			<label index="workspace_list_publishing_count" type="integer">58676666</label>
+			<label index="stage_sent_to_review" type="integer">201915232</label>
+			<label index="stage_approved_for_publish" type="integer">80962450</label>
+			<label index="stage_rejected" type="integer">1321221</label>
+			<label index="stage_reset_to_editing" type="integer">41331665</label>
+			<label index="stage_undefined" type="integer">103468811</label>
+			<label index="stage_label_user_comment" type="integer">198972965</label>
+			<label index="workspace_list_mount_point_inaccessible" type="integer">71059922</label>
+			<label index="workspace_list_file_mount_point_live" type="integer">55306575</label>
+			<label index="workspace_list_file_mount_point_draft" type="integer">243740218</label>
+			<label index="workspace_list_file_mount_point_custom" type="integer">81358167</label>
+			<label index="workspace_list_db_mount_point_live" type="integer">55306575</label>
+			<label index="workspace_list_db_mount_point_draft" type="integer">55306575</label>
+			<label index="workspace_list_db_mount_point_custom" type="integer">55306575</label>
+			<label index="publish_title" type="integer">235144352</label>
+			<label index="swap_title" type="integer">67755524</label>
+			<label index="publish_status" type="integer">258745636</label>
+			<label index="swap_status" type="integer">162198125</label>
+			<label index="publish_prepare" type="integer">220710115</label>
+			<label index="swap_prepare" type="integer">139300255</label>
+			<label index="please_wait" type="integer">71633894</label>
+			<label index="return_to_index" type="integer">18456117</label>
+			<label index="do_not_interrupt_publishing_1" type="integer">76540544</label>
+			<label index="do_not_interrupt_publishing_2" type="integer">223056289</label>
+			<label index="workspace_published" type="integer">125408420</label>
+			<label index="workspace_swapped" type="integer">131871566</label>
+			<label index="label_reject" type="integer">228109330</label>
+			<label index="label_review" type="integer">72867157</label>
+			<label index="label_sendtoreview" type="integer">150188902</label>
+			<label index="label_approveforpublishing" type="integer">236017458</label>
+			<label index="stage_editing" type="integer">186429311</label>
+			<label index="stage_review" type="integer">72867157</label>
+			<label index="stage_publish" type="integer">17867952</label>
+			<label index="label_subelements" type="integer">177336608</label>
+			<label index="label_subelementsdetails" type="integer">174744048</label>
+			<label index="label_commentforreviewer" type="integer">17950935</label>
+			<label index="label_commentforpublisher" type="integer">151962634</label>
+			<label index="label_resetstage" type="integer">35072540</label>
+			<label index="label_undefined" type="integer">247528449</label>
+			<label index="explain_reject" type="integer">227611704</label>
+			<label index="label_element" type="integer">36810724</label>
+			<label index="label_page" type="integer">26464201</label>
+			<label index="label_branch" type="integer">229432195</label>
+			<label index="label_newrecord" type="integer">23930316</label>
+			<label index="label_deletedrecord" type="integer">133228756</label>
+			<label index="label_otherversions" type="integer">135750168</label>
+			<label index="label_multipleversions" type="integer">84443106</label>
+			<label index="label_nestedversions" type="integer">156896237</label>
+			<label index="label_rejected" type="integer">221753846</label>
+			<label index="label_showsubelements" type="integer">39067777</label>
+			<label index="label_onlymychanges" type="integer">25712476</label>
+			<label index="label_offlineWSes" type="integer">123272696</label>
+			<label index="label_allWSes" type="integer">111578433</label>
+			<label index="label_notapplicable" type="integer">41203329</label>
+			<label index="label_percentchange" type="integer">113276837</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_labels_tablabel">Workspace overview</label>
+			<label index="mlang_labels_tabdescr">Workspace overview showing the changes you have made in the workspace. Here you can also publish the changes to the website if you are allowed to do that.</label>
+			<label index="mlang_tabs_tab">Workspace</label>
+			<label index="title">Workspace Manager</label>
+			<label index="menuitem_review">Review and Publish</label>
+			<label index="menuitem_workspaces">Workspace List</label>
+			<label index="filter_drafts">Drafts</label>
+			<label index="filter_archive">Archive</label>
+			<label index="filter_all">All</label>
+			<label index="diff_no_diff">Do not show differences</label>
+			<label index="diff_show_inline">Show differences inline</label>
+			<label index="diff_show_popup">Show diff. popups (branches)</label>
+			<label index="label_errors">Errors:</label>
+			<label index="workspace_description_live">The LIVE workspace allows changes to take effect immediately on the website. However versioning can be applied inside the live workspace and this overview shows you draft and archive versions from the various workspaces, including the LIVE workspace.</label>
+			<label index="workspace_description_draft">In the Draft workspace all changes will be made as new versions of the live content. Changes can be previewed, reviewed and eventually published live.</label>
+			<label index="workspace_description_no_access">You have no access to any workspace which might be an error. Please contact you administrator!</label>
+			<label index="edit_workspace_no_permission">You have no permission to edit this workspace. Only admin users or owners of the workspace can modify its parameters.</label>
+			<label index="create_workspace_no_permission">You have no permission to create workspaces. Only admin users can create workspaces.</label>
+			<label index="submit_publish_workspace">Publish workspace</label>
+			<label index="submit_publish_workspace_confirmation_1">Are you sure you want to publish all content in &quot;Publish&quot; stage from the workspace?</label>
+			<label index="submit_publish_workspace_confirmation_2">Are you sure you want to publish all content from the workspace?</label>
+			<label index="submit_swap_workspace">Swap workspace</label>
+			<label index="submit_swap_workspace_confirmation_1">Are you sure you want to publish (swap) all content in &quot;Publish&quot; stage from the workspace?</label>
+			<label index="submit_swap_workspace_confirmation_2">Are you sure you want to publish (swap) all content from the workspace?</label>
+			<label index="no_publish_permission">You are not permitted to publish from this workspace</label>
+			<label index="label_workspace">Workspace:</label>
+			<label index="label_description">Description:</label>
+			<label index="label_options">Options:</label>
+			<label index="label_status">Status:</label>
+			<label index="label_pagetree">Pagetree:</label>
+			<label index="label_live_version">Live Version:</label>
+			<label index="label_draft_versions">Workspace Versions:</label>
+			<label index="label_stage">Stage:</label>
+			<label index="label_publish">Publish:</label>
+			<label index="label_lifecycle">Lifecycle:</label>
+			<label index="label_access_level">Access level:</label>
+			<label index="img_title_publish">Publish</label>
+			<label index="img_title_swap">Swap</label>
+			<label index="remove_from_ws_confirmation">Remove from workspace?</label>
+			<label index="img_title_remove_from_ws">Remove from workspace?</label>
+			<label index="img_title_edit_page">Edit page</label>
+			<label index="img_title_edit_element">Edit element</label>
+			<label index="img_title_show_log">Show Log</label>
+			<label index="diffview_label_field_name">Fieldname:</label>
+			<label index="diffview_label_colored_diff_view">Colored diff-view:</label>
+			<label index="diffview_complete_match">Complete match on editable fields.</label>
+			<label index="diffview_cannot_find_records">ERROR: Records could strangely not be found!</label>
+			<label index="img_title_show_more">Show more</label>
+			<label index="img_title_current_workspace">This is a current workspace!</label>
+			<label index="img_title_create_new_workspace">Create new workspace</label>
+			<label index="link_text_create_new_workspace">Create new workspace</label>
+			<label index="edit_workspace_go_back">Go back</label>
+			<label index="edit_workspace_title_edit">Edit workspace</label>
+			<label index="edit_workspace_title_new">Create new workspace</label>
+			<label index="workspace_list_label_current_workspace">Current:</label>
+			<label index="workspace_list_label_workspace_title">Title:</label>
+			<label index="workspace_list_label_workspace_description">Description:</label>
+			<label index="workspace_list_label_owners">Owners:</label>
+			<label index="workspace_list_label_members">Members:</label>
+			<label index="workspace_list_label_reviewers">Reviewers:</label>
+			<label index="workspace_list_access_admins_only">Admins only</label>
+			<label index="workspace_list_access_anyone">no restrictions</label>
+			<label index="workspace_list_label_file_mountpoints">File mountpoints:</label>
+			<label index="workspace_list_label_db_mountpoints">Database mountpoints:</label>
+			<label index="workspace_list_label_frozen">Frozen:</label>
+			<label index="workspace_list_label_publish_date">Publish date:</label>
+			<label index="workspace_list_label_unpublish_date">Unpublish date:</label>
+			<label index="workspace_list_label_your_access">Your access:</label>
+			<label index="workspace_list_label_workspace_users">Workspace users:</label>
+			<label index="workspace_list_label_frozen_yes">Yes</label>
+			<label index="workspace_list_label_frozen_no">No</label>
+			<label index="workspace_list_icon_title_edit_workspace">Edit workspace</label>
+			<label index="workspace_list_icon_title_switch_workspace">Switch workspace</label>
+			<label index="workspace_list_access_admin">Admin</label>
+			<label index="workspace_list_access_online">Online</label>
+			<label index="workspace_list_access_offline">Offline</label>
+			<label index="workspace_list_access_owner">Owner</label>
+			<label index="workspace_list_access_member">Member</label>
+			<label index="workspace_list_access_reviewer">Reviewer</label>
+			<label index="workspace_list_publishing_count_draft">Draft</label>
+			<label index="workspace_list_publishing_count_archive">Archive</label>
+			<label index="workspace_list_publishing_count">Published %d times</label>
+			<label index="stage_sent_to_review">&quot;%s&quot; sent element to &quot;Review&quot;</label>
+			<label index="stage_approved_for_publish">&quot;%s&quot; approved for &quot;Publish&quot;</label>
+			<label index="stage_rejected">&quot;%s&quot; rejected element!</label>
+			<label index="stage_reset_to_editing">&quot;%s&quot; reset to &quot;Editing&quot;</label>
+			<label index="stage_undefined">[undefined]</label>
+			<label index="stage_label_user_comment">User Comment:</label>
+			<label index="workspace_list_mount_point_inaccessible">This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</label>
+			<label index="workspace_list_file_mount_point_live">Mount points from user profile are used.</label>
+			<label index="workspace_list_file_mount_point_draft">File mount points are not available in draft workspace.</label>
+			<label index="workspace_list_file_mount_point_custom">File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</label>
+			<label index="workspace_list_db_mount_point_live">Mount points from user profile are used.</label>
+			<label index="workspace_list_db_mount_point_draft">Mount points from user profile are used.</label>
+			<label index="workspace_list_db_mount_point_custom">Mount points from user profile are used.</label>
+			<label index="publish_title">Publish workspace</label>
+			<label index="swap_title">Swap workspace</label>
+			<label index="publish_status">Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</label>
+			<label index="swap_status">Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</label>
+			<label index="publish_prepare">TYPO3 is preparing to publish records.</label>
+			<label index="swap_prepare">TYPO3 is preparing to swap records.</label>
+			<label index="please_wait">Please, wait...</label>
+			<label index="return_to_index">Return to Workspace module</label>
+			<label index="do_not_interrupt_publishing_1">Do not interrupt publishing process or</label>
+			<label index="do_not_interrupt_publishing_2">workspace may be left in half-published state!</label>
+			<label index="workspace_published">Workspace has been published.</label>
+			<label index="workspace_swapped">Workspace has been swapped.</label>
+			<label index="label_reject">Reject</label>
+			<label index="label_review">Review</label>
+			<label index="label_sendtoreview">Send to review</label>
+			<label index="label_approveforpublishing">Approve for publishing</label>
+			<label index="stage_editing">Editing</label>
+			<label index="stage_review">Review</label>
+			<label index="stage_publish">Publish</label>
+			<label index="label_subelements">Sub elements</label>
+			<label index="label_subelementsdetails">Sub elements, click for details</label>
+			<label index="label_commentforreviewer">Comment for Reviewer:</label>
+			<label index="label_commentforpublisher">Comment for Publisher:</label>
+			<label index="label_resetstage">Reset stage</label>
+			<label index="label_undefined">Undefined</label>
+			<label index="explain_reject">Please explain why you reject:</label>
+			<label index="label_element">Element</label>
+			<label index="label_page">Page</label>
+			<label index="label_branch">Branch</label>
+			<label index="label_newrecord">New element</label>
+			<label index="label_deletedrecord">Deleted element</label>
+			<label index="label_otherversions">Other version(s) in workspace(s):</label>
+			<label index="label_multipleversions">Multiple versions in same workspace!</label>
+			<label index="label_nestedversions">Version inside version!</label>
+			<label index="label_rejected">Rejected</label>
+			<label index="label_showsubelements">Show sub elements</label>
+			<label index="label_onlymychanges">Show only my changes</label>
+			<label index="label_offlineWSes">Draft workspaces</label>
+			<label index="label_allWSes">All workspaces</label>
+			<label index="label_notapplicable">n/a</label>
+			<label index="label_percentchange">%%% change:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

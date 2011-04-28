@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="title">Πληροφορίες σελίδας</label>
+			<label index="depth_0">Αυτήν τη σελίδα</label>
+			<label index="depth_1">1 επίπεδο</label>
+			<label index="depth_2">2 επίπεδα</label>
+			<label index="depth_3">3 επίπεδα</label>
+			<label index="mlang_labels_tablabel">Πληροφορίες σχετικά με τις σελίδες, όπως για παράδειγμα στατιστικά επισκεψιμότητας, αρχείο καταγραφής αλλαγών, καταμέτρηση εγγραφών κλπ.</label>
+			<label index="mlang_labels_tabdescr">Ο ιστός &gt; Η μονάδα Πληροφοριών είναι επικεντρωμένη στην παροχή στατιστικών πληροφοριών που αφορούν τις σελίδες. Αυτά περιλαμβάνουν στατιστικά επισκεψιμότητας και αρχείου καταγραφής αλλαγών που επιτρέπει την πλοήγηση στο ιστορικό της σελίδας. Μια γενική εικόνα του πλήθους των εγγραφών που συνδέονται με κάθε σελίδα καθώς και των ρυθμίσεων αυτών των σελίδων είναι διαθέσιμη και προβάλλετε σε μια δενδροειδή απεικόνιση. &lt;br /&gt;</label>
+			<label index="mlang_tabs_tab">Πληροφορίες</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="title" type="double">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">207029193</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="title">Page information</label>
+			<label index="depth_0">This page</label>
+			<label index="depth_1">1 level</label>
+			<label index="depth_2">2 levels</label>
+			<label index="depth_3">3 levels</label>
+			<label index="mlang_labels_tablabel">Page related information, eg. hit statistics, change log, record counts</label>
+			<label index="mlang_labels_tabdescr">The Web&gt;Info module is focused on statistic information about pages. This includes statistics of pagehits and a changelog allowing browsing of page history changes. An overview of the number of records on each page as well as page settings presented in a classic tree structure is provided.</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

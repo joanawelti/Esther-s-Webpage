@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">Web &gt; Pagina</label>
+			<label index=".description">Il modulo Pagina viene selezionato dal menu del backend, ed è il modulo principale per tutte le operazioni di base per la gestione dei contenuti del sito.</label>
+			<label index="quickEdit.alttitle">Quick Editor</label>
+			<label index="quickEdit.description">Attraverso il Quick Editor puoi accesso diretto al contenuto della pagina.</label>
+			<label index="quickEdit.details">Il Quick Editor è stato concepito per poter accedere con pochi click al contenuto della pagina. Cliccando il titolo della pagina nell'albero delle pagine viene aperto il primo blocco di contenuto della pagina. Attraverso la toolbar puoi accedere agli altri blocchi di contenuto presenti nella pagina.</label>
+			<label index="quickEdit_selElement.alttitle">Elementi Contenuto</label>
+			<label index="quickEdit_selElement.description">Visione d'insieme del contenuto della pagina. Seleziona un altro blocco da modificare o clicca sull'icona &quot;Nuovo&quot;per crearne uno di nuovo.</label>
+			<label index="columns_1.alttitle">Lista per Colonne</label>
+			<label index="columns_1.description">Attraverso la vista a colonne puoi visualizzare il contenuto della pagina secondo la sua reale disposizione su più colonne.</label>
+			<label index="columns_2.alttitle">Lista per Lingua</label>
+			<label index="columns_3.alttitle">Informazioni sulla pagina</label>
+			<label index="language_list.alttitle">Vista traduzioni</label>
+			<label index="columns_single.alttitle">Elementi di contenuto in una singola colonna</label>
+			<label index="button_panel.alttitle">i &quot;grandi pulsanti&quot;</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+			<label index="language_list.alttitle" type="double">5495420</label>
+			<label index="button_panel.alttitle" type="integer">66291190</label>
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index=".description" type="integer">255949225</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="columns_1.alttitle" type="integer">183363228</label>
+			<label index="columns_2.alttitle" type="double">8205541</label>
+			<label index="columns_single.alttitle" type="integer">177139761</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="columns_3.alttitle">Page Information</label>
+			<label index="language_list.alttitle">Language view</label>
+			<label index="button_panel.alttitle">The &quot;Big Buttons&quot;</label>
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index=".description">The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="columns_1.alttitle">Listing by Column</label>
+			<label index="columns_2.alttitle">Listing by Language</label>
+			<label index="columns_single.alttitle">Page content elements in a single column</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

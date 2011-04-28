@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="No markup">Inget teckenformat</label>
+			<label index="Remove markup">Ta bort teckenformat</label>
+			<label index="FormatText-Tooltip">Använd format på markerad text</label>
+			<label index="Big-Tooltip">Stor text</label>
+			<label index="Bold-Tooltip">Fet</label>
+			<label index="Citation-Tooltip">Citering</label>
+			<label index="Code-Tooltip">Datorkod</label>
+			<label index="Definition-Tooltip">Definition</label>
+			<label index="DeletedText-Tooltip">Raderad text</label>
+			<label index="Emphasis-Tooltip">Betoning</label>
+			<label index="Keyboard-Tooltip">Text som ska anges av användaren</label>
+			<label index="InsertedText-Tooltip">Infogad text</label>
+			<label index="Italic-Tooltip">Kursiv</label>
+			<label index="MonoSpaced-Tooltip">Icke-proportionell text</label>
+			<label index="Quotation-Tooltip">Kort citat</label>
+			<label index="Sample-Tooltip">Exempel på utdata från program</label>
+			<label index="Small-Tooltip">Liten text</label>
+			<label index="Span-Tooltip">Stilbehållare</label>
+			<label index="StrikeThrough-Tooltip">Genomstruken text</label>
+			<label index="Strong-Tooltip">Stark betoning</label>
+			<label index="Subscript-Tooltip">Nedsänkt</label>
+			<label index="Superscript-Tooltip">Upphöjd</label>
+			<label index="Underline-Tooltip">Understruken</label>
+			<label index="Variable-Tooltip">Variabel eller programargument</label>
+			<label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="No markup" type="integer">438135</label>
+			<label index="Remove markup" type="integer">160564254</label>
+			<label index="FormatText-Tooltip" type="integer">68174344</label>
+			<label index="Big-Tooltip" type="integer">219697374</label>
+			<label index="Bold-Tooltip" type="integer">18137861</label>
+			<label index="Citation-Tooltip" type="integer">92773637</label>
+			<label index="Code-Tooltip" type="integer">9460030</label>
+			<label index="Definition-Tooltip" type="integer">12095665</label>
+			<label index="DeletedText-Tooltip" type="integer">203450772</label>
+			<label index="Emphasis-Tooltip" type="integer">70412501</label>
+			<label index="Keyboard-Tooltip" type="integer">263034582</label>
+			<label index="InsertedText-Tooltip" type="integer">189297700</label>
+			<label index="Italic-Tooltip" type="integer">30962801</label>
+			<label index="MonoSpaced-Tooltip" type="integer">226699895</label>
+			<label index="Quotation-Tooltip" type="integer">6095829</label>
+			<label index="Sample-Tooltip" type="integer">72033692</label>
+			<label index="Small-Tooltip" type="integer">116401167</label>
+			<label index="Span-Tooltip" type="integer">84664734</label>
+			<label index="StrikeThrough-Tooltip" type="integer">107675429</label>
+			<label index="Strong-Tooltip" type="integer">214271069</label>
+			<label index="Subscript-Tooltip" type="integer">153638286</label>
+			<label index="Superscript-Tooltip" type="integer">103903129</label>
+			<label index="Underline-Tooltip" type="integer">139620890</label>
+			<label index="Variable-Tooltip" type="integer">257494913</label>
+			<label index="Technische Universitat Ilmenau" type="integer">62570617</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="No markup">No text format</label>
+			<label index="Remove markup">Remove text format</label>
+			<label index="FormatText-Tooltip">Apply format to selected text</label>
+			<label index="Big-Tooltip">Large text</label>
+			<label index="Bold-Tooltip">Bold</label>
+			<label index="Citation-Tooltip">Citation</label>
+			<label index="Code-Tooltip">Computer code fragment</label>
+			<label index="Definition-Tooltip">Definition</label>
+			<label index="DeletedText-Tooltip">Deleted text</label>
+			<label index="Emphasis-Tooltip">Emphasis</label>
+			<label index="Keyboard-Tooltip">Text to be entered by the user</label>
+			<label index="InsertedText-Tooltip">Inserted text</label>
+			<label index="Italic-Tooltip">Italic</label>
+			<label index="MonoSpaced-Tooltip">Monospaced text</label>
+			<label index="Quotation-Tooltip">Short inline quotation</label>
+			<label index="Sample-Tooltip">Sample program output or script</label>
+			<label index="Small-Tooltip">Small text</label>
+			<label index="Span-Tooltip">Style container</label>
+			<label index="StrikeThrough-Tooltip">Strike-through text</label>
+			<label index="Strong-Tooltip">Strong emphasis</label>
+			<label index="Subscript-Tooltip">Subscript</label>
+			<label index="Superscript-Tooltip">Superscript</label>
+			<label index="Underline-Tooltip">Underline</label>
+			<label index="Variable-Tooltip">Variable or program argument</label>
+			<label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

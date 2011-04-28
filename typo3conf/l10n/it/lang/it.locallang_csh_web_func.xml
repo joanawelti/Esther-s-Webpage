@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">Web &gt; modulo Funzioni</label>
+			<label index=".description">L'idea base del modulo Web&gt;Funzioni é quella di essere un modulo &quot;contenitore&quot; per quelle applicazioni del backend che devono eseguire operazioni sulle pagine o su gruppi di pagine.</label>
+			<label index=".details">Concettualmente il modulo Web&gt;Funzioni é differente dal modulo Web&gt;Informazioni solo per il fatto di poter operare con funzioni sulle pagine, anziché offrire soltanto informazioni su di esse. Sta ai programmatori delle estensioni decidere in quale di questi due moduli inserire le funzioni.</label>
+			<label index=".image_descr">Il modulo Web&gt;Funzioni fornito dal Core é una conchiglia vuota. Fornisce una API che le estensioni possono usare per aggiungere elementi al menù funzioni nel modulo Web&gt;Funzioni.
+Qui si mostra l'estensione Wizard (func_wizards) che fornisce le funzioni base del Menù Funzioni nell'angolo in alto a destra.
+Il selettore &quot;Seleziona Wizard&quot; permette all'utente di attivare un altro livello di funzionalità (altri wizards) che sono forniti da altre estensioni, qui ad esempio l'estensione &quot;wizard_sortpages&quot;.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle" type="integer">71377935</label>
+			<label index=".description" type="integer">14650895</label>
+			<label index=".details" type="integer">131063786</label>
+			<label index=".image_descr" type="integer">75524368</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">Web &gt; Functions module</label>
+			<label index=".description">The idea of the Web&gt;Functions module is to be a host module for backend applications that wish to perform processing of pages or branches of the page tree.</label>
+			<label index=".details">Conceptually the Web&gt;Functions module is different from the Web&gt;Info module only by offering processing  functionality rather than offering information only. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</label>
+			<label index=".image_descr">The Web&gt;Functions module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Web&gt;Function module. This shows the Wizard extension (func_wizards) providing the main Function Menu item in upper right corner. The &quot;Select Wizard&quot; selectorbox allows the user to select another level of functionality (different wizards) which are provided by other extensions, here the &quot;wizard_sortpages&quot; extension.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

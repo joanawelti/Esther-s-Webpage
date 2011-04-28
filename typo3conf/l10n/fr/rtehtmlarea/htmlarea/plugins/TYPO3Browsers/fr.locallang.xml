@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="external_link_altText">Ouvre ce lien externe dans la fenêtre courante</label>
+			<label index="external_link_titleText">Ouvre ce lien externe dans la fenêtre courante</label>
+			<label index="external_link_new_window_altText">Ouvre ce lien externe dans une nouvelle fenêtre</label>
+			<label index="external_link_new_window_titleText">Ouvre ce lien externe dans une nouvelle fenêtre</label>
+			<label index="internal_link_altText">Ouvre ce lien interne dans la fenêtre courante</label>
+			<label index="internal_link_titleText">Ouvre ce lien interne dans la fenêtre courante</label>
+			<label index="internal_link_new_window_altText">Ouvre ce lien interne dans une nouvelle fenêtre</label>
+			<label index="internal_link_new_window_titleText">Ouvre ce lien interne dans une nouvelle fenêtre</label>
+			<label index="download_altText">Démarre le téléchargement du fichier</label>
+			<label index="download_titleText">Démarre le téléchargement du fichier</label>
+			<label index="mail_altText">Ouvre une fenêtre d'envoi de courrier électronique</label>
+			<label index="mail_titleText">Ouvre une fenêtre d'envoi de courrier électronique</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="external_link_altText" type="integer">127279570</label>
+			<label index="external_link_titleText" type="integer">127279570</label>
+			<label index="external_link_new_window_altText" type="integer">159183899</label>
+			<label index="external_link_new_window_titleText" type="integer">159183899</label>
+			<label index="internal_link_altText" type="integer">7332359</label>
+			<label index="internal_link_titleText" type="integer">7332359</label>
+			<label index="internal_link_new_window_altText" type="integer">198474674</label>
+			<label index="internal_link_new_window_titleText" type="integer">198474674</label>
+			<label index="download_altText" type="integer">27837997</label>
+			<label index="download_titleText" type="integer">27837997</label>
+			<label index="mail_altText" type="integer">210920015</label>
+			<label index="mail_titleText" type="integer">210920015</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

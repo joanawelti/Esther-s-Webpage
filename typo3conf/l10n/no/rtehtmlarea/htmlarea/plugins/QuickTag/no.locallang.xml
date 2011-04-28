@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="Quick Tag Editor">Sett inn tag</label>
+			<label index="Enter the TAG you want to insert">Skriv inn taggen du vil sette inn</label>
+			<label index="You have to select some text">Du må markere noe tekst</label>
+			<label index="There are some unclosed quote">Noen anførselstegn har ikke blitt avsluttet</label>
+			<label index="This attribute already exists in the TAG">Dette attributtet eksisterer allerede i taggen</label>
+			<label index="No CSS class avaiable">Ingen CSS-klasser tilgjengelig</label>
+			<label index="OPTIONS">VALG</label>
+			<label index="ATTRIBUTES">ATTRIBUTTER</label>
+			<label index="TAGs">TAGGER</label>
+			<label index="Colors">Farger</label>
+			<label index="Ok">OK</label>
+			<label index="Cancel">Avbryt</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="Quick Tag Editor" type="integer">42781729</label>
+			<label index="Enter the TAG you want to insert" type="integer">105221784</label>
+			<label index="You have to select some text" type="integer">71928577</label>
+			<label index="There are some unclosed quote" type="integer">205096681</label>
+			<label index="This attribute already exists in the TAG" type="integer">200900540</label>
+			<label index="No CSS class avaiable" type="integer">241415811</label>
+			<label index="OPTIONS" type="integer">23387490</label>
+			<label index="ATTRIBUTES" type="integer">231553312</label>
+			<label index="TAGs" type="integer">235329720</label>
+			<label index="Colors" type="integer">97847433</label>
+			<label index="Ok" type="integer">174097711</label>
+			<label index="Cancel" type="integer">245659783</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

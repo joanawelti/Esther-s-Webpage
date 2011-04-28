@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="folderTree">Drevo map</label>
+			<label index="uploadImage">Dodaj sliko</label>
+			<label index="path">Pot</label>
+			<label index="images">Slike</label>
+			<label index="magicImage_msg">V &quot;čarobnem&quot; načinu lahko izberete sliko s kakrąnemkoli formatu ali velikosti. Program sliko avtomatično pretvori v spletni format in pravo velikost. Vse vaąe nastavitve velikosti se izvedejo naknadno, zaradi optimizacije velikosti in kvalitete.</label>
+			<label index="plainImage_msg">V &quot;običajnem&quot; načinu lahko dodajate samo slike v spletnem formatu (JPG,GIF in PNG) do velikosti 640x480 točk. Ta način uporabite pri slikah, ki so ľe optimizirane za splet.</label>
+			<label index="class">Stil</label>
+			<label index="width">Širina</label>
+			<label index="height">Višina</label>
+			<label index="border">Okvir</label>
+			<label index="margin_tb">Rob zgoraj/spodaj</label>
+			<label index="margin_lr">Rob levo/desno</label>
+			<label index="float">Lebdenje</label>
+			<label index="notSet">Ni nastavljeno</label>
+			<label index="nonFloating">Nelebdeče</label>
+			<label index="left">Levo</label>
+			<label index="right">Desno</label>
+			<label index="title">Naslov</label>
+			<label index="alt">Nadomestno besedilo</label>
+			<label index="update">Osveľi</label>
+			<label index="magicImage">Nova 'čarobna' slika</label>
+			<label index="plainImage">Nova običajna slika</label>
+			<label index="dragDropImage">Potegni in spusti</label>
+			<label index="currentImage">Trenutna slika</label>
+			<label index="bytes">bajtov</label>
+			<label index="pixels">pikslov</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="currentImage" type="integer">205301887</label>
+			<label index="class" type="integer">182617337</label>
+			<label index="float" type="integer">36364514</label>
+			<label index="notSet" type="integer">163210921</label>
+			<label index="nonFloating" type="integer">169566595</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="alt" type="integer">237067341</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="bytes" type="integer">78882337</label>
+			<label index="pixels" type="integer">221878344</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index="folderTree">Folder tree</label>
+			<label index="uploadImage">Upload Image</label>
+			<label index="path">Path</label>
+			<label index="images">Images</label>
+			<label index="magicImage_msg">In &quot;Magic&quot; mode you can select any kind of image with any dimensions. The image is automatically converted to a web image format and any adjustments you make to the size of the image is post processed in order to optimize size and quality.</label>
+			<label index="plainImage_msg">In &quot;Plain&quot; mode you can insert only web image formats (jpg,jpeg,gif,png) up to %1$sx%2$s pixels. This method is designed for images which are optimized for web already.</label>
+			<label index="class">Style</label>
+			<label index="width">Width</label>
+			<label index="height">Height</label>
+			<label index="border">Border</label>
+			<label index="margin_tb">Margin top/bottom</label>
+			<label index="margin_lr">Margin left/right</label>
+			<label index="float">Float</label>
+			<label index="notSet">Not set</label>
+			<label index="nonFloating">Non-floating</label>
+			<label index="left">Left</label>
+			<label index="right">Right</label>
+			<label index="title">Title</label>
+			<label index="alt">Alternate text</label>
+			<label index="update">Update</label>
+			<label index="magicImage">New Magic Image</label>
+			<label index="plainImage">New Plain Image</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Current Image</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixels</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,10 @@
+# Seite weiterempfehlen
+temp.empfehlen = COA 
+temp.empfehlen { 
+  wrap = <a href="index.php?id=16"><img src="fileadmin/templates/internet_corporation/images/tip.png" border="0" alt="Seite weiterempfehlen"></a> 
+  postUserFunc.windowparams = (resizable=yes,toolbar=yes,scrollbars=yes,menubar=no,width=800,height=500) 
+  1 = TEXT 
+  1.data = TSFE : | 
+  1.typolink.tipUrl="http://myhost.ch/index.php?id="|
+  1.typolink.parameter = | 
+}

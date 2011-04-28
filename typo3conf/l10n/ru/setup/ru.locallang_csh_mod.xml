@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index=".alttitle">Пользователь &gt; Настройки</label>
+			<label index=".description">Модуль настройки позволяет внутреннему пользователю настраивать TYPO3. К таким настройкам относятся язык системы и настройка интерфейса.</label>
+			<label index=".details">&lt;b&gt;Примечениеe [Для Администраторов]:&lt;/b&gt; Эти настройки могут быть принудительно изменены или возвращены к значениям по умолчанию изменением &quot;User TSconfig&quot;. Чтобы узнать больше об этой возможности - пройдите по ссылке ниже.</label>
+			<label index=".image_descr">модуль Настройки выбирается в меню слева. Так выглядит настройка интерфейса - список опций для настройки.</label>
+			<label index="language.alttitle">Выбор языка системы</label>
+			<label index="language.description">Выберите нужный язык системы. БОльшая часть системы TYPO3 (для простых пользователей) переведена на другие языки.</label>
+			<label index="language.image_descr">TYPO3 переведена более чем на 40 языков. Английский является языком по умолчанию и все надписи существуют на английском и доступны в начале и в любой момент. Эти скриншоты показывают перевод на иврит, арабский, русский и китайский.</label>
+			<label index="option_condensedMode.alttitle">Компактный режим</label>
+			<label index="option_condensedMode.description">В этом режиме дерево страниц и содержание отображаются попеременно. Это позволяет улучшить отображение на маленьких экранах.</label>
+			<label index="option_noMenuMode.alttitle">Режим Навигации</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index=".details" type="integer">127028415</label>
+			<label index=".image_descr" type="integer">55722408</label>
+			<label index="language.alttitle" type="integer">189480609</label>
+			<label index="language.description" type="integer">107138542</label>
+			<label index="language.image_descr" type="integer">67910929</label>
+			<label index="option_condensedMode.alttitle" type="integer">195403291</label>
+			<label index="option_condensedMode.description" type="integer">263779261</label>
+			<label index="option_noMenuMode.alttitle" type="integer">146834180</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index=".details">&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by &quot;User TSconfig&quot;. To read more about this concept, see the link below!</label>
+			<label index=".image_descr">The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</label>
+			<label index="language.alttitle">Backend Language selection</label>
+			<label index="language.description">Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</label>
+			<label index="language.image_descr">TYPO3 is translated into around 40 languages. English is the default language and all labels must be available in English first and foremost. This screenshot shows translations for Hebrew, Arabic, Russian and Chinese.</label>
+			<label index="option_condensedMode.alttitle">Condensed Mode</label>
+			<label index="option_condensedMode.description">If set, the backend will not load the Web-submodules and File-submodules in a frameset but allow the page and folder trees to load the submodule in the main content frame. This allows for a better display on small screens.</label>
+			<label index="option_noMenuMode.alttitle">Navigation Mode</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

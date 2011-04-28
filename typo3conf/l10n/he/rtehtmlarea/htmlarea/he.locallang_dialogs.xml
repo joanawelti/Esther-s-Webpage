@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="OK">אישור</label>
+			<label index="Cancel">בטל</label>
+			<label index="Close">סגור</label>
+			<label index="Left">שמאל</label>
+			<label index="Right">ימין</label>
+			<label index="Border">מסגרת</label>
+			<label index="Insert Table">הכנס טבלה</label>
+			<label index="Pixels">פיקסלים</label>
+			<label index="Image URL:">קישור לתמונה:</label>
+			<label index="Preview">תצוגה מקדימה</label>
+			<label index="About">אודות</label>
+			<label index="License">רישיון</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="OK" type="integer">235577377</label>
+			<label index="Cancel" type="integer">245659783</label>
+			<label index="Close" type="integer">222113377</label>
+			<label index="Left" type="integer">155571682</label>
+			<label index="Right" type="integer">153815495</label>
+			<label index="Border" type="integer">7361862</label>
+			<label index="Insert Table" type="integer">111652295</label>
+			<label index="Pixels" type="integer">205336413</label>
+			<label index="Image URL:" type="integer">56765140</label>
+			<label index="Preview" type="integer">52420219</label>
+			<label index="About" type="integer">150467777</label>
+			<label index="License" type="integer">127196983</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="OK">OK</label>
+			<label index="Cancel">Cancel</label>
+			<label index="Close">Close</label>
+			<label index="Left">Left</label>
+			<label index="Right">Right</label>
+			<label index="Border">Border</label>
+			<label index="Insert Table">Insert Table</label>
+			<label index="Pixels">Pixels</label>
+			<label index="Image URL:">Image URL:</label>
+			<label index="Preview">Preview</label>
+			<label index="About">About</label>
+			<label index="License">License</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

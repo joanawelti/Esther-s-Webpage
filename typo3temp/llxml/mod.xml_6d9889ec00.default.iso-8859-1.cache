@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:79:"typo3/sysext/aboutmodules/mod/locallang_mod.xml|06-10-2010 09:40:06|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:3:{s:21:"mlang_labels_tablabel";s:25:"Information about modules";s:21:"mlang_labels_tabdescr";s:40:"Shows this page about available modules.";s:14:"mlang_tabs_tab";s:13:"About Modules";}}}

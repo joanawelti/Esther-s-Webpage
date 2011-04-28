@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="mlang_labels_tablabel">Datubāzes integritātes pārbaude</label>
+			<label index="mlang_labels_tabdescr">Šeit Jūs varat parbaudīt integritāti datubažu tabulās, kuras ir aprakstītas ar $TCA. Piemēram, visiem ierakstiem japieder vienai lapai. Piedevām, tiek pārbaudīta failu eksistence augšuplādējāmajiem ierakstiem (parasti uploads/* direktorijos). Jūs varat apskatīt pilnu lapas koku, pat ar dzēstajām lapām. Nobeigamā Jums ir iespēja piekļūt globālās datubāzes meklēšanas funkcijai.&lt;br /&gt;&lt;em&gt;Pieejams tikai administrātoriem!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB pārbaude</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="mlang_labels_tablabel">Database integrity check</label>
+			<label index="mlang_tabs_tab">DB check</label>
+			<label index="mlang_labels_tabdescr">Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

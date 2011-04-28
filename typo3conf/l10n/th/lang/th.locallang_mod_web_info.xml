@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="title">ข้อมูลหน้า</label>
+			<label index="depth_0">หน้านี้</label>
+			<label index="depth_1">1 ระดับ</label>
+			<label index="depth_2">2 ระดับ</label>
+			<label index="depth_3">3 ระดับ</label>
+			<label index="mlang_labels_tablabel">ข้อมูลที่สัมพันธ์กับ หน้า เช่นสถิติการเข้าชม บันทึกการเปลี่ยนแปลง นับจำนวนระเบียน</label>
+			<label index="mlang_labels_tabdescr">หน้า &gt; ข้อมูลโมดูล มุ่งเน้นในด้านข้อมูลสถิติเกี่ยวกับหน้า ประกอปด้วย สถิติการเข้าชม บันทึกการเปลี่ยนแปลง ซึ่งช่วยให้คุณดูประวัติการเปลี่ยนแปลงของหน้า คุณยังสามารถที่จะดูจำนวนระเบียนของแต่ละหน้ารวมทั้ง ค่าที่ตั้งต่างๆ แสดงในรูปแบบโครงสร้างต้นไม้</label>
+			<label index="mlang_tabs_tab">ข้อมูล</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="title" type="integer">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">160538617</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

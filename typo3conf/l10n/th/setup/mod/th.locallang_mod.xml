@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel">การตั้งค่าส่วนบุคคล</label>
+			<label index="mlang_labels_tabdescr">โมดูลนี้ อนุญาตให้ท่านปรับแต่งโพรไฟล์ของผู้ใช้ ณ ที่นี่ท่านสามารถเปลี่ยนภาษาทำงานของระบบ ชื่อ และ อีเมล์ ท่านยังสามารถค่าฟีเจอร์ทั่วๆไปของระบบได้อีกด้วย</label>
+			<label index="mlang_tabs_tab">การตั้งค่า</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel" type="integer">39109629</label>
+			<label index="mlang_labels_tabdescr" type="integer">237774117</label>
+			<label index="mlang_tabs_tab" type="integer">181548907</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

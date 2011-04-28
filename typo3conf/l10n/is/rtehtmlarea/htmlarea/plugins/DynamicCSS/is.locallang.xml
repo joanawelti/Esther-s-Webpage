@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="Default">Sjálfgefið</label>
+			<label index="Undefined">Óskilgreint</label>
+			<label index="DynamicCSSStyleTooltip">Setja snið á málsgrein</label>
+			<label index="frame-frame1">Rammi með gráum bakgrunni</label>
+			<label index="frame-frame2">Rammi með gulum bakgrunni</label>
+			<label index="important">Mikilvægt</label>
+			<label index="name-of-person">Nafn persónu</label>
+			<label index="detail">Smáatriði</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="Default" type="integer">128029197</label>
+			<label index="Undefined" type="integer">247528449</label>
+			<label index="DynamicCSSStyleTooltip" type="integer">171321932</label>
+			<label index="frame-frame1" type="integer">227775000</label>
+			<label index="frame-frame2" type="integer">132443473</label>
+			<label index="important" type="integer">11245645</label>
+			<label index="name-of-person" type="integer">60822295</label>
+			<label index="detail" type="integer">170216485</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="Default">Default</label>
+			<label index="Undefined">Undefined</label>
+			<label index="DynamicCSSStyleTooltip">Apply style to the containing paragraph</label>
+			<label index="frame-frame1">Frame with grey background</label>
+			<label index="frame-frame2">Frame with yellow background</label>
+			<label index="important">Important</label>
+			<label index="name-of-person">Name of person</label>
+			<label index="detail">Detail</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

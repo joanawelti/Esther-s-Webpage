@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index=".alttitle">Imports/Exports</label>
+			<label index="export.alttitle">Ierakstu eksportēšana no TYPO3</label>
+			<label index="pageTreeDisplay.alttitle">Lapas koks</label>
+			<label index="pageTreeMode.alttitle">Līmeņi</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index="export.alttitle" type="integer">9010103</label>
+			<label index="pageTreeDisplay.alttitle" type="integer">9880458</label>
+			<label index="pageTreeMode.alttitle" type="integer">152759754</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index="export.alttitle">Exporting records from TYPO3</label>
+			<label index="pageTreeDisplay.alttitle">Page Tree</label>
+			<label index="pageTreeMode.alttitle">Levels</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

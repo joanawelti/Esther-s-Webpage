@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="noTitle">بدون عنوان</label>
+			<label index="expand">فئة ممتدة</label>
+			<label index="pixels">بكسلز</label>
+			<label index="filesize">حجم الملف</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="noTitle" type="integer">184697729</label>
+			<label index="expand" type="integer">211276000</label>
+			<label index="pixels" type="integer">205336413</label>
+			<label index="filesize" type="integer">186172059</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="noTitle">No title</label>
+			<label index="expand">Expand category</label>
+			<label index="pixels">Pixels</label>
+			<label index="filesize">Filesize</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

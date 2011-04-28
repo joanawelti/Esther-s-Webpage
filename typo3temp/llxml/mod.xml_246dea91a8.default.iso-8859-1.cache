@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:76:"typo3/sysext/viewpage/view/locallang_mod.xml|06-10-2010 09:40:04|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:3:{s:21:"mlang_labels_tablabel";s:9:"View page";s:21:"mlang_labels_tabdescr";s:74:"Shows the look of the current page and lets you edit the content directly.";s:14:"mlang_tabs_tab";s:4:"View";}}}

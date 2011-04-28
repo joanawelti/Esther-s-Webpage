@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="pagetree.alttitle">Drzewo Witryny</label>
+			<label index="pagetree.description">TYPO3 ma możliwości odzwierciedlania struktury witryny na drzewie.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="pagetree.alttitle" type="integer">178449317</label>
+			<label index="pagetree.description" type="integer">184743692</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="pagetree.alttitle">The Page Tree</label>
+			<label index="pagetree.description">This is the hierarchical organization of pages in TYPO3. Typically websites are build so they reflect the page structure in the page tree directly in the website navigation.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

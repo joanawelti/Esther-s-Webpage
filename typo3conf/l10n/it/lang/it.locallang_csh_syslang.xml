@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description">Inserire il nome della lingua di sistema addizionale.</label>
+			<label index="hidden.description">Questa opzione nasconderà la lingua di sistema nel backend.</label>
+			<label index=".description">Definisce quale lingue sono disponibili in ogni pagina web.</label>
+			<label index=".details">Il modulo della pagina web ha una opzione che consente agli utenti di modificare il contenuto delle pagine dividendolo non solo in colonne ma anche in lingue. Le lingue possibili per la traduzione sono determinate dal numero di record &quot;Website Language&quot; creati.
+Per poter visualizzare una pagina in un'altra lingua deve essere creato un record &quot;Alternative Page Language&quot;.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description" type="integer">111675524</label>
+			<label index="hidden.description" type="integer">199895530</label>
+			<label index=".description" type="integer">1687697</label>
+			<label index=".details" type="integer">190956227</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description">Enter the name of this additional system language.</label>
+			<label index="hidden.description">This option will hide the system language from being available in the backend.</label>
+			<label index=".description">Defines which languages are alternatively available on each webpage.</label>
+			<label index=".details">The Web&gt;Page module has a feature which allows users to edit page content divided into not only columns but also languages. The languages available for translation are determined by the number of Website Language record created.
+For a webpage to be available in another language an &quot;Alternative Page Language&quot; record must be created on the page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="Path">Slóð</label>
+			<label index="TEXT_MODE">Ritillinn er í textaham. Úttu á [&lt;&gt;] til að fara aftur í ritilinn.</label>
+			<label index="ActiveX-required">Til að nota textaritilinn í Internet Explorer þarft þú að samþykkja keyrslu á ActiveX.</label>
+			<label index="HTML-document-not-well-formed">HTML kóði skjalsins er ekki snyrtilegur.</label>
+			<label index="Moz-Clipboard">Til að geta notað klippa/afrita/líma skipanirnar í Mozilla/Firefox/Netscape þarft þú að stilla vafrann séstaklega. Ýttu á &quot;Í lagi&quot; til að opna upplýsingasíðu á Mozilla.org</label>
+			<label index="Moz-Extension">Af öryggisástæðum getur textaritillinn ekki fengið aðgang að klemmuspjaldi tölvunnar. Ýttu á &quot;Í lagi&quot; til að setja upp viðbót sem veitir textaritlinum leyfi til þess.</label>
+			<label index="Moz-Extension-Success">Uppsetningin gekk ljómandi vel. Til að virkja viðbótina þarft þú samt sem áður að slökkva á vafranum og kveikja aftur á honum.</label>
+			<label index="Moz-Extension-Failure">Því miður tókst ekki að setja viðbótina upp.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Ekki er hægt að setja viðbótina upp. Vinsamlegast athugaðu stillingar vafrans til að leyfa uppsetningu viðbóta frá þessari síðu.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Af öryggisástæðum getur textaritilllinn ekki fengið aðgang að klemmuspjaldi tölvunnar. Ýttu á &quot;Í lagi&quot; til að setja upp viðbót þar sem þú getur valið þær síður sem hafa aðgnag að klemmuspjaldinu.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Ekki er hægt að setja viðbótina upp. Vinsamlegast athugaðu stillingar vafrans til að leyfa uppsetningu viðbóta frá http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Uppsetningin gekk ljómandi vel. Til að virkja viðbótina þarft þú samt sem áður að slökkva á vafranum og kveikja aftur á honum. Því næst þart þú að nota &quot;AllowClipboard Helper&quot;  úr Tools valmynd vafrans til að gefa þessari síðu aðgang að klemmuspjaldinu</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="Path">Path</label>
+			<label index="TEXT_MODE">You are in TEXT MODE.  Use the [&lt;&gt;] button to switch back to WYSIWYG.</label>
+			<label index="ActiveX-required">Loading the editor in Internet Explorer requires the execution of ActiveX controls to be enabled.</label>
+			<label index="HTML-document-not-well-formed">The HTML document is not well-formed.</label>
+			<label index="Moz-Clipboard">Unprivileged scripts cannot access Cut/Copy/Paste programatically for security reasons. Click OK to see a technical note at mozilla.org which shows you how to allow a script to access the clipboard.</label>
+			<label index="Moz-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable applications from this site to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Moz-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect.</label>
+			<label index="Moz-Extension-Failure">Sorry, the installation failed.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from this site.</label>
+			<label index="Allow-Clipboard-Helper-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable you to specify the sites or pages that will be allowed to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect. Afterwards, use the AllowClipboard Helper from the tools menu to allow specific sites to use the clipboard.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

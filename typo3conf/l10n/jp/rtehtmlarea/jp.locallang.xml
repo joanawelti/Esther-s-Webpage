@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="Please wait">エディタはロード中です。もう少しまってください。。。</label>
+			<label index="Normal">ノーマル</label>
+			<label index="Heading 1">ヘッダー１</label>
+			<label index="Heading 2">ヘッダー２</label>
+			<label index="Heading 3">ヘッダー３</label>
+			<label index="Heading 4">ヘッダー４</label>
+			<label index="Heading 5">ヘッダー５</label>
+			<label index="Heading 6">ヘッダー６</label>
+			<label index="Preformatted">プリフォーマット</label>
+			<label index="Address">アドレス</label>
+			<label index="No font">フォント指定なし</label>
+			<label index="No size">サイズ指定なし</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="Please wait" type="integer">82508915</label>
+			<label index="Normal" type="integer">157332556</label>
+			<label index="Heading 1" type="integer">265768972</label>
+			<label index="Heading 2" type="integer">245733685</label>
+			<label index="Heading 3" type="integer">106071630</label>
+			<label index="Heading 4" type="integer">89382359</label>
+			<label index="Heading 5" type="integer">146836969</label>
+			<label index="Heading 6" type="integer">170177527</label>
+			<label index="Preformatted" type="integer">189632771</label>
+			<label index="Address" type="integer">232242979</label>
+			<label index="No font" type="integer">69479293</label>
+			<label index="No size" type="integer">122201874</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="Please wait">The editor is being loaded. Please wait...</label>
+			<label index="Normal">Normal</label>
+			<label index="Heading 1">Heading 1</label>
+			<label index="Heading 2">Heading 2</label>
+			<label index="Heading 3">Heading 3</label>
+			<label index="Heading 4">Heading 4</label>
+			<label index="Heading 5">Heading 5</label>
+			<label index="Heading 6">Heading 6</label>
+			<label index="Preformatted">Preformatted</label>
+			<label index="Address">Address</label>
+			<label index="No font">No font</label>
+			<label index="No size">No size</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

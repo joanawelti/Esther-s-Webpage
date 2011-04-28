@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Запис 'Страница' обикновенно представлява уеб страница в TYPO3. Всички страници имат id-номер по който могат да бъдат свързвани или референцирани. Записа 'Страница' не съдържа в себе си съдържанието на страницата - за тази цел трябва да създадете запис 'Съдържание на страницата'.</label>
+			<label index="title.description">Въведете заглавие на страницата или папката.</label>
+			<label index="doktype.description">Изберете тип на страницата. Това засяга дали страницата ще представлява видима уеб страница или е се използва за други нужди.</label>
+			<label index="TSconfig.description">Конфигурация на TypoScript страницата.</label>
+			<label index="TSconfig.syntax">Основния TypoScript синтаксис &lt;em&gt;без&lt;/em&gt; 'Условия' and 'Константи'.
+
+Препоръчително е само Админ потребители да имат разрешен достъп до това поле!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="TSconfig.syntax" type="integer">6236841</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

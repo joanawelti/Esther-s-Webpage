@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:72:"typo3/sysext/belog/mod/locallang_mod.xml|06-10-2010 09:40:05|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:3:{s:21:"mlang_labels_tablabel";s:11:"Viewing log";s:21:"mlang_labels_tabdescr";s:102:"Allows you access to the full backend changelog in TYPO3.<br /><em>Access for 'admin' users only!</em>";s:14:"mlang_tabs_tab";s:3:"Log";}}}

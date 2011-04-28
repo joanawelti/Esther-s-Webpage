@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="clipBoard">Rodyti iškarpine</label>
+			<label index="clip_paste">Įdėti į iškarpnės turinį</label>
+			<label index="clip_pasteInto">Įdėti į: Iškarpinės turinis jau yra šiame aplanke</label>
+			<label index="clip_markRecords">Žymėti visus/Nežymėti</label>
+			<label index="clip_selectMarked">Siųsti pažymėtas bylas į iškarpinę</label>
+			<label index="clip_deleteMarked">Šalinti pažymėtus</label>
+			<label index="clip_deleteMarkedWarning">Jus tikrai norite pašalinti pažymėtas bylas iš šio aplanko?</label>
+			<label index="displayThumbs">Rodyti glaustai</label>
+			<label index="c_file">Bylos pavadinimas</label>
+			<label index="c_size">Dydis</label>
+			<label index="c_fileext">Tipas</label>
+			<label index="c_tstamp">Data</label>
+			<label index="c_rw">Teisės</label>
+			<label index="c__REF_">Nuoroda</label>
+			<label index="files">bylos</label>
+			<label index="mlang_labels_tablabel">Bylų sąrašas kataloge</label>
+			<label index="mlang_labels_tabdescr">Čia yra bylų administravimo modulis TYPO3 sistemoje. Jo pagalba galėsite prieiti prie bylų savo susisjungimo seanse. Taip pat siųsti, kopijuoti, šalinti, perkelti bylas ant serverio.</label>
+			<label index="mlang_tabs_tab">Bylų sąrašąs</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="displayThumbs" type="integer">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+			<label index="c__REF_" type="integer">101427931</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="clipBoard">Show clipboard</label>
+			<label index="clip_paste">Paste in clipboard content</label>
+			<label index="clip_pasteInto">Paste into: Clipboard content is inserted into this folder</label>
+			<label index="clip_markRecords">Mark All/Mark none</label>
+			<label index="clip_selectMarked">Transfer the selection of files to clipboard</label>
+			<label index="clip_deleteMarked">Delete marked</label>
+			<label index="clip_deleteMarkedWarning">Are you sure you want to delete all marked files from this folder?</label>
+			<label index="displayThumbs">Display thumbnails</label>
+			<label index="c_file">Filename</label>
+			<label index="c_size">Size</label>
+			<label index="c_fileext">Type</label>
+			<label index="c_tstamp">Date</label>
+			<label index="c_rw">RW</label>
+			<label index="c__REF_">Ref</label>
+			<label index="files">files</label>
+			<label index="mlang_labels_tablabel">Listing of files in the directory</label>
+			<label index="mlang_labels_tabdescr">This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</label>
+			<label index="mlang_tabs_tab">Filelist</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="Spell Checker">Stavekontrol</label>
+			<label index="CONFIRM_LINK_CLICK">Bekræft venligst at du ønsker at åbne dette link</label>
+			<label index="Cancel">Afbryd</label>
+			<label index="Dictionary">Ordbog</label>
+			<label index="Finished list of mispelled words">Færdig liste over forkert stavede ord</label>
+			<label index="I will open it in a new page.">Jeg vil åbne i et nyt vindue</label>
+			<label index="Ignore all">Ignorér alle</label>
+			<label index="Ignore">Ignorér</label>
+			<label index="NO_ERRORS">Ingen</label>
+			<label index="NO_ERRORS_CLOSING">Stavekontrol gennemført, der blev ikke fundet nogle forkert stavede ord. Lukker nu...</label>
+			<label index="OK">OK</label>
+			<label index="Original word">Oprindeligt ord</label>
+			<label index="Please wait. Calling spell checker.">Vent venligst. Kommunikerer med stavekontrollen.</label>
+			<label index="Please wait: changing dictionary to">Vent venligst: Skifter ordbog til</label>
+			<label index="HTMLArea Spell Checker">HTMLArea stavekontrol</label>
+			<label index="QUIT_CONFIRMATION">Dette vil droppe ændringer og lukke stavekontrollen. Bekræft venligst.</label>
+			<label index="Re-check">Check igen</label>
+			<label index="Replace all">Erstat alle</label>
+			<label index="Replace with">Erstat med</label>
+			<label index="Replace">Erstat</label>
+			<label index="Learn">Tilføj til ordbog</label>
+			<label index="Revert">Gå tilbage</label>
+			<label index="SC-spell-check">Stavekontrol</label>
+			<label index="Suggestions">Forslag</label>
+			<label index="One occurrence">1 forekomst</label>
+			<label index="Two occurrences">2 forekomster</label>
+			<label index="occurrences">forekomster</label>
+			<label index="of the word">af ordet</label>
+			<label index="was found.">blev fundet.</label>
+			<label index="were found.">blev fundet.</label>
+			<label index="Document information">Dokumentinformation</label>
+			<label index="No information available">Ingen information tilgængelig</label>
+			<label index="Total words">Antal ord</label>
+			<label index="Misspelled words">Forkert stavede ord</label>
+			<label index="Total suggestions">Antal foreslag</label>
+			<label index="Total words suggested">Antal ord foreslået</label>
+			<label index="Spelling checked in">Stavekontrollen blev gennemført på</label>
+			<label index="seconds">sekunder</label>
+			<label index="pliz weit ;-)">Vent venligst ;-)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="Spell Checker" type="integer">254910581</label>
+			<label index="CONFIRM_LINK_CLICK" type="integer">108074176</label>
+			<label index="Cancel" type="integer">245659783</label>
+			<label index="Dictionary" type="integer">62830429</label>
+			<label index="Finished list of mispelled words" type="integer">133530958</label>
+			<label index="I will open it in a new page." type="integer">265878635</label>
+			<label index="Ignore all" type="integer">178106496</label>
+			<label index="Ignore" type="integer">265304316</label>
+			<label index="NO_ERRORS" type="integer">228321476</label>
+			<label index="NO_ERRORS_CLOSING" type="integer">161618228</label>
+			<label index="OK" type="integer">235577377</label>
+			<label index="Original word" type="integer">66231380</label>
+			<label index="Please wait. Calling spell checker." type="integer">148918033</label>
+			<label index="Please wait: changing dictionary to" type="integer">239672371</label>
+			<label index="HTMLArea Spell Checker" type="integer">53028677</label>
+			<label index="QUIT_CONFIRMATION" type="integer">51730008</label>
+			<label index="Re-check" type="integer">79580335</label>
+			<label index="Replace all" type="integer">143973048</label>
+			<label index="Replace with" type="integer">162009250</label>
+			<label index="Replace" type="integer">15460063</label>
+			<label index="Learn" type="integer">216577856</label>
+			<label index="Revert" type="integer">86547441</label>
+			<label index="SC-spell-check" type="integer">166914019</label>
+			<label index="Suggestions" type="integer">69127335</label>
+			<label index="One occurrence" type="integer">221664781</label>
+			<label index="Two occurrences" type="integer">159856692</label>
+			<label index="occurrences" type="integer">55536701</label>
+			<label index="of the word" type="integer">127518453</label>
+			<label index="was found." type="integer">64986070</label>
+			<label index="were found." type="integer">142112845</label>
+			<label index="Document information" type="integer">71822581</label>
+			<label index="No information available" type="integer">635660</label>
+			<label index="Total words" type="integer">235123490</label>
+			<label index="Misspelled words" type="integer">239097890</label>
+			<label index="Total suggestions" type="integer">50316335</label>
+			<label index="Total words suggested" type="integer">252274671</label>
+			<label index="Spelling checked in" type="integer">26327379</label>
+			<label index="seconds" type="integer">126085346</label>
+			<label index="pliz weit ;-)" type="integer">39751471</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

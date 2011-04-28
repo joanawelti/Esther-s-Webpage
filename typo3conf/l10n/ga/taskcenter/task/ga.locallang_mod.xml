@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel">Centro de Tarefas con resumos, mensaxes, pendentes.</label>
+			<label index="mlang_labels_tabdescr">O centro de tarefas dalle acceso á súa lista de pendentes interna, mensaxes, notas, accións, etc. Tamén ten atallos aos módules os seus módulos dispoñibles de frontend e as páxinas que editadas recentemente. O Centro de Tarefas é onde vd. mantén nota das súas tarefas diarias e fluxo de traballo.</label>
+			<label index="mlang_tabs_tab">Centro de Tarefas</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel">Task Center with overviews, messages, ToDo lists</label>
+			<label index="mlang_labels_tabdescr">The task center provides access to your internal To-Do list, messages, Quick-note, actions etc. It also provides shortcuts to your available frontend modules and most recently edited pages. The Task Center is where you keep track of your daily tasks and workflows.</label>
+			<label index="mlang_tabs_tab">Task center</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

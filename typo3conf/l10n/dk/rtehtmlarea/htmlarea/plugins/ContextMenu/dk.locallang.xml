@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="Cut">Klip</label>
+			<label index="Copy">Kopiér</label>
+			<label index="Paste">Sæt ind</label>
+			<label index="Image Properties">Billede egenskaber...</label>
+			<label index="Modify Link">Redigér Link...</label>
+			<label index="Check Link">Tjek Link...</label>
+			<label index="Remove Link">Fjern Link...</label>
+			<label index="TO-toggle-borders-title">Slå kanter til eller fra</label>
+			<label index="TO-cell-prop-title">Celle egenskaber...</label>
+			<label index="TO-cell-insert-before-title">Indsæt celle før</label>
+			<label index="TO-cell-insert-after-title">Indsæt celle efter</label>
+			<label index="TO-cell-delete-title">Slet celle</label>
+			<label index="TO-cell-split-title">Del celle</label>
+			<label index="TO-cell-merge-title">Sammenflet celler</label>
+			<label index="TO-row-prop-title">Række egenskaber...</label>
+			<label index="TO-row-insert-above-title">Indsæt række før</label>
+			<label index="TO-row-insert-under-title">Indsæt række efter</label>
+			<label index="TO-row-delete-title">Slet række</label>
+			<label index="TO-row-split-title">Del række</label>
+			<label index="TO-table-prop-title">Tabel egenskaber...</label>
+			<label index="TO-col-insert-before-title">Indsæt Kolonne før</label>
+			<label index="TO-col-insert-after-title">Indsæt Kolonne efter</label>
+			<label index="TO-col-delete-title">Slet kolonne</label>
+			<label index="TO-col-split-title">Del kolonne</label>
+			<label index="JustifyLeft-title">Venstrejustér</label>
+			<label index="JustifyCenter-title">Centrér</label>
+			<label index="JustifyRight-title">Højrejustér</label>
+			<label index="JustifyFull-title">Lige margener</label>
+			<label index="JustifyLeft-tooltip">Venstrejustér teksten</label>
+			<label index="JustifyCenter-tooltip">Centrerer teksten</label>
+			<label index="JustifyRight-tooltip">Højrejusterer teksten</label>
+			<label index="JustifyFull-tooltip">Justerer teksten mod lige margener</label>
+			<label index="Make link">Lav til link...</label>
+			<label index="Remove the">Fjern</label>
+			<label index="Element">Elementet...</label>
+			<label index="Please confirm remove">Bekræft venligst at du vil fjerne dette element:</label>
+			<label index="Remove this node from the document">Slet denne node fra dokumentet</label>
+			<label index="How did you get here? (Please report!)">Hvordan kom du hertil?(rapporter venligst!)</label>
+			<label index="Show the image properties dialog">Vis billede egenskaber vinduet</label>
+			<label index="Modify URL">Redigér URL'en</label>
+			<label index="Current URL is">Aktuel URL er</label>
+			<label index="Opens this link in a new window">Åbner linket i et nyt vindue</label>
+			<label index="Please confirm unlink">Bekræft venligst at du vil fjerne linket på dette element.</label>
+			<label index="Link points to:">Linket peger på:</label>
+			<label index="Unlink the current element">Fjern linket på det aktuelle element</label>
+			<label index="TO-toggle-borders-tooltip">Viser eller skjuler kanter</label>
+			<label index="TO-cell-prop-tooltip">Viser tabel egenskaber vinduet</label>
+			<label index="TO-cell-insert-before-tooltip">Indsætter en ny celle før den aktuelle</label>
+			<label index="TO-cell-insert-after-tooltip">Indsætter en ny celle efter den aktuelle</label>
+			<label index="TO-cell-delete-tooltip">Slette den aktuelle celle</label>
+			<label index="TO-cell-split-tooltip">Deler den aktuelle celle</label>
+			<label index="TO-cell-merge-tooltip">Sammenfletter de markede celler</label>
+			<label index="TO-row-prop-tooltip">Viser tabelrække egenskaber</label>
+			<label index="TO-row-insert-above-tooltip">Indsætter en ny række før den aktuelle</label>
+			<label index="TO-row-insert-under-tooltip">Indsætter en ny række efter den aktuelle</label>
+			<label index="TO-row-delete-tooltip">Slette den aktuelle række</label>
+			<label index="TO-row-split-tooltip">Deler den aktuelle række</label>
+			<label index="TO-table-prop-tooltip">Viser tabel egenskaber vinduet</label>
+			<label index="TO-col-insert-before-tooltip">Indsætter en ny kolonne før den aktuelle</label>
+			<label index="TO-col-insert-after-tooltip">Indsætter en ny kolonne efter den aktuelle</label>
+			<label index="TO-col-delete-tooltip">Sletter den aktuelle kolonne</label>
+			<label index="TO-col-split-tooltip">Deler den aktuelle kolonne</label>
+			<label index="Create a link">Opret et link</label>
+			<label index="Insert paragraph before">Indsæt afsnit før</label>
+			<label index="Insert a paragraph before the current node">Indsæt et afsnit før den aktuelle node</label>
+			<label index="Insert paragraph after">Indsæt afsnit efter</label>
+			<label index="Insert a paragraph after the current node">Indsæt afsnit efter den aktuelle node</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="Cut" type="integer">246625500</label>
+			<label index="Copy" type="integer">100361047</label>
+			<label index="Paste" type="integer">57390677</label>
+			<label index="Image Properties" type="integer">114466415</label>
+			<label index="Modify Link" type="integer">166959722</label>
+			<label index="Check Link" type="integer">166981135</label>
+			<label index="Remove Link" type="integer">73937259</label>
+			<label index="TO-toggle-borders-title" type="integer">50494060</label>
+			<label index="TO-cell-prop-title" type="integer">202479840</label>
+			<label index="TO-cell-insert-before-title" type="integer">24191980</label>
+			<label index="TO-cell-insert-after-title" type="integer">202094829</label>
+			<label index="TO-cell-delete-title" type="integer">137792760</label>
+			<label index="TO-cell-split-title" type="integer">118967512</label>
+			<label index="TO-cell-merge-title" type="integer">1890188</label>
+			<label index="TO-row-prop-title" type="integer">125839474</label>
+			<label index="TO-row-insert-above-title" type="integer">114423818</label>
+			<label index="TO-row-insert-under-title" type="integer">101596530</label>
+			<label index="TO-row-delete-title" type="integer">158293986</label>
+			<label index="TO-row-split-title" type="integer">180040949</label>
+			<label index="TO-table-prop-title" type="integer">168330161</label>
+			<label index="TO-col-insert-before-title" type="integer">181462795</label>
+			<label index="TO-col-insert-after-title" type="integer">175893693</label>
+			<label index="TO-col-delete-title" type="integer">129185337</label>
+			<label index="TO-col-split-title" type="integer">123650665</label>
+			<label index="JustifyLeft-title" type="integer">103035233</label>
+			<label index="JustifyCenter-title" type="integer">155705392</label>
+			<label index="JustifyRight-title" type="integer">75036879</label>
+			<label index="JustifyFull-title" type="integer">6823521</label>
+			<label index="JustifyLeft-tooltip" type="integer">248336017</label>
+			<label index="JustifyCenter-tooltip" type="integer">164071250</label>
+			<label index="JustifyRight-tooltip" type="integer">60430664</label>
+			<label index="JustifyFull-tooltip" type="integer">135747688</label>
+			<label index="Make link" type="integer">209457437</label>
+			<label index="Remove the" type="integer">222486203</label>
+			<label index="Element" type="integer">70340601</label>
+			<label index="Please confirm remove" type="integer">263095578</label>
+			<label index="Remove this node from the document" type="integer">83048314</label>
+			<label index="How did you get here? (Please report!)" type="integer">154275303</label>
+			<label index="Show the image properties dialog" type="integer">44127880</label>
+			<label index="Modify URL" type="integer">138314577</label>
+			<label index="Current URL is" type="integer">52185034</label>
+			<label index="Opens this link in a new window" type="integer">25783318</label>
+			<label index="Please confirm unlink" type="integer">253089585</label>
+			<label index="Link points to:" type="integer">138685251</label>
+			<label index="Unlink the current element" type="integer">159683978</label>
+			<label index="TO-toggle-borders-tooltip" type="integer">50494060</label>
+			<label index="TO-cell-prop-tooltip" type="integer">134588785</label>
+			<label index="TO-cell-insert-before-tooltip" type="integer">220432442</label>
+			<label index="TO-cell-insert-after-tooltip" type="integer">225283995</label>
+			<label index="TO-cell-delete-tooltip" type="integer">34129144</label>
+			<label index="TO-cell-split-tooltip" type="integer">259240376</label>
+			<label index="TO-cell-merge-tooltip" type="integer">267021987</label>
+			<label index="TO-row-prop-tooltip" type="integer">160562922</label>
+			<label index="TO-row-insert-above-tooltip" type="integer">55940151</label>
+			<label index="TO-row-insert-under-tooltip" type="integer">240302815</label>
+			<label index="TO-row-delete-tooltip" type="integer">103199520</label>
+			<label index="TO-row-split-tooltip" type="integer">92430736</label>
+			<label index="TO-table-prop-tooltip" type="integer">6179110</label>
+			<label index="TO-col-insert-before-tooltip" type="integer">34895400</label>
+			<label index="TO-col-insert-after-tooltip" type="integer">75964450</label>
+			<label index="TO-col-delete-tooltip" type="integer">245666489</label>
+			<label index="TO-col-split-tooltip" type="integer">93586139</label>
+			<label index="Create a link" type="integer">144275584</label>
+			<label index="Insert paragraph before" type="integer">254791637</label>
+			<label index="Insert a paragraph before the current node" type="integer">89263268</label>
+			<label index="Insert paragraph after" type="integer">80207813</label>
+			<label index="Insert a paragraph after the current node" type="integer">175409655</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

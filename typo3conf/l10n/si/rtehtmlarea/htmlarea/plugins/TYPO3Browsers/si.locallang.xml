@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="external_link_altText">Odpre zunanjo povezavo v trenutnem oknu</label>
+			<label index="external_link_titleText">Odpre zunanjo povezavo v trenutnem oknu</label>
+			<label index="external_link_new_window_altText">Odpre zunanjo povezavo v novem oknu</label>
+			<label index="external_link_new_window_titleText">Odpre zunanjo povezavo v novem oknu</label>
+			<label index="internal_link_altText">Odpre notranjo povezavo v trenutnem oknu</label>
+			<label index="internal_link_titleText">Odpre notranjo povezavo v trenutnem oknu</label>
+			<label index="internal_link_new_window_altText">Odpre notranjo povezavo v novem oknu</label>
+			<label index="internal_link_new_window_titleText">Odpre notranjo povezavo v novem oknu</label>
+			<label index="download_altText">Začne prenos datoteke</label>
+			<label index="download_titleText">Začne prenos datoteke</label>
+			<label index="mail_altText">Odpre okno za pošiljanje elektronskega sporočila</label>
+			<label index="mail_titleText">Odpre okno za pošiljanje elektronskega sporočila</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="external_link_altText" type="integer">127279570</label>
+			<label index="external_link_titleText" type="integer">127279570</label>
+			<label index="external_link_new_window_altText" type="integer">159183899</label>
+			<label index="external_link_new_window_titleText" type="integer">159183899</label>
+			<label index="internal_link_altText" type="double">7332359</label>
+			<label index="internal_link_titleText" type="double">7332359</label>
+			<label index="internal_link_new_window_altText" type="integer">198474674</label>
+			<label index="internal_link_new_window_titleText" type="integer">198474674</label>
+			<label index="download_altText" type="integer">27837997</label>
+			<label index="download_titleText" type="integer">27837997</label>
+			<label index="mail_altText" type="integer">210920015</label>
+			<label index="mail_titleText" type="integer">210920015</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index="external_link_altText">Opens external link in current window</label>
+			<label index="external_link_titleText">Opens external link in current window</label>
+			<label index="external_link_new_window_altText">Opens external link in new window</label>
+			<label index="external_link_new_window_titleText">Opens external link in new window</label>
+			<label index="internal_link_altText">Opens internal link in current window</label>
+			<label index="internal_link_titleText">Opens internal link in current window</label>
+			<label index="internal_link_new_window_altText">Opens internal link in new window</label>
+			<label index="internal_link_new_window_titleText">Opens internal link in new window</label>
+			<label index="download_altText">Initiates file download</label>
+			<label index="download_titleText">Initiates file download</label>
+			<label index="mail_altText">Opens window for sending email</label>
+			<label index="mail_titleText">Opens window for sending email</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

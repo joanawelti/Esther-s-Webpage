@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="pages">網頁</label>
+			<label index="doktype.I.0">標準</label>
+			<label index="doktype.I.1">係統資料夾</label>
+			<label index="doktype.I.2">資源回收桶</label>
+			<label index="title">網頁標題</label>
+			<label index="php_tree_stop">停止網頁樹圖：</label>
+			<label index="is_siteroot">是否網站的根頁：</label>
+			<label index="storage_pid">一般記錄儲存網頁：</label>
+			<label index="be_users">後勤使用者</label>
+			<label index="be_groups">後勤使用者群組</label>
+			<label index="sys_filemounts">檔案目錄</label>
+			<label index="sys_language">網站語言：</label>
+			<label index="sys_language.isocode">選取官方語言（ISO 編碼）：</label>
+			<label index="sys_language.flag">選取標誌圖示：</label>
+			<label index="editlock">限制被非系統管理員修改：</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="pages" type="integer">26464201</label>
+			<label index="doktype.I.0" type="integer">246864046</label>
+			<label index="doktype.I.1" type="integer">260649090</label>
+			<label index="doktype.I.2" type="integer">184146156</label>
+			<label index="title" type="integer">66854616</label>
+			<label index="php_tree_stop" type="integer">90999720</label>
+			<label index="is_siteroot" type="integer">250187229</label>
+			<label index="storage_pid" type="integer">147559019</label>
+			<label index="be_users" type="integer">104926801</label>
+			<label index="be_groups" type="integer">190780417</label>
+			<label index="sys_filemounts" type="integer">140334923</label>
+			<label index="sys_language" type="integer">144875845</label>
+			<label index="sys_language.isocode" type="integer">49440593</label>
+			<label index="sys_language.flag" type="integer">145114393</label>
+			<label index="editlock" type="integer">177820058</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

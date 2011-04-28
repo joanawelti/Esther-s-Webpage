@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Administrace uživatelů backendu</label>
+			<label index="mlang_labels_tabdescr">Modul administrace uživatelů poskytuje přehled o všech uživatelích backendu. Můžete je seskupovat podle vlastností, abyste mohli monitorovat jejich přístupová práva, mounty souborů, TSconfig, skupiny uživatelů atd. Tento modul je nepostradatelný, abyste si byli jisti, že jsou uživatelé správně nakonfigurováni.&lt;br /&gt;&lt;em&gt;Přístup pouze pro 'admin' uživatele!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Uživatelé</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel" type="integer">17821603</label>
+			<label index="mlang_labels_tabdescr" type="integer">165149409</label>
+			<label index="mlang_tabs_tab" type="integer">119990797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

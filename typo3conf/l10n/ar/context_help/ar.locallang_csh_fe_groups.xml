@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="hidden.description">تعمل هذه الخاصية على إلغاء محموعة المستخدم</label>
+			<label index="hidden.details">ما إن تم إلغاء مجموعة المستخدم فلا يصبح أحد من أعضاء هذه المجموعة التمتع بأي الخصائص التي منحتها لهم هذه المجموعة.
+فعلى سبيل المثال إذا كات المجموعة لها إمكانية الدخول على صفحة ما أو عنصر محتوى معين فإنه مجرد إلغاء المجموعة لا يستطيع أى من الأعضاء الدخول على هذه الصفحة أو على هذا العنصر مرة أخرى.</label>
+			<label index="title.description">تسمية المموعة</label>
+			<label index="title.details">يظهر هذا العنوان عند تسمية المحموعة في قائمة الدخول في مجموعة أخرى من السجلات.</label>
+			<label index="lockToDomain.description">إدخل إسم المضيف إذا ما كانت  المجموعة متاحة فقط</label>
+			<label index="lockToDomain.details">قد تكون هذه الخيارات هامة إذا ما كنت تتعامل مع أكثر من صفحة وب على نفس قاعدة البيانات الخاصة بتيبو3 غير أنه مازال هناك صفحة واحدة أساسية  للتخزين لكل مستخدمي صفحة الوب.وعلى ذلك فيمكن للمستخدمين  الدخول على أي من روابط الوب.قد يعد ذلك خاصية ( حييث تنمح الدخول العام للمستخدم) أو قد تعتبر مشكلة ( في حالة ما إذا كان هناك تخزين لأكثر من مستخدم).إلا انك قد تكون في حاجة إلى قصر استخدام محموعة المستخدم من خلال صفحة وب بعينها وبالتالى فإنك لا تريد أن تكون المحموعة متاحةللمستخدم إذا ما دخل على رابط آخر.( المستخدم لنفس قاعدة البيانات بالطبع).فما إن أدخلت اسم المضيف فإنك بذلك تجعل استخدام المجموعة قاصراً فقك على  المشرف.
+
+&lt;b&gt;Notice:&lt;/b&gt;
+إستخدام هذا الخيار قد لا يكون حرجاً إذا ما كنت أنشأت العديد من صفحات تخزين المستخدين للوب، ولك منها اسم خاص بها.</label>
+			<label index="description.description">إدخال توصيف للصفحة</label>
+			<label index="description.details">تستخدم هذه الخاصية في حالة الأستخدام الداخلى وفي حالة إضافة ملاحظات عن المجموعة ما هو إختصاصاها و لماذا أنشأت و من يمكنة الإنضمام لها. يمكنك استخدام هذه الخاصية كيفما شئت.</label>
+			<label index="TSconfig.description">TSconfig لتوصيف المجموعات ( المتقدمة).</label>
+			<label index="TSconfig.details">كل مستخدم في المجموعة له TSconfig.فالمعطيات يمكن أن تورث من أي مستخدم للوب و عضو في المجموعة.
+وخاصية التوصيف يمكن للمجموعات الأخرى أن تتجاوزها و كذلك بواسطة TSconfig الخاص بالمستخدم نفسه.</label>
+			<label index="TSconfig.syntax">تركيب مخطوطة تيبو الخاصة دون أي شروط أو ثوابت.</label>
+			<label index=".description">مجموعات المستخدمين لمستخدمي الوب</label>
+			<label index=".details">إن عملية تقيد الدخول في تيبو3 مقصورة على مجموعات المستخدمين.في حالة ما إذا قيد الدخول مجوعة لصفحة ما أو لأى عنصر آخر ،فإن مستخدمي الوب والأعضاء في هذه المجموعة يكونوا وحدهم القادرين لعرض العنصر على صفحة الوب.</label>
+			<label index=".image_descr">هناك صياغة خاصة لتحرير مجموعات المستخدمين الأمامية.فغالباً ما يكون للصفحات،عناصر المحتوى،وأى سجلات أخرى تحتوي على صندوق إختيار حيث يمكن تحديد عملية تقيد الدخول وذلك بقصر عملية الدخول على مجموعة واحدة بعينها.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="lockToDomain.description" type="integer">178950964</label>
+			<label index="lockToDomain.details" type="integer">148174258</label>
+			<label index="hidden.description" type="integer">168238848</label>
+			<label index="hidden.details" type="integer">210621597</label>
+			<label index="title.description" type="integer">200720346</label>
+			<label index="title.details" type="integer">203471735</label>
+			<label index="description.description" type="integer">159132670</label>
+			<label index="description.details" type="integer">40579879</label>
+			<label index="TSconfig.description" type="integer">256600387</label>
+			<label index="TSconfig.details" type="integer">90803241</label>
+			<label index="TSconfig.syntax" type="integer">117035971</label>
+			<label index=".description" type="integer">181980664</label>
+			<label index=".details" type="integer">225347704</label>
+			<label index=".image_descr" type="integer">263527684</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="lockToDomain.description">Enter the host name from which the group will be available only.</label>
+			<label index="lockToDomain.details">This options may be important if you have multiple websites in the same TYPO3 database but still only one main storage page for all Website users. Thus the users may log in on any of the website URLs. This may be considered a feature (having a global login as a user) or a problem (in which case you should have multiple user storages anyway). However you may wish to limit the use of a Website usergroup to a specific website and thus you don't want the group to be enabled for the user when he logs in at another URL (still from the same database of course). By entering the host name of the website here, you restrict the group to be used only from within this domain.
+
+&lt;b&gt;Notice:&lt;/b&gt; The use for this option is not critical if you have multiple Website user storages, namely one for each site.</label>
+			<label index="hidden.description">This option disables the user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.
+For instance if a page or content element was assigned access only by this group and you disable the group, no one would gain access to that page or content element.</label>
+			<label index="title.description">Name of the group.</label>
+			<label index="title.details">This title will appear as the group name in the 'Access'-list in other records.</label>
+			<label index="description.description">Enter a description of the group.</label>
+			<label index="description.details">This is for internal use and is just a way to put a note on what the group is for, why you created it and who should be members.
+Use it as you like.</label>
+			<label index="TSconfig.description">TSconfig for the group (advanced).</label>
+			<label index="TSconfig.details">This is the user TSconfig for the group. The values are inherited by any Website user who is a member of this group.
+The configuration is subject to being overridden in other groups and by the TSconfig of the user himself.</label>
+			<label index="TSconfig.syntax">TypoScript syntax, without conditions and constants.</label>
+			<label index=".description">Usergroups for Website users.</label>
+			<label index=".details">The access restriction in TYPO3 is assigned to these usergroups. When a page or other element is access restricted to a group, only Website users which are members or that group will be able to view the element on the website.</label>
+			<label index=".image_descr">The form for editing frontend users groups.
+Pages, Content Elements and other records for frontend display often have a selector box where you can define access restriction by selecting access for a certain group only.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

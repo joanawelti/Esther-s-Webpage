@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="wiz_crMany">צור דפים מרובים</label>
+			<label index="wiz_newPages">צור דפים חדשים</label>
+			<label index="wiz_newPages_page">דף</label>
+			<label index="wiz_newPages_currentMenu">מבנה דפים חדש</label>
+			<label index="wiz_newPages_errorMsg1">אינך רשאי לצור תת-דפים חדשים לדף זה!</label>
+			<label index="wiz_newPages_lCreate">צור דפים</label>
+			<label index="wiz_newPages_listEnd">מקם דפים חדשים אחרי דפים קיימים</label>
+			<label index="wiz_newPages_hidePages">הסתר דפים חדשים</label>
+			<label index="wiz_newPages_lCreate_msg1">הנך עומד לצור הרבה דפים חדשים. האם הנך בטוח כי ברצונך להמשיך?</label>
+			<label index="wiz_newPages_lReset">נקה שדות</label>
+			<label index="wiz_newPages_noCreate">לא נוצרו דפים!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="double">1353175</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="double">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

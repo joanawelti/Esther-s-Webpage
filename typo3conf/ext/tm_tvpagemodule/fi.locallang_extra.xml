@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="cannotedit_spacer">Tämän sivun tyyppi on &quot;erotin&quot; (spacer). Tämän tyypin sivulla ei ole mitään sisältöä. Siksi sisällön muokkaus on poistettu.</label>
+			<label index="createnewcontent_selectContentArea">1. Valitse sisältöalue, johon haluat sijoittaa uuden elementin:</label>
+			<label index="createnewcontent_selectType">2: Valitse sisältöelementin tyyppi</label>
+			<label index="newPage">Uusi sivu</label>
+			<label index="newPageWizard">Luo uusi sivu (opastettu)</label>
+			<label index="new_cont_wizard">Luo uusi sisältöelementti (opastettu)</label>
+			<label index="new_dynelement">Lisää dynaaminen elementti</label>
+			<label index="new_image">Lisää kuva</label>
+			<label index="new_text">Lisää tekstielementti</label>
+			<label index="path">Sivu: </label>
+			<label index="text_copy">Kopioi</label>
+			<label index="text_createnewrecord">Uusi</label>
+			<label index="text_cut">Leikkaa</label>
+			<label index="text_editrecord">Muokkaa</label>
+			<label index="text_makeLocal">Paikalliskopio</label>
+			<label index="text_movedown">Siirrä yksi askel alaspäin</label>
+			<label index="text_movedown_short">Alaspäin</label>
+			<label index="text_moveup">Siirrä yksi askel ylöspäin</label>
+			<label index="text_moveup_short">Ylöspäin</label>
+			<label index="text_paste">Liitä</label>
+			<label index="text_ref">Referenssi</label>
+			<label index="text_select"> -- Elementin muokkaustoiminnot -- </label>
+			<label index="text_select_new"> -- Uusi elementti / liitä elementti  -- </label>
+			<label index="text_select_new_wiz">&lt;- Luo uusi elementti tähän</label>
+			<label index="text_text_deleteRecord_long">Poista sisältöelementti</label>
+			<label index="text_unlinkRecord">Älä käytä</label>
+			<label index="text_unlinkRecord_long">Poista sisältöelementti käytöstä</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

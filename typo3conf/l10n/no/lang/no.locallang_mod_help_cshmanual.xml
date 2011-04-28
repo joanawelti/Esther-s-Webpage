@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 innebygd manual</label>
+			<label index="mlang_labels_tabdescr">Innebygd manual basert på informasjonskildene for kontekstsensitiv hjelp i systemet</label>
+			<label index="mlang_tabs_tab">Manual</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="mlang_tabs_tab" type="integer">236691797</label>
+			<label index="mlang_labels_tablabel" type="integer">182726937</label>
+			<label index="mlang_labels_tabdescr" type="integer">207607230</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

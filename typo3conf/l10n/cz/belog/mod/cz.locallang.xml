@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="type_1">DB</label>
+			<label index="action_1_1">Vložení</label>
+			<label index="action_1_2">Aktualizace</label>
+			<label index="action_1_3">Odstranění</label>
+			<label index="action_1_4">Kontrola</label>
+			<label index="msg_1_0_1">Referer host '%s' a server host '%s' nesouhlasí!</label>
+			<label index="msg_1_1_11">Pokus o vložení záznamu do strany '%s' (%s) kde je tabulka, %s, není povolen</label>
+			<label index="msg_1_1_12">Pokus o vložení záznamu do strany '%s' (%s) z tabulky '%s' bez práv. Nebo neexistující strana.</label>
+			<label index="msg_1_2_1">Pokus změnit tabulku '%s' bez práv.</label>
+			<label index="msg_1_2_2">Pokus změnit záznam '%s' (%s) bez práv. Nebo neexistující strana.</label>
+			<label index="msg_1_2_10">Záznam '%s' (%s) byl aktualizován.</label>
+			<label index="msg_1_2_12">Chyba MySQL: '%s' (%s)</label>
+			<label index="msg_1_4_1">Pokus přesunout záznam '%s' (%s) za neexistující záznam (uid=%s)</label>
+			<label index="msg_1_4_2">Záznam přesunut '%s' (%s) na stranu '%s' (%s)</label>
+			<label index="msg_1_4_3">Záznam přesunut '%s' (%s) ze strany '%s' (%s)</label>
+			<label index="msg_1_4_4">Záznam přesunut '%s' (%s) na straně '%s' (%s)</label>
+			<label index="msg_1_4_10">Pokus o přesun strany '%s' (%s) dovnitř vlastní rootline (na straně '%s' (%s))</label>
+			<label index="msg_1_4_11">Pokus o vložení záznamu na stranu '%s' (%s), kde tato tabulka, %s, není povolena</label>
+			<label index="msg_1_4_12">Pokus o vložení záznamu na stranu '%s' (%s) z tabulky '%s' bez příslušných práv. Nebo neexistující strana.</label>
+			<label index="msg_1_4_13">Pokus o přesun záznamu '%s' (%s) za jiný záznam, přestože tabulka nemá třídění.</label>
+			<label index="msg_1_4_14">Pokus o přesun záznamu '%s' (%s) bez příslušných práv</label>
+			<label index="msg_1_5_1">Nelze změnit 'doktype' strany '%s' na danou hodnotu.</label>
+			<label index="msg_1_5_2">'doktype' strany '%s' nemohl být změněn, protože strana obsahuje věty z nepovolených tabulek; %s</label>
+			<label index="msg_1_5_3">Příliš málo položek v seznamu hodnot. (%s)</label>
+			<label index="msg_1_5_10">Nelze odstranit soubor '%s' (neexistuje). (%s)</label>
+			<label index="msg_1_5_11">Kopírování souboru '%s' selhalo!: Cílový soubor (%s) není možno vytvořit!. (%s)</label>
+			<label index="msg_1_5_12">Extenze '%' není povolena. (%s)</label>
+			<label index="msg_1_5_13">Velikost (%s) souboru '%s' je mimo limit (%s). (%s)</label>
+			<label index="msg_1_5_14">Cílový (%s) nebo zdrojový soubor (%s) neexistuje. (%s)</label>
+			<label index="msg_1_5_15">Kopírování do souboru '%s' selhalo! (%s)</label>
+			<label index="msg_1_5_16">Kopírování souboru '%s' selhalo!: Cílový adresář (%s) může být chráněn proti zápisu. Prosím povolte zápis do adresáře!. (%s)</label>
+			<label index="type_2">SOUBOR</label>
+			<label index="action_2_1">Upload</label>
+			<label index="action_2_2">Kopie</label>
+			<label index="action_2_3">Přesun</label>
+			<label index="action_2_4">Odstranění</label>
+			<label index="action_2_5">Přejmenování</label>
+			<label index="action_2_6">Nový</label>
+			<label index="action_2_7">Unzip</label>
+			<label index="action_2_8">Nový soubor</label>
+			<label index="action_2_9">Upravit</label>
+			<label index="msg_2_9_1">Soubor uložen do '%s', bytů: %s, MD5: %s</label>
+			<label index="type_254">NASTAVENÍ</label>
+			<label index="action_254_1">Změna</label>
+			<label index="type_255">LOGIN</label>
+			<label index="action_255_1">LOGIN</label>
+			<label index="action_255_2">LOGOUT</label>
+			<label index="action_255_3">POKUS</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="type_1" type="integer">10855639</label>
+			<label index="action_1_1" type="integer">172329952</label>
+			<label index="action_1_2" type="integer">6894342</label>
+			<label index="action_1_3" type="integer">254438473</label>
+			<label index="action_1_4" type="integer">6340397</label>
+			<label index="msg_1_0_1" type="integer">70548717</label>
+			<label index="msg_1_1_11" type="integer">113973720</label>
+			<label index="msg_1_1_12" type="integer">167498403</label>
+			<label index="msg_1_2_1" type="integer">187428754</label>
+			<label index="msg_1_2_2" type="integer">168680547</label>
+			<label index="msg_1_2_10" type="integer">50242733</label>
+			<label index="msg_1_2_12" type="integer">164149189</label>
+			<label index="msg_1_4_1" type="integer">75848781</label>
+			<label index="msg_1_4_2" type="integer">24550273</label>
+			<label index="msg_1_4_3" type="integer">243438751</label>
+			<label index="msg_1_4_4" type="integer">159912378</label>
+			<label index="msg_1_4_10" type="integer">219657970</label>
+			<label index="msg_1_4_11" type="integer">113973720</label>
+			<label index="msg_1_4_12" type="integer">167498403</label>
+			<label index="msg_1_4_13" type="integer">45136571</label>
+			<label index="msg_1_4_14" type="integer">258165763</label>
+			<label index="msg_1_5_1" type="integer">166647972</label>
+			<label index="msg_1_5_2" type="integer">78624514</label>
+			<label index="msg_1_5_3" type="integer">38942153</label>
+			<label index="msg_1_5_10" type="integer">254767008</label>
+			<label index="msg_1_5_11" type="integer">205650444</label>
+			<label index="msg_1_5_12" type="integer">31746478</label>
+			<label index="msg_1_5_13" type="integer">105741654</label>
+			<label index="msg_1_5_14" type="integer">88412649</label>
+			<label index="msg_1_5_15" type="integer">117185361</label>
+			<label index="msg_1_5_16" type="integer">51969264</label>
+			<label index="type_2" type="integer">167532679</label>
+			<label index="action_2_1" type="integer">152310342</label>
+			<label index="action_2_2" type="integer">100361047</label>
+			<label index="action_2_3" type="integer">112997933</label>
+			<label index="action_2_4" type="integer">254438473</label>
+			<label index="action_2_5" type="integer">151300144</label>
+			<label index="action_2_6" type="integer">3944062</label>
+			<label index="action_2_7" type="integer">31401173</label>
+			<label index="action_2_8" type="integer">109175050</label>
+			<label index="action_2_9" type="integer">131916066</label>
+			<label index="msg_2_9_1" type="integer">149514802</label>
+			<label index="type_254" type="integer">161787140</label>
+			<label index="action_254_1" type="integer">256820725</label>
+			<label index="type_255" type="integer">77032828</label>
+			<label index="action_255_1" type="integer">77032828</label>
+			<label index="action_255_2" type="integer">112519785</label>
+			<label index="action_255_3" type="integer">161988289</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

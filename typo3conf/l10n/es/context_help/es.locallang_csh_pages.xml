@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="layout.description">Seleccione una disposición para la página. Cualquier efecto dependerá de la plantilla de su web.</label>
+			<label index="layout.details">Esta opción puede no tener ningún impacto en el diseño de página ya que depende de cómo (y de si) la plantilla de &quot;frontend&quot; la usa. En la mayoría de las plantillas predeterminadas no se usa.</label>
+			<label index="doktype.description">La selección del tipo de página determina si la página representa una página visible en su web o si se usará para otros propósitos.</label>
+			<label index="doktype.details">Los tipos &quot;Estándar&quot; y &quot;Avanzado&quot; corresponden a páginas normales, diferenciándose entre sí en el número de opciones. Los tipos &quot;URL externo&quot; y &quot;Acceso directo&quot; le permiten hacer que una página sea un acceso directo a un URL externo o, respectivamente, a otra página del árbol de páginas.
+&quot;No presentar en el menú&quot; es también un tipo de página normal, pero no se mostrará en los elementos de navegación de la página. &lt;em&gt;El uso de este tipo de página está desaconsejado actualmente, use en su lugar la opción &quot;Ocultar en menú&quot;&lt;/em&gt;
+&quot;Selección de usuario del Backend&quot; es una opción que requiere que un usuario del Backend haya iniciado sesión para que la página sea visible.
+
+&lt;b&gt;Tipos especiales&lt;/b&gt;
+&quot;Delimitador&quot; sólo tiene significado si la programación de los elementos de navegación de su web está preparada para usarlo. En este caso no representa una página con contenido, sino que está pensado como un contenedor no pulsable entre los elementos de navegación.
+&quot;Carpeta del sistema&quot; es un tipo de página que no puede ser mostrada como página web, sino que más bien actúa como un almacén de registros.
+&quot;Papelera&quot; es un almacén de &quot;basura&quot; reciclable. Las páginas y registros de la papelera no son visibles en el Frontend.
+
+&lt;b&gt;Nota:&lt;/b&gt; Cada tipo de página habitualmente tiene asociado un icono específico. Por otro lado, ciertos tipos pueden no estar disponibles para un usuario concreto (por lo que puede notar que algunas opciones no están disponibles). Finalmente, cada tipo está configurado para admitir sólo ciertos registros en la página (si tiene problemas, el tipo &quot;Carpeta del sistema&quot; puede almacenar cualquier registro).</label>
+			<label index="hidden.description">Si esta opción está marcada, la página estará oculta en su web.</label>
+			<label index="hidden.details">Las opciones &quot;Ocultar&quot;, &quot;Inicio&quot;, &quot;Final&quot; y &quot;Acceso&quot; limitan el acceso a las páginas y por ello están relacionadas. En aquellos casos en los que la página no sea visible debido a una de estas opciones, ésta no se mostrará en los elementos de navegación de su web.
+Note que estas opciones están asociadas &lt;em&gt;sólo&lt;/em&gt; a la página en la que están definidas. Si desea que su efecto cubra también a las subpáginas, debe activar la opción &quot;Incluir subpáginas&quot;.
+Cuando ha iniciado sesión como usuario del backend puede previsualizar páginas ocultas si tiene privilegios de lectura en ellas.</label>
+			<label index="hidden.image_descr">El icono de una página oculta se atenúa y se le añade una X roja.
+Mientras se encuentre identificado en el Backend, podrá ver las páginas aunque se encuentren ocultas. Una etiqueta roja con la advertencia &quot;Vista previa&quot; le recordará que puede ver la página precisamente debido a esta circunstancia.</label>
+			<label index="starttime.description">El momento de &quot;Inicio&quot; determina la fecha y hora a partir de las cuales la página será visible en el web. Use esta opción para &quot;publicar&quot; la página en una fecha y/u hora concretas. Si no se indica un valor para &quot;Inicio&quot;, la página será visible de inmediato (salvo que esté oculta por alguna otra opción).</label>
+			<label index="starttime.syntax">El formato es DD-MM-AAAA. Puede introducir el valor en otros formatos y será evaluado. Si, por ejemplo, inserta una &quot;d&quot;, se insertará la fecha actual. También puede añadir al valor del campo, por ejemplo, +10, lo cual sumará 10 días al valor. Así, por ejemplo, indicar un valor de &quot;d+10&quot; seleccionaría la fecha de 10 días después de la fecha actual.</label>
+			<label index="endtime.description">El momento del &quot;Final&quot; es la fecha y hora a partir de las cuales la página dejará de estar visible.</label>
+			<label index="endtime.syntax">Vea Página / Inicio</label>
+			<label index="fe_group.description">Si en &quot;Acceso&quot; está indicado el nombre de un grupo de usuarios, sólo los usuarios del web que sean miembros de dicho grupo podrán ver la página, una vez que se hayan identificado. La opción especial &quot;No mostrar si hay sesión&quot; hará que la página &lt;em&gt;no&lt;/em&gt; sea visible para los usuarios del Frontend identificados. Por el contrario, &quot;Mostrar con cualquier sesión&quot; hará la página visible para cualquier usuario de Frontend identificado.</label>
+			<label index="extendToSubpages.description">De manera predeterminada, las opciones Inicio, Final y Ocultar son efectivas &lt;em&gt;sólo&lt;/em&gt; en la página en la que están fijadas. Si la opción &quot;Incluir subpáginas&quot; está marcada en una página, el efecto de estas opciones será heredado por las subpáginas de ésta.</label>
+			<label index="extendToSubpages.details">Considere un escenario donde desea crear una sección de subpáginas visibles únicamente para usuarios que se han identificado. La opción &quot;Acceso&quot; de la página superior afectaría sólo al acceso a esa página. De este modo, la página no aparecería en los elementos de navegación salvo que el usuario se encuentre identificado.
+No obstante, las subpáginas serían aún visibles para aquel que averiguara los ID de éstas y los introdujera manualmente en el URL. Pero activar la opción &quot;Inlcuir subpáginas&quot; extendería el efecto de la configuración de la página superior para cubrir también las subpáginas.</label>
+			<label index="extendToSubpages.image_descr">Este icono de página indica que el acceso está restringido a cierto grupo y que está activado también &quot;Incluir subpáginas&quot;, lo cual se refleja en el modo en que el icono ha cambiado de aspecto.</label>
+			<label index="alias.description">Un &quot;alias&quot; es una cadena única que identifica una página. Puede usar esta cadena en lugar del &quot;id&quot; para hacer referencia a una página.</label>
+			<label index="alias.details">Una página se identifica por su número &quot;id&quot;. Por ejemplo, es posible referirse a una página en TYPO3 por &quot;.../?id=123&quot;. Si la página con id &quot;123&quot; tuviese el alias &quot;uno_dos_tres&quot;, entonces el URL &quot;.../?id=uno_dos_tres&quot; mostraría exactamente la misma página, ya que &quot;uno_dos_tres&quot; sería un alias para el id &quot;123&quot;.
+Normalmente debería asignar alias a un número limitado de páginas, preferiblemente a aquellas a las que necesite enlazar con frecuencia. En la mayoría de las configuraciones de TYPO3 podrá utilizar la sintaxis &quot;&amp;lt;link uno_dos_tres&amp;gt;ir a la página&amp;lt;/link&amp;gt;...&quot; para crear un enlace a la página, lo cual es más fácil de recordar.
+Otro uso es cuando necesita cambiar a qué página apunta un enlace de ese tipo. En esa caso, puede borrar el alias en una página e introducirlo en otra y todos los enlaces al alias pasarán a referirse a otro número id.</label>
+			<label index="alias.syntax">Un alias puede contener sólo caracteres alfanuméricos en minúscula y debe ser único.
+Nota: si el valor introducido no fuera único, se le insertará automáticamente un número delante.</label>
+			<label index="target.description">El destino HTML (&quot;target&quot;) de los elementos de menú que enlacen con esta página.</label>
+			<label index="target.details">Establezca este valor para sobreescribir el tipo de enlace predeterminado, que debería estar configurado en la plantilla TypoScript de manera que resultase adecuado para la mayoría de las páginas de su web.</label>
+			<label index="no_cache.description">Esta opción desactiva la memorización de la página en el servidor.</label>
+			<label index="no_cache.details">Normalmente en TYPO3 las páginas se &quot;cachean&quot; (memorizan) en el servidor tras ser construidas por primera vez. Con esto, una página se muestra mucho más rápidamente la segunda vez que se solicita.
+Para la mayoría de las páginas, esto no presenta problemas -por el contrario, incrementa el rendimiento del sitio web. No obstante, puede necesitar desactivar la memorización de una página si incluye contenido dinámico que no debe ser memorizado bajo ninguna circunstancia. Normalmente el código PHP que genera este tipo de contenidos está programado para desactivar la memorización automáticamente, pero en cualquier caso siempre puede forzar la desactivación a través de esta opción.</label>
+			<label index="cache_timeout.description">Establece el tiempo de caducidad de la página en la &quot;caché&quot;.</label>
+			<label index="cache_timeout.details">De manera predeterminada las páginas permanecen 24 horas en la caché. Tras ese período, la página se construye de nuevo y se vuelve a memorizar. Dependiendo de su configuración, la memoria caché también se puede limpiar a medianoche.
+Aquí puede establecer otro período de memorización de páginas si lo necesita. Esta opción se usa raramente.</label>
+			<label index="no_search.description">Si está activada, esta opción excluye la página de las operaciones de búsqueda en su web.</label>
+			<label index="author.description">Introduzca el nombre del autor de la página.</label>
+			<label index="author.details">Que el nombre del autor sea utilizado o no depende de la plantilla. Para la mayoría de las plantillas este valor no se usa.
+Si está usando páginas TYPO3 como artículos, puede utilizar este campo para mostrar el nombre del autor de la página.</label>
+			<label index="author_email.description">Introduzca la dirección de correo electrónico del autor de la página.</label>
+			<label index="subtitle.description">Introduzca un subtítulo, si es necesario.</label>
+			<label index="url.description">Introduzca el URL al que se supone que debe ir enlazado esta página.</label>
+			<label index="shortcut.description">Inserte una referencia a la página a la cual la página actual debe ser un acceso directo. Al solicitar el ID de la página actual en el frontend, se redireccionará a la página indicada en esta opción.Me</label>
+			<label index="nav_hide.description">Mediante esta opción la página permanecerá oculta en los menús de navegación del frontend. La página podrá seguir viéndose si se enlaza directamente usando su ID.</label>
+			<label index="nav_title.description">Título alternativo para los elementos del menú en el frontend. Este valor, si no está en blanco, tiene preferencia respecto al título de la página.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="layout.details" type="integer">123495083</label>
+			<label index="doktype.description" type="integer">89204505</label>
+			<label index="doktype.details" type="integer">205867744</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="hidden.details" type="integer">170290748</label>
+			<label index="starttime.description" type="integer">225330621</label>
+			<label index="endtime.description" type="integer">239481021</label>
+			<label index="endtime.syntax" type="integer">211075317</label>
+			<label index="subtitle.description" type="integer">159881469</label>
+			<label index="url.description" type="integer">209817224</label>
+			<label index="shortcut.description" type="integer">240899258</label>
+			<label index="nav_hide.description" type="integer">109378815</label>
+			<label index="nav_title.description" type="integer">207408422</label>
+			<label index="hidden.image_descr" type="integer">40371339</label>
+			<label index="starttime.syntax" type="integer">171815971</label>
+			<label index="fe_group.description" type="integer">229271696</label>
+			<label index="extendToSubpages.description" type="integer">20650362</label>
+			<label index="extendToSubpages.details" type="integer">115883799</label>
+			<label index="extendToSubpages.image_descr" type="double">5558852</label>
+			<label index="alias.description" type="integer">29393799</label>
+			<label index="alias.details" type="integer">50416805</label>
+			<label index="alias.syntax" type="integer">229529597</label>
+			<label index="target.description" type="integer">183968307</label>
+			<label index="target.details" type="integer">205973778</label>
+			<label index="no_cache.description" type="integer">234280457</label>
+			<label index="no_cache.details" type="integer">183323316</label>
+			<label index="cache_timeout.description" type="integer">146302636</label>
+			<label index="cache_timeout.details" type="integer">129628311</label>
+			<label index="no_search.description" type="integer">174061864</label>
+			<label index="author.description" type="integer">35641560</label>
+			<label index="author.details" type="integer">176990818</label>
+			<label index="author_email.description" type="integer">263994700</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="layout.details">This option may not have any impact on the page design since it depends on how (and if) the front end template uses it. In most default templates it's not used.</label>
+			<label index="doktype.description">Select a page type affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">'Standard' and 'Advanced' types are regular webpages, just differing in the number of options.
+'External URL' and 'Shortcut' types allows you to let a page be a shortcut to either an external URL or in the latter case a page in the page tree.
+'Not in menu' is also a regular page, but will not be shown in the navigation. &lt;em&gt;This page type is deprecated! Please use the &quot;Hide in menu&quot; option!&lt;/em&gt;
+'Backend User Section' is an option which requires a backend user to be logged in for the page to be visible.
+
+&lt;b&gt;Special types:&lt;/b&gt;
+'Spacer' is only meaningfull if your frontend navigation is programmed to use it. In this case it does not represent a page with content but is intended to be a non-clickable placeholder in the navigation.
+'SysFolder' is a page type which cannot be shown as a webpage but is rather acting as a storage for records of your choice.
+'Recycler' is a garbage can. Pages and records in a recycler are not visible in the frontend.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="hidden.details">The 'Hidden', 'Start', 'Stop' and 'Access' options are all about limiting access to pages and thus they are related in functionality. In any case where a page is not visible due to one of these options, the page will not show up in the site navigation.
+Notice, these options are related &lt;em&gt;only&lt;/em&gt; to the page for which they are set. If you want their effect to cover the subpages as well, you must enable the 'Include subpages' option.
+When you're logged in as a backend user you can preview hidden pages if you have read access to them.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the page will be visible online. Use this to 'publish' the page on a certain date. If 'Start' time is not set, the page will be online instantly (unless the page is hidden otherwise).</label>
+			<label index="endtime.description">The 'Stop' time is the date from which the page will not be online anymore.</label>
+			<label index="endtime.syntax">See Page / Start (click below)</label>
+			<label index="subtitle.description">Enter a subtitle if needed.</label>
+			<label index="url.description">Enter the URL to which this page is supposed to link.</label>
+			<label index="shortcut.description">Insert a reference to the page to which this page is supposed to be a shortcut. Requesting this ID in the frontend will redirect people to the page referred to by this value.</label>
+			<label index="nav_hide.description">With this option the page will be hidden in navigation menus in the frontend. The page can still be viewed if linked by its ID directly.</label>
+			<label index="nav_title.description">Alternative title for menu items in the frontend. This value takes precedence over the page title if this value is filled in.</label>
+			<label index="hidden.image_descr">The page icon of a hidden page is dimmed and a red X is added.
+If you view a page that is hidden and you are logged in into the backend you will still be able to see the page. The red &quot;Preview&quot; box will tell you that this page is visible to you because of this special circumstance.</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a 'd' the current date is inserted. You can also append any value in the field with eg. '+10' which will add 10 days to the current value. For instance setting the value to 'd+10' would select a date 10 days from now.</label>
+			<label index="fe_group.description">If 'Access' is set to a usergroup name, only website users which are members of the selected usergroup will be able to view the page when they are logged in. The special option 'Hide at login' means the page will &lt;em&gt;not&lt;/em&gt; be visible for website users that are logged in. Likewise &quot;Show at login&quot; will make the page visible for any logged in frontend user.</label>
+			<label index="extendToSubpages.description">By default the Start, Stop, Access and Hidden options are effective &lt;em&gt;only&lt;/em&gt; for the page on which they are set. If the option 'Include subpages' is checked for the page, then their effect is inherited by all subpages to that page.</label>
+			<label index="extendToSubpages.details">Consider a scenario where you want to create a whole section of subpages only visible for users which are logged in. Setting the 'Access' option for the top page in the section would affect access to that page only. So the page would not show up in the navigation unless you are logged in.
+However the subpages would still be visible if one could guess the id-number of the pages and enter it manually in the URL. But setting this option would extend the effect of the top page setting to cover all subpages as well.</label>
+			<label index="extendToSubpages.image_descr">This page icon has access restricted to a certain group and &quot;Include subpages&quot; set as well. This is reflected in the way the icon changed look.</label>
+			<label index="alias.description">An 'alias' is a unique identification string for a page. You can use this string instead of the id-number to refer to the page.</label>
+			<label index="alias.details">Ultimately a page is identified by its id-number. For instance you may refer to a page in TYPO3 by '.../?id=123'. If the page with id '123' has the alias 'one_two_three', then the URL '.../?id=one_two_three' would display exactly the same page, because 'one_two_three' is an alias for the id '123'.
+Normally you should assign aliases only to a limited number of pages, preferably those you need to link to a lot. In most TYPO3 configurations you would be able to use the syntax '.. &amp;lt;link one_two_three&amp;gt;go to the page&amp;lt;/link&amp;gt; ..' to create a link to the page. This is easier to remember.
+Another use is if you need to change which page such a link is referring to. In that case you can delete the alias for one page and enter it for another and all links pointing to the alias would now refer to another id-number.</label>
+			<label index="alias.syntax">An alias can contain only lowercase alphanumeric characters and must be unique.
+Please notice: If the entered value was not unique, it will automatically be prepended with a number.</label>
+			<label index="target.description">The HTML target of menu items linking to this page.</label>
+			<label index="target.details">Set this value only to overrule the default link, which should be configured correctly for most pages in the website TypoScript template.</label>
+			<label index="no_cache.description">This option disables server caching of the page.</label>
+			<label index="no_cache.details">Normally pages in TYPO3 are cached on the server after being constructed for the first time. This means a page is displayed much faster the second time it's requested.
+For most pages this presents no problems - rather it's boosting the performance of the website.
+However you may need to disable caching for a page if it contains dynamic content which must not be cached under any circumstances. Normally the PHP-code rendering such content is programmed to disable the caching automatically. But in any case you can force the page not to be cached via this option.</label>
+			<label index="cache_timeout.description">Sets the cache timeout for the page.</label>
+			<label index="cache_timeout.details">By default pages last for 24 hours in the cache. After that period the page is constructed again and rewritten to the cache. Depending on your configuration, the cache may also be cleared at midnight.
+Anyhow you may here set another timeout time for the page in cache if you need to.
+This option is used quite rarely.</label>
+			<label index="no_search.description">If enabled, this option excludes the page from searching operations on the website.</label>
+			<label index="author.description">Enter the page authors name.</label>
+			<label index="author.details">Whether the author name is used or not depends on the template. For most templates this value is not used.
+If you're using TYPO3 pages as 'articles' then you could use this field to display the name of the page (article) author.</label>
+			<label index="author_email.description">Enter the page authors email address.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

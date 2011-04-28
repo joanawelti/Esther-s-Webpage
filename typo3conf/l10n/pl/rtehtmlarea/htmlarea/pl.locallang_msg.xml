@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="Path">Ścieżka</label>
+			<label index="TEXT_MODE">Aktualnie jesteś w trybie edytowania kodu HTML. Użyj przycisku [&lt;&gt;], żeby powrócić do edytora WYSYWIG.</label>
+			<label index="ActiveX-required">Żeby załadować edytor w przeglądarce Internet Explorer należy włączyć opcję &quot;Uruchamianie formantów ActiveX i dodatków plug-in&quot; w ustawieniach przeglądarki.</label>
+			<label index="HTML-document-not-well-formed">Dokument HTML nie jest sformatowany poprawnie.</label>
+			<label index="Moz-Clipboard">Ze względu na bezpieczeństwo, aplikacje, które nie dostały pozwolenia nie mają dostępu do schowka (operacje wytnij/kopiuj/wklej). Kliknij OK, żeby wejść na stronę mozilla.org i zapoznać się z dokumentacją, która pokaże jak ustawić dostęp do schowka dla wybranych aplikacji.</label>
+			<label index="Moz-Extension">Ze względu na bezpieczeństwo, aplikacje, które nie dostały pozwolenia nie mają dostępu do schowka. Naciśnij przycisk OK, żeby zainstalować komponent, dzięki któremu ta strona www będzie miała dostęp do schowka i otrzyma pozwolenie na wykonywanie operacji kopiowania, wycinania i wklejania.</label>
+			<label index="Moz-Extension-Success">Instalacja zakończyła sie pomyślnie. Musisz zamknąć przeglądarkę i uruchomić ponownie, żeby zmiany stały się widoczne.</label>
+			<label index="Moz-Extension-Failure">Instalacja nie powiodła się.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Instalacja nie może być przeprowadzona. Zmień ustawienia przeglądarki tak, żeby można było instalować oprogramowanie pochodzące z tej strony.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Ze względu na bezpieczeństwo, aplikacje, które nie dostały pozwolenia nie mają dostępu do schowka. Naciśnij przycisk OK, żeby zainstalować komponent, który pozwoli na określenie adresów stron www, które będą miały dostęp do schowka i otrzymają pozwolenie na wykonywanie operacji kopiowania, wycinania i wklejania.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Instalacja nie może być przeprowadzona. Zmień ustawienia przeglądarki tak, żeby można było instalować oprogramowanie za strony http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Instalacja zakończyła sie pomyślnie. Musisz zamknąć przeglądarkę i uruchomić ponownie, żeby zmiany stały się widoczne. Następnie użyj AllowClipboard Helper z menu Narzędzia, żeby określić adresy stron www, które mają dostęp do schowka.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="Path">Path</label>
+			<label index="Moz-Extension-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from this site.</label>
+			<label index="Allow-Clipboard-Helper-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable you to specify the sites or pages that will be allowed to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Moz-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable applications from this site to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Moz-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect.</label>
+			<label index="Moz-Extension-Failure">Sorry, the installation failed.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect. Afterwards, use the AllowClipboard Helper from the tools menu to allow specific sites to use the clipboard.</label>
+			<label index="Moz-Clipboard">Unprivileged scripts cannot access Cut/Copy/Paste programatically for security reasons. Click OK to see a technical note at mozilla.org which shows you how to allow a script to access the clipboard.</label>
+			<label index="TEXT_MODE">You are in TEXT MODE.  Use the [&lt;&gt;] button to switch back to WYSIWYG.</label>
+			<label index="ActiveX-required">Loading the editor in Internet Explorer requires the execution of ActiveX controls to be enabled.</label>
+			<label index="HTML-document-not-well-formed">The HTML document is not well-formed.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

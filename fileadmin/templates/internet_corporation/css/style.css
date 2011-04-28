@@ -1,0 +1,219 @@
+/* 
+
+	project:  internet corporation
+	author:   luka cvrk (www.solucija.com) 
+
+   
+*/
+
+
+*{ margin: 0; padding: 0; }* 
+body { 
+	font: .74em Verdana, Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	line-height: 1.6em;
+	background: #fff url(../images/bg.gif) repeat-x; 
+	color: #444; 
+}
+
+a {	color: #317486;	background: inherit; text-decoration: none; }
+a:hover { color: #808080; background: inherit; }
+p { margin: 0 0 15px 0; }
+h1 { font: bold 1.7em Arial, Sans-Serif;  margin: 20px 0 0; }
+h1 a { color: #fff; background: inherit; }
+h1 a:hover { color: #E4FFD3; background: inherit; }
+h2, #left h1, #right h1 { font: bold 1.6em Arial, Sans-Serif; margin: 0 0 12px; }
+h4 { color: #808080; background: inherit; font-weight: normal; font-size: .9em; }
+
+#content { width: 900px; margin: 0 auto; }
+
+#logo { margin: 10px 0 0 0; height: 66px; width: 240px; float: left; background: url(../images/logobg.gif) no-repeat bottom; text-align: center;}
+
+#intro { 
+	clear: both;
+	background: #fff url(../images/intro.jpg) no-repeat;
+	color: #4C8734;
+	height: 170px;
+	margin: 0 0 20px;
+	padding: 45px 40px 0 0;
+	text-align: right;
+}
+	#intro h1 { margin: 0; }
+	#intro p { margin: 0; }
+	
+	#login { font-size: .9em; margin: 82px 0 0; }
+	#login a { color: #fff; background: #8BE1FA; padding: 4px 20px 6px;}
+	#login a:hover { color: #fff; background: #8BE1FA url(../images/loginhover.gif) no-repeat; }
+
+#left { clear: left; float: left; width: 240px; padding: 0 34px 0 15px; font-size: .9em; margin: 0 0 15px; }
+	#leftmenu { list-style: none; margin: 0 0 20px 0; }
+	#leftmenu li { padding: 0 0 0 12px; background: #fff url(../images/bullet.gif) no-repeat center left; color: #46852F; }
+	#leftmenu li a { background: #EAFFE3; color: #46852F; }
+
+#right {
+	margin: 0 15px 20px 0;
+	padding: 0 0 0 35px;
+	border-left: 1px solid #ccc;
+	float: right;
+	width: 560px;
+	text-align: justify;
+}
+	#notice { padding: 12px 14px 1px; background: #f4f4f4 url(../images/noticebg.gif) no-repeat bottom right; color: #808080; }
+	#left a, #right a { background: #EFFCFF; color: #317486; }
+
+	#left h3 { border-bottom: 1px solid #eee; padding: 0 0 7px; margin: 0 0 15px 0; }
+	#right h2, #right h1 { border-bottom: 1px solid #ccc; padding: 0 0 8px; }
+
+#footer { clear: both; border-top: 1px solid #ccc; padding: 10px 0; margin: 0 0 15px; font-size: .9em; color: #808080; background: #fff; }
+	#footer a { color: #4CA031; background: #fff; }
+	#col1 { float: left; width: 274px; padding: 7px 0 0 15px; margin: 0 0 10px; }
+	#col2 { float: left; width: 250px; border-left: 1px solid #ccc; padding: 7px 0 0 40px; }
+	#col3 { float: right; width: 250px; border-left: 1px solid #ccc; padding: 7px 0 0 40px; }
+
+img {
+	border: none;
+}
+
+
+.csc-sword {
+color: #ffffff;
+background-color:#385B88;
+padding: 0 3px 0 3px;
+}
+
+/*------mailformular formatieren------*/
+
+#mailform {
+	padding: 20px;
+}
+
+form input,
+form textarea {
+
+}
+
+#mailform .csc-mailform {
+border: 0px;
+}
+
+.csc-mailform-field {;
+margin: 2px 0 0 2px;;
+padding: 5px;
+}
+
+.csc-mailform-field label {
+float: left;
+padding: 1px;
+width: 80px;
+}
+
+
+.mf-input {
+clear: none;
+width: 220px;
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-pass {
+width: 220px;
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-text {
+clear: none;
+width: 220px;
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-check {
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.csc-mailform-radio fieldset {
+border: 0px;
+background-color:none;
+}
+
+.csc-mailform-radio legend {
+display: none;
+border: 0px;
+}
+
+.mf-radio {
+margin-left: 0px;
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-select {
+width: 220px;
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-file {
+width: 220px;
+padding: 1px;
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-reset {
+border: 1px solid #317486;
+background-color:none;
+}
+
+.mf-submit {
+margin-left: 82px;
+background-color:none;
+
+}
+
+
+.tx-newloginbox-pi1 label {
+	float: left;
+}
+
+.tx-newloginbox-pi1 input,
+input,
+textarea {
+padding: 1px;
+border: 1px solid #385B88;
+background-color:none;
+}
+
+.csc-textpic-image,
+.csc-textpic-intext-left-nowrap .csc-textpic-imagewrap {
+	padding-top: 8px;
+}
+
+
+/*------tabelle formatieren------*/
+/* RTE / Table styling */
+TABLE { padding-left:15px; }
+TABLE.contenttable { border:none; margin:10px 0px 10px 0px; width:90%; }
+TABLE.contenttable TR TD { padding:2px 5px 2px 5px; margin:0px; border:0px; }
+TABLE.contenttable TR TD P.bodytext { font-size:10px; }
+TABLE.contenttable TR { margin:none; background-color:#ccc; } /*Orange***fe4e00**/
+TABLE .bodytext { margin: 0px; }
+
+
+/* RTE / Bulletlists */ 
+#main UL { margin-top:0px;  }
+#main UL UL LI { font-size:11px; }
+#main OL { margin-top:0px; }
+/* LI { margin-top:0px; margin-bottom:0px; padding-top:2px; } */ 
+#main LI {list-style-image:url(../images/list.gif); }
+
+#main UL LI.a {
+
+}

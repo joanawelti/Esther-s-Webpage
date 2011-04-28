@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index=".description">Pontos-de-entrada descrevem um caminho de arquivo no servidor, relativo ou absoluto.</label>
+			<label index=".details">Ao criar um registro de ponto-de-entrada e colocar uma referência a ele num grupo de usuário Administrador, você pode conceder acesso ao ponto-de-entrada a um usuário no módulo Arquivo&gt;Lista.
+Você deve criar ao menos um ponto-de-entrada com uma pasta '_temp_' nela se quiser que usuários sejam capazes de enviar arquivos através de um navegador web.
+Pontos-de-entrada também podem configurar acesso a um caminho no servidor onde o usuário tenha acesso via FTP. Apenas lembre de criar permissões de arquivo corretamente no servidor para que o usuário do servidor (aquele que está rodando o PHP) tenha ao menos capacidade de leitura no diretório FTP.</label>
+			<label index="title.description">Insira um título para o ponto-de-entrada</label>
+			<label index="path.description">Insira o caminha para o ponto-de-entrada, relativo ou absoluto, dependendo das configurações da BASE.</label>
+			<label index="path.details">Se BASE for configurada como relativa, o caminho montado será encontrado na subpasta &quot;fileadmin/&quot; do site. Então você deve inserir uma subpasta de &quot;fileadmin/&quot; como caminho. Por exemplo, se você quiser montar acesso para &quot;fileadmin/user_uploads/all&quot;, então insira o valor &quot;user_uploads/all&quot; como o valor de PATH.
+Se BASE for absoluta, você deve inserir o caminho absoluto no servidor. Por exemplo &quot;/home/ftp_upload&quot; ou &quot;C:/home/ftp_upload&quot;.
+
+&lt;strong&gt;Atenção:&lt;/strong&gt; Em todo caso, certifique-se de que o usuário do servidor web rodando PHP tenha &lt;em&gt;ao menos&lt;/em&gt; permissão de leitura no caminho. Se não, o ponto-de-entrada simplesmente não aparecerá, sem advertências.
+Se você tiver problemas - especialmente com montagens absolutas - tente montar algo &quot;simples&quot;, como um caminho relativo em &quot;fileadmin&quot;.  Se isto funcionar corretamente, tente o caminho absoluto.
+
+Sua configuração de PHP também pode impor outras restrições se características como 'safe-modo' estiverem habilitadas. Então use caminhos relativos.</label>
+			<label index="hidden.description">Use esta opção para desativar o ponto-de-entrada temporariamente.</label>
+			<label index="hidden.details">Todos os usuários-administradores usando o ponto-de-entrada não terão mais acesso a ele. Isto inclui usuários 'Admin'.</label>
+			<label index="base.description">Determina se o valor do campo PATH deve ser reconhecido como um caminho absoluto no servidor ou um caminho relativo à pasta 'fileadmin/' do site.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

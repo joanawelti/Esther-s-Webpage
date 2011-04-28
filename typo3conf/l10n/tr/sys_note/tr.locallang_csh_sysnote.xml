@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index=".description">Sayfaya hatırlatıcı not eklendi.</label>
+			<label index=".details">Bu özellik arkaplan yayınlarıyla ilişkili olarak sayfaya açıklayıcı notlar eklemenizi sağlar. Hatırlatma mesajı, açıklayıcı gibi kullanabilirsiniz.</label>
+			<label index="category.description">Tanımlanan not karakterinin kategorisini seçiniz.</label>
+			<label index="subject.description">Not için başlık yazınız.</label>
+			<label index="message.description">Not kısmı</label>
+			<label index="author.description">Adınızı Giriniz.</label>
+			<label index="email.description">E-mail adresininizi giriniz</label>
+			<label index="personal.description">Bunu tıklayınız, Eğer tıklamazsanız diğer kullanıcılar notlarınızı görebilir.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index=".description" type="integer">112425504</label>
+			<label index=".details" type="integer">141602016</label>
+			<label index="category.description" type="integer">222277377</label>
+			<label index="subject.description" type="integer">58235458</label>
+			<label index="message.description" type="integer">268248387</label>
+			<label index="author.description" type="integer">205434485</label>
+			<label index="email.description" type="integer">259302369</label>
+			<label index="personal.description" type="integer">172550456</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

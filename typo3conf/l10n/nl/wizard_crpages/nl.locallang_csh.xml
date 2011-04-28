@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="tx_wizardcrpages.alttitle">Pagina aanmaak assistent</label>
+			<label index="tx_wizardcrpages.description">Geeft u de mogelijkheid om een reeks nieuwe lege pagina's aan te maken.
+Voer de titels in van de pagina's die u wilt aanmaken. Alleen voor de ingevulde velden zullen pagina's aangemaakt worden.</label>
+			<label index="tx_wizardcrpages.details">De nieuwe pagina's zullen altijd aangemaakt als sub-pagina's van de huidige active pagina. Deze pagina is zichtbaar aan de bovenkant van de pagina. In de voorbeeld afbeelding hieronder is het &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Plaats nieuwe pagina's na de bestaande sub-pagina's&quot;&lt;/b&gt;
+Als u deze optie selecteerd dan zullen de pagina's &lt;em&gt;na&lt;/em&gt; de bestaande sub-pagina's gemaakt worden.
+
+&lt;b&gt;&quot;Verberg nieuwe pagina's&quot;&lt;/b&gt;
+Selecteer deze optie indien de nieuwe pagina's standaard verborgen moeten worden. Deze optie kan mogelijk geforceerd worden indien u geen rechten heeft om zichtbare pagina's aan te maken.
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+De pagina aanmaak assistent werkt ook samen met de Lorem Ipsum assistent welke voorbeeld inhoud plaatst in de velden.</label>
+			<label index="tx_wizardcrpages.image_descr">Voer eenvoudig de nieuwe pagina titels in de velden. Alleen voor de ingevulde velden zullen pagina's aangemaakt worden.
+Na het drukken op de &quot;Creëer pagina's&quot; knop zal de pagina structuur in het linker venster direct aangepast worden en de nieuw aangemaakte pagina's laten zien.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="tx_wizardcrpages.alttitle" type="integer">61381807</label>
+			<label index="tx_wizardcrpages.description" type="integer">139514396</label>
+			<label index="tx_wizardcrpages.details" type="integer">190128195</label>
+			<label index="tx_wizardcrpages.image_descr" type="integer">257127828</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="tx_wizardcrpages.alttitle">Create Pages wizard</label>
+			<label index="tx_wizardcrpages.description">Enables you to create a batch of new, empty pages for quickly building up a new page tree. 
+Just enter the titles for the pages you need. Only filled in fields will be created as pages.</label>
+			<label index="tx_wizardcrpages.details">The new pages will always be created as subpages to the currently active page from the page tree. This page is shown in the top of the page. In the example image below it is &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Place new pages after the existing subpages&quot;&lt;/b&gt;
+If you select this option the pages will be create &lt;em&gt;after&lt;/em&gt; any existing subpages.
+
+&lt;b&gt;&quot;Hide new pages&quot;&lt;/b&gt;
+Select this if the new pages should be hidden by default. This option may be forced upon you if you do not have credentials to create new, online pages.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+The Create new page wizard supports the Lorem Ipsum extension providing dummy content for the fields.</label>
+			<label index="tx_wizardcrpages.image_descr">You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
+After pressing the &quot;Create pages&quot; button the page tree to the left will update instantly, showing you the position of the new pages!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

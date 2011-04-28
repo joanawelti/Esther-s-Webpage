@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="adminOptions">YÖNETİM PANELİ</label>
+			<label index="preview">Öngörüntü</label>
+			<label index="preview_showHiddenPages">Gizlenmiş sayfaları göster:</label>
+			<label index="preview_showHiddenRecords">Gizlenmiş kayıtları göster:</label>
+			<label index="preview_simulateDate">Zamanı simule et:</label>
+			<label index="preview_simulateUserGroup">Kullanıcı grubunu simule et:</label>
+			<label index="cache">Önbellek</label>
+			<label index="cache_noCache">Önbellek yok:</label>
+			<label index="cache_doit">Önbelleği şimdi temizle!</label>
+			<label index="cache_clearLevels">Seviyeleri temizle:</label>
+			<label index="cache_cacheEntries">Önbellek girişleri:</label>
+			<label index="publish">Yayın</label>
+			<label index="publish_levels">Yayın seviyeleri:</label>
+			<label index="publish_tree">Yayın sayfaları:</label>
+			<label index="publish_doit">Şimdi yayınla!</label>
+			<label index="edit">Düzenleniyor</label>
+			<label index="edit_displayIcons">Düzenlenen Panelleri göster:</label>
+			<label index="edit_displayFieldIcons">Düzenlenen İkonları göster:</label>
+			<label index="edit_editFormsOnPage">Sayfada düzenleme formaları:</label>
+			<label index="edit_editNoPopup">Popup penceresi yok:</label>
+			<label index="edit_openAB">TYPO3 Arkaplanı aç</label>
+			<label index="edit_recordHistory">Kayıt değişim günlüğünü göster</label>
+			<label index="edit_newContentElement">Yeni içerik elementi yarat</label>
+			<label index="edit_move_page">Sayfayı taşı</label>
+			<label index="edit_newPage">Yeni sayfa yarat</label>
+			<label index="edit_editPageHeader">Sayfa başlığını düzelt</label>
+			<label index="edit_db_list">Web&gt;Liste modülü</label>
+			<label index="tsdebug">TypoScript</label>
+			<label index="tsdebug_tree">Ağaç görüntüle:</label>
+			<label index="tsdebug_LR">İçerik oluşturma sürecini izle:</label>
+			<label index="tsdebug_forceTemplateParsing">TS oluşturmayı zorunlu kıl:</label>
+			<label index="tsdebug_displayTimes">Tüm zamanları görüntüle:</label>
+			<label index="tsdebug_displayMessages">Mesajları görüntüle:</label>
+			<label index="tsdebug_displayContent">İçeriği görüntüle:</label>
+			<label index="tsdebug_displayQueries">SEÇİLİ soruları açıkla:</label>
+			<label index="info">Bilgi</label>
+			<label index="div_Levels_0">Bu sayfada</label>
+			<label index="div_Levels_1">+ 1 alt seviye</label>
+			<label index="div_Levels_2">+ 2 alt seviye</label>
+			<label index="update">Güncelle</label>
+			<label index="p_editRecord">Kayıtı düzelt</label>
+			<label index="p_moveUp">Yukarıya taşı</label>
+			<label index="p_moveDown">Aşağıya taşı</label>
+			<label index="p_unhide">Gizleme</label>
+			<label index="p_hide">Gizle</label>
+			<label index="p_newSubpage">Yeni altsayfa</label>
+			<label index="p_newRecordAfter">Yeni kayıt sonrası</label>
+			<label index="p_delete">Sil</label>
+			<label index="p_deleteConfirm">Bu kayıtı silmek istediğinizden emin misiniz?</label>
+			<label index="p_hideConfirm">Gizlenen kayıt websayfasında görünür hale gelecektir ve arkaplana giriş yapmak üzeresiniz veya tekrar düzeltme yapmadan önce önplanı öngörünüşünü etkinleştirmeniz gerekir.
+Devam etmek istiyor musunuz?</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="adminOptions" type="integer">147511050</label>
+			<label index="preview" type="integer">52420219</label>
+			<label index="preview_showHiddenPages" type="integer">134294512</label>
+			<label index="preview_showHiddenRecords" type="integer">197480530</label>
+			<label index="preview_simulateDate" type="integer">165211717</label>
+			<label index="preview_simulateUserGroup" type="integer">140125754</label>
+			<label index="cache" type="integer">179359504</label>
+			<label index="cache_noCache" type="integer">7012371</label>
+			<label index="cache_doit" type="integer">82152402</label>
+			<label index="cache_clearLevels" type="integer">9304802</label>
+			<label index="cache_cacheEntries" type="integer">248899248</label>
+			<label index="publish" type="integer">17867952</label>
+			<label index="publish_levels" type="integer">266651712</label>
+			<label index="publish_tree" type="integer">130627303</label>
+			<label index="publish_doit" type="integer">142429021</label>
+			<label index="edit" type="integer">186429311</label>
+			<label index="edit_displayIcons" type="integer">160544396</label>
+			<label index="edit_displayFieldIcons" type="integer">75845684</label>
+			<label index="edit_editFormsOnPage" type="integer">251694161</label>
+			<label index="edit_editNoPopup" type="integer">143991461</label>
+			<label index="edit_openAB" type="integer">177133592</label>
+			<label index="edit_recordHistory" type="integer">38913415</label>
+			<label index="edit_newContentElement" type="integer">165001110</label>
+			<label index="edit_move_page" type="integer">32081372</label>
+			<label index="edit_newPage" type="integer">10918545</label>
+			<label index="edit_editPageHeader" type="integer">60384081</label>
+			<label index="edit_db_list" type="integer">182815575</label>
+			<label index="tsdebug" type="integer">6141239</label>
+			<label index="tsdebug_tree" type="integer">60618427</label>
+			<label index="tsdebug_LR" type="integer">38630757</label>
+			<label index="tsdebug_forceTemplateParsing" type="integer">28246343</label>
+			<label index="tsdebug_displayTimes" type="integer">67634135</label>
+			<label index="tsdebug_displayMessages" type="integer">61942828</label>
+			<label index="tsdebug_displayContent" type="integer">118594150</label>
+			<label index="tsdebug_displayQueries" type="integer">26860700</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="div_Levels_0" type="integer">98872550</label>
+			<label index="div_Levels_1" type="integer">81949190</label>
+			<label index="div_Levels_2" type="integer">92317091</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="p_editRecord" type="integer">148343509</label>
+			<label index="p_moveUp" type="integer">259501942</label>
+			<label index="p_moveDown" type="integer">232386759</label>
+			<label index="p_unhide" type="integer">152488466</label>
+			<label index="p_hide" type="integer">103439945</label>
+			<label index="p_newSubpage" type="integer">81409489</label>
+			<label index="p_newRecordAfter" type="integer">264860337</label>
+			<label index="p_delete" type="integer">254438473</label>
+			<label index="p_deleteConfirm" type="integer">75838368</label>
+			<label index="p_hideConfirm" type="double">8301973</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

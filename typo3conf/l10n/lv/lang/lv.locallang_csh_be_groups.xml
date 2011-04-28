@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description">Šis ir Backend administrācijas lietotāju grupas, kas ir pieejamas Backend lietotājiem. Šīs grupas nosaka pieejas akreditācijas datus Backend lietotājiem.</label>
+			<label index=".details">Grupas satur pamata attļaujas uzstādījumus, kurus varat piemērot Backend lietotājam. Vairāki lietotāji var būt vienas grupas dalībnieki un tādejādi dalīt pieejas atļaujas.
+Lietotājam esot vairāku grupu dalībniekam (iekļaujot apakšgrupas) pieejas atļaujas tiek apvienotas, līdz ar ko, jo vairāk grupās ir iekļauts lietotājs, jo vairāk tam tiek piešķirta pieeja.</label>
+			<label index="title.image_descr">Lietotāju grupas nosaukums ir parādīts ierakstu sarakstā.</label>
+			<label index="db_mountpoints.description">Definējiet lapas koka sākumpunktu grupas locekļiem.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index=".details" type="integer">152748622</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index=".details">Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="tx_wizardsortpages.alttitle">Magician sortare pagini</label>
+			<label index="tx_wizardsortpages.description">Vă permite să ordonaţi paginile alfabetic după titlu, subtitlu sau data când au fost create etc. Puteţi de asemenea inversa ordinea paginilor din arbore.</label>
+			<label index="tx_wizardsortpages.details">Paginile din arbore sunt întotdeauna ordonate manual. Este posibil să mutaţi paginile în sus sau în jos etc. Acest magician însă vă oferă o modalitate rapidă de a schimba manual ordinea subpaginilor.
+
+Faceţi click pe unul dintre linkurile aflate sub magician:
+
+&lt;b&gt;Titlu pagină&lt;/b&gt;
+Va sorta paginile după titlu.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Va sorta paginile după subtitlu.
+
+&lt;b&gt;Data schimbării&lt;/b&gt;
+Va sorta paginile după data când au fost modificate ultima dată.
+
+&lt;b&gt;Data creării&lt;/b&gt;
+Va modifica paginile după data creării.
+
+&lt;b&gt;Inversează ordinea curentă&lt;/b&gt;
+Alegeţi această opţiune pentru a inversa ordinea curentă. De exemplu, dacă doriţi să ordonaţi paginile alfabetic dar în ordine descrescătoare pur şi simplu le ordonaţi prima dată după titlu apoi inversaţi ordinea alegând această opţiune.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="tx_wizardsortpages.alttitle" type="integer">256705929</label>
+			<label index="tx_wizardsortpages.description" type="integer">192390591</label>
+			<label index="tx_wizardsortpages.details" type="integer">122743470</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index="tx_wizardsortpages.alttitle">Sort Pages wizard</label>
+			<label index="tx_wizardsortpages.description">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</label>
+			<label index="tx_wizardsortpages.details">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+&lt;b&gt;Page title&lt;/b&gt;
+Will sort pages by their page title.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Will sort page by their Subtitle field.
+
+&lt;b&gt;Change-time&lt;/b&gt;
+Will sort pages by the date they were last changed.
+
+&lt;b&gt;Create-time&lt;/b&gt;
+Will sort pages by their creation date.
+
+&lt;b&gt;Reverse current order&lt;/b&gt;
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

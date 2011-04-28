@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="tx_wizardsortpages.alttitle">整理網頁精靈</label>
+			<label index="tx_wizardsortpages.description">使你可以根據標題﹑副標題或建立時間的英文字母整理網頁。你同樣可以把網頁樹圖中的網頁次序逆轉</label>
+			<label index="tx_wizardsortpages.details">在網頁樹圖中的網頁時常以人手排列。是可以向上或向下移動的。但是這個精靈給你一個快捷的方法去改變副網頁的手動次序。
+
+只要點擊在精靈畫面底部的其中一個連結:
+
+&lt;b&gt;網頁標題&lt;/b&gt;
+以網頁標題整理網頁
+
+&lt;b&gt;副標題&lt;/b&gt;
+以網頁副標題整理網頁
+
+&lt;b&gt;修改時間&lt;/b&gt;
+以最後修改日期整理網頁
+
+&lt;b&gt;建立時間&lt;/b&gt;
+以網頁建立時間整理網頁
+
+&lt;b&gt;逆轉現有的次序&lt;/b&gt;
+點擊這裡去逆轉現有的次序。例如，假如你想按英文字母次序ｚ至ａ整理，你只要先以標題整理，然後點擊這裡逆轉次序</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="tx_wizardsortpages.alttitle" type="integer">256705929</label>
+			<label index="tx_wizardsortpages.description" type="integer">192390591</label>
+			<label index="tx_wizardsortpages.details" type="integer">122743470</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="tx_wizardsortpages.alttitle">Sort Pages wizard</label>
+			<label index="tx_wizardsortpages.description">Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.</label>
+			<label index="tx_wizardsortpages.details">Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+&lt;b&gt;Page title&lt;/b&gt;
+Will sort pages by their page title.
+
+&lt;b&gt;Subtitle&lt;/b&gt;
+Will sort page by their Subtitle field.
+
+&lt;b&gt;Change-time&lt;/b&gt;
+Will sort pages by the date they were last changed.
+
+&lt;b&gt;Create-time&lt;/b&gt;
+Will sort pages by their creation date.
+
+&lt;b&gt;Reverse current order&lt;/b&gt;
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

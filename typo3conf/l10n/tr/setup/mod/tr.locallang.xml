@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="UserSettings">Kullanıcı ayarları</label>
+			<label index="language">Dil</label>
+			<label index="lang_default">İngilizce</label>
+			<label index="lang_dk">Danca</label>
+			<label index="lang_de">Almanca</label>
+			<label index="lang_no">Norveçce</label>
+			<label index="lang_it">İtalyanca</label>
+			<label index="lang_fr">Fransızca</label>
+			<label index="lang_es">İspanyolca</label>
+			<label index="lang_nl">Hollandaca</label>
+			<label index="lang_cz">Çekce</label>
+			<label index="lang_pl">Pomakça</label>
+			<label index="lang_si">Slovakça</label>
+			<label index="lang_fi">Fince</label>
+			<label index="lang_tr">Türkçe</label>
+			<label index="lang_se">İsveçce</label>
+			<label index="lang_pt">Portekizce</label>
+			<label index="lang_ru">Rusca</label>
+			<label index="lang_ro">Romence</label>
+			<label index="lang_ch">Çince</label>
+			<label index="lang_sk">Slovakça</label>
+			<label index="lang_lt">Litvanyaca</label>
+			<label index="lang_is">izlandaca</label>
+			<label index="lang_hr">hırvatca</label>
+			<label index="lang_hu">macarca</label>
+			<label index="lang_gl">grönland</label>
+			<label index="lang_th">taice</label>
+			<label index="lang_gr">yunanca</label>
+			<label index="lang_hk">Çince</label>
+			<label index="lang_eu">Bask</label>
+			<label index="lang_bg">Bulgarca</label>
+			<label index="lang_br">Brazilya Portekiz</label>
+			<label index="lang_et">Estonya</label>
+			<label index="lang_ar">Arapça</label>
+			<label index="lang_he">İbranice</label>
+			<label index="lang_ua">Ukraynaca</label>
+			<label index="lang_lv">Litvanca</label>
+			<label index="lang_jp">Japonca</label>
+			<label index="lang_vn">Vietnamca</label>
+			<label index="lang_ca">Katalan</label>
+			<label index="lang_ba">Bosnaca</label>
+			<label index="lang_kr">Korece</label>
+			<label index="default">Standart</label>
+			<label index="simulate">Arkaplan kullanıcılarını simule etme</label>
+			<label index="opening">Başlangıç</label>
+			<label index="personal_data">Kişisel veri</label>
+			<label index="showThumbs">Standart tarafından küçük resimlerin gösterilmesi</label>
+			<label index="condensedMode">Arkaplanda yoğunlaştırılmış modu kullan&lt;br/&gt;(küçük ekranlar için)</label>
+			<label index="noMenuMode">Navigation modunun seç</label>
+			<label index="noMenuMode_def">Sol çerçeve menüsü (standart)</label>
+			<label index="noMenuMode_sel">Üst çerçevenin içindeki selektor kutusu</label>
+			<label index="noMenuMode_icons">Üst çerçevenin içindeki ikonlar</label>
+			<label index="startInTaskCenter">Başlangıç modülünün içinde 'Görev Merkezi'</label>
+			<label index="emailMeAtLogin">Hesabıma birisi giriş yaptığında &lt;br /&gt;emaille haber ver bana</label>
+			<label index="helpText">O konuyla ilgili yardım metini varsa göster</label>
+			<label index="maxTitleLen">Max. Başlık Uzunluğu</label>
+			<label index="edit_showFieldHelp">Yardım modu alanı</label>
+			<label index="edit_showFieldHelp_icon">Sadece yardım ikonunun görüntülenmesi</label>
+			<label index="edit_showFieldHelp_message">Tüm metin mesajının görüntülenmesi</label>
+			<label index="edit_wideDocument">Dökümanın arkaplanını genişlet</label>
+			<label index="edit_RTE">Zengin Metin Düzenleyiciyi çalışır (etkin) duruma getir (sadece MSIE)</label>
+			<label index="edit_docModuleUpload">Doc-modülün içinde doğrudan dosya yüklenmesi</label>
+			<label index="edit_functions">Düzenle</label>
+			<label index="disableCMlayers">Popup içerik menülerini devre dışı bırak</label>
+			<label index="setToStandard">Tüm Değerleri standarta çevir</label>
+			<label index="functions">Gelişmiş fonksiyonlar</label>
+			<label index="copyLevels">&lt;b&gt;Yinelemeli Kopya:&lt;/b&gt; Sayfa kopyalandığında&lt;br /&gt;altseviyeleri kapsayan sayfa numarasını girin</label>
+			<label index="recursiveDelete">&lt;b&gt;Yinelemeli Silme(!):&lt;/b&gt; Sayfa silinirken&lt;br /&gt;TÜM altsayfaların silinebilmesine izin ver</label>
+			<label index="activateChanges">Uyarı! Çoğu değişiklikleri aktif hale getirmek için, lütfen arkaplanı tekrar yükleyiniz (tekrar çıkın ve girin gibi).</label>
+			<label index="levels">seviyeler</label>
+			<label index="beUser_realName">İsminiz</label>
+			<label index="beUser_email">Email adresiniz</label>
+			<label index="save">Konfigürasyonu kaydet</label>
+			<label index="newPassword">Yeni şifre</label>
+			<label index="newPasswordAgain">Yeni şifre, tekrar</label>
+			<label index="newPassword_ok">Şifre güncellendi</label>
+			<label index="newPassword_failed">Şifreniz güncellenmedi çünkü aynı şifreyi tekrar girmediniz.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="UserSettings" type="integer">46681867</label>
+			<label index="language" type="integer">77154959</label>
+			<label index="lang_default" type="integer">126116771</label>
+			<label index="lang_dk" type="integer">129789717</label>
+			<label index="lang_de" type="integer">141280017</label>
+			<label index="lang_no" type="integer">228937930</label>
+			<label index="lang_it" type="integer">79597062</label>
+			<label index="lang_fr" type="integer">181544439</label>
+			<label index="lang_es" type="integer">213207052</label>
+			<label index="lang_nl" type="integer">109835111</label>
+			<label index="lang_cz" type="integer">138409032</label>
+			<label index="lang_pl" type="integer">208864137</label>
+			<label index="lang_si" type="integer">115971854</label>
+			<label index="lang_fi" type="integer">162400671</label>
+			<label index="lang_tr" type="integer">202773179</label>
+			<label index="lang_se" type="integer">68252064</label>
+			<label index="lang_pt" type="integer">51262151</label>
+			<label index="lang_ru" type="integer">233547410</label>
+			<label index="lang_ro" type="integer">251294612</label>
+			<label index="lang_ch" type="integer">206546547</label>
+			<label index="lang_sk" type="integer">162319430</label>
+			<label index="lang_lt" type="double">5202008</label>
+			<label index="default" type="integer">128029197</label>
+			<label index="simulate" type="integer">213794209</label>
+			<label index="opening" type="integer">20867161</label>
+			<label index="showThumbs" type="integer">111890184</label>
+			<label index="noMenuMode_def" type="integer">125128652</label>
+			<label index="noMenuMode_sel" type="integer">257410868</label>
+			<label index="noMenuMode_icons" type="integer">250425196</label>
+			<label index="startInTaskCenter" type="integer">63015246</label>
+			<label index="emailMeAtLogin" type="integer">242513283</label>
+			<label index="helpText" type="integer">40561585</label>
+			<label index="maxTitleLen" type="integer">197742795</label>
+			<label index="edit_showFieldHelp" type="integer">156260410</label>
+			<label index="edit_showFieldHelp_icon" type="integer">174937206</label>
+			<label index="edit_showFieldHelp_message" type="integer">92057802</label>
+			<label index="edit_wideDocument" type="integer">47472072</label>
+			<label index="edit_RTE" type="integer">16864569</label>
+			<label index="edit_docModuleUpload" type="integer">172878204</label>
+			<label index="edit_functions" type="integer">131916066</label>
+			<label index="disableCMlayers" type="integer">256285755</label>
+			<label index="setToStandard" type="integer">243973144</label>
+			<label index="functions" type="integer">155530193</label>
+			<label index="copyLevels" type="integer">158680187</label>
+			<label index="recursiveDelete" type="integer">241746651</label>
+			<label index="activateChanges" type="integer">247658693</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="beUser_realName" type="integer">35776261</label>
+			<label index="beUser_email" type="integer">26761284</label>
+			<label index="save" type="double">8749289</label>
+			<label index="newPassword" type="integer">55855176</label>
+			<label index="newPasswordAgain" type="double">985181</label>
+			<label index="newPassword_ok" type="integer">249160755</label>
+			<label index="newPassword_failed" type="integer">202693756</label>
+			<label index="lang_is" type="integer">80037322</label>
+			<label index="lang_hr" type="double">12697097</label>
+			<label index="lang_hu" type="integer">129523986</label>
+			<label index="lang_gl" type="integer">24211126</label>
+			<label index="lang_th" type="integer">71163000</label>
+			<label index="lang_gr" type="double">11205193</label>
+			<label index="lang_hk" type="integer">31063215</label>
+			<label index="lang_eu" type="integer">176851207</label>
+			<label index="lang_bg" type="integer">101430204</label>
+			<label index="lang_br" type="integer">102669697</label>
+			<label index="lang_et" type="integer">42538748</label>
+			<label index="lang_ar" type="integer">41077944</label>
+			<label index="lang_he" type="integer">208412545</label>
+			<label index="lang_ua" type="integer">242788092</label>
+			<label index="lang_lv" type="integer">124440629</label>
+			<label index="lang_jp" type="integer">254987990</label>
+			<label index="lang_vn" type="integer">129503150</label>
+			<label index="lang_ca" type="integer">151036235</label>
+			<label index="lang_ba" type="integer">165586767</label>
+			<label index="lang_kr" type="integer">218880828</label>
+			<label index="personal_data" type="integer">104270938</label>
+			<label index="condensedMode" type="integer">240508039</label>
+			<label index="noMenuMode" type="integer">20667488</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

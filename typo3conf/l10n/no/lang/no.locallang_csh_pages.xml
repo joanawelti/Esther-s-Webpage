@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index=".description">Et &quot;Side&quot;-element representerer normalt en webside i TYPO3. Alle sider har et ID-nummer som kan benyttes for å referere eller linke til sidene. Side-elementet inneholder ikke sidens innhold selv – til dette formålet bør du opprette &quot;Innholdselementer&quot;.</label>
+			<label index=".details">Avhengig av sidens &quot;Type&quot; kan siden også være en innholdsmappe for databaseelementer i TYPO3. I slike tilfeller er ikke siden nødvendigvis tilgjengelig som en webside, men kun internt i sidetreet som et sted hvor elementer som brukere, innmeldinger etc. kan lagres.
+Side-tabellen er selve ryggraden i TYPO3. Alle elementer (records) som kan redigeres med TYPO3 skal tilhøre en side. Det er akkurat som med filer og mapper på din datamaskins harddisk.
+Sidene er organisert i en trestruktur, som ikke bare er en veldig praktisk metode for strukturering i alminnelighet, men som også er en optimal gjengivelse av hvordan du bør organisere sidene på webområdet ditt. På den måten vil du se at sidetreet normalt er en refleksjon av webområdets navigasjonstruktur.
+
+Teknisk sett har alle database elementer et felt, &quot;uid&quot;, som er et unikt identifikasjonsnummer. Utover dette må alle elementer ha et &quot;pid&quot; felt som inneholder uid-nummeret for den siden (page id) som de tilhører. Hvis pid-feltet er null tihører elementet &quot;roten&quot; av sidetreet. Det er kun administratorer som har tilgang til roten av sidetreet og videre må en tabell konfigureres til å tilhøre enten roten eller et sted i sidetreets grener.</label>
+			<label index=".image_descr">De mest grunnleggende feltene til en side er 'skjult'-feltet, sidetypen og sidetittelen. Andre felter er også tilgjengelige, men er typisk lagt til av tillegg til TYPO3.
+Sider er arrangert i et sidetre i TYPO3. Siden på redigeringsskjemaet på bildet var &quot;Intro&quot;-siden fra dette sidetreet. Som du ser tilhører det rot-nivået til sidetreet og har et antall (under)sider under seg.</label>
+			<label index="title.description">Skriv inn tittelen på siden eller mappen.</label>
+			<label index="title.details">Sidetittelen brukes til å representere siden visuelt i systemet, f.eks. i sidetreet. Sidetittelen brukes også som standard til navigasjonslenker på websider.
+Du kan alltid endre en sidetittel uten at det påvirker lenkene til siden. Dette fordi sidene alltid refereres til etter ID-nummeret (uid), ikke tittelen.
+Du kan bruke alle slags bokstaver og tegn i sidetittelen.</label>
+			<label index="title.image_descr">Feltet for sidetittelen har et lite &quot;Påkrevet&quot;-symbol ved siden av seg. Sider må ha en tittel, og du får ikke lov til å opprette en ny side uten å skrive inn et navn på den.</label>
+			<label index="doktype.description">Velg sidetype. Dette påvirker hvorvidt siden er en synlig webside eller brukes til andre formål.</label>
+			<label index="doktype.details">&quot;Standard-typen er en webside.
+&quot;SysFolder&quot; er en ikke-webside - en mappe som fungerer som oppbevaringsplass for valgfrie elementer.
+&quot;Papirkurv&quot; er også et valg.
+
+&lt;b&gt;Merk:&lt;/b&gt; Hver type har normalt et eget ikon tilknyttet. Dessuten kan visse typer være utilgjengelige for en bruker (så du kan oppleve at noen muligheter ikke er tilgjengelige for deg!). Hver type er satt opp til kun å tillate visse tabellelementer på siden. (SysFolder vil dog tillate et hvilket som helst element hvis du skulle få problemer).</label>
+			<label index="doktype.image_descr">Dette utdraget av sidetreet viser vanlige sider som vanligvis har de gule symbolene som vises i toppen av bildet. Du kan også se en Papirkurv-side. Alle elementer som legges inn i en Papirkurv blir sett på som &quot;søppel&quot; og blir derfor ikke vist på webssider eller andre steder. De grå mappene er &quot;SysFolder&quot;-elementer. De vil ikke komme opp som vanlige websider, men fungerer som lagringssteder for database-elementer av flere slag.</label>
+			<label index="TSconfig.description">TypoScript-konfigurasjonskode for siden.</label>
+			<label index="TSconfig.details">'TypoScript' er et konsept for å skrive inn verdier i en trestruktur. Dette er mye i bruk når man oppretter maler for TYPO3 sine websteder.
+
+Det samme prinsippet brukes her til å sette opp forskjellige funksjoner i forhold til baksiden: funksjonaliteten i moduler, Rik Tekst-redigering, osv. Resultatet av dette, 'TSconfig' for siden, er en sammensetning av alle TypoScript-verdier fra sidetreets rot og utover til den inneværende siden. Videre vil alle undersider til denne også påvirkes av oppsettet.
+Du kan vise sidens TSconfig fra menyen 'Side TSconfig' i Web&gt;Info-modulen (krever at tillegget &quot;info_pagetsconfig&quot; er installert).</label>
+			<label index="TSconfig.syntax">Vanlig TypoScript-syntax &lt;em&gt;uten&lt;/em&gt; bruk av konstanter eller 'conditions'.
+
+Det anbefales at kun admin-brukere kan endre dette feltet!</label>
+			<label index="TSconfig.image_descr">Sidens TSconfig for å sette opp Rik Tekst-redigering i denne grenen av sidetreet. Noe av det stilige med TSconfig er at den gjelder både denne siden og undersidene, fordi oppsettet arves nedover i sidetreet.</label>
+			<label index="php_tree_stop.description">Stanser opptegningen av sidetreet i navigasjon og lister.</label>
+			<label index="php_tree_stop.details">Hvis du setter denne verdien vil sidetreet ikke 'utvide' den grenen i sidetreet. I stedet vil du se et rødt '+'-tegn som forteller at treet er stoppet der.
+
+Poenget med denne verdien er å forhindre at man åpner opp en gren som har et stort antall undersider (vanligvis hundrevis).
+
+Du kan klikke på '+'-tegnet, og gjøre at denne siden midlertidig blir utgangspunktet for navigasjons-rammen.</label>
+			<label index="php_tree_stop.image_descr">Her er &quot;Stopp sidetreet&quot;-verdien satt. Det er et verdifelt under &quot;TSconfig&quot;.
+Innstillingen vises i sidetreet som en en rød '+', og du kan ikke åpne den grenen i sidetreet.
+Hvis du derimot klikke på '+'-tegnet vil siden midlertidig bli utgangspunktet i navigasjons-rammen.</label>
+			<label index="storage_pid.description">'Generell lagringsmappe'-funksjonen er ment som en global side for lagring av delte database-elementer for et websted. Det kan være for maler, webstedbrukere, nyheter, o.l., som ikke nødvendigvis gjelder for én bestemt side, men mer for hele webstedet.</label>
+			<label index="storage_pid.details">Det anbefales at tilleggsmoduler støtter 'Generell lagringsmappe', slik at de leter etter innhold i webstedets dedikerte lagringsmappe som standard, og at de må settes opp spesielt for å gjøre noe annet.
+
+En 'Generell lagringsmappe' er normalt en side av typen 'SysFolder'.</label>
+			<label index="editlock.description">Hvis verdien er satt kan ikke andre enn Admin-brukere redigere sidens egenskaper eller innhold på siden (undersider unntatt). De kan heller ikke opprette nye elementer på siden.</label>
+			<label index="fe_login_mode.description">Innloggingsmodus slår av muligheten for å være logget inn på denne siden.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index=".details" type="integer">266524571</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index=".image_descr" type="integer">154282212</label>
+			<label index="title.details" type="integer">92653950</label>
+			<label index="title.image_descr" type="integer">103204111</label>
+			<label index="doktype.image_descr" type="integer">177111079</label>
+			<label index="TSconfig.details" type="integer">216590510</label>
+			<label index="TSconfig.syntax" type="integer">6236841</label>
+			<label index="TSconfig.image_descr" type="integer">213516592</label>
+			<label index="php_tree_stop.description" type="integer">87402840</label>
+			<label index="php_tree_stop.details" type="integer">49793750</label>
+			<label index="php_tree_stop.image_descr" type="integer">38957251</label>
+			<label index="storage_pid.description" type="integer">154894460</label>
+			<label index="storage_pid.details" type="integer">263556132</label>
+			<label index="editlock.description" type="integer">82976191</label>
+			<label index="fe_login_mode.description" type="integer">72744972</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index=".details">The pages table is the very backbone in TYPO3. All records editable by the mainstream modules in TYPO3 must 'belong' to a page. It's exactly like files and folders on your computers harddrive.
+
+&lt;b&gt;The page tree&lt;/b&gt;
+The pages are organized in a tree structure which is not only a very handy way of organizing in general but also a optimal reflection of how you should organize the pages on your website. And thus you'll normally find that the page tree is a reflection of the website navigation itself.
+
+&lt;p&gt;uid, pid and the pagetree root&lt;/b&gt;
+Technically all database elements has a field 'uid' which is a unique identification number. Further they must have a field 'pid' which holds the uid-number of the page (page id) to which they belong. If the 'pid' field is zero the record is found in the so called 'root'. Only administrators are allowed access to the root and furthermore table records must be configured to either belonging to a page or being found in the root.
+
+&lt;b&gt;Storage of database records&lt;/b&gt;
+Depending on the 'Type' of the page, it may also represent a general storage for database elements in TYPO3. In that case it is not necessarily available as a webpage but only internally in the page tree as a place to store items such as users, subscriptions etc. Such pages are typically of the type &quot;SysFolder&quot;.</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index=".image_descr">The most basic fields of a page is the hidden flag, the type of page (&quot;doktype&quot;) and the page title. Other fields are also available but typically added by extensions in TYPO3.
+Pages are arranged in a page tree in TYPO3. The page from the editing form in the previous screenshot was the &quot;Intro&quot; page from this page tree. As you can see it belongs in the root of the page tree and has a number of &quot;child&quot; pages under it.</label>
+			<label index="title.details">The page title is used to represent the page visually in the system, for example in the page tree. Also the page title is used by default for navigation links on webpages.
+You can always change a page title without affecting links to a page. This is because pages are always referenced by their &quot;uid&quot; number, not their title.
+You can use any characters in the page title.</label>
+			<label index="title.image_descr">The field for the page title has a little &quot;required&quot; icon next to it; You must supply a page title and you cannot save the new page unless you enter a title for it.</label>
+			<label index="doktype.image_descr">This snippet of the page tree shows regular pages which usually have the yellow icons in top of this screenshot. You also see a Garbage bin page. Any records stored in a garbage bin should be regarded as waste and therefore not shown on the website etc. Finally the gray folders are &quot;SysFolders&quot;. They cannot be viewed as regular webpages but serve as storage pages for database records of some kind.</label>
+			<label index="TSconfig.details">Basically 'TypoScript' is a concept for entering values in a tree-structure. This is known especially in relation to creating templates for TYPO3 websites.
+However the same principle for entering the hierarchy of values is used here to configure various features in relation to the backend, functions in modules, the Rich Text Editor etc.
+The resulting 'TSconfig' for a page is actually an accumulation of all 'TSconfig' values from the root of the page tree and outwards to the current page. And thus all subpages are affected as well. A print of the page TSconfig is available from the 'Page TSconfig' menu in the 'Web&gt;Info' module (requires the extension &quot;info_pagetsconfig&quot; to be installed).</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+			<label index="TSconfig.image_descr">Page TSconfig customizing the Rich Text Editors behaviour in this branch of the page tree. The cool thing about Page TSconfig is that the configuration is specific for that page and subpages since the configuration settings are inherited down the page tree.</label>
+			<label index="php_tree_stop.description">Stops backend rendering of the page tree in navigation and lists.</label>
+			<label index="php_tree_stop.details">If you set this flag the page tree in the navigation frame will not expand that branch. Rather you will see a red &quot;+&quot; which indicates that the tree stopped here due to this flag being set.
+
+The point with this flag is to prevent descendence into a branch that might have an unusual amount of subpages (hundreds).
+
+You can click the red &quot;+&quot; and the page will become a temporary mount point in the navigation frame.</label>
+			<label index="php_tree_stop.image_descr">Here the &quot;Stop page tree&quot; flag is set. It is a palette field under &quot;TSconfig&quot;.
+In the pagetree the setting is reflected with the red &quot;+&quot; and it is not possible to expand that branch of the tree.
+If you click the red &quot;+&quot; you will get the page mounted temporarily in the navigation frame.</label>
+			<label index="storage_pid.description">A General Storage Folder is meant to be a global page for storage of general database elements of a website. That could be for templates, frontend users etc. which does not really relate to a single page but more to the whole site.</label>
+			<label index="storage_pid.details">It is recommended that applications support &quot;General Storage pages&quot; so that they look for records in the sites general storage folder by default and that they should be specifically configured to look elsewhere.
+
+A General Record Storage Page is typically a page of the &quot;SysFolder&quot; type.</label>
+			<label index="editlock.description">If set, non-Admin users cannot edit the page properties or any records on the page (except subpages). They cannot create new records or pages on the page either.</label>
+			<label index="fe_login_mode.description">The Login Mode disables the ability to &quot;be logged in&quot; at this page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

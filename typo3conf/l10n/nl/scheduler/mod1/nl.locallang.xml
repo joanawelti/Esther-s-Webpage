@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="action.add">Taak toevoegen</label>
+			<label index="action.edit">Taak bewerken</label>
+			<label index="button.cancel">Annuleren</label>
+			<label index="function.scheduler">Ingestelde taken</label>
+			<label index="function.check">Controle setup</label>
+			<label index="function.info">Informatie</label>
+			<label index="hdg.cliScript">CLI script</label>
+			<label index="hdg.lastRun">Laatste opdracht</label>
+			<label index="hdg.schedulerUser">TYPO3 scheduler backendgebruiker:</label>
+			<label index="label.automatically">automatisch</label>
+			<label index="label.checkAll">Selecteer/deselecteer alles</label>
+			<label index="label.class">Class</label>
+			<label index="label.cron">Cron</label>
+			<label index="label.defType">Definitietype</label>
+			<label index="label.defType.interval">Interval</label>
+			<label index="label.defType.cron">Cron commando</label>
+			<label index="label.description">Omschrijving</label>
+			<label index="label.email">E-mail</label>
+			<label index="label.end">Einde (HH:MM DD-MM-YYYY)</label>
+			<label index="label.executeSelected">Uitvoeren geselecteerde taken</label>
+			<label index="label.extension">Extensie</label>
+			<label index="label.frequency">Frequentie</label>
+			<label index="label.frequency.long">Frequentie (seconden of croncommando)</label>
+			<label index="label.id">ID</label>
+			<label index="label.lastExecution">Laatst uitgevoerd</label>
+			<label index="label.manual">Handmatig</label>
+			<label index="label.manually">handmatig</label>
+			<label index="label.name">Naam</label>
+			<label index="label.nextExecution">Volgende Bewerking</label>
+			<label index="label.parallel">Parallelle Bewerking</label>
+			<label index="label.parallel.long">Parallelle Bewerking Toestaan</label>
+			<label index="label.sleepTime">sluimertijd</label>
+			<label index="label.start">Start (HH:MM DD-MM-YYYY)</label>
+			<label index="label.type">Type</label>
+			<label index="label.type.recurring">Repeterend</label>
+			<label index="label.type.single">Enkel</label>
+			<label index="msg.addError">De taak kon niet worden toegevoegd</label>
+			<label index="msg.addSuccess">De taak is succesvol toegevoegd</label>
+			<label index="msg.cliScript">Het script om de Scheduler uit te voeren vanaf de commandline is: &lt;strong&gt;&quot;%s scheduler&quot;&lt;/strong&gt;.</label>
+			<label index="msg.cliScriptExecutable">Het is de webservergebruiker toegestaan dit script uit te voeren.</label>
+			<label index="msg.cliScriptNotExecutable">Het is de webservergebruiker niet toegestaan dit script uit te voeren.</label>
+			<label index="msg.delete">Deze taak verwijderen?</label>
+			<label index="msg.deleteError">De taak kon niet verwijderd worden.</label>
+			<label index="msg.deleteSuccess">De taak werd succesvol verwijderd.</label>
+			<label index="msg.endDateSmallerThanStartDate">De einddatum is voor de startdatum</label>
+			<label index="msg.executed">Uitgevoerd: %s</label>
+			<label index="msg.incompleteLastRun">De informatie over de laatste uitvoering van de Scheduler is incompleet.</label>
+			<label index="msg.infoScreenIntro">Dit is een lijst van alle beschikbare taken in de TYPO3 installatie. Klik op het icoon aan de rechterzijde om direct een bepaald type taak aan te maken.</label>
+			<label index="msg.invalidFrequency">Ongeldige frequentie! Vul of een aantal seconden of een geldig croncommando in.</label>
+			<label index="msg.invalidSleepTime">Vul een sluimertijd groter of gelijk aan 0 (nul) in.</label>
+			<label index="msg.lastRun">De Scheduler is als laatste gestart (%1$s) op %2$s om %3$s en eindigde op %4$s om %5$s.</label>
+			<label index="msg.maynotDeleteRunningTask">Een lopende taak kan niet worden verwijderd.</label>
+			<label index="msg.maynotEditRunningTask">Een lopende taak kan niet worden bewerkt.</label>
+			<label index="msg.maynotStopNonRunningTask">De taak is niet actief. Er zijn geen te deselecteren taken.</label>
+			<label index="msg.noEmail">Vul aub een e-mailadres in</label>
+			<label index="msg.noFrequency">Er is geen frequentie opgegeven, als of een aantal seconden of een geldig croncommando in.</label>
+			<label index="msg.noLastRun">De Scheduler is nog nooit uitgevoerd of de gegevens van de laatste uitvoering zijn verloren gegaan.</label>
+			<label index="msg.noTaskClassFound">De geselecteerde taak class kon niet gevonden worden. Neem contact op met de ontwikkelaars van de taak.</label>
+			<label index="msg.noTasks">Nog geen gedefinieerde taken.</label>
+			<label index="msg.notExecuted">Niet uitgevoerd: %s</label>
+			<label index="msg.executionFailed">Het uitvoeren van de taken &quot;%1$s&quot; is mislukt met de volgende boodschap: %2$s</label>
+			<label index="msg.executionFailureReport">Uitvoering mislukt: %1$d, %2$s</label>
+			<label index="msg.noStartDate">Definieer een startdatum</label>
+			<label index="msg.invalidStartDate">Startdatum is ongeldig</label>
+			<label index="msg.invalidEndDate">Einddatum is ongeldig</label>
+			<label index="msg.invalidTaskClass">Class %s van de geregistreerde taak kon niet worden gevonden. Herinstalleer de betreffende extensie of verwijder simpelweg deze extensie.</label>
+			<label index="msg.invalidTaskClassEdit">De huidige class (%s) kon niet worden gevonden. Wijzig het hieronder of verwijder de taak in zijn geheel.</label>
+			<label index="msg.schedulerSetupCheck">Dit scherm geeft aan of alle benodigdheden aanwezig zijn om de Scheduler te laten draaien. Het scherm geeft ook informatie over de laatste keer dat de Scheduler gelopen heeft.</label>
+			<label index="msg.schedulerUser">De backendgebruiker &quot;_cli_scheduler&quot; wordt door het CLI-script gebruikt om in te loggen in TYPO3. Deze gebruiker dient geen beheerrechten te hebben. Het wachtwoord van deze gebruiker is niet belangrijk, maar dient wel 'veilig' te zijn.</label>
+			<label index="msg.schedulerUserFound">De backendgebruiker &quot;_cli_scheduler&quot; werd gevonden.</label>
+			<label index="msg.schedulerUserFoundButDisabled">De backendgebruiker &quot;_cli_scheduler&quot; bestaat wel, maar is momenteel niet uitgeschakeld.</label>
+			<label index="msg.schedulerUserMissing">De backendgebruiker &quot;_cli_scheduler&quot; werd niet gevonden. &lt;a href=&quot;%s&quot; title=&quot;Klik deze link om de gebruiker aan te maken&quot;&gt;Gebruiker nu aanmaken&lt;/a&gt;.</label>
+			<label index="msg.stop">Deze taak als 'niet-lopend' markeren? Het actueel lopende script stopt hierdoor niet (bij twijfel handleiding raadplegen).</label>
+			<label index="msg.stopError">De taak kon niet als 'niet-lopend' gemarkeerd worden.</label>
+			<label index="msg.stopSuccess">De taak werd succesvol als 'niet-lopend' gemarkeerd.</label>
+			<label index="msg.taskNotFound">De opgevraagde taak (UID: %d) werd niet gevonden.</label>
+			<label index="msg.updateSuccess">De taak werd met succes geactualiseerd.</label>
+			<label index="msg.updateError">De taak kon niet worden geactualiseerd.</label>
+			<label index="msg.userCreated">De gebruiker &quot;_cli_scheduler&quot; is succesvol aangemaakt.</label>
+			<label index="msg.userExists">De gebruiker &quot;_cli_scheduler&quot; bestaat al en is dus niet aangemaakt.</label>
+			<label index="msg.userNotCreated">Het aanmaken van de gebruiker &quot;_cli_scheduler&quot; is mislukt.</label>
+			<label index="none">Geen</label>
+			<label index="status">Status</label>
+			<label index="status.legend">Status Legenda</label>
+			<label index="status.legend.disabled">Uitgeschakeld, wordt niet uitgevoerd, behalve handmatig.</label>
+			<label index="status.legend.failure">Mislukt! Tijdens het uitvoeren van de laatste taak is er iets fout gegaan (beweeg met de muis over het opsommingsteken voor meer details)</label>
+			<label index="status.legend.late">Laat, wordt de volgende keer uitgevoerd.</label>
+			<label index="status.legend.running">Op dit moment lopend</label>
+			<label index="status.legend.scheduled">Ingesteld, wordt de volgende keer uitgevoerd.</label>
+			<label index="status.disabled">uitgeschakeld</label>
+			<label index="status.failure">mislukt</label>
+			<label index="status.late">laat</label>
+			<label index="status.running">lopend</label>
+			<label index="status.scheduled">ingesteld</label>
+			<label index="task">Taak</label>
+			<label index="title">TYPO3 Scheduler beheermodule</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="action.add" type="integer">252353973</label>
+			<label index="action.edit" type="integer">205805194</label>
+			<label index="button.cancel" type="integer">245659783</label>
+			<label index="function.scheduler" type="integer">232038597</label>
+			<label index="function.check" type="integer">258510405</label>
+			<label index="function.info" type="integer">176340495</label>
+			<label index="hdg.cliScript" type="integer">224544060</label>
+			<label index="hdg.lastRun" type="integer">204573475</label>
+			<label index="hdg.schedulerUser" type="integer">149968660</label>
+			<label index="label.automatically" type="integer">192454454</label>
+			<label index="label.checkAll" type="integer">32450981</label>
+			<label index="label.class" type="integer">163414322</label>
+			<label index="label.cron" type="integer">28808155</label>
+			<label index="label.defType" type="integer">168415807</label>
+			<label index="label.defType.interval" type="integer">219602177</label>
+			<label index="label.defType.cron" type="integer">245701184</label>
+			<label index="label.description" type="integer">190479069</label>
+			<label index="label.email" type="integer">216575645</label>
+			<label index="label.end" type="integer">144135612</label>
+			<label index="label.executeSelected" type="integer">264476135</label>
+			<label index="label.extension" type="integer">104746642</label>
+			<label index="label.frequency" type="integer">131021139</label>
+			<label index="label.frequency.long" type="integer">150054744</label>
+			<label index="label.id" type="integer">191990494</label>
+			<label index="label.lastExecution" type="integer">224385109</label>
+			<label index="label.manual" type="integer">236691797</label>
+			<label index="label.manually" type="integer">68807153</label>
+			<label index="label.name" type="integer">77521672</label>
+			<label index="label.nextExecution" type="integer">44695400</label>
+			<label index="label.parallel" type="integer">208270599</label>
+			<label index="label.parallel.long" type="integer">148875168</label>
+			<label index="label.sleepTime" type="integer">117377126</label>
+			<label index="label.start" type="integer">227926082</label>
+			<label index="label.type" type="integer">169845367</label>
+			<label index="label.type.recurring" type="integer">92471137</label>
+			<label index="label.type.single" type="integer">107716962</label>
+			<label index="msg.addError" type="integer">136010050</label>
+			<label index="msg.addSuccess" type="integer">66094031</label>
+			<label index="msg.cliScript" type="integer">143107354</label>
+			<label index="msg.cliScriptExecutable" type="integer">124543867</label>
+			<label index="msg.cliScriptNotExecutable" type="integer">17611547</label>
+			<label index="msg.delete" type="integer">238928620</label>
+			<label index="msg.deleteError" type="integer">194692682</label>
+			<label index="msg.deleteSuccess" type="integer">183962725</label>
+			<label index="msg.endDateSmallerThanStartDate" type="integer">255202176</label>
+			<label index="msg.executed" type="integer">133523239</label>
+			<label index="msg.incompleteLastRun" type="integer">110116340</label>
+			<label index="msg.infoScreenIntro" type="integer">200852737</label>
+			<label index="msg.invalidFrequency" type="integer">84935442</label>
+			<label index="msg.invalidSleepTime" type="integer">77873515</label>
+			<label index="msg.lastRun" type="integer">18929508</label>
+			<label index="msg.maynotDeleteRunningTask" type="integer">209186003</label>
+			<label index="msg.maynotEditRunningTask" type="integer">113605382</label>
+			<label index="msg.maynotStopNonRunningTask" type="integer">215628851</label>
+			<label index="msg.noEmail" type="integer">191714829</label>
+			<label index="msg.noFrequency" type="integer">218358950</label>
+			<label index="msg.noLastRun" type="integer">249945458</label>
+			<label index="msg.noTaskClassFound" type="integer">55464025</label>
+			<label index="msg.noTasks" type="integer">247533398</label>
+			<label index="msg.notExecuted" type="integer">42569552</label>
+			<label index="msg.executionFailed" type="integer">186359940</label>
+			<label index="msg.executionFailureReport" type="integer">109458512</label>
+			<label index="msg.noStartDate" type="integer">55163558</label>
+			<label index="msg.invalidStartDate" type="integer">259988318</label>
+			<label index="msg.invalidEndDate" type="integer">168323338</label>
+			<label index="msg.invalidTaskClass" type="integer">244016725</label>
+			<label index="msg.invalidTaskClassEdit" type="integer">263486459</label>
+			<label index="msg.schedulerSetupCheck" type="integer">105768933</label>
+			<label index="msg.schedulerUser" type="integer">118182069</label>
+			<label index="msg.schedulerUserFound" type="integer">21405295</label>
+			<label index="msg.schedulerUserFoundButDisabled" type="integer">223994627</label>
+			<label index="msg.schedulerUserMissing" type="integer">231727919</label>
+			<label index="msg.stop" type="integer">46025573</label>
+			<label index="msg.stopError" type="integer">145570071</label>
+			<label index="msg.stopSuccess" type="integer">105127369</label>
+			<label index="msg.taskNotFound" type="integer">267777408</label>
+			<label index="msg.updateSuccess" type="integer">247708850</label>
+			<label index="msg.updateError" type="integer">25403006</label>
+			<label index="msg.userCreated" type="integer">218150517</label>
+			<label index="msg.userExists" type="integer">14355068</label>
+			<label index="msg.userNotCreated" type="integer">10265988</label>
+			<label index="none" type="integer">112064895</label>
+			<label index="status" type="integer">247806604</label>
+			<label index="status.legend" type="integer">152578557</label>
+			<label index="status.legend.disabled" type="integer">69706091</label>
+			<label index="status.legend.failure" type="integer">193297326</label>
+			<label index="status.legend.late" type="integer">208730049</label>
+			<label index="status.legend.running" type="integer">111567105</label>
+			<label index="status.legend.scheduled" type="integer">242881179</label>
+			<label index="status.disabled" type="integer">7712317</label>
+			<label index="status.failure" type="integer">65939710</label>
+			<label index="status.late" type="integer">254568248</label>
+			<label index="status.running" type="integer">122749404</label>
+			<label index="status.scheduled" type="integer">104376025</label>
+			<label index="task" type="integer">246330127</label>
+			<label index="title" type="integer">188808447</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="action.add">Add task</label>
+			<label index="action.edit">Edit task</label>
+			<label index="button.cancel">Cancel</label>
+			<label index="function.scheduler">Scheduled tasks</label>
+			<label index="function.check">Setup check</label>
+			<label index="function.info">Information</label>
+			<label index="hdg.cliScript">CLI script</label>
+			<label index="hdg.lastRun">Last run</label>
+			<label index="hdg.schedulerUser">TYPO3 Scheduler backend user</label>
+			<label index="label.automatically">automatically</label>
+			<label index="label.checkAll">Check/uncheck all</label>
+			<label index="label.class">Class</label>
+			<label index="label.cron">Cron</label>
+			<label index="label.defType">Definition type</label>
+			<label index="label.defType.interval">Interval</label>
+			<label index="label.defType.cron">Cron command</label>
+			<label index="label.description">Description</label>
+			<label index="label.email">Email</label>
+			<label index="label.end">End (HH:MM DD-MM-YYYY)</label>
+			<label index="label.executeSelected">Execute selected tasks</label>
+			<label index="label.extension">Extension</label>
+			<label index="label.frequency">Frequency</label>
+			<label index="label.frequency.long">Frequency (seconds or cron command)</label>
+			<label index="label.id">ID</label>
+			<label index="label.lastExecution">Last Execution</label>
+			<label index="label.manual">Manual</label>
+			<label index="label.manually">manually</label>
+			<label index="label.name">Name</label>
+			<label index="label.nextExecution">Next Execution</label>
+			<label index="label.parallel">Parallel Execution</label>
+			<label index="label.parallel.long">Allow Parallel Execution</label>
+			<label index="label.sleepTime">Sleep time</label>
+			<label index="label.start">Start (HH:MM DD-MM-YYYY)</label>
+			<label index="label.type">Type</label>
+			<label index="label.type.recurring">Recurring</label>
+			<label index="label.type.single">Single</label>
+			<label index="msg.addError">The task could not be added.</label>
+			<label index="msg.addSuccess">The task was added successfully.</label>
+			<label index="msg.cliScript">The script to execute the Scheduler from the command line is: &lt;strong&gt;&quot;%s scheduler&quot;&lt;/strong&gt;.</label>
+			<label index="msg.cliScriptExecutable">The webserver user is allowed execute this script.</label>
+			<label index="msg.cliScriptNotExecutable">The webserver user is not allowed to execute this script.</label>
+			<label index="msg.delete">Are you sure you want to delete this task?</label>
+			<label index="msg.deleteError">The task could not be deleted.</label>
+			<label index="msg.deleteSuccess">The task was successfully deleted.</label>
+			<label index="msg.endDateSmallerThanStartDate">The end date is before the start date.</label>
+			<label index="msg.executed">Executed: %s</label>
+			<label index="msg.incompleteLastRun">The information about the last execution of the Scheduler is incomplete.</label>
+			<label index="msg.infoScreenIntro">This is the list of all available tasks in this TYPO3 installation. Click on the icon at the far right to directly create a new scheduled task of the chosen type.</label>
+			<label index="msg.invalidFrequency">Invalid frequency. Please enter either a number of seconds or a valid cron command.</label>
+			<label index="msg.invalidSleepTime">Please enter a sleep time greater or equal to 0 (zero).</label>
+			<label index="msg.lastRun">The Scheduler was last started (%1$s) on %2$s at %3$s and ended on %4$s at %5$s.</label>
+			<label index="msg.maynotDeleteRunningTask">A running task may not be deleted.</label>
+			<label index="msg.maynotEditRunningTask">A running task may not be edited.</label>
+			<label index="msg.maynotStopNonRunningTask">The task is not running. There are no executions to unmark.</label>
+			<label index="msg.noEmail">Please enter an email address</label>
+			<label index="msg.noFrequency">No frequency was defined, either as an interval or as a cron command.</label>
+			<label index="msg.noLastRun">The Scheduler has never yet run or the information about the last run has been lost.</label>
+			<label index="msg.noTaskClassFound">The selected task class could not be found. You should probably contact the task's developers.</label>
+			<label index="msg.noTasks">No tasks defined yet.</label>
+			<label index="msg.notExecuted">Not executed: %s</label>
+			<label index="msg.executionFailed">Execution of task &quot;%1$s&quot; failed with the following message: %2$s</label>
+			<label index="msg.executionFailureReport">Execution failed: %1$d, %2$s</label>
+			<label index="msg.noStartDate">Please define a start date</label>
+			<label index="msg.invalidStartDate">Start date is invalid</label>
+			<label index="msg.invalidEndDate">End date is invalid</label>
+			<label index="msg.invalidTaskClass">Class %s of the registered task could not be found. You should re-install the extension that provided it or simply delete this task.</label>
+			<label index="msg.invalidTaskClassEdit">The current class (%s) could not be found. Change it below or consider deleting this task altogether.</label>
+			<label index="msg.schedulerSetupCheck">This screen checks if the requisites for running the Scheduler as a cron job are fulfilled. It also displays information about the last run of the Scheduler.</label>
+			<label index="msg.schedulerUser">The backend user &quot;_cli_scheduler&quot; is used by the CLI-script to log into TYPO3. This user may not have administrator privileges. The user's password is not important but should be set to a secure value for security reasons.</label>
+			<label index="msg.schedulerUserFound">The backend user &quot;_cli_scheduler&quot; was found.</label>
+			<label index="msg.schedulerUserFoundButDisabled">The backend user &quot;_cli_scheduler&quot; exists but is currently disabled.</label>
+			<label index="msg.schedulerUserMissing">The backend user &quot;_cli_scheduler&quot; was not found. &lt;a href=&quot;%s&quot; title=&quot;Click to create the missing user&quot;&gt;Create the user now&lt;/a&gt;.</label>
+			<label index="msg.stop">Are you sure you want to mark this task as not running? Note that this will not stop the actual script (if unsure please refer to the manual).</label>
+			<label index="msg.stopError">The task could not be marked as non-running.</label>
+			<label index="msg.stopSuccess">The task was successfully marked as non-running.</label>
+			<label index="msg.taskNotFound">The requested task (UID: %d) was not found.</label>
+			<label index="msg.updateSuccess">The task was updated successfully.</label>
+			<label index="msg.updateError">The task could not be updated.</label>
+			<label index="msg.userCreated">The &quot;_cli_scheduler&quot; user was created successfully.</label>
+			<label index="msg.userExists">The &quot;_cli_scheduler&quot; user already exists. It was not created.</label>
+			<label index="msg.userNotCreated">The creation of the &quot;_cli_scheduler&quot; user failed.</label>
+			<label index="none">None</label>
+			<label index="status">Status</label>
+			<label index="status.legend">Status Legend</label>
+			<label index="status.legend.disabled">Disabled, will not be executed, except manually</label>
+			<label index="status.legend.failure">Failure! An error occured during the last execution (move over bullet for more details)</label>
+			<label index="status.legend.late">Late, will run with next execution</label>
+			<label index="status.legend.running">Currently running</label>
+			<label index="status.legend.scheduled">Scheduled, will run on next possible execution</label>
+			<label index="status.disabled">disabled</label>
+			<label index="status.failure">failure</label>
+			<label index="status.late">late</label>
+			<label index="status.running">running</label>
+			<label index="status.scheduled">scheduled</label>
+			<label index="task">Task</label>
+			<label index="title">TYPO3 Scheduler administration module</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

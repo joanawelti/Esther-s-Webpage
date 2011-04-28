@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel">Exibir estatísticas da Ferramenta de Indexação</label>
+			<label index="mlang_labels_tabdescr">Aqui pode administrar as configurações da Ferramenta de Indexação que é fornecida com o sistema do Site Público. Você pode ver as estatísticas das páginas indexadas. A indexação tem de estar ativada no modelo TypoScript.&lt;br&gt;&lt;em&gt;Acesso só para usuário 'admin'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Indexando</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel" type="integer">33963420</label>
+			<label index="mlang_labels_tabdescr" type="integer">9602245</label>
+			<label index="mlang_tabs_tab" type="integer">86103277</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

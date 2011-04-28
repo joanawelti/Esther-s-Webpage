@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="type_1">Baza podatkov</label>
+			<label index="action_1_1">Vstavi</label>
+			<label index="action_1_2">Posodobi</label>
+			<label index="action_1_3">Izbriši</label>
+			<label index="action_1_4">Preveri</label>
+			<label index="msg_1_0_1">Gostitelj napotitelja '%s' in strežnika '%s' se ne ujemata!</label>
+			<label index="msg_1_1_11">Ni dovoljeno vstaviti zapisa na stran '%s' (%s), kjer je tabela %s.</label>
+			<label index="msg_1_1_12">Poskus vstavitve zapisa na stran '%s' (%s) iz tabele '%s' brez dovoljenja ali pa stran ne obstaja.</label>
+			<label index="msg_1_2_1">Poskus spremembe tabele '%s' brez dovoljenja</label>
+			<label index="msg_1_2_2">Poskušali ste spremeniti zapis '%s' (%s) brez dovoljenja ali pa stran ne obstaja.</label>
+			<label index="msg_1_2_10">Zapis '%s' (%s) je bil posodobljen.</label>
+			<label index="msg_1_2_12">Napaka v bazi MySQL: '%s' (%s)</label>
+			<label index="msg_1_4_1">Poskus premika zapisa '%s' (%s) za neobstoječi zapis (uid=%s)</label>
+			<label index="msg_1_4_2">Zapis '%s' (%s) je bil premaknjen na stran '%s' (%s)</label>
+			<label index="msg_1_4_3">Zapis '%s' (%s) je bil premaknjen s strani '%s' (%s)</label>
+			<label index="msg_1_4_4">Zapis '%s' (%s) je bil premaknjen na strani '%s' (%s)</label>
+			<label index="msg_1_4_10">Poskus premika strani '%s' (%s) samo vase (na strani '%s' (%s))</label>
+			<label index="msg_1_4_11">Poskus vstavitve zapisa na stran '%s' (%s), kjer tabela %s ni dovoljena</label>
+			<label index="msg_1_4_12">Poskus vstavitve zapisa na stran '%s' (%s) iz tabele '%s' brez dovoljenja ali pa stran ne obstaja.</label>
+			<label index="msg_1_4_13">Poskus premika zapisa '%s' (%s) za drug zapis, čeprav tabela nima vrstice za razvrščanje.</label>
+			<label index="msg_1_4_14">Poskus premika zapisa '%s' (%s) brez dovoljenja</label>
+			<label index="msg_1_5_1">Vrste 'doktype' za to stran ne smete spremeniti iz '%s' v želeno vrednost.</label>
+			<label index="msg_1_5_2">Vrste 'doktype' strani '%s' ni mogoče spremeniti, ker stran vsebuje zapise iz tabel, do katerih nimate dostopa; %s</label>
+			<label index="msg_1_5_3">Premalo elementov v seznamu vrednosti. (%s)</label>
+			<label index="msg_1_5_10">Ni mogoče izbrisati datoteke '%s' (ne obstaja). (%s)</label>
+			<label index="msg_1_5_11">Kopiranje datoteke '%s' ni uspelo! Ni ciljne datoteke (%s). (%s)</label>
+			<label index="msg_1_5_12">Datotečna pripona '%' ni dovoljena. (%s)</label>
+			<label index="msg_1_5_13">Velikost datoteke '%s' (%s) je prekoračila omejitev (%s). (%s)</label>
+			<label index="msg_1_5_14">Ciljna (%s) ali izvorna (%s) datoteka ne obstaja. (%s)</label>
+			<label index="msg_1_5_15">Kopiranje v datoteko '%s' ni uspelo! (%s)</label>
+			<label index="msg_1_5_16">Kopiranje datoteke '%s' ni uspelo!: Morda je cilj (%s) zaščiten pred pisanjem. Najprej mu dajte dostop za pisanje!. (%s)</label>
+			<label index="type_2">DATOTEKA</label>
+			<label index="action_2_1">Naloži</label>
+			<label index="action_2_2">Kopiraj</label>
+			<label index="action_2_3">Premakni</label>
+			<label index="action_2_4">Izbriši</label>
+			<label index="action_2_5">Preimenuj</label>
+			<label index="action_2_6">Nova</label>
+			<label index="action_2_7">Razpakiraj</label>
+			<label index="action_2_8">Nova datoteka</label>
+			<label index="action_2_9">Uredi</label>
+			<label index="msg_2_9_1">Datoteka shranjena kot '%s', bajtov: %s, MD5: %s</label>
+			<label index="type_254">NASTAVITEV</label>
+			<label index="action_254_1">Spremeni</label>
+			<label index="type_255">PRIJAVA</label>
+			<label index="action_255_1">PRIJAVA</label>
+			<label index="action_255_2">ODJAVA</label>
+			<label index="action_255_3">POSKUS</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="type_1" type="integer">10855639</label>
+			<label index="action_1_1" type="integer">172329952</label>
+			<label index="action_1_2" type="integer">6894342</label>
+			<label index="action_1_3" type="integer">254438473</label>
+			<label index="action_1_4" type="integer">6340397</label>
+			<label index="msg_1_0_1" type="integer">70548717</label>
+			<label index="msg_1_1_11" type="integer">113973720</label>
+			<label index="msg_1_1_12" type="integer">167498403</label>
+			<label index="msg_1_2_1" type="integer">187428754</label>
+			<label index="msg_1_2_2" type="integer">168680547</label>
+			<label index="msg_1_2_10" type="integer">50242733</label>
+			<label index="msg_1_2_12" type="integer">164149189</label>
+			<label index="msg_1_4_1" type="integer">75848781</label>
+			<label index="msg_1_4_2" type="integer">24550273</label>
+			<label index="msg_1_4_3" type="integer">243438751</label>
+			<label index="msg_1_4_4" type="integer">159912378</label>
+			<label index="msg_1_4_10" type="integer">219657970</label>
+			<label index="msg_1_4_11" type="integer">113973720</label>
+			<label index="msg_1_4_12" type="integer">167498403</label>
+			<label index="msg_1_4_13" type="integer">45136571</label>
+			<label index="msg_1_4_14" type="integer">258165763</label>
+			<label index="msg_1_5_1" type="integer">166647972</label>
+			<label index="msg_1_5_2" type="integer">78624514</label>
+			<label index="msg_1_5_3" type="integer">38942153</label>
+			<label index="msg_1_5_10" type="integer">254767008</label>
+			<label index="msg_1_5_11" type="integer">205650444</label>
+			<label index="msg_1_5_12" type="integer">31746478</label>
+			<label index="msg_1_5_13" type="integer">105741654</label>
+			<label index="msg_1_5_14" type="integer">88412649</label>
+			<label index="msg_1_5_15" type="integer">117185361</label>
+			<label index="msg_1_5_16" type="integer">51969264</label>
+			<label index="type_2" type="integer">167532679</label>
+			<label index="action_2_1" type="integer">152310342</label>
+			<label index="action_2_2" type="integer">100361047</label>
+			<label index="action_2_3" type="integer">112997933</label>
+			<label index="action_2_4" type="integer">254438473</label>
+			<label index="action_2_5" type="integer">151300144</label>
+			<label index="action_2_6" type="integer">3944062</label>
+			<label index="action_2_7" type="integer">31401173</label>
+			<label index="action_2_8" type="integer">109175050</label>
+			<label index="action_2_9" type="integer">131916066</label>
+			<label index="msg_2_9_1" type="integer">149514802</label>
+			<label index="type_254" type="integer">161787140</label>
+			<label index="action_254_1" type="integer">256820725</label>
+			<label index="type_255" type="integer">77032828</label>
+			<label index="action_255_1" type="integer">77032828</label>
+			<label index="action_255_2" type="integer">112519785</label>
+			<label index="action_255_3" type="integer">161988289</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

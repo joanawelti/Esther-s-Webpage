@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="typo3_logo">Логотип TYPO3</label>
+			<label index="information">Информация о TYPO3</label>
+			<label index="welcome">Профессиональная система управления веб-контентом TYPO3</label>
+			<label index="minor">TYPO3 - это гибкая и профессиональная, открытая система управления контентом на базе PHP и МySQL.&lt;br /&gt;&lt;br /&gt;TYPO3 &lt;b&gt;свободно доступна &lt;/b&gt; на условиях &lt;a href=&quot;http://typo3.com/1316.0.html&quot; target=&quot;_blank&quot;&gt;TYPO3-лицензии (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="community_credits">Список разработчиков</label>
+			<label index="information_detail">Посетите &lt;a href=&quot;http://typo3.com/community&quot; target=&quot;_blank&quot;&gt;typo3.org/community&lt;/a&gt;, если вы хотите знать, почему TYPO3 рулит.</label>
+			<label index="extension_authors">Авторы расширений</label>
+			<label index="extension_list_info">Список людей, которые внесли свой вклад в используемые вами расширения.</label>
+			<label index="extension">Расширение</label>
+			<label index="extension_author">Автор</label>
+			<label index="mlang_labels_tablabel">О TYPO3</label>
+			<label index="mlang_labels_tabdescr">Содержит основные факты о системе Тypo3, номер версии и условия лицензирования</label>
+			<label index="mlang_tabs_tab">О системе</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">110305519</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+			<label index="information" type="integer">96927678</label>
+			<label index="community_credits" type="integer">246223919</label>
+			<label index="information_detail" type="integer">64904527</label>
+			<label index="extension_authors" type="integer">27302610</label>
+			<label index="extension_list_info" type="integer">110295598</label>
+			<label index="extension" type="integer">104746642</label>
+			<label index="extension_author" type="integer">173111111</label>
+			<label index="typo3_logo" type="integer">9122974</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="welcome">TYPO3 Professional Web Content Management System</label>
+			<label index="minor">TYPO3 is a flexible and professional Open Source Web-CMS based on PHP and MySQL.&lt;br /&gt;&lt;br /&gt;TYPO3 is &lt;b&gt;freely available&lt;/b&gt; under the &lt;a href=&quot;http://typo3.com/1316.0.html&quot; target=&quot;_blank&quot;&gt;TYPO3-license (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">About TYPO3</label>
+			<label index="mlang_labels_tabdescr">Displays the basic facts about the TYPO3 application, version and licensing terms.</label>
+			<label index="mlang_tabs_tab">About</label>
+			<label index="information">TYPO3 Information</label>
+			<label index="community_credits">Community Credits</label>
+			<label index="information_detail">Visit &lt;a href=&quot;http://typo3.com/community&quot; target=&quot;_blank&quot;&gt;typo3.org/community&lt;/a&gt; if you want to know why TYPO3 rocks.</label>
+			<label index="extension_authors">Extension Authors</label>
+			<label index="extension_list_info">This is a list of the people who contributed to the extensions you're using in your installation.</label>
+			<label index="extension">Extension</label>
+			<label index="extension_author">Author</label>
+			<label index="typo3_logo">TYPO3 logo</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

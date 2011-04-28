@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="pagetree_overview.alttitle">סקירת עץ דפים</label>
+			<label index="pagetree_overview.description">סקירת עץ דפים מראה מידע המיוחסת לדפים בתוך זרועיו. המידע כוללת זמני התחלה וסיום, הגדרות מטמון וכו'</label>
+			<label index="pagetree_overview.image_descr">אחד התכונות של מודול &quot;סקירת עץ דפים&quot; היא שניתן לראות אילו סוגים של רשומות נמצאות בתוך דפים בזרוע. כאן ספירת רשומות מציגות מידע אודות 2 רמות מטה של עץ דפים.</label>
+			<label index="func_0.alttitle">הגדרות בסיסיות</label>
+			<label index="func_0.description">מציג בחירה של שדות מתוך רשומות בדף, שהם ההגדרות הבסיסיות של דף. כולל כינויים, זמני התחלה וסיום, הגבלת גישה וכו'</label>
+			<label index="func_0.details">תצוגת הגדרות בסיסיות די דומה תצוגות מטמון וגיל. הן שונות רק בשדות שהן מציגות.
+
+&lt;b&gt;עריכת קבוצה של שדות דף&lt;/b&gt;
+תמצאו הרבה סמלי עריכה סביב הממשק. כל סמלי עריכה בשורות של כותרת יביאו אותכם לדו-שיח עריכה, שבו תוכלו לשנות בדיוק שדה זה בכל הטבלאות! מאוד שימושי לעריכת קבוצה של, לדוגמה, כל זמני ההתחלה.
+אם תלחצו על סמל עריכה במספרי זהות של דפים - תגיעו ישר אל עריכה רגילה של כל הדף.</label>
+			<label index="func_0.image_descr">תצוגת ההגדרות הבסיסיות מציעה סקירה כללית נוחה מאוד של כינויים של דף, זמני התחלה והגדרות גישה בזרועת אץ דפים.
+אם תלחצו על סמל עריכה בכותרת - תוכלו לערוך שדה זה בכל הדפים המוצגים.</label>
+			<label index="func_1.alttitle">סקירת רשומה</label>
+			<label index="func_1.description">סקירת רשומה מציגה הפצה של רשומות באץ הדפים. כל טבלה של מאגר מידע במערכת מיוצגת בעמודה ועבור כל דף ניתן לראות מספר רשומות מאותה טבלה שממוקמים בדף.</label>
+			<label index="func_1.details">&lt;b&gt;הודאה:&lt;/b&gt;
+ תזהרו עם הגדרות רמה. הגדרה גבוהה מאוד יכולה להביא לתגובה איטית מהמודול במקרה שיש הרבה דפים והרבה רשומות במאגר מידע!!
+
+&lt;b&gt;לעצור עץ?&lt;/b&gt;
+שמתם לב ל-&quot;+&quot; האדום לצידה של דף בעץ דפים? זה בגלל הגדרה של אותה רשומה בדף שאומר, שעץ דפים לא ייפתח לאותו דף. בדרך כלל זו סוג של הגנה כאשר ישנם הרבה תת-דפים למטה (בדרך כלל מאות של דפים). אם תלחצו על הסמל או כותרת - תצוגת סקירה תקפוץ כדי לעשות מדף זה דף השורש של הסקירה.</label>
+			<label index="func_1.image_descr">הנכם בקלות יכולים לראות הפצה של פרטי תוכן בדף. גם ניתן לראות רשומות תבנית - ובעצם - כל רשומה.</label>
+			<label index="func_2.alttitle">מטמון וגיל</label>
+			<label index="func_2.description">מציג בחירה של שדות מתוך רשומות בדף הקשורות במטמון של דף והגדרות זמני זמינות של דף.</label>
+			<label index="func_2.image_descr">תצוגת &quot;מטמון וגיל&quot;.
+כאן ניתן לראות עמודת &quot;TSconfig&quot;. התצוגה מראה כי שני דפים אלה כוללות קוד TSconfig!</label>
+			<label index="stat.alttitle">סטטיסטיקת ביקורים</label>
+			<label index="stat.description">מציג סטטיסטיקת ביקורים עבור זרועה של עץ דפים. מתבסס טבלת סטטיסיקה פנימית של MySQL, שרושמת ביקורים ומושבים בלבד.</label>
+			<label index="stat.details">&lt;b&gt;הערה:&lt;/b&gt; פונקציה זו דורשת תוספת &quot;Simple hit statistics&quot; (sys_stat) להיות מותקנת. גם נדרש להגדיר עם typoscript רשימת ביקורים בטבלת ביקורים במאגר מידע.</label>
+			<label index="lang.alttitle">סקירת לוקליזציה</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="integer">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="lang.alttitle">Localization overview</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

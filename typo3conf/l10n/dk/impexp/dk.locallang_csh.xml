@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index=".alttitle">Importér/Eksportér</label>
+			<label index=".description">Indbygget import/export modul for TYPO3. Det kan exportere enkelte dataelementer, indholdet af tabeller, enkelte sider eller hele grene af sidetræet. Det exporterer kun i TYPO3s egne formater, enten som binære data eller i XML format. Formatet er beregnet til udveksling mellem TYPO3 servere.</label>
+			<label index=".image_descr">Et eksempel på et preview under eksport af en side. Læg mærke til hvordan elementer på siden er inkluderet, samt hvordan referencer i elementerne bliver fundet og inkluderet (nederst).</label>
+			<label index="export.alttitle">Eksportering af poster fra TYPO3</label>
+			<label index="pageTreeCfg.alttitle">Konfiguration af sidetræs eksport</label>
+			<label index="pageTreeDisplay.alttitle">Sidetræ</label>
+			<label index="pageTreeMode.alttitle">Niveauer</label>
+			<label index="pageTreeRecordLimit.alttitle">Inkludér tabeller</label>
+			<label index="singleRecord.alttitle">Eksportér enkelt post</label>
+			<label index="singleRecord.description">Denne oversigt fortæller dig hvilke uafhængige poster der er blevet valgt enkeltvis til eksport.</label>
+			<label index="singleRecord.image_descr">Måden at eksportere flere poster som denne er ved at bruge klippebordet som vist herunder.</label>
+			<label index="tableList.alttitle">Tabel eksportering</label>
+			<label index="tableListMaxNumber.alttitle">Max antal at eksportere</label>
+			<label index="inclRelations.alttitle">Inkludér relationer</label>
+			<label index="staticRelations.alttitle">Sæt statiske tabeller</label>
+			<label index="excludedElements.alttitle">Ekskludér elementer</label>
+			<label index="htmlCssResources.alttitle">Udeluk ressourcer fra HTML og CSS filer</label>
+			<label index="extensionDependencies.alttitle">Extension Afhængihed</label>
+			<label index="metadata.alttitle">Meta data indstilling</label>
+			<label index="import.alttitle">Importerer TYPO3 elementer</label>
+			<label index="importFile.alttitle">Vælg fil der skal importeres</label>
+			<label index="update.alttitle">Opdater istedet for Indsæt</label>
+			<label index="options.alttitle">Import muligheder</label>
+			<label index="options.description">Forskellige muligheder for import.</label>
+			<label index="enableLogging.alttitle">Iværksæt System Logging</label>
+			<label index="upload.alttitle">Upload import fil</label>
+			<label index="upload.description">Vælg en fil som du vil importere fra din lokale computer og upload den her. Hvis upload fuldføres med succes så kan du med det samme se dets indhold i preview displayet.</label>
+			<label index="upload.details">Bemærk at der normalt er begrænsninger fra serverens side (PHP) i forhold til størrelsen af uploadede filer på omkring 2mb, i fald det overskrides sker der ingenting.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index="export.alttitle" type="double">9010103</label>
+			<label index="pageTreeDisplay.alttitle" type="double">9880458</label>
+			<label index="pageTreeMode.alttitle" type="integer">152759754</label>
+			<label index="pageTreeRecordLimit.alttitle" type="integer">169123110</label>
+			<label index="singleRecord.alttitle" type="integer">128794302</label>
+			<label index="tableList.alttitle" type="integer">146883216</label>
+			<label index="inclRelations.alttitle" type="integer">164484847</label>
+			<label index="excludedElements.alttitle" type="integer">227920200</label>
+			<label index="extensionDependencies.alttitle" type="integer">230544289</label>
+			<label index="importFile.alttitle" type="integer">36260242</label>
+			<label index="upload.description" type="integer">129992522</label>
+			<label index="upload.details" type="integer">204986464</label>
+			<label index="pageTreeCfg.alttitle" type="integer">236227215</label>
+			<label index="singleRecord.description" type="integer">132615781</label>
+			<label index="singleRecord.image_descr" type="integer">225220803</label>
+			<label index="tableListMaxNumber.alttitle" type="integer">225797227</label>
+			<label index="staticRelations.alttitle" type="double">1210228</label>
+			<label index="htmlCssResources.alttitle" type="integer">178718927</label>
+			<label index="metadata.alttitle" type="integer">266477806</label>
+			<label index="import.alttitle" type="integer">32716924</label>
+			<label index="update.alttitle" type="integer">56150550</label>
+			<label index="options.alttitle" type="integer">55046973</label>
+			<label index="options.description" type="integer">57482610</label>
+			<label index="enableLogging.alttitle" type="integer">110785878</label>
+			<label index="upload.alttitle" type="integer">182180379</label>
+			<label index=".description" type="integer">68307774</label>
+			<label index=".image_descr" type="integer">70436675</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index="export.alttitle">Exporting records from TYPO3</label>
+			<label index="pageTreeDisplay.alttitle">Page Tree</label>
+			<label index="pageTreeMode.alttitle">Levels</label>
+			<label index="pageTreeRecordLimit.alttitle">Include tables</label>
+			<label index="singleRecord.alttitle">Export single record</label>
+			<label index="tableList.alttitle">Table export</label>
+			<label index="inclRelations.alttitle">Include relations</label>
+			<label index="excludedElements.alttitle">Excluded elements</label>
+			<label index="extensionDependencies.alttitle">Extension Dependencies</label>
+			<label index="importFile.alttitle">Select file to import</label>
+			<label index="upload.description">Select a file to import from your local computer and upload it here. If the upload completes succesfully you can immediately see its content displayed in the preview display.</label>
+			<label index="upload.details">Notice that there are usually limits set by the server (PHP) to the size of uploaded files at around 2 MB in which case nothing will happen.</label>
+			<label index="pageTreeCfg.alttitle">Configuration of page tree export</label>
+			<label index="singleRecord.description">This overview tells you which independent records has been independently selected for export.</label>
+			<label index="singleRecord.image_descr">The way to export multiple records like this is using the clipboard like shown below.</label>
+			<label index="tableListMaxNumber.alttitle">Max number to export</label>
+			<label index="staticRelations.alttitle">Set static tables</label>
+			<label index="htmlCssResources.alttitle">Exclude resources from HTML and CSS files</label>
+			<label index="metadata.alttitle">Meta data setting</label>
+			<label index="import.alttitle">Importing TYPO3 records</label>
+			<label index="update.alttitle">Update instead of Insert</label>
+			<label index="options.alttitle">Import options</label>
+			<label index="options.description">Various options for import.</label>
+			<label index="enableLogging.alttitle">Enable System Logging</label>
+			<label index="upload.alttitle">Upload import file</label>
+			<label index=".description">Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</label>
+			<label index=".image_descr">Example of the preview display during export configuration of a page. Notice how records on the page are include plus how references inside the record is found and included as well (bottom of screen).</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

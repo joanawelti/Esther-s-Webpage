@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="wiz_crMany">Opprett flere sider</label>
+			<label index="wiz_W">B!</label>
+			<label index="wiz_newPages">Opprett nye sider</label>
+			<label index="wiz_newPages_page">Side</label>
+			<label index="wiz_newPages_currentMenu">Ny sidestruktur</label>
+			<label index="wiz_newPages_helpText">Her kan du opprettet flere nye sider i en operasjon. Dette er veldig praktisk dersom du, på en rask måte, ønsker å opprette en sidestruktur for et nytt webområde eller en seksjon.&lt;br /&gt;Du kan bare fylle ut feltene med de sidetitlene du trenger. Kun de feltene som er utfylt blir opprettet som sider.</label>
+			<label index="wiz_newPages_errorMsg1">Du har ikke tillatelse til å opprette undersider til denne siden!</label>
+			<label index="wiz_newPages_lCreate">Opprett sider</label>
+			<label index="wiz_newPages_listEnd">Sett inn de nye sidene etter de eksisterende undersidene</label>
+			<label index="wiz_newPages_hidePages">Skjul nye sider</label>
+			<label index="wiz_newPages_lCreate_msg1">Du er i ferd med å opprette mange sider. Er du sikker på at du vil fortsette?</label>
+			<label index="wiz_newPages_lReset">Tøm felter</label>
+			<label index="wiz_newPages_noCreate">Ingen sider ble opprettet!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="integer">1353175</label>
+			<label index="wiz_newPages_helpText" type="integer">257879061</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="integer">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

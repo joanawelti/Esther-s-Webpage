@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".description">Qui si definiscono i custom workspaces di Typo3, che permettono ad un gruppo di utenti di attuare un &quot;processo&quot; di pubblicazione lavorando con bozze e revisioni di contenuti. Puoi trovare maggiori informazioni sui workspaces nel documento &quot;Inside Typo3&quot;.</label>
+			<label index="title.description">Nome del workspace. Questo titolo sarà mostrato nel selettore dei worspaces nel backend.</label>
+			<label index="description.description">Inserisci una descrizione di questo workspace. Questa informazione sarà mostrata nel Workspace Manager e servirà a far capire agli utilizzatori dei workspaces la finalità di questo workspace.</label>
+			<label index="adminusers.description">I proprietari del workspace sono coloro che hanno i permessi di aggiugnere utenti e revisori al workspace, definire la pagian di partenza dell'albero etc.</label>
+			<label index="publish_time.description">Specifica l'ora di pubblicazione dei contenuti di quedsto workspace.</label>
+			<label index="freeze.description">Se abilitato, niente può essere editato all'interno di questo workspace.</label>
+			<label index="live_edit.description">Se abilitato, i records di tabelle che non hanno possibilità di più &quot;versioni&quot; possono lo stesso essere editate &quot;live&quot; dall'interno del workspace.</label>
+			<label index="disable_autocreate.description">Se abilitato, non vengono automaticamente create nuove versioni dei records quando editati nel workspace. Una nuova versione deve essere create prima manualmente.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description" type="integer">158098838</label>
+			<label index="description.description" type="integer">189422282</label>
+			<label index="adminusers.description" type="integer">256927453</label>
+			<label index=".description" type="integer">82101164</label>
+			<label index="publish_time.description" type="integer">20570038</label>
+			<label index="freeze.description" type="integer">134717254</label>
+			<label index="live_edit.description" type="integer">186857343</label>
+			<label index="disable_autocreate.description" type="integer">65404858</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="title.description">Enter the name of the workspace. This value is shown in the workspace selector box in the backend.</label>
+			<label index="description.description">Make a description of the workspace purpose here. This information is shown in the Workspace Manager and should instruct the workspace users about the purpose of the workspace.</label>
+			<label index="adminusers.description">Owners of the workspace are those who are allowed to add members and reviewers to the workspace and pick the page tree starting points etc.</label>
+			<label index=".description">Defines custom workspaces in TYPO3 which allows for groups of people to work together in a publishing process with draft content. More information about workspaces can be found in the document &quot;Inside TYPO3&quot;.</label>
+			<label index="publish_time.description">Specify a time of publication of the workspace content.</label>
+			<label index="freeze.description">If set, no editing is allowed inside workspace.</label>
+			<label index="live_edit.description">If set, records from tables where versioning is not enabled can still be edited &quot;live&quot; inside the workspace.</label>
+			<label index="disable_autocreate.description">If set, records are not automatically created as new versions when edited in the workspace. A new version must be manually created first.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

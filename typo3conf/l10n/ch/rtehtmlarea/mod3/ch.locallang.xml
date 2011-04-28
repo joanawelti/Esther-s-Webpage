@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index="removeLink">移除链接</label>
+			<label index="uploadImage">上传图片</label>
+			<label index="update">更新</label>
+			<label index="path">路径</label>
+			<label index="page">页面</label>
+			<label index="file">文件</label>
+			<label index="extUrl">外部URL</label>
+			<label index="email">电子邮件</label>
+			<label index="special">专用的</label>
+			<label index="folderTree">目录树</label>
+			<label index="files">文件</label>
+			<label index="target">目标</label>
+			<label index="newWindow">新窗口</label>
+			<label index="top">顶层</label>
+			<label index="none">没有 - 新链接</label>
+			<label index="pageTree">页面树</label>
+			<label index="contentElements">内容元素</label>
+			<label index="selectRecords">选择记录</label>
+			<label index="addToList">添加到列表</label>
+			<label index="info">信息</label>
+			<label index="emailAddress">电邮地址</label>
+			<label index="setLink">设定链接</label>
+			<label index="clickToRedrawFullSize">图片实际大小比这里显示的大! 点击以全尺寸显示.</label>
+			<label index="findDragDrop">查找图片,然后点击并拖动图片到编辑器的主窗口!</label>
+			<label index="noWebFolder">您不能从该黄色的目录中拖出图片, 因为它是服务器内部目录.</label>
+			<label index="currentLink">当前链接</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

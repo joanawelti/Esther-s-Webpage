@@ -1,0 +1,11 @@
+temp.MenuTop = HMENU
+temp.MenuTop.special=directory
+temp.MenuTop.special.value=23
+temp.MenuTop.1=TMENU
+temp.MenuTop.1{
+  noBlur = 1
+  NO{
+    linkWrap=|*| |&nbsp;|*| |*|
+    ATagParams=class="menu_link"
+  }
+}

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">هذا هو الجدول الخاص بالمستخدمين المرشدين للواجهة الخلفية.ويمكن لمستخدمي الواجهة الخلفية الدخول إلى الواجهة الخلفية لتيبو3 ويصبحوا بالفعل منتجين لمحتوي صفحة الوب.</label>
+			<label index=".details">من الضوابط الأساسية لمسستخدم الواجهة الخلفية اسم المستخدم،كلمة السر،وعضوية المجموعة.ويستخدم اسم الملف و كلمة السر لتوثيق دخول المستخدم على النظام.وتمكن عضوية المجموعة المستخدم من أداء العمليات داخل تيبو3 وذلك حيث ان المجموعات هي المصدر الأساسي لعمليات ضبط التصريح الخاصة بمستخدم الواجهة الخلفية.
+ويمكن أن نتعامل مع مجموعة مستخدمي الواجهة الخلفية على أنها مجموعة من &quot;الأدوار&quot;.حيث تحتوي كل مجموعة مستخدم على إمكانية لضبط التصريحات التي تتيح للمستخدم بأن يلعب دورا أساسيا داخل النظام.
+
+&lt;b&gt;&quot;المرشد&quot;المستخدم&lt;/b&gt;
+يطلق على مجموعة خاصة من المستخدمين اسم &quot;المرشد&quot;.حيث يسمح لهذا النوع من المستخدمين الدخول إلى أي مكان على تيبو3.ولا توجد حدودا للمستخدمين المرشدين على الأطلاق.ومن الطبيعي أن يكون لديك  في النظام فقط  مستخدم أو مستخدمين من المستخدمين المرشدين.والمستخدمين المرشدين هم فقط القاددرين على إنشاء مستخدمين آخرين للواجهة الخلفية.وبالتبادل يمكنك إنشاء &quot;حدث&quot;والذي يمكن المستخدمين الأخرين من أداءه أيضا.(ويتم ذلك بالطبع تحت مجموعة من القيود). 
+
+&lt;b&gt;الموقع&lt;/b&gt;
+ودائما ما ينشئ مستخدمي الواجهة الخلفية في جذر صفحة الشجرة(كما هو الحال تماما في مجموعات الواجهة الخلفية).
+
+&lt;b&gt;مقارنة المستخدمين&lt;/b&gt;
+للتعامل مع المستخدمين و المقارنه بينهم ، قم بإجراء عرض عام على مصداقية دخولهم للموقع إلخ.يمكنك استخدام وحدة  أدوات&lt;إشراف المستخدم (الإمتداد هو:كن مستخدم). يتيح ذلك لتصنيف المستخدمين إلى مجموعات بخصائص متنوعة من التصاريح.
+ويمكنك أيضا بنقرة واحدة على زر التحويل من حساب مستخدم إلى حساب مستخدم آخر.</label>
+			<label index=".image_descr">ويتواجد مستخدمين الواجهة الخلفية في جذر صفحة الشجرة.ويتم تميز مستخدمي الواجهة الخلفية&quot;المرشدين&quot;بأن تلون اليقونةالخاصة بهم دائما باللون الأحمر في حين تلون أيقونة المستخدمين العادين باللون الأزرق.ويكون التحريرمن خلال سجل مستخدمي الواجهة الخلفية. و تستخدم  وحدة  أدوات&lt;إشراف المستخدم للحصول على عرض عام لمستخدمي النظام وما هي التصاريح المتاحة لهم.أنقر زر &quot;SU&quot;للتحويلل إلى حساب المستخدمين.</label>
+			<label index="username.description">إدخل اسم دخول مستخدم الواجهة الخلفية.</label>
+			<label index="username.details">ويعتبر اسم المستخدم متطلب أساسي والذي يجب أن يكتب بأحرف صغير بدون ترك مسافات بين الأحرف بعضها مع بعض.وإضافة إل ذلك يجب أن يكون اسم المستخدم غير مستخدم من قبل.وإن لم يكن كذلك سيلحق به رقما بصورة تلقائية.</label>
+			<label index="password.description">إدخل بالأعلى كلمة سر لأسم مستخدم الواجهةالخلفية(لاحظ بأن القيمة المدخلة &lt;i&gt;ستكون&lt;/i&gt;مقروءة من خلال الحقل!).</label>
+			<label index="password.details">كلمة السر متطلب.وقبل إرسال كلمة السر إلى المخدم يتم معالجتها أولا بالامر md5-hash، و عليه فإن قيمة كلمة السر نفسها لا تنقل عبر الإنترنت.ويكون ذلك صحيحا في حالة تحرير كلمة السر و كذلك عن دخول المستخدم إلى الموقع.وحيث أن هذا المبدء لا يوحي بكلمة سر معينة وبالتالى هي&lt;i&gt;لا&lt;/i&gt;تعد شفرة حقيقية.ولضان أعلى درجة من الأمان فإنك بحاجة لتحميل الواجهة الخلفية لتيبو3 على مخدم آمن.كما و تخزن جملة كلمة السر على قواعد البيانات معالجة بالأمر md5-hash وعليه فلا يكون من المستحيل إستخراج كلمة السر الاصلية من من قواعد البيانات.وهذا يعني أن ‘كلمات السر المفقودة‘ يجب أن تستبدل بكلمة سر آخرى للمستخدم.
+
+&lt;b&gt;ملاحظة&lt;/b&gt;
+عند إدخالك لكلمة سر في الحقل الخاص بها فستظهر مرئية في نص خالي!كما و عليك أن تعلم أنه في حالة إذا ما فقد تركيز حقل كلمة السر ستتحول كلمة السر إلى &quot;قائمة من النقط&quot;.
+
+&lt;b&gt;تغير كلمة السر للمستخدم&lt;/b&gt;
+يمكن للمستخدمين تغير كلمة السر الخاصة بهم بواسطة وحدة إعداد &lt;المستخدم.</label>
+			<label index="usergroup.description">تعين مجموعات مستخدم للواجهة الخلفية.</label>
+			<label index="usergroup.details">وتعرف مجموعات مستخدم الواجهة الخلفية على أنها التصريحات التي يرثها مستخدم الواجهة الخلفية.وعليه فإن لم يكن مستخدم الواجهة الخلفية&quot;مرشدا&quot;فهو يكون في حاجة بأن يكون عضوا في واحدة او أكثر من مجموعات المستخدم وذلك لأن يحصل جزئيا على تصاريح الدخول.وعادة ما يتم جمع الخصائص المضبوطة سويا .
+وتكون المجوعة الأولى(والمدرجة بالأعلى)،بصورة إفتراضية، مالكة لجميع الصفحات التي ينشءها المستخدم.</label>
+			<label index="lockToDomain.description">إدخل اسم المضيف والذي لا ستطيع المستخدم أن يدخل للموقع إلا من خلاله.</label>
+			<label index="lockToDomain.details">يحتوى تيبو3 على العديد من النطاقات يشير إليها النظام.وعليه فإن هذه الخاصية تضمن للمستخدم الدخول فقط بواسطة اسم مضيف بعينه.</label>
+			<label index="disableIPlock.description">إلغاء غلق جلسات مستخدمي الواجهة الخلفية لإستخدام رقم البروتوكول الدولي عن بعد.</label>
+			<label index="disableIPlock.details">عليك بإلغاء هذا القفل إذا تمكن مستخدمي الواجهة الخلفية الدخول إلى تيبو3 من خلال الشبكة الرقمية للخدمات المتكاملة أو الإتصال من خلال المودم والذي يمكن أن يغلق و يعاود الإتصال مرة اخرى من خلال بروتوكول آخر جديد.ويكون الأمر صحيحا بالنسبة لتعين البروتوكول الخاص بتشكيل المضيف ديناميكيا لأرقام IPوالتي يتم تعينها بصورة متكررة.</label>
+			<label index="db_mountpoints.description">تعين نقاط الإبتداء لمستخدمي صفحة الشجرة.</label>
+			<label index="db_mountpoints.details">إن صفحة الشجرة التي تستخدم جميع الوحدات الجزئية لصفحة الوب في التصفح يجب أن يكون لديها تعريفا لبعض نقاط المدخل.وفي هذه الحالة فعليك إدراج واحدا أو أكثر من مراجع الصفحة والتي تقدم جذر صفحة جديد لصفحة الشجرة.ومثل هذه العملية تسمى‘تحميل قواعد البيانات‘.
+
+&lt;strong&gt;ملاحظة&lt;/strong&gt;
+لمجموعة مستخدمي الواجهة الخلفية رقم قاعدة بيانات والذي ينقلها المستخدم إليهم.وعليه فإذا ما أردت أن تشترك مجموعة المستخدمين في صفحة شجرة.فقد يجب عليك تحميل صفحة الشجرة  في مجموعة مستخدم الواجهة الخلفية عوضا عن الصفحة المشتركين بها بالفعل.</label>
+			<label index="db_mountpoints.image_descr">ويعين لكل مستخدم تحميل لقواعد البيانات. ولا يحق للمستخدمين العمل إلا على الصفحات و السجلات المدرجة داخل تحميلات قواعد البيانات الخاصة بهم!عند تحميل صفحة ما للمستخدم فإنها ستكون جذرا لصفحة الشجرة الخاصة بهم. ويجب على المستخدم الدخول إلى الصفحة من خلال تصاريح الصفحة المعتادة المضبوطة داخل وحدة دخول&lt;الوب.</label>
+			<label index="file_mountpoints.description">تعين نقاط الإبتداء الخاص بشجحرة ملفات المجلد.</label>
+			<label index="file_mountpoints.details">وتستخدم شجرة ملفات المجلد بواسطة وحدات الملف الفرعي للتنقل بين مجلدات الملف المدرجة على مخدم الوب.
+وكما هو الحال في ’تحميل قواعد البيانات’فإن تحميل مجلد الملف يأخذ من عضو مجموعة المستخدم.</label>
+			<label index="email.description">إدخل عنوان البريد الإلكتروني للمستخدم.</label>
+			<label index="email.details">ومن الأهمية بما كان غدخال البريد الإلكتروني الخاص بالمستخدم حيث أنه يقوم بإستقبال جميع الرسائل المرسلة من النظام.
+&lt;strong&gt;ملاحظة&lt;/strong&gt;يكون المستخدم قادرا على تغير هذه القيمة بنفسه من خلال وحدة إعداد&lt;المستخدم.</label>
+			<label index="realName.description">إدخل الاسم الحقيقي للمستخدم، جون دوا مثلا.</label>
+			<label index="realName.details">&lt;strong&gt;ملاحظة&lt;/strong&gt;يمكن للمستخدم تغير هذه القيمة بنفسه من داخل وحدة إعداد&lt;المستخدم.</label>
+			<label index="disable.description">ومكن لهذهالخاصية أن تعيق المستخدم من الدخول على الموقع.</label>
+			<label index="admin.description">وللمستخدمين‘المرشدين‘ الحق الكامل في الدخول إىل النظام.</label>
+			<label index="admin.details">يتاح 'للمرشد'العمل خلال كل مايتيحه تيبو3 ويجب أن يستخدم هذا المستخدم فقط في الأغراض الإدارية.ويراعى أن تتم كل المعالجة اليومية على المستخدمين التقليدين.
+ولا يكون متطلبا بالنسبة لمستخدمين'المرشدين' أن يكونوا أعضاء في مجموعة مستخدمي الواجهة الخلفية.وعلى الرغم من ذلك فيجب أن تكون على دراية من أن أي صفحة يتم إنشاءها بواسطة المستخدم المرشد بدون و جود مجموعة لن تعين مجموعة خاصة وعليه فمن الجائز أن لا تكون مرئية للمستخدمين الآخرين.وإذا ما كان ذلك يمثل مشكلة بالنسبة لك فيمكنك حلها بسهولة وذلك بتعين مجموعة مستخدم خاصة بالمستخدم 'المرشد‘.وهذا لا يؤثر ولم يعد ذلك بالطبع يؤثر على التصاريح منذ أن أصبحت غير محدودة، غير أن قائمة المجموعة الأولى تكون بصورة إفتراضية هي المجموعة المالكة للصفحات الجديدة المنشأة.
+وبسهولة يمكن تميز المستخدمين 'المرشدين'حيث تظهر أيقونتهم باللون الأحمر بدلا من الأيقونة الزرقاء بالنسبة للمستخدم المعتاد.
+ولا ننصحك بأن تتيح لأي شخص غيرك بأن يكون مستخدم 'مرشد.'</label>
+			<label index="options.description">حدد ما إذا كان يجب على المستخدم أن يأخذ نقاط</label>
+			<label index="options.details">وأنه من المميزات الهامة السماح للمستخدمين أخذ نقاط التحميل من مجموعة المستخدمين حيث أنها تجعل الإرشاد بالنسبة لنفس نقاط التحميل غاية في السهولة.
+وإنك إذا لم تقوم بفحص هذه الخصائص، فعليك التأكد بأنه قد تم ضبط نقاط التحميل لكل من صفحة الشجرة وشجرة ملفات المجلد بصورة خاصة للمستخدم.</label>
+			<label index="fileoper_perms.description">أختر ملف عمليات التصايح الخاصة بالمستخدم.</label>
+			<label index="fileoper_perms.details">يرتبط هذا الضبط بالعمليات الموجودة داخل وحدةقائمة&lt;الملف والموجود أيضا في التحميل العام للملفات.</label>
+			<label index="starttime.description">إدخل البيانات التي بواستطها ينشط الحساب.</label>
+			<label index="endtime.description">إدخل البيانات التي بواستطها يلغى الحساب.</label>
+			<label index="lang.description">إختر اللغة &lt;i&gt;الإقتراضية&lt;/i&gt;.</label>
+			<label index="lang.details">وهذا يساعد على تحديد الغة الواجهة الخلفية الخاصة بالمستخدم.أجزاء المجرى الرئيسي المتاحة للمستخدمين المعتادين في نظام اللغات المختارة.
+وعلى الرغم من ذلك فإن المستخدمين على دراية بأن الأجزاء الخاصة،بمرشدين ، تيبو3 تكون فقط بالإنجليزية.وهذا يشتمل على جميع الوحدات الفرعية داخل&quot;شريط الأدوات&quot; و كذلك داخل وحدة نموذج&lt;الوب.
+
+&lt;b&gt;Notice&lt;/b&gt;يستخدم هذا الملف فقط في ضبط اللغة الإفتراضية. وما إن تم دخول المستخدم لابد و أن تتغير اللغة وحدة إعداد&lt; المستخدم
+   كما و يجب عليك أيضا تحميل  حزمة اللغة المتوافقةو التي يمكن أن تتواجد على هيئة إمتداد داخل موقع TYPO3.org ببادئة &quot;csh_XX&quot; حيث تعبر XX عن مفتاح اللغة لتيبو3.</label>
+			<label index="userMods.description">إختر وحدات الواجهة الخلفية المتاحة للمستخدم.</label>
+			<label index="userMods.details">يحدد هذا الملف أي من ‘عناصر القائمة‘ يمكن أن يتاح لمستخدم الواجهة الخلفية.
+لاحظ أنه يمكن ضبط نفس وحدات القائمة لكل مجموعة من مجموعات مستخدمي الواجهة الخلفية والتي سيتم إستخدامها المستخدم بالإضافة.</label>
+			<label index="TSconfig.description">إدخل TSconfigالإضافية للمستخدم(متقدم).</label>
+			<label index="TSconfig.details">يتيح لك هذا الحقل من فتح مزيد من الخيارات الفرعية التي تتيح لك ضبط المستخدم. ويشتمل ملخص الخصائص على عمليات ضبط تفصيلية لوحدات الواجهة الخلفية، مشتملة على</label>
+			<label index="allowed_languages.description">حدد سجل اللغات الذي يسمح لأعضاء المجموعة التحرير خلاله بصورة محدودة.</label>
+			<label index="allowed_languages.details">يمكنك أن تحد المستخدمين بمجموعة معينة من اللغات وذلك من خلال ضبط مجموعة المستخدم.برجاء راجع نفس الحقل لمجموعة مستخدمي الواجهة الخلفية لمزيد من المعلومات.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".details" type="integer">100963793</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="username.description" type="integer">169225297</label>
+			<label index="username.details" type="integer">26517555</label>
+			<label index=".image_descr" type="integer">98434337</label>
+			<label index="password.description" type="integer">182240439</label>
+			<label index="password.details" type="integer">135612209</label>
+			<label index="usergroup.description" type="integer">162325927</label>
+			<label index="usergroup.details" type="integer">30843346</label>
+			<label index="lockToDomain.details" type="integer">140149042</label>
+			<label index="disableIPlock.description" type="integer">204135236</label>
+			<label index="disableIPlock.details" type="integer">27220559</label>
+			<label index="db_mountpoints.description" type="integer">83626085</label>
+			<label index="file_mountpoints.description" type="integer">103273463</label>
+			<label index="db_mountpoints.details" type="integer">21669967</label>
+			<label index="fileoper_perms.description" type="integer">25345447</label>
+			<label index="fileoper_perms.details" type="integer">136693371</label>
+			<label index="email.description" type="integer">102465996</label>
+			<label index="realName.description" type="integer">49868929</label>
+			<label index="realName.details" type="integer">184974335</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="admin.description" type="integer">200276487</label>
+			<label index="email.details" type="integer">119942305</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="lang.description" type="integer">107431137</label>
+			<label index="userMods.description" type="integer">247677460</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index=".description" type="integer">174805996</label>
+			<label index="allowed_languages.description" type="integer">33891430</label>
+			<label index="file_mountpoints.details" type="integer">170613745</label>
+			<label index="options.description" type="integer">91490880</label>
+			<label index="db_mountpoints.image_descr" type="integer">267115070</label>
+			<label index="allowed_languages.details" type="integer">83437235</label>
+			<label index="options.details" type="integer">184652761</label>
+			<label index="TSconfig.details" type="integer">220754092</label>
+			<label index="lang.details" type="integer">182178186</label>
+			<label index="admin.details" type="integer">124287279</label>
+			<label index="userMods.details" type="integer">132513125</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".details">The main settings for a backend user is a username, password and group memberships. The username and password authenticates the user to the system. The group memberships enables the user to perform actions in TYPO3 since groups are the main source of permission settings for a backend user.
+Backend usergroups can also be understood as &quot;roles&quot;. A usergroup can contain a configuration of permissions which allows the user to play a certain role in the system.
+
+&lt;b&gt;The &quot;Admin&quot; user&lt;/b&gt;
+There is a special kind of user, the &quot;Admin&quot; user. This user has access to everything in TYPO3. There are no limits for Admin-users at all. You should normally have only a single or two admin-users in your system.
+Admin-users are the only users who can create other backend users. Alternatively you can create an &quot;Action&quot; which enables other normal users to do it as well (with certain restrictions of course).
+
+&lt;b&gt;Location&lt;/b&gt;
+Backend users are always created in the root of the page tree (like Backend groups are).
+
+&lt;b&gt;Comparing Users&lt;/b&gt;
+To manage and compare users, getting an overview of their access credentials etc. you can use the Tools &gt; User Admin module (extension: beuser). It allows you to group users by various categories of permissions. You can also switch to another users account by a single click of a button.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="username.description">Enter the login name of the backend user.</label>
+			<label index="username.details">A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</label>
+			<label index=".image_descr">Backend users are found in the root of the page tree. &quot;Admin&quot; backend users can always be recognized on their icon being red while normal users have a blue icon.
+The editing form of a backend users record.
+The &quot;Tools &gt; User Admin&quot; module where you can get an overview of the users on the system and what permissions they have. Click the &quot;SU&quot; button to switch to a users account.</label>
+			<label index="password.description">Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</label>
+			<label index="password.details">The password is required. Before the password is sent to the server it's md5-hashed, so the password value itself is not transferred over the Internet. This is true both when editing the password and when the user logs in.
+While this principle does not reveal the raw password it is &lt;i&gt;not&lt;/i&gt; the same as real encryption. If you need the highest degree of security you should install the TYPO3 backend on a secure server.
+The password is stored in the database as an md5-hash and thus it's not possible to extract the original password from the database either. This means that 'lost passwords' must be substituted with a new password for the user.
+
+&lt;b&gt;Notice&lt;/b&gt;
+When you enter the password in the password field it is initially visible in clear text! First when the password field focus is lost will the password become a &quot;list of dots&quot;.
+
+&lt;b&gt;User changing password&lt;/b&gt;
+Users can change their password from the User &gt; Setup module</label>
+			<label index="usergroup.description">Assign backend user groups to the user.</label>
+			<label index="usergroup.details">The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
+The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</label>
+			<label index="lockToDomain.details">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</label>
+			<label index="disableIPlock.description">Disable the lock of the backend users session to the remote IP number.</label>
+			<label index="disableIPlock.details">You will have to disable this lock if backend users are accessing TYPO3 from ISDN or modem connections which may shutdown and reconnect with a new IP. The same would be true for DHCP assignment of IP numbers where new IP numbers are frequently assigned.</label>
+			<label index="db_mountpoints.description">Assign startpoints for the users page tree.</label>
+			<label index="file_mountpoints.description">Assign startpoints for the file folder tree.</label>
+			<label index="db_mountpoints.details">The page tree used my all Web-submodules to navigate must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a 'Database mount'.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also has DB mounts which can be inherited by the user. So if you want a group of users to share a page tree, you should probably mount the page tree in the backend user group which they share instead.</label>
+			<label index="fileoper_perms.description">Select file operation permissions for the user.</label>
+			<label index="fileoper_perms.details">These settings relates to the functions found in the File&gt;List module as well as general upload of files.</label>
+			<label index="email.description">Enter the email address of the user.</label>
+			<label index="realName.description">Enter the ordinary name of the user, eg. John Doe.</label>
+			<label index="realName.details">&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="admin.description">'Admin' users have TOTAL access to the system!</label>
+			<label index="email.details">This address is rather important to enter because this is where messages from the system is sent.
+&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="lang.description">Select the &lt;i&gt;default&lt;/i&gt; language.</label>
+			<label index="userMods.description">Select available backend modules for the user.</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index=".description">This is the table of backend administration users. Backend users can login in the backend of TYPO3 and are typically producers of content on a website.</label>
+			<label index="allowed_languages.description">Select which record languages the group members are limited to edit.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate between the file folders on the webserver.
+Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
+See Backend Groups for details</label>
+			<label index="options.description">Select if the user should inherit page tree or folder tree mountpoints from member groups.</label>
+			<label index="db_mountpoints.image_descr">A DB mount is assigned to the user. Users can only operate on pages and records which are inside their DB mounts!
+When a page is mounted for a user it will become the root of their page tree. The user must have access to the page through the regular page permissions set in the Web &gt; Access module.</label>
+			<label index="allowed_languages.details">You can also limit users to specific languages with user group settings. Please see the same field for backend user groups for more details.</label>
+			<label index="options.details">It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
+If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</label>
+			<label index="TSconfig.details">This field allows you to extend the configuration of the user in severe details. A brief summary of the options include a more detailed configuration of the backend modules, setting of user specific default table field values, setting of Rich Text Editor options etc.</label>
+			<label index="lang.details">This determines the language of the backend interface for the user. All mainstream parts available for regular users are available in the system language selected.
+'Admin'-users however will experience that the 'Admin'-only parts of TYPO3 is in english. This includes all submodules in &quot;Tools&quot; and the Web&gt;Template module.
+
+&lt;b&gt;Notice&lt;/b&gt; this is only setting the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module. Also you will have to install the corresponding language pack which can be found as an extension on TYPO3.org with the prefix &quot;csh_XX&quot; where XX is the TYPO3 language key.</label>
+			<label index="admin.details">'Admin' can do anything TYPO3 allows and this kind of user should be used only for administrative purposes. All daily handling should be done with regular users.
+'Admin' users don't need to be members of any backend user groups. However you should be aware that any page created by an admin user without a group will not have any owner-group assigned and thus it will probably be invisible for other users. If this becomes a problem you can easily solve it by assigning a user group to the 'Admin' user anyway. This does of course not affect the permissions since they are unlimited, but the first group listed is by default the owner group of newly created pages.
+'Admin' users are easily recognized as they appear with a red icon instead of the ordinary blue user-icon.
+
+You should probably not assign any other users than yourself as an 'Admin' user.</label>
+			<label index="userMods.details">This determines which 'menu items' are available for the user in the backend.
+
+Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

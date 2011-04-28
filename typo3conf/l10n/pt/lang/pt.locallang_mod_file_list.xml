@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="clipBoard">Mostrar área de transferência</label>
+			<label index="clip_paste">Colar conteúdo da área de transferência</label>
+			<label index="clip_pasteInto">Colar: Conteúdo da área de transferência é inserido nesta pasta</label>
+			<label index="clip_markRecords">Marcar todos/Desmarcar todos</label>
+			<label index="clip_selectMarked">Transferir a seleção de arquivos para a área de transferência</label>
+			<label index="clip_deleteMarked">Apagar marcados</label>
+			<label index="clip_deleteMarkedWarning">Você está certo de que deseja apagar todos os arquivos marcados desta pasta?</label>
+			<label index="displayThumbs">Mostrar ícones</label>
+			<label index="c_file">Nome do arquivo</label>
+			<label index="c_size">Tamanho</label>
+			<label index="c_fileext">Tipo</label>
+			<label index="c_tstamp">Data</label>
+			<label index="c_rw">L/E</label>
+			<label index="files">arquivos</label>
+			<label index="mlang_labels_tablabel">Lista de arquivos no diretório</label>
+			<label index="mlang_labels_tabdescr">Esta é a administração de arquivos no TYPO3. Ela permite que você acesse seus arquivos de utilizador. Através deste módulo você pode transferir, copiar, mover e deletar arquivos no servidor.</label>
+			<label index="mlang_tabs_tab">Lista de Arquivos</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="displayThumbs" type="integer">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="sel1">Prašau pažymėti kokios rūšies turinį norite sukurti:</label>
+			<label index="sel2">Dabar pažymėkite kurioje puslapio vietoje norite patalpinti elementą:</label>
+			<label index="common">Tipiškas puslapio turinys</label>
+			<label index="common_textImage_title">Tekstas su paveiksleliu</label>
+			<label index="common_imagesOnly_title">Tik paveiksleliai</label>
+			<label index="common_table_title">Lentelė</label>
+			<label index="special">Specialūs elementai</label>
+			<label index="special_filelinks_title">Nuorodos į bylas</label>
+			<label index="special_multimedia_title">Audio, video, vaizdinė medžiaga</label>
+			<label index="special_plainHTML_title">HTML kodas</label>
+			<label index="forms">Formos elementai</label>
+			<label index="forms_mail_title">El.pašto forma</label>
+			<label index="forms_search_title">Paieškos forma</label>
+			<label index="forms_login_title">Prisijungimo forma</label>
+			<label index="plugins">Priedai</label>
+			<label index="plugins_general_title">Pagrindinis priedas</label>
+			<label index="common_1_title">Paprastas teksto elementas</label>
+			<label index="common_1_description">Paprastas teksto elementas su antrašte ir teksto laukais</label>
+			<label index="common_2_title">Tekstas su paveikslėliu apačioje</label>
+			<label index="common_2_description">Paprastas teksto elementas su lauku, kuris gali turėti bet kokį paveikslėlių kiekį apačioje.</label>
+			<label index="common_3_title">Tekstas su paveikslėliu dešinėje</label>
+			<label index="common_3_description">Toks pat kaip viršuje, bet paveikslėliai išdėstyti dešinėje teksto pusėje. Tekstas perkeliamas taip, kad apsuptų paveikslėlius.</label>
+			<label index="common_4_title">Tiktai paveikslėliai.</label>
+			<label index="common_4_description">Bet koks paveikslėlių, išlygiuotų stulpeliais ir eilutėmis su pavadinimais, kiekis. Panašus kaip aukščiau esantis tik be teksto.</label>
+			<label index="common_5_title">Sąrašas</label>
+			<label index="common_5_description">Nerūšiuotas sąrašas su markeriais.</label>
+			<label index="common_6_title">Lentelė</label>
+			<label index="common_6_description">Paprasta lentelė (iki 8 stulpelių).</label>
+			<label index="special_1_title">Bylų nuorodos</label>
+			<label index="special_1_description">Sukuria bylų skirtų parsisiūsti sąrašą.</label>
+			<label index="special_2_title">Multimedia</label>
+			<label index="special_2_description">Įterpia media elementą, kaip Flash animaciją, audio bylą ar video klipą.</label>
+			<label index="special_3_title">Žemėlapis</label>
+			<label index="special_3_description">Sukuria tinklapio navigacijos žemėlapį.</label>
+			<label index="special_4_title">Paprastas HTML</label>
+			<label index="special_4_description">Naudojant šį elementą galima įterpti į puslapį HTML kodą.</label>
+			<label index="forms_1_title">Pašto forma</label>
+			<label index="forms_1_description">Atsakymo laiško forma, kurią tinklapio vartotojai gali siūsti užklausas.</label>
+			<label index="forms_2_title">Paieškos forma</label>
+			<label index="forms_2_description">Sukuria ekrane paieškos formą ir atvaizduoja jos rezultatus.</label>
+			<label index="forms_3_title">Prisijungimo forma</label>
+			<label index="forms_3_description">Tinklapio vartotojų prisijungimo/atsijungimo forma. Ši forma naudojama puslapiams apsaugoti slaptažodžiu. Kad tai veiktų reikia sukurti tinklapio vartotojus ir jų grupes.</label>
+			<label index="plugins_1_title">Bendri priedai</label>
+			<label index="plugins_1_description">Jei norite įterpti priedą kurio nėra žemiau esančiame sąraše, tiesiog pažymėkite šio elemento tipą, o po to išsirinkite ieškomą priedą pasirinkimo langelyje.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="sel1" type="integer">125258284</label>
+			<label index="sel2" type="integer">142688057</label>
+			<label index="common" type="integer">57063941</label>
+			<label index="common_1_title" type="integer">134955826</label>
+			<label index="common_1_description" type="integer">29135748</label>
+			<label index="common_2_title" type="integer">153490096</label>
+			<label index="common_2_description" type="integer">57288467</label>
+			<label index="common_3_title" type="double">13066984</label>
+			<label index="common_3_description" type="integer">49907931</label>
+			<label index="common_4_title" type="integer">62677049</label>
+			<label index="common_4_description" type="integer">232160004</label>
+			<label index="common_5_title" type="integer">88917113</label>
+			<label index="common_5_description" type="integer">136121208</label>
+			<label index="common_6_title" type="integer">85738935</label>
+			<label index="common_6_description" type="integer">145590635</label>
+			<label index="special" type="integer">183531399</label>
+			<label index="special_1_title" type="integer">23062602</label>
+			<label index="special_1_description" type="integer">154390211</label>
+			<label index="special_2_title" type="integer">49638223</label>
+			<label index="special_2_description" type="integer">87627445</label>
+			<label index="special_3_title" type="integer">92355808</label>
+			<label index="special_3_description" type="integer">36006628</label>
+			<label index="special_4_title" type="integer">238583373</label>
+			<label index="special_4_description" type="integer">92097111</label>
+			<label index="forms" type="double">14172094</label>
+			<label index="forms_1_title" type="integer">173513512</label>
+			<label index="forms_1_description" type="integer">194025956</label>
+			<label index="forms_2_title" type="integer">184654558</label>
+			<label index="forms_2_description" type="integer">71325784</label>
+			<label index="forms_3_title" type="integer">149378624</label>
+			<label index="forms_3_description" type="integer">191931555</label>
+			<label index="plugins" type="integer">196313238</label>
+			<label index="plugins_1_title" type="integer">188310073</label>
+			<label index="plugins_1_description" type="integer">104752280</label>
+			<label index="special_filelinks_title" type="integer">23062602</label>
+			<label index="special_plainHTML_title" type="integer">238583373</label>
+			<label index="forms_mail_title" type="integer">173513512</label>
+			<label index="forms_search_title" type="integer">184654558</label>
+			<label index="forms_login_title" type="integer">149378624</label>
+			<label index="plugins_general_title" type="integer">188310073</label>
+			<label index="common_textImage_title" type="integer">9972609</label>
+			<label index="common_imagesOnly_title" type="integer">62677049</label>
+			<label index="common_table_title" type="integer">85738935</label>
+			<label index="special_multimedia_title" type="integer">49638223</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="sel1">Please select the type of page content you wish to create:</label>
+			<label index="sel2">Now, click the position where you wish to place the element on the page:</label>
+			<label index="common">Typical page content</label>
+			<label index="special">Special elements</label>
+			<label index="special_filelinks_title">Filelinks</label>
+			<label index="special_plainHTML_title">Plain HTML</label>
+			<label index="forms">Form elements</label>
+			<label index="forms_mail_title">Mail form</label>
+			<label index="forms_search_title">Search form</label>
+			<label index="forms_login_title">Login form</label>
+			<label index="plugins">Plugins</label>
+			<label index="plugins_general_title">General Plugin</label>
+			<label index="common_textImage_title">Text with image</label>
+			<label index="common_imagesOnly_title">Images only</label>
+			<label index="common_table_title">Table</label>
+			<label index="special_multimedia_title">Multimedia</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

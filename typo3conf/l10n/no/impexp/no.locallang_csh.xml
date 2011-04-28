@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index=".alttitle">Import/Eksport</label>
+			<label index=".description">Innebygd import- og eksportmodul for TYPO3-data. Kan eksportere enkeltposter, innhold i tabeller, enkeltsider eller hele grener av sidetreet. Inkluderer også media som bilder og tar vare på relasjoner mellom poster. Eksporterer til et TYPO3-spesifikt format, enten binært (.T3D) eller som XML. Formatet er ment for å kunne utveksle informasjon mellom TYPO3-systemer.</label>
+			<label index=".image_descr">Eksempel på forhåndsvisning ved oppsett av eksport av en side. Legg merke til hvordan poster på siden er med, i tillegg til hvordan referanser inne i poster blir funnet og inkludert i tillegg (nederst på skjermen).</label>
+			<label index="export.alttitle">Eksport av poster fra TYPO3</label>
+			<label index="export.description">Klikk på et symbol i sidetreet (inkludert toppnivået) og velg 'Flere valg' for å kunne eksportere til T3D- og XML-filer. Dette krever at tillegget 'extra_page_cm_options' er installert. Deretter velger man 'Eksporter til .t3d' for å få opp eksportvalgene for elementet du valgte.</label>
+			<label index="pageTreeCfg.alttitle">Konfigurasjon av sidetre eksport</label>
+			<label index="pageTreeDisplay.alttitle">Sidetre</label>
+			<label index="pageTreeMode.alttitle">Nivå</label>
+			<label index="pageTreeRecordLimit.alttitle">Inkluder tabeller</label>
+			<label index="singleRecord.alttitle">Eksporter enkelt record</label>
+			<label index="tableList.alttitle">Tabelleksport</label>
+			<label index="tableListMaxNumber.alttitle">Maks nummer å eksportere</label>
+			<label index="inclRelations.alttitle">Inkluder relasjoner</label>
+			<label index="staticRelations.alttitle">Sett statiske tabeller</label>
+			<label index="excludedElements.alttitle">Ekskluderte elementer</label>
+			<label index="htmlCssResources.alttitle">Ekskluder ressurser fra HTML og CSS filer</label>
+			<label index="extensionDependencies.alttitle">Extensions avhengighet</label>
+			<label index="presets.alttitle">Forhåndsinnstilt konfigurasjon</label>
+			<label index="metadata.alttitle">Innstilling av metadata</label>
+			<label index="fileFormat.alttitle">Alternativer for filformat</label>
+			<label index="import.alttitle">Importer TYPO3 records</label>
+			<label index="importFile.alttitle">Velg fil å importere</label>
+			<label index="update.alttitle">Oppdater istedet for å sette inn</label>
+			<label index="options.alttitle">Alternativer for import</label>
+			<label index="options.description">Ulike alternativer for import</label>
+			<label index="action.alttitle">Import handling</label>
+			<label index="enableLogging.alttitle">Aktivere systemlogg</label>
+			<label index="upload.alttitle">Last opp importfil</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index=".description" type="integer">68307774</label>
+			<label index=".image_descr" type="integer">70436675</label>
+			<label index="export.alttitle" type="double">9010103</label>
+			<label index="export.description" type="integer">150520112</label>
+			<label index="pageTreeCfg.alttitle" type="integer">236227215</label>
+			<label index="pageTreeDisplay.alttitle" type="double">9880458</label>
+			<label index="pageTreeMode.alttitle" type="integer">152759754</label>
+			<label index="pageTreeRecordLimit.alttitle" type="integer">169123110</label>
+			<label index="singleRecord.alttitle" type="integer">128794302</label>
+			<label index="tableList.alttitle" type="integer">146883216</label>
+			<label index="tableListMaxNumber.alttitle" type="integer">225797227</label>
+			<label index="inclRelations.alttitle" type="integer">164484847</label>
+			<label index="staticRelations.alttitle" type="double">1210228</label>
+			<label index="excludedElements.alttitle" type="integer">227920200</label>
+			<label index="htmlCssResources.alttitle" type="integer">178718927</label>
+			<label index="extensionDependencies.alttitle" type="integer">230544289</label>
+			<label index="presets.alttitle" type="integer">204662048</label>
+			<label index="metadata.alttitle" type="integer">266477806</label>
+			<label index="fileFormat.alttitle" type="integer">54960098</label>
+			<label index="import.alttitle" type="integer">32716924</label>
+			<label index="importFile.alttitle" type="integer">36260242</label>
+			<label index="update.alttitle" type="integer">56150550</label>
+			<label index="options.alttitle" type="integer">55046973</label>
+			<label index="options.description" type="integer">57482610</label>
+			<label index="action.alttitle" type="integer">185830356</label>
+			<label index="enableLogging.alttitle" type="integer">110785878</label>
+			<label index="upload.alttitle" type="integer">182180379</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index=".description">Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</label>
+			<label index=".image_descr">Example of the preview display during export configuration of a page. Notice how records on the page are include plus how references inside the record is found and included as well (bottom of screen).</label>
+			<label index="export.alttitle">Exporting records from TYPO3</label>
+			<label index="export.description">To export TYPO3 T3D/XML files you click any record icon or page in the page tree (including the root page!), select &quot;More options&quot; (requires the extensions &quot;extra_page_cm_options&quot; to be installed) and then &quot;Export to .t3d&quot;. This will bring up the export interface where you can configure options for your export session.</label>
+			<label index="pageTreeCfg.alttitle">Configuration of page tree export</label>
+			<label index="pageTreeDisplay.alttitle">Page Tree</label>
+			<label index="pageTreeMode.alttitle">Levels</label>
+			<label index="pageTreeRecordLimit.alttitle">Include tables</label>
+			<label index="singleRecord.alttitle">Export single record</label>
+			<label index="tableList.alttitle">Table export</label>
+			<label index="tableListMaxNumber.alttitle">Max number to export</label>
+			<label index="inclRelations.alttitle">Include relations</label>
+			<label index="staticRelations.alttitle">Set static tables</label>
+			<label index="excludedElements.alttitle">Excluded elements</label>
+			<label index="htmlCssResources.alttitle">Exclude resources from HTML and CSS files</label>
+			<label index="extensionDependencies.alttitle">Extension Dependencies</label>
+			<label index="presets.alttitle">Configuration presets</label>
+			<label index="metadata.alttitle">Meta data setting</label>
+			<label index="fileFormat.alttitle">File format options</label>
+			<label index="import.alttitle">Importing TYPO3 records</label>
+			<label index="importFile.alttitle">Select file to import</label>
+			<label index="update.alttitle">Update instead of Insert</label>
+			<label index="options.alttitle">Import options</label>
+			<label index="options.description">Various options for import.</label>
+			<label index="action.alttitle">Import Action</label>
+			<label index="enableLogging.alttitle">Enable System Logging</label>
+			<label index="upload.alttitle">Upload import file</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

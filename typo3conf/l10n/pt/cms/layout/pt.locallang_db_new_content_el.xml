@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="sel1">Por favor, selecione o tipo de conteúdo de página que você deseja criar:</label>
+			<label index="sel2">Agora, clique na posição onde você deseja localizar o elemento na página:</label>
+			<label index="common">Conteúdo típico da página</label>
+			<label index="common_1_title">Elemento de texto regular</label>
+			<label index="common_1_description">Um elemento com campos de cabeçalho e corpo de texto.</label>
+			<label index="common_2_title">Texto com imagem abaixo</label>
+			<label index="common_2_description">Elemento de texto regular com um campo que pode conter qualquer número de imagens que são posicionadas abaixo do texto.</label>
+			<label index="common_3_title">Texto com imagem à direita</label>
+			<label index="common_3_description">Como acima, mas com imagens posicionadas à direita do texto com o texto ao redor das imagens.</label>
+			<label index="common_4_title">Somente imagens</label>
+			<label index="common_4_description">Qualquer número de imagens alinhadas em linhas e colunas com sub-títulos. Como as opções de imagem acima mas sem texto.</label>
+			<label index="common_5_title">Lista com marcadores</label>
+			<label index="common_5_description">Uma lista simples com marcadores.</label>
+			<label index="common_6_title">Tabela</label>
+			<label index="common_6_description">Uma tabela simples com até 8 colunas</label>
+			<label index="special">Elementos especiais</label>
+			<label index="special_1_title">Ligações para arquivos</label>
+			<label index="special_1_description">Cria uma lista de arquivos para copiar para seu computador.</label>
+			<label index="special_2_title">Multimedia</label>
+			<label index="special_2_description">Insere um elemento de media, como uma animação em Flash, arquivo de áudio ou vídeo clip.</label>
+			<label index="special_3_title">Mapa do sítio</label>
+			<label index="special_3_description">Cria um mapa do sítio.</label>
+			<label index="special_4_title">Código HTML</label>
+			<label index="special_4_description">Com este elemento você pode inserir código HTML na página.</label>
+			<label index="forms">Elementos de formulário</label>
+			<label index="forms_1_title">Formulário de Correio</label>
+			<label index="forms_1_description">Um formulário de correio pelo qual utilizadores podem enviar respostas.</label>
+			<label index="forms_2_title">Formulário de pesquisa</label>
+			<label index="forms_2_description">Cria um formulário de pesquisa e um formulário de resultados da pesquisa, caso uma busca seja efetuada.</label>
+			<label index="forms_3_title">Formulário de Acesso</label>
+			<label index="forms_3_description">Formulário de acesso e desconexão de utilizadores do sítio. Isto é usado para proteger páginas através de senha. É  necessário que você crie utilizadores e grupos para que isso funcione.</label>
+			<label index="plugins">Adicionais</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="sel1" type="integer">257792844</label>
+			<label index="sel2" type="integer">2777796</label>
+			<label index="common" type="integer">57063941</label>
+			<label index="common_1_title" type="integer">134955826</label>
+			<label index="common_1_description" type="integer">29135748</label>
+			<label index="common_2_title" type="integer">153490096</label>
+			<label index="common_2_description" type="integer">215746919</label>
+			<label index="common_3_title" type="integer">13066984</label>
+			<label index="common_3_description" type="integer">57201809</label>
+			<label index="common_4_title" type="integer">62677049</label>
+			<label index="common_4_description" type="integer">233905425</label>
+			<label index="common_5_title" type="integer">88917113</label>
+			<label index="common_5_description" type="integer">136121208</label>
+			<label index="common_6_title" type="integer">85738935</label>
+			<label index="common_6_description" type="integer">145590635</label>
+			<label index="special" type="integer">183531399</label>
+			<label index="special_1_title" type="integer">23062602</label>
+			<label index="special_1_description" type="integer">154390211</label>
+			<label index="special_2_title" type="integer">49638223</label>
+			<label index="special_2_description" type="integer">87627445</label>
+			<label index="special_3_title" type="integer">92355808</label>
+			<label index="special_3_description" type="integer">36006628</label>
+			<label index="special_4_title" type="integer">238583373</label>
+			<label index="special_4_description" type="integer">92097111</label>
+			<label index="forms" type="integer">14172094</label>
+			<label index="forms_1_title" type="integer">173513512</label>
+			<label index="forms_1_description" type="integer">149875491</label>
+			<label index="forms_2_title" type="integer">184654558</label>
+			<label index="forms_2_description" type="integer">71325784</label>
+			<label index="forms_3_title" type="integer">149378624</label>
+			<label index="forms_3_description" type="integer">64416876</label>
+			<label index="plugins" type="integer">196313238</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

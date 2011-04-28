@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="mlang_labels_tablabel">Uzstādījumu Centrs</label>
+			<label index="mlang_labels_tabdescr">Piedāvā vienkaršu saiti uz uzstādījumu centru. Lūdzu ievērot ka instalēšanas rīkam jabūt aktivētam.&lt;br /&gt;&lt;em&gt;Pieejams tikai administrātoriem!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Uzstādīšana</label>
+			<label index="msg_error_occured">Ir radusies kļūda ar sekojošām detaļām:</label>
+			<label index="msg_error_nomodregister">Moduļu reģistrs netika atrasts.</label>
+			<label index="msg_error_modulenotloaded">Nevarēja ielādēt pieprasīto moduli &quot;%s&quot;</label>
+			<label index="msg_error_modulenotfound">Pieprasītais modulis &quot;%s&quot; netika atrasts.</label>
+			<label index="msg_error_methodnotfound">Pieprasītā metode &quot;%s&quot; modulī &quot;%s&quot; netika atrast.</label>
+			<label index="msg_error_nomoduleconfig">Nevarēja atrast uzstādījumu datni modulim &quot;%s&quot;.</label>
+			<label index="label_true">OK</label>
+			<label index="label_false">Problēma</label>
+			<label index="label_help">Palīdzība</label>
+			<label index="label_save">Saglabāt opcijas</label>
+			<label index="label_expandAll">Izvērst visu</label>
+			<label index="label_collapseAll">Aizvēr visu</label>
+			<label index="label_setup_password">Ievadi Uzstādījumu Centra paroli</label>
+			<label index="label_localconfwritten">Uzstādījumi veiksmīgi saglabāti %s</label>
+			<label index="label_subsectionsfound">Tika atrastas sekojošas apakšnodaļas.</label>
+			<label index="label_deliverable_options">Iestatījumi</label>
+			<label index="label_deliverable_methods">Metodes</label>
+			<label index="label_deliverable_checks">Pārbaudes</label>
+			<label index="label_section">Tu esi sadaļā:</label>
+			<label index="label_category_database">Datu bāze</label>
+			<label index="label_category_server">Serveris</label>
+			<label index="label_category_gfx">Grafika</label>
+			<label index="label_category_system">Sistēma</label>
+			<label index="label_subcategory_connection">Savienošanās</label>
+			<label index="label_subcategory_cleanup">Satīrīt</label>
+			<label index="label_subcategory_php">PHP</label>
+			<label index="label_subcategory_directories">Failu katalogs</label>
+			<label index="label_subcategory_backend">Backend</label>
+			<label index="label_subcategory_frontend">Frontend</label>
+			<label index="label_subcategory_general">Vispārējā</label>
+			<label index="label_subcategory_gd">GD</label>
+			<label index="label_subcategory_igm">Image- GrapicsMagick</label>
+			<label index="label_subcategory_quality">Kvalitāte</label>
+			<label index="label_subcategory_development">Izstrāde</label>
+			<label index="descr_database">Tu esi sadaļā &quot;Datu bāze&quot;. Šeit tu vari pārbaudīt un samainīt iestatījumus, kas attiecas uz tav datu bāzi.</label>
+			<label index="descr_server">Tu esi sadaļā &quot;Serveris&quot;.</label>
+			<label index="descr_system">Tu esi sadaļā &quot;Sistēma&quot;.</label>
+			<label index="msg_setup_firstcall">DROŠĪBA:
+Pārliecinies, ka Uzstādījumu Centrs ir aizsargāts ar savādāku paroli kā &quot;joh316&quot;. Vēl drošāk ir nodzēst datni &quot;ENABLE_INSTALL_TOOL&quot; failu katalogā typo3conf/.
+
+TAVAI INFORMĀCIJAI:
+Uzstādījumu Centrs strādās tikai tad, ja tava pārlūkotājprogramma pieņem 'cepumus'. Ja tu redzi šo dialogu atkārtoti, tad 'cepumi' nav atļauti.</label>
+			<label index="msg_login_passwordhint">Uzstādījuma centra parole nav tāda pati kā TYPO3 administrātora parole. Ja tu nezini pašreizējo paroli, tu vari to pārstādīt nomainot $TYPO3_CONF_VARS['BE']['installToolPassword'] vērtību datnē typo3conf/localconf.php uz izvēlētās paroles md5() jaucējalgoritma vērtību.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="mlang_labels_tablabel" type="integer">91233822</label>
+			<label index="mlang_tabs_tab" type="integer">55149455</label>
+			<label index="mlang_labels_tabdescr" type="integer">184150281</label>
+			<label index="msg_error_occured" type="integer">64362022</label>
+			<label index="msg_error_nomodregister" type="integer">227405922</label>
+			<label index="msg_error_modulenotloaded" type="integer">50242081</label>
+			<label index="msg_error_modulenotfound" type="integer">66562620</label>
+			<label index="msg_error_methodnotfound" type="integer">169580364</label>
+			<label index="msg_error_nomoduleconfig" type="integer">256287139</label>
+			<label index="label_false" type="integer">233894413</label>
+			<label index="label_help" type="integer">111308628</label>
+			<label index="label_save" type="integer">152143934</label>
+			<label index="label_category_database" type="integer">238058928</label>
+			<label index="label_subcategory_php" type="integer">50250642</label>
+			<label index="label_subcategory_backend" type="integer">48506818</label>
+			<label index="label_subcategory_frontend" type="integer">228047462</label>
+			<label index="label_subcategory_gd" type="integer">90833767</label>
+			<label index="label_subcategory_igm" type="integer">177618238</label>
+			<label index="label_subcategory_quality" type="integer">91294027</label>
+			<label index="label_expandAll" type="integer">179809435</label>
+			<label index="label_collapseAll" type="integer">199759079</label>
+			<label index="label_setup_password" type="integer">228728944</label>
+			<label index="label_localconfwritten" type="integer">168363325</label>
+			<label index="label_subsectionsfound" type="integer">100773628</label>
+			<label index="label_deliverable_options" type="integer">256864370</label>
+			<label index="label_deliverable_methods" type="integer">34361781</label>
+			<label index="label_deliverable_checks" type="integer">257234177</label>
+			<label index="label_section" type="integer">119574104</label>
+			<label index="label_category_server" type="integer">162142979</label>
+			<label index="label_category_gfx" type="integer">221466108</label>
+			<label index="label_category_system" type="integer">172350102</label>
+			<label index="label_subcategory_connection" type="integer">204261128</label>
+			<label index="label_subcategory_cleanup" type="integer">207336407</label>
+			<label index="label_subcategory_directories" type="integer">257998049</label>
+			<label index="label_subcategory_general" type="integer">14366585</label>
+			<label index="label_subcategory_development" type="integer">53539997</label>
+			<label index="descr_database" type="integer">182451343</label>
+			<label index="descr_server" type="integer">149101444</label>
+			<label index="descr_system" type="integer">93805759</label>
+			<label index="msg_login_passwordhint" type="integer">238323239</label>
+			<label index="label_true" type="integer">235577377</label>
+			<label index="msg_setup_firstcall" type="integer">195779637</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="mlang_labels_tablabel">Install Tool</label>
+			<label index="mlang_tabs_tab">Install</label>
+			<label index="mlang_labels_tabdescr">Provides a simple link to the Install Tool. Notice the Install Tool (in typo3/install/) must be enabled.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="msg_error_occured">An error occured. Please see details:</label>
+			<label index="msg_error_nomodregister">No module register was found.</label>
+			<label index="msg_error_modulenotloaded">The requested module &quot;%s&quot; could not be loaded.</label>
+			<label index="msg_error_modulenotfound">The requested module &quot;%s&quot; was not found.</label>
+			<label index="msg_error_methodnotfound">The requested method &quot;%s&quot; was not found in module &quot;%s&quot;.</label>
+			<label index="msg_error_nomoduleconfig">No config file was found for module &quot;%s&quot;.</label>
+			<label index="label_false">Problem</label>
+			<label index="label_help">Help</label>
+			<label index="label_save">Save options</label>
+			<label index="label_category_database">Database</label>
+			<label index="label_subcategory_php">PHP</label>
+			<label index="label_subcategory_backend">Backend</label>
+			<label index="label_subcategory_frontend">Frontend</label>
+			<label index="label_subcategory_gd">GD</label>
+			<label index="label_subcategory_igm">Image- GrapicsMagick</label>
+			<label index="label_subcategory_quality">Quality</label>
+			<label index="label_expandAll">expand all</label>
+			<label index="label_collapseAll">collapse all</label>
+			<label index="label_setup_password">Enter the Install Tool Password</label>
+			<label index="label_localconfwritten">Configuration sucessfully written to %s</label>
+			<label index="label_subsectionsfound">The following subsections where found.</label>
+			<label index="label_deliverable_options">Settings</label>
+			<label index="label_deliverable_methods">Methods</label>
+			<label index="label_deliverable_checks">Checks</label>
+			<label index="label_section">You are in section:</label>
+			<label index="label_category_server">Server</label>
+			<label index="label_category_gfx">Graphics</label>
+			<label index="label_category_system">System</label>
+			<label index="label_subcategory_connection">Connection</label>
+			<label index="label_subcategory_cleanup">Clean Up</label>
+			<label index="label_subcategory_directories">Directories</label>
+			<label index="label_subcategory_general">General</label>
+			<label index="label_subcategory_development">Development</label>
+			<label index="descr_database">You are in section &quot;Database&quot;. Here you can change and check all settings concerning your database.</label>
+			<label index="descr_server">You are in section &quot;Server&quot;.</label>
+			<label index="descr_system">You are in section &quot;System&quot;.</label>
+			<label index="msg_login_passwordhint">The Install Tool Password is not the admin password of TYPO3.
+If you don't know the current password, you can set a new one by setting the value of $TYPO3_CONF_VARS['BE']['installToolPassword'] in typo3conf/localconf.php to the md5() hash value of the password you desire.
+			</label>
+			<label index="label_true">OK</label>
+			<label index="msg_setup_firstcall">SECURITY:
+Make sure to protect the Install Tool with another password than &quot;joh316&quot;.
+Better you remove the file &quot;ENABLE_INSTALL_TOOL&quot; in typo3conf/ directory.
+
+BTW: This Install Tool will only work if cookies are accepted by your web browser. If this dialog pops up over and over again you didn't enable cookies.
+			</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="mlang_labels_tablabel">Vezi configuraţia din fişierul localconf.php şi tables.php</label>
+			<label index="mlang_labels_tabdescr">Îţi permite să răsfoieşti valorile din şirul $TCA (tabel de configurare) şi $TZPO3_CONF_VARS. Nu puteţi modifica valorile, doar le puteţi verifica. &lt;br /&gt;&lt;em&gt;Accesul permis doar utilizatorilor administratori!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Configurare</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="mlang_labels_tablabel" type="integer">205342864</label>
+			<label index="mlang_labels_tabdescr" type="integer">172430134</label>
+			<label index="mlang_tabs_tab" type="integer">39122498</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

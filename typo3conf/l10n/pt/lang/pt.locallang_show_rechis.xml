@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="title">Mostrar registro de alterações</label>
+			<label index="tableUid">Tabela/Ident. de Utilizador</label>
+			<label index="time">Hora</label>
+			<label index="user">Utilizador</label>
+			<label index="changeCount">Alterações desde</label>
+			<label index="changes">Alterações ao registro</label>
+			<label index="return">Voltar</label>
+			<label index="returnLink">Clique aqui para voltar</label>
+			<label index="revertField">Restaurar valor anterior deste campo</label>
+			<label index="revertAllFields">Restaurar valores anteriores de todos os campos abaixo</label>
+			<label index="externalChange">Mudança externa intermediária!</label>
+			<label index="sumUpChanges">Acumular atualizações até este ponto</label>
+			<label index="historyList">Mostrar histórico</label>
+			<label index="users">Utilizadores</label>
+			<label index="similar">Este estado é similar aos valores atuais do registro!</label>
+			<label index="prev">Estado anterior</label>
+			<label index="next">Próximo estado</label>
+			<label index="saveState">Proteger este estado de ser apagado</label>
+			<label index="fieldName">Nome do campo</label>
+			<label index="oldValue">Valor anterior</label>
+			<label index="newValue">Novo valor</label>
+			<label index="currentValue">Valor actual</label>
+			<label index="differenceMsg">Na coluna de diferenças &lt;span class=&quot;diff-g&quot;&gt;texto em verde&lt;/span&gt; são novas alterações &lt;span class=&quot;diff-r&quot;&gt;textos em vermelho&lt;/span&gt; são os valores antigos que foram removidos.</label>
+			<label index="difference">Diferença</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="title" type="integer">167696329</label>
+			<label index="tableUid" type="integer">80016220</label>
+			<label index="time" type="integer">175559919</label>
+			<label index="user" type="integer">150585321</label>
+			<label index="changeCount" type="integer">61168704</label>
+			<label index="changes" type="integer">192350538</label>
+			<label index="return" type="integer">159972723</label>
+			<label index="returnLink" type="integer">224991832</label>
+			<label index="revertField" type="integer">208005052</label>
+			<label index="revertAllFields" type="integer">223781462</label>
+			<label index="externalChange" type="integer">14890408</label>
+			<label index="sumUpChanges" type="integer">257320224</label>
+			<label index="historyList" type="integer">57652991</label>
+			<label index="users" type="integer">261795423</label>
+			<label index="similar" type="integer">150477168</label>
+			<label index="prev" type="integer">245797794</label>
+			<label index="next" type="integer">31528895</label>
+			<label index="saveState" type="integer">194350269</label>
+			<label index="fieldName" type="integer">223557556</label>
+			<label index="oldValue" type="integer">24869658</label>
+			<label index="newValue" type="integer">58389786</label>
+			<label index="currentValue" type="integer">15847204</label>
+			<label index="differenceMsg" type="integer">95752301</label>
+			<label index="difference" type="integer">42914476</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

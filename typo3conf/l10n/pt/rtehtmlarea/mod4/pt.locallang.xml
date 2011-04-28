@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="folderTree">Árvore da pasta</label>
+			<label index="uploadImage">Enviar imagem (upload)</label>
+			<label index="path">Local</label>
+			<label index="images">Imagens</label>
+			<label index="magicImage_msg">No modo &quot;Mágico&quot; você pode selecionar qualquer tipo de imagem com quaisquer dimensões. A imagem é automaticamente convertida para um formato de imagem de internet and qualquer ajuste que você faça no tamanho da imagem é pós-processado para otimizar o tamanho e a qualidade.</label>
+			<label index="plainImage_msg">No modo &quot;Simples&quot; você pode apenas inserir imagens de formato comum na internet (JPG, GIF e PNG) até 640x480 pontos. Este método é destinado à imagens já otimizadas para a Internet.</label>
+			<label index="width">Largura</label>
+			<label index="height">Altura</label>
+			<label index="border">Borda</label>
+			<label index="margin_tb">Margem superior/inferior</label>
+			<label index="margin_lr">Margem esquerda/direita</label>
+			<label index="title">Título</label>
+			<label index="update">Atualização</label>
+			<label index="magicImage">Nova imagem (modo Mágico)</label>
+			<label index="plainImage">Nova imagem (modo Simples)</label>
+			<label index="dragDropImage">Arrastar e soltar</label>
+			<label index="currentImage">Imagem actual</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

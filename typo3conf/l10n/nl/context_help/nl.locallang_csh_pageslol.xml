@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Representeert een alternatieve taal voor de pagina.</label>
+			<label index=".details">Deze records bevatten velden die overeenkomen met de pagina records, om precies te zijn die velden die nodig zijn om een vertaalde versie van je pagina beschikbaar te maken.
+Creëer slecht ÉÉN Alternative Page Language record voor een specifieke taal voor elke pagina. Wanneer er meerdere records zijn is het onzeker welke wordt gebruikt als de pagina wordt weergegeven.
+
+Voordat je een Alternative Page Language record aan kunt maken, moet je een 'hoofd' taal beschikbaar stellen in de root van de website (&quot;Website Language&quot;).
+Het TypoScript template moet ook geconfigureerd worden voor het gebruik van andere talen.
+
+Technisch is het zo dat wanneer een alternatieve taal wordt bekeken, de inhoud van het Alternative Page Language record over de actuele page records wordt heen gelegd en daarmee de inhoud van de pagina in de standaard taal vervangt.</label>
+			<label index="hidden.description">Gebruik deze optie om de alternatieve taal voor deze pagina tijdelijk uit te schakelen.</label>
+			<label index="hidden.details">Het gebruik van deze optie is praktisch in de fase waarin een extra taal wordt toegevoegd. Wanneer ingeschakeld, wordt de alternatieve inhoud niet weergegeven, tenzij je - als ingelogde backend gebruiker - dit mogelijk maakt via de optie Admin Panel&gt;Preview&gt;Show hidden records</label>
+			<label index="starttime.description">De 'Start' tijd bepaalt de datum wanneer de alternatieve taal beschikbaar komt.</label>
+			<label index="endtime.description">De 'Stop' tijd bepaald de datum wanneer de alternatieve taal niet meer beschikbaar is.</label>
+			<label index="title.description">Voer de titel van de alternatieve taal in.</label>
+			<label index="subtitle.description">Voor een ondertitel in voor de alternatieve taal.</label>
+			<label index="keywords.description">Voer enkele sleutelwoorden in voor de alternatieve taal.</label>
+			<label index="description.description">Voer een beschrijving in voor de alternatieve taal.</label>
+			<label index="abstract.description">Voer een samenvatting in van de alternatieve taal</label>
+			<label index="author.description">Voer de auteur van de alternatieve taal in</label>
+			<label index="author_email.description">Voer het email adres in van de auteur van de alternatieve taal.</label>
+			<label index="media.description">Voer de media files in van de alternatieve taal</label>
+			<label index="sys_language_uid.description">Selecteer de alternatieve taal die door dit record wordt gerepresenteerd.</label>
+			<label index="nav_title.description">Voer een optionele navigatietitel in van de alternatieve taal.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">230200392</label>
+			<label index=".details" type="integer">27958106</label>
+			<label index="hidden.description" type="integer">148737156</label>
+			<label index="hidden.details" type="integer">56904419</label>
+			<label index="starttime.description" type="integer">162646530</label>
+			<label index="endtime.description" type="integer">213075354</label>
+			<label index="title.description" type="integer">168754082</label>
+			<label index="subtitle.description" type="integer">249795538</label>
+			<label index="keywords.description" type="integer">81696492</label>
+			<label index="description.description" type="integer">137311270</label>
+			<label index="abstract.description" type="integer">114774738</label>
+			<label index="author.description" type="integer">135693417</label>
+			<label index="author_email.description" type="integer">230171675</label>
+			<label index="media.description" type="integer">117106707</label>
+			<label index="sys_language_uid.description" type="integer">76275608</label>
+			<label index="nav_title.description" type="integer">132510765</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Represents an alternative language for the page.</label>
+			<label index=".details">These records contains fields very similar to the Page records, exactly those fields which should be translated to another language in case you want a localized version of the page.
+Create only ONE Alternative Page Language record of a specific language in each page. Having more than one record will leave it uncertain which of them is used when the page is displayed.
+
+Before you can create Alternative Page Language records you should create a 'master' language to be available in the root of the website (&quot;Website Language&quot;)
+The TypoScript template must be configured to allow other languages as well.
+
+Technically when an alternative language is being viewed, the content of the Alternative Page Language record is simply overlaid on the actual page records thus substituting the content of the fields in the default language.</label>
+			<label index="hidden.description">Use this to temporarily disable the alternative language overlay for this page.</label>
+			<label index="hidden.details">Setting this option is practical in the phase of adding the extra language. When it is set, the alternative content will not be displayed unless you - as an logged in backend user - enableds the Admin Panel&gt;Preview&gt;Show hidden records option.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the alternative language will be available online.</label>
+			<label index="endtime.description">The 'End' time determines the date from which the alternative language will be available online.</label>
+			<label index="title.description">Enter the title of the alternative language.</label>
+			<label index="subtitle.description">Enter the subtitle of the alternative language.</label>
+			<label index="keywords.description">Enter the keywords of the alternative language.</label>
+			<label index="description.description">Enter the description of the alternative language.</label>
+			<label index="abstract.description">Enter the abstract of the alternative language.</label>
+			<label index="author.description">Enter the author of the alternative language.</label>
+			<label index="author_email.description">Enter the author email address of the alternative language.</label>
+			<label index="media.description">Enter the media files of the alternative language.</label>
+			<label index="sys_language_uid.description">Select the Alternative Language represented by this record.</label>
+			<label index="nav_title.description">Enter optional navigation title of the alternative language.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

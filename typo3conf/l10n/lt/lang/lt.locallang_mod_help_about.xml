@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="welcome">TYPO3 Profesionali Web Turinio Valdymo Sistema</label>
+			<label index="minor">TYPO3 yra lanksti ir profesionali Atviro Kodo Web-TVS sukurta PHP4 ir MySQL pagrindu.&lt;br /&gt;&lt;br /&gt;TYPO3 yra &lt;b&gt;laisvai platinama&lt;/b&gt; po &lt;a href=&quot;http://www.typo3.com/?price_uk&quot; target=&quot;_blank&quot;&gt;TYPO3 licensija (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">Apie TYPO3</label>
+			<label index="mlang_labels_tabdescr">Parodo pagrindinius faktus apie TYPO3 programa, versija ir licenzijavima.</label>
+			<label index="mlang_tabs_tab">Apie</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">259198789</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

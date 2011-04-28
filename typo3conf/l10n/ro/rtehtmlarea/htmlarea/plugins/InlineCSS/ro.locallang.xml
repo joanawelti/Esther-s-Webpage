@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="Default">Implicit</label>
+			<label index="Undefined">Nedefinit</label>
+			<label index="InlineCSSStyleTooltip">Aplică stil la textul selectat</label>
+			<label index="InlineCSS-class-Tooltip">Aplică stil la textul selectat</label>
+			<label index="You have to select some text">Trebuie să selectaţi ceva text</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="Default" type="integer">128029197</label>
+			<label index="Undefined" type="integer">247528449</label>
+			<label index="InlineCSSStyleTooltip" type="integer">154600997</label>
+			<label index="InlineCSS-class-Tooltip" type="integer">154600997</label>
+			<label index="You have to select some text" type="integer">71928577</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index="Default">Default</label>
+			<label index="Undefined">Undefined</label>
+			<label index="InlineCSSStyleTooltip">Apply style to the selected text</label>
+			<label index="InlineCSS-class-Tooltip">Apply style to the selected text</label>
+			<label index="You have to select some text">You have to select some text</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

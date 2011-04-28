@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="Path">Chemin</label>
+			<label index="TEXT_MODE">Vous êtes en mode source HTML. Utilisez le bouton [&lt;&gt;] pour revenir au mode WYSIWIG.</label>
+			<label index="ActiveX-required">Pour charger l'éditeur dans Internet Explorer, l'exécution de contrôles ActiveX doit être permise.</label>
+			<label index="HTML-document-not-well-formed">Le document HTML n'est pas bien-formé.</label>
+			<label index="Moz-Clipboard">Pour des raisons de sécurité, les scripts sans privilèges ne peuvent utiliser Couper/Copier/Coller par programmation. Cliquez sur OK pour voir la note technique de mozilla.org qui vous indiquera comment accorder au script l'accès au presse-papiers.</label>
+			<label index="Moz-Extension">Pour des raisons de sécurité, les applications sans privilèges ne peuvent accéder au presse-papiers. Cliquez sur OK pour installer une composante qui permettra aux applications de ce site d'accéder au presse-papiers et de réaliser les opérations couper, copier et coller.</label>
+			<label index="Moz-Extension-Success">L'installation a réussi. Veuillez quitter et redémarrer votre fureteur pour que les changements puissent prendre effet.</label>
+			<label index="Moz-Extension-Failure">Désolé, l'installation a échoué.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">L'installation ne peut pas être effectuée. Veuillez modifier les préférences de votre fureteur de façon à permettre l'installation de logiciel en provenance de ce site.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Pour des raisons de sécurité, les applications sans privilèges ne peuvent accéder au presse-papiers. Cliquez sur OK pour installer une composante qui vous permettra de spécifier les sites ou pages qui pourront accéder au presse-papiers et réaliser les opérations couper, copier et coller.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">L'installation ne peut pas être effectuée. Veuillez modifier les préférences de votre fureteur de façon à permettre l'installation de logiciel en provenance de http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">L'installation a réussi. Veuillez quitter et redémarrer votre fureteur pour que les changements puissent prendre effet. Utilisez ensuite l'option AllowClipboard Helper du menu Outils pour permettre aux sites de votre choix d'utiliser le presse-papiers.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="shortcut_edit">Editeaza</label>
+			<label index="shortcut_editID">Editeaza identificatorul paginii</label>
+			<label index="shortcut_save">Actualizare titlu legatura</label>
+			<label index="shortcut_saveClose">Actualizare si inchidere editor</label>
+			<label index="shortcut_close">Inchide legatura editor</label>
+			<label index="shortcut_delete">Muta legatura</label>
+			<label index="shortcut_loadEdit">Incarca pagina</label>
+			<label index="shortcut_notEditable">Nu a fost gasita nici o pagina editabila!</label>
+			<label index="shortcut_group">Grup</label>
+			<label index="shortcut_GLOBAL">GLOBAL</label>
+			<label index="shortcut_ALL">Toate</label>
+			<label index="shortcut_onlyAdmin">Nu poti edita o legatura distribuita!</label>
+			<label index="shortcut_selSC">Selecteaza legatura</label>
+			<label index="shortcut_delAllInCat">Sterg toate legaturile din acest grup?</label>
+			<label index="overwriteExistingFiles">Rescriere fisiere existente</label>
+			<label index="selectPosition">Selecteaza o pozitie pentru noua pagina</label>
+			<label index="goBack">Inapoi</label>
+			<label index="createNewPage">Creeaza o noua pagina</label>
+			<label index="clickForWizard">Apasa aici pentru procedura (magician)!</label>
+			<label index="insertNewPageHere">Insereaza noua pagina aici</label>
+			<label index="insertNewRecordHere">Insereaza noile date aici</label>
+			<label index="movePageToHere">Muta pagina in aceasta pozitie</label>
+			<label index="moveElement">Muta elementul</label>
+			<label index="selectPositionOfElement">Selecteaza pozitia elementului</label>
+			<label index="movingElement">Muta elementul</label>
+			<label index="makeCopy">Creeaza copie in loc de mutarea elementului</label>
+			<label index="newContentElement">Continut nou</label>
+			<label index="1_selectType">1: Selecteaza tipul continutului nou:</label>
+			<label index="2_selectPosition">2: Selecteaza pozitia:</label>
+			<label index="CM_editAccess">Setari de vizibilitate</label>
+			<label index="CM_history">Istorie/Anuleaza</label>
+			<label index="CM_perms">Acces</label>
+			<label index="CM_moveWizard">Muta element</label>
+			<label index="CM_moveWizard_page">Muta pagina</label>
+			<label index="CM_newWizard">Procedura 'Creaza Nou'</label>
+			<label index="CM_editPageHeader">Editeaza header-ul paginii</label>
+			<label index="CM_db_list">Web&gt;Lista module</label>
+			<label index="noEditPage">Aţi cerut să editaţi pagina &quot;%s&quot;, dar acest lucru nu este posibil. Se încarcă Backend, ca de obicei.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

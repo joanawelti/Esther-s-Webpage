@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">在 TYPO3 中一個「網頁」記錄通常代表一個網頁。所有網頁都有一個編號，透過這個編號網頁可以被連結和參照。「網頁」記錄本身不含有網頁的內容 - 要達成這目的你應該建立「網頁內容」記錄。</label>
+			<label index=".details">視乎網頁的「種類」, 它也可以代表在 TYPO3 中一個普通的資料庫元件儲存。在這個情況下，它不須是一個可觀看的網頁，而只是網頁樹圖中內在作為儲存物件（使用者和訂閱等）的地方。
+網頁資料表是 TYPO3 的中樞。所有可以經 TYPO3 主模組修改的的記錄一定「屬於」一個網頁。就好像你的電腦硬碟中的資料夾和檔案一樣。
+網頁被組織成一個「樹圖」，它不單是一個非常方便的組織，也最有效反映你應該如何組織你網站的網頁。因此，通常你會發現網頁樹圖反映網站身的選單導向。
+技術上，所有的資料庫元件都有一個「UID」欄，它是獨一的「認證」編號。除此之外，它們一定有一個「PID」欄，它含有他們所屬的網頁的編號。假如「PID」欄是零，記錄就是在被稱為「根」中。只有管理員被許可存取根，而且資料表記錄一定要設定為屬於一個網頁或位於根中。</label>
+			<label index=".image_descr">網頁中最基本的欄位是隱藏記號, 網頁的類型(doktype)和網頁名稱。其他的欄位也供使用, 但大多由延伸工具加上。
+TYPO3中網頁在網頁樹圖中被排列好。在之前的的畫面所見的網頁是此樹圖的「導入」頁。如你所見它屬於網頁樹圖的根頁及有數個「子」頁在它之下。</label>
+			<label index="title.description">輸入網頁或資料夾的名稱</label>
+			<label index="title.details">網頁名稱用作系統中可見的表達，例如在網頁樹圖中。網頁名稱也預設作為網頁中的選單連結。你可以更改一個網頁的名稱而不影響對網頁的連結，因為網頁是以它們的「pid」為記認而非他們的名稱。你可以在網頁名稱中用任何的字元。</label>
+			<label index="title.image_descr">在網頁標題欄位旁有細小的「必須」圖示, 你必須填上一個網頁標題, 否則你不能儲存新網頁</label>
+			<label index="doktype.description">選擇網頁種類。這影響網頁是一個可觀看的網頁或是作為其他用途。</label>
+			<label index="doktype.details">「標準」類型代表一個網頁。
+「系統資料夾」代表一個非網頁 - 一個資料夾作為你選擇的記錄的儲存。
+「回收筒」是一個垃圾箱。
+
+&lt;B&gt;留意：&lt;/B&gt;每一類通常都附有一個特定的圖示。同時對某個用家可能不能使用某些種類（因此你可能經歷到你不能使用某些選項）。最後每一個類型被設定來容許只有某些資料表記錄存於網頁中（系統資料夾會容許任何記錄，假如你有任何問題）。</label>
+			<label index="doktype.image_descr">此網頁樹圖的一截, 在畫面的上部顯示普通的網頁, 它們通常有黃色的圖示。你也可以看到一個垃圾筒網頁。任何在垃圾筒中的記錄應該都當作為廢物, 而因此它們都不會顯示於網站之上, 最後, 那灰色的資料夾是「系統資料夾」。他們不能被視作用來儲存資料庫記錄等儲存網頁。</label>
+			<label index="TSconfig.description">網頁 TypoScript 設定。</label>
+			<label index="TSconfig.details">基本上　「TypoScript」是一個在樹圖中輸入數值的概念。特別是關係到為 TYPO3 網站建立樣版時。
+然而相同的原則適用於輸入數值系統以設定與後勤系統中不同的功能, 模組的功能, 多功能文字編輯器等。
+一個網頁的最終「TSconfig」實在是累積了從網頁樹圖的根頁至現有網頁的所有「TSconfig」數值。而因此所有副頁都被影響。你可以在「Web&gt;Info」（你需要安裝 &quot;info_pagetsconfig&quot; 延伸工具）模組中的「Page TSconfig」選單中到一個網頁的 「TSconfig」副本。</label>
+			<label index="TSconfig.syntax">基本的 TypoScript 語法 &lt;em&gt;沒有&lt;/em&gt;「條件」和「常值」。
+
+我們建議只有管理員級使用者才被許可存取這個欄目。</label>
+			<label index="TSconfig.image_descr">網頁TSconfig設定多功能文字編輯器在這網頁樹圖分枝中的行為。網頁TSconfig出色之處是設定是特定於指定網頁及子頁, 因為設定是在網頁樹圖中傳承下去</label>
+			<label index="php_tree_stop.description">停止選單和表列中的網頁樹圖的傳輸</label>
+			<label index="php_tree_stop.details">假如你設定這個標記, 在導航框內的網頁樹圖就不能擴展該分枝。你會見到一個紅色的「+」顯示樹圖到此為止, 因為標記已被設定。
+
+重點是用此標記防止下降進入一個可能有不尋常數量(數以佰計)網頁的分枝。
+
+你可以點擊紅色的「+」, 而網頁會成為在導航框中暫時的掛載點。</label>
+			<label index="php_tree_stop.image_descr">這裡「停止網頁樹圖」標記被設定。這是一個在「TSconfig」下面的調色版欄位。
+在網頁樹圖中設定是以紅色的「+」表示, 而它是不能擴展樹圖的這锢分枝。
+假如你點擊那紅紅色的「+」, 你會得出網頁暫時掛載於導航框內。</label>
+			<label index="storage_pid.description">一個「一般記錄儲存網頁」代表一個共同的網頁用作儲存網站的一般資料庫元件。這可以是樣版﹑前台使用者等, 這些都不關於某一網頁, 而是與整個網站有關。</label>
+			<label index="storage_pid.details">建議應用程式使用「一般記錄儲存網頁」, 以致他們預設在一般儲存資料夾中找尋記錄, 並且要作特別設定去搜尋其他地方。
+
+一個「一般記錄儲存網頁」是「系統資料」的一種。</label>
+			<label index="editlock.description">假如設定, 非「管理員」使用者不能修改網頁標題或任可頁(除了副頁)中的記錄。他們亦不能建立新記錄或網頁。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index=".details" type="integer">266524571</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="TSconfig.details" type="integer">216590510</label>
+			<label index="TSconfig.syntax" type="integer">6236841</label>
+			<label index="title.details" type="integer">92653950</label>
+			<label index="title.image_descr" type="integer">103204111</label>
+			<label index="storage_pid.description" type="integer">154894460</label>
+			<label index="storage_pid.details" type="integer">263556132</label>
+			<label index="editlock.description" type="integer">54611846</label>
+			<label index=".image_descr" type="integer">154282212</label>
+			<label index="doktype.image_descr" type="integer">177111079</label>
+			<label index="TSconfig.image_descr" type="integer">213516592</label>
+			<label index="php_tree_stop.description" type="integer">87402840</label>
+			<label index="php_tree_stop.details" type="integer">49793750</label>
+			<label index="php_tree_stop.image_descr" type="integer">38957251</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index=".details">The pages table is the very backbone in TYPO3. All records editable by the mainstream modules in TYPO3 must 'belong' to a page. It's exactly like files and folders on your computers harddrive.
+
+&lt;b&gt;The page tree&lt;/b&gt;
+The pages are organized in a tree structure which is not only a very handy way of organizing in general but also a optimal reflection of how you should organize the pages on your website. And thus you'll normally find that the page tree is a reflection of the website navigation itself.
+
+&lt;p&gt;uid, pid and the pagetree root&lt;/b&gt;
+Technically all database elements has a field 'uid' which is a unique identification number. Further they must have a field 'pid' which holds the uid-number of the page (page id) to which they belong. If the 'pid' field is zero the record is found in the so called 'root'. Only administrators are allowed access to the root and furthermore table records must be configured to either belonging to a page or being found in the root.
+
+&lt;b&gt;Storage of database records&lt;/b&gt;
+Depending on the 'Type' of the page, it may also represent a general storage for database elements in TYPO3. In that case it is not necessarily available as a webpage but only internally in the page tree as a place to store items such as users, subscriptions etc. Such pages are typically of the type &quot;SysFolder&quot;.</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="TSconfig.details">Basically 'TypoScript' is a concept for entering values in a tree-structure. This is known especially in relation to creating templates for TYPO3 websites.
+However the same principle for entering the hierarchy of values is used here to configure various features in relation to the backend, functions in modules, the Rich Text Editor etc.
+The resulting 'TSconfig' for a page is actually an accumulation of all 'TSconfig' values from the root of the page tree and outwards to the current page. And thus all subpages are affected as well. A print of the page TSconfig is available from the 'Page TSconfig' menu in the 'Web&gt;Info' module (requires the extension &quot;info_pagetsconfig&quot; to be installed).</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+			<label index="title.details">The page title is used to represent the page visually in the system, for example in the page tree. Also the page title is used by default for navigation links on webpages.
+You can always change a page title without affecting links to a page. This is because pages are always referenced by their &quot;uid&quot; number, not their title.
+You can use any characters in the page title.</label>
+			<label index="title.image_descr">The field for the page title has a little &quot;required&quot; icon next to it; You must supply a page title and you cannot save the new page unless you enter a title for it.</label>
+			<label index="storage_pid.description">A General Storage Folder is meant to be a global page for storage of general database elements of a website. That could be for templates, frontend users etc. which does not really relate to a single page but more to the whole site.</label>
+			<label index="storage_pid.details">It is recommended that applications support &quot;General Storage pages&quot; so that they look for records in the sites general storage folder by default and that they should be specifically configured to look elsewhere.
+
+A General Record Storage Page is typically a page of the &quot;SysFolder&quot; type.</label>
+			<label index="editlock.description">If set, non-Admin users cannot edit the page header or any records on the page (except subpages). They cannot create new records or pages on the page either.</label>
+			<label index=".image_descr">The most basic fields of a page is the hidden flag, the type of page (&quot;doktype&quot;) and the page title. Other fields are also available but typically added by extensions in TYPO3.
+Pages are arranged in a page tree in TYPO3. The page from the editing form in the previous screenshot was the &quot;Intro&quot; page from this page tree. As you can see it belongs in the root of the page tree and has a number of &quot;child&quot; pages under it.</label>
+			<label index="doktype.image_descr">This snippet of the page tree shows regular pages which usually have the yellow icons in top of this screenshot. You also see a Garbage bin page. Any records stored in a garbage bin should be regarded as waste and therefore not shown on the website etc. Finally the gray folders are &quot;SysFolders&quot;. They cannot be viewed as regular webpages but serve as storage pages for database records of some kind.</label>
+			<label index="TSconfig.image_descr">Page TSconfig customizing the Rich Text Editors behaviour in this branch of the page tree. The cool thing about Page TSconfig is that the configuration is specific for that page and subpages since the configuration settings are inherited down the page tree.</label>
+			<label index="php_tree_stop.description">Stops backend rendering of the page tree in navigation and lists.</label>
+			<label index="php_tree_stop.details">If you set this flag the page tree in the navigation frame will not expand that branch. Rather you will see a red &quot;+&quot; which indicates that the tree stopped here due to this flag being set.
+
+The point with this flag is to prevent descendence into a branch that might have an unusual amount of subpages (hundreds).
+
+You can click the red &quot;+&quot; and the page will become a temporary mount point in the navigation frame.</label>
+			<label index="php_tree_stop.image_descr">Here the &quot;Stop page tree&quot; flag is set. It is a palette field under &quot;TSconfig&quot;.
+In the pagetree the setting is reflected with the red &quot;+&quot; and it is not possible to expand that branch of the tree.
+If you click the red &quot;+&quot; you will get the page mounted temporarily in the navigation frame.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,12 @@
+# Counter fomatieren
+plugin.tx_cscounter_pi1 {
+   minDigits = 5
+   id = 1
+   noReload = 1
+   textOnly = 1
+   wrap = <font size=1 face="verdana,arial,helvetica" color=#666666>Besucher: |</font>
+   #wrap = Besucher: | 
+   showSince = 0
+   wrapSince = <br>seit |
+   formatSince = %d.%m.%Y
+}

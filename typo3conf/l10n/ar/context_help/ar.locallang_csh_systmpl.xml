@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">سجل نموذج منظومة تيبو الخاصة.</label>
+			<label index=".details">تعد سجلات ‘النموذج‘ من المكونات الحيويةالمستخدمة في ضبط تصميم صفحات الوب.ليست القضية (تقريبا)هي كيف تحب أن تنشئ صفحة الوب الخاصة بك ‘ولكن لابد و أن تكون هذه الصفحة مبتدئة بسجل ’النموذج’ الموضوع في جذر شجرة الصفحة الخاصة بالموقع.وبصفة أساسية لإنشاء سجل‘نموذج‘إدخل عنوان وتأكدمن مراجعة الثوابت الواضحة ،التنظيم و خط الجذر.ثم قم بعملة  الضبط لمخطوطة تيبو الخاصة في كل من الخانة المعدة و التي قمنت أنت بإنشاءها.
+وانه من الأهمية قراءة كيف يمكنك عمل كل ذلك من خلال الوثائق المدرجة بالأسفل!كما عليك بأن تتأكد من إستخدام الوب&gt;الخاص بوحدة النوذج لأداء كل العمليات الخاصة بالنماذج.فهي وسائل خاصة تساعدك لعى عمل ذلك.</label>
+			<label index=".image_descr">سجلات النموذج المحتويه على ثوابت و إعداد الكود.تحتوي وحدة Web&gt;Template على الأدوات التى تساعدك على تحرير و تصحيح أبنية مخطوطة تيبو الخاصة.</label>
+			<label index="hidden.description">يؤدي إخفاء النماذج إلى توقف نشاط سجل النموذج.</label>
+			<label index="hidden.details">وإذا ما كان سجل النموذج هو أول سجل مخفى في الصفحة فسيظهر الصفحة السجل الثاني عوضا عنه.</label>
+			<label index="starttime.description">استخدم و قت البداية لتظهر النموذج على صفحة ما.</label>
+			<label index="endtime.description">استخدم وقت النهاية لإلغاء لانموذج من صفحة ما.</label>
+			<label index="title.description">ييعتبر عنوان نموذج السجل شارة داخلية فقط لا ـاثير لها على خرج الجهة الأمامية.</label>
+			<label index="sitetitle.description">عنوان صفحة الوب. ينتقل هذا العنوان تلقائياٍ ليبتدء كل عناوين الصفحة الموجودة في &lt;title&gt; tag في نموذج الصفحة الأمايمة</label>
+			<label index="constants.description">ثوابت مخطوطة تيبو الخاصة.</label>
+			<label index="config.description">كود تنظيم مخطوطة تيبو الخاصة.</label>
+			<label index="config.details">إقرا مزيد عن نماذج تيبو الخاصة والموجودة في TSref, مخطوطة تيبو الخاصة و إستعد للبدء.</label>
+			<label index="resources.description">ملفات المصدر الخاصة بالنموذج. على سبيل المثال a logo, a TTF-font etc.</label>
+			<label index="resources.details">يمكن الرجوع إلى ملفات المصدر داخل كود نموذج تيبو بواسطة [filename]*.[ext]والذي  يتميز بأن المرجع داخل مخطوطة تيبو لا يتجزء  إذا ما قمت بنسخ أو بإرسال إحدى سجلات النموذج المحتوي على مصادر منتهية بأسماء اخرى جديدة.</label>
+			<label index="clear.description">تمسح مؤشرات الراية موروث كود مخطوطة تيبو من النماذج السابقة والموجودة في خط الجذر.
+حيث يوجد راية للثوابت و راية لكود الأعداد.</label>
+			<label index="clear.details">وبداخل وحدة Web &gt; Template / Template Analyserيمكن التعرف إلي أي مدى تورث الثوابت و كود الإعداد داخل شجرة النوذج.</label>
+			<label index="root.description">التعريفات التي تبين أن النموذج يعرض جذرا لصفحة الوب.</label>
+			<label index="includeStaticAfterBasedOn.description">إذا ما تمت عملية الضبط،ستتم إضافة النماذج الإستاتيكة عقب نماذج &quot;based-on&quot;.حيث تقوم بتبديل أمر التضمينلهذهالمصادر الخارجية لمخطوطة تيبو الخاصة.</label>
+			<label index="includeStaticAfterBasedOn.details">وتمكنك وحدة Web &gt; Template / Template Analyser من عرض أمر التضمين لجميع مصادر مخطوطة تيبو التي يستخدمها النموذج.</label>
+			<label index="include_static.description">سجلات النموذج الإستاتيكي المقرر إدراجعا</label>
+			<label index="include_static_file.description">ملفات النموذج الإستاتيكي المقرر إدراجعا</label>
+			<label index="include_static_file.details">تم تسجيل ملفات النموذج الإستاتيكي بإمتدادات مخالفة لسجلات النموذج الإستاتيكي القادمة من جدول قاعدة المبيانات الإستاتيكية تحت اسم،&quot;static_template&quot;.</label>
+			<label index="basedOn.description">سجلات نموذج أخرى مدرجة مثل &quot;static_template&quot;.</label>
+			<label index="static_file_mode.description">تعريف نمط التضمين الخاص بملفات النموذج الإستاتيكية.</label>
+			<label index="static_file_mode.details">حتى لا يساروك الشك حول أمر التضمين ، تأكد من انك تستخدم Template / Template Analyser في عرض الأمر.</label>
+			<label index="nextLevel.description">تعريفات سجل النموذج لتفعيل مستوى واحد لهذا الفرع خارج شجرة الصفحة. و يمكن أن تستخدم ايضاً سجل نموذج آخر للصفحات العامة للوب عندما تحتوي على نماذج خاصة للصفحة الأمامية.</label>
+			<label index="description.description">إدخل توصيفا للنموذج إن احببت.</label>
+			<label index="editorcfg.description">محرر التوصيف لإمتداد محرر ورقة الإسلوب.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description" type="integer">48577171</label>
+			<label index=".details" type="integer">31901980</label>
+			<label index="hidden.description" type="integer">165916776</label>
+			<label index="hidden.details" type="integer">198600233</label>
+			<label index="starttime.description" type="integer">233646736</label>
+			<label index="endtime.description" type="integer">23552607</label>
+			<label index="title.description" type="integer">261538508</label>
+			<label index="constants.description" type="integer">254401529</label>
+			<label index="config.description" type="integer">214015943</label>
+			<label index="sitetitle.description" type="integer">238031316</label>
+			<label index="config.details" type="integer">58707367</label>
+			<label index="resources.description" type="integer">99516465</label>
+			<label index="resources.details" type="integer">110839343</label>
+			<label index="clear.description" type="integer">151164366</label>
+			<label index="clear.details" type="integer">137952541</label>
+			<label index="includeStaticAfterBasedOn.details" type="integer">92376705</label>
+			<label index="include_static.description" type="integer">19421470</label>
+			<label index="include_static_file.description" type="integer">199479612</label>
+			<label index="include_static_file.details" type="integer">261693166</label>
+			<label index="basedOn.description" type="double">11395224</label>
+			<label index="static_file_mode.description" type="integer">236592272</label>
+			<label index="static_file_mode.details" type="integer">17143581</label>
+			<label index="nextLevel.description" type="integer">222981704</label>
+			<label index="description.description" type="integer">115472033</label>
+			<label index="editorcfg.description" type="integer">181379116</label>
+			<label index=".image_descr" type="integer">34751722</label>
+			<label index="includeStaticAfterBasedOn.description" type="integer">63212350</label>
+			<label index="root.description" type="integer">49046128</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">TypoScript template record.</label>
+			<label index=".details">The 'Template' records are the vital components used to set the design of the webpages. No matter how (almost) you would like to build your website, it must be initiated by a 'Template' record placed in the root of the page tree of the site.
+Basically, create a 'Template' record, enter a title and make sure to check of Clear constants, setup and Rootline. Then enter some TypoScript configuration in the Setup field and you're set.
+It's very important to read how to do all this in the documents listed below! Also make sure you use the Web&gt;Template module to do all the working with templates. It's a specialized tool to help you with this.</label>
+			<label index="hidden.description">Hiding the template will deactivate the template record.</label>
+			<label index="hidden.details">If the Template Record was the first record on a page hiding it will expose the second record on the page instead.</label>
+			<label index="starttime.description">Start time. Use this to enable a template on a certain date.</label>
+			<label index="endtime.description">End time. Use this to disable a template on a certain date.</label>
+			<label index="title.description">The title of the template record is only an internal label and does not have any effect on the output in the frontend.</label>
+			<label index="constants.description">TypoScript Constants.</label>
+			<label index="config.description">TypoScript Setup code</label>
+			<label index="sitetitle.description">Website title. Typically this will automatically be prefixed all page titles in the &lt;title&gt; tag of the frontend pages.</label>
+			<label index="config.details">Read more about TypoScript Templates in TSref, TypoScript by Example and Getting Started.</label>
+			<label index="resources.description">Resource files for the template. For example a logo, a TTF-font etc.</label>
+			<label index="resources.details">Resource files can be referenced in TypoScript Template code by [filename]*.[ext] and has the advantage that the reference from TypoScript is not broken if you copy or export a Template Record where the resources ends up with new names.</label>
+			<label index="clear.description">Flags that will clear the inheritance of TypoScript code from former templates in the root line. There is a flag for Constants and one for Setup code.</label>
+			<label index="clear.details">In the Web &gt; Template / Template Analyser module you can see how far back in the template tree that constants and setup code is inherited.</label>
+			<label index="includeStaticAfterBasedOn.details">The Web &gt; Template / Template Analyser module allows you to view the order of inclusion of all TypoScript sources your template uses.</label>
+			<label index="include_static.description">Static Template records to include.</label>
+			<label index="include_static_file.description">Static Template files to include.</label>
+			<label index="include_static_file.details">Static template files are registered by extensions contrary to Static Template records which come from the static database table, &quot;static_template&quot;.</label>
+			<label index="basedOn.description">Other Template Records that are included like &quot;static templates&quot;.</label>
+			<label index="static_file_mode.description">Define the mode of inclusion of static template files.</label>
+			<label index="static_file_mode.details">If you are in doubt about the inclusion order, make sure to use the Web &gt; Template / Template Analyser to view the order.</label>
+			<label index="nextLevel.description">Defines a template record to make active one level out in the page tree of this branch. This can be used to define another template record for the general website while having a special template for the frontpage.</label>
+			<label index="description.description">Enter a description of the template if you like.</label>
+			<label index="editorcfg.description">Editor Configuration for the stylesheet editor extension.</label>
+			<label index=".image_descr">A Template Record with constants and setup code.
+The Web&gt;Template module contains tools which will help you to edit and validate TypoScript structures.</label>
+			<label index="includeStaticAfterBasedOn.description">If set, static templates will be included after &quot;based-on&quot; templates. It basically swaps the order of inclusion of these external TypoScript sources.</label>
+			<label index="root.description">Defines that the template represents a root of a website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

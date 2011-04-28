@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">Dette er backend administrator-brugergrupperne som er til rådighed for backend brugere. Disse afgør adgangsrettighederne for backend brugerne.</label>
+			<label index=".details">Grupper indeholder de overordnede rettighedsindstillinger som du kan sætte for en backend-bruger. Flere brugere kan være medlemmer af samme gruppe og på denne måde dele rettigheder.
+Når en bruger er medlem af flere grupper (inklusive undergrupper), er rettighederne akkumuleret så jo flere grupper en bruger er medlem af, jo flere rettigheder har han.</label>
+			<label index=".image_descr">Backend brugergrupper oprettes i sidetræets rod, hvor kun brugere med admin-rettigheder kan redigere dem. Brugergrupperne med røde ikoner i dette billede er dem med aktiverede adgangslister. De blå almindelige brugergrupper. Denne brugergruppe har aktiveret adgangslister. I adgangslister kan du specificere hvilke moduler, tabeller, databasefelter etc. medlemmer af denne gruppe har adgang til i TYPO3.</label>
+			<label index="title.description">Navnet på backend brugergruppen. Navnet bør være beskrivende og kan altid ændres senere.</label>
+			<label index="title.details">Backend-brugergrupper er identificeret af deres &quot;uid&quot; felts værdi og derfor kan titlen altid ændres. Gruppens &quot;uid&quot; kan aldrig ændres.</label>
+			<label index="title.image_descr">Brugergruppens titel kan ses i oversigten.</label>
+			<label index="db_mountpoints.description">Definér sidetræets rod for gruppens medlemmer.</label>
+			<label index="db_mountpoints.details">Sidetræet i TYPO3 skal have sit startpunkt defineret. Her bør du indsætte en eller flere referencer til til en side som repræsenterer en ny rodside for sidetræet. Dette kaldes en &quot;database mount&quot; eller &quot;DB mount&quot;.
+DB mounts &lt;i&gt;kan&lt;/i&gt; arves af brugere som er medlemmer af denne gruppe. Dette afhænger af hvor vidt brugeren er konfigureret til at inkludere mounts fra brugergrupperne.
+Det anbefales dog at bruge backend brugergrupper som denne til at konfigurere DB mounts - særlig hvis de skal deles af mange brugere.</label>
+			<label index="db_mountpoints.image_descr">Her er en side tilføjet som en &quot;DB mount&quot;...
+... og i sidetræet for medlemmer af gruppen vil dette blive en ny rodside for sidetræet.</label>
+			<label index="file_mountpoints.description">Definér startpunktet for filtræet.</label>
+			<label index="file_mountpoints.details">Filtræet bruges af alle fil-moduler for at navigere i filfolderne på webserveren. Hvis du ønsker ar brugerne skal have adgang til serverens filer gennem TYPO3, har de brug for mindst et fil-mount (og adgang til f.eks. &quot;Filer &gt; Filliste&quot; modulet).
+Du kan mounte en sti under &quot;fileadmin/&quot; relativt til TYPO3-installationen, eller du kan mounte en absolut sti et eller andet sted på serveren (udenfor webroot!). Det sidste kræver at $TYPO3_CONF_VARS[BE][lockRootPath] er defineret. Stien du mounter er defineret af den filmount-post du refererer til i dette felt. Så et filmount peger bare på en post i hvilken detaljerne er indstillet. Se skærmdumps herunder.
+&quot;admin&quot;-brugere har altid &quot;fileadmin/&quot;-folderen mountet som standard.
+Bemærk: som ved DB-mounts, kan filmounts arves af brugere som er medlem denne gruppe.</label>
+			<label index="file_mountpoints.image_descr">Filmounts er referencer til poster i &quot;filemounts&quot;-tabellen.
+I filmounts-posten kan du definere om stien skal være absolut eller relativ til &quot;fileadmin/&quot;. I dette tilfælde peger filmountet på &quot;fileadmin/user_upload&quot;.
+Dette er sidetræet for admin-brugeren. Læg mærke til folderen &quot;user_upload&quot; som er den folder der refereres til af filmount-posten.
+Dette viser den mountede folder, som som den ses af en bruger som er medlem af gruppen.
+Filmount-poster er også oprettet i sidetræets rod.</label>
+			<label index="pagetypes_select.description">Vælg hvilke typer af sider medlemmerne må bruge.</label>
+			<label index="pagetypes_select.details">Denne mulighed begrænser altallet af muligheder for brugeren når denne skal vælge en sidetype.
+Valg af sidetype er forbundet med a) en specielt ikon for siden, b) tilladte tabeller på siden (se den globale variabel $PAGES_TYPES) og c) om siden er en webside eller en systemfolder.</label>
+			<label index="pagetypes_select.image_descr">Listen af typiske sidetyper som er til rådighed i CMS-sammenhæng. Valg af sidetype for en brugergruppe definerer hvilke muligheder der er til rådighed for en bruger.</label>
+			<label index="tables_modify.description">Vælg hvilke tabeller en bruger må ændre.</label>
+			<label index="tables_modify.details">En vigtig del at opsætningen af rettigheder er at definere hvilke databasetabeller en bruger må ændre.
+Tabeller der må ændres må automatisk også vælges og derrfor behøver du ikke også tilføje tabellen under &quot;Tables (listing)&quot;
+
+&lt;strong&gt;Bemærk&lt;/strong&gt; at denne liste summeres med felter fra andre brugergrupper som denne bruger er medlem af.</label>
+			<label index="tables_modify.image_descr">Ovenstående skærmdump viser hvordan &quot;Opret nyt element&quot;-dialogen ser ud for en bruger som er begrænset til kun at måtte redigere side og sideindholdselementer.
+De to tabeller er simpelthen tilføjet til listen over &quot;Tables (modify)&quot; i adgangslisten for grupper.
+Dette er (et eksempel på) det totale antal elementer som kan oprettes på siden af admin-brugeren for hvilken der ikke er nogen begrænsninger.</label>
+			<label index="tables_select.description">Vælg hvilke tabeller medlemmerne må se i post-listen (Tabeller der må ændres behøver ikke stå her også).</label>
+			<label index="tables_select.details">Dette afgør hvilke tabeller - ud over dem der er valgt i &quot;Tables (modify)&quot; boksen - der må ses og listes for gruppens medlemmer. Han må &lt;em&gt;ikke&lt;/em&gt; ændre i tabellen - kun vælge posterne og se indholdet.
+Denne liste er ikke særlig vigtig. Det er en forholdsvis sjælden situation hvor en bruger må læse i tabeller uden at ændre dem.</label>
+			<label index="non_exclude_fields.description">Visse tabelfelter er ikke til rådighed som standard. Disse felter kan her eksplicit aktiveres for gruppens medlemmer.</label>
+			<label index="non_exclude_fields.details">&quot;Allowed excludefields&quot; giver dig mulighed for at specificere rettighederne som tildeles tabeller. Som standard er disse felter ikke til rådighed for brugere men skal aktiveres her.
+En anvendelse af dette er sider normalt er skjulte som standard, og at det skjulte felt ikke er til rådighed for brugeren, med mindre han har fået tilladelse til det i denne liste af &quot;Allowed excludefields&quot;. Det vil sige en bruger kan oprette en ny side men kan ikke synliggøre siden med mindre han har fået tildelt rettigheden &quot;Side: Skjul Side&quot; gennem en af side brugergrupper. Det gør selvfølgelig ingen forskel at tilføje felter fra tabeller som ikke er med i listen af tabeller der må ændres.</label>
+			<label index="hidden.description">Deaktiverer en brugergruppe.</label>
+			<label index="hidden.details">Hvis du deaktiverer en brugergruppe, vil alle medlemmerne af denne gruppe ikke arve nogle rettigheder fra denne gruppe.</label>
+			<label index="lockToDomain.description">Indtast et host-navn fra hvilken brugeren er tvunget til at logge ind.</label>
+			<label index="lockToDomain.details">Et TYPO3-syatem kan indeholde flere websites på flere domæner. Derfor sikrer denne valgmulighed at brugeren kun kan logge ind fra en bestemt host.
+Sættes dette f.eks. til &quot;www.my-domain.com&quot; kæves det at brugeren logger ind fra dette domæne for at opnå medlemsskab af denne gruppe. I modsat fald vil brugeren ikke blive medlem af gruppen.</label>
+			<label index="groupMods.description">Vælg hvilke backend-moduler der er tilgængelig for gruppens medlemmer.</label>
+			<label index="groupMods.details">Dette afgør hvilke menupunkter der er tilgængelige for gruppens medlemmer.
+Denne liste over moduler bliver summeret med moduler som medlemmet arver fra andre grupper og som brugeren selv har adgang til.</label>
+			<label index="groupMods.image_descr">Backend-modulerne som er til rådighed for en bruger vises i menupunkterne i backenden. For de fleste almindelige brugere er det kun moduler i &quot;Web&quot; og &quot;Filer&quot; hovedmenupunkterne. Typisk bliver &quot;Web -&gt; Side&quot; brugt til at redigere sideindhold.
+Dette er tildelingen af backend-moduler til en bruger. Alle fire Web-undermoduler og de to Bruger-undermoduler er konfigureret her. Filer -&gt; Filliste modulet må være blevet konfigureret for en anden brugergruppe som denne bruger er medlem af eller i brugerprofilen selv. Hjælpemodulet er tilgængelig som standard og kræver ikke særlige rettigheder.</label>
+			<label index="inc_access_lists.description">Vælg om adgangslisten for sidetyper, tabeller, moduler og &quot;Allowed excludefield&quot; er aktiveret for denne gruppe.</label>
+			<label index="inc_access_lists.details">Hvis denne vlagmulighed er deaktiveret kan adgangslister ikke konfigureres for denne gruppe. Når adgangslister er inaktiveret, er gruppens ikon blåt, mens det er rødt når adgangslister er aktiveret.</label>
+			<label index="description.description">Indtast en kort beskrivelse af brugergruppen, hvad den skal bruges til og hvem der skal være medlemmer. Dette er kun til internt brug.</label>
+			<label index="TSconfig.description">Bruger TSconfig: Yderligere konfiguration gennem TypoScript-lignende variabler (Avanceret).</label>
+			<label index="TSconfig.details">Bruger TSconfig kan sættes for hver backendbruger og -gruppe. Konfigurationen af backend brugergrupper bliver nedarvet til brugerene i disse grupper. De mulige indstillinger dækker typisk de samme muligheder som under Bruger -&gt; Indstillinger modulet (faktisk kan indstillinger fra dette modul overskrives i Bruger TSconfig), konfigurationen af &quot;Admin Panel&quot; (frontend), forskellige backend-indstillinger (lås bruger til IP-adr., vis genvejsramme, må brugeren tømme cachen?, bredde af navigationsrammen etc.) og konfiguration af backend-modulet (som overskriver konfigurationen fra Side TSconfig).</label>
+			<label index="TSconfig.syntax">TypoScript-syntak uden betingelser og konstanter.</label>
+			<label index="TSconfig.image_descr">I TSconfig-feltet er hjælpen lige ved hånden - bare kig på TS-guideikonet, så popper et vindue op.
+I popup-vinduet vil du se et træ af mulige konfigurationsværdier. Disse er udtrukket af TSconfig-manualen. Du kan klikke rundt for at finde de valgmuligheder du har brug for gennem denne guide.</label>
+			<label index="hide_in_lists.description">Denne valgmulighed forhindrer gruppen i at vises i listerne når brugergrupper bliver valgt.</label>
+			<label index="hide_in_lists.details">Dette påvirker listen over brugergrupper i Opgaver og Beskeder under Bruger -&gt; Opgaver og i Web -&gt; Adgang modulet.
+Denne valgmulighed er meget brugbar hvis du har generelle brugergrupper der definerer nogle globale indstillinger som påvirker alle dine brugere. Du ønsker sikkert ikke at alle dine brugere kan se hinanden gennem medlemsskab af denne gruppe og denne valgmulighed forhindre dette.</label>
+			<label index="subgroup.description">Vælg backend brugergrupper som automatisk er inkluderet for medlemmer af denne gruppe.</label>
+			<label index="subgroup.details">Indstillingerne for undergrupperne tilføjes til indstillingerne for grupperne og de vil simpelthen blive tilføjet til listen over brugergrupper for alle brugere som er medlemmer af denne gruppe.</label>
+			<label index="explicit_allowdeny.description">Vælg feltværdier som eksplicit forbydes eller tillades for gruppens medlemmer.</label>
+			<label index="explicit_allowdeny.details">Felter i Selektorbokse kan konfigureres mht. adgangskontrol på værdi-niveau. Denne liste repræsenterer alle værdier som er konfigureret for adgangskontrol.
+Alle værdier kan blive konfigureret til at kræve enten eksplicit adgang (Allow) eller afvisning (Deny). Hvis en værdi har præfikset &quot;Allow&quot; (grønt ikon), betyder det at som standard kan brugere &lt;em&gt;ikke&lt;/em&gt; ændre denne værdi, med mindre de er medlem af brugergruppen som eksplicit tillader det (ved at markere dette afkrydsningfelt).
+Hvis en værdi har præfikset &quot;Deny&quot; (rødt ikon) betyder det at brugere som standard kan ændre denne værdi, med mindre de er medlem af en brugergruppe som eksplicit afviser det (ved at markere dette afkrydsningfelt).
+Listen er organiseret således at værdier fra den samme selektorboks er listet sammen. Hvis værdier fra en selektorboks ikke er i listen betyder det at de ikke bliver kontrolleret, og kan derfor vælges alle brugere hvis de normalt har adgang til feltet.</label>
+			<label index="allowed_languages.description">Vælg hvilke sprogfelter gruppens medlemmer har adgang til at rette.</label>
+			<label index="allowed_languages.details">Felter i TYPO3 kon konfigureres til at indeholde informationer om deres sprog. I det tilfælde er adgangen til disse felter afhængig af om brugeren har adgang til sproget fra denne liste.
+Hvis der ikke er nogen sprog på listen, betyder det at brugeren kan rette &lt;em&gt;alle&lt;/em&gt; sprogene!</label>
+			<label index="allowed_languages.image_descr">Dette eksempel viser en situation hvor to sprog, dansk og tysk, oprettes ud over standardsproget.</label>
+			<label index="custom_options.description">Vælg specielle rettigheder.</label>
+			<label index="custom_options.details">Denne liste viser specielle rettigheder introduceret fra backend-moduler (fra extensions). Betydningen af hvert felt afhænger af backend-modulet som behandler det.</label>
+			<label index="custom_options.image_descr">Dette er blot et eksempel fra en intern testsite. Det viser hvordan afkrydsningsfelterne er blevet tilføjet af et modul under sin egen overskrift. Du kan også have en beskrivende tekst ud for hvert afkrydsningsfelt for at forklare dets funktion.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index=".details" type="integer">152748622</label>
+			<label index=".image_descr" type="double">13061130</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="title.details" type="integer">131557834</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="db_mountpoints.details" type="integer">43503742</label>
+			<label index="db_mountpoints.image_descr" type="integer">217823442</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="file_mountpoints.details" type="integer">65754039</label>
+			<label index="file_mountpoints.image_descr" type="integer">176310322</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="pagetypes_select.details" type="integer">266555079</label>
+			<label index="pagetypes_select.image_descr" type="integer">59933954</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+			<label index="tables_modify.details" type="integer">89351209</label>
+			<label index="tables_modify.image_descr" type="integer">125152696</label>
+			<label index="tables_select.description" type="integer">79180839</label>
+			<label index="tables_select.details" type="integer">95679269</label>
+			<label index="non_exclude_fields.description" type="integer">17658287</label>
+			<label index="non_exclude_fields.details" type="integer">206989457</label>
+			<label index="hidden.description" type="integer">190841262</label>
+			<label index="hidden.details" type="integer">191806419</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">85223659</label>
+			<label index="groupMods.description" type="integer">249603367</label>
+			<label index="groupMods.details" type="integer">250073054</label>
+			<label index="groupMods.image_descr" type="integer">193960165</label>
+			<label index="inc_access_lists.description" type="integer">208224239</label>
+			<label index="inc_access_lists.details" type="integer">163860974</label>
+			<label index="description.description" type="integer">189455419</label>
+			<label index="TSconfig.description" type="integer">211026111</label>
+			<label index="TSconfig.details" type="integer">267445991</label>
+			<label index="TSconfig.syntax" type="integer">185290164</label>
+			<label index="TSconfig.image_descr" type="integer">230747652</label>
+			<label index="hide_in_lists.description" type="integer">169107711</label>
+			<label index="hide_in_lists.details" type="integer">20735693</label>
+			<label index="subgroup.description" type="integer">244521906</label>
+			<label index="subgroup.details" type="integer">41206182</label>
+			<label index="explicit_allowdeny.description" type="integer">109000363</label>
+			<label index="explicit_allowdeny.details" type="integer">242296359</label>
+			<label index="allowed_languages.description" type="integer">33891430</label>
+			<label index="allowed_languages.details" type="integer">48640895</label>
+			<label index="allowed_languages.image_descr" type="integer">80725669</label>
+			<label index="custom_options.description" type="integer">233721502</label>
+			<label index="custom_options.details" type="double">1101189</label>
+			<label index="custom_options.image_descr" type="integer">42996915</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index=".details">Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</label>
+			<label index=".image_descr">Backend Usergroups are found in the root of the page tree where only &quot;admin&quot; users can edit them. The usergroups with red icons in this image are the ones with Access Lists enabled. The blue are just plain usergroups.
+This usergroup has Access Lists enabled. In the Access Lists you specify which modules, tables, database fields etc. the group members can access in TYPO3.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="title.details">Backend Usergroups are identified by their &quot;uid&quot; field value (integer) and therefore the title can always be changed. The &quot;uid&quot; can never be changed for a user group.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="db_mountpoints.details">The page tree in TYPO3 must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a &quot;Database mount&quot; or &quot;DB mount&quot;.
+DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
+However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</label>
+			<label index="db_mountpoints.image_descr">Here a page is added as a &quot;DB mount&quot;...
+... and in the page tree of member users this will become the starting point for the page tree.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate the file folders on the webserver. If you want users to access the servers file system through TYPO3 they need at least one File Mount (and access to eg. File &gt; Filelist module).
+You can mount a path in &quot;fileadmin/&quot; relative to the TYPO3 installation or you can mount an absolute path somewhere else on the server (outside webroot!). The last requires that $TYPO3_CONF_VARS[BE][lockRootPath] is defined. The path you mount is defined by the Filemount record you refer to by this field. So a File Mount just points to another record inside of which the details are configured. See screen shots below.
+&quot;admin&quot; users always have the &quot;fileadmin/&quot; folder mounted by default.
+Notice; as with 'DB mounts' the file folder mounts may be inherited by the users which are members of this group.</label>
+			<label index="file_mountpoints.image_descr">The File Mounts are references to records from the &quot;Filemounts&quot; table.
+In the Filemount record you define whether the path should be absolute (must be within $TYPO3_CONF_VARS[BE][lockRootPath]) or relative to &quot;fileadmin/&quot;. In this case the Filemount points to &quot;fileadmin/user_upload/&quot;
+This is the page tree of the &quot;admin&quot; user. Notice the folder &quot;user_upload&quot; which is the folder referred to by the File Mount record.
+This shows the mounted folder as seen by a user who was member of the group.
+Filemount records are also created in the page tree root.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="pagetypes_select.details">This option limits the number of valid choices for the user when he is about to select a page type.
+Choice of Page types (doktype) for a page is associated with a) a special icon for the page, b) permitted tables on the page (see $PAGES_TYPES global variable) and c) if the page is a web page or &quot;system folder&quot; type.</label>
+			<label index="pagetypes_select.image_descr">The list of typical page types available in a CMS context. Selecting Page types for a usergroup defines which of these options can be selected by member users.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+			<label index="tables_modify.details">An important part of setting permissions is to define which database tables a user is allowed to modify.
+Tables allowed for modification is automatically also allowed for selection and thus you don't need to set tables entered here in the &quot;Tables (listing)&quot; box.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that this list adds to the fields selected in other member groups of a user.</label>
+			<label index="tables_modify.image_descr">The screen shot above shows how the &quot;Create new record&quot; dialog looks for a user limited to editing only &quot;Page&quot; and &quot;Pagecontent&quot; elements.
+The two tables are simply added to the list of &quot;Tables (modify)&quot; in the group Access Lists.
+This is (an example of) the full amount of elements that can be created on the page by the &quot;admin&quot; user for whom there are no restrictions.</label>
+			<label index="tables_select.description">Select which tables the members may see in record lists ('modify' tables does not need to be re-entered here!).</label>
+			<label index="tables_select.details">This determines which tables - in addition to those selected in the &quot;Tables (modify)&quot; box - may be viewed and listed for the member users. He is not able to &lt;em&gt;edit&lt;/em&gt; the table - only select the records and view the content.
+This list is not very important. It's a pretty rare situation that a user may select tables but not modify them.</label>
+			<label index="non_exclude_fields.description">Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</label>
+			<label index="non_exclude_fields.details">&quot;Allowed excludefields&quot; allows you to detail the permissions granted to tables. By default all these fields are not available to users but must be specifically enabled by being selected here.
+One application of this is that pages are usually hidden by default and that the hidden field is not available for a user unless he has been granted access by this list of &quot;Allowed excludefields&quot;. So the user may create a new page, but cannot un-hide the page - unless of course he has been assigned the &quot;Page: Hide page&quot; exclude field through one of his member groups.
+Of course it does not make any sense to add fields from tables which are not included in the list of tables allowed to be modified.</label>
+			<label index="hidden.description">Disables a user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may host multiple websites on multiple domains. Therefore this option secures that users can login only from a certain host name.
+Setting this to for example &quot;www.my-domain.com&quot; will require a user to be logged in from that domain if membership of this group should be gained. Otherwise the group will be ignored for the user.</label>
+			<label index="groupMods.description">Select available backend modules for the group members.</label>
+			<label index="groupMods.details">This determines which 'menu items' are available for the group members.
+This list of modules is added to any modules selected in other member groups of a user as well as the corresponding field of the user himself.</label>
+			<label index="groupMods.image_descr">The Backend Modules available for a user is reflected in the menu items of the backend. For most regular users only modules in the Web and File main modules are enabled. Typically &quot;Web &gt; Page&quot; is used for editing of page content.
+This is the assignment of Backend Modules to the user from the screen shot above. All four Web sub-modules and the two User sub-modules are configured here. However the File &gt; Filelist module must have been configured for another member group of this user (or inside the user profile itself which is also possible). The Help modules are all accessible by default and does not require explicit access.</label>
+			<label index="inc_access_lists.description">Select whether the Access Lists for Page type, Tables, Module and Allowed excludefield are enabled for this group.</label>
+			<label index="inc_access_lists.details">If this option is disabled the Access Lists cannot be configured for the group.
+When Access Lists are disabled the icon for the group is blue while it is red when Access Lists are enabled.</label>
+			<label index="description.description">Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</label>
+			<label index="TSconfig.description">User TSconfig: Additional configuration through TypoScript style values (Advanced).</label>
+			<label index="TSconfig.details">User TSconfig can be set for each backend user and group. Configuration set for backend groups is inherited by the user who is a member of those groups. The available options typically cover user settings like those found in the User&gt;Setup module (in fact options from that module can be forcibly overridden from User TSconfig!), configuration of the &quot;Admin Panel&quot; (frontend), various backend tweaks (lock user to IP, show shortcut frame, may user clear all cache?, width of the navigation frame etc.) and backend module configuration (overriding any configuration set for backend modules in Page TSconfig).</label>
+			<label index="TSconfig.syntax">TypoScript syntax without conditions and constants.</label>
+			<label index="TSconfig.image_descr">In the TSconfig field help is right at hand - just click the TS wizard icon, then a window will pop up.
+In the pop-up window you will see a tree of possible configuration values. These are extracted from the TSconfig manual. You can click around to find the options you need to set through this wizard.</label>
+			<label index="hide_in_lists.description">This option will prevent the user group from showing up in lists, where user groups are selected.</label>
+			<label index="hide_in_lists.details">This will affect the list of user groups in the Task Center To-Do and Messages parts as well as the Web&gt;Access module.
+The option is extremely useful if you have general user groups defining some global properties which all your users are members of. Then you would probably not like all those users to 'see' each other through the membership of this group, for instance sending messages or To-Dos to each other. And this is what is option will prevent.</label>
+			<label index="subgroup.description">Select backend user groups which are automatically included for members of this group.</label>
+			<label index="subgroup.details">The properties of subgroups are added to the properties of this group and basically they will simply be added to the list of member groups of any user which is a member of this group.
+This feature provides a great way to create 'Supervisor' user groups.</label>
+			<label index="explicit_allowdeny.description">Select field values to explicitly deny or allow for user group members.</label>
+			<label index="explicit_allowdeny.details">Selector box fields can be configured for access control on value level. This list represents all values that are configured for access control. 
+Each value can be configured to require either explicit access (Allow) or explicit denial (Deny). If a value has the prefix &quot;Allow&quot; (green icon) it means that by default users &lt;em&gt;cannot&lt;/em&gt; set this value unless they are member of a user group which explicitly allows it (by setting this checkbox).
+If a value has the prefix &quot;Deny&quot; (red icon) it means that by default users can set this value unless they are member of a user group which explicitly denies it (by setting this checkbox).
+The list is organized so values from the same selector box is listed together. If values from a selectorbox is not present in the allow/deny list it simply means they are not evaluated and hence they can be set by anyone having access to the field in general.</label>
+			<label index="allowed_languages.description">Select which record languages the group members are limited to edit.</label>
+			<label index="allowed_languages.details">Records in TYPO3 can be configured to carry information about their language. If that is the case access to these elements will also be evaluated based on whether the user has the language in question included from this list.
+If a user has no languages listed all together it simply means that he can edit &lt;em&gt;all&lt;/em&gt; languages!</label>
+			<label index="allowed_languages.image_descr">This example shows a situation where two languages, Danish and German, are created in addition to the default language.</label>
+			<label index="custom_options.description">Select custom permission options.</label>
+			<label index="custom_options.details">This list represents custom permissions introduced by various backend modules (from extensions). The significance of each option depends on the backend module that evaluates it.</label>
+			<label index="custom_options.image_descr">This is just an example from an internal test application. It shows how checkboxes are added by a custom module under its own header. You can also show a description text with each checkbox to explain its function.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

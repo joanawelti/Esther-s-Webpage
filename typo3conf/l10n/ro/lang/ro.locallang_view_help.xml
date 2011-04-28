@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="details">Detalii</label>
+			<label index="syntax">Sintaxa</label>
+			<label index="seeAlso">Vezi şi</label>
+			<label index="goBack">Inapoi</label>
+			<label index="fullDescription">Vezi descrierea completa a tabelului</label>
+			<label index="fullDescription_module">Vezi descrierea completă a modulului</label>
+			<label index="goToToc">Mergi la TOC</label>
+			<label index="to_top">Sus</label>
+			<label index="TOC">TOC</label>
+			<label index="TOC_core">Opţiuni de bază TYPO3</label>
+			<label index="TOC_modules">Module Backend</label>
+			<label index="TOC_tables">Tabele baze de date</label>
+			<label index="TOC_extensions">Extensii</label>
+			<label index="TOC_other">Altele</label>
+			<label index="close">Inchide</label>
+			<label index="title">Indicaţii inline TYPO3</label>
+			<label index="manual_title">Manual de utilizare TYPO3</label>
+			<label index="introduction">Introducere</label>
+			<label index="full_manual">Manual complet (o singură pagină)</label>
+			<label index="full_manual_chapters">Capitole Manual</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="details" type="integer">65812061</label>
+			<label index="syntax" type="integer">154049890</label>
+			<label index="seeAlso" type="integer">101781834</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="fullDescription" type="integer">233674735</label>
+			<label index="close" type="integer">222113377</label>
+			<label index="fullDescription_module" type="integer">201003905</label>
+			<label index="goToToc" type="integer">21517239</label>
+			<label index="to_top" type="integer">256968027</label>
+			<label index="TOC" type="double">5416024</label>
+			<label index="TOC_core" type="integer">164327555</label>
+			<label index="TOC_modules" type="integer">39991288</label>
+			<label index="TOC_tables" type="integer">247039840</label>
+			<label index="TOC_extensions" type="integer">98760179</label>
+			<label index="TOC_other" type="integer">103881441</label>
+			<label index="title" type="integer">184225760</label>
+			<label index="manual_title" type="integer">89488469</label>
+			<label index="introduction" type="double">12031893</label>
+			<label index="full_manual" type="integer">68472336</label>
+			<label index="full_manual_chapters" type="integer">161891675</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

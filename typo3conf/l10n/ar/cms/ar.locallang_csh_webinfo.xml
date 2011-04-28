@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index="pagetree_overview.alttitle">عرض عام للمخطط الشجري</label>
+			<label index="pagetree_overview.description">يعرض العرض العام للمخطط الشجري المعلومات المرتبطة بصفحات الشجرة أو فروع منها . و يندرج تحت ذلك إبدء ، توقف الوقت ، ضبط الذاكرة المختبأة</label>
+			<label index="pagetree_overview.image_descr">أحد خصائص العرض العام للوحدات في المخطط الشجري هو أمكانية رؤية أنواع السجلات التي تتواجد في فروع الصفحات.هذا عد للسجلات المعروضة في المخطط الشجري  فرع 2 المستويات السسلفى</label>
+			<label index="func_0.alttitle">الاعدادات الاساسية</label>
+			<label index="func_0.description">نعرض مجموعة من الملفات المختارة من  سجلات الصفحة و التي تعتبر من الضوابط الأساسية للصفحات. و يندرج تحت ذلك الاسماء المستعارة ، أبدء ، توقف الوقت ، معلومات عن الدخول المقيد  إلى أخره ،</label>
+			<label index="func_0.details">تعرض الأعدادات الأساسية أمثلة للذاكرة الختبأة و العمر . اللذان يختلفان فقط عند إختيار الملفات التي تعرضها . &lt;b&gt; خانات التحرير المتتابعة الخاصة بالصفحة &lt;/b&gt; و ستجد العديد من  أيقونات التحرير في الوجهه . و جميع أيقونات التحرير في السطور الرئيسية يمكن أن تؤدي بك إلى تحرير حوار كامل حيث يمكن تغير هذه الخانة على الأخص لجميع الجداول المدرجة بالقائمة.و عملية التحرير المتتابعة شديدة الأفادة، فعند الضغط على أيقونة التحرير في عدد من  الصفحات التعريف ، فإنك ستتوجه مباشرة لعملية التحرير المعتادة لسجلات كل الصفحة.</label>
+			<label index="func_0.image_descr">و تعرض الإعدادات الأساسية عرض عام ملاتلائم مع الصفحة فيه الاسماء المستعارة ، أوقات الأبتداء، و أعدادات قيود الدخول في الشجرة الفرعية.
+فعند الضغط على أيقونة التحرير في صدارة الصفحة يمكنك تحرير الخانات المدرجة في قائمة الصفحة.</label>
+			<label index="func_1.alttitle">عرض عام للسجل</label>
+			<label index="func_1.description">يقدم العرض العام للسجلات عرضا ضروريا لجميع السجلات الموزعة في الشجرة.و يعرض كل جدول قواعد البيانات في النظام بعمود و يمكنك رؤية عدداً من السجلات في كل صفحة حيث يتواجد هذا الجدول.</label>
+			<label index="func_1.details">&lt;b&gt;ملاحظة &lt;/b&gt; كن حذرا عند التعامل مع مستوى الأعدادا. فقد يتسسب إعداد عالى المستوى إلى إبطاء سرعة الوحدة في حالة ما كان هناك تعاملا مع عدد كبير من الصفحات و  عدد كبير من السجلات أيضا في قواعد البيانات . 
+&lt;b&gt;توقف الشجرة؟&lt;b/&gt; لاحظ بأن العلامة &quot;+&quot; الحمراء بجوار أي صفحة في شجرة الصفحة؟
+ هذا نتيجة إعدادات سجلات هذه الصفحة و التي تعنى بأن لوحة الشجرة لا يمكن أن تتمدد لهذه الصفحة. و كما هو معهود فإنه يتم ذلك الضبط كنوع من الحماية في حالة ما إذا كان  يتم التعامل مع عدد كبير من الصفحات الفرعيه السفليه ( و فىي الغالب ما يصل عددها إلي مئة صفحة)
+و إذا ما قمت بالضغط على على عنوان أو أيقونه فسيقوم مباسرة العرض العام لجعل هذه الصفحة الجزر الجديد للعرض العام.</label>
+			<label index="func_1.image_descr">يمكنك بسهولة مشاهدة توزيع محتوي العناصر في الصفحة. و يمكنك أيضا معرفة أماكن نماذج السجلات، و بصورة أساسية يمكنك التعرف على مكان أى سجل يقع على  شجرة الصفحة</label>
+			<label index="func_2.alttitle">الذاكرة المختبئة</label>
+			<label index="func_2.description">عرض إنتقاء للخانتات من صفحات السجلات المرتبطة ‘دادات الذاكرة المختبئة و الفترة الزمنية.</label>
+			<label index="func_2.image_descr">عرض &quot; الذاكرة المختبئة و العمر&quot;. هنا يمكن أن ترى العمود الخاص ب &quot;TSconfig&quot; . و يحتوى العرض العام لهاتين الصفحتين على صفحة خاصة بشفرة &quot;TSconfig&quot;</label>
+			<label index="stat.alttitle">إحصائيت إخفاء الصفحة</label>
+			<label index="stat.description">و الخاص بتسجيل إنطباعات و جلسات كل صفحة.MySQLعرض صفحات الوب الخاصة بإخفاء الإحصائيات في فرع صفحة الشجرة إعتماداً على جدول الإحصائيات الداخلي</label>
+			<label index="stat.details">&lt;b&gt;:ملاحظة&lt;/b&gt;والذي يحتاج أيضاً إلى تكوين مخطوطة تيبو3 الخاصة و اللآزمة لتسجيل الإخاء في جدول إحصائيات قواعد البيانات.&quot;Simple hit statistics&quot; (sys_stat)تحتاج هذه الوظيفة إلى تثبيت الإمتداد</label>
+			<label index="lang.alttitle">عرض الترجمة</label>
+			<label index="lang.description">إعطاء عرض عام لبيان أي من صفحات الشجرة ترجمت إلى اللغات التي تم تنصيبها.</label>
+			<label index="lang.details">عرض عام لمستخدمي الألوان للأشارة إلى حالة التيسير و الأستعاضة للصفحات المعطاه . و هذا توصيف لكود كل لون:
+&lt;b&gt;خلقية خضراء:&lt;/b&gt; تترجم الصفحة و تعرض بنفس هذه اللغة. و الترجمات  تعني  أن سجل تغشية الصفحة نشط
+&lt;b&gt;الخلفية الحمراء:&lt;/b&gt;  سوف نعرض الصفحة بهذه اللغة &lt;em&gt;cannot&lt;/em&gt; و سوف تظهر لك رسالة خطاء ما ان حاولت في ذلك . و مع الترجة يجب على القوائم أن تنقح الروابط لهذه الصفحات.
+&lt;b&gt;خلفية رمادية (ليس متاح في الضبط الأساسي في اللغة):&lt;/b&gt; ستستعيض الصفحة عن هذه الصيغه إلى صبغة أخرى خاصة لأعدادات الضبط (sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!) 
+(sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!)
+
+b&gt;&quot;الصفحات&quot; إعدادات الترجمة:&lt;/b&gt;&quot;إعدادات الترجمة&quot;هذه الخاصه بسجل الصفحة تتطلب الأنماط المذكورة سابقاً.وفي عمود الترجمة  الافتراضية فإن كل هذه الإعدادات يعبر عنها بالرمز&quot;N&quot; (أخفي الترجمة الأفتراضية من الصفحة) &quot;D&quot;ويعني ( أخفي الصفحة إذا لم تتواجد ترجمة للغة الحاليه) أو بالرمز   
+و كما يمكن أن ترى في صفحة البدء أن الرمز N معلم بعلامة الراية يعني أنه لا يمكن الدخول على أي إصدار ألماني في هذه الصفحةو ستظهر رسالة خطاء حيث أنه لا توجد ترجمة إلي الألمانية في هذه الصفحة.و في الضبط الأساسي الإنتقال من الإصدار الألماني إلى صفحة غير مترجمة يظهر مباشرة النص الإنجليزي.و تحتوي صفحة أخرى على الرمز D معلم بعلامة الراية (&quot;[Dummy]&quot;). و يعني أن الصفحة متاحةلترجمة واحدة فقط</label>
+			<label index="lang.image_descr">ترجمة العرض العام لصفحة الوب&lt;معلومات عن كل وحدة.استخدم أزرار تحرير لعرض وإنشاء صفحات جديدة لترجمة تصدير الصفحات.استخدم الوحدة المعتادة للصفحة لإضافةمحتويات الترجمة في الصفحة.و تعتبر &quot;إعدادات الترجمة&quot; ذات تأثير في توفير اللغات في الصفحات المختلفة.</label>
+			<label index="func_hits.alttitle">عروض الأحصائيات</label>
+			<label index="func_hits.description">يمكنك الإختيار من بين ثلاثة عروض للإحصائيات في صندوق الإنتقاء؛&quot;إخفاء الصفحة&quot;؛&quot;الإخفاء التام&quot;؛&quot;الغخفاء في الغختيارات الأساسية&quot;.استخدم الإنتقاء الأيمن في الصندوق لتحديد عمق العرض العام في المخطط الشجري.</label>
+			<label index="func_hits.details">يمكنك عرض إحصائيات إخفاء الصفحة حتى 30 سابقة.حيث يتم عرض كل يوم في العمود الخاص به.فيمكن لكل صفحة من صفحات الشجرة رؤية الصفحات المخفاه كل يوم كنوع من تنسيق الصفحات مثل [page hits]/[user sessions].فمثلاً إذا كان عدد الصفحات &quot;286/34&quot;فهذا يعنيبإن الصفحة تحتوي على 286صفحة مخفاه في ذلك اليوم و أنه يوجد 34 زائر مختلفين لهذه الصفحة(بمعدل إخفاء صفحتين على الأقل من قبل مستخدم قبل ملف إلتقاط التعريف من الموقع).
+
+هذا عرض عام لمعنى عرض كل وحدة:
+&lt;b&gt;Page hits&lt;/b&gt;
+تعرض هذه الوحة إخفائات/وجلسات لكل صفحة.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+تعرض هذه الوحة الإحصائات الخاصة فقط بالصفحات التى تحتوي على نماذج السجلات(المعلم عليها بعلامة علم الجزر) و التي تعني بأن إخفائات الصفحة معروضة بالنسبه للموقع ككل.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+تعرض هذه الوحة العدد الكلي لإخفائات/وجلسات الصفحةداخل الأقسام الأساسية في صفحة الوب.&quot;main section&quot;هو صفحة فرعية من الصفحة الأساسية في المستوى الاول من صفحة الوب ( وتقوم نماذج السجلات المعلم عليها بعلامة علم الجزر بتعريفه).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="double">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="lang.details" type="integer">33472106</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+			<label index="lang.image_descr" type="integer">102823687</label>
+			<label index="func_hits.details" type="integer">207091212</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="lang.details">The overview uses colors to signal the availability and fall back situation for a given page. Here is a description for each color code:
+&lt;b&gt;Green background:&lt;/b&gt; Page is translated and viewable in this language. For translations it means that an active page overlay record is present.
+&lt;b&gt;Red background:&lt;/b&gt; Page &lt;em&gt;cannot&lt;/em&gt; be viewed in this language and you will see an error message if you try. Menus should automatically filter out links to pages with this translation.
+&lt;b&gt;Gray background (not available for default language):&lt;/b&gt; Page will fall back to the specified fallback mode for content. Depends on configuration. (sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!)
+
+&lt;b&gt;The pages &quot;Localization settings:&quot;&lt;/b&gt;
+It is the &quot;Localization settings&quot; of the page record that determines the modes above. In the column of the default translation each of these settings are represented by a &quot;N&quot; (Hide page if no translation for current language exists) or a &quot;D&quot; (Hide default translation of page).
+As you can see the page &quot;Startpage&quot; has the N flag set and therefore any access to the german version of that page will be blocked with an error message because there is no translation in german. By default &quot;german access&quot; to a non-translated page will just show the english content.
+There is also a page with the D flag (&quot;[Dummy]&quot;). The D flag means that the page is only available in one of the translations, in this case Danish. So any attempt to access the page in the default language or german will show an error message.
+
+So, when the &quot;Localization settings&quot; checkboxes for a page are used, you will get an error message when you try to request a page which has been blocked. This is a feature. The trick is not to create links to those pages.
+
+Menus generated from HMENU objects will always take &quot;sys_language&quot; into account and display only pages which can be accessed for that language. But combined with the &quot;localization settings&quot; of pages which may block page access this becomes a problem with pages which are &lt;em&gt;not&lt;/em&gt; translated (has gray background); You might get menu items which links to non-accessible pages.
+The problem basically is that &quot;&amp;L=xx&quot; is different from internal &quot;sys_language&quot;. You would like to avoid that and to do so you should configure &quot;sys_language_mode&quot; to &quot;content_fallback&quot;. If you do that sys_language will &lt;em&gt;always&lt;/em&gt; follow what &quot;&amp;L=&quot; instructs it to and your menus will be right. At the same time you will get the default content displayed if no translation exists (because content selection falls back).
+
+Finally, the number found in each column tells you how many content elements are found in the specified language.</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+			<label index="lang.image_descr">Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
+The &quot;Localization settings&quot; that affect availability of pages in the various languages.</label>
+			<label index="func_hits.details">You can view the page hit statistics 30 days back. Each day is shown in its own column.
+For each page in the page tree you can see the page hits each day as a number formatted like [page hits]/[user sessions]. So if the number is &quot;286/34&quot; it means that the page had 286 page hits that day and that there were at least 34 unique visitors (measured by at least two hits by a user accepting a cookie from the site).
+
+This is an overview of the meaning of each view mode:
+
+&lt;b&gt;Page hits&lt;/b&gt;
+This shows page hits/sessions for each page.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+This will show statistics for only pages that have a Template Record (with Root-flag set) on it. This means that page hits are shown as totals for a whole website.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+Will show the total number of page hits/sessions within main sections of a website. A &quot;main section&quot; is all subpages to a page on the first level of a website (defined by a Template Record with the Root flag set)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="p_NewRecordAfter">Ny</label>
+			<label index="p_NewRecordAfter_Long">Nytt innerhållselement efter detta</label>
+			<label index="p_delete">Radera</label>
+			<label index="p_editRecord">Ändra</label>
+			<label index="p_hide">Göm</label>
+			<label index="p_moveDown">Ner</label>
+			<label index="p_moveUp">Upp</label>
+			<label index="p_newSubpage">Ny undersida</label>
+			<label index="p_unhide">Visa</label>
+			<label index="title_p_moveDown">Flytta ett steg ner</label>
+			<label index="title_p_moveUp">Flytta ett steg upp</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

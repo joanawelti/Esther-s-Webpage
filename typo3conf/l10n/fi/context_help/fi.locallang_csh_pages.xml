@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="layout.description">Valitse sivun layoutti. Kaikki mahdollisuudet riippuvat websivuston mallinteesta (template).</label>
+			<label index="layout.details">Tällä vaihtoehdolla ei ehkä ole vaikutusta sivun suunnitteluun koska se on riippuvainen kuinka (ja jos) edustan mallinne(template) käyttää sitä.Useimmissa oletusmallinteissa se ei ole käytössä.</label>
+			<label index="doktype.description">Valitse sivutyyppi. Tämä vaikuttaa esittääkö sivu näkyvää sivua vai käytetäänkö sitä muihin tarkoituksiin.</label>
+			<label index="doktype.details">'Vakio' ('Standard)' ja 'Laajennettu' ('Advanced') ovat tavanomaisia websivuja, joissa on vain ero vaihtoehtojen lukumäärässä.
+'Ulkopuolinen URL (''External URL') ja 'Oikopolku' ('Shortcut') tyypit mahdollistavt sivun olevan oikotien ulkopuoliseen URLiin tai jäjkimmäinen myös toiselle sivullesivustorakenteessa.
+'Ei valikossa' ('Not in menu') on myös tavanomainen sivu, mutta sitä ei näytetä valikossa.
+'Taustakäyttäjän Osio' ('Backend User Section') on vaihtoehto jossa taustakäyttäjän tulee olla sisäänkirjoittautuneena saadakseen sivun näkyville.
+
+Erityistyypit:
+'Tila' ('Spacer') on ainoastaan tarpeellinen josse on ohjelmoitu käytettäväksi edustatoimintojen valikoissa. Tässä tapauksessa se ei edusta sivua vaan on ainoastaan tilana valikossa ilmanettä sitä voidaan valita.
+'JärjestelmäValikko' ('SysFolder') on sivutyyppi jota ei voi näyttää websivuilla mutta joka toimii tietovarastona tietueille valintasi mukaan.
+'Roskis' ('Recycler') on roskis. Sivut ja tietueet jotka on sijoitettu tänne eivät näy sivuilla.
+
+&lt;b&gt;Huomautus:&lt;/b&gt;  Jokaiselle sivutyypille on oma ikoninsa.Myöskään kaikki tyypit eivät mahdollisesti ole käytettävissä kaikille käyttäjille (voit ehkä huomata että Sinullekaan eivät kaikki ole käytettävissä).
+Ja lopuksi, kaikille tyypeille on konfiguroitu sallittavat taulujen tietueet sivulla (Vihje: JärjestelmäHakemisto 'SysFolder' voi sisältää mitä tahansa tietueita jos Sinulla on ongelmia).</label>
+			<label index="hidden.description">Jos tämä on merkattu, on sivu piilotettu websivustolla (eikä ole näkyvissä).</label>
+			<label index="hidden.details">&quot;Piilotettu&quot; ('Hidden'), &quot;Aloitus&quot; ('Start'), &quot;Lopetus&quot; ('Stop') ja &quot;Pääsyoikeus&quot; ('Access') vaihtoehdot rajoittavat kaikki sivuille pääsyä ja siksi liittyvät toiminnallisuuteen. Kaikissa näissä tapauksissa jos sivu ei ole näkyvissä näiden takia eivät sivut myöskään näy valokossa.
+Huomaa, nämä vaihtoehdot liittyvät&lt;em&gt;ainoastaan&lt;/em&gt; siihen sivuun johon ne on asetettu.Jos haluat vaikutuksen liittyvän myös alasivuihin on sinun merkattava myös &quot;Sisällytä alasivut&quot; (&quot;Include subpages&quot;).
+Jos olet kirjoittautunut sisään taustakäyttäjänä näet sivut esikatselussa jos sinulla on lukuoikeus niihin.</label>
+			<label index="hidden.image_descr">Piilotetun sivun ikoni on himmennetty ja punainen X lisätty.</label>
+			<label index="starttime.description">&quot;Aloitus&quot; (&quot;Start&quot;) aika määrittelee päiväyksen mistä alkaen sivu on nähtävissä onlinessa. Käytä tätä 'julkistaaksesi sivun sisällön tiettynä päivänä. Jos Aloitusta ei olemääritelty on sivun sisältö näkyvissä välittömästi (jollei se ole piiloitettu muutoin).</label>
+			<label index="starttime.syntax">Muoto on PP-KK-VVVV (DD-MM-YYYY). Voit antaa tiedon toisinkin - se evaluoidaan välittömästi.
+Jos lisää esim. 'd' lisätään tämän hetkinen aika ja päiväys. Voit lisätä kenttään myös muita arvoja esim. '+10' ja se lisää 10 päivää tämän hetkiseen tietoon.</label>
+			<label index="endtime.description">'Stop' aika on päiväys josta alkaen sivu ei ole enää näkyvissä onlinessa.</label>
+			<label index="endtime.syntax">Katso Sivu / Aloita (Page / Start) (klikkaa alta)</label>
+			<label index="fe_group.description">Jos &quot;Pääsyoikeus&quot; (&quot;Access&quot;) on asetettu käyttäjäryhmälle, ainoastaan ne käyttäjätjotka kuuluvat tähän ryhmään voivat nähdä tämän sivun jos he ovat kirjoittautuneet sisään. Erityisvaihtoehto &quot;Piilota loginissa&quot; (&quot;Hide at login&quot;)tarkoittaa &lt;em&gt;ettei&lt;/em&gt; sivu olenäkyvissä websivusto käytössä.</label>
+			<label index="extendToSubpages.description">Oletuksena &quot;Piilotettu&quot; ('Hidden'), &quot;Aloitus&quot; ('Start'), &quot;Lopetus&quot; ('Stop') ja &quot;Pääsyoikeus&quot; ('Access') vaihtoehdot liittyvät&lt;em&gt;ainoastaan&lt;/em&gt; siihen sivuun johon ne on asetettu. Jos haluat vaikutuksen liittyvän myös alasivuihin on sinun merkattava myös &quot;Sisällytä alasivut&quot; (&quot;Include subpages&quot;) .</label>
+			<label index="extendToSubpages.details">Harkitse mahdollisuutta jossa haluat lisätä kokonaisen joukon alasivuja joille pääsee vain sisäänkirjoittautunut käyttäjä. Asettamalla &quot;Pääsyoikeus&quot; (&quot;Access&quot;) vaihtoehdon yläsivulle vaikutat vain pääsyyn tälle sivulle.
+Näin ei yläsivu ole näkyvissä valikossa jos käyttäjä ei ole sisäänkirjoittautunut. Mutta jos käyttäjä arvaa alasivun Sivu Id tunnuksen on hänellä mahdollisuus päästä tälle sivulle antamalla URLtiedon käsin. Mutta jos merkkaat tämän tiedon ei alasivuillekaan pääse katselemaan.</label>
+			<label index="extendToSubpages.image_descr">Tällä sivun ikonilla rajoitetaan sivun ja sen alasivunjen käyttöoikeutta tietylle ryhmälle,  Näin myös tämän ikonin ulkoasu muuttuu.</label>
+			<label index="alias.description">'Alias' on yksilöllinen identifiointi tieto sivulle. Voit käyttää tätä tietoa sivua osoittavan id-tiedon sijasta.</label>
+			<label index="alias.details">Sivu tunnistetaan aina viimekädessä sen ID tiedosta.Voit TYPO3ssa referoida sivua esimerkiksi '../?id=123'. Jos sivulla, jonka ID on 124, on alias yy_kaa_kolme, niin URL '../?id=yy_kaa_kolme näyttää täsmälleen saman sivun, koska se on alias numeeriselleIDlle.
+Tavallisesti kannattaa antaaaliaksia vain muutamille sivuille, siis niille joita käytetään usein.
+Useissa TYPO3 konfiguraatiossa voit luoda linkin sivulle '.. &amp;lt;link yy_kaa_kolme&amp;gt;mene sivulle&amp;lt;/link&amp;gt; ..'  .Se on helpompi muistaa.
+Toinen käyttötapa on jos haluat muuttaa millesivulle linkki osoittaa. Tässä tapauksessa poista alias tiedon alkuperäisestä kohteesta ja lisäät sen uuteen linkki kohteeseen. Näin linkki automaattisesti osoittaa oikean sivun ID tunnukseen.</label>
+			<label index="alias.syntax">'Alias' tieto voi sisältää mitä tahansa alfanumeerisia merkkejä ja sen tulee olla yksilöllinen.
+Olehyvä ja huomaa: Jos et anna yksilöllistä tietoa, lisätään antamaasi numero.</label>
+			<label index="target.description">Valikko-osien HTML kohde jotka linkkaavat tälle sivulle.</label>
+			<label index="target.details">Tämä arvo ainoastaann korvaa alkuperäisen oletus linkin, joka tulisi olla konfiguroituna oikein TypoScript mallinteessa.</label>
+			<label index="no_cache.description">Tämä vaihtoehto poistaa palvelimen välimuistin tältä sivulta.</label>
+			<label index="no_cache.details">Tavallisesti TYPO3ssa sivut on puskuroitu / talletettu välimuistiin kun neluetaan ensimmäistä kertaa. Tämä tarkoittaa että seuravalla kerralla neluetaan huomattavasti nopeammin.(Kun sivua muokataan ja on uudestaan tallennettu vastaa se ensimmäistä kertaa)
+Useimmille sivuille tämä ei ole ongelma - paremminkin vain kiihdyttää www-sivuston toimintaa.
+Kuitenkin voi olla että sinun on poistettava tämä välimuisti käytöstä joillekin sivuille.Jos esimerkiksi sivu sisältää dynaamista tietoa ei sitä voida tallentaa välimuistiin vaan on aina generoitava uudestaan. Normaalisti PHP-koodi renderöi automaattisesti aina uuden tiedon poistaen välimuistin käytöstä.
+Mutta käyttäen tätä vaihtoehtoa voit varmistaa toiminnan oikeellisuuden.</label>
+			<label index="cache_timeout.description">Asettaa välimuistin kestoajan sivulle.</label>
+			<label index="cache_timeout.details">Oletusarvoisesti sivutsäilyvät välimuistissa 24tuntia. Tämän jälkeen sivut luodaan uudestaam ja kirjoitetaan jälleen välimuistiin.
+Konfiguraatiostasi riippuen voidaan välimuisti tyhjentää myös aina keskiyöllä.
+Tässä voit kuitenkin asettaa haluamasi ajan sivn välimuistille.
+Tätä vaihtoehtoa käytetään harvoin.</label>
+			<label index="no_search.description">Jos tämä vaihtoehto on merkattu, ei tätä sivua oteta huomioon tehtäessä hakutoimintoja tällä sivustolla.</label>
+			<label index="author.description">Anna sivun kirjoittajan nimi.</label>
+			<label index="author.details">Käytetäänkö kirjoittajan tietoja riippuu mallinteesta. Useimmissa mallinteissa tämä tieto ei ole käytössä.
+Jos käytät TYPO3 sivuja kuin 'artikkeleita' niin voit käyttää tätä tieto näyttääksesi sivun / 'artikkelin' kirjoittajan.</label>
+			<label index="author_email.description">Anna sivun kirjoittajan sähköpostiosoite.</label>
+			<label index="module.description">Määrittele sivu edustatoimintojen 'moduliksi'.</label>
+			<label index="module.details">Taustatoiminnoissa on moduli 'Web&gt;Modules' kuin myös otsikko 'Modules' modulissa 'User&gt;Task Center'. Molemmat listaavat käytettävissä olevat 'Frontend modules' joihin käyttäjällä on oikeudet.
+Periaatteessa, merkitsemällä tämän vaihtoehdon osoitetaan taustalla tiedettävän että tämä sivusisältää esim. forumin tai että se on kauppasovelluksen aloituskohta websivustossa. Tähän tietoon perustuen on taustatoiminnoille mahdollista näyttää oikoteiden lista kuin myös liittyvä toiminta'Web&gt;Modules' aliohjelmassa. Edustatoimintohin tämäei vaikuta - suuresti.
+Joten toiminnalliseti merkitsemällä sivu 'Kauppa' ('Shop') aliohjelmaksi tarkoitetaan sen ilmaantuvan taustamodulien oikopolku listalle.
+
+Asiassa on hieman enemmän peräämutta Sinun on tutustuttava TYPO3 hallinnan dokumentaatioon.
+
+On suositeltavaa että vain sivuston hallinnan käyttäjillä on oikeudet tähän tietoon.</label>
+			<label index="media.description">Lisää mediatiedostot jotka liittyvät sivuun.</label>
+			<label index="media.details">Tällä tietokentällä on mahdollista lisätä erilaisia tiedostoja sivulle.
+Jos ja kuinka näitä tiedostoja käytetään riippuu Sinun mallinteestasi. Joten periaatteessa mitkätiedostot haluat liittää tässä ja missä järjestyksessä ne listattaan, päätellään sinun erityisessä websivuston mallinteessa ja siksi sinun tulee etsiä ohjeet websivustosi ohjeistuksesta.
+Esimerkki tämän tietokentän käytöstä on logo tiedoston lisääminen sivulle. tai mallinteesi voi olla ohjelmoitu että ensimmäinen tiedosto on kuva linkkinä valikossa. Mutta muista, että tämä kaikki kuinka  tätä tietokenttää käytetään riippuu mallinteen ohjelmoinnista.</label>
+			<label index="subtitle.description">Anna alaotsikko sivulle jos tarpeen.</label>
+			<label index="subtitle.details">Tämän tiedon käyttö riippuu mallinteesta. Useimmissa tapauksissa seei ole käytössä.
+Voit käyttää tätätietoa miten haluat omissa mallinteissasi.</label>
+			<label index="url.description">Anna URL johon sivun tulisi linkkaantua.</label>
+			<label index="url.details">Esimerkki: 'http://www.typo3.com' tai vain 'www.typo3.com' jos tyyppivalinta on asetettu 'http://'.
+Käytä Tyyppi ('Type') valintaa valitaksesi URLin tyypin.
+
+Tämä vaihtoehto on käytössä ainoastaan jos sivun tyypiksi on valittu &quot;Ulkopuolinen URL&quot; (&quot;External URL&quot;).</label>
+			<label index="shortcut.description">Anna sivulle referenssi johon tämänsivun tulisi olla oikopolku.</label>
+			<label index="shortcut.details">Klikkaa &quot;Selaile tietueita&quot; (&quot;Browse for records&quot;) ikonia ja uusi ikkuna aukeaa jossa voit helposti valikoida sivun jonne oikopolun tulisi johtaa.
+
+Tämä vaihtoehto on käytössä ainoastaan jos sivun tyypiksi on valittu &quot;Oikopolku&quot; (&quot;Shortcut&quot;).</label>
+			<label index="shortcut.image_descr">Valitse sivu pikavalintaan/oikopolkuun Elementti Selaimella.</label>
+			<label index="keywords.description">Anna sivun avainsanat pilkuin erotettuina.</label>
+			<label index="keywords.details">Useimmat TYPO3 sivustot lisäävät nämä avainsanat Meta tageiksi sivulle.Tämä riippuu TypoScript mallinteesta.
+Avainsanoja voidaan käyttää myös hakupalvelussa.</label>
+			<label index="description.description">Anna lyhyt kuvaus sivusta.</label>
+			<label index="description.details">Yseimmat TYPO3 websivustot lisäävät tämän kuvauksen meta-tag tietona sivulle. Tämä riippuuTypoScript mallinteesta.</label>
+			<label index="abstract.description">Anna abstrakti sivusta.</label>
+			<label index="abstract.details">Abstrakti on lyhyt kuvaus sivun sisällöstä. Se eroaa kuvaus tiedost siten ettei siihen tallenneta Meta-tag tietoja.
+Periaatteessa abstraktin käyttö on riippuvainen TypoScript mallinteesta. Voit käyttää tätä tietokenttää kuten itse haluat.
+Kuitenkin on eräs selittävä käyttö tälle tiedolle useimmissa TYPO3 websivustoissa: Jos lisäät elementti tyypin Valikko/Sivustokartta (Menu/Sitemap)ja valitset alatyypin Alasivujen Valikko ('Menuof subpages') näille sivuille (abstraktin kera), tulee tämän tietokentän sisältö näytettäväksi lyhyenä kuvauksena listalla.</label>
+			<label index="newUntil.description">Anna sivun 'vanhenemispäiväys'.</label>
+			<label index="newUntil.details">'Vanhenemispäiväyksellä&quot; ei ole mitään vaikutusta näytetäänkö sivua vai ei. Arvo on tarkoitettu lähinnä sisäiseen käyttöön kun sivuja on uudistettava.
+Joten jos sivun tiedot vanhenevat tulevaisuudessa, voit asettaa tämän päiväyksen arvion.
+Jos haluat nähdä katsauksen sivujen vanhenemispäivistä, käytä 'Web&gt;Info' aliohjelmasta (modulista) Sivurakenteen katsausta ('Pagetree overview') valintaa.</label>
+			<label index="newUntil.syntax">Katso Sivu / Aloita (Page / Start) (klikkaa alta)</label>
+			<label index="lastUpdated.description">Anna aika ja päiväys sivun viimeisimmästä päivityksestä.</label>
+			<label index="lastUpdated.details">Kuinka tämän kentän arvoa käytetään päätellään websivuston TypoScript mallinteesta. Ensiksikin 'Viime päivitys' ('Last updated')huomautus tulee olla lisättynä sivuille ja toiseksi mallinne on määriteltävä käyttämään tätä tietoa.
+Kaikkein tavallisen tapa, joka löytyy vakiomallinteista, on automaattisesti lisätä viimeisen sivun päivityksen aika ja päiväystieto &lt;em&gt;ellei&lt;/em&gt; tällä tiedolla haluta antaa muuta jossa tapauksessa tätä tietoa käytetään.</label>
+			<label index="lastUpdated.syntax">Muoto on HH:MM DD-MM-YYYY.
+Jos lisäät, esim. 'd' lisätään tämän hetkinen aika ja päiväys. Voit lisätä kenttään myös muita arvoja esim. '+10' ja se lisää 10 päivää tämän hetkiseen tietoon.</label>
+			<label index="nav_hide.description">Tällä vaihtoehdolla sivu piilotetaan edustan valikoista. Sivu voidaan kuitenkin nähdä jos sitä osoitetaan linkillä suodaan sivun ID numeroon.</label>
+			<label index="nav_title.description">Vaihtoehtoinen sivun otsikko edustalla. Tämä tieto saa etusijan sivun otsikossa jos se on täytetty.</label>
+			<label index="content_from_pid.description">Jos asetettu, on tämä vaihtoehtoisen sivun ID josta sivun sisältö elementti haetaan sivun oman ID:llä osoitetun sisällön sijasta. Toiminnon suoritustapa riippuu kuinka mallissa (Template) toiminnan suoritus on asetettu.</label>
+			<label index="urltype.description">Aseta URL etuliite.</label>
+			<label index="shortcut_mode.description">Valitse oikopolku tapa. Oletuksena oikopolku sivu tyypissä on oltava sivun ID jonne siirrytään. Vaihtoehtoiset menetelmät ovat siirtyminen ensimmäiselle alasivulle tai satunnaiselle alasivulle.</label>
+			<label index="mount_pid.description">Aseta tämän sivun ID. Tämä tarkoittaa että tämän (nykyisen) sivun alasivuiksi tulevat asetetun sivun alasivut.</label>
+			<label index="mount_pid.details">Edustalla tämä tehdään siten etää asettaan uusi muuttuja, &amp;MP, parametreihin joilla liitetään asetettu sivuston haara sivun vastaaviin ID numeroihin.</label>
+			<label index="mount_pid_ol.description">Jos asetettu, asetuspiste ylitetään asetetulla sivulla. Tämä näyttää kuin asetuspistetta ei olisikaan ja asetettu sivu olisi sen poisteen tilalla.</label>
+			<label index="l18n_cfg.description">...</label>
+			<label index="title.description.+">Tämä näytetään normaalisti websivuston valikoissa.</label>
+			<label index="TSconfig.details.+">&lt;strong&gt;Esimerkki:&lt;/strong&gt;
+Tavallisesti 'Web&gt;Page' moduli antaa sinun luoda sisältöä neljään sarakkeeseen, Vasen, Normaali, Oikea, Raja. Kuitenkin useimmat web sivustot käyttävätvain yhtä tai kahta saraketta.
+Joten jotkin näistä sarakkeista vain vievät tilaa tai jopa häiritsevät käyttäjiä.
+Jos annat tämän merkkijonon  'TSconfig' tiedossa, 'Web&gt;Page' moduli antaa sinun työskennellävain  'Normaali' ja 'Raja' sarakkeissa!
+
+&lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
+
+(Tämä täytyy antaa yhtenä yhtämittaisena rivinä!)
+
+Täydellinen eri vaihtoehtojen kuvaus löytyy 'Adminguide' PDF-dokumentti.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="layout.details" type="integer">123495083</label>
+			<label index="doktype.description" type="integer">89204505</label>
+			<label index="doktype.details" type="integer">205867744</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="hidden.details" type="integer">170290748</label>
+			<label index="hidden.image_descr" type="integer">40371339</label>
+			<label index="starttime.description" type="integer">225330621</label>
+			<label index="starttime.syntax" type="integer">171815971</label>
+			<label index="endtime.description" type="integer">239481021</label>
+			<label index="endtime.syntax" type="integer">211075317</label>
+			<label index="fe_group.description" type="integer">229271696</label>
+			<label index="extendToSubpages.description" type="integer">20650362</label>
+			<label index="extendToSubpages.details" type="integer">115883799</label>
+			<label index="alias.description" type="integer">29393799</label>
+			<label index="alias.details" type="integer">50416805</label>
+			<label index="alias.syntax" type="integer">229529597</label>
+			<label index="target.description" type="integer">183968307</label>
+			<label index="target.details" type="integer">205973778</label>
+			<label index="no_cache.description" type="integer">234280457</label>
+			<label index="no_cache.details" type="integer">183323316</label>
+			<label index="cache_timeout.description" type="integer">146302636</label>
+			<label index="cache_timeout.details" type="integer">129628311</label>
+			<label index="no_search.description" type="integer">174061864</label>
+			<label index="author.description" type="integer">35641560</label>
+			<label index="author.details" type="integer">176990818</label>
+			<label index="author_email.description" type="integer">263994700</label>
+			<label index="module.description" type="integer">122892371</label>
+			<label index="module.details" type="integer">126572114</label>
+			<label index="media.description" type="integer">152445229</label>
+			<label index="media.details" type="integer">240202631</label>
+			<label index="subtitle.description" type="integer">159881469</label>
+			<label index="subtitle.details" type="integer">166941594</label>
+			<label index="url.description" type="integer">209817224</label>
+			<label index="url.details" type="integer">250598916</label>
+			<label index="shortcut.description" type="integer">240899258</label>
+			<label index="shortcut.details" type="integer">176691787</label>
+			<label index="keywords.description" type="integer">155037793</label>
+			<label index="keywords.details" type="integer">116300479</label>
+			<label index="description.description" type="integer">146429238</label>
+			<label index="description.details" type="integer">1046794</label>
+			<label index="abstract.description" type="integer">166752438</label>
+			<label index="abstract.details" type="integer">3439611</label>
+			<label index="newUntil.description" type="integer">266998258</label>
+			<label index="newUntil.details" type="integer">114574224</label>
+			<label index="newUntil.syntax" type="integer">211075317</label>
+			<label index="lastUpdated.description" type="integer">210484482</label>
+			<label index="lastUpdated.details" type="integer">91723581</label>
+			<label index="lastUpdated.syntax" type="integer">4766933</label>
+			<label index="title.description.+" type="integer">122833099</label>
+			<label index="TSconfig.details.+" type="integer">196409432</label>
+			<label index="extendToSubpages.image_descr" type="integer">5558852</label>
+			<label index="urltype.description" type="integer">135670396</label>
+			<label index="shortcut.image_descr" type="integer">254986047</label>
+			<label index="nav_hide.description" type="integer">109378815</label>
+			<label index="nav_title.description" type="integer">207408422</label>
+			<label index="content_from_pid.description" type="integer">255780249</label>
+			<label index="shortcut_mode.description" type="integer">243396073</label>
+			<label index="mount_pid.description" type="integer">87831904</label>
+			<label index="mount_pid.details" type="double">7308921</label>
+			<label index="mount_pid_ol.description" type="integer">59925493</label>
+			<label index="l18n_cfg.description" type="integer">49560386</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="layout.details">This option may not have any impact on the page design since it depends on how (and if) the front end template uses it. In most default templates it's not used.</label>
+			<label index="doktype.description">Select a page type affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">'Standard' and 'Advanced' types are regular webpages, just differing in the number of options.
+'External URL' and 'Shortcut' types allows you to let a page be a shortcut to either an external URL or in the latter case a page in the page tree.
+'Not in menu' is also a regular page, but will not be shown in the navigation. &lt;em&gt;This page type is deprecated! Please use the &quot;Hide in menu&quot; option!&lt;/em&gt;
+'Backend User Section' is an option which requires a backend user to be logged in for the page to be visible.
+
+&lt;b&gt;Special types:&lt;/b&gt;
+'Spacer' is only meaningfull if your frontend navigation is programmed to use it. In this case it does not represent a page with content but is intended to be a non-clickable placeholder in the navigation.
+'SysFolder' is a page type which cannot be shown as a webpage but is rather acting as a storage for records of your choice.
+'Recycler' is a garbage can. Pages and records in a recycler are not visible in the frontend.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="hidden.details">The 'Hidden', 'Start', 'Stop' and 'Access' options are all about limiting access to pages and thus they are related in functionality. In any case where a page is not visible due to one of these options, the page will not show up in the site navigation.
+Notice, these options are related &lt;em&gt;only&lt;/em&gt; to the page for which they are set. If you want their effect to cover the subpages as well, you must enable the 'Include subpages' option.
+When you're logged in as a backend user you can preview hidden pages if you have read access to them.</label>
+			<label index="hidden.image_descr">The page icon of a hidden page is dimmed and a red X is added.
+If you view a page that is hidden and you are logged in into the backend you will still be able to see the page. The red &quot;Preview&quot; box will tell you that this page is visible to you because of this special circumstance.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the page will be visible online. Use this to 'publish' the page on a certain date. If 'Start' time is not set, the page will be online instantly (unless the page is hidden otherwise).</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a 'd' the current date is inserted. You can also append any value in the field with eg. '+10' which will add 10 days to the current value. For instance setting the value to 'd+10' would select a date 10 days from now.</label>
+			<label index="endtime.description">The 'Stop' time is the date from which the page will not be online anymore.</label>
+			<label index="endtime.syntax">See Page / Start (click below)</label>
+			<label index="fe_group.description">If 'Access' is set to a usergroup name, only website users which are members of the selected usergroup will be able to view the page when they are logged in. The special option 'Hide at login' means the page will &lt;em&gt;not&lt;/em&gt; be visible for website users that are logged in. Likewise &quot;Show at login&quot; will make the page visible for any logged in frontend user.</label>
+			<label index="extendToSubpages.description">By default the Start, Stop, Access and Hidden options are effective &lt;em&gt;only&lt;/em&gt; for the page on which they are set. If the option 'Include subpages' is checked for the page, then their effect is inherited by all subpages to that page.</label>
+			<label index="extendToSubpages.details">Consider a scenario where you want to create a whole section of subpages only visible for users which are logged in. Setting the 'Access' option for the top page in the section would affect access to that page only. So the page would not show up in the navigation unless you are logged in.
+However the subpages would still be visible if one could guess the id-number of the pages and enter it manually in the URL. But setting this option would extend the effect of the top page setting to cover all subpages as well.</label>
+			<label index="alias.description">An 'alias' is a unique identification string for a page. You can use this string instead of the id-number to refer to the page.</label>
+			<label index="alias.details">Ultimately a page is identified by its id-number. For instance you may refer to a page in TYPO3 by '.../?id=123'. If the page with id '123' has the alias 'one_two_three', then the URL '.../?id=one_two_three' would display exactly the same page, because 'one_two_three' is an alias for the id '123'.
+Normally you should assign aliases only to a limited number of pages, preferably those you need to link to a lot. In most TYPO3 configurations you would be able to use the syntax '.. &amp;lt;link one_two_three&amp;gt;go to the page&amp;lt;/link&amp;gt; ..' to create a link to the page. This is easier to remember.
+Another use is if you need to change which page such a link is referring to. In that case you can delete the alias for one page and enter it for another and all links pointing to the alias would now refer to another id-number.</label>
+			<label index="alias.syntax">An alias can contain only lowercase alphanumeric characters and must be unique.
+Please notice: If the entered value was not unique, it will automatically be prepended with a number.</label>
+			<label index="target.description">The HTML target of menu items linking to this page.</label>
+			<label index="target.details">Set this value only to overrule the default link, which should be configured correctly for most pages in the website TypoScript template.</label>
+			<label index="no_cache.description">This option disables server caching of the page.</label>
+			<label index="no_cache.details">Normally pages in TYPO3 are cached on the server after being constructed for the first time. This means a page is displayed much faster the second time it's requested.
+For most pages this presents no problems - rather it's boosting the performance of the website.
+However you may need to disable caching for a page if it contains dynamic content which must not be cached under any circumstances. Normally the PHP-code rendering such content is programmed to disable the caching automatically. But in any case you can force the page not to be cached via this option.</label>
+			<label index="cache_timeout.description">Sets the cache timeout for the page.</label>
+			<label index="cache_timeout.details">By default pages last for 24 hours in the cache. After that period the page is constructed again and rewritten to the cache. Depending on your configuration, the cache may also be cleared at midnight.
+Anyhow you may here set another timeout time for the page in cache if you need to.
+This option is used quite rarely.</label>
+			<label index="no_search.description">If enabled, this option excludes the page from searching operations on the website.</label>
+			<label index="author.description">Enter the page authors name.</label>
+			<label index="author.details">Whether the author name is used or not depends on the template. For most templates this value is not used.
+If you're using TYPO3 pages as 'articles' then you could use this field to display the name of the page (article) author.</label>
+			<label index="author_email.description">Enter the page authors email address.</label>
+			<label index="module.description">Define the page as a frontend 'module'.</label>
+			<label index="module.details">In the backend there is a module called 'Web&gt;Modules' as well as a header 'Modules' in the 'User&gt;Task Center'. Both functions list the available 'Frontend modules' to which the user has access.
+Basically, setting this option just marks the page so the backend knows this page contains eg. a forum or is the root page of a shopping section on the website. And based on this knowledge the backend is able to display a shortcut list as well as relevant functionality in the 'Web&gt;Modules' module. The frontend display is - largely - not affected.
+So in effect, by 'marking' a page to be a 'Shop' module simply means it'll show up in the shortcut list of modules in the backend.
+
+There may be a little more to it than this, but for details on the subject, you must refer to the administration documentation.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+			<label index="media.description">Attach media files related to the page.</label>
+			<label index="media.details">This fields allows you to attach various files to the page record.
+If and how these files are used depends on your template. So basically which files you attach here and in which order they must be listed is determined by your specific website template and thus you should seek instructions in the documentation for your specific website.
+As an example this field could be used from the template to allow you to attach a logo-image to the page. Or the template might be programmed to expect the first file to be an image used as a link in the navigation menu. But remember, this totally depends on how this field is used in the programming of the template.</label>
+			<label index="subtitle.description">Enter a subtitle if needed.</label>
+			<label index="subtitle.details">Whether this field is used or not depends on the template. In most cases it's not used.
+You may use this field as you like in your own templates.</label>
+			<label index="url.description">Enter the URL to which this page is supposed to link.</label>
+			<label index="url.details">Example: 'http://www.typo3.com' or just 'www.typo3.com' provided the 'Type' selector is set to 'http://'.
+Use the 'Type' selector to select a prefix for the URL.
+
+This option is used only if the page 'Type' is set to 'External URL'.</label>
+			<label index="shortcut.description">Insert a reference to the page to which this page is supposed to be a shortcut. Requesting this ID in the frontend will redirect people to the page referred to by this value.</label>
+			<label index="shortcut.details">Click the 'Browse for records' icon and a new window will appear in which you can easily select the page to which the shortcut is supposed to link.
+
+This option is used only if the page 'Type' is set to 'Shortcut'.</label>
+			<label index="keywords.description">Enter keywords for the page separated by commas.</label>
+			<label index="keywords.details">Most TYPO3 websites use these keywords in a meta-tag on the page. Depends on the TypoScript template. The keywords may also be used for searching og building menus.</label>
+			<label index="description.description">Enter a short description for the page.</label>
+			<label index="description.details">Most TYPO3 websites insert this description in a meta-tag on the page. Depends on the TypoScript template.</label>
+			<label index="abstract.description">Enter an abstract for the page.</label>
+			<label index="abstract.details">An abstract is a short description of the page content. It's different from the Description field in the fact that it's not inserted in any meta-tags.
+Basically the use of the abstract depends on the TypoScript template. You may use this field for user defined purposes as you like.
+However there is one explicit use with most TYPO3 websites: If you insert a content element of the type 'Menu/Sitemap' and select the subtype 'Menu of subpages to these pages (with abstract)' then the content of this field will be displayed as a short description in the list.</label>
+			<label index="newUntil.description">Enter the 'expiry date' of the page.</label>
+			<label index="newUntil.details">The 'expiry date' of the page has no effect on the display of the webpage. This value is rather for internal use meant as a reminder of the date when the content of this page should be revised. So if the content of the page will be outdated at a certain point in time, you could set this value to that approximate date.
+In order to obtain an overview of the expiry dates of pages, use the 'Pagetree overview' in the 'Web&gt;Info' module.</label>
+			<label index="newUntil.syntax">See Page / Start (click below)</label>
+			<label index="lastUpdated.description">Enter the time and date of the most recent update of this page.</label>
+			<label index="lastUpdated.details">How the value of this field is used is determined by the TypoScript template of the website. First of all a 'Last updated' notice needs to be inserted on the pages and secondly the template must be configured to use this value.
+The most common use which is found in the standard templates will automatically display the last update time and date &lt;em&gt;unless&lt;/em&gt; this field specifies a value in which case this value is inserted.</label>
+			<label index="lastUpdated.syntax">Format is HH:MM DD-MM-YYYY.
+If you insert eg. a 'd' the current time and date is inserted. You can also append any value in the field with eg. '+10' which will add 10 days to the current value.</label>
+			<label index="title.description.+">This is normally shown in the website navigation.</label>
+			<label index="TSconfig.details.+">&lt;strong&gt;Example:&lt;/strong&gt;
+Normally the 'Web&gt;Page' module lets you create content in four columns, Left, Normal, Right, Border. However most websites use only a single or two columns. So some of these content columns are just taking up space and may even be confusing to users.
+If you enter this string in the 'TSconfig' field, the 'Web&gt;Page' module will allow you to work only in the 'Normal' and 'Border' column!
+
+&lt;em&gt;mod.web_layout.tt_content.colPos_list = 0,3&lt;/em&gt;
+
+(Must be entered in a single line!)</label>
+			<label index="extendToSubpages.image_descr">This page icon has access restricted to a certain group and &quot;Include subpages&quot; set as well. This is reflected in the way the icon changed look.</label>
+			<label index="urltype.description">Set the URL prefix.</label>
+			<label index="shortcut.image_descr">Select a page to shortcut to by the Element Browser.</label>
+			<label index="nav_hide.description">With this option the page will be hidden in navigation menus in the frontend. The page can still be viewed if linked by its ID directly.</label>
+			<label index="nav_title.description">Alternative title for menu items in the frontend. This value takes precedence over the page title if this value is filled in.</label>
+			<label index="content_from_pid.description">If set, this is an alternative page id from where Content Elements will be selected instead of Content Elements from the current page.
+Depends on template implementation whether this applies.</label>
+			<label index="shortcut_mode.description">Select a shortcut mode. By default the shortcut page type must have a page id to jump to. Alternative methods are to go to the first subpage of a page or to a random subpage.</label>
+			<label index="mount_pid.description">Mount this page id. If set it means that the subpages of this page comes from the mounted page instead.</label>
+			<label index="mount_pid.details">In the frontend this is done by adding a new variable, &amp;MP, to the parameters which links the mounted branch to the main branch by pairing page ids.</label>
+			<label index="mount_pid_ol.description">If set, the mount point is &quot;overlaid&quot; by the mounted page. It will look like if the mount point does not exist and the mounted page is inserted in its position instead.</label>
+			<label index="l18n_cfg.description">...</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

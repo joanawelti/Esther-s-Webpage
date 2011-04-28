@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel">資料庫可靠性檢查</label>
+			<label index="mlang_labels_tabdescr">在這裡你可以檢查由$TCA設定的資料庫的可靠性。例如所有的記錄一定要屬於一個網頁記錄。加上附加於記錄上的上載檔案(一般存於uploads/*資料夾中)也會被檢查。你也可以檢視所有樹圖(包括己刪除的網頁)。最後你已有存取整體資料庫搜尋工具的權限。&lt;br/&gt;&lt;em&gt;只許「管理員」使用者使用!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB檢查</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="mlang_labels_tablabel">Database integrity check</label>
+			<label index="mlang_labels_tabdescr">Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB check</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

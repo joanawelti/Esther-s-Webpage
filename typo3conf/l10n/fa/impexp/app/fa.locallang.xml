@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="import">وارد کردن از t3d.</label>
+			<label index="export">صادر کردن به t3d.</label>
+			<label index="title">وارد کردن/صادر کردن</label>
+			<label index="moduleFunction.tx_impexp_modfunc1">پيش‌تنظيمات صادر کردن</label>
+			<label index="tableselec_configuration">پيکربندي</label>
+			<label index="exportdata_savedFile">پرونده ضبط شده</label>
+			<label index="exportdata_problemsSavingFile">مشکلات در حين ضبط پرونده</label>
+			<label index="exportdata_badPathS">مسير بد:&quot;%s&quot;</label>
+			<label index="exportdata_filePreset">پرونده و پيش‌تنظيمات</label>
+			<label index="exportdata_advancedOptions">انتخاب‌هاي پيشرفته</label>
+			<label index="exportdata_messages">پيام‌ها</label>
+			<label index="execlistqu_structureToBeExported">ساختار براي صادر شدن</label>
+			<label index="execlistqu_maxNumberLimit">محدوديت خداکثر تعداد!</label>
+			<label index="makeconfig_exportPagetreeConfiguration">صادر‌کردن پيکربندي درخت صفحه:</label>
+			<label index="makeconfig_tree">درخت:</label>
+			<label index="makeconfig_tablesOnThisPage">جدول‌هاي روي اين صفحه</label>
+			<label index="makeconfig_expandedTree">درخت پهن شده</label>
+			<label index="makeconfig_onlyThisPage">فقط اين صفحه</label>
+			<label index="makeconfig_1Level">۱ سطح</label>
+			<label index="makeconfig_2Levels">۲ سطح</label>
+			<label index="makeconfig_3Levels">۳ سطح</label>
+			<label index="makeconfig_4Levels">۴ سطح</label>
+			<label index="makeconfig_infinite">بي‌نهايت</label>
+			<label index="makeconfig_levels">سطح‌ها:</label>
+			<label index="makeconfig_includeTables">شامل کردن جدول‌ها:</label>
+			<label index="makeconfig_maxNumberOfRecords">حداکثر تعداد رکوردها:</label>
+			<label index="makeconfig_exportSingleRecord">صادرکردن رکورد تکي:</label>
+			<label index="makeconfig_record">رکورد:</label>
+			<label index="makeconfig_exportTablesFromPages">صادرکردن جدول‌ها از صفحات:</label>
+			<label index="makeadvanc_update">به‌روزرسانی</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="import" type="integer">176109005</label>
+			<label index="export" type="integer">243149277</label>
+			<label index="title" type="integer">159173914</label>
+			<label index="moduleFunction.tx_impexp_modfunc1" type="integer">34124876</label>
+			<label index="tableselec_configuration" type="integer">39122498</label>
+			<label index="exportdata_savedFile" type="integer">115450939</label>
+			<label index="exportdata_problemsSavingFile" type="integer">217500640</label>
+			<label index="exportdata_badPathS" type="integer">254355411</label>
+			<label index="exportdata_filePreset" type="integer">131837887</label>
+			<label index="exportdata_advancedOptions" type="integer">165660117</label>
+			<label index="exportdata_messages" type="integer">69068502</label>
+			<label index="execlistqu_structureToBeExported" type="integer">198018009</label>
+			<label index="execlistqu_maxNumberLimit" type="integer">193350209</label>
+			<label index="makeconfig_exportPagetreeConfiguration" type="integer">37597973</label>
+			<label index="makeconfig_tree" type="integer">56313694</label>
+			<label index="makeconfig_tablesOnThisPage" type="integer">85076309</label>
+			<label index="makeconfig_expandedTree" type="integer">168668529</label>
+			<label index="makeconfig_onlyThisPage" type="integer">203612347</label>
+			<label index="makeconfig_1Level" type="integer">200641290</label>
+			<label index="makeconfig_2Levels" type="integer">228799796</label>
+			<label index="makeconfig_3Levels" type="integer">195275893</label>
+			<label index="makeconfig_4Levels" type="integer">97262614</label>
+			<label index="makeconfig_infinite" type="integer">185655876</label>
+			<label index="makeconfig_levels" type="integer">252893175</label>
+			<label index="makeconfig_includeTables" type="integer">186581448</label>
+			<label index="makeconfig_maxNumberOfRecords" type="integer">29568678</label>
+			<label index="makeconfig_exportSingleRecord" type="integer">36722263</label>
+			<label index="makeconfig_record" type="integer">204948081</label>
+			<label index="makeconfig_exportTablesFromPages" type="integer">50982422</label>
+			<label index="makeadvanc_update" type="double">6894342</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="import">Import from .t3d</label>
+			<label index="export">Export to .t3d</label>
+			<label index="title">Import / Export</label>
+			<label index="moduleFunction.tx_impexp_modfunc1">Export Presets</label>
+			<label index="tableselec_configuration">Configuration</label>
+			<label index="exportdata_savedFile">SAVED FILE</label>
+			<label index="exportdata_problemsSavingFile">Problems saving file</label>
+			<label index="exportdata_badPathS">Bad path: &quot;%s&quot;</label>
+			<label index="exportdata_filePreset">File &amp; Preset</label>
+			<label index="exportdata_advancedOptions">Advanced Options</label>
+			<label index="exportdata_messages">Messages</label>
+			<label index="execlistqu_structureToBeExported">Structure to be exported:</label>
+			<label index="execlistqu_maxNumberLimit">Max number limit!</label>
+			<label index="makeconfig_exportPagetreeConfiguration">Export pagetree configuration:</label>
+			<label index="makeconfig_tree">Tree:</label>
+			<label index="makeconfig_tablesOnThisPage">Tables on this page</label>
+			<label index="makeconfig_expandedTree">Expanded tree</label>
+			<label index="makeconfig_onlyThisPage">Only this page</label>
+			<label index="makeconfig_1Level">1 level</label>
+			<label index="makeconfig_2Levels">2 levels</label>
+			<label index="makeconfig_3Levels">3 levels</label>
+			<label index="makeconfig_4Levels">4 levels</label>
+			<label index="makeconfig_infinite">Infinite</label>
+			<label index="makeconfig_levels">Levels:</label>
+			<label index="makeconfig_includeTables">Include tables:</label>
+			<label index="makeconfig_maxNumberOfRecords">Max number of records:</label>
+			<label index="makeconfig_exportSingleRecord">Export single record:</label>
+			<label index="makeconfig_record">Record:</label>
+			<label index="makeconfig_exportTablesFromPages">Export tables from pages:</label>
+			<label index="makeadvanc_update">Update</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

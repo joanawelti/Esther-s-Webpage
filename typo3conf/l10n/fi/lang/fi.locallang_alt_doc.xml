@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="deleteItem">Poista</label>
+			<label index="deleteWarning">Haluatko varmasti poistaa tämän tietueen?</label>
+			<label index="undoLastChange">Kumoa/tee uudestaan viimeinen muutos (%s kertaa)</label>
+			<label index="recordHistory">Katsele tietueen muutoshistoriaa</label>
+			<label index="editWholeRecord">Muokkaa koko tietuetta</label>
+			<label index="openDocs">AVOIMET DOKUMENTIT</label>
+			<label index="noDocuments">Ei avoimia dokumentteja</label>
+			<label index="noDocuments_msg">Ei avoimia dokumentteja muokattavaksi.</label>
+			<label index="noDocuments_msg2">Voit siirtyä %s löytääksesi sivun tai tietueen jota haluat muotoilla.</label>
+			<label index="noDocuments_msg3">Voit valita yhden viimeksi muotoilluista tietueista tältä listalta:</label>
+			<label index="noDocuments_pagemodule">WWW&gt;Sivu -moduli</label>
+			<label index="noDocuments_OR">tai</label>
+			<label index="noDocuments_listmodule">WWW&gt;Lista -moduli</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="editWholeRecord" type="integer">195506325</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_msg" type="integer">264542935</label>
+			<label index="noDocuments_msg2" type="integer">15726238</label>
+			<label index="noDocuments_msg3" type="integer">187019899</label>
+			<label index="noDocuments_pagemodule" type="integer">126847616</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+			<label index="noDocuments_listmodule" type="integer">97512249</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

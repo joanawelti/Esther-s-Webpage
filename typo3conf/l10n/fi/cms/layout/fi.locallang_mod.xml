@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="mlang_labels_tablabel">Sivun sisältö</label>
+			<label index="mlang_labels_tabdescr">Tällä modulilla luot, muokkaat ja ylläpidät www-sivujasi. Pikamuokkauksella pääset suoraan käsiksi sivun ensimmäiseen sisältöelementtiin. Voit myös hallita useita eri kieliä ja sarakkeita sivuillasi. Lisäksi pääset erityisiin sisältöihin käsiksi, kuten esimerkiksi vieraskirjaan, keskustelusivuille ja kauppasivuille. Moduli näyttää myös käyttötilastot sivuittain.</label>
+			<label index="mlang_tabs_tab">Sivu</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="mlang_labels_tablabel" type="integer">73079758</label>
+			<label index="mlang_labels_tabdescr" type="integer">259361662</label>
+			<label index="mlang_tabs_tab" type="integer">26464201</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

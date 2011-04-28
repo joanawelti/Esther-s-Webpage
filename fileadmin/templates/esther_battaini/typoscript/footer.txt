@@ -1,0 +1,3 @@
+lib.footer = HTML
+lib.footer.value = <ul><li class="first">Esther Battaini</li><li>Dominikanische Republik</li><li>esther@test.ch</li></ul>
+

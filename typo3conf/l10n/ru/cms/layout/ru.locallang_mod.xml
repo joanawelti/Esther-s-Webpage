@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel">Содержимое страницы</label>
+			<label index="mlang_labels_tabdescr">Этот модуль позволяет создавать и изменять веб-страницы. С помощью этого редактора вы можете легко получить доступ к основным записям страницы. Кроме того вы можете работать над различным языковым содержимым или же над содержимым в различных полях страницы. Также здесь возможен доступ к специальным записям, например из гостевой книги, форума или же магазина. Данный модуль также показывает статистику посещений на отдельных страницах.</label>
+			<label index="mlang_tabs_tab">Страница</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel" type="integer">73079758</label>
+			<label index="mlang_labels_tabdescr" type="integer">259361662</label>
+			<label index="mlang_tabs_tab" type="integer">26464201</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel">Page content</label>
+			<label index="mlang_labels_tabdescr">This module allows you to create and edit webpages, view page hit statistics, manage different languages and columns of content per page and access special page contents like guesbooks and shopping items.</label>
+			<label index="mlang_tabs_tab">Page</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

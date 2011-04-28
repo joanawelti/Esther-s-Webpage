@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="Bold-Tooltip">Полужирный</label>
+			<label index="Italic-Tooltip">Курсив</label>
+			<label index="StrikeThrough-Tooltip">Зачёркнутый</label>
+			<label index="Subscript-Tooltip">Подстрочный знак</label>
+			<label index="Superscript-Tooltip">Надстрочный знак</label>
+			<label index="Underline-Tooltip">Подчёркнутый</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="Bold-Tooltip" type="integer">18137861</label>
+			<label index="Italic-Tooltip" type="integer">30962801</label>
+			<label index="StrikeThrough-Tooltip" type="integer">223909343</label>
+			<label index="Subscript-Tooltip" type="integer">153638286</label>
+			<label index="Superscript-Tooltip" type="integer">103903129</label>
+			<label index="Underline-Tooltip" type="integer">139620890</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="Bold-Tooltip">Bold</label>
+			<label index="Italic-Tooltip">Italic</label>
+			<label index="StrikeThrough-Tooltip">Strike-through</label>
+			<label index="Subscript-Tooltip">Subscript</label>
+			<label index="Superscript-Tooltip">Superscript</label>
+			<label index="Underline-Tooltip">Underline</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

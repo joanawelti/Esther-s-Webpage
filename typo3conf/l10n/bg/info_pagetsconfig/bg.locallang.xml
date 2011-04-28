@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="tsconf_title">TSconfig за страница</label>
+			<label index="tsconf_parts_0">Всички</label>
+			<label index="tsconf_parts_1">Модулния ключ ('mod') с отменени потребителски настройки</label>
+			<label index="tsconf_parts_1a">Модул: Уеб&gt;Страница</label>
+			<label index="tsconf_parts_1b">Модул: Уеб&gt;Преглед</label>
+			<label index="tsconf_parts_1c">Модул: Уеб&gt;Модули</label>
+			<label index="tsconf_parts_1d">Модул: Уеб&gt;Списък</label>
+			<label index="tsconf_parts_1e">Модул: Уеб&gt;Инфо</label>
+			<label index="tsconf_parts_1f">Модул: Уеб&gt;Функции</label>
+			<label index="tsconf_parts_1g">Модул: Уеб&gt;Шаблон</label>
+			<label index="tsconf_configFields">Преглед на TSconfig полетата със съдържание</label>
+			<label index="editThisColumn">Редактиране на полето '%s' за всички изброени страници</label>
+			<label index="editTSconfig">Редактиране на TSconfig за тази страница</label>
+			<label index="editTSconfig_all">Редактиране на TSconfig за всички показани страници</label>
+			<label index="editTSconfig_default">Подразбираща конфигурация от TYPO3_CONF_VARS</label>
+			<label index="mod_pagetsconfig">TSconfig за страница</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="tsconf_title" type="integer">102716901</label>
+			<label index="tsconf_parts_0" type="integer">186422474</label>
+			<label index="tsconf_parts_1a" type="integer">52234483</label>
+			<label index="tsconf_parts_1b" type="integer">150910794</label>
+			<label index="tsconf_parts_1c" type="integer">94827801</label>
+			<label index="tsconf_parts_1d" type="integer">213817282</label>
+			<label index="tsconf_parts_1e" type="integer">162251880</label>
+			<label index="tsconf_parts_1f" type="integer">206456787</label>
+			<label index="tsconf_parts_1g" type="integer">242913604</label>
+			<label index="mod_pagetsconfig" type="integer">102716901</label>
+			<label index="tsconf_configFields" type="integer">41802033</label>
+			<label index="editThisColumn" type="integer">35820296</label>
+			<label index="editTSconfig" type="integer">88216336</label>
+			<label index="editTSconfig_all" type="integer">218125815</label>
+			<label index="editTSconfig_default" type="integer">153424219</label>
+			<label index="tsconf_parts_1" type="integer">72569551</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="tsconf_title">Page TSconfig</label>
+			<label index="tsconf_parts_0">All</label>
+			<label index="tsconf_parts_1a">Module: Web&gt;Page</label>
+			<label index="tsconf_parts_1b">Module: Web&gt;View</label>
+			<label index="tsconf_parts_1c">Module: Web&gt;Modules</label>
+			<label index="tsconf_parts_1d">Module: Web&gt;List</label>
+			<label index="tsconf_parts_1e">Module: Web&gt;Info</label>
+			<label index="tsconf_parts_1f">Module: Web&gt;Func</label>
+			<label index="tsconf_parts_1g">Module: Web&gt;Template</label>
+			<label index="mod_pagetsconfig">Page TSconfig</label>
+			<label index="tsconf_configFields">View TSconfig fields content</label>
+			<label index="editThisColumn">Edit the field '%s' for all listed pages</label>
+			<label index="editTSconfig">Edit TSconfig for this page</label>
+			<label index="editTSconfig_all">Edit TSconfig for all shown pages</label>
+			<label index="editTSconfig_default">Default Configuration from TYPO3_CONF_VARS</label>
+			<label index="tsconf_parts_1">Module key ('mod') with overruling user settings</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

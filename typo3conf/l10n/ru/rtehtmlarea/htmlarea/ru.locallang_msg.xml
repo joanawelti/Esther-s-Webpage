@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="Path">Путь</label>
+			<label index="TEXT_MODE">Вы работает в текстовом режиме. Чтобы перейти в визуальный режим, нажмите [&lt;&gt;]</label>
+			<label index="ActiveX-required">Для загрузки редактора в Internet Explorer необходимо, что бы выполнение компонентов ActiveX было разрешено.</label>
+			<label index="HTML-document-not-well-formed">HTML документ содержит ошибки (нарушены требования well-formed).</label>
+			<label index="Moz-Clipboard">Обычные (непривелигированые) скрипты не могут работать с буфером обмена (выполнять копирование/вырезание/вставку) из-за встроеной системы безопасности броузера. Нажмите ОК, чтобы узнать (на английском языке) как разрешить использование буфера обмена.</label>
+			<label index="Moz-Extension">Из соображений безопасности, непривилегированные приложения не могут использовать буфер обмена. Нажмите OK что бы установить компонент, который позволит приложениям с этого сайта использовать буфер обмена для операций копирования, вырезания и вставки.</label>
+			<label index="Moz-Extension-Success">Установка успешно завершена. Для того, что бы изменения вступили в силу Вам необходимо перезагрузить браузер.</label>
+			<label index="Moz-Extension-Failure">Извините, но установка неудалась.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Невозможно провести установку. Пожалуйста, измените настройки вашего браузера что бы разрешить установку программного обеспечения с этого сайта.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Из соображений безопасности, непривилегированные приложения не могут использовать буфер обмена. Нажмите OK, что бы установить компонент, который позволит вам указать сайты или страницы, которым будет разрешён доступ к буферу обмена для операций копирования, вырезания и вставки.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Невозможно провести установку. Пожалуйста, измените настройки вашего браузера что бы разрешить установку программного обеспечения с http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Установка успешно завершена. Для того, что бы изменения вступили в силу Вам необходимо перезагрузить браузер. После этого используйте помощник разрешения буфера обмена (AllowClipboard Helper) из меню инструментов, что бы указать сайты которым будет разрешён доступ к буферу обмена.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

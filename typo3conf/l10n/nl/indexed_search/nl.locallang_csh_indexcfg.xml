@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Met de Geïndexeerd Zoeken configuratie kunt u bronnen indexeren die buiten de TYPO3 paginaboom vallen. Dit kan een bibliotheek van records zijn (zoals tt_news), een structuur van bestanden (zoals PDF-en) of een externe URL die tot enige diepte doorgenomen moet worden of content van een derde partij doorgegeven door extensies via hooks.</label>
+			<label index=".details">De Indexering Configuratie records worden gebruikt om aan te geven hoe de indexering plaats vindt, op welke tijd en hoe de relatie is aan de paginaboom. Een belangrijke vereiste om in gedachten te houden is dat de &quot;crawler&quot; extensie geinstalleerd dient te zijn, omdat de indexeringsmachine de &quot;crawler&quot; extensie wachtrij gebruikt als een aftelmechanisme - en gebruik maken van de &quot;crawler&quot; extensie betekent gebruik maken van een cron-job van de shell.</label>
+			<label index="title.description">Geef een titel voor de configuratie.</label>
+			<label index="description.description">Geef indien noodzakelijk een omschrijving of plaats andere belangrijke opmerkingen in dit veld.</label>
+			<label index="hidden.description">Maak de configuratie tijdelijk ongedaan middels dit markeerveld. Als deze ongedaan gemaakt is zal de configuratie niet gebruikt worden door de cron job.</label>
+			<label index="hidden.details">Opmerking: Door een indexeringsproces ongedaan te maken zal de reeds geindexeerde inhoud niet verborgen worden in zoekresultaten!</label>
+			<label index="starttime.description">Geef een starttijd voor de configuratie. Als een starttijd gegeven is zal de configuratie niet gebruikt worden door de &quot;crawlers&quot; cronjob totdat deze tijd bereikt is.</label>
+			<label index="timer_frequency.description">Gebruik deze instelling om aan te geven hoe vaak u een herindexeringsproces plaats wilt laten vinden voor de configuratie.</label>
+			<label index="timer_offset.description">De offset past de tijd van de dag aan waarop u het indexeringsproces plaats wilt laten vinden.</label>
+			<label index="timer_next_indexing.description">Dit veld bevat de datum en tijd van de volgende indexeringssessie. Als deze leeg gelaten wordt zal de volgende indexering plaats vinden op het moment dat het cron-script opnieuw gaat draaien (vaak binnen de volgende minuut) en zal nadien bijgesteld worden op de volgende tijd afgaande op de frequentie en de offset.</label>
+			<label index="type.description">Kies het type van de Indexeringsconfiguratie.</label>
+			<label index="type.details">&lt;b&gt;Database Records&lt;/b&gt; - Het is mogelijk om records van specifieke pagina's en specifieke database tabellen te indexeren. U kunt hier bepalen welke velden van zo'n record geindexeerd worden en hoe additionele GET parameters er uit moeten zien als er gelinkt wordt naar het zoekresultaat.
+&lt;b&gt;Bestandspad op de server&lt;/b&gt; - Staat toe om een heel bestandspad te indexeren in de fileadmin/ map. Optioneel kunt u de recursieve diepte aangeven.
+&lt;b&gt;Externe URL&lt;/b&gt; - Dit geeft u de mogelijkheid om een externe website te indexeren en hierbinnen te zoeken vanuit uw TYPO3 installatie! U kunt aangeven hoe diep de crawler in deze externe URL moet gaan.
+&lt;b&gt;Paginaboom&lt;/b&gt; - Staat toe om de paginaboom te indexeren middels het cronscript. Dit type is niet bruikbaar als een zoekcategorie zoals andere typen.
+&lt;b&gt;Metaconfiguratie&lt;/b&gt; - Verwijst naar een verzameling van andere indexeringsconfiguraties waarbinnen de zoekopdracht plaats zal vinden. Dit kan niet gebruikt worden in samenwerking met een cronjob gebaseerde indexering.
+&lt;b&gt;Overig&lt;/b&gt; - Andere extensies kunnen andere configuratietypen toevoegen.</label>
+			<label index="table2index.description">Geef de databasetabel aan waarvan records geïndexeerd moeten worden.</label>
+			<label index="alternative_source_pid.description">Standaard zullen tijdens het indexeren records gekozen worden van de pagina waarbinnen de configuratie is opgeslagen. Als u een alternatieve pagina als bron voor uw records wilt gebruiken kunt u dat hier aangeven.</label>
+			<label index="get_params.description">Voer de GET parameters in die nodig zijn om de zoekresultaten te tonen. U kunt ###UID### als markeerpunt gebruiken in het parametersjabloon.</label>
+			<label index="get_params.details">Opmerking: De GET parameters worden toegevoegd aan de URL van de pagina waar de Indexeringsconfiguratie is opgeslagen (welke een pagina moet zijn waar een plugin bestaat die de records kan tonen met de opgegeven parameters!)
+Voorbeeld waarde: &quot;&amp;showUid=###UID###&quot;</label>
+			<label index="fieldlist.description">Voer een komma gescheiden lijst van velden in die geindexeerd moeten worden. De eerste veldnaam zal gebruikt worden voor de titel van het zoekresultaat.</label>
+			<label index="fieldlist.details">&lt;b&gt;Voorbeeld:&lt;/b&gt; &quot;header,bodytext,image_caption&quot; zal de kop, de bodytekst en het onderschrift van afbeeldingen uit &quot;tt_content&quot; indexeren. Merk op dat u de echte databaseveldnamen gebruikt. Maak hierin geen spelfouten!</label>
+			<label index="chashcalc.description">Indien aangevinkt, zal de URL in het zoekresultaat voor de records voorzien worden met een &quot;&amp;cHash&quot; parameter om deze cachebaar te maken. Gebruik dit alleen als de plugin dit toelaat!</label>
+			<label index="recordsbatch.description">Geef aan hoeveel records geïndexeerd worden per keer tijdens het indexeringsproces (hoeveel per minuut). Standaard is 100 records.</label>
+			<label index="records_indexonchange.description">Indien aangevinkt zullen nieuwe en veranderde records van deze tabel geindexeerd worden middels een zogenaamde hook in de core (TCEmain). Dit betekent dat zij onmiddelijk na toevoeging tot het systeem vindbaar zijn.</label>
+			<label index="externalUrl.description">Voer de URL in van de externe website die u wilt indexeren.</label>
+			<label index="url_deny.description">Voer de URL's in van de mappen waar de crawler niet in mag afzakken.</label>
+			<label index="url_deny.details">Voorbeeld:
+Als u &quot;http://typo3.org&quot; wenst te indexeren maar niet &quot;http://typo3.org/extensions/&quot; en &quot;http://typo3.org/downloads/&quot; dan dient u deze twee URL's in het veld in te voeren zoals hier:
+
+http://typo3.org/downloads/
+http://typo3.org/extensions/</label>
+			<label index="filepath.description">Voer de bestandmap in fileadmin/ in waarin u de bestanden wenst te indexeren.</label>
+			<label index="filepath.details">Voorbeeld: &quot;fileadmin/nieuwsbrieven/&quot;</label>
+			<label index="extensions.description">Als u alleen specifieke bestanden in een map wilt indexeren, kunt u hier een lijst van bestandsextensies ingeven. Bijvoorbeeld: &quot;html,pdf,doc&quot;</label>
+			<label index="depth.description">Recursief diepte</label>
+			<label index="depth.details">Geef het aantal niveau's aan waarbinnen de indexering van mappen plaats moet vinden. Voor externe URL's is dit de diepte van het aantal links dat de crawler zal volgen.</label>
+			<label index="indexcfgs.description">Als een zoekopdracht plaats vindt in de indexeringsconfiguratie, zal de eigenlijke zoekopdracht plaats vinden in de geindexeerde inhoud van de hier getoonde configuraties. U kunt hier ook pagina's aangeven waardoor de zoekopdracht plaats zal vinden in de indexeringsconfiguraties die gevonden worden in deze pagina's.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">236048633</label>
+			<label index=".details" type="integer">33180133</label>
+			<label index="title.description" type="integer">101115713</label>
+			<label index="description.description" type="integer">71563733</label>
+			<label index="hidden.description" type="integer">205875653</label>
+			<label index="hidden.details" type="integer">154935713</label>
+			<label index="starttime.description" type="integer">80561389</label>
+			<label index="timer_frequency.description" type="integer">217866213</label>
+			<label index="timer_offset.description" type="integer">106785971</label>
+			<label index="timer_next_indexing.description" type="integer">20548169</label>
+			<label index="type.description" type="integer">17983076</label>
+			<label index="type.details" type="integer">234105237</label>
+			<label index="table2index.description" type="double">12518999</label>
+			<label index="alternative_source_pid.description" type="double">4661618</label>
+			<label index="get_params.description" type="integer">203820507</label>
+			<label index="get_params.details" type="integer">186603052</label>
+			<label index="fieldlist.description" type="integer">145915429</label>
+			<label index="fieldlist.details" type="integer">66869317</label>
+			<label index="chashcalc.description" type="integer">116193731</label>
+			<label index="recordsbatch.description" type="integer">185749442</label>
+			<label index="records_indexonchange.description" type="integer">267790567</label>
+			<label index="externalUrl.description" type="integer">166464570</label>
+			<label index="url_deny.description" type="integer">103424011</label>
+			<label index="url_deny.details" type="integer">215945478</label>
+			<label index="filepath.description" type="integer">22108393</label>
+			<label index="filepath.details" type="integer">73154051</label>
+			<label index="extensions.description" type="integer">255817846</label>
+			<label index="depth.description" type="integer">199251578</label>
+			<label index="depth.details" type="integer">106342963</label>
+			<label index="indexcfgs.description" type="double">10425425</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">The Indexed Search configuration allows you to set up indexing of resources which are external to the TYPO3 page tree. This could be a library of records (like news), a directory structure of files (like PDFs) or an external URL to be crawled to some depth - or third-party content provided from other extensions via hooks.</label>
+			<label index=".details">The Indexing Configuration records are used to set up how the indexing occurs, at which time and related to which part of the page tree. An important requirement to keep in mind is that the &quot;crawler&quot; extension must be installed since the indexing engine uses the &quot;crawler&quot; extensions queue as a timing device - and using the &quot;crawler&quot; extension means using a cron-job to activate it from the shell.</label>
+			<label index="title.description">Provide a title for the configuration.</label>
+			<label index="description.description">If needed, give it a description or put other important notes in this field.</label>
+			<label index="hidden.description">Disable the configuration by this checkbox. If disabled, the configuration will be bypassed by the crawlers cron job.</label>
+			<label index="hidden.details">Notice; Disabling the indexing process will not hide already indexed content in search results!</label>
+			<label index="starttime.description">Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</label>
+			<label index="timer_frequency.description">Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</label>
+			<label index="timer_offset.description">The offset adjusts at what time of day you want the indexing process to run.</label>
+			<label index="timer_next_indexing.description">This field contains the date and time of the next occuring indexing session. If left blank the next indexing will occur as soon as the cron-script is run again (typically within the next minute) and afterwards set to the next time according to frequency and offset.</label>
+			<label index="type.description">Select the type of Indexing Configuration here.</label>
+			<label index="type.details">&lt;b&gt;Records&lt;/b&gt; - You will be able to index records on a specified page from a specified database table. You can determine which fields from that record you want to index and how additional GET parameters should look like when linking to the search result.
+&lt;b&gt;Files&lt;/b&gt; - Allows you to index a whole directory of files from the fileadmin/ folder. You can optionally specify how many levels of recursion you want.
+&lt;b&gt;External URL&lt;/b&gt; - Allows you to index an external site and search it from your TYPO3 installation! You can specify how deep the crawler should go on that external URL.
+&lt;b&gt;Page tree&lt;/b&gt; - Allows you to index the page tree using the cron script. This type will not be useful as a category for searching like the other types.
+&lt;b&gt;Meta configuration&lt;/b&gt; - Points to a collection of other indexing configurations in which the search will be done. Cannot be used for cron-job based indexing.
+&lt;b&gt;Custom&lt;/b&gt; - Other extensions might register custom types of configurations.</label>
+			<label index="table2index.description">Specify the database table to index records from.</label>
+			<label index="alternative_source_pid.description">By default the indexer will select records from the page id where the Indexing Configuration is stored. If you want an alternative page as the source of your records you can enter it here.</label>
+			<label index="get_params.description">Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</label>
+			<label index="get_params.details">Notice: The GET parameters are appended to the URL of the page where the Indexing Configuration is stored (which must be the page where a plugin exists that can display the records with the given parameters!).
+Example value: &quot;&amp;showUid=###UID###&quot;</label>
+			<label index="fieldlist.description">Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</label>
+			<label index="fieldlist.details">&lt;b&gt;Example:&lt;/b&gt; &quot;header,bodytext,image_caption&quot; would index the Header, Bodytext and Image Caption fields from &quot;tt_content&quot;. Notice that you must use the real database field names, don't spell them wrong!</label>
+			<label index="chashcalc.description">If checked, the URL in the search result for records will be encoded with a &quot;&amp;cHash&quot; parameter to make it cachable. Use only if supported by the plugin!</label>
+			<label index="recordsbatch.description">Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</label>
+			<label index="records_indexonchange.description">If set, new and changed records from this table will be indexed through a hook in the core (TCEmain) meaning that they will be searchable immediately after addition to the system.</label>
+			<label index="externalUrl.description">Enter the URL of the external website you want to index.</label>
+			<label index="url_deny.description">Enter a URL on each line inside of which the crawler should not decend.</label>
+			<label index="url_deny.details">Example: 
+If you wish to index &quot;http://typo3.org/&quot; but not &quot;http://typo3.org/extensions/&quot; and &quot;http://typo3.org/downloads/&quot; then you simply enter those two URLs into the box like this:
+
+http://typo3.org/downloads/
+http://typo3.org/extensions/</label>
+			<label index="filepath.description">Enter a filepath inside fileadmin/ where you want the files to be indexed.</label>
+			<label index="filepath.details">Example: &quot;fileadmin/newsletters/&quot;</label>
+			<label index="extensions.description">If you want to index only specific files in the directory, enter a list of file extensions here. For example: &quot;html,pdf,doc&quot;</label>
+			<label index="depth.description">Levels of recursion.</label>
+			<label index="depth.details">For file indexing it is the level of directories to decend. For External URLs it's the depth to which the crawler will go with links.</label>
+			<label index="indexcfgs.description">When a search is conducted in this indexing configuration the actual search will take place in the indexed content from the configurations listed here. You can also enter pages and if you do so the search will take place in indexing configurations found on those pages.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index=".description">Ceci est l'interface BE d'administration des groupes utilisateurs disponible pour les utilisateurs BE: ici sont déterminées les permissions pour les utilisateurs BE.</label>
+			<label index=".details">Les groupes contiennent les paramètres de permissions que vous pouvez attribuer pour un utilisateur backend. La plupart des utilisateurs peuvent être membre du même groupe et donc partager les même permissions.
+Quand un utilisateur est memebre de plusieurs groupe (sous-groupe inclus) alors les paramètres de permission sont additionnés si bien que les permissions augmentent avec le nombre de groupe auquel il appartient.</label>
+			<label index="title.description">Nom du groupe utilisateur Backend. Le nom doit être descriptif et peut toujours être modifié par la suite.</label>
+			<label index="title.image_descr">Le titre du groupe utilisateur et affiché dans la liste des enregistrements.</label>
+			<label index="db_mountpoints.description">Définit la racine de l'arborescence pour les membres du groupe.</label>
+			<label index="db_mountpoints.details">L'arborescence de pages vue dans les sous-modules web en naviguant doit avoir des points d'entrée définis. Ici vous devriez insérer une ou plusieurs références à des pages qui représenteront de nouvelles pages racine dans l'arborescence. Ceci est appelé un 'point de montage de base de données' (DB mounts, faisant référence à la notion de point de montage Unix)
+Les DB mounts peuvent hérités des utilisateurs qui sont membres de ce groupe. Ceci dépend de la façon dont l'utilisateur est configuré, s'il doit inclure les DB mounts spécifiés dans son (ses) groupes. Cependant il est recommandé d'utiliser les groupes utilisateures comme ceci pour configurer les montages, surtout s'ils doivent être partagés par un grand nombre d'utilisateurs</label>
+			<label index="file_mountpoints.description">Définit les points d'entrée pour l'arborescence de fichiers.</label>
+			<label index="pagetypes_select.description">Choisissez quels 'Types' de pages le membre peut installer.</label>
+			<label index="tables_modify.description">Choisissez quelles tables le membre peut modifier.</label>
+			<label index="tables_select.description">Choisissez quelles tables le membre peut voir dans la liste des enregistrements (les tables sur lesquelles il a les droit de modification n'ont pas besoin d'être rentrées à nouveau ici!).</label>
+			<label index="non_exclude_fields.description">Certain champs des tables ne sont pas disponible par défaut. Ces champs peuvent être autorisé explicitement pour les membres du groupe ici.</label>
+			<label index="hidden.description">Désactive un groupe utilisateur.</label>
+			<label index="hidden.details">Si vous désactivez un groupe utilisateur  tous ses utilisateurs n'hériterons plus des propriétés que ce groupe leur attribuait.</label>
+			<label index="lockToDomain.description">Entrez le nom de machine depuis lequel l'utilisateur est obligé de s'identifier.</label>
+			<label index="groupMods.description">Choisissez les modules backend disponible pour le membre du groupe.</label>
+			<label index="TSconfig.syntax">Syntaxe Typoscript sans condition ni constantes.</label>
+			<label index="subgroup.description">Choisissez le groupe utilisateur backend qui est automatiquement inclus pour les membres de ce groupe.</label>
+			<label index="allowed_languages.description">Choisissez les langues auxquelles le groupe à les droits d'éditions.</label>
+			<label index="allowed_languages.details">Les enregistrements dans TYPO3 peuvent contenir des informations concernant leur langue. Si c'est le cas alors l'accès à ces enregistrements est permis uniquement si l'utilisateur à cette langue dans sa liste.
+Si un utilisateur na pas de langue dans sa liste alors cela signifie qu'il peut éditer &lt;em&gt;toutes&lt;/em&gt; les langues!</label>
+			<label index="custom_options.description">Choisissez les options de permission personnalisées.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="db_mountpoints.details" type="integer">43503742</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+			<label index="tables_select.description" type="integer">79180839</label>
+			<label index="non_exclude_fields.description" type="integer">17658287</label>
+			<label index="hidden.description" type="integer">190841262</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index=".details" type="integer">152748622</label>
+			<label index="groupMods.description" type="integer">249603367</label>
+			<label index="subgroup.description" type="integer">244521906</label>
+			<label index="allowed_languages.description" type="integer">33891430</label>
+			<label index="custom_options.description" type="integer">233721502</label>
+			<label index="TSconfig.syntax" type="integer">185290164</label>
+			<label index="allowed_languages.details" type="integer">48640895</label>
+			<label index="hidden.details" type="integer">191806419</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="db_mountpoints.details">The page tree in TYPO3 must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a &quot;Database mount&quot; or &quot;DB mount&quot;.
+DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
+However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+			<label index="tables_select.description">Select which tables the members may see in record lists ('modify' tables does not need to be re-entered here!).</label>
+			<label index="non_exclude_fields.description">Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</label>
+			<label index="hidden.description">Disables a user group.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index=".details">Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</label>
+			<label index="groupMods.description">Select available backend modules for the group members.</label>
+			<label index="subgroup.description">Select backend user groups which are automatically included for members of this group.</label>
+			<label index="allowed_languages.description">Select which record languages the group members are limited to edit.</label>
+			<label index="custom_options.description">Select custom permission options.</label>
+			<label index="TSconfig.syntax">TypoScript syntax without conditions and constants.</label>
+			<label index="allowed_languages.details">Records in TYPO3 can be configured to carry information about their language. If that is the case access to these elements will also be evaluated based on whether the user has the language in question included from this list.
+If a user has no languages listed all together it simply means that he can edit &lt;em&gt;all&lt;/em&gt; languages!</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

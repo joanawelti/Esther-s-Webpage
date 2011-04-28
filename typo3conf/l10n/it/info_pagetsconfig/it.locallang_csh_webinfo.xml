@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Visualizzatore gerarchico TSconfig della pagina</label>
+			<label index="tsconfig_hierarchy.description">Permette all'utente di visualizzare la struttura compilata TSconfig della pagina per un ramo dell'albero delle pagine.</label>
+			<label index="tsconfig_hierarchy.details">Questo visualizzatore è indispensabile per ottenere una descrizione delle impostazioni del TSconfig della pagina poichè si applicano a tutti i rami dell'albero della pagina. Si possono vedere le configurazioni della struttura di ogni pagina dove sono ereditati i TSconfig e mostrati i risultati. Questo aiuta a valutare le impostazioni date siano trovate e posizionate nel giusto punto dell'albero. E' inoltre possibile vedere il codice TypoScript del TSconfig della pagina per ogni pagina collegata con la radice visualizzata.
+
+Vedere i links per maggiori informazioni sul TSconfig della pagina.</label>
+			<label index="tsconfig_edit.alttitle">Visualizzatore del TSconfig della pagina</label>
+			<label index="tsconfig_edit.description">Visualizza il codice grezzo di TSconfig di tutte le pagine nella radice corrente includendo il codice di default.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="tsconfig_hierarchy.alttitle" type="integer">57288638</label>
+			<label index="tsconfig_hierarchy.description" type="integer">34139528</label>
+			<label index="tsconfig_hierarchy.details" type="integer">177660665</label>
+			<label index="tsconfig_edit.alttitle" type="integer">123654165</label>
+			<label index="tsconfig_edit.description" type="integer">148641553</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Page TSconfig hierarchy viewer</label>
+			<label index="tsconfig_hierarchy.description">Allows the user to view the compiled Page TSconfig structure for a branch of the pagetree.</label>
+			<label index="tsconfig_hierarchy.details">This viewer is indispensable for getting an overview of Page TSconfig settings as they apply to various branches in the page tree. You can see the configuration structure of any page where all inherited Page TSconfig is parsed and the result shown. This helps you to evaluate that the settings you have applied are actually found at the correct position in the configuration tree.
+You can also see the Page TSconfig TypoScript code for each page in the root line with the viewer.
+
+See the links for more information about what Page TSconfig is.</label>
+			<label index="tsconfig_edit.alttitle">Page TSconfig content viewer</label>
+			<label index="tsconfig_edit.description">Displays the raw TSconfig code of all pages in the current root line including any default code.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

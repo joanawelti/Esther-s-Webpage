@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index=".description">Dette er Backend administrasjon av brukergrupper tilgjengelige for Backend brukere. Disse bestemmer tilgangsrettighetene for Backend brukere.</label>
+			<label index=".details">Grupper inneholder tilgangsinnstillingene du kan sette for en Backend bruker. Mange brukere kan være medlem av samme gruppe, og dele rettigheter. Når en bruker er medlem av mange grupper (inkl. undergrupper) vil rettighetene legges sammen slik at desto flere grupper en bruker er medlem av, desto større tilgangsrettigheter har han.</label>
+			<label index=".image_descr">Backend brukergrupper finnes i roten av sidetreet. Bare administratorer kan redigere dem, Brukergruppene med røde ikon i bildet er de med tilgangsinnstillinger aktivert. De blå er vanlige brukergrupper. Denne brukergruppen har tilgangsinnstillinger (Access List) aktivert. I tilgangsinnstillinger (Access List) setter du opp hvilke moduler, tabeller, databasefelt osv. gruppens medlemmer har tilgang til i TYPO3.</label>
+			<label index="title.description">Navnet på Backend-brukergruppe. Navnet bør være beskrivende, og kan alltid endres sener.</label>
+			<label index="title.details">Backend-brukergrupper er identifisert ved deres &quot;uid&quot; feltverdi (integer) og derfor kan tittelen (navnet) alltid endres. &quot;Uid&quot; kan aldri endres for en brukergruppe.</label>
+			<label index="title.image_descr">Navnet på brukergruppen vises i elementoversikten.</label>
+			<label index="db_mountpoints.description">Definere rot i sidetre for gruppemedlemer</label>
+			<label index="db_mountpoints.details">Sidetreet i TYPO3 må ha et startpunkt definert. Her bør du legg til en eller flere referanser til sider som vil representere startpunkt for sidetreet. Dette kalles &quot;Database Mount&quot; eller &quot;DB mount&quot;.
+DB mount &lt;i&gt;kan&lt;/i&gt; arves av brukere som er medlem av gruppen. Dette er avhengig av om brukeren er konfigurert til å inkludere &quot;mounts&quot; satt opp i brukergruppen.
+Uansett er det anbefalt å bruke Backend brukergrupper til å konfigurere &quot;mounts&quot;. Spesielt dersom de trengs å deles mellom mange brukere.</label>
+			<label index="db_mountpoints.image_descr">Her en side lagt til som &quot;DB mount&quot;... ... og i sidetreet til gruppemedlemmer vil dette bli startpunktet for sidetreet.</label>
+			<label index="file_mountpoints.description">Definer startpunkt for filliste.</label>
+			<label index="file_mountpoints.details">Fillisten brukes av alle fil undermodulene for å navigere filkatalogene på webserveren. Dersom du ønsker at brukere skal ha tilgang til filsystemet gjennom TYPO3, trenger de minst et &quot;File Mount&quot; (og tilgang til eks. Filer &gt; Filliste modul).
+Du kan angi en sti i &quot;fileadmin/&quot; relativt til TYPO3 installasjonen eller du kan angi en absolutt sti et annet sted på webserveren. Det siste krever at TYPO3_CONF_VARS[BE][lockRootPath] defineres (installasjon). Stien du angir er definert ved &quot;Filemount&quot; elementet du referer til med dette feltet. En &quot;File Mount&quot; peker bare til et annet element her hvor detaljene er konfigurert. Se bildet under.
+&quot;admin&quot; brukere har alltid &quot;fileadmin/&quot; katalogene angitt som standard. Kommentar: som ved &quot;DB mounts&quot; filkatalog angivelsene kan arves av brukere som er medlemmer av gruppen.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index=".details" type="integer">152748622</label>
+			<label index=".image_descr" type="integer">13061130</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="title.details" type="integer">131557834</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="db_mountpoints.details" type="integer">43503742</label>
+			<label index="db_mountpoints.image_descr" type="integer">217823442</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="file_mountpoints.details" type="integer">65754039</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index=".details">Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</label>
+			<label index=".image_descr">Backend Usergroups are found in the root of the page tree where only &quot;admin&quot; users can edit them. The usergroups with red icons in this image are the ones with Access Lists enabled. The blue are just plain usergroups.
+This usergroup has Access Lists enabled. In the Access Lists you specify which modules, tables, database fields etc. the group members can access in TYPO3.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="title.details">Backend Usergroups are identified by their &quot;uid&quot; field value (integer) and therefore the title can always be changed. The &quot;uid&quot; can never be changed for a user group.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="db_mountpoints.details">The page tree in TYPO3 must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a &quot;Database mount&quot; or &quot;DB mount&quot;.
+DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
+However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</label>
+			<label index="db_mountpoints.image_descr">Here a page is added as a &quot;DB mount&quot;...
+... and in the page tree of member users this will become the starting point for the page tree.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate the file folders on the webserver. If you want users to access the servers file system through TYPO3 they need at least one File Mount (and access to eg. File &gt; Filelist module).
+You can mount a path in &quot;fileadmin/&quot; relative to the TYPO3 installation or you can mount an absolute path somewhere else on the server (outside webroot!). The last requires that $TYPO3_CONF_VARS[BE][lockRootPath] is defined. The path you mount is defined by the Filemount record you refer to by this field. So a File Mount just points to another record inside of which the details are configured. See screen shots below.
+&quot;admin&quot; users always have the &quot;fileadmin/&quot; folder mounted by default.
+Notice; as with 'DB mounts' the file folder mounts may be inherited by the users which are members of this group.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

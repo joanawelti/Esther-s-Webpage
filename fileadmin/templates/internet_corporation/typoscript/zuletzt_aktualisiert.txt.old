@@ -1,0 +1,32 @@
+temp.lastactmenu = COA
+temp.lastactmenu {
+   5 = TEXT
+   5.value = Die 5 neuesten Beiträge der letzten Woche finden Sie hier:
+   5.wrap = |<br />
+   10 = HMENU
+   10 = HMENU
+   10 {
+        special = updated
+        special.value = 1
+        #special.mode = tstamp
+        special.maxAge = 3600*24*5
+        special.limit = 8
+        1 = TMENU
+        1.noBlur = 1
+        1.wrap = <ul class="updated">|</ul>
+        1.NO = 1
+        1.NO.linkWrap = <li class="updatedlink">|</li>
+	1.NO.stdWrap.dataWrap = |
+  	1.NO.after.cObject = TEXT
+ 	1.NO.after.cObject.wrap = <p class="mnuupdate">&nbsp;&nbsp;Aktualisiert:&nbsp; | </p>
+  	1.NO.after.cObject.field = SYS_LASTCHANGED
+  	1.NO.after.cObject.strftime = %A
+	1.CUR < .NO
+        1.CUR {
+            doNotLinkIt = 1
+            linkWrap = <li>|</li>
+         }
+      }
+
+}
+

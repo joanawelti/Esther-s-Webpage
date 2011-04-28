@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Ovo ja tablica backend korisnika.</label>
+			<label index="username.description">Unesite korisničko ime backend korisnika.</label>
+			<label index="username.details">Korisničko ime je obavezno i mora biti uneseno malim slovima bez razmaka. Korisničko ime mora biti jedinstveno. Ako nije uneseno jedinstveno korisničko ime sustav će mu automatski pridodati broj.</label>
+			<label index="password.description">Unesite zaporku za prethodno upisano korisničko ime (Zaporka koju unesete &lt;i&gt; biti će vidljiva&lt;/i&gt; u polju za unos.</label>
+			<label index="password.details">Zaporka je obavezna. Poslužitelju se ne šalje vrijednost same zaporke,
+već kod dobiven pomoću MD5-hash algoritma. Ovaj se postupak poštuje
+i kod administracije zaporke, kao i kod autentifikacije korisnika prilikom
+pristupanja poslužitelju.
+Iako ovaj princip ne otkriva pravu vrijednost zaporke, on &lt;i&gt;nije&lt;/i&gt;
+isto što i stvarna enkripcija. Ako trebate najviši stupanj sigurnosti,
+potrebno je instalirati Typo3 backend na sigurni popslužitelj.
+Zaporka je pohranjena u bazu podataka u MD5-hash obliku, pa je nemoguće
+iz te baze podataka otkriti izvornu zaporku.Zato u slučaju 'izgubljenje zaporke'
+ona se mora zamijeniti novom korisničkom zaporkom.</label>
+			<label index="usergroup.description">Dodijeli backend korisničke grupe korisniku.</label>
+			<label index="usergroup.details">Backend korisničke grupe određuju ovlasti koje će backend korisnik
+naslijediti. Zato, osim u slučaju da korisnik ima 'admin' ovlasti,
+korisnik mora biti član jedne ili više korisničkih grupa kako bi dobio
+potrebne ovlasti. Parametri ovlasti postavljeni u pojedinim korisničkim
+grupama se uglavnom zbrajaju.
+Prva (najviša) grupa u listi je grupa koja će u pravilu bit vlasnik stranica
+koje korisnik napravi.</label>
+			<label index="lockToDomain.description">Unesi ime računala s kojeg je korisnik prisiljen prijaviti se za rad.</label>
+			<label index="lockToDomain.details">TYPO3 sustav može imati višetruke domene koje upućuju na njega. Stoga ova opcija osigurava da se korisnici mogu prijaviti samo s određenog računala.</label>
+			<label index="disableIPlock.description">Onemogući zaključavanje određenog sessiona za udeljenu IP adresu.</label>
+			<label index="disableIPlock.details">Morati ćete isključiti ovo zaključavanje ako korisnici pristupaju backendu pomoću ISDN ili modemskih veza koje se mogu odspojiti i spojiti sa novom IP adresom.</label>
+			<label index="db_mountpoints.description">Dodijeli početne točke zkorisničkom stablu stranice.</label>
+			<label index="db_mountpoints.details">Stablo stranica koje koriste svi Web-podmoduli za navigaciju
+mora imati određene početne točke ulaska u stablo. Ovdje bi trebali
+upisati jednu ili više referenci na stranicu koja će predstavljati novu
+korijen stranicu u stablu stranica.
+To se naziva 'Poveznica baze podataka' (DB poveznica).
+
+&lt;strong&gt;Primjetite da&lt;/strong&gt; Backend korisničke grupe također
+sadrže DB poveznice koje korisnik može naslijediti. U slučaju da želite više
+korisnika koji dijele jedno stablo stranice, trebate napraviti poveznicu stabla
+stranice u backend korisničkoj grupi koju će korisnici naslijediti.</label>
+			<label index="file_mountpoints.description">Dodijeli početne točke stablu datoteka</label>
+			<label index="file_mountpoints.details">Stablo datoteka koriste svi podmoduli za navigaciju među direktorijima na web poslužitelju. Kako bi bili u mogućnosti izvršiti upload &lt;em&gt;bilo koje&lt;/em&gt; datoteke korisnik  &lt;em&gt;mora&lt;/em&gt; imati direktorij postavljen sa poddirektorijem nazvanim '_temp_' unutar njega (kamo idu uploadi).
+Primjetite da kao i sa 'DB mounts' direktoriji za datoteke isto mogu biti naslijeđeni od korisničke grupe kojoj pripada korisnik.</label>
+			<label index="email.description">Upišite email adresu korisnika.</label>
+			<label index="email.details">Ovu je adresu vrlo važno unijeti jer se na nju šalju sistemske poruke.
+&lt;strong&gt;Primjdba&lt;/strong&gt; Korisnik može sam mijenjati adresu
+u Korisnik&gt;Postavke modulu.</label>
+			<label index="realName.description">Unesi pravo ime korisnika, npr. Ivo Ivić</label>
+			<label index="realName.details">&lt;strong&gt;Napomena&lt;/strong&gt; Korisnik može sam mijenjati adresu u Korisnik&gt;Postavke modulu.</label>
+			<label index="disable.description">Ova mogućnost privremeno onemogućava korisniku pristup.</label>
+			<label index="admin.description">'Admin' korisnici imaju POTPUN pristup sustavu!</label>
+			<label index="admin.details">'Admin' može raditi sve što TYPO3 omogućuje i ovaj bi se tip korisnika trebao koristiti samo u administracijske svrhe. Sve drugo bi trebalo raditi s običnim korisnicima.
+'Admin' korisnici ne moraju biti članovi ni jedne korisničke grupe. Svejedno, treba imati na umu da će svaka stranica koju napravi admin korisnik koji nije član neke grupe biti napravljena bez zadanog vlasnika ili grupe, pa neće biti vidljiva ostalim korisnicima. Ako to postane problem, lako je rješiv time da se admin korisniku dodijeli neka postojeća grupa. Time se naravno ne utjeće na ovlasti jer su one ionako za admin korisnika neograničene.
+'Admin' korisnike je lako razaznati jer je njihova ikona u crvene umjesto plave boje običnog korisnika.
+
+Vjerovatno ne bi trebali odrediti nikoga osim sebe kao 'Admin' korisnika.</label>
+			<label index="options.description">Odaberite treba li korisnik naslijediti stablo stranica ili stablo direktorija od korisničkih grupa kojima pripada.</label>
+			<label index="options.details">Velika je prednost ukoliko se dopusti da korisnici naslijede postavljene direktorije od korisničkih grupa kojima pripadaju jer je na taj način administracija većeg broja korisnika vrlo laka.
+Ako ne odaberete ove opcije, morate osigurati da je stablo stranica i stablo direktorija postavljeno za svakog korisnika zasebno.</label>
+			<label index="fileoper_perms.description">Odaberite dozvole za rad s datotekama za korisnika.</label>
+			<label index="fileoper_perms.details">Ove postavke vrijede za funkcije u Datoteka&gt;Popis modulu kao i za općeniti upload datoteka.</label>
+			<label index="starttime.description">Unesite datum od kojeg će korisnički račun biti aktivan.</label>
+			<label index="endtime.description">Unesite datum od kojeg će korisnički račun biti onemogućen.</label>
+			<label index="lang.description">Odaberite &lt;i&gt;zadani&lt;/i&gt; jezik.</label>
+			<label index="lang.details">Ovom postavkom se određuje jezik backend sučelja korisnika. Svi glavni dijelovi sustava dostupni su u odabranom jeziku.
+'Admin' korisnici primjetiti će da su dijelovi TYPO3 namijenjeni samo 'Admin'-ima na engleskom. To uključuje sve podmodule u &quot;Tools&quot; i sve Web&gt;Template module.
+
+&lt;b&gt;Napomena&lt;/b&gt; Ova postavka vrijedi samo za zadani jezik. Čim se korisnik prijavi na sustav ova postavka se mora promieniti kroz User&gt;Setup modul.</label>
+			<label index="userMods.description">Odaberite backend module koji će biti dostupni korisniku</label>
+			<label index="userMods.details">Ovom postavkom se određuje sadržaj menija koji će biti dostupan korisniku.
+
+Primjetite da ista lista modula može biti konfigurirana za backend korisničke grupe te će u tom slučaju ona biti naslijeđena i dopunjena s modulima koji su ovdje selektirani. Poželjno je postavljati dostupne module putem backend korisničkih grupa umjesto dodavanja modula putem ove opcije. Naravno ova opcija vam omogućava da dodate pojedini modul specifičnom korisniku.</label>
+			<label index="TSconfig.description">Unesite dodatne TSconfig instrukcije za korisnika (napredno).</label>
+			<label index="TSconfig.details">Putem ovog polja moguće je proširiti konfiguraciju koirsnika u nekoliko detalja. Ukratko ovdje možete detaljnije konfigurirati backend module, postaviti za posebno za kosirnika predefinirana vrijednos tpojedninih polja, definirati postavke WYSWYG editora (RTE editor), itd. Popis opcije koje možete podešavati putem ovog polja raste s vremenom i u potpunosti je dokumentiran u administratorskoj dkoumentaciji, posebno u 'admin_guide.pdf' (pogledaj link ispod).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description" type="integer">174805996</label>
+			<label index="username.description" type="integer">169225297</label>
+			<label index="username.details" type="integer">26517555</label>
+			<label index="password.description" type="integer">182240439</label>
+			<label index="password.details" type="integer">135612209</label>
+			<label index="usergroup.description" type="integer">162325927</label>
+			<label index="usergroup.details" type="integer">30843346</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">140149042</label>
+			<label index="disableIPlock.description" type="integer">204135236</label>
+			<label index="disableIPlock.details" type="integer">27220559</label>
+			<label index="db_mountpoints.description" type="integer">83626085</label>
+			<label index="db_mountpoints.details" type="integer">21669967</label>
+			<label index="file_mountpoints.description" type="integer">103273463</label>
+			<label index="file_mountpoints.details" type="integer">170613745</label>
+			<label index="email.description" type="integer">102465996</label>
+			<label index="email.details" type="integer">119942305</label>
+			<label index="realName.description" type="integer">49868929</label>
+			<label index="realName.details" type="integer">184974335</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="admin.description" type="integer">200276487</label>
+			<label index="admin.details" type="integer">124287279</label>
+			<label index="options.description" type="integer">91490880</label>
+			<label index="options.details" type="integer">184652761</label>
+			<label index="fileoper_perms.description" type="integer">25345447</label>
+			<label index="fileoper_perms.details" type="integer">136693371</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="lang.description" type="integer">107431137</label>
+			<label index="lang.details" type="integer">191160570</label>
+			<label index="userMods.description" type="integer">247677460</label>
+			<label index="userMods.details" type="integer">132513125</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index="TSconfig.details" type="integer">220754092</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">This is the table of backend administration users. Backend users can login in the backend of TYPO3 and are typically producers of content on a website.</label>
+			<label index="username.description">Enter the login name of the backend user.</label>
+			<label index="username.details">A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</label>
+			<label index="password.description">Enter the password for the backend username above (Notice the value you enter &lt;i&gt;will&lt;/i&gt; be readable in the field!).</label>
+			<label index="password.details">The password is required. Before the password is sent to the server it's md5-hashed, so the password value itself is not transferred over the Internet. This is true both when editing the password and when the user logs in.
+While this principle does not reveal the raw password it is &lt;i&gt;not&lt;/i&gt; the same as real encryption. If you need the highest degree of security you should install the TYPO3 backend on a secure server.
+The password is stored in the database as an md5-hash and thus it's not possible to extract the original password from the database either. This means that 'lost passwords' must be substituted with a new password for the user.
+
+&lt;b&gt;Notice&lt;/b&gt;
+When you enter the password in the password field it is initially visible in clear text! First when the password field focus is lost will the password become a &quot;list of dots&quot;.
+
+&lt;b&gt;User changing password&lt;/b&gt;
+Users can change their password from the User &gt; Setup module</label>
+			<label index="usergroup.description">Assign backend user groups to the user.</label>
+			<label index="usergroup.details">The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
+The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</label>
+			<label index="disableIPlock.description">Disable the lock of the backend users session to the remote IP number.</label>
+			<label index="disableIPlock.details">You will have to disable this lock if backend users are accessing TYPO3 from ISDN or modem connections which may shutdown and reconnect with a new IP. The same would be true for DHCP assignment of IP numbers where new IP numbers are frequently assigned.</label>
+			<label index="db_mountpoints.description">Assign startpoints for the users page tree.</label>
+			<label index="db_mountpoints.details">The page tree used my all Web-submodules to navigate must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a 'Database mount'.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that backend user groups also has DB mounts which can be inherited by the user. So if you want a group of users to share a page tree, you should probably mount the page tree in the backend user group which they share instead.</label>
+			<label index="file_mountpoints.description">Assign startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate between the file folders on the webserver.
+Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
+See Backend Groups for details</label>
+			<label index="email.description">Enter the email address of the user.</label>
+			<label index="email.details">This address is rather important to enter because this is where messages from the system is sent.
+&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</label>
+			<label index="realName.description">Enter the ordinary name of the user, eg. John Doe.</label>
+			<label index="realName.details">&lt;strong&gt;Notice&lt;/strong&gt; the user is able to change this value by himself from within the User&gt;Setup module.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="admin.description">'Admin' users have TOTAL access to the system!</label>
+			<label index="admin.details">'Admin' can do anything TYPO3 allows and this kind of user should be used only for administrative purposes. All daily handling should be done with regular users.
+'Admin' users don't need to be members of any backend user groups. However you should be aware that any page created by an admin user without a group will not have any owner-group assigned and thus it will probably be invisible for other users. If this becomes a problem you can easily solve it by assigning a user group to the 'Admin' user anyway. This does of course not affect the permissions since they are unlimited, but the first group listed is by default the owner group of newly created pages.
+'Admin' users are easily recognized as they appear with a red icon instead of the ordinary blue user-icon.
+
+You should probably not assign any other users than yourself as an 'Admin' user.</label>
+			<label index="options.description">Select if the user should inherit page tree or folder tree mountpoints from member groups.</label>
+			<label index="options.details">It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
+If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</label>
+			<label index="fileoper_perms.description">Select file operation permissions for the user.</label>
+			<label index="fileoper_perms.details">These settings relates to the functions found in the File&gt;List module as well as general upload of files.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="lang.description">Select the &lt;i&gt;default&lt;/i&gt; language.</label>
+			<label index="lang.details">This determines the language of the backend interface for the user. All mainstream parts available for regular users are available in the system language selected.
+'Admin'-users however will experience that the 'Admin'-only parts of TYPO3 is in english. This includes all submodules in &quot;Tools&quot; and the Web&gt;Template module.
+
+&lt;b&gt;Notice&lt;/b&gt; this is only the default language. As soon as the user has logged in the language must be changed through the User&gt;Setup module.</label>
+			<label index="userMods.description">Select available backend modules for the user.</label>
+			<label index="userMods.details">This determines which 'menu items' are available for the user in the backend.
+
+Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index="TSconfig.details">This field allows you to extend the configuration of the user in severe details. A brief summary of the options include a more detailed configuration of the backend modules, setting of user specific default table field values, setting of Rich Text Editor options etc.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

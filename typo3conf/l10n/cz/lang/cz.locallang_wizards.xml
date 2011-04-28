@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="rte_undoLastChange">Zpět/Znovu poslední změnu (%s nazpět)</label>
+			<label index="tsprop">Hledat vlastnost Typoscriptu</label>
+			<label index="tsprop_TSref">TSref online</label>
+			<label index="tsprop_tsconfig">TSconfig online</label>
+			<label index="tsprop_title">Název objektu</label>
+			<label index="tsprop_prefix">Prefix objektu</label>
+			<label index="tsprop_mixer_indent">Odsadit +2</label>
+			<label index="tsprop_mixer_outdent">Odsadit -2</label>
+			<label index="tsprop_mixer_wrap">Zapouzdřit</label>
+			<label index="tsprop_mixer_transfer">Přenést &amp; Zavřít</label>
+			<label index="tsprop_addToList">Přidat do seznamu...</label>
+			<label index="table_title">Průvodce tabulkou</label>
+			<label index="table_smallFields">Malá pole</label>
+			<label index="table_addColumn">Přidat sloupec vpravo</label>
+			<label index="table_removeColumn">Odstranit sloupec</label>
+			<label index="table_addRow">Přidat řádku pod</label>
+			<label index="table_removeRow">Ostranit řádku</label>
+			<label index="table_left">Posunout vlevo</label>
+			<label index="table_right">Posunout vpravo</label>
+			<label index="table_up">Posunout nahoru</label>
+			<label index="table_down">Posunout dolů</label>
+			<label index="table_top">Posunout až nahoru</label>
+			<label index="table_bottom">Posunout až dolů</label>
+			<label index="table_start">Posunout do prvního sloupce</label>
+			<label index="table_end">Posunout do posledního sloupce</label>
+			<label index="table_noData">Nazadána žádná tabulka, pole nebo uid</label>
+			<label index="forms_title">Průvodce formulářem</label>
+			<label index="forms_refresh">Obnovit bez uložení</label>
+			<label index="forms_label">Popisek</label>
+			<label index="forms_type">Typ</label>
+			<label index="forms_type_textarea">Textová oblast</label>
+			<label index="forms_type_input">Vstupní pole</label>
+			<label index="forms_type_password">Heslo</label>
+			<label index="forms_type_file">Přenos souboru</label>
+			<label index="forms_type_check">Check box</label>
+			<label index="forms_type_select">Combo box</label>
+			<label index="forms_type_radio">Radio tlačítka</label>
+			<label index="forms_type_hidden">Skrytá hodnota</label>
+			<label index="forms_type_submit">Odesílací tlačítko</label>
+			<label index="forms_required">Vyžadováno</label>
+			<label index="forms_fieldName">Pole</label>
+			<label index="forms_cols">Sloupce</label>
+			<label index="forms_rows">Řádky</label>
+			<label index="forms_size">Velikost</label>
+			<label index="forms_max">Max</label>
+			<label index="forms_autosize">Automatická velikost</label>
+			<label index="forms_extra">Nezalamovat</label>
+			<label index="forms_default">Hodnota</label>
+			<label index="forms_multiple">Vícečetný</label>
+			<label index="forms_options">Seznam možností</label>
+			<label index="forms_checked">Zaškrtnuto</label>
+			<label index="forms_preview">Náhled prvku</label>
+			<label index="forms_element">Typ prvku</label>
+			<label index="forms_config">Podrobná konfigurace</label>
+			<label index="forms_eform_subject">Předmět</label>
+			<label index="forms_eform_recipient">E-mail příjemce</label>
+			<label index="forms_eform_html_enabled">Zvolen HTML mód</label>
+			<label index="forms_eform_formtype_mail">Popisek odesílacího tlačítka</label>
+			<label index="forms_special_eform">Speciální konfigurace pro e-mailové formuláře</label>
+			<label index="forms_type_property">Vlastnost</label>
+			<label index="forms_type_label">Označení</label>
+			<label index="colorpicker_title">Výběr barvy</label>
+			<label index="colorpicker_setClose">Uložit a zavřít</label>
+			<label index="colorpicker_colorValue">Vybraná barva:</label>
+			<label index="colorpicker_fromImage">Sejmout barvu z obrázku (klikněte na obrázek):</label>
+			<label index="colorpicker_fromMatrix">Vybrat barvu z palety (WWW &quot;bezpečné&quot; barvy):</label>
+			<label index="colorpicker_fromList">Vybrat jméno barvy HTML:</label>
+			<label index="colorpicker_black">ČERNÁ</label>
+			<label index="colorpicker_white">BÍLÁ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="rte_undoLastChange" type="integer">109787245</label>
+			<label index="tsprop" type="integer">45073770</label>
+			<label index="tsprop_TSref" type="integer">119834162</label>
+			<label index="tsprop_tsconfig" type="integer">243384557</label>
+			<label index="tsprop_title" type="integer">172299654</label>
+			<label index="tsprop_prefix" type="integer">35102440</label>
+			<label index="tsprop_mixer_indent" type="integer">48148976</label>
+			<label index="tsprop_mixer_outdent" type="integer">36140827</label>
+			<label index="tsprop_mixer_wrap" type="integer">169945881</label>
+			<label index="tsprop_mixer_transfer" type="integer">47301371</label>
+			<label index="tsprop_addToList" type="integer">135970903</label>
+			<label index="table_title" type="integer">252535019</label>
+			<label index="table_smallFields" type="integer">116673870</label>
+			<label index="table_addColumn" type="integer">4457870</label>
+			<label index="table_removeColumn" type="integer">5198593</label>
+			<label index="table_addRow" type="integer">240730244</label>
+			<label index="table_removeRow" type="integer">253938706</label>
+			<label index="table_left" type="integer">234587254</label>
+			<label index="table_right" type="integer">195367589</label>
+			<label index="table_up" type="integer">259501942</label>
+			<label index="table_down" type="integer">232386759</label>
+			<label index="table_top" type="integer">120043265</label>
+			<label index="table_bottom" type="integer">181578777</label>
+			<label index="table_start" type="integer">192358879</label>
+			<label index="table_end" type="integer">140964884</label>
+			<label index="table_noData" type="integer">166317379</label>
+			<label index="forms_title" type="integer">202256935</label>
+			<label index="forms_refresh" type="integer">17773422</label>
+			<label index="forms_label" type="integer">184688118</label>
+			<label index="forms_type" type="integer">169845367</label>
+			<label index="forms_type_textarea" type="integer">135041913</label>
+			<label index="forms_type_input" type="integer">163951494</label>
+			<label index="forms_type_password" type="integer">185890512</label>
+			<label index="forms_type_file" type="integer">205677908</label>
+			<label index="forms_type_check" type="integer">35664037</label>
+			<label index="forms_type_select" type="integer">189682630</label>
+			<label index="forms_type_radio" type="integer">146641062</label>
+			<label index="forms_type_hidden" type="integer">122270803</label>
+			<label index="forms_type_submit" type="integer">71911650</label>
+			<label index="forms_required" type="integer">191176445</label>
+			<label index="forms_fieldName" type="integer">116484703</label>
+			<label index="forms_cols" type="integer">23640109</label>
+			<label index="forms_rows" type="integer">87094408</label>
+			<label index="forms_size" type="integer">116837234</label>
+			<label index="forms_max" type="integer">111173937</label>
+			<label index="forms_autosize" type="integer">219459941</label>
+			<label index="forms_extra" type="integer">60246377</label>
+			<label index="forms_default" type="integer">109649956</label>
+			<label index="forms_multiple" type="integer">168554857</label>
+			<label index="forms_options" type="integer">117958823</label>
+			<label index="forms_checked" type="integer">40007223</label>
+			<label index="forms_preview" type="integer">17911285</label>
+			<label index="forms_element" type="integer">144583413</label>
+			<label index="forms_config" type="integer">46269441</label>
+			<label index="forms_eform_subject" type="integer">209228523</label>
+			<label index="forms_eform_recipient" type="integer">9763756</label>
+			<label index="forms_eform_html_enabled" type="integer">15828015</label>
+			<label index="forms_eform_formtype_mail" type="integer">113492555</label>
+			<label index="forms_special_eform" type="integer">236376464</label>
+			<label index="forms_type_property" type="integer">95232844</label>
+			<label index="forms_type_label" type="integer">184688118</label>
+			<label index="colorpicker_title" type="integer">90157489</label>
+			<label index="colorpicker_setClose" type="integer">253538544</label>
+			<label index="colorpicker_colorValue" type="integer">54418585</label>
+			<label index="colorpicker_fromImage" type="integer">45057637</label>
+			<label index="colorpicker_fromMatrix" type="integer">40876189</label>
+			<label index="colorpicker_fromList" type="integer">120567904</label>
+			<label index="colorpicker_black" type="integer">9240594</label>
+			<label index="colorpicker_white" type="integer">190576167</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="forms_type_property">Property</label>
+			<label index="forms_type_label">Label</label>
+			<label index="colorpicker_title">Color Picker</label>
+			<label index="colorpicker_setClose">Save and Close</label>
+			<label index="colorpicker_colorValue">Selected Color:</label>
+			<label index="colorpicker_fromImage">Capture color from image (click on image):</label>
+			<label index="colorpicker_fromMatrix">Select color from matrix (websafe colors):</label>
+			<label index="colorpicker_fromList">Select HTML color name:</label>
+			<label index="colorpicker_black">BLACK</label>
+			<label index="colorpicker_white">WHITE</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="forecolor">צבע גופן</label>
+			<label index="inserttable">הכנס טבלה</label>
+			<label index="lefttoright">כיוון משמאל לימין</label>
+			<label index="righttoleft">כיוון מימין לשמאל</label>
+			<label index="killword">נקה מלל וורד</label>
+			<label index="fontname">גופן</label>
+			<label index="fontsize">גודל גופן</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="forecolor" type="integer">35667911</label>
+			<label index="inserttable" type="integer">111652295</label>
+			<label index="lefttoright" type="integer">1013968</label>
+			<label index="righttoleft" type="integer">206570525</label>
+			<label index="killword" type="integer">228066956</label>
+			<label index="fontname" type="integer">26539321</label>
+			<label index="fontsize" type="integer">206127878</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="forecolor">Font Color</label>
+			<label index="inserttable">Insert Table</label>
+			<label index="lefttoright">Direction left to right</label>
+			<label index="righttoleft">Direction right to left</label>
+			<label index="killword">Clear MSOffice tags</label>
+			<label index="fontname">Font</label>
+			<label index="fontsize">Font size</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

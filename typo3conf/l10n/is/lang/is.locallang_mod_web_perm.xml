@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="permissions">Heimildir</label>
+			<label index="ch_permissions">Breyta heimildum</label>
+			<label index="Legend">Skýringartexti</label>
+			<label index="Owner">Eigandi</label>
+			<label index="Group">Hópur</label>
+			<label index="Everybody">Allir</label>
+			<label index="EditLock">Læsing</label>
+			<label index="EditLock_descr">Lokað hefur verið á breytingar á þessari síðu og innihaldi hennar fyrir venjulega notendur kerfisins</label>
+			<label index="Save">Vista</label>
+			<label index="Abort">Hætta við</label>
+			<label index="Edit">BREYTA</label>
+			<label index="recursive">Stilla endurhvæmt</label>
+			<label index="pages_affected">Uppfærðar síður</label>
+			<label index="user_overview">Yfirlit yfir notendur</label>
+			<label index="Depth">Dýpt</label>
+			<label index="levels">stig</label>
+			<label index="User">Notandi</label>
+			<label index="A_Granted">Aðgangur leyfður</label>
+			<label index="A_Denied">Aðgangi hafnað</label>
+			<label index="1">Sýna síðu</label>
+			<label index="16">Breyta efni</label>
+			<label index="2">Breyta síðu</label>
+			<label index="4">Eyða síðu</label>
+			<label index="8">Nýjar síður</label>
+			<label index="1_t">Sýna/Afrita síðu og efni hennar</label>
+			<label index="16_t">Breyta/Bæta við/Eyða/Færa efni</label>
+			<label index="2_t">Breyta/Færa síðu, t.d. breyta titli</label>
+			<label index="4_t">Eyða síðu og/eða efni hennar</label>
+			<label index="8_t">Ný síða undir þessari síðu</label>
+			<label index="mlang_labels_tablabel">Heimildir til að breyta síðu</label>
+			<label index="mlang_tabs_tab">Aðgangur</label>
+			<label index="Mode">Hamur</label>
+			<label index="def">Skilgreining: 'Efni' er samheiti yfir allar færslur sem tengdar eru við síðuna, sama úr hvaða töflu þær eru. Hér teljast þó ekki með undirsíður.</label>
+			<label index="mlang_labels_tabdescr">Þessar stillingar eru nauðsynlegar til að harfa stjórn á aðgangi notenda að síðum. Þú getur stillt einn notanda og einn hóp sem eiganda að síðu og stillt aðgang fyrir hvorn þeirra.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="1" type="integer">256624387</label>
+			<label index="16" type="integer">102695873</label>
+			<label index="2" type="integer">66732081</label>
+			<label index="4" type="integer">220131191</label>
+			<label index="8" type="integer">146653009</label>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="double">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="recursive" type="double">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="mlang_labels_tabdescr" type="integer">6517083</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="permissions">Permissions</label>
+			<label index="ch_permissions">Change permissions</label>
+			<label index="Legend">Legend</label>
+			<label index="Owner">Owner</label>
+			<label index="Group">Group</label>
+			<label index="Everybody">Everybody</label>
+			<label index="EditLock">Lock</label>
+			<label index="EditLock_descr">The page and all content is locked for editing by all non-Admin users.</label>
+			<label index="Save">Save</label>
+			<label index="Abort">Abort</label>
+			<label index="Edit">EDIT</label>
+			<label index="user_overview">User overview</label>
+			<label index="Depth">Depth</label>
+			<label index="levels">levels</label>
+			<label index="User">User</label>
+			<label index="A_Granted">Access Granted</label>
+			<label index="A_Denied">Access Denied</label>
+			<label index="1">Show page</label>
+			<label index="16">Edit content</label>
+			<label index="2">Edit page</label>
+			<label index="4">Delete page</label>
+			<label index="8">New pages</label>
+			<label index="1_t">Show/Copy page and content.</label>
+			<label index="16_t">Change/Add/Delete/Move content.</label>
+			<label index="2_t">Change/Move page, eg. change pagetitle etc.</label>
+			<label index="4_t">Delete page and content.</label>
+			<label index="8_t">Create new pages under this page.</label>
+			<label index="mlang_labels_tablabel">Page editing permissions</label>
+			<label index="mlang_tabs_tab">Access</label>
+			<label index="recursive">Set recursively</label>
+			<label index="pages_affected">pages affected</label>
+			<label index="Mode">Mode</label>
+			<label index="def">Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</label>
+			<label index="mlang_labels_tabdescr">Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

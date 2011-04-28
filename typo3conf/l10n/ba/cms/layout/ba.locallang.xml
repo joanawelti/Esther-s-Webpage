@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ba" type="array">
+			<label index="title">Sadržaj stranice</label>
+			<label index="advancedFunctions">Napredne funkcije</label>
+			<label index="noEditItems">Nažalost nemate dozvolu da editujete elemente na ovoj stranici!</label>
+			<label index="noEditPage">Nažalost nemate dozvolu da editujete ovu stranicu!</label>
+			<label index="nextThree">Editovanje sljedećih %s zapisa</label>
+			<label index="moveUp">Pomakni zapis nagore</label>
+			<label index="moveDown">Pomakni zapis dolje</label>
+			<label index="unHide">Otkrivanje</label>
+			<label index="hide">Sakrivanje</label>
+			<label index="edit">Editovanje</label>
+			<label index="newAfter">Novi zapis nakon ovog</label>
+			<label index="move_record">Repozicioniranje trenutnog elementa sadržaja</label>
+			<label index="move_page">Pomjeranje stranice</label>
+			<label index="deleteItem">Brisanje</label>
+			<label index="deleteWarning">Jeste li sigurni da želite obrisati ovaj zapis?</label>
+			<label index="editColumn">Editovanje ove kolone</label>
+			<label index="editPageTitle">Editovanje zaglavlja</label>
+			<label index="editPageTitle_curLang">Editovanje zaglavlje prevoda</label>
+			<label index="editInRTE">Editovanje u RTE-u</label>
+			<label index="newPageContent">Kreiranje sadržaja stranice</label>
+			<label index="newPageContent_copyForLang">Kopiraj standardne elemente sadržaja</label>
+			<label index="newPageContent2">Novi sadržaj</label>
+			<label index="newInColumn">Napravi novi sadržaj na vrhu ove kolone</label>
+			<label index="records">zapisi</label>
+			<label index="pageInformation">Informacije o stranici</label>
+			<label index="goToTable">Idi na tabelu</label>
+			<label index="internalNotes">Interne bilješke</label>
+			<label index="clearCache">Kliknite ovdje da ispraznite cache ove stranice.</label>
+			<label index="hiddenCE">Prikaži skrivene elemente sadržaja</label>
+			<label index="new_language">Napravi novi prijevod stranice</label>
+			<label index="newLabel">NOVO</label>
+			<label index="defaultLanguage">Početno</label>
+			<label index="editLanguageHeader">Editovanje zaglavlja jezika</label>
+			<label index="editPageHeader">Edituj zaglavlje stranice</label>
+			<label index="newRecordGeneral">Kreiraj novi zapis</label>
+			<label index="newContentElement">Kreiraj novi element sadržaja</label>
+			<label index="CEonThisPage">Elementi sadržaja na ovoj stranici:</label>
+			<label index="newPage">Kreiraj novu stranicu:</label>
+			<label index="newPage2">Nova stranica</label>
+			<label index="noAccess">Nema prava editovanja</label>
+			<label index="noAccess_msg">Nemate prava da editujete traženi zapis</label>
+			<label index="undoLastChange">Undo/Redo posljednjih promjena (%s prije)</label>
+			<label index="recordHistory">Pregled historiju izmjena zapisa</label>
+			<label index="tt_board_subject">Naslov</label>
+			<label index="tt_board_author">Autor</label>
+			<label index="tt_board_date">Datum</label>
+			<label index="tt_board_age">Starost</label>
+			<label index="tt_board_RE">RE</label>
+			<label index="m_function_0">Brzi Edit</label>
+			<label index="m_function_1">Kolone</label>
+			<label index="m_function_2">Jezici</label>
+			<label index="m_tt_board_0">Izlistaj samo teme</label>
+			<label index="m_tt_board_expand">Proširi grane</label>
+			<label index="m_tt_address_0">Kratka lista</label>
+			<label index="m_tt_address_1">Adresar</label>
+			<label index="m_tt_address_2">Lične informacije</label>
+			<label index="m_tt_links_1">Čitav URL</label>
+			<label index="m_tt_links_2">Alternativna bilješka</label>
+			<label index="m_tt_calender_date">Datum</label>
+			<label index="m_tt_calender_date_ext">Datum - prošireni</label>
+			<label index="m_tt_calender_todo">Za-uraditi</label>
+			<label index="m_tt_calender_todo_ext">Za-uraditi - prošireni</label>
+			<label index="m_tt_calender_ext">Prošireno</label>
+			<label index="m_tt_products_ext">Prošireno</label>
+			<label index="m_default">Standardno</label>
+			<label index="clickAPage_header">Web&gt;Stranica modul</label>
+			<label index="clickAPage_content">Ako želite editovati sadržaj ove stranice kliknite na naslov stranice u stablu lijevo.</label>
+			<label index="pI_crUser">Kreirao</label>
+			<label index="pI_crDate">Datum kreiranja</label>
+			<label index="pI_lastChange">Posljednja promjena</label>
+			<label index="pI_lastChangeContent">Posljednja promjena, sadržaj</label>
+			<label index="pI_hitsTotal">Ukupna posjećenost</label>
+			<label index="pI_hitsPeriod">Period posjeta</label>
+			<label index="pI_hits24hours">Zadnja 24 sata</label>
+			<label index="pI_hits10days">Zadnjih 10 dana</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ba" type="array">
+			<label index="title" type="integer">73079758</label>
+			<label index="advancedFunctions" type="integer">155530193</label>
+			<label index="noEditItems" type="integer">22184829</label>
+			<label index="noEditPage" type="integer">59166922</label>
+			<label index="nextThree" type="integer">52002706</label>
+			<label index="moveUp" type="integer">70382816</label>
+			<label index="moveDown" type="integer">167541671</label>
+			<label index="unHide" type="integer">151399157</label>
+			<label index="hide" type="integer">103439945</label>
+			<label index="edit" type="integer">131916066</label>
+			<label index="newAfter" type="double">9161017</label>
+			<label index="move_record" type="integer">57306690</label>
+			<label index="move_page" type="integer">32081372</label>
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="editColumn" type="double">14150015</label>
+			<label index="editPageTitle" type="integer">60384081</label>
+			<label index="editPageTitle_curLang" type="double">5915630</label>
+			<label index="editInRTE" type="integer">50446768</label>
+			<label index="newPageContent" type="integer">100832025</label>
+			<label index="newPageContent_copyForLang" type="integer">166684005</label>
+			<label index="newPageContent2" type="integer">74406052</label>
+			<label index="newInColumn" type="integer">192491768</label>
+			<label index="records" type="integer">115682368</label>
+			<label index="pageInformation" type="double">9265976</label>
+			<label index="goToTable" type="integer">131114258</label>
+			<label index="internalNotes" type="integer">267841144</label>
+			<label index="clearCache" type="integer">128738260</label>
+			<label index="hiddenCE" type="integer">218457432</label>
+			<label index="new_language" type="integer">174017384</label>
+			<label index="newLabel" type="integer">38618522</label>
+			<label index="editLanguageHeader" type="integer">60830633</label>
+			<label index="editPageHeader" type="integer">60384081</label>
+			<label index="newRecordGeneral" type="integer">54021068</label>
+			<label index="newContentElement" type="integer">165001110</label>
+			<label index="CEonThisPage" type="integer">260925574</label>
+			<label index="newPage" type="double">10918545</label>
+			<label index="newPage2" type="integer">107510865</label>
+			<label index="noAccess" type="integer">101501626</label>
+			<label index="noAccess_msg" type="integer">75856839</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="tt_board_subject" type="integer">209228523</label>
+			<label index="tt_board_author" type="integer">173111111</label>
+			<label index="tt_board_date" type="integer">71780721</label>
+			<label index="tt_board_age" type="integer">165204693</label>
+			<label index="tt_board_RE" type="integer">182416032</label>
+			<label index="m_function_0" type="integer">114319247</label>
+			<label index="m_function_1" type="integer">23640109</label>
+			<label index="m_function_2" type="integer">60853806</label>
+			<label index="m_tt_board_0" type="integer">267360715</label>
+			<label index="m_tt_board_expand" type="integer">224753595</label>
+			<label index="m_tt_address_0" type="integer">99410510</label>
+			<label index="m_tt_address_1" type="integer">244323618</label>
+			<label index="m_tt_address_2" type="double">16616904</label>
+			<label index="m_tt_links_1" type="integer">20515061</label>
+			<label index="m_tt_links_2" type="integer">23258562</label>
+			<label index="m_tt_calender_date" type="integer">71780721</label>
+			<label index="m_tt_calender_date_ext" type="integer">248953831</label>
+			<label index="m_tt_calender_todo" type="integer">197754386</label>
+			<label index="m_tt_calender_todo_ext" type="integer">104661576</label>
+			<label index="m_tt_calender_ext" type="integer">253974415</label>
+			<label index="m_tt_products_ext" type="integer">253974415</label>
+			<label index="m_default" type="integer">128029197</label>
+			<label index="clickAPage_header" type="integer">150819539</label>
+			<label index="clickAPage_content" type="integer">255012126</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="pI_hitsTotal" type="integer">203132422</label>
+			<label index="pI_hitsPeriod" type="integer">248983029</label>
+			<label index="pI_hits24hours" type="integer">104044646</label>
+			<label index="pI_hits10days" type="integer">192341173</label>
+			<label index="defaultLanguage" type="integer">128029197</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ba" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

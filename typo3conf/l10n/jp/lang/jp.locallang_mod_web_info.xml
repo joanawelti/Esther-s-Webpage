@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="title">ページ情報</label>
+			<label index="depth_0">このページ</label>
+			<label index="depth_1">1つ下のレベル</label>
+			<label index="depth_2">2つ下のレベル</label>
+			<label index="depth_3">3つ下のレベル</label>
+			<label index="mlang_labels_tablabel">アクセス数、変更履歴、レコード数などのページに関連する情報</label>
+			<label index="mlang_labels_tabdescr">Web&gt;ページ情報モジュールは、おもにページの統計情報を扱います。これにはページのアクセス数や、ページの変更履歴を表示できます。他にも、ページごとのレコード数やページ設定をツリー構造で表示します。</label>
+			<label index="mlang_tabs_tab">情報</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="title" type="double">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">207029193</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="title">Page information</label>
+			<label index="depth_0">This page</label>
+			<label index="depth_1">1 level</label>
+			<label index="depth_2">2 levels</label>
+			<label index="depth_3">3 levels</label>
+			<label index="mlang_labels_tablabel">Page related information, eg. hit statistics, change log, record counts</label>
+			<label index="mlang_labels_tabdescr">The Web&gt;Info module is focused on statistic information about pages. This includes statistics of pagehits and a changelog allowing browsing of page history changes. An overview of the number of records on each page as well as page settings presented in a classic tree structure is provided.</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

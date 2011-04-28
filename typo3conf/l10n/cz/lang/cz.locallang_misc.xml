@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="shortcutDescription">Toto je menu zkratek. Pokud dosud nemáte žádné zkratky vytvořeny, můžete tak učinit kliknutím na ikonu zkratky %icon%, kterou najdete na každé stránce v backendu.</label>
+			<label index="shortcut_edit">Upravit</label>
+			<label index="shortcut_create">Vytvořit</label>
+			<label index="shortcut_editID">Upravit/Hledat</label>
+			<label index="shortcut_save">Aktualizovat název zkratky</label>
+			<label index="shortcut_saveClose">Aktualizovat a zavřít editor</label>
+			<label index="shortcut_close">Zavřít editor zkratek</label>
+			<label index="shortcut_delete">Odstranit zkratku</label>
+			<label index="shortcut_loadEdit">Otevírám stránku</label>
+			<label index="shortcut_searchFor">Hledat:</label>
+			<label index="shortcut_notEditable">Nebyla nalezena editovatelná stránka!</label>
+			<label index="shortcut_group">Skupina</label>
+			<label index="shortcut_group_1">Stránky</label>
+			<label index="shortcut_group_2">Záznamy</label>
+			<label index="shortcut_group_3">Soubory</label>
+			<label index="shortcut_group_4">Nástroje</label>
+			<label index="shortcut_group_5">Různé</label>
+			<label index="shortcut_global">Globální</label>
+			<label index="shortcut_all">Vše</label>
+			<label index="shortcut_onlyAdmin">Nemůžete upravovat sdílenou záložku!</label>
+			<label index="shortcut_selSC">Vyberte záložku</label>
+			<label index="shortcut_delAllInCat">Ostranit všechny záložky v této skupině?</label>
+			<label index="shortcut_onlineWS">Pracovní plocha LIVE</label>
+			<label index="shortcut_offlineWS">Pracovní plocha KONCEPT</label>
+			<label index="shortcut_noWSfound">CHYBA: Pracovní plochy nenalezeny!</label>
+			<label index="overwriteExistingFiles">Přepsat existující soubory</label>
+			<label index="selectPosition">Zvolte pozici pro novou stránku</label>
+			<label index="goBack">Jít zpět</label>
+			<label index="createNewPage">Vytvořit novou stránku</label>
+			<label index="clickForWizard">Klikněte zde pro průvodce!</label>
+			<label index="insertNewPageHere">Vložit novou stránku zde</label>
+			<label index="insertNewRecordHere">Vložit nový záznam zde</label>
+			<label index="movePageToHere">Přesunout stránku na tuto pozici</label>
+			<label index="moveElement">Přesunout prvek</label>
+			<label index="moveElements">Přesunout prvky</label>
+			<label index="copyElements">Kopírovat prvky</label>
+			<label index="selectPositionOfElement">Zvolit umístění prvku</label>
+			<label index="movingElement">Přesunout prvek</label>
+			<label index="makeCopy">Zkopírovat prvek místo přesunutí prvku</label>
+			<label index="newContentElement">Nový prvek obsahu</label>
+			<label index="1_selectType">1: Zvolte typ obsahu:</label>
+			<label index="2_selectPosition">2: Zvolte pozici:</label>
+			<label index="CM_editAccess">Nastavení viditelnosti</label>
+			<label index="CM_history">Historie/Zpět</label>
+			<label index="CM_perms">Přístup</label>
+			<label index="CM_moveWizard">Přesunout prvek</label>
+			<label index="CM_moveWizard_page">Přesunout stránku</label>
+			<label index="CM_newWizard">Průvodce vytvořením</label>
+			<label index="CM_editPageProperties">Upravit vlastnosti stránky</label>
+			<label index="CM_db_list">Modul Web&gt;Seznam</label>
+			<label index="noEditPage">Pokusil(a) jste se upravit stránku &quot;%s&quot;, ale k tomu nemáte oprávnění. Backend bude znovu nahrán.</label>
+			<label index="localize">Přeložit</label>
+			<label index="localize.isLocalizable">Záznam nemůže být přeložen</label>
+			<label index="localize.wasRemovedInOriginal">Záznam v originálním jazyku byl smazán</label>
+			<label index="localizeAllRecords">Přeložit všechny záznamy</label>
+			<label index="synchronizeWithOriginalLanguage">Synchronizovat s originálním jazykem</label>
+			<label index="pageTree_filter">Filtr</label>
+			<label index="switchtouser">Přepnout na uživatele</label>
+			<label index="shortcut_GLOBAL">GLOBAL</label>
+			<label index="shortcut_ALL">VŠE</label>
+			<label index="CM_editPageHeader">Upravit hlavičku stránky</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">12874064</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+			<label index="shortcut_searchFor" type="integer">123652778</label>
+			<label index="shortcut_group_1" type="integer">72592619</label>
+			<label index="shortcut_group_2" type="integer">229781996</label>
+			<label index="shortcut_group_3" type="integer">153041452</label>
+			<label index="shortcut_group_4" type="integer">140664349</label>
+			<label index="shortcut_group_5" type="integer">59226864</label>
+			<label index="shortcut_global" type="integer">80504452</label>
+			<label index="shortcut_all" type="integer">186422474</label>
+			<label index="CM_editPageProperties" type="integer">219852795</label>
+			<label index="shortcut_onlineWS" type="integer">84131210</label>
+			<label index="shortcut_offlineWS" type="integer">217264973</label>
+			<label index="shortcut_noWSfound" type="integer">193761882</label>
+			<label index="moveElements" type="integer">13205490</label>
+			<label index="copyElements" type="integer">144987901</label>
+			<label index="shortcut_create" type="integer">109504151</label>
+			<label index="localize" type="integer">237672049</label>
+			<label index="localize.isLocalizable" type="integer">231059625</label>
+			<label index="localize.wasRemovedInOriginal" type="integer">5026286</label>
+			<label index="localizeAllRecords" type="integer">229923234</label>
+			<label index="synchronizeWithOriginalLanguage" type="integer">104844827</label>
+			<label index="pageTree_filter" type="integer">225933520</label>
+			<label index="switchtouser" type="integer">267313080</label>
+			<label index="shortcutDescription" type="integer">218081825</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="noEditPage">You asked to edit page &quot;%s&quot; but you cannot edit this page. Now loading backend as usual.</label>
+			<label index="shortcut_edit">Edit</label>
+			<label index="shortcut_editID">Edit/Search</label>
+			<label index="shortcut_save">Update shortcut title</label>
+			<label index="shortcut_saveClose">Update and close editor</label>
+			<label index="shortcut_close">Close shortcut editor</label>
+			<label index="shortcut_delete">Remove shortcut</label>
+			<label index="shortcut_loadEdit">Loading page</label>
+			<label index="shortcut_searchFor">Search for:</label>
+			<label index="shortcut_notEditable">No editable page found!</label>
+			<label index="shortcut_group">Group</label>
+			<label index="shortcut_group_1">Pages</label>
+			<label index="shortcut_group_2">Records</label>
+			<label index="shortcut_group_3">Files</label>
+			<label index="shortcut_group_4">Tools</label>
+			<label index="shortcut_group_5">Miscellaneous</label>
+			<label index="shortcut_global">Global</label>
+			<label index="shortcut_all">All</label>
+			<label index="shortcut_onlyAdmin">You cannot edit a shared shortcut!</label>
+			<label index="shortcut_selSC">Select shortcut</label>
+			<label index="shortcut_delAllInCat">Delete all shortcuts in this group?</label>
+			<label index="overwriteExistingFiles">Overwrite existing files</label>
+			<label index="selectPosition">Select a position for the new page</label>
+			<label index="goBack">Go back</label>
+			<label index="createNewPage">Create a new page</label>
+			<label index="clickForWizard">Click here for wizard!</label>
+			<label index="insertNewPageHere">Insert the new page here</label>
+			<label index="insertNewRecordHere">Insert new record here</label>
+			<label index="movePageToHere">Move page to this position</label>
+			<label index="moveElement">Move element</label>
+			<label index="selectPositionOfElement">Select position of the element</label>
+			<label index="movingElement">Move element</label>
+			<label index="makeCopy">Make copy instead of moving element</label>
+			<label index="newContentElement">New content element</label>
+			<label index="1_selectType">1: Select type of content element:</label>
+			<label index="2_selectPosition">2: Select position:</label>
+			<label index="CM_editAccess">Visibility settings</label>
+			<label index="CM_history">History/Undo</label>
+			<label index="CM_perms">Access</label>
+			<label index="CM_moveWizard">Move element</label>
+			<label index="CM_moveWizard_page">Move page</label>
+			<label index="CM_newWizard">'Create New' wizard</label>
+			<label index="CM_editPageProperties">Edit page properties</label>
+			<label index="CM_db_list">Web&gt;List module</label>
+			<label index="shortcut_onlineWS">LIVE workspace</label>
+			<label index="shortcut_offlineWS">Draft workspace</label>
+			<label index="shortcut_noWSfound">ERROR: No workspaces found!</label>
+			<label index="moveElements">Move elements</label>
+			<label index="copyElements">Copy elements</label>
+			<label index="shortcut_create">Create</label>
+			<label index="localize">Localize</label>
+			<label index="localize.isLocalizable">Record can be localized</label>
+			<label index="localize.wasRemovedInOriginal">Record was removed in original language</label>
+			<label index="localizeAllRecords">Localize all records</label>
+			<label index="synchronizeWithOriginalLanguage">Synchronize with original language</label>
+			<label index="pageTree_filter">Filter</label>
+			<label index="switchtouser">Switch to User</label>
+			<label index="shortcutDescription">This is the shortcuts menu. You do not have any shortcuts added yet, you can do so by clicking the shortcut icon %icon%, which you can find on each page in the backend.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

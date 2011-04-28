@@ -1,0 +1,18 @@
+tmp.breadcrump = HMENU
+tmp.breadcrump {
+special = rootline
+special.range = 1|-1
+1 = TMENU
+1.noBlur = 1
+1.wrap = {$standort} |
+#1.wrap = <p id="rootline">{$standort} | </p>
+1.target = _self
+1.NO {
+    linkWrap= |
+    # optionSplit: vor erstem item kein "/", sonst immer einer
+    #allWrap = |*|<font face="Arial,Helvetica,sans-serif,sans-serif" size="1" color="yellow" class="rootline">|&nbsp;/&nbsp;</font>  |*| |*|
+    # optionSplit: vor jedem item ein "/
+ allWrap = |*|&nbsp;&raquo;&nbsp; |*||*| |
+     ATagBeforeWrap = 1
+  }
+}

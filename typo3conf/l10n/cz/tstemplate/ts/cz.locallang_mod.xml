@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Nástroje šablony</label>
+			<label index="mlang_labels_tabdescr">Tady spravujete šablony TypoScriptu, které ovlivňují vzhled frontendu vašeho websajtu. Modul poskytuje specializované vlastnosti jako prohlížeč objektů, editor konstant a přímou editaci TypoScriptu.&lt;br /&gt;&lt;em&gt;Přístup pouze pro uživatele s právy 'admin'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Šablona</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel" type="integer">25422173</label>
+			<label index="mlang_labels_tabdescr" type="integer">256862236</label>
+			<label index="mlang_tabs_tab" type="integer">41469073</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Template tools</label>
+			<label index="mlang_labels_tabdescr">Here you manage the TypoScript templates which are in charge of the look of your website on the frontend. The module provides specialized features like an object browser, a constant editor and raw editing facilities.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Template</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

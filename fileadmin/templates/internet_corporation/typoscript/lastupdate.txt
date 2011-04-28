@@ -1,0 +1,11 @@
+#page Last Updated
+temp.lu = TEXT
+temp.lu {
+data = page:lastUpdated
+if.isTrue.data = page:lastUpdated
+date = d.m.Y
+#date = d.m.Y, H:i
+wrap = Aktualisiert:&nbsp; |
+data = register : SYS_LASTCHANGED
+if >
+}

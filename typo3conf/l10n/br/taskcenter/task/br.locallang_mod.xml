@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel">Centro de Tarefas com listas de históricos, mensagens e a-fazer</label>
+			<label index="mlang_labels_tabdescr">O centro de tarefas providencia acesso à sua lista de A-fazer, mensagens, Notas-rápidas, ações, etc. Também providencia atalhos para os módulos-clientes disponíveis e as páginas editadas mais recentemente. O Centro de Tarefas é onde você mantém o controle das suas tarefas e trabalhos diários.</label>
+			<label index="mlang_tabs_tab">Centro de Tarefas</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

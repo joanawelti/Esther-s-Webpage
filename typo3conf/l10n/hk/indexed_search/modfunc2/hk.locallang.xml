@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="title">索引搜尋統計</label>
+			<label index="title2">大部分已搜尋字詞列表</label>
+			<label index="noresults">沒有結果</label>
+			<label index="all">所有</label>
+			<label index="last30days">前30天</label>
+			<label index="last24hours">前24天</label>
+			<label index="justthispage">只列出此網頁的統計</label>
+			<label index="allpages">所有網頁的統計。用索引搜尋表格來選擇要檢幾項統計的網頁</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="title" type="integer">252429738</label>
+			<label index="title2" type="integer">124744620</label>
+			<label index="noresults" type="integer">206160539</label>
+			<label index="all" type="integer">186422474</label>
+			<label index="last30days" type="integer">39154833</label>
+			<label index="last24hours" type="integer">104044646</label>
+			<label index="justthispage" type="integer">264210007</label>
+			<label index="allpages" type="integer">249535422</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="title">Indexed search statistics</label>
+			<label index="title2">List of most searched words</label>
+			<label index="noresults">No results</label>
+			<label index="all">All</label>
+			<label index="last30days">Last 30 days</label>
+			<label index="last24hours">Last 24 hours</label>
+			<label index="justthispage">Statistics for this page only</label>
+			<label index="allpages">Statistics for all pages. Select a page with indexed search form to see several statistics</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

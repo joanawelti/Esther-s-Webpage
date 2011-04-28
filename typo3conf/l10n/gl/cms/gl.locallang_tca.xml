@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gl" type="array">
+			<label index="mod_tx_cms_webinfo_page">Orpiup isikkua</label>
+			<label index="pages.doktype.I.0">Periarfissaqarnerusoq</label>
+			<label index="pages.doktype.I.2">Iserasuaat</label>
+			<label index="pages.doktype.I.3">Periarfissani ilaanngilaq</label>
+			<label index="pages.doktype.I.5">Qupperneq ikkuguk</label>
+			<label index="pages.hidden">Qupperneq ersiunnaartiguk:</label>
+			<label index="pages.layout.I.1">Ilusilersuineq 1</label>
+			<label index="pages.layout.I.2">Ilusilersuineq 2</label>
+			<label index="pages.layout.I.3">Ilusilersuineq 3</label>
+			<label index="pages.nav_title">Aqunneqarmut qulequtaq:</label>
+			<label index="pages.subtitle">Qulequttap tullia:</label>
+			<label index="pages.target">Anguniagaq:</label>
+			<label index="pages.url">URL:</label>
+			<label index="pages.lastUpdated">Kingullermik nutarterneqarpoq:</label>
+			<label index="pages.newUntil">Uunga tikillugu 'Nutaaq':</label>
+			<label index="pages.cache_timeout">Cache-p atorunnaarfia:</label>
+			<label index="pages.cache_timeout.I.1">Min. 1</label>
+			<label index="pages.cache_timeout.I.2">Min. 5</label>
+			<label index="pages.cache_timeout.I.3">Min. 15</label>
+			<label index="pages.cache_timeout.I.4">Min. 30</label>
+			<label index="pages.cache_timeout.I.5">Akunneq 1</label>
+			<label index="pages.cache_timeout.I.6">Akunnerit 4</label>
+			<label index="pages.cache_timeout.I.7">Ulloq 1</label>
+			<label index="pages.cache_timeout.I.8">Ullut 2</label>
+			<label index="pages.cache_timeout.I.9">Ullut 7</label>
+			<label index="pages.cache_timeout.I.10">Qaammat 1</label>
+			<label index="pages.no_cache">Cacheqanngilaq:</label>
+			<label index="pages.no_search">Ujarneqanngilaq:</label>
+			<label index="pages.media">Fiilit:</label>
+			<label index="pages.module">Ilassutissanik imalik:</label>
+			<label index="pages.module.I.1">Pisiniarfik</label>
+			<label index="pages.module.I.3">Nutaarsiassat</label>
+			<label index="pages.module.I.4">Nittartakkap atuisui</label>
+			<label index="pages.module.I.5">Mail toqqaannartoq</label>
+			<label index="pages.module.I.6">Akuerititat</label>
+			<label index="tt_content">Quppernerup imai</label>
+			<label index="fe_users">Nittartakkap atuisua</label>
+			<label index="fe_users.username">Atuisup aqqa</label>
+			<label index="fe_users.password">Isissut</label>
+			<label index="fe_users.usergroup">Eqimattakkat</label>
+			<label index="pages_language_overlay">Quppernermut oqaatsit allat</label>
+			<label index="sys_language">Nittartakkap oqaasii</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gl" type="array">
+			<label index="mod_tx_cms_webinfo_page" type="integer">46867233</label>
+			<label index="pages.doktype.I.0" type="integer">162944094</label>
+			<label index="pages.doktype.I.2" type="integer">123085069</label>
+			<label index="pages.doktype.I.3" type="integer">172261511</label>
+			<label index="pages.doktype.I.5" type="integer">167908391</label>
+			<label index="pages.hidden" type="integer">65518437</label>
+			<label index="pages.layout.I.1" type="integer">186159068</label>
+			<label index="pages.layout.I.2" type="integer">144093188</label>
+			<label index="pages.layout.I.3" type="integer">85298801</label>
+			<label index="pages.nav_title" type="integer">213163145</label>
+			<label index="pages.subtitle" type="integer">252742192</label>
+			<label index="pages.target" type="integer">253363033</label>
+			<label index="pages.url" type="integer">62115936</label>
+			<label index="pages.lastUpdated" type="integer">68543275</label>
+			<label index="pages.newUntil" type="integer">15740872</label>
+			<label index="pages.cache_timeout" type="integer">250768080</label>
+			<label index="pages.cache_timeout.I.1" type="integer">17751255</label>
+			<label index="pages.cache_timeout.I.2" type="integer">226471786</label>
+			<label index="pages.cache_timeout.I.3" type="integer">25025547</label>
+			<label index="pages.cache_timeout.I.4" type="integer">63694871</label>
+			<label index="pages.cache_timeout.I.5" type="integer">120240592</label>
+			<label index="pages.cache_timeout.I.6" type="integer">182216352</label>
+			<label index="pages.cache_timeout.I.7" type="integer">238766109</label>
+			<label index="pages.cache_timeout.I.8" type="integer">3514198</label>
+			<label index="pages.cache_timeout.I.9" type="integer">213446991</label>
+			<label index="pages.cache_timeout.I.10" type="integer">23285350</label>
+			<label index="pages.no_cache" type="integer">221004140</label>
+			<label index="pages.no_search" type="integer">8650986</label>
+			<label index="pages.media" type="integer">147226768</label>
+			<label index="pages.module" type="integer">136180287</label>
+			<label index="pages.module.I.1" type="integer">167257368</label>
+			<label index="pages.module.I.3" type="integer">231848472</label>
+			<label index="pages.module.I.4" type="integer">164445273</label>
+			<label index="pages.module.I.5" type="integer">141759446</label>
+			<label index="pages.module.I.6" type="integer">19589821</label>
+			<label index="tt_content" type="integer">102203127</label>
+			<label index="fe_users" type="integer">178974165</label>
+			<label index="fe_users.username" type="integer">212632006</label>
+			<label index="fe_users.password" type="integer">187963993</label>
+			<label index="fe_users.usergroup" type="integer">142097351</label>
+			<label index="pages_language_overlay" type="integer">56559649</label>
+			<label index="sys_language" type="integer">144875845</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

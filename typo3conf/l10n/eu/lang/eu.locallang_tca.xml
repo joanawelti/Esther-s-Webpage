@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="pages">Orria</label>
+			<label index="doktype.I.0">Estandarra</label>
+			<label index="doktype.I.1">Sistema Karpeta</label>
+			<label index="doktype.I.2">Paperontzia</label>
+			<label index="title">Orri izenburua:</label>
+			<label index="php_tree_stop">Gelditu orri zuhaitza</label>
+			<label index="is_siteroot">Webgunearen erroa da:</label>
+			<label index="storage_pid">Erregistro orokor biltegi orria:</label>
+			<label index="be_users">Administrazio erabiltzailea</label>
+			<label index="be_groups">Administrazio erabiltzaile taldea</label>
+			<label index="sys_filemounts">Fitxategi muntaketa</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="pages" type="integer">26464201</label>
+			<label index="doktype.I.0" type="integer">246864046</label>
+			<label index="doktype.I.1" type="integer">260649090</label>
+			<label index="doktype.I.2" type="integer">184146156</label>
+			<label index="title" type="integer">66854616</label>
+			<label index="php_tree_stop" type="integer">90999720</label>
+			<label index="is_siteroot" type="integer">250187229</label>
+			<label index="storage_pid" type="integer">147559019</label>
+			<label index="be_users" type="integer">104926801</label>
+			<label index="be_groups" type="integer">190780417</label>
+			<label index="sys_filemounts" type="integer">140334923</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

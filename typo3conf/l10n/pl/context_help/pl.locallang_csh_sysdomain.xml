@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description">Określa punkt startu określonej domeny.</label>
+			<label index="domainName.description">Wprowadź nazwę hosta, np. &quot;www.moja-domena.pl&quot;</label>
+			<label index="redirectTo.description">Wszystkie odwołania do domeny będą przekierowane na ten URL, jeżeli został wprowadzony.</label>
+			<label index="hidden.description">Użyj tej opcji aby tymczasowo wyłączyć rekord domeny.</label>
+			<label index="prepend_params.description">Zaznaczenie tej opcji oznacza, że wszystkie parametry GET w wywoływanym URL'u będą użyte w przekierowaniu na nowy URL.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description" type="integer">102441634</label>
+			<label index="domainName.description" type="double">15093983</label>
+			<label index="redirectTo.description" type="integer">191995947</label>
+			<label index="hidden.description" type="integer">31618732</label>
+			<label index="prepend_params.description" type="integer">132631349</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description">Determines the entrypoint of a certain host name.</label>
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="redirectTo.description">All requests to the domain will be redirected to this URL, if any value is entered.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+			<label index="prepend_params.description">If set, any GET parameters in the calling URL will be transferred to the redirect URL.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

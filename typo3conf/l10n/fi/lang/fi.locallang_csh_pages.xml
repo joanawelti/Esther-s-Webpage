@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index=".description">'Sivu'-tietue esittää useimmiten kokonaista www-sivua Typo3ssa. Kaikilla sivuilla on ID-numero, jonka perusteella niihin voidaan linkittää ja viitata. 'Sivu'-tietueessa ei itsessään ole sisältöä, vaan tähän tarkoitukseen sinun on luotava 'Sivun sisältö' -tietueita.</label>
+			<label index=".details">'Tyyppi' (''Type') valinnasta riippuen sivu voi toimia myös yleisenä Typo3 tietokannan elementtien varastona. Tässä tapauksessa sivut eivät ole välttämättä varsinaisia www-sivuston sivuja vaan sisäisiä sivuja puurakenteessa jonne on talletettu tietoja, kuten käyttäjät, linkit, linkkiluokat tms.
+Sivutaulu on TYPO3n selkäranka. Kaikkien keskeisillä aliohjelmilla muokattavien tietojen TYPO3ssa on 'kuuluttavat' sivulle. Tilanne on saman kaltainen kuin tiedostot ja hakemistot oman tietokoneesi kovalevyllä.
+Sivut on järjestetty puurakenteeseen joka ei ole ainoastaan käytännöllinen menetelmä mutta  vastaa kuinka Sinun tulisi järjestää sivut  optimaalisesti www-sivustollesi. Näin huomaat normaalisti myös että puurakenne vastaa myös siirtymisiä www-sivustolla.
+
+Teknisesti kaikissa tietokannan elementeissä on 'uid' joka on yksilöllinen tunnus. Edelleen elementeillä tulee olla tieto 'pid' joka sisältää kunkin sivun 'uid'-tunnuksen jolle kukin elementti kuuluu. Jos 'pid' tieto on nolla, tietoa kutsutaan silloin ns. juureksi (root). Vain pääkäyttäjillä on oikeus juuren käsittelyyn. Lisäksi kaikkien taulun tietojen tulee olla asetettuja kuulumaan joko johonkin sivuun tai juureen.</label>
+			<label index="title.description">Anna sivun tai hakemiston nimi.</label>
+			<label index="doktype.description">Valitse sivun tyyppi. Tämän tarkoituksena on määrittää näkyykö sivu tavallisena web-sivuna vai käytetäänkö sitä johonkin muuhun tarkoitukseen.</label>
+			<label index="doktype.details">'Normaali'-tyyppi on tavallinen esitettävä www-sivu.
+'SysFolder' tarkoittaa ei-esitettävää sivua - se esittää hakemistoa jonne on tallennettu haluamiasi tietoja.
+'Recycler' tarkoittaa roskakoria.
+
+&lt;B&gt;Huomautus:&lt;/B&gt;Eri tyypeillä on yleensä erilaiset ikonit. Kaikki tyypit eivät myöskään ole käytössä kaikilla käyttäjillä (voit ehkä huomata sen nytkin!). Ja lopuksi, erilaiset tyypit on konfiguroitu käyttämään ainoastaan määrittyjä taulutietoja sivuilla (SysFolder mahdollistaa minkä tahansa tiedon jos Sinulla on ongelmia).</label>
+			<label index="TSconfig.description">Sivun TypoScript-asetukset.</label>
+			<label index="TSconfig.details">Periaatteessa 'TypoScript' on konsepti jolla annetaan arvoja puu-rakenteessa. Tämä tulee erityisesti esille luotaessa mallipohjia TYPO3 www-sivustoille.
+Kuitenkin samaa periaatetta käytetään kun annetaan arvoja hierarkkisesti konfiguroitaessa erilaisia ominaisuuksia taustatoiminnoille, apuohjelmien toiminnalle jne.
+Lopputuloksena syntyy sivulle 'TSconfig' joka on itse asiassa kaikkien arvojen summa juuresta kullekin sivulle asti. Myös ko. sivun alasivut saavat vaikutuksen ylemmistä. Sivun TSconfig tiedoista saa tulosteen valikosta 'Sivun TSconfig' ('Page TSconfig') 'Web&gt;Info' modulissa (lisäohjelma &quot;info_pagetsconfig&quot; tulee olla asennettuna).</label>
+			<label index="TSconfig.syntax">Perus TypoScript syntaksi &lt;em&gt;ilman&lt;/em&gt; 'Conditions' ja 'Constants'.
+
+Suositellaan vain admin-käyttäjille pääsyä tähän tietoon!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index=".details" type="integer">266524571</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="TSconfig.details" type="integer">216590510</label>
+			<label index="TSconfig.syntax" type="integer">6236841</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index=".details">The pages table is the very backbone in TYPO3. All records editable by the mainstream modules in TYPO3 must 'belong' to a page. It's exactly like files and folders on your computers harddrive.
+
+&lt;b&gt;The page tree&lt;/b&gt;
+The pages are organized in a tree structure which is not only a very handy way of organizing in general but also a optimal reflection of how you should organize the pages on your website. And thus you'll normally find that the page tree is a reflection of the website navigation itself.
+
+&lt;p&gt;uid, pid and the pagetree root&lt;/b&gt;
+Technically all database elements has a field 'uid' which is a unique identification number. Further they must have a field 'pid' which holds the uid-number of the page (page id) to which they belong. If the 'pid' field is zero the record is found in the so called 'root'. Only administrators are allowed access to the root and furthermore table records must be configured to either belonging to a page or being found in the root.
+
+&lt;b&gt;Storage of database records&lt;/b&gt;
+Depending on the 'Type' of the page, it may also represent a general storage for database elements in TYPO3. In that case it is not necessarily available as a webpage but only internally in the page tree as a place to store items such as users, subscriptions etc. Such pages are typically of the type &quot;SysFolder&quot;.</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="TSconfig.details">Basically 'TypoScript' is a concept for entering values in a tree-structure. This is known especially in relation to creating templates for TYPO3 websites.
+However the same principle for entering the hierarchy of values is used here to configure various features in relation to the backend, functions in modules, the Rich Text Editor etc.
+The resulting 'TSconfig' for a page is actually an accumulation of all 'TSconfig' values from the root of the page tree and outwards to the current page. And thus all subpages are affected as well. A print of the page TSconfig is available from the 'Page TSconfig' menu in the 'Web&gt;Info' module (requires the extension &quot;info_pagetsconfig&quot; to be installed).</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

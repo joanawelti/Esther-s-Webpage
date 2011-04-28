@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="deleteItem">מחיקה</label>
+			<label index="deleteWarning">האם הנך בטוח כי ברצונך למחוק רשומה זו?</label>
+			<label index="undoLastChange">בטל/שחזר שינוי אחרון (% אחורה)</label>
+			<label index="recordHistory">הצג היסטוריית שינויים ברשומות</label>
+			<label index="editWholeRecord">ערוך רשומה שלמה</label>
+			<label index="openDocs">מסמכים פתוחים</label>
+			<label index="noDocuments">אין מסמכים פתוחים</label>
+			<label index="noDocuments_msg">אין מסמכים פתוחים לעריכה</label>
+			<label index="noDocuments_msg2">הנך יכול לעבור אל % כדי למצוא דף או רשומה שברצונך לערוך</label>
+			<label index="noDocuments_msg3">הנך יכול לבחור רשומה שערכת לאחרונה מתוך רשימה הבאה:</label>
+			<label index="noDocuments_pagemodule">מודול אינטרנט &gt; דף</label>
+			<label index="noDocuments_OR">או</label>
+			<label index="noDocuments_listmodule">מודול אינטרנט &gt; רשימה</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="editWholeRecord" type="integer">195506325</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_msg" type="integer">264542935</label>
+			<label index="noDocuments_msg2" type="integer">15726238</label>
+			<label index="noDocuments_msg3" type="integer">187019899</label>
+			<label index="noDocuments_pagemodule" type="integer">126847616</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+			<label index="noDocuments_listmodule" type="integer">97512249</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="mlang_labels_tablabel">مرور فضاي کاري</label>
+			<label index="mlang_tabs_tab">فضاي کاري</label>
+			<label index="title">مدير فضاي کاري</label>
+			<label index="menuitem_review">بازبيني و انتشار</label>
+			<label index="menuitem_workspaces">ليست فضاي کاري</label>
+			<label index="filter_drafts">چرکنويس‌ها</label>
+			<label index="filter_archive">بايگاني</label>
+			<label index="filter_all">همه</label>
+			<label index="label_errors">خطاها:</label>
+			<label index="submit_publish_workspace">انتشار فضاي کاري</label>
+			<label index="submit_publish_workspace_confirmation_2">آيا شما براي انتشار همه محتوا از فضاي کاري مطمئن هستيد؟</label>
+			<label index="submit_swap_workspace">معاوضه فضاي کاري</label>
+			<label index="no_publish_permission">شما مجاز به انتشار از اين فضاي کاري نيستيد</label>
+			<label index="label_workspace">فضاي کاري:</label>
+			<label index="label_description">تعريف:</label>
+			<label index="label_options">انتخاب‌ها:</label>
+			<label index="label_status">وضعيت:</label>
+			<label index="label_pagetree">درخت صفحات:</label>
+			<label index="label_live_version">نسخه زنده:</label>
+			<label index="label_draft_versions">نسخه‌هاي چرکنويس:</label>
+			<label index="label_publish">انتشار:</label>
+			<label index="label_lifecycle">چرخه حيات:</label>
+			<label index="img_title_publish">انتشار</label>
+			<label index="img_title_swap">معاوضه</label>
+			<label index="remove_from_ws_confirmation">حذف از فضاي کاري؟</label>
+			<label index="img_title_remove_from_ws">حذف از فضاي کاري؟</label>
+			<label index="img_title_edit_page">ويرايش صفحه</label>
+			<label index="img_title_edit_element">ويرايش عنصر</label>
+			<label index="diffview_label_field_name">نام فيلد</label>
+			<label index="diffview_cannot_find_records">خطا: رکوردها به طور غريبي پيدا نشدند!</label>
+			<label index="img_title_current_workspace">اين يک فضاي کاري جاري است!</label>
+			<label index="img_title_create_new_workspace">ايجاد فضاي کاري جديد</label>
+			<label index="link_text_create_new_workspace">ايجاد فضاي کاري جديد</label>
+			<label index="edit_workspace_go_back">برگرد عقب</label>
+			<label index="edit_workspace_title_edit">ويرايش فضاي کاري</label>
+			<label index="edit_workspace_title_new">ايجاد فضاي کاري جديد</label>
+			<label index="workspace_list_label_current_workspace">جاري:</label>
+			<label index="workspace_list_label_workspace_title">عنوان:</label>
+			<label index="workspace_list_label_workspace_description">تعريف:</label>
+			<label index="workspace_list_label_owners">مالکان:</label>
+			<label index="workspace_list_label_members">اعضا:</label>
+			<label index="workspace_list_label_reviewers">بازبيني کننده گان:</label>
+			<label index="workspace_list_access_admins_only">فقط ادمين ها</label>
+			<label index="workspace_list_access_anyone">هيچ محدوديتي</label>
+			<label index="workspace_list_label_publish_date">تاريخ انتشار:</label>
+			<label index="workspace_list_label_your_access">دسترسي شما:</label>
+			<label index="workspace_list_label_workspace_users">فضاي کاري کاربران:</label>
+			<label index="workspace_list_label_frozen_yes">بله</label>
+			<label index="workspace_list_label_frozen_no">نه</label>
+			<label index="workspace_list_icon_title_edit_workspace">ويرايش فضاي کاري</label>
+			<label index="workspace_list_access_owner">مالک</label>
+			<label index="workspace_list_access_member">عضو</label>
+			<label index="workspace_list_access_reviewer">بازبيني کننده</label>
+			<label index="workspace_list_publishing_count_draft">چرک نويس</label>
+			<label index="workspace_list_publishing_count_archive">بايگاني</label>
+			<label index="workspace_list_publishing_count">%d بارمنتشرشده</label>
+			<label index="stage_label_user_comment">يادداشت‌هاي کاربر:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="mlang_labels_tablabel" type="integer">40328641</label>
+			<label index="mlang_tabs_tab" type="double">3809681</label>
+			<label index="title" type="integer">221556358</label>
+			<label index="menuitem_review" type="integer">44749096</label>
+			<label index="menuitem_workspaces" type="integer">81058256</label>
+			<label index="filter_drafts" type="integer">229879618</label>
+			<label index="filter_archive" type="integer">242383616</label>
+			<label index="filter_all" type="integer">186422474</label>
+			<label index="label_errors" type="integer">206095404</label>
+			<label index="submit_publish_workspace" type="integer">235144352</label>
+			<label index="submit_publish_workspace_confirmation_2" type="integer">50181730</label>
+			<label index="submit_swap_workspace" type="integer">67755524</label>
+			<label index="no_publish_permission" type="integer">203190153</label>
+			<label index="label_workspace" type="integer">246019313</label>
+			<label index="label_description" type="integer">218120871</label>
+			<label index="label_options" type="integer">247251860</label>
+			<label index="label_status" type="integer">38413271</label>
+			<label index="label_pagetree" type="integer">73652558</label>
+			<label index="label_live_version" type="integer">76765232</label>
+			<label index="label_draft_versions" type="integer">137256046</label>
+			<label index="label_publish" type="integer">213276400</label>
+			<label index="label_lifecycle" type="integer">100797554</label>
+			<label index="img_title_publish" type="integer">17867952</label>
+			<label index="img_title_swap" type="integer">142053212</label>
+			<label index="remove_from_ws_confirmation" type="integer">21237820</label>
+			<label index="img_title_remove_from_ws" type="integer">21237820</label>
+			<label index="img_title_edit_page" type="integer">66732081</label>
+			<label index="img_title_edit_element" type="integer">31852556</label>
+			<label index="diffview_label_field_name" type="integer">132071293</label>
+			<label index="diffview_cannot_find_records" type="integer">71582257</label>
+			<label index="img_title_current_workspace" type="integer">77949732</label>
+			<label index="img_title_create_new_workspace" type="double">9718304</label>
+			<label index="link_text_create_new_workspace" type="double">9718304</label>
+			<label index="edit_workspace_go_back" type="integer">36398395</label>
+			<label index="edit_workspace_title_edit" type="integer">108386348</label>
+			<label index="edit_workspace_title_new" type="double">9718304</label>
+			<label index="workspace_list_label_current_workspace" type="integer">138034144</label>
+			<label index="workspace_list_label_workspace_title" type="integer">85903807</label>
+			<label index="workspace_list_label_workspace_description" type="integer">218120871</label>
+			<label index="workspace_list_label_owners" type="double">1756457</label>
+			<label index="workspace_list_label_members" type="integer">229261518</label>
+			<label index="workspace_list_label_reviewers" type="integer">154009364</label>
+			<label index="workspace_list_access_admins_only" type="integer">185325320</label>
+			<label index="workspace_list_access_anyone" type="integer">199306044</label>
+			<label index="workspace_list_label_publish_date" type="integer">176273469</label>
+			<label index="workspace_list_label_your_access" type="integer">166543641</label>
+			<label index="workspace_list_label_workspace_users" type="integer">158773513</label>
+			<label index="workspace_list_label_frozen_yes" type="integer">154974727</label>
+			<label index="workspace_list_label_frozen_no" type="integer">196073266</label>
+			<label index="workspace_list_icon_title_edit_workspace" type="integer">108386348</label>
+			<label index="workspace_list_access_owner" type="integer">191842862</label>
+			<label index="workspace_list_access_member" type="integer">140032583</label>
+			<label index="workspace_list_access_reviewer" type="integer">149261528</label>
+			<label index="workspace_list_publishing_count_draft" type="integer">251898646</label>
+			<label index="workspace_list_publishing_count_archive" type="integer">242383616</label>
+			<label index="workspace_list_publishing_count" type="integer">58676666</label>
+			<label index="stage_label_user_comment" type="integer">198972965</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="mlang_labels_tablabel">Workspace overview</label>
+			<label index="mlang_tabs_tab">Workspace</label>
+			<label index="title">Workspace Manager</label>
+			<label index="menuitem_review">Review and Publish</label>
+			<label index="menuitem_workspaces">Workspace List</label>
+			<label index="filter_drafts">Drafts</label>
+			<label index="filter_archive">Archive</label>
+			<label index="filter_all">All</label>
+			<label index="label_errors">Errors:</label>
+			<label index="submit_publish_workspace">Publish workspace</label>
+			<label index="submit_publish_workspace_confirmation_2">Are you sure you want to publish all content from the workspace?</label>
+			<label index="submit_swap_workspace">Swap workspace</label>
+			<label index="no_publish_permission">You are not permitted to publish from this workspace</label>
+			<label index="label_workspace">Workspace:</label>
+			<label index="label_description">Description:</label>
+			<label index="label_options">Options:</label>
+			<label index="label_status">Status:</label>
+			<label index="label_pagetree">Pagetree:</label>
+			<label index="label_live_version">Live Version:</label>
+			<label index="label_draft_versions">Draft Versions:</label>
+			<label index="label_publish">Publish:</label>
+			<label index="label_lifecycle">Lifecycle:</label>
+			<label index="img_title_publish">Publish</label>
+			<label index="img_title_swap">Swap</label>
+			<label index="remove_from_ws_confirmation">Remove from workspace?</label>
+			<label index="img_title_remove_from_ws">Remove from workspace?</label>
+			<label index="img_title_edit_page">Edit page</label>
+			<label index="img_title_edit_element">Edit element</label>
+			<label index="diffview_label_field_name">Fieldname:</label>
+			<label index="diffview_cannot_find_records">ERROR: Records could strangely not be found!</label>
+			<label index="img_title_current_workspace">This is a current workspace!</label>
+			<label index="img_title_create_new_workspace">Create new workspace</label>
+			<label index="link_text_create_new_workspace">Create new workspace</label>
+			<label index="edit_workspace_go_back">Go back</label>
+			<label index="edit_workspace_title_edit">Edit workspace</label>
+			<label index="edit_workspace_title_new">Create new workspace</label>
+			<label index="workspace_list_label_current_workspace">Current:</label>
+			<label index="workspace_list_label_workspace_title">Title:</label>
+			<label index="workspace_list_label_workspace_description">Description:</label>
+			<label index="workspace_list_label_owners">Owners:</label>
+			<label index="workspace_list_label_members">Members:</label>
+			<label index="workspace_list_label_reviewers">Reviewers:</label>
+			<label index="workspace_list_access_admins_only">Admins only</label>
+			<label index="workspace_list_access_anyone">no restrictions</label>
+			<label index="workspace_list_label_publish_date">Publish date:</label>
+			<label index="workspace_list_label_your_access">Your access:</label>
+			<label index="workspace_list_label_workspace_users">Workspace users:</label>
+			<label index="workspace_list_label_frozen_yes">Yes</label>
+			<label index="workspace_list_label_frozen_no">No</label>
+			<label index="workspace_list_icon_title_edit_workspace">Edit workspace</label>
+			<label index="workspace_list_access_owner">Owner</label>
+			<label index="workspace_list_access_member">Member</label>
+			<label index="workspace_list_access_reviewer">Reviewer</label>
+			<label index="workspace_list_publishing_count_draft">Draft</label>
+			<label index="workspace_list_publishing_count_archive">Archive</label>
+			<label index="workspace_list_publishing_count">Published %d times</label>
+			<label index="stage_label_user_comment">User Comment:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

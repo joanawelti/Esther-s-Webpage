@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="folderTree">Katalogträd</label>
+			<label index="uploadImage">Ladda upp bild</label>
+			<label index="path">Sökväg</label>
+			<label index="images">Bilder</label>
+			<label index="magicImage_msg">Då du befinner dig i 'Magic'-läge kan du välja bilder i vilket format och vilken storlek som helst. Bilden konverteras automatiskt till webbformat och alla ändringar du gör i bildens storlek kommer att ändra bilden optimalt i fråga om både storlek och kvalitet.</label>
+			<label index="plainImage_msg">Då du befinner dig i 'Plain'-läge kan du infoga endast sådana bilder som är i webbformat (jpg,jpeg,gif,png) upp till %1$sx%2$s pixlar. Denna metod används för bilder som redan är optimerade för webb-bruk.</label>
+			<label index="class">Stil</label>
+			<label index="width">Bredd</label>
+			<label index="height">Höjd</label>
+			<label index="border">Ram</label>
+			<label index="margin_tb">Marginal upptill/nertill</label>
+			<label index="margin_lr">Marginal vänster/höger</label>
+			<label index="padding_top">Avstånd upptill</label>
+			<label index="padding_right">Avstånd höger</label>
+			<label index="padding_bottom">Avstånd nertill</label>
+			<label index="padding_left">Avstånd vänster</label>
+			<label index="float">Flytande</label>
+			<label index="notSet">Ej angivet</label>
+			<label index="nonFloating">Ej flytande</label>
+			<label index="left">Vänster</label>
+			<label index="right">Höger</label>
+			<label index="title">Titel</label>
+			<label index="alt">Alternativ text</label>
+			<label index="update">Uppdatera</label>
+			<label index="magicImage">Ny Magic-bild</label>
+			<label index="plainImage">Ny Plain-bild</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Nuvarande bild</label>
+			<label index="bytes">byte</label>
+			<label index="pixels">pixlar</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+			<label index="class" type="integer">182617337</label>
+			<label index="float" type="integer">36364514</label>
+			<label index="notSet" type="integer">163210921</label>
+			<label index="nonFloating" type="integer">169566595</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="alt" type="integer">237067341</label>
+			<label index="bytes" type="integer">78882337</label>
+			<label index="pixels" type="integer">221878344</label>
+			<label index="padding_top" type="integer">203371002</label>
+			<label index="padding_right" type="integer">72563561</label>
+			<label index="padding_bottom" type="integer">29563473</label>
+			<label index="padding_left" type="integer">92507236</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="folderTree">Folder tree</label>
+			<label index="uploadImage">Upload Image</label>
+			<label index="path">Path</label>
+			<label index="images">Images</label>
+			<label index="magicImage_msg">In &quot;Magic&quot; mode you can select any kind of image with any dimensions. The image is automatically converted to a web image format and any adjustments you make to the size of the image is post processed in order to optimize size and quality.</label>
+			<label index="plainImage_msg">In &quot;Plain&quot; mode you can insert only web image formats (jpg,jpeg,gif,png) up to %1$sx%2$s pixels. This method is designed for images which are optimized for web already.</label>
+			<label index="class">Style</label>
+			<label index="width">Width</label>
+			<label index="height">Height</label>
+			<label index="border">Border</label>
+			<label index="margin_tb">Margin top/bottom</label>
+			<label index="margin_lr">Margin left/right</label>
+			<label index="float">Float</label>
+			<label index="notSet">Not set</label>
+			<label index="nonFloating">Non-floating</label>
+			<label index="left">Left</label>
+			<label index="right">Right</label>
+			<label index="title">Title</label>
+			<label index="alt">Alternate text</label>
+			<label index="update">Update</label>
+			<label index="magicImage">New Magic Image</label>
+			<label index="plainImage">New Plain Image</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Current Image</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixels</label>
+			<label index="padding_top">Top padding</label>
+			<label index="padding_right">Right padding</label>
+			<label index="padding_bottom">Bottom padding</label>
+			<label index="padding_left">Left padding</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

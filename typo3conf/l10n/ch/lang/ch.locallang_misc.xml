@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index="shortcut_edit">编辑</label>
+			<label index="shortcut_editID">编辑页面编号</label>
+			<label index="shortcut_save">更新快捷键名称</label>
+			<label index="shortcut_saveClose">存储更新并关闭编辑器</label>
+			<label index="shortcut_close">关闭快捷键编辑器</label>
+			<label index="shortcut_delete">删除快捷键</label>
+			<label index="shortcut_loadEdit">正在打开页面</label>
+			<label index="shortcut_notEditable">没发现可编辑页面!</label>
+			<label index="shortcut_group">组</label>
+			<label index="shortcut_GLOBAL">全局的</label>
+			<label index="shortcut_ALL">所有的</label>
+			<label index="shortcut_onlyAdmin">您不能编辑一个共享快捷键!</label>
+			<label index="shortcut_selSC">选择快捷键</label>
+			<label index="shortcut_delAllInCat">删除这个组内的快捷键?</label>
+			<label index="overwriteExistingFiles">覆盖现存文件</label>
+			<label index="selectPosition">为新页面选择插入位置</label>
+			<label index="goBack">返回</label>
+			<label index="createNewPage">创建新页</label>
+			<label index="clickForWizard">点击启动向导!</label>
+			<label index="insertNewPageHere">在此插入新页面</label>
+			<label index="insertNewRecordHere">在此插入新记录</label>
+			<label index="movePageToHere">把页面移动到这个位置</label>
+			<label index="moveElement">移动元素</label>
+			<label index="selectPositionOfElement">选择元素位置</label>
+			<label index="movingElement">移动元素</label>
+			<label index="makeCopy">以复制代替移动元素</label>
+			<label index="newContentElement">新内容元素</label>
+			<label index="1_selectType">1:选择内容元素</label>
+			<label index="2_selectPosition">2:选择位置</label>
+			<label index="CM_editAccess">外观设定</label>
+			<label index="CM_history">历史/回退</label>
+			<label index="CM_perms">存储</label>
+			<label index="CM_moveWizard">移动元素</label>
+			<label index="CM_moveWizard_page">移动页面</label>
+			<label index="CM_newWizard">'新建'向导</label>
+			<label index="CM_editPageHeader">编辑页眉</label>
+			<label index="CM_db_list">网站/列表模块</label>
+			<label index="noEditPage">您要求编辑页面&quot;%s&quot; ，但是您不能编辑它。 现在正常加载后端。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+			<label index="shortcut_edit">Edit</label>
+			<label index="shortcut_editID">Edit Page ID</label>
+			<label index="shortcut_save">Update shortcut title</label>
+			<label index="shortcut_saveClose">Update and close editor</label>
+			<label index="shortcut_close">Close shortcut editor</label>
+			<label index="shortcut_delete">Remove shortcut</label>
+			<label index="shortcut_loadEdit">Loading page</label>
+			<label index="shortcut_notEditable">No editable page found!</label>
+			<label index="shortcut_group">Group</label>
+			<label index="shortcut_GLOBAL">GLOBAL</label>
+			<label index="shortcut_ALL">ALL</label>
+			<label index="shortcut_onlyAdmin">You cannot edit a shared shortcut!</label>
+			<label index="shortcut_selSC">Select shortcut</label>
+			<label index="shortcut_delAllInCat">Delete all shortcuts in this group?</label>
+			<label index="overwriteExistingFiles">Overwrite existing files</label>
+			<label index="selectPosition">Select a position for the new page</label>
+			<label index="goBack">Go back</label>
+			<label index="createNewPage">Create a new page</label>
+			<label index="clickForWizard">Click here for wizard!</label>
+			<label index="insertNewPageHere">Insert the new page here</label>
+			<label index="insertNewRecordHere">Insert new record here</label>
+			<label index="movePageToHere">Move page to this position</label>
+			<label index="moveElement">Move element</label>
+			<label index="selectPositionOfElement">Select position of the element</label>
+			<label index="movingElement">Move element</label>
+			<label index="makeCopy">Make copy instead of moving element</label>
+			<label index="newContentElement">New content element</label>
+			<label index="1_selectType">1: Select type of content element:</label>
+			<label index="2_selectPosition">2: Select position:</label>
+			<label index="CM_editAccess">Visibility settings</label>
+			<label index="CM_history">History/Undo</label>
+			<label index="CM_perms">Access</label>
+			<label index="CM_moveWizard">Move element</label>
+			<label index="CM_moveWizard_page">Move page</label>
+			<label index="CM_newWizard">'Create New' wizard</label>
+			<label index="CM_editPageHeader">Edit page header</label>
+			<label index="CM_db_list">Web&gt;List module</label>
+			<label index="noEditPage">You asked to edit page &quot;%s&quot; but you cannot edit this page. Now loading backend as usual.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

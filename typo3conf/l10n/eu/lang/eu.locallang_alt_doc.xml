@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="deleteItem">Ezabatu</label>
+			<label index="deleteWarning">Ziur  erregistro hau ezabatu nahi duzula?</label>
+			<label index="undoLastChange">Desegin/Berregin azken aldaketa (orain dela %s)</label>
+			<label index="recordHistory">Ikusi erregistroaren aldaketa historia</label>
+			<label index="editWholeRecord">Editatu erregistro osoa</label>
+			<label index="openDocs">DOKUMENTU IREKIAK</label>
+			<label index="noDocuments">Ez dago dokumentu irekirik</label>
+			<label index="noDocuments_msg">Ez dago dokumentu irekirik editatzeko</label>
+			<label index="noDocuments_msg2">%s-ra joan zaitezke editatu nahi duzun orria edo erregistroa editatzeko</label>
+			<label index="noDocuments_msg3">Zerrenda honetatik editatutako azken erregistroetako bat aukeratu dezakezu:</label>
+			<label index="noDocuments_pagemodule">Web&gt;Orria modulua</label>
+			<label index="noDocuments_OR">edo</label>
+			<label index="noDocuments_listmodule">Web&gt;Zerrenda modulua</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="deleteItem" type="integer">254438473</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="undoLastChange" type="integer">109787245</label>
+			<label index="recordHistory" type="integer">38913415</label>
+			<label index="editWholeRecord" type="integer">195506325</label>
+			<label index="openDocs" type="integer">260671662</label>
+			<label index="noDocuments" type="integer">118569122</label>
+			<label index="noDocuments_msg" type="integer">264542935</label>
+			<label index="noDocuments_msg2" type="integer">15726238</label>
+			<label index="noDocuments_msg3" type="integer">187019899</label>
+			<label index="noDocuments_pagemodule" type="integer">126847616</label>
+			<label index="noDocuments_OR" type="integer">243385572</label>
+			<label index="noDocuments_listmodule" type="integer">97512249</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

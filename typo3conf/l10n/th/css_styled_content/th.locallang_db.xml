@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="tt_content.tx_cssstyledcontent_acctables">การสามารถเข้าถึงได้</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_caption">คำบรรยายใต้ตาราง (&lt;caption&gt;)</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_summary">คำสรุปของตาราง (&quot;สรุป&quot; ใน tag &lt;table&gt;)</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_tfoot">ใช้ footer (&lt;tfoot&gt;) ที่แถวสุดท้าย</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.0">ไม่มีส่วนหัว header</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.1">ด้านบน</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.2">ด้ายซ้าย</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos">ตำแหน่งส่วนหัว (header) ของตาราง</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_nostyles">ไม่มี CSS styles สำหรับตารางนี้</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_tableclass">คลาส CSS สำหรับตาราง</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing">การตัดคำในตาราง</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote">ตัวปลดจำกัดตัวอักษร</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_none">ไม่มี</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_single">'</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_double">&quot;</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter">ตัวปลดขนาดฟิลด์</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_pipe">|</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_semicolon">;</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_colon">,</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="tt_content.tx_cssstyledcontent_acctables" type="integer">235818950</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_caption" type="integer">112890980</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_summary" type="integer">36680148</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_tfoot" type="integer">69483258</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.0" type="integer">45529672</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.1" type="integer">187184459</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.2" type="integer">135366703</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos" type="integer">209579350</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_nostyles" type="integer">117336864</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_tableclass" type="integer">177523374</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing" type="double">2102994</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote" type="integer">82969183</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_none" type="integer">53789860</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_single" type="integer">56167608</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_double" type="integer">185959263</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter" type="integer">226683604</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_pipe" type="integer">194609995</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_semicolon" type="integer">166644605</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_colon" type="integer">202159600</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index="tt_content.tx_cssstyledcontent_acctables">Accessibility</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_caption">Table caption (&lt;caption&gt;)</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_summary">Table summary (&quot;summary&quot; attribute in &lt;table&gt; tags)</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_tfoot">Use table-footer (&lt;tfoot&gt;) on last table row</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.0">no header</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.1">top</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos.I.2">left</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_headerpos">Table Header position</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_nostyles">No CSS styles for this table</label>
+			<label index="tt_content.tx_cssstyledcontent_acctables_tableclass">CSS class for the table.</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing">Table parsing</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote">Text delimiter</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_none">none</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_single">'</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_quote_double">&quot;</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter">Field delimiter</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_pipe">|</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_semicolon">;</label>
+			<label index="tt_content.tx_cssstyledcontent_tableparsing_delimiter_colon">,</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

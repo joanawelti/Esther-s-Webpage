@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">放置於一個網頁的內部提示</label>
+			<label index=".details">這提供一個簡易的方法去附加與後勤有關的指示到一個網頁上。你可以用作提示或指示等用途</label>
+			<label index="category.description">選擇一個類別來描述告示的性質</label>
+			<label index="subject.description">輸入告示的標題</label>
+			<label index="message.description">告示的內容</label>
+			<label index="author.description">輸入你的名字</label>
+			<label index="email.description">輸入你的電郵地址</label>
+			<label index="personal.description">請檢查，假如你不想其他使用者看見這告示</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description" type="integer">112425504</label>
+			<label index=".details" type="integer">141602016</label>
+			<label index="category.description" type="integer">222277377</label>
+			<label index="subject.description" type="integer">58235458</label>
+			<label index="message.description" type="integer">268248387</label>
+			<label index="author.description" type="integer">205434485</label>
+			<label index="email.description" type="integer">259302369</label>
+			<label index="personal.description" type="integer">172550456</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index=".description">Internal reminder note placed on a the page.</label>
+			<label index=".details">This provides a simple way to attach instructional notes to a page regarding backend related issues. Use it as you like for reminders, instructions etc. </label>
+			<label index="category.description">Select a category which describes the character of the note.</label>
+			<label index="subject.description">Enter a title for the note.</label>
+			<label index="message.description">This is the note itself.</label>
+			<label index="author.description">Enter your name. </label>
+			<label index="email.description">Enter your email address.</label>
+			<label index="personal.description">Check this, if you don't want other users to see this note.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

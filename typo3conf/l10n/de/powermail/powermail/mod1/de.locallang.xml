@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="title">Powermail</label>
+			<label index="function1">Powermail, Liste und Export</label>
+			<label index="function2">Powermail Statistiken</label>
+			<label index="nopowermails1">Keine Powermails auf aktueller Seite!</label>
+			<label index="nopowermails2">Bitte wählen Sie eine Seite mit Powermails aus dem Seitenbaum aus oder verändern Sie den Zeitfilter.</label>
+			<label index="title_no">#</label>
+			<label index="title_date">Datum</label>
+			<label index="title_sender">Absender</label>
+			<label index="title_IP">Absender-IP</label>
+			<label index="title_receiver">Empfänger</label>
+			<label index="title_details">Details</label>
+			<label index="title_delete">Löschen</label>
+			<label index="export_download_success">Erfolg!</label>
+			<label index="export_download_download">CSV-Datei herunterladen</label>
+			<label index="export_download_downloadZIP">CSV-Datei herunterladen (komprimiert)</label>
+			<label index="export_icon_excel">Export im Excel-Format</label>
+			<label index="export_icon_csv">Export im CSV-Format</label>
+			<label index="export_icon_html">Export im HTML-Format</label>
+			<label index="icon_deloff">Löschen nach Exportieren deaktiviert! Klicken, um Löschen nach Exportieren zu aktivieren.</label>
+			<label index="icon_delon">Löschen nach Exportieren aktiviert! Klicken, um Löschen nach Exportieren zu deaktivieren.</label>
+			<label index="icon_print">Klicken Sie hier, um diese Ansicht auszudrucken</label>
+			<label index="icon_close">Klicken Sie hier, um das Fenster zu schließen</label>
+			<label index="delall_sure">Nach dem Exportieren werden sämtliche E-Mails gelöscht. Tatsächlich fortfahren?</label>
+			<label index="pagebrowser_page">Seite</label>
+			<label index="pagebrowser_upto">bis</label>
+			<label index="pagebrowser_within">von insgesamt</label>
+			<label index="filter_start">Beginn</label>
+			<label index="filter_end">Ende</label>
+			<label index="del_sure">Diesen Eintrag tatsächlich löschen?</label>
+			<label index="del_message">E-Mail mit UID %s gelöscht!</label>
+			<label index="chart_chart">Diagramm: Anzahl der letzten E-Mails</label>
+			<label index="chart_table">Tabelle: Details über die letzten E-Mails</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="title" type="integer">107899698</label>
+			<label index="function1" type="integer">12723624</label>
+			<label index="nopowermails1" type="integer">254326986</label>
+			<label index="nopowermails2" type="integer">36256782</label>
+			<label index="title_no" type="integer">1753031</label>
+			<label index="title_date" type="integer">71780721</label>
+			<label index="title_sender" type="integer">145411646</label>
+			<label index="title_IP" type="integer">223765872</label>
+			<label index="title_receiver" type="integer">178063677</label>
+			<label index="title_details" type="integer">65812061</label>
+			<label index="export_download_success" type="integer">67299232</label>
+			<label index="export_download_download" type="integer">35649774</label>
+			<label index="export_download_downloadZIP" type="integer">51317423</label>
+			<label index="export_icon_excel" type="integer">128979836</label>
+			<label index="export_icon_csv" type="integer">58458417</label>
+			<label index="export_icon_html" type="integer">266031985</label>
+			<label index="pagebrowser_page" type="integer">119038151</label>
+			<label index="pagebrowser_upto" type="integer">207332430</label>
+			<label index="pagebrowser_within" type="integer">101579238</label>
+			<label index="filter_start" type="integer">174138022</label>
+			<label index="filter_end" type="integer">141907953</label>
+			<label index="title_delete" type="integer">254438473</label>
+			<label index="icon_deloff" type="integer">144456694</label>
+			<label index="icon_delon" type="integer">132838751</label>
+			<label index="delall_sure" type="integer">149982297</label>
+			<label index="del_sure" type="integer">219972440</label>
+			<label index="del_message" type="integer">116193294</label>
+			<label index="icon_print" type="integer">50143072</label>
+			<label index="icon_close" type="integer">19956722</label>
+			<label index="function2" type="integer">149175615</label>
+			<label index="chart_chart" type="integer">249512432</label>
+			<label index="chart_table" type="integer">201974759</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="title">Powermail</label>
+			<label index="function1">Powermail list and export</label>
+			<label index="nopowermails1">No powermails on current page!</label>
+			<label index="nopowermails2">Please choose a page with powermails inside from the pagetree or change the time filter.</label>
+			<label index="title_no">#</label>
+			<label index="title_date">Date</label>
+			<label index="title_sender">Sender</label>
+			<label index="title_IP">Sender IP</label>
+			<label index="title_receiver">Receiver</label>
+			<label index="title_details">Details</label>
+			<label index="export_download_success">Success!</label>
+			<label index="export_download_download">Download CSV File</label>
+			<label index="export_download_downloadZIP">Download compressed CSV File</label>
+			<label index="export_icon_excel">Export to excel file format</label>
+			<label index="export_icon_csv">Export to csv file format</label>
+			<label index="export_icon_html">Export to HTML table</label>
+			<label index="pagebrowser_page">page</label>
+			<label index="pagebrowser_upto">up to</label>
+			<label index="pagebrowser_within">within</label>
+			<label index="filter_start">Start</label>
+			<label index="filter_end">End</label>
+			<label index="title_delete">Delete</label>
+			<label index="icon_deloff">Delete after export disabled! Click to enable delete after export</label>
+			<label index="icon_delon">Delete after export enabled! Click to disable delete after export</label>
+			<label index="delall_sure">If you are going on, all mails will be deleted after export, are you sure?</label>
+			<label index="del_sure">Are you sure to delete this entry?</label>
+			<label index="del_message">Mail with uid %s deleted!</label>
+			<label index="icon_print">Click here to print this view</label>
+			<label index="icon_close">Click hier to close the window</label>
+			<label index="function2">Powermail charts</label>
+			<label index="chart_chart">Chart: Number of the last mails</label>
+			<label index="chart_table">Table: Details about the last mails</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

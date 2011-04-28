@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">Importa/Esporta</label>
+			<label index="pageTreeMode.alttitle">Livelli</label>
+			<label index="pageTreeRecordLimit.alttitle">Includi tabelle</label>
+			<label index="singleRecord.alttitle">Esporta singolo record</label>
+			<label index="tableList.alttitle">Esporta tabella</label>
+			<label index="tableListMaxNumber.alttitle">Numero massimo da esportare</label>
+			<label index="inclRelations.alttitle">Includi relazioni</label>
+			<label index="excludedElements.alttitle">Elementi esclusi</label>
+			<label index="fileFormat.alttitle">Opzioni del formato file</label>
+			<label index="importFile.alttitle">Seleziona il file da importare</label>
+			<label index="options.alttitle">Opzioni importazione</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index="pageTreeMode.alttitle" type="integer">152759754</label>
+			<label index="pageTreeRecordLimit.alttitle" type="integer">169123110</label>
+			<label index="singleRecord.alttitle" type="integer">128794302</label>
+			<label index="tableList.alttitle" type="integer">146883216</label>
+			<label index="tableListMaxNumber.alttitle" type="integer">225797227</label>
+			<label index="inclRelations.alttitle" type="integer">164484847</label>
+			<label index="excludedElements.alttitle" type="integer">227920200</label>
+			<label index="fileFormat.alttitle" type="integer">54960098</label>
+			<label index="importFile.alttitle" type="integer">36260242</label>
+			<label index="options.alttitle" type="integer">55046973</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index="pageTreeMode.alttitle">Levels</label>
+			<label index="pageTreeRecordLimit.alttitle">Include tables</label>
+			<label index="singleRecord.alttitle">Export single record</label>
+			<label index="tableList.alttitle">Table export</label>
+			<label index="tableListMaxNumber.alttitle">Max number to export</label>
+			<label index="inclRelations.alttitle">Include relations</label>
+			<label index="excludedElements.alttitle">Excluded elements</label>
+			<label index="fileFormat.alttitle">File format options</label>
+			<label index="importFile.alttitle">Select file to import</label>
+			<label index="options.alttitle">Import options</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

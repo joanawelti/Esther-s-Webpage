@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">تصف سجلات ملفات التحميل عن مسار الملف على المخدم  نسبيا كان أم مطلقا.</label>
+			<label index=".details">عن طريق إنشاء سجل لملف رابط و وضعه كنقطة رجوع في مجموعة المستخدمين المصممين. و يتم ذلك عن طريق الدخول إلى الملف الرابط  في الجانب: ملف &lt; القائمة.
+أنت محتاج لإنشاء على الأقل ملف رابط واحد بمجلد إسمه المجلد المؤقت '_temp_'  .</label>
+			<label index="title.description">أدخل عنوان رابط الملف</label>
+			<label index="path.description">أدخل مسار رابط الملف سواء نسبي أو مطلق على حسب الضوابط الأساسية</label>
+			<label index="path.details">إذا كان المسار في  الأساس معمول على مسار نسبي و المسار الرابط موجود في الملف التحتي &quot;fileadmin/&quot;   لصفحة الويب. إذاً ينبغي عليك أن تدخل الملف التحتي  &quot;fileadmin/&quot; كمسار.
+مثلا لو كنت تريد أن تربط الملف بــ :  &quot;fileadmin/user_uploads/all/&quot;  إذاً أدخل  &quot;user_uploads/all&quot;
+كمسار للربط
+
+أما إذا كان المسار في الأساس معمول على مسار مُطلق فعيك أن تُدخل المسار المُطلق عيى السيرفر مثلاً &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;.
+
+
+&lt;strong&gt;ملحوظة:&lt;/strong&gt;على أي الأحوال تأكد ان سيرفر الويب المُستخدم &lt;em&gt; على الأقل &lt;/em&gt; فيه الوضع read-access to the path. إذا لم يكن كذلك فإن الربط لمن يحدث بدون رسائل تحذيرية.
+إذا كان لديك مشكلة في الربط جرب أولاً ربط بسيط باستخدام الربط النسبي في ال fileadmin . إذا لم يكن فيه مشكلة جرب بعدها إستخدام المسار المُطلق.
+
+ربما تحتوي التعييرات للــ PHP على قيود عند إستخدامك في حالة الــ safe-mode لخاصية  features إذا كانت المُختــارة.
+في هذه الحالة إستخدم المسار النسبي.</label>
+			<label index="path.image_descr">هذه هي سجلات ملفات التحميل المرتبطة ب&quot;fileadmin/&quot;. 
+وتكون المجلدات المحملة هي&quot;fileadmin/user_upload/&quot; since &quot;user_upload&quot; is the value of the &quot;Path&quot; field.
+وتقع بنية الفهرس الخاصة ب&quot;fileadmin/&quot; في ذيل القائمة حيث يمكنك الإضطلاع على السجل &quot;user_upload&quot;.</label>
+			<label index="hidden.description">إستخدم هذه الخاصية لو كان رابط الملف</label>
+			<label index="hidden.details">كل المستخدمين الذين يستعملون الربط سوف لا يستطيعون إستخدامه مرةً أخرى .هذا يحتوي على مستخدمين مسئولين .</label>
+			<label index="base.description">إحسب أي من قيم المسار ممكن نعتبرها مسار مُطلق على السيرفر أو المسار النسبي إلى الملف إحسب أي من قيم المسار ممكن نعتبرها مسار مُطلق على السيرفر أو المسار النسبي إلى الملف  الفرعي fileadmin/</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+			<label index="path.image_descr" type="integer">198168257</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+			<label index="path.image_descr">This is a filemount relative to &quot;fileadmin/&quot;. The mounted folder is &quot;fileadmin/user_upload/&quot; since &quot;user_upload&quot; is the value of the &quot;Path&quot; field.
+The directory structure of &quot;fileadmin/&quot; where you can see the &quot;user_upload&quot; folder in the bottom of the list.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

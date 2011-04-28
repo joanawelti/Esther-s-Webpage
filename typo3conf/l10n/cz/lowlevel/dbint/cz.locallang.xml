@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="tables">Tabulky:</label>
+			<label index="fixLostRecord">Klikněte pro přesunutí ztraceného záznamu na nejvyšší úroveň (pid=0)</label>
+			<label index="doktype">Typy dokumentů:</label>
+			<label index="pages">Stránky:</label>
+			<label index="total_pages">Celkový počet stran:</label>
+			<label index="deleted_pages">Označené vymazané strany:</label>
+			<label index="hidden_pages">Skryté strany:</label>
+			<label index="relations">Relace:</label>
+			<label index="relations_description">Provede analýzu obsahu tabulek a zkontroluje, zda existují &quot;prázdné&quot; relace mezi záznamy, nebo zda chybí soubory na jejich očekávaných místech.</label>
+			<label index="files_many_ref">Soubory propojené s více než jedním záznamem:</label>
+			<label index="files_no_ref">Soubory bez odkazů (vymazat!):</label>
+			<label index="files_no_file">Chybějící soubory:</label>
+			<label index="select_db">Vybraná pole:</label>
+			<label index="group_db">Skupinová pole:</label>
+			<label index="tree">Strom stránek:</label>
+			<label index="tree_description">Ukáže strukturu všech stránek v systému v jednom velkém stromu. Pozor, výsledkem může být velmi dlouhý dokument, jehož vytvoření bude chvíli trvat!</label>
+			<label index="records">Statistiky záznamů:</label>
+			<label index="records_description">Ukáže statistiky záznamů v databázi. Protože prochází kompletní strom stránek, poměrně zatíží server.</label>
+			<label index="search">Prohledat celou databázi</label>
+			<label index="search_description">V celé databázi hledá zadaný textový řetězec.</label>
+			<label index="filesearch">Hledat všechny názvy souborů podle zadání</label>
+			<label index="filesearch_description">Bude hledat rekurzívně soubory v PATH_site (podadresáře vztaženo k websajtu) odpovídající danému regex vzoru.</label>
+			<label index="refindex">Zkontrolovat a aktualizovat globální referenční index</label>
+			<label index="refindex_description">Dovoluje vám udržovat referenční index, uchovávaný systémem TYPO3.</label>
+			<label index="title">Kontrola integrity databáze</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="tables" type="integer">267355363</label>
+			<label index="fixLostRecord" type="integer">264598103</label>
+			<label index="doktype" type="integer">59646372</label>
+			<label index="pages" type="double">9915692</label>
+			<label index="total_pages" type="integer">120516512</label>
+			<label index="deleted_pages" type="integer">251989828</label>
+			<label index="hidden_pages" type="integer">56221326</label>
+			<label index="relations" type="integer">158458960</label>
+			<label index="files_many_ref" type="integer">253873964</label>
+			<label index="files_no_ref" type="integer">51429792</label>
+			<label index="files_no_file" type="integer">103076812</label>
+			<label index="select_db" type="integer">222215195</label>
+			<label index="group_db" type="integer">89872761</label>
+			<label index="tree" type="integer">254322778</label>
+			<label index="relations_description" type="integer">98163255</label>
+			<label index="tree_description" type="double">13437987</label>
+			<label index="records" type="integer">107937849</label>
+			<label index="records_description" type="integer">36151804</label>
+			<label index="search" type="integer">201691087</label>
+			<label index="search_description" type="integer">44447557</label>
+			<label index="filesearch" type="integer">138409460</label>
+			<label index="title" type="integer">152428276</label>
+			<label index="filesearch_description" type="integer">206400326</label>
+			<label index="refindex" type="integer">67579080</label>
+			<label index="refindex_description" type="integer">26536462</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="tables">Tables:</label>
+			<label index="fixLostRecord">Click to move this lost record to rootlevel (pid=0)</label>
+			<label index="doktype">Document types:</label>
+			<label index="pages">Pages:</label>
+			<label index="total_pages">Total number of pages:</label>
+			<label index="deleted_pages">Marked-deleted pages:</label>
+			<label index="hidden_pages">Hidden pages:</label>
+			<label index="relations">Relations:</label>
+			<label index="files_many_ref">Files referenced from more than one record:</label>
+			<label index="files_no_ref">Files with no references at all (delete them!):</label>
+			<label index="files_no_file">Missing files:</label>
+			<label index="select_db">Select fields:</label>
+			<label index="group_db">Group fields:</label>
+			<label index="tree">The Page Tree:</label>
+			<label index="relations_description">This will analyse the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</label>
+			<label index="tree_description">This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</label>
+			<label index="records">Records Statistics:</label>
+			<label index="records_description">This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</label>
+			<label index="search">Search Whole Database</label>
+			<label index="search_description">This searches through all database tables and records for a text string.</label>
+			<label index="filesearch">Search all filenames for pattern</label>
+			<label index="title">Database integrity check</label>
+			<label index="filesearch_description">Will search recursively for filenames in the PATH_site (subdirs to the website path) matching a certain regex pattern.</label>
+			<label index="refindex">Check and update global reference index</label>
+			<label index="refindex_description">Allows you to maintain the reference index kept by TYPO3.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

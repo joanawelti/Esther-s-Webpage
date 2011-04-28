@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index=".description">מוצבי קבצים מתארים נתיב קבצים על השרת, יחסי או מוחלט.</label>
+			<label index=".details">דרך יצירת רשומה של מוצב קבצים והנחת התייחסות אליו בקבוצת משתמשי ממשק אחורי, הנך יכול לאפשר גישת משתמשים למוצב קבצים במודול &quot;קובץ&gt;רשימה&quot;. עליך ליצור ולהגדיר לפחות מוצב קבצים אחד עם תיקייה &quot;_temp_&quot; בתוכו אם הנך רוצה לאפשר למשתמשים להעלות קבצים דרך דפדפן אינטרנט. מוצבי קבצים יכולים גם לעצב גישה לנתיב על השרת, אליו יש למשתמש גישת FTP. צריך לזכור רק להגדיר הרשאות קבצים על השרת בצורה נכונה, כך שמשתמש של השרת (שה-PHP משתמש בזהותו) נושא לפחות זכות קריאה לתיקיית FTP זו.</label>
+			<label index="title.description">הכנס שם של מוצב קבצים.</label>
+			<label index="path.description">הכנס נתיב של מוצב קבצים, יחסי או מוחלט, תלוי בהגדרתו של בסיס (BASE).</label>
+			<label index="path.details">במיקרה בו הבסיס (BASE) מכוון להיות יחסי, הנתיב שמוצב נמצא בתת-תיקייה &quot;fileadmin/&quot; של האתר. לכן עליך לציין תת-תיקייה של &quot;fileadmin/&quot; בנתיב. לדוגמה, אם ברצונך ליצור מוצב ל-&quot;fileadmin/user_uploads/all/&quot; עליך לציין &quot;user_uploads/all&quot; בתור ערך לשדה &quot;נתיב&quot;. במידה ובסיס (BASE) הינו מוחלט - עליך לציין נתיב מוחלט על השרת, כגון &quot;/home/ftp_upload&quot; או &quot;C:/home/ftp_upload&quot;.
+&lt;strong&gt;הערה:&lt;/strong&gt;
+בכל מקרה, נא לוודע שמשתמש שבזהותו משתמש ה-PHP נושא לפחות זכות קריאה לנתיב. אם לא - המוצב פשוט לא יופיע, ללא כל אזהרה. אם יש בעיות , במיוחד עם מוצבים מוחלטים - נסה לצור מוצב פשוט יותר - כמו יחסי ל &quot;fileadmin&quot;. אם זה עובד כרצוי - נסה נתיב מוחלט.
+תצורת PHP יכולה להטיל הגבלות נוספות. לכן כדאי יותר להשתמש בנתיבים יחסיים.</label>
+			<label index="hidden.description">השתמש באפשרות זו כדי להפוך מוצב קבצים ללא זמין זמנית.</label>
+			<label index="hidden.details">כל משתמשי ממשק האחורי לא יקבלו אישור גישה יותר. זה כולל משתמשי &quot;Admin&quot; גם.</label>
+			<label index="base.description">קובע אם ערך של שדה &quot;נתיב&quot; הוא נתיב מוחלט או יחסי לתיקייה fileadmin.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="tx_wizardcrpages.alttitle">Opret sider guide</label>
+			<label index="tx_wizardcrpages.description">Giver dig mulighed for hurtigt at oprette mange nye tomme sider, for hurtigt at kunne bygge en sidestruktur.
+Indtast titlerne på siderne du skal have oprettet. Kun udfyldte felter vil blive oprettet som sider.</label>
+			<label index="tx_wizardcrpages.details">De nye sider vil altid blive oprettet som undersider til den nuværende aktive side i sidetræet. Den aktive side er vist øverst på siden. På eksempel billedet herunder er det '/Intro/Startpage/'.
+
+&lt;b&gt;&quot;Gem nye sider&quot;&lt;/b&gt;
+Afkryds denne hvis de nye sider skal være skjulte som standard. Denne valgmulighed bliver gennetvunget såfemt du ikke har rettigheder til at oprette offentlige sider.
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+Extensionen understøtter Lorem Ipsum extensionen - og vil i kombination med denne lægge dummy-indhold ind på siden.</label>
+			<label index="tx_wizardcrpages.image_descr">Du indtaster sidetitlerne for de nye sider du ønsker at oprette. Kun felter der er udfyldt vil blive oprettet som sider.
+Efter der klikkes 'Opret sider' vil sidetræet til venstre straks blive opdateret og vise positionen på de nye sider.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="tx_wizardcrpages.alttitle" type="integer">61381807</label>
+			<label index="tx_wizardcrpages.description" type="integer">139514396</label>
+			<label index="tx_wizardcrpages.details" type="integer">190128195</label>
+			<label index="tx_wizardcrpages.image_descr" type="integer">257127828</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="tx_wizardcrpages.alttitle">Create Pages wizard</label>
+			<label index="tx_wizardcrpages.description">Enables you to create a batch of new, empty pages for quickly building up a new page tree. 
+Just enter the titles for the pages you need. Only filled in fields will be created as pages.</label>
+			<label index="tx_wizardcrpages.details">The new pages will always be created as subpages to the currently active page from the page tree. This page is shown in the top of the page. In the example image below it is &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Place new pages after the existing subpages&quot;&lt;/b&gt;
+If you select this option the pages will be create &lt;em&gt;after&lt;/em&gt; any existing subpages.
+
+&lt;b&gt;&quot;Hide new pages&quot;&lt;/b&gt;
+Select this if the new pages should be hidden by default. This option may be forced upon you if you do not have credentials to create new, online pages.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+The Create new page wizard supports the Lorem Ipsum extension providing dummy content for the fields.</label>
+			<label index="tx_wizardcrpages.image_descr">You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
+After pressing the &quot;Create pages&quot; button the page tree to the left will update instantly, showing you the position of the new pages!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="title">Statistike indeksiranega iskanja</label>
+			<label index="title2">Seznam najbolj iskanih besed</label>
+			<label index="noresults">Ni rezultatov</label>
+			<label index="all">Vse</label>
+			<label index="last30days">Zadnjih 30 dni</label>
+			<label index="last24hours">Zadnjih 24 ur</label>
+			<label index="justthispage">Statistika samo za to stran</label>
+			<label index="allpages">Statistika za vse strani. Izberite stran z obrazcem za indeksirano iskanje, če želite videti več statistik</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="title" type="integer">252429738</label>
+			<label index="title2" type="integer">124744620</label>
+			<label index="noresults" type="integer">206160539</label>
+			<label index="all" type="integer">186422474</label>
+			<label index="last30days" type="integer">39154833</label>
+			<label index="last24hours" type="integer">104044646</label>
+			<label index="justthispage" type="integer">264210007</label>
+			<label index="allpages" type="integer">249535422</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index="title">Indexed search statistics</label>
+			<label index="title2">List of most searched words</label>
+			<label index="noresults">No results</label>
+			<label index="all">All</label>
+			<label index="last30days">Last 30 days</label>
+			<label index="last24hours">Last 24 hours</label>
+			<label index="justthispage">Statistics for this page only</label>
+			<label index="allpages">Statistics for all pages. Select a page with indexed search form to see several statistics</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

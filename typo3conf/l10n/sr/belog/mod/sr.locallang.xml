@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sr" type="array">
+			<label index="type_1">База</label>
+			<label index="action_1_1">Убаци</label>
+			<label index="action_1_2">Ажурирај</label>
+			<label index="action_1_3">Обриши</label>
+			<label index="action_1_4">Провери</label>
+			<label index="type_2">ФАЈЛ</label>
+			<label index="action_2_2">Копирај</label>
+			<label index="action_2_3">Премести</label>
+			<label index="action_2_4">Обриши</label>
+			<label index="action_2_5">Преименуј</label>
+			<label index="action_2_6">Нови</label>
+			<label index="action_2_7">Одзипуј</label>
+			<label index="action_2_8">Нови фајл</label>
+			<label index="action_2_9">Измени</label>
+			<label index="type_254">ПОДЕШАВАЊЕ</label>
+			<label index="action_254_1">Измена</label>
+			<label index="type_255">ПРИЈАВИ СЕ</label>
+			<label index="action_255_1">ПРИЈАВИ СЕ</label>
+			<label index="action_255_2">ОДЈАВИ СЕ</label>
+			<label index="action_255_3">ПОКУШАЈ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sr" type="array">
+			<label index="type_1" type="double">10855639</label>
+			<label index="action_1_1" type="integer">172329952</label>
+			<label index="action_1_2" type="double">6894342</label>
+			<label index="action_1_3" type="integer">254438473</label>
+			<label index="action_1_4" type="double">6340397</label>
+			<label index="type_2" type="integer">167532679</label>
+			<label index="action_2_2" type="integer">100361047</label>
+			<label index="action_2_3" type="integer">112997933</label>
+			<label index="action_2_4" type="integer">254438473</label>
+			<label index="action_2_5" type="integer">151300144</label>
+			<label index="action_2_6" type="double">3944062</label>
+			<label index="action_2_7" type="integer">31401173</label>
+			<label index="action_2_8" type="integer">109175050</label>
+			<label index="action_2_9" type="integer">131916066</label>
+			<label index="type_254" type="integer">161787140</label>
+			<label index="action_254_1" type="integer">256820725</label>
+			<label index="type_255" type="integer">77032828</label>
+			<label index="action_255_1" type="integer">77032828</label>
+			<label index="action_255_2" type="integer">112519785</label>
+			<label index="action_255_3" type="integer">161988289</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sr" type="array">
+			<label index="type_1">DB</label>
+			<label index="action_1_1">Insert</label>
+			<label index="action_1_2">Update</label>
+			<label index="action_1_3">Delete</label>
+			<label index="action_1_4">Check</label>
+			<label index="type_2">FILE</label>
+			<label index="action_2_2">Copy</label>
+			<label index="action_2_3">Move</label>
+			<label index="action_2_4">Delete</label>
+			<label index="action_2_5">Rename</label>
+			<label index="action_2_6">New</label>
+			<label index="action_2_7">Unzip</label>
+			<label index="action_2_8">New file</label>
+			<label index="action_2_9">Edit</label>
+			<label index="type_254">SETTING</label>
+			<label index="action_254_1">Change</label>
+			<label index="type_255">LOGIN</label>
+			<label index="action_255_1">LOGIN</label>
+			<label index="action_255_2">LOGOUT</label>
+			<label index="action_255_3">ATTEMPT</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

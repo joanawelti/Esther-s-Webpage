@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">حدد نقطة الدخول الخاصة بإسم المضيف</label>
+			<label index=".details">تحتوي قواعد بيانات تيبو3 على أكثرمن صفحة وب،وكما هو معهود فعليك تحديد اسماً لنطاق كل صفحة من صفحات الوب الجديدة &quot;جذرالصفحة&quot;.وعلى الرغم من أنك تشير لجميع النطاقات لنفس قاعلدة بيانات التيبو 3 على المخدم ، إلا انك تلحق سجلات النطاق عند مواضع على صفحة الشجرة من حيث يمكنك توجيه الطلبات للنطاق.وبالتالي الصفحات ‘خارج‘هذه النقاط لن تكون سهلة المنال من خلال هذا النطاق .ذلك ما ينطبق على &quot;Virtual hosts&quot; على مخدم  Apache.
+(يجب أن يكون متاحاً للنطاق فقط).</label>
+			<label index="domainName.description">إدخل اسم المضيف، eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="domainName.details">قبل أن يحدث أي تاثر لسجل النطاق تأكد من أن سجل النطاقات Aموجة إلى المخدم و من أن مخدمك معدا لتوجيه الطلبات لهذه القاعدة من قواعد التيبو 3.وعلى ذلك بصفة أساسية قبل ان تدخل أي شئ هنا ، تأكد من أن الطلب النطاق المراد إدخاله يصل إلى جذر صفحة الشجرة الحالية.عندما تنشئ سجل نطاق يحتوي على اسم المضيف بداخله (إجعله كاسم حقيقي للنطاق أو عنوان IP)ويكون مطابقا لاسم المضيف على الرابط ،فإن مخطوطة التيبو الخاصة المنشأة على الطرف الأمامي ستجعل الصفحة قاصرة فقط على أسماء المضيفينفي شجرة الصفحة من هذه النقطة وخارجها.نتيجة لذك فإنك ‘ستصل‘إلى هذه الصفحة حيث توجد هذه السجلات و لا يمكن للمستخدمين رؤية الصفحة من نطاقات خالرج هذا الفرع.
+&lt;strong&gt;Notice, &lt;/strong&gt;وإذا ما قمت بتشغيل تيبو3 من  دليل فرعي لاسم النطاق, فعليك أن ترفق أيضا اسم الدليل الفرعي,على سبيل المثال.&quot;www.my-domain.org/typo3_subdir/&quot;</label>
+			<label index="redirectTo.description">وعند إدخال أي قيمة جديدة، فسوف يعاد توجيه كل طلبات النطاق مرة آخرى نحو الرابط.</label>
+			<label index="redirectTo.details">تأكد من إعادة تعليق &quot;http://&quot;&quot;Location: &quot; هو الذي يزود هذه القيمة! وبصفة اساسية فإن تصدر الصفحة 
+&lt;strong&gt;Warning:&lt;/strong&gt;ولا يمكنك استخدام  هذا النطاق ‘لأعادة توجيه‘نطاق صفحة ما داخل نفس النطاق المحتوي على السجل1وإذا ما قمت بذلك فإنك ستدخل نفسك في حلقة مفرغة حيث النطاق المعاد توجيهه سيعيد توجيه نفسه مرة أخرى!
+
+مثال جيد:
+Domain: &quot;my-domain.org&quot;
+Redirect: &quot;www.my-domain.org&quot;
+
+في الحقيقة يعد طلبات التوجيه هذه اسما لنطاق آخر, ويسمى&quot;www.my-domain.org&quot;
+مثال سيئ:
+
+Domain: &quot;www.my-domain.org&quot;
+Redirect: &quot;www.my-domain.org/?id=10&quot;
+سيتوجه هذا الطلب إلى حلقة داخلية لأن اسم النطاق في الحقيقة لم يتغير!
+
+الفهارس الحقيقية:
+عند استخدامك لتيبو3 من خلال نظام التشغيل الينكس ، فغنه سيكون بإمكانك إنشاء‘ فهارس فرعية حقيقية للوب‘بإستخدام نفس قاعدة البيانات.أنظر إلى قائمة التوثيق لمزيد من المعلومات.في مثل هذه الحالة ينبغي عليك إدخال اسم المصيف مضاف إليه دليل فرعي مثل هذا:&quot;my-domain.org/subdir/&quot;.إذا ما توافق التجميع بين اسم المضيف و سجل النطاق مع القيمه ‘أصبح من الممكن تعين سجل النطاق بصورة صحيحة وكذلك الحد من دخول الصفحة إلى دخول صفحة الشجرة أسفل سجل النطاق.</label>
+			<label index="hidden.description">استخدم هذا الخيار بصفة مؤقته لإلغاء سجل النطاق.</label>
+			<label index="prepend_params.description">عند ضبطها فإن أي GETباراميترز في الرابط المحدد سيتم تحويلها إلى الرابط المعاد تحويله.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description" type="integer">102441634</label>
+			<label index=".details" type="integer">232530587</label>
+			<label index="domainName.description" type="double">15093983</label>
+			<label index="domainName.details" type="integer">164327412</label>
+			<label index="redirectTo.description" type="integer">191995947</label>
+			<label index="hidden.description" type="integer">31618732</label>
+			<label index="redirectTo.details" type="integer">253314629</label>
+			<label index="prepend_params.description" type="integer">132631349</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">Determines the entrypoint of a certain host name.</label>
+			<label index=".details">When a TYPO3 database contains more than a single website, you'll typically have to assign a domain name to each new websites &quot;root-page&quot;. In practice you point all the domains to the same TYPO3 database on the server, but then you insert these Domain records at the positions in the page tree where you want to direct requests to the domain. And thus pages 'outside' that point will not be accessible from that domain.
+This is like &quot;Virtual hosts&quot; in Apache servers.
+
+(Should probably be available for admin only.)</label>
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="domainName.details">Before a domain record will have any effect you must make sure that the domains A-record is pointed towards the server and that your server is setup to direct requests to this TYPO3 database. So basically before entering anything here, make sure a request to the domain you wish to enter arrives at the root of the current page tree.
+When you create a domain record and the host name in it (be it a real domain name or an IP address) matches the hostname of the URL, the TypoScript based front end will limit the available page to only those in the page tree from this point and outwards. In effect you will 'arrive' at the page where this record is and furthermore users cannot see pages with ids outside this branch.
+
+&lt;strong&gt;Notice, &lt;/strong&gt;if you run TYPO3 from a subdirectory of the domain name, you must include the subdirectory as well, eg. &quot;www.my-domain.org/typo3_subdir/&quot;</label>
+			<label index="redirectTo.description">All requests to the domain will be redirected to this URL, if any value is entered.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+			<label index="redirectTo.details">Make sure to prepend &quot;http://&quot; or equally to the value! Basically a &quot;Location: &quot; header is just issued to this value!
+&lt;strong&gt;Warning:&lt;/strong&gt; You cannot use this to 'redirect' to a specific page id within the same domain as the record has! If you do that it'll just go into an endless loop because the redirect is redirecting to itself!
+
+Good Example:
+Domain: &quot;my-domain.org&quot;
+Redirect: &quot;www.my-domain.org&quot;
+
+This redirects requests to what is infact another domain name, namely &quot;www.my-domain.org&quot;
+
+Bad Example:
+Domain: &quot;www.my-domain.org&quot;
+Redirect: &quot;www.my-domain.org/?id=10&quot;
+
+This will go into an eternal loop because the domain name has in fact not changed!
+
+
+Virtual directories:
+If you're using TYPO3 on a unix computer you can make 'virtual subdirectories' to a website, still within the same database. See document list for more information. In that case you should enter the hostname with the subdirectory appended, like this: &quot;my-domain.org/subdir/&quot;. If the combination of host name and current subdirectory matches the value, the domain record will be correctly detected and limit page access to the page tree below the Domain record.</label>
+			<label index="prepend_params.description">If set, any GET parameters in the calling URL will be transferred to the redirect URL.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

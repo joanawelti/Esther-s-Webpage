@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="mlang_labels_tablabel">Zobrazit štatistiku Indexovacieho Engine</label>
+			<label index="mlang_labels_tabdescr">Tu môžeš spravovať nastavenia Indexovacieho Engine, ktorá je poskytnutá frontendom. Môžeš vidieť štatistiku indexovaných stránok. Indexácia musí býť aktivovaná v TypoScriptovej šablóne.&lt;BR&gt;&lt;em&gt;Prístup len pre 'admin' užívateľov!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Indexovanie</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="mlang_labels_tablabel" type="integer">33963420</label>
+			<label index="mlang_labels_tabdescr" type="integer">9602245</label>
+			<label index="mlang_tabs_tab" type="integer">86103277</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

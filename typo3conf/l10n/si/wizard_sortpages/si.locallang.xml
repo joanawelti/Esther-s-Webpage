@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="wiz_sort">Sortiraj strani</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_currentPageOrder">Trenutni razpored strani</label>
+			<label index="wiz_changeOrder">Sortiraj te strani po </label>
+			<label index="wiz_changeOrder_title">Naslov strani</label>
+			<label index="wiz_changeOrder_subtitle">Podnaslov</label>
+			<label index="wiz_changeOrder_tCreate">Ustvarjeno ob</label>
+			<label index="wiz_changeOrder_tChange">Spremenjeno ob</label>
+			<label index="wiz_changeOrder_REVERSE">Obratni vrstni red</label>
+			<label index="wiz_changeOrder_msg1">Spremenili boste razpored strani. Res želite nadaljevati?</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="wiz_sort" type="integer">66209340</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_currentPageOrder" type="integer">22140872</label>
+			<label index="wiz_changeOrder" type="integer">239009776</label>
+			<label index="wiz_changeOrder_title" type="integer">19706881</label>
+			<label index="wiz_changeOrder_subtitle" type="integer">3536098</label>
+			<label index="wiz_changeOrder_tCreate" type="integer">9880846</label>
+			<label index="wiz_changeOrder_tChange" type="integer">21265808</label>
+			<label index="wiz_changeOrder_REVERSE" type="integer">175002343</label>
+			<label index="wiz_changeOrder_msg1" type="integer">138623442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="import">.t3d den içeri al</label>
+			<label index="export">.t3d ye aktar</label>
+			<label index="title">İçe al/Dışarı ver</label>
+			<label index="moduleFunction.tx_impexp_modfunc1">Ön ayarları dışarı ver</label>
+			<label index="tableselec_configuration">Ayar</label>
+			<label index="exportdata_savedFile">DOSYA KAYDEDİLDİ</label>
+			<label index="exportdata_savedInSBytes">&quot;%s&quot; ye, bytes %s kaydedildi</label>
+			<label index="exportdata_problemsSavingFile">Dosya kaydetmede hatalar</label>
+			<label index="exportdata_badPathS">Hatalı yol: &quot;%s&quot;</label>
+			<label index="exportdata_advancedOptions">Gelişmiş Seçenekler</label>
+			<label index="exportdata_messages">Mesajlar</label>
+			<label index="execlistqu_maxNumberLimit">Max sayı limiti</label>
+			<label index="makeconfig_pageId">Sayfa ID:</label>
+			<label index="makeconfig_tree">Ağaç:</label>
+			<label index="makeconfig_tablesOnThisPage">Bu sayfadaki tablolar</label>
+			<label index="makeconfig_onlyThisPage">Sadece bu sayfa</label>
+			<label index="makeconfig_1Level">1 seviye</label>
+			<label index="makeconfig_2Levels">2 seviye</label>
+			<label index="makeconfig_3Levels">3 seviye</label>
+			<label index="makeconfig_4Levels">4 seviye</label>
+			<label index="makeconfig_levels">Seviyeler</label>
+			<label index="makeconfig_maxNumberOfRecords">Max. Kayıt Sayısı</label>
+			<label index="makeconfig_exportSingleRecord">Tek kayıt dışarı aktar</label>
+			<label index="makeconfig_record">Kayıt:</label>
+			<label index="makeconfig_exportTablesFromPages">Tabloları sayfadan dışarı aktar</label>
+			<label index="makeadvanc_update">Güncelleme</label>
+			<label index="makesavefo_update">Güncelleme</label>
+			<label index="makesavefo_load">Yükle</label>
+			<label index="makesavefo_save">Kaydet</label>
+			<label index="makesavefo_areYouSure">Emin misiniz?</label>
+			<label index="makesavefo_delete">Sil</label>
+			<label index="makesavefo_outputOptions">Çıktı opsiyonları</label>
+			<label index="makesavefo_title">Başlık:</label>
+			<label index="makesavefo_description">Tanım:</label>
+			<label index="makesavefo_notes">Notlar:</label>
+			<label index="makesavefo_t3dFileCompressed">T3D dosyası / sıkıştırılmış</label>
+			<label index="makesavefo_t3dFile">T3D dosyası</label>
+			<label index="makesavefo_xml">XML</label>
+			<label index="makesavefo_fileFormat">Dosya düzeni:</label>
+			<label index="makesavefo_maxSizeOfFiles">Max. dosya büyüklüğü (kb):</label>
+			<label index="makesavefo_filenameSavedInS">Dosya adı (&quot;%s&quot; içine kaydedildi)</label>
+			<label index="importdata_saveToFilename">Dosya ismi ile kaydet</label>
+			<label index="importdata_selectFileToImport">İçeri almak için dosya seç</label>
+			<label index="importdata_file">Dosya:</label>
+			<label index="importdata_noteNoDecompressorAvailable">Not: Sıkıştırılmış dosyalar için gerekli açıcı mevcut değil!</label>
+			<label index="importdata_importOptions">İçeri alma seçenekleri:</label>
+			<label index="importdata_update">Güncelleme:</label>
+			<label index="importdata_updateRecords">Kayıtları güncelle</label>
+			<label index="importdata_ignorePidDifferencesGlobally">Global olarak PID farklılıklarını gözardı et</label>
+			<label index="importdata_preview">Önizleme</label>
+			<label index="importdata_update_299e">Güncelle</label>
+			<label index="importdata_import">İçe al</label>
+			<label index="importdata_areYouSure">Emin misiniz?</label>
+			<label index="importdata_newImport">Yeni içeri al</label>
+			<label index="importdata_enableLogging">Günlükleme aktif:</label>
+			<label index="importdata_uploadFileFromLocal">Bilgisayarınızdan dosya yükleme:</label>
+			<label index="importdata_browse">Göster:</label>
+			<label index="importdata_uploadStatus">Yükleme durumu:</label>
+			<label index="importdata_success">Başarı:</label>
+			<label index="importdata_failureNoFileUploaded">Hata: Dosya karşıya yüklenmedi- Dosya çok büyük olabilir. Lütfen sistem günlüklerini kontrol et.</label>
+			<label index="importdata_upload">Yükle</label>
+			<label index="importdata_title">Başlık:</label>
+			<label index="importdata_description">Tanım:</label>
+			<label index="importdata_notes">Notlar:</label>
+			<label index="importdata_packager">Paketleyici</label>
+			<label index="importdata_email">e-Posta:</label>
+			<label index="importdata_icon">İkon:</label>
+			<label index="importdata_messages">Mesajlar</label>
+			<label index="importdata_structureHasBeenImported">Yapı içeri alındı, sonuçları aşağıda:</label>
+			<label index="filterpage_structureToBeImported">İçeri alınacak yapı:</label>
+			<label index="ALL_tables">Tüm tablolar</label>
+			<label index="impexpcore_displaycon_controls">Kontroller:</label>
+			<label index="impexpcore_displaycon_title">Başlık:</label>
+			<label index="impexpcore_displaycon_size">Büyüklük:</label>
+			<label index="impexpcore_displaycon_message">Mesaj:</label>
+			<label index="impexpcore_displaycon_updateMode">Günceleme modu:</label>
+			<label index="impexpcore_displaycon_currentPath">Şu andaki veri yolu :</label>
+			<label index="impexpcore_displaycon_result">Sonuç:</label>
+			<label index="impexpcore_singlereco_update">Güncelleme</label>
+			<label index="impexpcore_singlereco_insert">Ekle</label>
+			<label index="impexpcore_singlereco_importAsNew">Yeni olarak içeri al</label>
+			<label index="impexpcore_singlereco_ignorePid">PID'i gözardı et</label>
+			<label index="impexpcore_singlereco_respectPid">PID'i dikkate al</label>
+			<label index="impexpcore_singlereco_title">Başlık:</label>
+			<label index="impexpcore_singlereco_descr">Tanım:</label>
+			<label index="impexpcore_singlereco_filename">Dosya adı:</label>
+			<label index="impexpcore_singlereco_value">Değer:</label>
+			<label index="impexpcore_softrefsel_record">Kayıt:</label>
+			<label index="impexpcore_softrefsel_editable">Değiştirilebilir</label>
+			<label index="impexpcore_softrefsel_exclude">Kilitle</label>
+			<label index="impexpcore_printerror_description">Tanım:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="import" type="integer">176109005</label>
+			<label index="export" type="integer">243149277</label>
+			<label index="title" type="integer">159173914</label>
+			<label index="exportdata_problemsSavingFile" type="integer">217500640</label>
+			<label index="exportdata_advancedOptions" type="integer">165660117</label>
+			<label index="exportdata_messages" type="integer">69068502</label>
+			<label index="makeconfig_onlyThisPage" type="integer">203612347</label>
+			<label index="moduleFunction.tx_impexp_modfunc1" type="integer">34124876</label>
+			<label index="execlistqu_maxNumberLimit" type="integer">193350209</label>
+			<label index="makeconfig_pageId" type="integer">36562266</label>
+			<label index="makeconfig_tree" type="integer">56313694</label>
+			<label index="makeconfig_tablesOnThisPage" type="integer">85076309</label>
+			<label index="makeconfig_1Level" type="integer">200641290</label>
+			<label index="makeconfig_2Levels" type="integer">228799796</label>
+			<label index="makeconfig_3Levels" type="integer">195275893</label>
+			<label index="makeconfig_4Levels" type="integer">97262614</label>
+			<label index="makeconfig_maxNumberOfRecords" type="integer">29568678</label>
+			<label index="makeconfig_record" type="integer">204948081</label>
+			<label index="makeconfig_exportTablesFromPages" type="integer">50982422</label>
+			<label index="makeadvanc_update" type="double">6894342</label>
+			<label index="makesavefo_update" type="double">6894342</label>
+			<label index="makesavefo_load" type="integer">253352946</label>
+			<label index="makesavefo_save" type="integer">211601612</label>
+			<label index="makesavefo_areYouSure" type="integer">120169752</label>
+			<label index="makesavefo_delete" type="integer">254438473</label>
+			<label index="makesavefo_outputOptions" type="double">2864698</label>
+			<label index="makesavefo_title" type="integer">85903807</label>
+			<label index="makesavefo_description" type="integer">218120871</label>
+			<label index="makesavefo_notes" type="integer">44047703</label>
+			<label index="makesavefo_t3dFileCompressed" type="integer">237497820</label>
+			<label index="makesavefo_t3dFile" type="integer">66222176</label>
+			<label index="makesavefo_xml" type="integer">55581616</label>
+			<label index="importdata_file" type="integer">182590850</label>
+			<label index="tableselec_configuration" type="integer">39122498</label>
+			<label index="exportdata_savedFile" type="integer">115450939</label>
+			<label index="exportdata_savedInSBytes" type="integer">24048618</label>
+			<label index="exportdata_badPathS" type="integer">254355411</label>
+			<label index="makeconfig_levels" type="integer">252893175</label>
+			<label index="makeconfig_exportSingleRecord" type="integer">36722263</label>
+			<label index="importdata_preview" type="integer">52420219</label>
+			<label index="importdata_update_299e" type="double">6894342</label>
+			<label index="importdata_import" type="integer">120417658</label>
+			<label index="importdata_areYouSure" type="integer">120169752</label>
+			<label index="importdata_newImport" type="integer">27979046</label>
+			<label index="importdata_enableLogging" type="integer">133157843</label>
+			<label index="importdata_uploadFileFromLocal" type="integer">124159338</label>
+			<label index="importdata_browse" type="integer">20214859</label>
+			<label index="importdata_uploadStatus" type="integer">193138604</label>
+			<label index="importdata_success" type="integer">77331493</label>
+			<label index="importdata_failureNoFileUploaded" type="integer">22276285</label>
+			<label index="importdata_upload" type="integer">152310342</label>
+			<label index="importdata_title" type="integer">85903807</label>
+			<label index="importdata_description" type="integer">218120871</label>
+			<label index="importdata_notes" type="integer">44047703</label>
+			<label index="importdata_packager" type="integer">190005166</label>
+			<label index="importdata_email" type="integer">111272549</label>
+			<label index="importdata_icon" type="integer">57819822</label>
+			<label index="importdata_messages" type="integer">69068502</label>
+			<label index="importdata_structureHasBeenImported" type="integer">247317839</label>
+			<label index="filterpage_structureToBeImported" type="integer">44467435</label>
+			<label index="ALL_tables" type="integer">84436380</label>
+			<label index="impexpcore_displaycon_controls" type="integer">44875680</label>
+			<label index="impexpcore_displaycon_title" type="integer">85903807</label>
+			<label index="impexpcore_displaycon_size" type="integer">183911828</label>
+			<label index="impexpcore_displaycon_message" type="integer">155215423</label>
+			<label index="impexpcore_displaycon_updateMode" type="integer">186500994</label>
+			<label index="impexpcore_displaycon_currentPath" type="integer">122128109</label>
+			<label index="impexpcore_displaycon_result" type="integer">95077261</label>
+			<label index="impexpcore_singlereco_update" type="double">6894342</label>
+			<label index="impexpcore_singlereco_insert" type="integer">172329952</label>
+			<label index="impexpcore_singlereco_importAsNew" type="integer">55394824</label>
+			<label index="impexpcore_singlereco_ignorePid" type="integer">132277591</label>
+			<label index="impexpcore_singlereco_respectPid" type="integer">234394398</label>
+			<label index="impexpcore_singlereco_title" type="integer">85903807</label>
+			<label index="impexpcore_singlereco_descr" type="integer">203173356</label>
+			<label index="impexpcore_singlereco_filename" type="integer">105459047</label>
+			<label index="impexpcore_singlereco_value" type="integer">181254146</label>
+			<label index="impexpcore_softrefsel_record" type="integer">204948081</label>
+			<label index="impexpcore_softrefsel_editable" type="integer">46177913</label>
+			<label index="impexpcore_softrefsel_exclude" type="integer">138670721</label>
+			<label index="impexpcore_printerror_description" type="integer">218120871</label>
+			<label index="makesavefo_fileFormat" type="integer">152564791</label>
+			<label index="makesavefo_maxSizeOfFiles" type="integer">70540311</label>
+			<label index="makesavefo_filenameSavedInS" type="integer">122482427</label>
+			<label index="importdata_saveToFilename" type="integer">91594981</label>
+			<label index="importdata_selectFileToImport" type="integer">59789389</label>
+			<label index="importdata_noteNoDecompressorAvailable" type="double">14210277</label>
+			<label index="importdata_importOptions" type="integer">202945720</label>
+			<label index="importdata_update" type="integer">60645742</label>
+			<label index="importdata_updateRecords" type="integer">114968258</label>
+			<label index="importdata_ignorePidDifferencesGlobally" type="integer">105855116</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+			<label index="import">Import from .t3d</label>
+			<label index="export">Export to .t3d</label>
+			<label index="title">Import / Export</label>
+			<label index="exportdata_problemsSavingFile">Problems saving file</label>
+			<label index="exportdata_advancedOptions">Advanced Options</label>
+			<label index="exportdata_messages">Messages</label>
+			<label index="makeconfig_onlyThisPage">Only this page</label>
+			<label index="moduleFunction.tx_impexp_modfunc1">Export Presets</label>
+			<label index="execlistqu_maxNumberLimit">Max number limit!</label>
+			<label index="makeconfig_pageId">Page ID:</label>
+			<label index="makeconfig_tree">Tree:</label>
+			<label index="makeconfig_tablesOnThisPage">Tables on this page</label>
+			<label index="makeconfig_1Level">1 level</label>
+			<label index="makeconfig_2Levels">2 levels</label>
+			<label index="makeconfig_3Levels">3 levels</label>
+			<label index="makeconfig_4Levels">4 levels</label>
+			<label index="makeconfig_maxNumberOfRecords">Max number of records:</label>
+			<label index="makeconfig_record">Record:</label>
+			<label index="makeconfig_exportTablesFromPages">Export tables from pages:</label>
+			<label index="makeadvanc_update">Update</label>
+			<label index="makesavefo_update">Update</label>
+			<label index="makesavefo_load">Load</label>
+			<label index="makesavefo_save">Save</label>
+			<label index="makesavefo_areYouSure">Are you sure?</label>
+			<label index="makesavefo_delete">Delete</label>
+			<label index="makesavefo_outputOptions">Output options:</label>
+			<label index="makesavefo_title">Title:</label>
+			<label index="makesavefo_description">Description:</label>
+			<label index="makesavefo_notes">Notes:</label>
+			<label index="makesavefo_t3dFileCompressed">T3D file / compressed</label>
+			<label index="makesavefo_t3dFile">T3D file</label>
+			<label index="makesavefo_xml">XML</label>
+			<label index="importdata_file">File:</label>
+			<label index="tableselec_configuration">Configuration</label>
+			<label index="exportdata_savedFile">SAVED FILE</label>
+			<label index="exportdata_savedInSBytes">Saved in &quot;%s&quot;, bytes %s</label>
+			<label index="exportdata_badPathS">Bad path: &quot;%s&quot;</label>
+			<label index="makeconfig_levels">Levels:</label>
+			<label index="makeconfig_exportSingleRecord">Export single record:</label>
+			<label index="importdata_preview">Preview</label>
+			<label index="importdata_update_299e">Update</label>
+			<label index="importdata_import">Import</label>
+			<label index="importdata_areYouSure">Are you sure?</label>
+			<label index="importdata_newImport">New import</label>
+			<label index="importdata_enableLogging">Enable logging:</label>
+			<label index="importdata_uploadFileFromLocal">Upload file from local computer:</label>
+			<label index="importdata_browse">Browse:</label>
+			<label index="importdata_uploadStatus">Upload status:</label>
+			<label index="importdata_success">Success:</label>
+			<label index="importdata_failureNoFileUploaded">Failure: No file uploaded - was it too big? Check system log.</label>
+			<label index="importdata_upload">Upload</label>
+			<label index="importdata_title">Title:</label>
+			<label index="importdata_description">Description:</label>
+			<label index="importdata_notes">Notes:</label>
+			<label index="importdata_packager">Packager:</label>
+			<label index="importdata_email">Email:</label>
+			<label index="importdata_icon">Icon:</label>
+			<label index="importdata_messages">Messages</label>
+			<label index="importdata_structureHasBeenImported">Structure has been imported, here is the result:</label>
+			<label index="filterpage_structureToBeImported">Structure to be imported:</label>
+			<label index="ALL_tables">ALL tables</label>
+			<label index="impexpcore_displaycon_controls">Controls:</label>
+			<label index="impexpcore_displaycon_title">Title:</label>
+			<label index="impexpcore_displaycon_size">Size:</label>
+			<label index="impexpcore_displaycon_message">Message:</label>
+			<label index="impexpcore_displaycon_updateMode">Update Mode:</label>
+			<label index="impexpcore_displaycon_currentPath">Current Path:</label>
+			<label index="impexpcore_displaycon_result">Result:</label>
+			<label index="impexpcore_singlereco_update">Update</label>
+			<label index="impexpcore_singlereco_insert">Insert</label>
+			<label index="impexpcore_singlereco_importAsNew">Import as new</label>
+			<label index="impexpcore_singlereco_ignorePid">Ignore PID</label>
+			<label index="impexpcore_singlereco_respectPid">Respect PID</label>
+			<label index="impexpcore_singlereco_title">Title:</label>
+			<label index="impexpcore_singlereco_descr">Descr:</label>
+			<label index="impexpcore_singlereco_filename">Filename:</label>
+			<label index="impexpcore_singlereco_value">Value:</label>
+			<label index="impexpcore_softrefsel_record">Record:</label>
+			<label index="impexpcore_softrefsel_editable">Editable</label>
+			<label index="impexpcore_softrefsel_exclude">Exclude</label>
+			<label index="impexpcore_printerror_description">Description:</label>
+			<label index="makesavefo_fileFormat">File format:</label>
+			<label index="makesavefo_maxSizeOfFiles">Max size of files to include (kb):</label>
+			<label index="makesavefo_filenameSavedInS">Filename (saved in &quot;%s&quot;):</label>
+			<label index="importdata_saveToFilename">Save to filename</label>
+			<label index="importdata_selectFileToImport">Select file to import:</label>
+			<label index="importdata_noteNoDecompressorAvailable">NOTE: No decompressor available for compressed files!</label>
+			<label index="importdata_importOptions">Import Options:</label>
+			<label index="importdata_update">Update:</label>
+			<label index="importdata_updateRecords">Update records</label>
+			<label index="importdata_ignorePidDifferencesGlobally">Ignore PID differences globally</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="wiz_sort">Ordenar páginas</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_currentPageOrder">Ordem da página corrente</label>
+			<label index="wiz_changeOrder">Ordenar estas páginas por</label>
+			<label index="wiz_changeOrder_title">Título da página</label>
+			<label index="wiz_changeOrder_subtitle">Sub-título</label>
+			<label index="wiz_changeOrder_tCreate">Criado em</label>
+			<label index="wiz_changeOrder_tChange">Alterado em</label>
+			<label index="wiz_changeOrder_REVERSE">Inverter ordem corrente</label>
+			<label index="wiz_changeOrder_msg1">Você está prestes a mudar a ordem das páginas acima. Tem a certeza de que quer continuar?</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="wiz_sort" type="integer">66209340</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_currentPageOrder" type="integer">22140872</label>
+			<label index="wiz_changeOrder" type="integer">239009776</label>
+			<label index="wiz_changeOrder_title" type="integer">19706881</label>
+			<label index="wiz_changeOrder_subtitle" type="integer">3536098</label>
+			<label index="wiz_changeOrder_tCreate" type="integer">9880846</label>
+			<label index="wiz_changeOrder_tChange" type="integer">21265808</label>
+			<label index="wiz_changeOrder_REVERSE" type="integer">175002343</label>
+			<label index="wiz_changeOrder_msg1" type="integer">138623442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

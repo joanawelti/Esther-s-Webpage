@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<generator>LFEditor</generator>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="cannotedit_spacer">This page is of the type &quot;spacer&quot;. This page type doesn't have any content. Therefore content editing has been disabled.</label>
+			<label index="createnewcontent_selectContentArea">1: Select a content area and place, where to put a new content element:</label>
+			<label index="createnewcontent_selectType">2: Select type of content element:</label>
+			<label index="newPage">New page</label>
+			<label index="newPageWizard">Create new page (wizard)</label>
+			<label index="new_cont_wizard">Add new content (wizard)</label>
+			<label index="new_dynelement">Add dynamic element</label>
+			<label index="new_image">Add image</label>
+			<label index="new_text">Add text element</label>
+			<label index="path">Page: </label>
+			<label index="text_copy">Copy</label>
+			<label index="text_createnewrecord">New</label>
+			<label index="text_cut">Cut</label>
+			<label index="text_editrecord">Edit</label>
+			<label index="text_makeLocal">Local copy</label>
+			<label index="text_movedown">Move one step downward</label>
+			<label index="text_movedown_short">Downward</label>
+			<label index="text_moveup">Move one step upward</label>
+			<label index="text_moveup_short">Upward</label>
+			<label index="text_paste">Paste</label>
+			<label index="text_ref">Ref</label>
+			<label index="text_select"> -- Editing options of the element -- </label>
+			<label index="text_select_new"> -- New element / paste element  -- </label>
+			<label index="text_select_new_wiz"> &lt;- Create new element here </label>
+			<label index="text_text_deleteRecord_long">Delete content element</label>
+			<label index="text_unlinkRecord">Unuse</label>
+			<label index="text_unlinkRecord_long">Remove from usage</label>
+		</languageKey>
+		<languageKey index="dk">EXT:tm_tvpagemodule/dk.locallang_extra.xml</languageKey>
+		<languageKey index="de">EXT:tm_tvpagemodule/de.locallang_extra.xml</languageKey>
+		<languageKey index="no">EXT:tm_tvpagemodule/no.locallang_extra.xml</languageKey>
+		<languageKey index="it">EXT:tm_tvpagemodule/it.locallang_extra.xml</languageKey>
+		<languageKey index="fr">EXT:tm_tvpagemodule/fr.locallang_extra.xml</languageKey>
+		<languageKey index="es">EXT:tm_tvpagemodule/es.locallang_extra.xml</languageKey>
+		<languageKey index="nl">EXT:tm_tvpagemodule/nl.locallang_extra.xml</languageKey>
+		<languageKey index="cz">EXT:tm_tvpagemodule/cz.locallang_extra.xml</languageKey>
+		<languageKey index="pl">EXT:tm_tvpagemodule/pl.locallang_extra.xml</languageKey>
+		<languageKey index="si">EXT:tm_tvpagemodule/si.locallang_extra.xml</languageKey>
+		<languageKey index="fi">EXT:tm_tvpagemodule/fi.locallang_extra.xml</languageKey>
+		<languageKey index="tr">EXT:tm_tvpagemodule/tr.locallang_extra.xml</languageKey>
+		<languageKey index="se">EXT:tm_tvpagemodule/se.locallang_extra.xml</languageKey>
+		<languageKey index="pt">EXT:tm_tvpagemodule/pt.locallang_extra.xml</languageKey>
+		<languageKey index="ru">EXT:tm_tvpagemodule/ru.locallang_extra.xml</languageKey>
+		<languageKey index="ro">EXT:tm_tvpagemodule/ro.locallang_extra.xml</languageKey>
+		<languageKey index="ch">EXT:tm_tvpagemodule/ch.locallang_extra.xml</languageKey>
+		<languageKey index="sk">EXT:tm_tvpagemodule/sk.locallang_extra.xml</languageKey>
+		<languageKey index="lt">EXT:tm_tvpagemodule/lt.locallang_extra.xml</languageKey>
+		<languageKey index="is">EXT:tm_tvpagemodule/is.locallang_extra.xml</languageKey>
+		<languageKey index="hr">EXT:tm_tvpagemodule/hr.locallang_extra.xml</languageKey>
+		<languageKey index="hu">EXT:tm_tvpagemodule/hu.locallang_extra.xml</languageKey>
+		<languageKey index="gl">EXT:tm_tvpagemodule/gl.locallang_extra.xml</languageKey>
+		<languageKey index="th">EXT:tm_tvpagemodule/th.locallang_extra.xml</languageKey>
+		<languageKey index="gr">EXT:tm_tvpagemodule/gr.locallang_extra.xml</languageKey>
+		<languageKey index="hk">EXT:tm_tvpagemodule/hk.locallang_extra.xml</languageKey>
+		<languageKey index="eu">EXT:tm_tvpagemodule/eu.locallang_extra.xml</languageKey>
+		<languageKey index="bg">EXT:tm_tvpagemodule/bg.locallang_extra.xml</languageKey>
+		<languageKey index="br">EXT:tm_tvpagemodule/br.locallang_extra.xml</languageKey>
+		<languageKey index="et">EXT:tm_tvpagemodule/et.locallang_extra.xml</languageKey>
+		<languageKey index="ar">EXT:tm_tvpagemodule/ar.locallang_extra.xml</languageKey>
+		<languageKey index="he">EXT:tm_tvpagemodule/he.locallang_extra.xml</languageKey>
+		<languageKey index="ua">EXT:tm_tvpagemodule/ua.locallang_extra.xml</languageKey>
+		<languageKey index="lv">EXT:tm_tvpagemodule/lv.locallang_extra.xml</languageKey>
+		<languageKey index="jp">EXT:tm_tvpagemodule/jp.locallang_extra.xml</languageKey>
+		<languageKey index="vn">EXT:tm_tvpagemodule/vn.locallang_extra.xml</languageKey>
+		<languageKey index="ca">EXT:tm_tvpagemodule/ca.locallang_extra.xml</languageKey>
+		<languageKey index="ba">EXT:tm_tvpagemodule/ba.locallang_extra.xml</languageKey>
+		<languageKey index="kr">EXT:tm_tvpagemodule/kr.locallang_extra.xml</languageKey>
+		<languageKey index="eo">EXT:tm_tvpagemodule/eo.locallang_extra.xml</languageKey>
+		<languageKey index="my">EXT:tm_tvpagemodule/my.locallang_extra.xml</languageKey>
+		<languageKey index="hi">EXT:tm_tvpagemodule/hi.locallang_extra.xml</languageKey>
+		<languageKey index="fo">EXT:tm_tvpagemodule/fo.locallang_extra.xml</languageKey>
+		<languageKey index="fa">EXT:tm_tvpagemodule/fa.locallang_extra.xml</languageKey>
+		<languageKey index="sr">EXT:tm_tvpagemodule/sr.locallang_extra.xml</languageKey>
+		<languageKey index="sq"></languageKey>
+		<languageKey index="ge"></languageKey>
+		<languageKey index="ga"></languageKey>
+	</data>
+</T3locallang>

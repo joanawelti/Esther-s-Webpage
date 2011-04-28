@@ -1,0 +1,4 @@
+.htmlarea-content-body{font-family:Verdana,sans-serif;font-size:12px;margin:0;padding:3px;background-color:#ffffff;border-width:0}
+body.htmlarea-showtableborders table,body.htmlarea-showtableborders td,body.htmlarea-showtableborders th{padding:3px;border:1px dashed #316ac5 ! important}
+body.htmlarea-show-language-marks *[lang]{background:url('../../typo3/sysext/t3skin/rtehtmlarea/images/language-marker.gif') left top no-repeat;padding-left:14px;text-decoration:underline}
+body.htmlarea-content-body abbr,body.htmlarea-content-body acronym{border-bottom:1px dashed #000;cursor:help}

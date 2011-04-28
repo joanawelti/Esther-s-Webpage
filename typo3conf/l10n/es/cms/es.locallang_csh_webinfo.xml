@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="pagetree_overview.alttitle">Resumen árbol de páginas</label>
+			<label index="pagetree_overview.description">El resumen del árbol de páginas muestra información sobe las páginas de una rama del árbol de páginas. Esto incluye el número de registros, los parámetos de las páginas como pueden ser su alias, los parámetros de la caché, su fecha de comienzo y finalización, etc.</label>
+			<label index="pagetree_overview.image_descr">Una de las características del módulo encargado del resumen del árbol de páginas es que puedes ver los tipos de registros que se encuentran en las páginas de una rama. Aquí se muestran el número de registros para un árbol de páginas de 2 niveles de profundidad.</label>
+			<label index="func_0.alttitle">Parámetros básicos</label>
+			<label index="func_0.description">Muestra una selección de campos de los registros de página considerados opciones fundamentales. Esto incluye alias, fechas de inicio y fin, información de restricción de acceso, etc.</label>
+			<label index="func_0.details">La vista de Parámetros básicos se asemeja mucho a la vista de &quot;Caché y edad&quot;. Se diferencian únicamente por la selección de campos que muestran.
+
+&lt;b&gt;Editar campos de página en lote&lt;/b&gt;
+Encontrará múltiples iconos de edición por el interfaz. Los iconos de edición presentes en los encabezados le llevarán a una ventana de edición donde podrá modificar el mismo campo para todas las tablas listadas. Esto resulta muy útil para modificar en lote, por ejemplo, todas las fechas de &quot;Inicio&quot;.
+Si pulsa el botón de edición de los números ID de las páginas será dirigido directamente a la edición normal del registro entero de página.</label>
+			<label index="func_0.image_descr">La vista Parámetros básicos ofrece un útil resumen de los alias, fechas de inicio y fin y restricciones de acceso en una rama del árbol.
+Si pulsa en un icono de edición en el encabezado podrá editar el campo correspondiente en todas las páginas de la lista.</label>
+			<label index="func_1.alttitle">Resumen de registro</label>
+			<label index="func_1.description">El resumen de registro le ofrece un resumen indispensable de la distribución de registros en el árbol de páginas. Cada tabla de la base de datos del sistema se representa como una columna y para cada página se muestra el número de registros de dicha tabla presentes en la página.</label>
+			<label index="func_1.details">&lt;b&gt;Nota:&lt;/b&gt; Tenga cuidado con la opción de nivel que elija. ¡Un valor alto puede provocar que el módulo responda con mucha lentitud si hay muchas páginas y también muchos registros en la base de datos!
+
+&lt;b&gt;¿Parar árbol?&lt;/b&gt;
+Observe los símbolos &quot;+&quot; rojos presentes junto a algunas páginas del árbol de páginas. Esto es debido a una opción para esa página que indica que el árbol de páginas no se expandirá para esa página. Se utiliza normalmente como medida de protección cuando hay una notable cantidad de subpáginas (del orden de cientos). Si pulsa en el icono o el título, el resumen se volverá a mostrar haciendo de la página seleccionada la raíz del árbol.</label>
+			<label index="func_1.image_descr">Puede ver fácilmente la distribución de elementos de contenido en una página. ¡También puede ver en qué lugar del árbol de páginas se encuentan los registros de Template (y cualquier otro tipo de registro)!</label>
+			<label index="func_2.alttitle">Caché y edad</label>
+			<label index="func_2.description">Muestra una seleccón de campos de los registros de página relacionados con el cacheado y las opciones de tiempo y fechas.</label>
+			<label index="func_2.image_descr">La vista &quot;Caché y edad&quot;. Puede ver aquí la columna &quot;TSconfig&quot;. El resumen deja ver que estas dos páginas incluyen código TSconfig de página.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="double">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

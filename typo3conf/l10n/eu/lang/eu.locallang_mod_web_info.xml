@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="title">Orri informazioa</label>
+			<label index="depth_0">Orri hau</label>
+			<label index="depth_1">Maila 1</label>
+			<label index="depth_2">2 maila</label>
+			<label index="depth_3">3 maila</label>
+			<label index="mlang_labels_tablabel">Orriari lotutako informazioa, adibidez: agerraldi estatistikak, aldaketa egunkaria, erregistro kontua</label>
+			<label index="mlang_labels_tabdescr">Web&gt;Info modulua orrien informazio estatistikoan zentratuta dago.hala nola,  orrien agerraldi estatistikak edo aldaketa egunkariak, hauek orrien aldaketen historia begiratzen uzten dizu. Bestalde orri bakoitzaren erregistro kopuruaren informazioa jaso dezakezu eta baita orri ezarpenak estruktura klasiko batean.</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="title" type="integer">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">160538617</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

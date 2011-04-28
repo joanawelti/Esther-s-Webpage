@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="Spell Checker">Oikeinkirjotuksen tarkistus</label>
+			<label index="CONFIRM_LINK_CLICK">Vahvista että haluat avata tämän linkin</label>
+			<label index="Cancel">Peruuta</label>
+			<label index="Dictionary">Sanakirja</label>
+			<label index="Finished list of mispelled words">Väärinkirjoitettujen sanojen lista valmis</label>
+			<label index="I will open it in a new page.">Avaan sen uudella sivulla</label>
+			<label index="Ignore all">Ohita kaikki</label>
+			<label index="Ignore">Ohita</label>
+			<label index="NO_ERRORS">Valitulla sanakirjalla ei löytynyt väärinkirjoitettuja sanoja</label>
+			<label index="NO_ERRORS_CLOSING">Oikoluku valmis</label>
+			<label index="OK">OK</label>
+			<label index="Original word">Alkuperäinen sana</label>
+			<label index="Please wait. Calling spell checker.">Ole hyvä ja odota. Kutsumme oikolukua.</label>
+			<label index="Please wait: changing dictionary to">Ole hyvä ja odota. vaihdamme sanakirjan</label>
+			<label index="HTMLArea Spell Checker">HTMLArea oikoluku</label>
+			<label index="QUIT_CONFIRMATION">Tämä unohtaa muutokset ja lopettaa oikoluvun. Ole hyvä ja vahvista.</label>
+			<label index="Re-check">Tarkista uudelleen</label>
+			<label index="Replace all">Korvaa kaikki</label>
+			<label index="Replace with">Korvaa</label>
+			<label index="Replace">Korvaa</label>
+			<label index="Learn">Lisää sanakirjaan</label>
+			<label index="Revert">Palauta</label>
+			<label index="SC-spell-check">Oikolue</label>
+			<label index="Suggestions">Ehdotukset</label>
+			<label index="One occurrence">Yksi esiintymä</label>
+			<label index="Two occurrences">Kaiksi esiintymää</label>
+			<label index="occurrences">esiintymät</label>
+			<label index="of the word">sanan</label>
+			<label index="was found.">löytyi.</label>
+			<label index="were found.">löytyi.</label>
+			<label index="Document information">Asiakirjan tiedot</label>
+			<label index="No information available">Ei tietoja saatavilla</label>
+			<label index="Total words">Sanoja yhteensä</label>
+			<label index="Misspelled words">Väärinkirjoitettuja sanoja</label>
+			<label index="Total suggestions">Ehdotuksia yhteensä</label>
+			<label index="Total words suggested">Ehdotettuja sanoja yhteensä</label>
+			<label index="Spelling checked in">Oikoluvussa tarkistettiin</label>
+			<label index="seconds">sekuntia</label>
+			<label index="pliz weit ;-)">Ole hyvä ja odota.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="Spell Checker" type="integer">254910581</label>
+			<label index="CONFIRM_LINK_CLICK" type="integer">108074176</label>
+			<label index="Cancel" type="integer">245659783</label>
+			<label index="Dictionary" type="integer">62830429</label>
+			<label index="Finished list of mispelled words" type="integer">133530958</label>
+			<label index="I will open it in a new page." type="integer">265878635</label>
+			<label index="Ignore all" type="integer">178106496</label>
+			<label index="Ignore" type="integer">265304316</label>
+			<label index="NO_ERRORS" type="integer">228321476</label>
+			<label index="NO_ERRORS_CLOSING" type="integer">161618228</label>
+			<label index="OK" type="integer">235577377</label>
+			<label index="Original word" type="integer">66231380</label>
+			<label index="Please wait. Calling spell checker." type="integer">148918033</label>
+			<label index="Please wait: changing dictionary to" type="integer">239672371</label>
+			<label index="HTMLArea Spell Checker" type="integer">53028677</label>
+			<label index="QUIT_CONFIRMATION" type="integer">51730008</label>
+			<label index="Re-check" type="integer">79580335</label>
+			<label index="Replace all" type="integer">143973048</label>
+			<label index="Replace with" type="integer">162009250</label>
+			<label index="Replace" type="integer">15460063</label>
+			<label index="Learn" type="integer">216577856</label>
+			<label index="Revert" type="integer">86547441</label>
+			<label index="SC-spell-check" type="integer">166914019</label>
+			<label index="Suggestions" type="integer">69127335</label>
+			<label index="One occurrence" type="integer">221664781</label>
+			<label index="Two occurrences" type="integer">159856692</label>
+			<label index="occurrences" type="integer">55536701</label>
+			<label index="of the word" type="integer">127518453</label>
+			<label index="was found." type="integer">64986070</label>
+			<label index="were found." type="integer">142112845</label>
+			<label index="Document information" type="integer">71822581</label>
+			<label index="No information available" type="integer">635660</label>
+			<label index="Total words" type="integer">235123490</label>
+			<label index="Misspelled words" type="integer">239097890</label>
+			<label index="Total suggestions" type="integer">50316335</label>
+			<label index="Total words suggested" type="integer">252274671</label>
+			<label index="Spelling checked in" type="integer">26327379</label>
+			<label index="seconds" type="integer">126085346</label>
+			<label index="pliz weit ;-)" type="integer">39751471</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

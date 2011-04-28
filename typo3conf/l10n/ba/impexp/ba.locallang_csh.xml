@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ba" type="array">
+			<label index=".alttitle">Import/Eksport</label>
+			<label index=".description">Nativni import/eksport modula za TYPO3 podatke. Mže eksportovati pojedinačne zapise, tabele sadržaja, jednu stranicu ili čitavu granu stabla stranica. Sadrži pridružene medije kao što su slike i čuva relacije među zapisima. Eksportuj samo u TYPO3 specificiran format, bilo u binarni (.T3D) ili XML. Format je namijenjen isključivo TYPO3 sistemima.</label>
+			<label index=".image_descr">Primjeri preview prikaza tokom eksport konfiguracije stranice. Obratite pažnju kako se dodaju zapisi na stranicu plus kako su reference unutar zapisa pronađene i uključene (na dnu ekrana)</label>
+			<label index="export.alttitle">Eksport zapisa iz TYPO3</label>
+			<label index="export.description">Za eksport TYPO3 T3D/XML datoteka kliknite na ikonicu bilo kojeg zapisa ili stabla stranica (uključujući i root stranicu), odaberite &quot;Još opcija&quot; (potrebna je da ekstenzija &quot;extra_page_cm_options&quot; bude instalirana) i onda &quot;Eksport u .t3d&quot;. Ovo će otvoriti eksport interfejs gdje možete konfigurisati opcija za trenutnu eksport sesiju.</label>
+			<label index="export.details">Postoji nekoliko metoda za eksport podataka iz TYPO3:
+- Eksport jedne stranice ili grane stabla stranica (koristeći konekstualni meni ikonice)
+- Eksport jednog zapisa sa bilo koje stranice (koristeći konekstualni meni ikonice)
+- Eksport svih zapisa iz određene tabele (koristeći Web&gt;Popis modul)
+- Eksport selekcije zapisa iz clipboarda (koristeći Web&gt;Popis modul)
+
+Eksport format prati sve TYPO3 metode za relacije između zapisa unutar eksport datoteke. Ali, mora se konfigurisat održavanje relacija, barem na određenom nivou. Nekada je potrebno uključiti referencirane zapise, dok s druge strane u većini slučajeva se želi zadržati originalno mapiranje. To zavisi od cilja eksporta.
+
+Bez obzira na konfiguraciju eksporta uvijek se dobije potpuno refleksija svih odabranih zapisa i njihovih internih relacija u preview prikazi koji se nalazi na dnu stranice eksport modula.
+
+&lt;b&gt;Poruke o greškama&lt;/b&gt;
+Obratite pažnju na tab sa porukama prije eksportovanja da bi bili sigurni da nema grešaka!</label>
+			<label index="export.image_descr">Za eksport stranice ili zapisa, potrebno je kliknu na ikonicu i odabrati Eksport iz konekstualnog menija. Sa Web&gt;Popis modulom je moguće eksportovati sve zapise iz tabele klikajući na ime tabele za prikaz samo te tabele te zatim pored CSV eksport na eksport dugme za T3D eksport tabele.
+Moguće je takođe eksportovati sadržaj clipboarda jednostavno izabirući eksport iz menija.</label>
+			<label index="pageTreeCfg.alttitle">Konfiguracija eksporta stabla stranica.</label>
+			<label index="pageTreeCfg.description">Ovdje je moguće konfigurisati način na koji se stranica ili grana stabla stranica treba eksportovati. Koristeći selektor box moguće je odabrati broj nivoa podstranica koje treba eksportovati.
+Standardno su svi zapisi koji pripadaju stranicama uključeni u eksport.</label>
+			<label index="pageTreeDisplay.alttitle">Stablo stranica.</label>
+			<label index="pageTreeDisplay.description">Zavisno od broja odabranih nivoa ovdje će biti prikazana struktura koja će biti eksportovana. Ako se neki stranice isključene pomoću opcije usključenja one neće biti prikazane.</label>
+			<label index="pageTreeMode.alttitle">Nivoi</label>
+			<label index="pageTreeMode.description">Ovdje je moguće odabrati koliko duboko u stablo stranica se ide za eksport.</label>
+			<label index="pageTreeMode.details">Ako se odabere &quot;Rašireno stablo&quot; eksport će biti baziran na trenutno raširenim nivoima stabla stranica. Još jedna specijalna opcija je &quot;Tabele na ovoj stranici&quot; koja neće ukljućiti samo zapis stranice nego samo zapise iz tablee na stranici, naravno zavisno od konfiguracije same tabele.</label>
+			<label index="pageTreeRecordLimit.alttitle">Uključi tabele</label>
+			<label index="pageTreeRecordLimit.description">Kada se eksportuje stranica svi zapisi su standardno uključeni. Sa ovim izbornikom je moguće odabrati koje tabele treba eksluzivno uključiti ako posotoje zapisi koji nisu interesantni za eksport.</label>
+			<label index="pageTreeRecordLimit.details">U boxu &quot;Max broj zapisa&quot; moguće je podesiti limit na broj zapisa odabranih iz jedne tabele. Ovo je sigurnosni mehanizam u slučaju da se nalazi ekstremno veliki broj zapisa u tabeli.</label>
+			<label index="singleRecord.alttitle">Eksport jednog zapisa</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ba" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index=".description" type="integer">68307774</label>
+			<label index=".image_descr" type="integer">70436675</label>
+			<label index="export.alttitle" type="double">9010103</label>
+			<label index="export.description" type="integer">150520112</label>
+			<label index="export.details" type="integer">113510702</label>
+			<label index="export.image_descr" type="integer">74768430</label>
+			<label index="pageTreeCfg.alttitle" type="integer">236227215</label>
+			<label index="pageTreeCfg.description" type="integer">147952098</label>
+			<label index="pageTreeDisplay.alttitle" type="double">9880458</label>
+			<label index="pageTreeDisplay.description" type="integer">59122430</label>
+			<label index="pageTreeMode.alttitle" type="integer">152759754</label>
+			<label index="pageTreeMode.description" type="integer">261676486</label>
+			<label index="pageTreeMode.details" type="integer">231396751</label>
+			<label index="pageTreeRecordLimit.alttitle" type="integer">169123110</label>
+			<label index="pageTreeRecordLimit.description" type="integer">131668315</label>
+			<label index="pageTreeRecordLimit.details" type="integer">221257491</label>
+			<label index="singleRecord.alttitle" type="integer">128794302</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ba" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index=".description">Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</label>
+			<label index=".image_descr">Example of the preview display during export configuration of a page. Notice how records on the page are include plus how references inside the record is found and included as well (bottom of screen).</label>
+			<label index="export.alttitle">Exporting records from TYPO3</label>
+			<label index="export.description">To export TYPO3 T3D/XML files you click any record icon or page in the page tree (including the root page!), select &quot;More options&quot; (requires the extensions &quot;extra_page_cm_options&quot; to be installed) and then &quot;Export to .t3d&quot;. This will bring up the export interface where you can configure options for your export session.</label>
+			<label index="export.details">There are a number of methods by which you can export data from TYPO3:
+- Export a single page or branch of the page tree (use page icon context menu)
+- Export a single record from any page (use record icon context menu)
+- Export all records from a specific table on a specific page (using the Web&gt;List module)
+- Export an arbitrary selection of records from the clipboard (using the Web&gt;List module)
+
+The export format observes all TYPO3s methods for relations between the records in the export file. But you will have to configure how these relations are maintained, at least to some degree. Sometimes you would want to include records referred to, at other times you surely want to keep the original mapping. That depends on your objectives with the export.
+
+Regardless of your configuration for export you will always see a complete reflection of all chosen records and their internal relations in the preview display found in the bottom of the export module page.
+
+&lt;b&gt;Error messages:&lt;/b&gt; Remember to consult the Message-tab before exporting if there are any error messages there!</label>
+			<label index="export.image_descr">To export a page or record, simply click the icon and select &quot;Export&quot; from the context menu.
+With the Web&gt;List module you can also export all records from a table by first clicking the table title to see only this table, then next to the CSV export you will find the export button for a T3D export of the table.
+You can export the contents of the clipboard as well by simply selecting &quot;Export&quot; in the menu.</label>
+			<label index="pageTreeCfg.alttitle">Configuration of page tree export</label>
+			<label index="pageTreeCfg.description">Here you configure how a page or a branch of the page tree should be exported. Using the selector box you can set the number of levels of subpages to include in the export.
+By default all records belonging to a page is included when a page is exported.</label>
+			<label index="pageTreeDisplay.alttitle">Page Tree</label>
+			<label index="pageTreeDisplay.description">Based on the levels selected for page tree export this will show the structure that is about to be exported. If any pages are specifically excluded by the exclude option they are not shown either.</label>
+			<label index="pageTreeMode.alttitle">Levels</label>
+			<label index="pageTreeMode.description">Here you select how deeply in the page tree from the current starting point to go for this export.</label>
+			<label index="pageTreeMode.details">If you select &quot;Expanded tree&quot; it will base the export on the currently expanded levels of the page tree. Another special option is &quot;Tables on this page&quot; which will not include the page record itself but only include records from tables on the page, depending on the table configuration of course.</label>
+			<label index="pageTreeRecordLimit.alttitle">Include tables</label>
+			<label index="pageTreeRecordLimit.description">When you export a page all records on the page is included by default. By this selector you can pick which tables to include exclusively if there are certain records you are not interested in seeing included.</label>
+			<label index="pageTreeRecordLimit.details">In the box &quot;Max number of records&quot; you can set a limit to how many records are selected from a single table. This is a runaway brake in case you have an unusual large amount of records from a table.</label>
+			<label index="singleRecord.alttitle">Export single record</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

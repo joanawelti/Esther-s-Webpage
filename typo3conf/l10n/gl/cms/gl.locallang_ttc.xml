@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gl" type="array">
+			<label index="CType.I.0">Niaqua</label>
+			<label index="CType.I.1">Allagaq</label>
+			<label index="CType.I.2">Allagaq assitalik</label>
+			<label index="CType.I.3">Asseq</label>
+			<label index="CType.I.4">Tulleriiarneq toornilik</label>
+			<label index="CType.I.9">Ujarliut</label>
+			<label index="CType.I.10">Iserneq</label>
+			<label index="CType.I.11">Allaffissaq</label>
+			<label index="CType.I.17">HTML</label>
+			<label index="layout.I.1">Ilusilersuineq 1</label>
+			<label index="layout.I.2">Ilusilersuineq 2</label>
+			<label index="layout.I.3">Ilusilersuineq 3</label>
+			<label index="colPos.I.0">Saamik</label>
+			<label index="colPos.I.2">Talerpik</label>
+			<label index="colPos.I.3">Sinaa</label>
+			<label index="date">Ulloq</label>
+			<label index="header">Niaqua</label>
+			<label index="header_position.I.1">Qeqqa</label>
+			<label index="header_position.I.2">Talerpik</label>
+			<label index="header_position.I.3">Saamik</label>
+			<label index="header_layout.I.1">Ilusilersuineq 1</label>
+			<label index="header_layout.I.2">Ilusilersuineq 2</label>
+			<label index="header_layout.I.3">Ilusilersuineq 3</label>
+			<label index="header_layout.I.4">Ilusilersuineq 4</label>
+			<label index="header_layout.I.5">Ilusilersuineq 5</label>
+			<label index="header_layout.I.6">Toqqoqqasoq</label>
+			<label index="text_align.I.1">Qeqqa</label>
+			<label index="text_align.I.2">Talerpik</label>
+			<label index="text_align.I.3">Saamik</label>
+			<label index="text_face">Naqiterut:</label>
+			<label index="text_size">Angissusaa:</label>
+			<label index="text_size.I.1">1: Minneq</label>
+			<label index="text_size.I.2">2: Akulleq</label>
+			<label index="text_size.I.3">3: Anneq</label>
+			<label index="text_size.I.4">4: Niaqua 1</label>
+			<label index="text_size.I.5">5: Niaqua 2</label>
+			<label index="text_color">Qalipaat:</label>
+			<label index="text_color.I.1">Qalipaat 1</label>
+			<label index="text_color.I.2">Qalipaat 2</label>
+			<label index="text_color.I.3">Qalipaateqanngitsoq</label>
+			<label index="text_color.I.5">Qernertoq</label>
+			<label index="text_color.I.6">Qaqortoq</label>
+			<label index="text_color.I.7">Qasertoq taartoq</label>
+			<label index="text_color.I.8">Qasertoq</label>
+			<label index="text_color.I.9">Silveq</label>
+			<label index="text_color.I.10">Aappalaartoq</label>
+			<label index="text_color.I.11">Tungujortoq navy</label>
+			<label index="text_color.I.12">Sungaartoq</label>
+			<label index="text_color.I.13">Qorsuk</label>
+			<label index="text_color.I.14">Qorsuusaq (Olive)</label>
+			<label index="text_color.I.15">Kajortuusaq (Maroon)</label>
+			<label index="imagewidth">Silissusaa (pixel-it):</label>
+			<label index="imageheight">Angissusaa (pixel-it):</label>
+			<label index="imageorient">Sumiiffia:</label>
+			<label index="imageorient.I.0">Qulaani, qeqqani</label>
+			<label index="imageorient.I.1">Qulaani, talerpiani</label>
+			<label index="imageorient.I.2">Qulaani, saamiani</label>
+			<label index="imageorient.I.3">Ataani, qeqqani</label>
+			<label index="imageorient.I.4">Ataani, talerpiani</label>
+			<label index="imageorient.I.5">Ataani, saamiani</label>
+			<label index="imageorient.I.6">Allakkap iluani, talerpiani</label>
+			<label index="imageorient.I.7">Allakkap iluani, saamiani</label>
+			<label index="image_frames.I.1">Sinaa 1</label>
+			<label index="image_frames.I.2">Sinaa 2</label>
+			<label index="image_frames.I.3">Sinaa 3</label>
+			<label index="image_frames.I.4">Sinaa 4</label>
+			<label index="image_frames.I.5">Sinaa 5</label>
+			<label index="image_frames.I.6">Sinaa 6</label>
+			<label index="image_frames.I.7">Sinaa 7</label>
+			<label index="image_frames.I.8">Sinaa 8</label>
+			<label index="image_compression">Pitsaassuseq:</label>
+			<label index="image_compression.I.1">Allanngortinnagu!</label>
+			<label index="imagecaption_position.I.1">Qeqqa</label>
+			<label index="imagecaption_position.I.2">Talerpik</label>
+			<label index="imagecaption_position.I.3">Saamik</label>
+			<label index="menu_type.I.4">Nittartakkap imai</label>
+			<label index="table_bgColor.I.1">Qalipaat 1</label>
+			<label index="table_bgColor.I.2">Qalipaat 2</label>
+			<label index="table_bgColor.I.3">Qalipaateqanngitsoq</label>
+			<label index="table_bgColor.I.5">Qernertoq</label>
+			<label index="table_bgColor.I.6">Qaqortoq</label>
+			<label index="table_bgColor.I.7">Qasertoq taartoq</label>
+			<label index="table_bgColor.I.8">Qasertoq</label>
+			<label index="table_bgColor.I.9">Silveq</label>
+			<label index="table_border">Sinaa:</label>
+			<label index="media">Fiilit</label>
+			<label index="multimedia">Fiili</label>
+			<label index="filelink_size">Fiilip angissusaa takutiguk</label>
+			<label index="spaceBefore">Siorna:</label>
+			<label index="spaceAfter">Kingorna:</label>
+			<label index="section_frame">Sinaa:</label>
+			<label index="section_frame.I.1">Ersinngitsoq</label>
+			<label index="section_frame.I.7">Sinaa 1</label>
+			<label index="section_frame.I.8">Sinaa 2</label>
+			<label index="linkToTop">Qulaanut:</label>
+			<label index="pages.ALT.mailform">Quppernermut pissigit:</label>
+			<label index="subheader.ALT.mailform">Tigusisup email-ia:</label>
+			<label index="pages.ALT.search">Quppernermut nassiuguk:</label>
+			<label index="pages.ALT.login">Quppernermut nassiuguk:</label>
+			<label index="bodytext.ALT.html">HTML:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gl" type="array">
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gl" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="permissions">Permissões</label>
+			<label index="ch_permissions">Alterar permissões</label>
+			<label index="Legend">Legenda</label>
+			<label index="Owner">Proprietário</label>
+			<label index="Group">Grupo</label>
+			<label index="Everybody">Todos</label>
+			<label index="Save">Salvar</label>
+			<label index="Abort">Cancelar</label>
+			<label index="Edit">EDITAR</label>
+			<label index="recursive">Atribuir recursivamente</label>
+			<label index="pages_affected">páginas afectadas</label>
+			<label index="user_overview">Resumo do utilizador</label>
+			<label index="Mode">Modo</label>
+			<label index="Depth">Profundidade</label>
+			<label index="levels">níveis</label>
+			<label index="User">Utilizador</label>
+			<label index="def">Definição: 'conteúdo' são registros de todas as tabelas em uma página - exceto os  registros da tabela 'pages' (Páginas).</label>
+			<label index="A_Granted">Acesso permitido</label>
+			<label index="A_Denied">Acesso negado</label>
+			<numIndex index="1">Mostrar página</numIndex>
+			<numIndex index="16">Editar conteúdo</numIndex>
+			<numIndex index="2">Editar página</numIndex>
+			<numIndex index="4">Novas páginas</numIndex>
+			<numIndex index="8">Novas páginas</numIndex>
+			<label index="1_t">Mostrar/Copiar página e conteúdo.</label>
+			<label index="16_t">Alterar/Adicionar/Apagar/Mover conteúdo.</label>
+			<label index="2_t">Alterar/Mover página, isto é, mudar título da página, etc.</label>
+			<label index="4_t">Apagar página e conteúdo.</label>
+			<label index="8_t">Criar novas páginas sob esta página.</label>
+			<label index="mlang_labels_tablabel">Permissões de edição da página</label>
+			<label index="mlang_labels_tabdescr">Configurar as permissões da página é vital no sentido de controlar o acesso às páginas para os utilizadores do Gestor. Você pode atribuir um utilizador e um grupo como proprietário de uma página e configurar permisões de acesso para cada um.</label>
+			<label index="mlang_tabs_tab">Acesso</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<numIndex index="1" type="integer">256624387</numIndex>
+			<numIndex index="16" type="integer">102695873</numIndex>
+			<numIndex index="2" type="integer">66732081</numIndex>
+			<numIndex index="4" type="integer">220131191</numIndex>
+			<numIndex index="8" type="integer">146653009</numIndex>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="integer">115809010</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

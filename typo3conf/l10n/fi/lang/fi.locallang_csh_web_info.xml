@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle">Web &gt; Info moduli</label>
+			<label index=".description">Web &gt; Info modulin tarkoitus on toimia isäntänä tausta sovelluksille joilla esitetään tietoja / analysointeja sivuista tai sivustorakenteen osista. Tälläisiä voivat olla esimerkiksi tilastot, välimuistin tila, tms.</label>
+			<label index=".details">Periaatteellisesti Web &gt; Info moduli eroaa Web &gt; Toiminnat modulista vain siinä että se pääsääntöisesti näyttää tietoja toiminnallisuuden sijaan. On vain laajennuksen ohjelmoijasta kiinni kumpaan moduliin hän haluaaa laajennuksensa liittää.</label>
+			<label index=".image_descr">Web &gt; Info moduli on alkutilanteessa tyhjä. Se tarjoaa API:n jota laajennukset voivat käyttää liittäessään toimintansa valikkoon. Tässä näet &quot;Sivun TSconfig&quot; katsauksen laajennuksesta &quot;info_pagetsconfig&quot;.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle" type="integer">100519543</label>
+			<label index=".description" type="integer">76935227</label>
+			<label index=".details" type="integer">130648442</label>
+			<label index=".image_descr" type="integer">62510793</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle">Web &gt; Info module</label>
+			<label index=".description">The idea of the Web&gt;Info module is to be a host module for backend applications that wish to present information / analysis of pages or branches of the page tree. This could be website statistics, caching status information etc.</label>
+			<label index=".details">Conceptually the Web&gt;Info module is different from the Web&gt;Functions module only by primarily showing information rather than offering functionality. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</label>
+			<label index=".image_descr">The Web&gt;Info module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Info module. Here you see the &quot;Page TSconfig&quot; overview from the extension &quot;info_pagetsconfig&quot;.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

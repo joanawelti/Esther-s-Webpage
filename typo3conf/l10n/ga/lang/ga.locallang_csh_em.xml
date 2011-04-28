@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index=".alttitle">Ferramentas &gt; Administrador de extensións (EM)</label>
+			<label index=".description">O Administrador de extensións controla a importación, instalación e actualización de Extensións en TYPO3.</label>
+			<label index=".details">TYPO3 pode estenderse en casi calquera dirección sin perder compatibilidade hacia atrás. A API de Extensión proporciona un potente framework para engadir, quitar, instalar e desenvolver fácilmente tales exntesións a TYPO3. Isto é en particular proporcionado dentro de TYPO3 polo Administrador de extensións (EM).
+
+&quot;Extensións&quot; é un termo en TYPO3 que cubre outros dous termos, plugins e módulos.
+
+Un plugin é algo que xoga un papel no sitio web en si mesmo. Por exemplo un tablón de anuncions, un libro de vistitas, unha tenda, etc. Isto está normalmente encerrado nunas clases PHP e invocado a través dun USER ou USER_INT cObject dende TypoScript. Un plugin é unha extensión no frontend.
+
+Un módulo é una aplicación de backend que ten a súa posición propia no menú de administración. Require inicio de sesión no backend e funciona dentro do framework do backend. Pode ser tamén que chamemos módulo a algo se aproveita alguna conectividad dun módulo existente, que é se simplemente se engade o menú de función de módulos existentes. Un módulo é unha extensión no backend.</label>
+			<label index="loaded.alttitle">Extensións cargadas</label>
+			<label index="loaded.description">As &quot;Extensións cargadas&quot; están actualmente executándose no sistema. A lista amósalle que extensións están cargadas e en que orde.
+As extensións &quot;Shy&quot; (tímidas) tamén están cargadas pero &quot;ocultas&quot; na lista porque están relacionados co sistema e en xeral debe simplemente deixalas soas a menos que sepa o que está facendo.</label>
+			<label index="loaded.details">As extensións desta lista amósanse na orde que son encontradas en $TYPO3_CONF_VARS[EXT][extList].
+Para desinstalar unha extensión simplemente prema na icona verde &quot;-&quot;. Se non hai dependencias que requiran a extensión quitarase da lista de extensións instaladas.
+As extensións &quot;Rq&quot; na lista de extensións cargadas son &quot;extensións requeridas&quot;. Éstas están relacionadas co sistema tan profundamente que non pode desabilitalas dende o Aministrador de exntesións.</label>
+			<label index="loaded.image_descr">A lista de extensións cargadas amosada na orde de carga.</label>
+			<label index="avail.alttitle">Extensións dispoñibles</label>
+			<label index="avail.description">As extensións dispoñibles son extensións que están prsentes nos directorios das extensións. Pode instalar calquera das extensións dispoñibles na lista. Cando instala unha exntensión será carcada por TYPO3 a partir dese momento.
+Nesta lista de exntesións co fondo escuro están as instaladas (cargadas) - as outras simplemente dispoñibles (non cargadas), preparadas para ser instaladas segundo a súa petición.</label>
+			<label index="avail.details">Pode instalar unha extensión premendo na icona gris &quot;+&quot; nesta lista. Se quere desinstalar unha extensión prema na icona verde &quot;-&quot;.
+Cando preme o botón de instalación (&quot;+&quot;) rematará frecuentemente nun diálogo onde ten que confirmar a creación das táboas e campos de base de datos ou quizais lle preguntaran por &quot;limpar todo o caché&quot;.
+O Adminstrador de extensións manipula automáticamente as súas peticións o que sinala o extermadamente fácil que é instalar novas extensións.</label>
+			<label index="avail.image_descr">A lista de extensións dispoñibles no servidor. A lista compílase coas extensións encontradas nos directorios de extensións &quot;local&quot;, &quot;global&quot; e &quot;sistema&quot;.
+Se preme na icona de instalación (“+”) dunha extensión pode rematar cun diálogo como este. Neste caso requírese unha nova táboa de base de datos. O Administrador de extensións detectará automáticamente que aínda non existe e suxeriralle que a cree. A creación tamén ocorre automáticamente, simplemente aceptando os cambios ó premer en &quot;Facer as actualizacións&quot;.</label>
+			<label index="import.alttitle">Importación de extensións</label>
+			<label index="import.description">Éste é o proceso de traer os archivos dunha extensión dos servidores ó sistema de ficheiros.
+Pode facer isto importando dende un repostitorio nunha URL (xeralmente dende o TER; Repositorio de Extensións de TYPO3 en typo3.org) ou subindo un ficheiro &quot;t3x&quot; que alguén creou dende o Administrador de extensións doutro servidor.</label>
+			<label index="import.details">&lt;b&gt;Importar dende o TER&lt;/b&gt;
+Para conectarse ó TER simplemente prema no botón &quot;Contectarse ó repositorio online&quot;. 
+&lt;b&gt;Import de TER&lt;/b&gt;. Isto solitará a URL amosada no texto sobre o botón e a URL debería devolver unha lista de extensións dispoñibles que pode importar.
+Se sabe que está buscando entón introduza unha palabra de búsqueda na caixa de procura. En particular isto axúdalle a encontrar unha clave de extensión específica. ¡A conexión co TER será moito máis rápida se utiliza isto xa que serán enviados menos datos pola rede!
+
+&lt;b&gt;Cargar dende un ficheiro&lt;/b&gt;
+Para os proxectos privados o intercambio de extensións faise facilmente enviando ficheiros &quot;t3x&quot; entre sistemas. Nunha instalación TYPO3 simplemente vaia ó manú &quot;Backup/Borrar&quot; dunha extensión e descargue unha &quot;Copia de seguridade&quot; da extensión. O formato do ficheiro é un array PHP serializado, comprimido se é posbile. Este fichiero entón pode cargarse no Administrador de extensións doutro sistema TYPO3 onde quere importalo.</label>
+			<label index="import.image_descr">A pantalla de &quot;Importar&quot;. Antes de contectarse co repositorio online pode ser que teña que configurar o nome de usuario e o contrasinal de typo3.org que se utilizarán tamén para seleccionar extensións &quot;Membro&quot; no TER, se as hai. Pode tamén activar &quot;Obter propio/membro/extensións seleccionadas soamente&quot; se desexa limitar a lista máis adiante.</label>
+			<label index="import_ter.alttitle">Extensións no TER</label>
+			<label index="import_ter.description">As extensións nesta lista están online para a descargada inmediata dende o Repositorio de Extensións de TYPO3 (TER).
+As extensións con fondo oscuro xa están no seu servidor - as outras débense importar dende o repositorio ó seu servidor antes de que poida usalas.
+Se desexa empregar unha extensión do repositorio, simplemente debe premer no botón &quot;importar&quot; coa frecha vermella cara a esquerda da extensión.</label>
+			<label index="import_ter.details">&lt;b&gt;Importar extensións&lt;/b&gt;
+Se unha extensión todavía non existe no seu servidor verá a icona coa frecha vermella ó lado desa extensión. Un simple clic e a extensión será descargada e os ficheiros extraídos no seu servidor. O directorio de descarga amósase se move o rato sobre a icona (na fe
+Si una extensión todavía no existe en tu servidor verás el icono con la flecha roja al lado de esa extensión. Un solo tecleo y la extensión serán descargados y los archivos serán extraídos en tu servidor. Se considera el directorio de la transferencia directa si mueves el ratón sobre el icono (no texto de indicacións).
+
+&lt;b&gt;Actualizar extensións&lt;/b&gt;
+Pode actualizar as extensións que están sempre no seu sistema premendo na icona coas frechas verdes. A icona de actualización aparecerá se se incrementou o número de versión &quot;menor&quot; (díxito do medio). Isto significa que a extensións actualizadas no número de versión de desenvolvemento (o terceiro díxito) non serán amosadas como &quot;preparadas para actualizar&quot;. (¡Aínda que pode configurar TYPO3 para facer iso!).
+
+&lt;b&gt;Vendo detalles acerca dunha extensión no TER&lt;/b&gt;
+Tamén pode premer no título dunha extensión para ver os detalles sobre ela. Iso tamén lle permitirá levar a cabo unha operación de actualización máis detallada onde pode seleccionar o número de versión e a localización da descarga (logal/global/sistema).
+Tamén pode solicitar a descarga das traducións máis recentes.</label>
+			<label index="import_ter.image_descr">A lista de extensións do TER. A icona da frecha vermella é a ligazón de &quot;Importar&quot; (para as novas extensións), a icona da frecha verde é a ligazón de &quot;Actualizar&quot; (para unha extensión que xa está no seu servidor). Se unha extensión xa está dispoñible na versión máis recente non verá ningunha icona á esquerda da extensión.
+Se premeu no título dunha extensión solicitará o repositorio detalles sobre a extensión. Isto tamén lle permite seleccionar unha versión específica para importar. Pode seleccionar a localización da instalación (global/local) e pode solicitar para ter as traduccións máis recentes combinadas na extensión sobre a recuperación.</label>
+			<label index="info.alttitle">Detalles da extensión</label>
+			<label index="info.description">Mostra detalles acerca da extensión</label>
+			<label index="info.details">Nesta vista amósanse simplemente algúns dos detalles dende o ficheiro &quot;ext_emconf.php&quot; na extensión. O ficheiro &quot;emconf&quot; contén metadatos para o Administrador de extensións.
+
+O Administrador de extensións tamén irá un pouco máis lonxe é realizará 
+unha certa análise dos scripts na extensión. A lista incluirá os resultados desta análise e mostraánse algúns erros se foron atopados. Estes erros non evitarán xeralmente que a extensión funcione senon que amosarán probablemente algúns problemas teóricos que o desenvolvedor da extensión debería tratar.</label>
+			<label index="info.image_descr">A vista de deatlles dunha extensión amosa estatísticas dinámicas da análise así como datos estáticos do ficheiro &quot;ext_emconf.php&quot;.</label>
+			<label index="backup_delete.alttitle">Copia de seguranza da extensión como un ficheiro</label>
+			<label index="backup_delete.description">Prema na icona de &quot;Descargar&quot; aquí e descargarase a exntesión como un ficheiro contendo un array PHP serializado, un hash e todo posiblemente comprimido se o servidor o soporta. Garde o ficheiro cun nome finalizado en &quot;t3x&quot;.</label>
+			<label index="backup_delete.image_descr">As &quot;Copias de seguranza&quot; das extensións - tamén son moi útiles para o intercambio de extensións entre os membros dun grupo de traballo.</label>
+			<label index="upload.alttitle">Subir unha extensión o repositorio (TER)</label>
+			<label index="upload.description">Aquí pode subir unha extensión ó TER. Para facer isto debe introducir o seu nome de usuario e contrasinal de TYPO3.org no formulario. Ademías cada extensión ten un contrasinal de subida que necesita introducir tamén. ¡Tamén debería cerciorarse de que rexistrou/posee a clave da extensión!</label>
+			<label index="upload.details">&lt;b&gt;Changelog&lt;/b&gt;
+No campo changelog introduza os cambios realizados ou a razón da subida. Isto mostrarase na lista de novas extensións.
+
+&lt;b&gt;Números da versión&lt;/b&gt;
+Elixa un método para o incremento do número de versión. Para as novas &quot;versións&quot; da súa extensión selecciones &quot;sub&quot; ou &quot;main&quot; que se mostraran na lista de novas extensións. Para as subidas de mantemento seleccione &quot;dev&quot;.</label>
+			<label index="upload.image_descr">O formulario de subida para as extensións. A extensión envíase ó repositorio seleccionado, en xeral TYPO3.org (por defecto).</label>
+			<label index="editfiles.alttitle">Editando scripts nunha extensión</label>
+			<label index="editfiles.description">O Administrador de extensións pode usarse para a edición de scripts nas extensións. Esta característica é normalmente para emerxencias xa que un navegador web non é o a ferramenta ideal para programar.</label>
+			<label index="editfiles.details">&lt;b&gt;Aviso:&lt;/b&gt;
+Antes da edición dos scripts das extensións para que se poda realizar dita edición ten que desactivar a opción &quot;TYPO3_CONF_VARS[EXT][noEdit]&quot; en &quot;localconf.php&quot;.</label>
+			<label index="editfiles.image_descr">Algúns tipos de ficheiros - como os scripts PHP - poden editarse mediande campos textarea dentro do Administrador de extensións.</label>
+			<label index="settings.alttitle">Parámetros de configuración do Administrador de extensións</label>
+			<label index="settings.description">Introduza os parámetros de configuración para o Administrador de extensións. O nome de usuario e o contrasinal é para as conexións ó repositorio (xeralmente TYPO3.org) e a contrasinal de subida é a que utilizarías normalmente para a subida das túas extensións</label>
+			<label index="settings.details">&lt;b&gt;Aviso:&lt;/b&gt;
+¡Esta información non está moi ben protexida! ¡Envíase e gárdase en texto plano!</label>
+			<label index="settings.image_descr">Parámetros de configuración para as conexións co TER.</label>
+			<label index="makenew.alttitle">Comezo rápido de novas extensións</label>
+			<label index="makenew.description">O &quot;Kickstarter&quot; é unha aplicación que permite que monte unha nova extensión de traballo moi rapidamente. A través da interface pode crear un marco de traballo básico para a súa extensión onde todas as cousas aburridas configúranse dende o principio e pode concentrarse directamente na implementación da súa aplicación.</label>
+			<label index="makenew.details">A extensión Extension Repository Kickstarter é unha extensión separada, &quot;extrep_wizard&quot;. Por favor ver máis información sobre o kickstarter aparte disto.
+
+&lt;b&gt;Aviso:&lt;/b&gt;
+¡O Kickstarter NON é un editor! ¡Cando se comeza unha nova extesión non pode - como regla xeral - volver a editala co kickstarter! ¡Precisamente sobreescribirá calquera cambio personalizado que fixo mentres tanto!</label>
+			<label index="makenew.image_descr">Cando se activa a extensión &quot;Extension Repository Kickstarter&quot; engádese no menú do Administrador da extensión. Dende aquí será capaz de comezar as súas novas extensións. Antes de facelo debería rexistrar unha clave de extensión e introducir un título e descrición como datos básicos. Dende ese punto simplemente prema nas iconas &quot;+&quot; para engadir varios tipos de funcionalidade que desexa. Finalmente prema en &quot;Ver resultado&quot; para escribir a extensión no servidor.</label>
+			<label index="emconf_shy.alttitle">Shy (tímida)</label>
+			<label index="emconf_shy.description">Se está activada, a extensión ocultarase normalmente no EM porque pode ser que sexa unha extensión por defecto ou nountro caso algo que non é tan importante.</label>
+			<label index="emconf_shy.details">Utilice este parámetro se unha extensión é de &quot;interés pouco frecuente&quot; (que non é igual que pouco importante - simplemente unha extensión non buscada moi a miúdo...)
+Non afecta se está ou non activada. Só se mostra no EM.
+&quot;Shy&quot; establécese normalmente para tódalas extensións cargadas por defeto segundo TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Categoría</label>
+			<label index="emconf_category.description">A que categoría pertence a extensión.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Orientado en xeral ó backend, pero non un módulo)
+
+&lt;b&gt;module:&lt;/b&gt; Módulos de backend (Cando algo é un módulo ou conecta con un)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Xeralmente orientado ó frontend, pero non un plugin “verdadero”)
+
+&lt;b&gt;plugin:&lt;/b&gt; Plugins de frontend (Plugins inseridos como elementos de congido &quot;Inserir plugin&quot;)
+
+&lt;b&gt;misc:&lt;/b&gt; Cousas varias (Cando non é fácil colocala noutra parte)
+
+&lt;b&gt;services:&lt;/b&gt; Contén servizos TYPO3.
+
+&lt;b&gt;templates:&lt;/b&gt; Contén plantillas do sitio web
+
+&lt;b&gt;doc:&lt;/b&gt; Documentación (Ex. tutoriais, FAQ's, etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Extensión de exemplo (Que serven como exemplos, etc.)</label>
+			<label index="emconf_dependencies.alttitle">¿Dependencias doutras extensións?</label>
+			<label index="emconf_dependencies.description">Está é unha lista doutras claves de extensións das que depende esta extensión deben cargarse ANTES desta.</label>
+			<label index="emconf_dependencies.details">O EM xestionará esa dependencia mentres escribe a lista de extensións en localconf.php. Non pode instalar unha extensión a menos que as súas dependecias xa estén instaladas.</label>
+			<label index="emconf_conflicts.alttitle">¿Confilctos con outras extensións?</label>
+			<label index="emconf_conflicts.description">A lista de claves das extensións coas que esta extensión non funciona (e non pode activarse antes de que as outras extensións se desinstalen)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index=".alttitle" type="integer">217593800</label>
+			<label index=".description" type="integer">212219576</label>
+			<label index=".details" type="integer">130449459</label>
+			<label index="loaded.alttitle" type="integer">240199548</label>
+			<label index="loaded.description" type="integer">171468961</label>
+			<label index="loaded.details" type="integer">96891976</label>
+			<label index="loaded.image_descr" type="integer">182084221</label>
+			<label index="avail.alttitle" type="integer">251693128</label>
+			<label index="avail.description" type="integer">2924649</label>
+			<label index="avail.details" type="integer">199115825</label>
+			<label index="avail.image_descr" type="integer">37993915</label>
+			<label index="import.alttitle" type="integer">65383042</label>
+			<label index="import.description" type="integer">195708810</label>
+			<label index="import.details" type="integer">229384067</label>
+			<label index="import.image_descr" type="integer">82735007</label>
+			<label index="import_ter.alttitle" type="integer">137151967</label>
+			<label index="import_ter.description" type="integer">241131724</label>
+			<label index="import_ter.details" type="integer">69101028</label>
+			<label index="import_ter.image_descr" type="integer">118689817</label>
+			<label index="info.alttitle" type="integer">195885354</label>
+			<label index="info.description" type="integer">59055841</label>
+			<label index="info.details" type="integer">181502990</label>
+			<label index="info.image_descr" type="integer">228782153</label>
+			<label index="backup_delete.alttitle" type="integer">213063528</label>
+			<label index="backup_delete.description" type="integer">229640855</label>
+			<label index="backup_delete.image_descr" type="integer">167423664</label>
+			<label index="upload.alttitle" type="integer">217213386</label>
+			<label index="upload.description" type="integer">174044654</label>
+			<label index="upload.details" type="integer">168581871</label>
+			<label index="upload.image_descr" type="integer">202956590</label>
+			<label index="editfiles.alttitle" type="integer">167010666</label>
+			<label index="editfiles.description" type="integer">223875344</label>
+			<label index="editfiles.details" type="integer">178826894</label>
+			<label index="editfiles.image_descr" type="integer">145835212</label>
+			<label index="settings.alttitle" type="integer">49620262</label>
+			<label index="settings.description" type="integer">93469888</label>
+			<label index="settings.details" type="integer">33394605</label>
+			<label index="settings.image_descr" type="integer">81559812</label>
+			<label index="makenew.alttitle" type="integer">71667781</label>
+			<label index="makenew.description" type="integer">137817259</label>
+			<label index="makenew.details" type="integer">255978736</label>
+			<label index="makenew.image_descr" type="integer">81871110</label>
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index="emconf_shy.description" type="integer">196807582</label>
+			<label index="emconf_shy.details" type="integer">15892463</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_category.details" type="integer">78942816</label>
+			<label index="emconf_dependencies.alttitle" type="integer">6158334</label>
+			<label index="emconf_dependencies.description" type="integer">262753637</label>
+			<label index="emconf_dependencies.details" type="integer">209360491</label>
+			<label index="emconf_conflicts.alttitle" type="integer">174778315</label>
+			<label index="emconf_conflicts.description" type="integer">14159431</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index=".alttitle">Tools &gt; Extension Manager (EM)</label>
+			<label index=".description">The Extension Manager controls import, installation and upgrading of Extensions in TYPO3.</label>
+			<label index=".details">TYPO3 can be extended in nearly any direction without loosing backwards compatibility. The Extension API provides a powerful framework for easily adding, removing, installing and developing such extensions to TYPO3. This is in particular powered by the Extension Manager (EM) inside TYPO3.
+
+&quot;Extensions&quot; is a term in TYPO3 which covers two other terms, plugins and modules.
+
+A plugin is something that plays a role on the website itself. For example a board, guestbook, shop etc. It is normally enclosed in a PHP class and invoked through a USER or USER_INT cObject from TypoScript. A plugin is an extension in the frontend.
+
+A module is a backend application which has it's own position in the administration menu. It requires backend login and works inside the framework of the backend. We might also call something a module if it exploits any connectivity of an existing module, that is if it simply adds itself to the function menu of existing modules. A module is an extension in the backend.</label>
+			<label index="loaded.alttitle">Loaded Extensions</label>
+			<label index="loaded.description">&quot;Loaded extensions&quot; are currently running on the system. This list shows you which extensions are loaded and in which order.
+&quot;Shy&quot; extensions are also loaded but &quot;hidden&quot; in this list because they are system related and generally you should just leave them alone unless you know what you are doing.</label>
+			<label index="loaded.details">The extensions in this list are shown in the order they are found in $TYPO3_CONF_VARS[EXT][extList].
+To de-install an extension you simply click the green &quot;-&quot; icon. If there are no dependencies requiring the extension it will be removed from the list of installed extensions.
+The &quot;Rq&quot; extensions in the loaded extensions list are &quot;required extensions&quot;. These are related so deeply to the system that you cannot disable them from the Extension Manager.</label>
+			<label index="loaded.image_descr">The list of loaded extensions shown in the loading order.</label>
+			<label index="avail.alttitle">Available Extensions</label>
+			<label index="avail.description">Available extensions are extensions which are present in the extension folders. You can install any of the available extensions in this list. When you install an extension it will be loaded by TYPO3 from that moment.
+In this list the extensions with dark background are installed (loaded) - the others just available (not loaded), ready to be installed on your request.</label>
+			<label index="avail.details">You can install an extension by clicking the gray &quot;+&quot; icon in this list. If you want to de-install an extension you click the green &quot;-&quot; icon.
+When you click the install button (&quot;+&quot;) you will most often end in a dialog where you have to confirm the creation of database tables and fields or maybe you will be asked to &quot;clear all cache&quot;. The Extension Manager automatically handles these requirements for you which makes it extremely easy to install new extensions.</label>
+			<label index="avail.image_descr">The list of available extension on the server. The list is compiled from extensions found in the &quot;local&quot;, &quot;global&quot; and &quot;system&quot; extension folders.
+If you click the install icon (&quot;+&quot;) of an extension you might end in a dialog like this. In this case a new database table is required. The Extension Manager will automatically detect that it does not exist yet and suggest that you create it. The creation automatically takes place as well, simply by accepting the changes when pressing &quot;Make updates&quot;.</label>
+			<label index="import.alttitle">Importing Extensions</label>
+			<label index="import.description">This is the process of bringing the files of an extension to the servers filesystem. You can do this either by importing from a repository at a URL (usually from TER; TYPO3 Extension Repository at typo3.org) or by uploading a &quot;t3x&quot; file which someone else created from the Extension Manager on another server.</label>
+			<label index="import.details">&lt;b&gt;Import from TER&lt;/b&gt;
+To connect to the TER you simply click the button &quot;Connect to online repository&quot;. This will request the URL shown in the text above the button and the URL should return a list of available extension you can import.
+If you know what you are looking for then enter a search word in the look-up box. In particular this helps you to look up a specific extension key. The connection to TER will be much faster if you use this since less data is sent over the wire!
+
+&lt;b&gt;Upload from file&lt;/b&gt;
+For private projects the exchange of extensions is easily done by sending &quot;t3x&quot; files from system to system. In one TYPO3 installation you simply go to the menu &quot;Backup/Delete&quot; of an extension and download a &quot;Backup&quot; of the extension. The fileformat is a serialized PHP array, compressed if possible. This file can then be uploaded in the Extension Manager of another TYPO3 system where you want to import it.</label>
+			<label index="import.image_descr">The &quot;Import&quot; screen. Before you connect to the online repository you might like to configure typo3.org username and password since that will be used to also select &quot;Member&quot; extensions in TER, if any. You can also enable &quot;Get own/member/selected extensions only&quot; if you want to limit the list further.</label>
+			<label index="import_ter.alttitle">Extensions in TER</label>
+			<label index="import_ter.description">Extensions in this list are online for immediate download from the TYPO3 Extension Repository (TER).
+Extensions with dark background are those already on your server - the others must be imported from the repository to your server before you can use them.
+If you want to use an extension from the repository, you should simply click the &quot;import&quot; button with the red arrow left to the extension.</label>
+			<label index="import_ter.details">&lt;b&gt;Import Extensions&lt;/b&gt;
+If an extension does not yet exist on your server you will see the icon with the red arrow next to that extension. A single click and the extension will be downloaded and the files extracted on your server. The download directory is seen if you move the mouse over the icon (in the tool-tip text).
+
+&lt;b&gt;Update Extensions&lt;/b&gt;
+You can update extensions that are always on your system by clicking the icon with the green arrows. The update icon will appear if the &quot;minor&quot; version number (middle digit) has been incremented. This means that extensions updated on the dev-version number (the third digit) will not be shown as &quot;ready for update&quot;. (You can configure TYPO3 to do that though!).
+
+&lt;b&gt;Seeing details about an extension in TER&lt;/b&gt;
+You can also click the title of an extension to see details about it. That will also allow you to perform a more detailed update operation where you can select version number and download location (local/global/system).
+You can also ask to have the most recent translations downloaded.</label>
+			<label index="import_ter.image_descr">List of extensions from TER. The red arrow icon is the &quot;Import&quot; link (for new extensions), the green arrow icon is the &quot;Update&quot; link (for an extension that is already on your server). If an extension is already available in the most recent version you will not see any icon at all to the left of the extension.
+If you clicked the title of an extension you will request the repository for details about the extension. This also allows you to select a specific version for import. You can also select the install location (global/local) and you can request to have the most recent translations merged into the extension upon retrieval.</label>
+			<label index="info.alttitle">Extension Details</label>
+			<label index="info.description">Shows details about the extension.</label>
+			<label index="info.details">In this view some of the details are simply a display of the information from the &quot;ext_emconf.php&quot; file in the extension. The &quot;emconf&quot; file contains meta data for the Extension Manager.
+
+The Extension Manager will also go a bit further and perform some analysis of the scripts in the extension. The list will include the findings of this analysis and if any errors were found they will be displayed. Usually these errors will not prevent the extension from working but more likely point out some theoretical problems that the extension developer should address.</label>
+			<label index="info.image_descr">The details view of an extension displays live statistics from analysis as well as static data from the &quot;ext_emconf.php&quot; file.</label>
+			<label index="backup_delete.alttitle">Backup Extension as a file</label>
+			<label index="backup_delete.description">Click the &quot;Download&quot; link here and you will download the extension as a file containing a serialized PHP array, a hash and everything possibly compressed if the server supports it. Save the file with a filename ending on &quot;t3x&quot;.</label>
+			<label index="backup_delete.image_descr">&quot;Backup&quot; of extensions - also very useful for exchange of extensions between members of a workgroup.</label>
+			<label index="upload.alttitle">Upload an Extension to the repository (TER)</label>
+			<label index="upload.description">Here you can upload an extension to TER. In order to do so you must enter your TYPO3.org username and password in the form. In addition each extension has an upload password you need to add as well. You should also make sure you registered / own the extension key!</label>
+			<label index="upload.details">&lt;b&gt;Changelog&lt;/b&gt;
+In the changelog field you enter the changes made or the reason for the upload. This will be displayed in the list of new extensions.
+
+&lt;b&gt;Version numbers&lt;/b&gt;
+Select a method for incrementation of the version number. For new &quot;versions&quot; of your extension you should select &quot;sub&quot; or &quot;main&quot; which will display your extension in the list of new extensions. For maintenance uploads you select &quot;dev&quot;.</label>
+			<label index="upload.image_descr">The upload form for extensions. The extension is submitted to the selected repository, usually TYPO3.org (default).</label>
+			<label index="editfiles.alttitle">Editing scripts in an extension</label>
+			<label index="editfiles.description">The Extension Manager can be used for editing scripts in extensions. This feature is mostly for emergencies since a webbrowser is not the ideal tool for programming.</label>
+			<label index="editfiles.details">&lt;b&gt;Notice:&lt;/b&gt;
+Before editing of extension scripts can be performed you have to disable the configuration option &quot;TYPO3_CONF_VARS[EXT][noEdit]&quot; in &quot;localconf.php&quot;.</label>
+			<label index="editfiles.image_descr">Some file types - like PHP scripts - can be edited by a textarea field inside the Extension Manager.</label>
+			<label index="settings.alttitle">Extension Manager Settings</label>
+			<label index="settings.description">Enter settings for the Extension Manager. The username and password is for connections to the repository (usually TYPO3.org) and the upload password is that you would normally use for upload of your extensions.</label>
+			<label index="settings.details">&lt;b&gt;Notice:&lt;/b&gt;
+This information is not very well protected! It is send and stored in clear-text!</label>
+			<label index="settings.image_descr">Settings for TER connections.</label>
+			<label index="makenew.alttitle">Kickstarting new extensions</label>
+			<label index="makenew.description">The &quot;Kickstarter&quot; is an application which allows you to start up new extension work very quickly. Through an interface you can create a basic framework for your extension where all the boring stuff is configured from the beginning and you can concentrate directly on coding your application.</label>
+			<label index="makenew.details">The Extension Repository Kickstarter is a separate extension, &quot;extrep_wizard&quot;. Please see more information about the kickstarter otherwise.
+
+&lt;b&gt;Notice:&lt;/b&gt;
+The Kickstarter is NOT an editor! When a new extension is started you cannot - as a rule of thumb - go back an edit it with the kickstarter! It will just overwrite any custom changes you did in the meantime!</label>
+			<label index="makenew.image_descr">When the &quot;Extension Repository Kickstarter&quot; is enabled it adds itself in the menu of the Extension Manager. From here you will be able to start your new extensions. Before you do so you should register an extension key and enter a title and description as base data. From that point it is just clicking the &quot;+&quot; icons to add the various types of functionality you want. Finally you click &quot;View result&quot; to write the extension to the server.</label>
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_shy.description">If set, the extension will normally be hidden in the EM because it might be a default extension or otherwise something which is not so important.</label>
+			<label index="emconf_shy.details">Use this flag if an extension is of &quot;rare interest&quot; (which is not the same as un-important - just an extension not sought for very often...)
+It does not affect whether or not it's enabled. Only display in EM.
+Normally &quot;shy&quot; is set for all extensions loaded by default according to TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Generally backend oriented, but not a module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (When something is a module or connects with one)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Generally frontend oriented, but not a &quot;true&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins inserted as a &quot;Insert Plugin&quot; content element)
+
+&lt;b&gt;misc:&lt;/b&gt; Miscellaneous stuff (Where not easily placed elsewhere)
+
+&lt;b&gt;services:&lt;/b&gt; Contains TYPO3 services.
+
+&lt;b&gt;templates:&lt;/b&gt; Contains website templates
+
+&lt;b&gt;doc:&lt;/b&gt; Documentation (Eg. tutorials, FAQ's etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Example extension (Which serves as examples etc.)</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_dependencies.description">This is a list of other extension keys which this extension depends on being loaded BEFORE it self.</label>
+			<label index="emconf_dependencies.details">The EM will manage that dependency while writing the extension list  to localconf.php. You cannot install an extension unless its dependencies has been installed already.</label>
+			<label index="emconf_conflicts.alttitle">Conflicts with other extensions?</label>
+			<label index="emconf_conflicts.description">List of extension keys of extensions with which this extension does not work (and so cannot be enabled before those other extensions are un-installed)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

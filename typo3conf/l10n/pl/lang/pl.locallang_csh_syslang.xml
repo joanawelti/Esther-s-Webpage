@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="title.description">Wprowadź nazwę dodatkowego języka tłumaczenia.</label>
+			<label index="hidden.description">Zaznaczenie tej opcji ukryje wersje stron dla wybranego język na stronach serwisu.</label>
+			<label index=".description">Definiuje, które języki będą dostępne na stronach serwisu.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="title.description" type="integer">111675524</label>
+			<label index="hidden.description" type="integer">199895530</label>
+			<label index=".description" type="double">1687697</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="title.description">Enter the name of this additional system language.</label>
+			<label index="hidden.description">This option will hide the system language from being available in the backend.</label>
+			<label index=".description">Defines which languages are alternatively available on each webpage.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

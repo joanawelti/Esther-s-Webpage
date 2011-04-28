@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="title">進階功能</label>
+			<label index="clickAPage_content">請點擊在網頁樹圖中的一個網頁名稱</label>
+			<label index="mlang_labels_tablabel">進階功能</label>
+			<label index="mlang_labels_tabdescr">在這裡你會發現常見的匯出和匯入功能。此外，這個模組包含專門化的精靈，使你可以大量建立網頁和進行網頁分類。</label>
+			<label index="mlang_tabs_tab">功能</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="title" type="integer">155530193</label>
+			<label index="clickAPage_content" type="integer">74170385</label>
+			<label index="mlang_labels_tablabel" type="integer">155530193</label>
+			<label index="mlang_labels_tabdescr" type="integer">78025753</label>
+			<label index="mlang_tabs_tab" type="integer">244559025</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

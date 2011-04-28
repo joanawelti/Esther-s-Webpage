@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Определя входната точка на определено име на хост</label>
+			<label index="domainName.description">Въведете име на хоста, напр. &quot;www.my-domain.com&quot;.</label>
+			<label index="hidden.description">Използвайте тази опция за временно скриване на записа за домейн</label>
+			<label index="prepend_params.description">Ако е зададен, всички GET параметри във викащото URL ще бъдат насочени към пренасочващ URL.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description" type="integer">102441634</label>
+			<label index="domainName.description" type="integer">15093983</label>
+			<label index="hidden.description" type="integer">31618732</label>
+			<label index="prepend_params.description" type="integer">132631349</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Determines the entrypoint of a certain host name.</label>
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+			<label index="prepend_params.description">If set, any GET parameters in the calling URL will be transferred to the redirect URL.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

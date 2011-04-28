@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle">User &gt; Setup moduli (Käyttäjä &gt; Asetukset aliohjelmat)</label>
+			<label index=".description">Setup moduli (Käyttäjä) antaa taustakäyttäjälle mahdollisuuden muokata TYPO3 asetuksia omaan istuntoonsa. Muokkausmahdollisuuksia ovat mm. kielenvalinta ja monet muut käyttäjäliitynnän osa-alueet.</label>
+			<label index=".details">&lt;b&gt;Huomautus [Administraattoreille];&lt;/b&gt; Nämä asetukset voidaan kaikki ylirjoittaa tai niiden oletusarvot muuttaa käyttäen &quot;Käyttäjän TSasetuksia&quot; (&quot;User TSconfig&quot;). Lue lisää näistä käyttäen allaolevaa linkkiä!</label>
+			<label index=".image_descr">Setup moduli (Käyttäjä) valitaan vasemmasta valikosta. Tämän kaltaiselta Setup moduli (Käyttäjä) näyttää - lista asetettavista vaihtoehdoista.</label>
+			<label index="language.alttitle">Kielen valinta taustatomintoihin</label>
+			<label index="option_condensedMode.alttitle">Tiivistetty muoto</label>
+			<label index="option_noMenuMode.alttitle">Valikko muoto</label>
+			<label index="option_showThumbs.alttitle">Nätä pienkuvakkeet oletuksena</label>
+			<label index="option_helpText.alttitle">Näytä avustava teksti kun mahdollista</label>
+			<label index="option_maxTitleLen.alttitle">Otsikon maksimi pituus</label>
+			<label index="option_copyLevels.alttitle">Rekursiivinen kopiointi</label>
+			<label index="option_recursiveDelete.alttitle">Rekursiivinen poisto</label>
+			<label index="option_edit_wideDocument.alttitle">Leveä dokumentti tausta</label>
+			<label index="option_edit_RTE.alttitle">Ota RTE (Rich Text Editor)  käyttöön</label>
+			<label index="option_edit_docModuleUpload.alttitle">Mahdollista tiedostolataukset muokkauslomakkeilla</label>
+			<label index="option_edit_showFieldHelp.alttitle">Sisällön mukaiset aputoiminnot</label>
+			<label index="option_disableCMlayers.alttitle">Estä sisällön popup valikot.</label>
+			<label index="option_beUser_realName.alttitle">Oikea nimesi</label>
+			<label index="option_beUser_realName.description">Anna tähän oikea nimesi.</label>
+			<label index="option_beUser_email.alttitle">Sähköpostiosoitteesi</label>
+			<label index="option_beUser_email.description">Varmista että tämä sähköpostiosoitteesi on oikea.Tätä sähköpostiosoitetta taustanhoitaja käyttää yhteydenottoissa Sinuun. Myös TYPO3 toiminnot saattavat tarvita tätä sähköpostiosoitetta eri viestitoiminnoissa joilloin tämä on Sinun vastaanottajaosoite.</label>
+			<label index="option_emailMeAtLogin.alttitle">Huomauta sisäänkirjoituksesta (login)</label>
+			<label index="option_emailMeAtLogin.description">Asettaessasi tämän vaihtoehdon lähettää TYPO3 Sinulle sähköpostiviestin sisäänkirjoittautumisestasi (ati jonkun muun tekemstä sissäkirjoittautumisesta joka on tehty nimelläsi). Voi ollaettä haluat tämän kaltaisen varoituksen turvallisuussyistä jotta tietäisin ovatko käyttäjätunnnuksesi ja salasanasi  pysyneet salassa.</label>
+			<label index="option_newPassword.alttitle">Muuta salasanaa</label>
+			<label index="option_newPassword.description">Anna uusi salasana taustakäyttäjä tilillesi.</label>
+			<label index="option_newPassword.details">Salasanat on suojattu MD5 hash mentelmällä joten siirityessäsi pois tiedosta joten tekstimuotista salasanaa ei lähetetä verkkoon.</label>
+			<label index="option_newPasswordAgain.alttitle">Muuta salasanaa, vahvista</label>
+			<label index="option_newPasswordAgain.description">Vahvista uusi salasana antamalla se uudestaan, juuri samoin kuin edellinenkin. Jos salasanat eivät vastaa toisiaan, salasanaaei muuteta.</label>
+			<label index="reset.alttitle">Aseta kaikki tiedot oletusarvoihin</label>
+			<label index="reset.description">Jos valitset tämän vaihtoehdon, kaikki tämän aliohjeman asetukset asetetaan oletusarvoihinsa järjestelmässä.</label>
+			<label index="reset.details">Tämä ei tietenkään muuta käyttäjänimi, sähköpostiosoite ja salasana tietoja.</label>
+			<label index="simuser.alttitle">Simuloi taustakäyttäjää</label>
+			<label index="simuser.description">Tämä vaihtoehto sallii &quot;admin&quot;-käyttäjän muokkaavan toisen taustakäyttäjän asetuksia järjestelmässä.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index="language.alttitle" type="integer">189480609</label>
+			<label index="option_condensedMode.alttitle" type="integer">195403291</label>
+			<label index="option_noMenuMode.alttitle" type="integer">146834180</label>
+			<label index="option_showThumbs.alttitle" type="integer">111890184</label>
+			<label index="option_helpText.alttitle" type="integer">40561585</label>
+			<label index="option_maxTitleLen.alttitle" type="integer">119741080</label>
+			<label index="option_copyLevels.alttitle" type="integer">28112499</label>
+			<label index="option_recursiveDelete.alttitle" type="integer">169322059</label>
+			<label index="option_edit_wideDocument.alttitle" type="integer">47472072</label>
+			<label index="option_edit_RTE.alttitle" type="integer">241224049</label>
+			<label index="option_beUser_realName.alttitle" type="integer">117879142</label>
+			<label index="option_beUser_email.alttitle" type="integer">26761284</label>
+			<label index="option_newPassword.alttitle" type="integer">11770970</label>
+			<label index="option_newPasswordAgain.alttitle" type="integer">34314409</label>
+			<label index="reset.alttitle" type="integer">243973144</label>
+			<label index="simuser.alttitle" type="integer">213794209</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index=".details" type="integer">127028415</label>
+			<label index=".image_descr" type="integer">55722408</label>
+			<label index="option_emailMeAtLogin.alttitle" type="integer">54992831</label>
+			<label index="option_emailMeAtLogin.description" type="integer">101170650</label>
+			<label index="option_newPassword.description" type="integer">165291839</label>
+			<label index="option_newPassword.details" type="integer">209512178</label>
+			<label index="option_newPasswordAgain.description" type="integer">264203021</label>
+			<label index="reset.description" type="integer">206520611</label>
+			<label index="reset.details" type="integer">55338225</label>
+			<label index="simuser.description" type="integer">51461529</label>
+			<label index="option_edit_docModuleUpload.alttitle" type="integer">191752606</label>
+			<label index="option_edit_showFieldHelp.alttitle" type="integer">156260410</label>
+			<label index="option_disableCMlayers.alttitle" type="integer">256285755</label>
+			<label index="option_beUser_realName.description" type="integer">257488800</label>
+			<label index="option_beUser_email.description" type="integer">170498615</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index="language.alttitle">Backend Language selection</label>
+			<label index="option_condensedMode.alttitle">Condensed Mode</label>
+			<label index="option_noMenuMode.alttitle">Navigation Mode</label>
+			<label index="option_showThumbs.alttitle">Show Thumbnails by default</label>
+			<label index="option_helpText.alttitle">Show help text when applicable</label>
+			<label index="option_maxTitleLen.alttitle">Maximum title length</label>
+			<label index="option_copyLevels.alttitle">Recursive Copy</label>
+			<label index="option_recursiveDelete.alttitle">Recursive Delete</label>
+			<label index="option_edit_wideDocument.alttitle">Wide document background</label>
+			<label index="option_edit_RTE.alttitle">Enable Rich Text Editor</label>
+			<label index="option_beUser_realName.alttitle">Your real name</label>
+			<label index="option_beUser_email.alttitle">Your email address</label>
+			<label index="option_newPassword.alttitle">Change password</label>
+			<label index="option_newPasswordAgain.alttitle">Change password, confirm</label>
+			<label index="reset.alttitle">Reset all Values to default</label>
+			<label index="simuser.alttitle">Simulate backend user</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index=".details">&lt;b&gt;Notice [For Admins]:&lt;/b&gt; These settings can all be overridden or have their default values changed by &quot;User TSconfig&quot;. To read more about this concept, see the link below!</label>
+			<label index=".image_descr">The Setup module is selected in the left menu.
+This is how the Setup module interface looks like - a list of options to configure.</label>
+			<label index="option_emailMeAtLogin.alttitle">Notify by login</label>
+			<label index="option_emailMeAtLogin.description">If you set this option you will receive an email from TYPO3 each time you (or &quot;someone&quot;) logs in using your username. You might like to receive such a &quot;warning&quot; as a security measure so you will know if someone else picks up your password and uses your account.</label>
+			<label index="option_newPassword.description">Enter a new password for your backend account:</label>
+			<label index="option_newPassword.details">The passwords are encrypted to an MD5 hash when you leave the field so no plain text password is sent over the wire.</label>
+			<label index="option_newPasswordAgain.description">Confirm the new password by entering it again, exactly like above. If the two new passwords do not match, the password will not be changed.</label>
+			<label index="reset.description">If you select this option all settings in this module will be reset to the default settings of the system.</label>
+			<label index="reset.details">This does not apply to user name, email and password settings of course.</label>
+			<label index="simuser.description">This option allows &quot;admin&quot;-users to change settings for another backend user in the system.</label>
+			<label index="option_edit_docModuleUpload.alttitle">Enable File Uploads in editing forms</label>
+			<label index="option_edit_showFieldHelp.alttitle">Context Sensitive Help mode</label>
+			<label index="option_disableCMlayers.alttitle">Disable Popup Context Menus</label>
+			<label index="option_beUser_realName.description">Enter your real name here.</label>
+			<label index="option_beUser_email.description">Make sure this is a valid email address for you. This is the contact address that the backend administrator will use if he needs to contact you. Also, the TYPO3 system might need to send you messages at various times and this will be the recipient address.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

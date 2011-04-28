@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description">'Lapas' ieraksts iekš TYPO3 parasti reprezentē web lapu. Katrai lapai ir id numurs, kas viennozīmīgi identificē to. 'Lapas' ieraksts pats par sevi nesatur lapas saturu - šim mērķim jūs veidosiet 'Lapas satura' ierakstus.</label>
+			<label index="title.description">Ievadiet lapas vai foldera nosaukumu.</label>
+			<label index="doktype.description">Izvēlieties lapas tipu. Tas nosaka to, vai lapa reprezentē redzamo weblapu, vai arī tiek lietota citiem mērķiem.</label>
+			<label index="TSconfig.description">Lapas TypoScript konfigurācija.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

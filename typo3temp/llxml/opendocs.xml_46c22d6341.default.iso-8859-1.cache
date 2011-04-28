@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:76:"typo3/sysext/opendocs/locallang_opendocs.xml|06-10-2010 10:39:55|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:4:{s:11:"toolbaritem";s:32:"Open and Recently Used Documents";s:9:"open_docs";s:14:"Open Documents";s:11:"recent_docs";s:23:"Recently Used Documents";s:7:"no_docs";s:41:"There are no open documents at this time.";}}}

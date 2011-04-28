@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel">Προσωπικές ρυθμίσεις χρήστη</label>
+			<label index="mlang_labels_tabdescr">Αυτή η μονάδα σας επιτρέπει να προσαρμόσετε το προφίλ του χρήστη σας, για το σύστημα διαχείρισης. Εδώ μπορείτε να αλλάξετε την ενεργή γλώσσα του συστήματος, το όνομα και την ηλεκτρονική σας διεύθυνση. Μπορείτε ακόμα να ρυθμίσετε άλλα γενικά χαρακτηριστικά του συστήματος.</label>
+			<label index="mlang_tabs_tab">Ρυθμίσεις</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">39109629</label>
+			<label index="mlang_labels_tabdescr" type="integer">237774117</label>
+			<label index="mlang_tabs_tab" type="integer">181548907</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel">Personal user setup</label>
+			<label index="mlang_labels_tabdescr">This module allows you to customize your backend user profile. Here you can change your active system language, name and email address. You may also configure other general features in the system.</label>
+			<label index="mlang_tabs_tab">Setup</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

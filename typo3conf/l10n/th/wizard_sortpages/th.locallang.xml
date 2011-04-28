@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="wiz_sort">จัดเรียงหน้า</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_currentPageOrder">การจัดเรียงหน้าปัจจุบัน</label>
+			<label index="wiz_changeOrder">จัดเรียงหน้าโดย</label>
+			<label index="wiz_changeOrder_title">ชื่อหน้า</label>
+			<label index="wiz_changeOrder_subtitle">ชื่อหน้าย่อย</label>
+			<label index="wiz_changeOrder_tCreate">เวลาในการสร้าง</label>
+			<label index="wiz_changeOrder_tChange">เวลาในการเปลี่ยน</label>
+			<label index="wiz_changeOrder_REVERSE">กลับการจัดเรียงปัจจุบัน</label>
+			<label index="wiz_changeOrder_msg1">ท่านกำลังจะเปลี่ยนอันดับของหน้าด้านบน ท่านแน่ใจว่าจะทำต่อไป?</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="wiz_sort" type="integer">66209340</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_currentPageOrder" type="integer">22140872</label>
+			<label index="wiz_changeOrder" type="integer">239009776</label>
+			<label index="wiz_changeOrder_title" type="integer">19706881</label>
+			<label index="wiz_changeOrder_subtitle" type="double">3536098</label>
+			<label index="wiz_changeOrder_tCreate" type="double">9880846</label>
+			<label index="wiz_changeOrder_tChange" type="integer">21265808</label>
+			<label index="wiz_changeOrder_REVERSE" type="integer">175002343</label>
+			<label index="wiz_changeOrder_msg1" type="integer">138623442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hu" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index="export.alttitle">Rekordok exportálása a TYPO3-ból</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hu" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index="export.alttitle" type="double">9010103</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hu" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index="export.alttitle">Exporting records from TYPO3</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

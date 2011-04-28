@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="No block">Sin formato de bloque</label>
+			<label index="Paragraph">Párrafo</label>
+			<label index="Heading 1">Encabezado 1</label>
+			<label index="Heading 2">Encabezado 2</label>
+			<label index="Heading 3">Encabezado 3</label>
+			<label index="Heading 4">Encabezado 4</label>
+			<label index="Heading 5">Encabezado 5</label>
+			<label index="Heading 6">Encabezado 6</label>
+			<label index="Preformatted">Preformateado</label>
+			<label index="Long quotation">Cita</label>
+			<label index="Address">Dirección</label>
+			<label index="Section">Contenedor</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="Paragraph" type="integer">267055267</label>
+			<label index="Heading 1" type="integer">265768972</label>
+			<label index="Heading 2" type="integer">245733685</label>
+			<label index="Heading 3" type="integer">106071630</label>
+			<label index="Heading 4" type="integer">89382359</label>
+			<label index="Heading 5" type="integer">146836969</label>
+			<label index="Heading 6" type="integer">170177527</label>
+			<label index="Preformatted" type="integer">189632771</label>
+			<label index="Long quotation" type="integer">120591795</label>
+			<label index="Address" type="integer">232242979</label>
+			<label index="Section" type="integer">15148940</label>
+			<label index="No block" type="integer">99941788</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="Paragraph">Paragraph</label>
+			<label index="Heading 1">Heading 1</label>
+			<label index="Heading 2">Heading 2</label>
+			<label index="Heading 3">Heading 3</label>
+			<label index="Heading 4">Heading 4</label>
+			<label index="Heading 5">Heading 5</label>
+			<label index="Heading 6">Heading 6</label>
+			<label index="Preformatted">Preformatted</label>
+			<label index="Long quotation">Quotation</label>
+			<label index="Address">Address</label>
+			<label index="Section">Container</label>
+			<label index="No block">No block format</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

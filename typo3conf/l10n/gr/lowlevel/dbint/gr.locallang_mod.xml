@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel">Έλεγχος της ακεραιότητας της βάσης δεδομένων.</label>
+			<label index="mlang_labels_tabdescr">Εδώ μπορείτε να ελέγχξετε την ακεραιότητα των πινάκων της βάσης δεδομένων που  διαμορφώθηκαν απο το $TCA.Για παράδειγμα, όλες οι εγγραφές πρέπει να ανήκουν σε μiα καταχωρημένη σελίδα. Επιπροσθέτος ελέγχετε η ύπαρξη επισυναπτομένων στις εγγραφές αρχείων (συνήθως βρίσκονται στη διαδρομή uploads/* ). Επίσης προβάλλεται το πλήρες δέντρο σελίδων περιλαμβανομένου των διεγραμμένων σελίδων. Τέλος έχετε πρόσβαση σε ένα σύστημα καθολικής αναζήτησης στη βάση δεδομένων.&lt;br /&gt;&lt;em&gt;Πρόσβαση μόνο σε 'διαχειριστές'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Έλεγχος DB</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel">Database integrity check</label>
+			<label index="mlang_labels_tabdescr">Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB check</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

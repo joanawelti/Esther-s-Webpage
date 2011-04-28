@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="clipBoard">הצג לוח גזירות</label>
+			<label index="clip_paste">הדבק תוכן לוח גזירות</label>
+			<label index="clip_pasteInto">הדבק בתוך: להשתיל תוכן לוח גזירות בתיקייה זו</label>
+			<label index="clip_markRecords">בחר הכל/בטל בחירה</label>
+			<label index="clip_selectMarked">העבר קבצים נבחרים ללוח גזירות</label>
+			<label index="clip_deleteMarked">מחק נבחרים</label>
+			<label index="clip_deleteMarkedWarning">האם הנך בטוח כי ברצונך למחוק כל הקבצים שבחרת מתיקייה זו?</label>
+			<label index="displayThumbs">הצג תמונות ממוזערות</label>
+			<label index="c_file">שם הקובץ</label>
+			<label index="c_size">גודל</label>
+			<label index="c_fileext">סוג</label>
+			<label index="c_tstamp">תאריך</label>
+			<label index="c_rw">RW</label>
+			<label index="files">קבצים</label>
+			<label index="mlang_labels_tablabel">רשימת קבצים</label>
+			<label index="mlang_labels_tabdescr">זוהי מערכת ניהול קבצים ב-TYPO3. היא מאפשרת גישה למוצבי קבצים שלך. דרך מודול זה הנך יכול להעלות, להעתיק, להזיז ולמחוק קבצים על השרת.</label>
+			<label index="mlang_tabs_tab">רשימת קבצים</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="displayThumbs" type="integer">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

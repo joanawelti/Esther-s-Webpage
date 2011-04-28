@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Bestandskoppelingen omschrijven een pad in de bestandsstructuur van de server, relatief of absoluut.</label>
+			<label index=".details">Door een bestandkoppeling te maken en naar deze te refereren in een Backendgebruikersgroep, stelt u gebruikers van deze groep in staat bestanden te benaderen in de module Bestand&gt;Bestandlijst. Met Bestandkoppelingen is het ook mogelijk om de toegang tot een pad op de server te configureren voor FTP-toegang. Vergeet hierbij niet om de bestandpermissies op de server goed te zetten zodat de webserver gebruiker (waarmee PHP draait) op zijn minst leestoegang heeft tot de FTP-map.
+U kunt alleen absolute paden koppelen als zij binnen het basispad vallen, ingesteld via $TYPO3_CONF_VARS[BE][lockRootPath].</label>
+			<label index="title.description">Voer een titel in voor de bestandkoppeling. Deze titel zal als naam van de bestandkoppeling getoond worden als deze is toegepast bij gebruikers en groepen.</label>
+			<label index="path.description">Voer het pad in van de bestandkoppeling, relatief of absoluut, afhankelijk van de instellingen van BASE.</label>
+			<label index="path.details">Als BASE op relatief is gezet, wordt het gekoppelde pad gevonden in de subdirectory &quot;fileadmin/&quot; van de website. U moet dan de subdirectory van het pad &quot;fileadmin/&quot; invullen. Als u bijvoorbeeld de map &quot;fileadmin/user_uploads/all/&quot; wilt koppelen, dan vult u &quot;user_uploads/all&quot; in als waarde van PATH.
+Als BASE op absoluut is gezet, voert u het absolute pad op de server in, bijvoorbeeld &quot;/home/ftp_upload&quot; of &quot;C:/home/ftp_upload&quot;. Verder dient u er rekening mee te houden dat de configuratie variabele $TYPO3_CONF_VARS[BE][lockRootPath] het eerste deel van het pad bevat dat u wilt koppelen.
+
+&lt;strong&gt;Opmerking:&lt;/strong&gt; Ben er in alle gevallen zeker van dat de webserver gebruiker waaronder PHP draait &lt;em&gt;tenminste&lt;/em&gt; leestoegang heeft tot het pad. Als dit niet het geval is zal de bestandkoppeling niet getoond worden zonder enige waarschuwing. Als u problemen heeft - voornamelijk met absolute paden - probeert u eerst te verwijzen naar het relatieve pad in fileadmin. Als dit werkt kunt u het absolute pad proberen.
+
+Uw PHP configuratie kan ook andere restricties opleggen als safe_mode of open_basedir in zijn geschakeld. Gebruik in zo'n geval relatieve paden.</label>
+			<label index="path.image_descr">Dit is een bestandkoppeling relatief aan &quot;fileadmin/&quot;. De gekoppelde map is &quot;fileadmin/user_upload&quot; omdat als waarde in PATH &quot;user_upload&quot; ingevuld is.
+De bestandstructuur van &quot;fileadmin/&quot; waar u onderaand in de lijst de map &quot;user_iupload&quot; kunt zien.</label>
+			<label index="hidden.description">Gebruik deze instelling om een bestandkoppeling tijdelijk ongedaan te maken.</label>
+			<label index="hidden.details">Alle backendgebruikers die gebruik maken van deze bestandkoppeling hebben geen toegang meer tot deze koppeling. Dit is ook het geval voor 'Admin'-gebruikers.</label>
+			<label index="base.description">Hiermee geeft u aan of de waarde van het pad een absoluut pad op de server bevat of relatief is aan de map &quot;fileadmin/&quot; van de website.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="path.image_descr" type="integer">198168257</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="path.image_descr">This is a filemount relative to &quot;fileadmin/&quot;. The mounted folder is &quot;fileadmin/user_upload/&quot; since &quot;user_upload&quot; is the value of the &quot;Path&quot; field.
+The directory structure of &quot;fileadmin/&quot; where you can see the &quot;user_upload&quot; folder in the bottom of the list.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

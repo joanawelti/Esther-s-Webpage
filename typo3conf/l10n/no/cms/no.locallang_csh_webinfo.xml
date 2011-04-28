@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="pagetree_overview.alttitle">Sidetre-oversikt</label>
+			<label index="pagetree_overview.description">Sidetre-oversikten viser informasjon for sider i en gren av sidetreet. Dette inkluderer start- og stopptider, cache-innstillinger o.s.v.</label>
+			<label index="pagetree_overview.image_descr">En av mulighetene i Sidetre-oversikten er at du kan se hvilke typer elementer som finnes på sidene i en gren av sidetreet. Her vises antall elementer for en sidetre-gren som er to nivåer dyp.</label>
+			<label index="func_0.alttitle">Basisinnstillinger</label>
+			<label index="func_0.description">Viser et utvalg av felter fra side-elementer som oppfattes som grunnleggende innstillinger for andre sider. Dette inkluderer alias, start- og stopptider, adgangsbegrensninger, o.s.v.</label>
+			<label index="func_0.details">Basisinnstillinger-visningen ligner mye på cache- og aldersvisningen. Forskjellen er hvilke felter de viser.
+
+&lt;b&gt;Endre felter for flere sider&lt;/b&gt;
+Du kan finne flere redigeringsknapper rundt om i brukergrensesnittet. Alle redigeringsknapper i overskriften bringer deg til en dialog der du kan endre kun det aktuelle feltet i stedet for alle sammen. Veldig praktisk hvis du f.eks. vil redigere Starttiden for mange elementer samtidig. Klikker du på ID-nummeret til sider vil du gå til den vanlige redigeringsdialogen for et side-element.</label>
+			<label index="func_0.image_descr">Basisinnstillinger-visningen gir deg en meget praktisk oversikt over sidealiaser, starttider og adgangskontroll i sidetreet. Klikker du på en redigeringsknapp i overskriften vil du kunne redigere det feltet for alle sidene i listen.</label>
+			<label index="func_1.alttitle">Element-oversikt</label>
+			<label index="func_1.description">Element-oversikten gir deg en meget nyttig oversikt over hvor uiike elementer i sidetreet befinner seg. Hver database-tabell i systemet er representert med en kolonne, og for hver side får du opp hvor mange elementer fra den tabellen som befinner seg på siden.</label>
+			<label index="func_1.details">&lt;b&gt;Merk:&lt;/b&gt; Vær forsiktig med nivå-valget. Et for høyt nivå-valg kan få modulen til å fungere veldig sakte, spesielt hvis det er mange sider og/eller elementer i databasen.
+
+&lt;b&gt;Rød pluss?&lt;/b&gt;
+Ser du et rødt '+'-tegn ved en side i sidetreet? Dette betyr at sidetreet ikke vil vise deg innholdet innenfor denne siden. Typisk skjer dette når det finnes et stort antall undersider innenfor (hundrevis, vanligvis), for å spare deg for venting. Hvis du klikker på symbolet eller tittelen vil oversikten skifte til å vise denne siden som utgangspunkt for oversikten.</label>
+			<label index="func_1.image_descr">Du kan lett få se hvordan innholdselementer er plassert på en side. I tillegg kan du se hvor mal-elementer - faktisk alle elementer - er plassert i sidetreet.</label>
+			<label index="func_2.alttitle">Cache og alder</label>
+			<label index="func_2.description">Viser de av side-elementenes felter som er knyttet til side-cache og tidsstyring.</label>
+			<label index="func_2.image_descr">Cache og alder-visningen.
+Her ser du 'TSconfig'-kolonnen. Oversikten viser at disse to sidene inneholder litt TSconfig-kode!</label>
+			<label index="stat.alttitle">Statistikk over sidetreff</label>
+			<label index="stat.description">Viser websted-statistikk for en gren av sidetreet. Denne er basert på MySQLs interne statistikk-tabell, og viser kun sidevisninger og sesjoner.</label>
+			<label index="stat.details">&lt;b&gt;Merk:&lt;/b&gt; Denne funksjonen krever at tillegget 'Simple Hit Statistics' (sys_stat) er installert. Du må også sette opp TypoScript til å registrere treff på sider til database-tabellen for statistikk.</label>
+			<label index="lang.alttitle">Oversikt over språkversjoner</label>
+			<label index="lang.description">Gir en oversikt over hvilke sider i sidetreet som er oversatt til de installerte språkene i systemet.</label>
+			<label index="lang.details">Oversikten bruker farger til å vise tilgjengelighet og 'tilbakefall-situasjonen' for en gitt side. Her er en beskrivelse for hver fargekode:
+&lt;b&gt;Grønn bakgrunn:&lt;/b&gt; Siden &lt;em&gt;kan ikke&lt;/em&gt; vises i dette språket, og du vil få opp en feilmelding om du prøver. Menyene vil automatisk fjerne lenker til side-elementer med dette oppsettet.
+&lt;b&gt;Grå bakgrunn (ikke tilgjengelig for standardspråket):&lt;/b&gt; Siden vil gå tilbake til den spesifiserte tilbakefall-situasjonen for innholdet. Dette avhenger av oppsettet. (sys_language_mode=content_fallback er anbefalt som den mest fleksible metoden, sys_language_mode=strict vil avverge tilbakefall og vise en feilmelding i stedet.)
+
+&lt;b&gt;Sidens 'Oversettingsoppsett':&lt;/b&gt;
+Det er oversettingsoppsettet til hvert side-element som bestemmer valgene ovenfor. I standardspråk-kolonnen vil hver av disse være representert med 'N' (skjul siden hvis det ikke finnes noen oversettelse for det nåværende språket) eller 'D' (skjul standardspråket for siden). Som du ser har startsiden en 'N', og derfor vil alle forsøk på å se den tyske versjonen av siden resultere i en feilmelding siden det ikke finnes noen tysk oversettelse av den. Standardoppførselen er at 'tysk aksess' til en ikke-oversatt side gi engelsk innhold (standardspråket).
+Det finnes også en side merket med 'D' (&quot;[Dummy]&quot;). Det betyr at siden kun er tilgjengelig i én språkversjon, i dette tilfellet dansk. Hvis du prøver å få opp siden med standardspråket eller på tysk vil du få en feilmelding.
+
+Så når du bruker 'Oversettingsoppsett'-kryssene for en side vil brukerne få en feilmelding når de forsøker å se en side som er blokkert. Dette er en spesialfunksjon, og trikset er å ikke lage 'manuelle' lenker til disse sidene.
+
+Menyer som genereres fra HMENU-objekter vil alltid bruke 'sys_language' og vise lenker til kun de sidene som kan vises for det språket. Men dette med 'Oversettingsoppsett' kan bli et problem for sider som &lt;em&gt;ikke&lt;/em&gt; er oversatt (har grå bakgrunn). Du kan få meny-lenker som peker til sider som ikke er tilgjengelige. Problemet går ut på at '&amp;L=xx' ikke stemmer med den interne 'sys_language'. Det er ikke helt heldig, og du kan sette 'sys_lanugae_mode' til 'content_fallback' for å unngå dette. Hvis du gjør det vil sys_language &lt;em&gt;alltid&lt;/em&gt; følge instruksene fra '&amp;L=xx', og menyene vil stemme. Samtidig vil du få opp standardspråket for innhold som ikke er oversatt (fordi innholdet går tilbake til standardspråket).
+
+Og til slutt: Tallet i hver kolonne forteller deg hvor mange innholdselementer som finnes på det aktuelle språket.</label>
+			<label index="lang.image_descr">Oversikt over språkversjoner i Web&gt;Info-modulen. Bruk knappene til å redigere, vise og opprette nye sideoversettelser. Bruk den vanlige sidemodulen til å legge inn oversatt sideinnhold på sidene. 'Oversettings-oppsett' kontrollerer tilgjengeligheten til side-elementer på forskjellige språk.</label>
+			<label index="func_hits.alttitle">Statistikk-visning</label>
+			<label index="func_hits.description">Du kan velge mellom tre statistikk-visninger i menyen: 'Sidetreff', 'Totalt antall treff' og 'Treff i hoveddelene'. Bruk menyen til høyre for å velge dybden til oversikten i sidetreet.</label>
+			<label index="func_hits.details">Du kan se sidetreff-statistikk fra og med 30 dager tilbake. Hver dag dukker opp som en egen kolonne. For hver side i sidetreet får du se treffene for hver dag som et tall formatert slik: [sidetreff]/[bruker-sesjoner]. Så hvis tallet er '286/34' betyr det at siden hadde 286 treff den dagen, og at det var minst 34 forskjellige besøkende (målt som minst to treff av en besøkende som mottok en informasjonskapsel [cookie] fra webstedet).
+
+Her er hva de ulike visningsmetodene betyr:
+
+&lt;b&gt;Sidetreff&lt;/b&gt;
+Viser sidetreff/brukere for hver side.
+
+&lt;b&gt;Totalt antall treff&lt;/b&gt;
+Viser statistikken kun for hovedsider (sider som er 'rotsider' for websteder). Du får i praksis se den totale treff-statistikken for hvert websted.
+
+&lt;b&gt;Treff i hoveddelene&lt;/b&gt;
+Viser statistikken for sider i hoveddelene av et websted. En hoveddel er undersider på første nivå på et websted (definert av en sidemal som setter siden som 'rot' for et websted).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="integer">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="lang.details" type="integer">33472106</label>
+			<label index="lang.image_descr" type="integer">102823687</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+			<label index="func_hits.details" type="integer">207091212</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="lang.details">The overview uses colors to signal the availability and fall back situation for a given page. Here is a description for each color code:
+&lt;b&gt;Green background:&lt;/b&gt; Page is translated and viewable in this language. For translations it means that an active page overlay record is present.
+&lt;b&gt;Red background:&lt;/b&gt; Page &lt;em&gt;cannot&lt;/em&gt; be viewed in this language and you will see an error message if you try. Menus should automatically filter out links to pages with this translation.
+&lt;b&gt;Gray background (not available for default language):&lt;/b&gt; Page will fall back to the specified fallback mode for content. Depends on configuration. (sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!)
+
+&lt;b&gt;The pages &quot;Localization settings:&quot;&lt;/b&gt;
+It is the &quot;Localization settings&quot; of the page record that determines the modes above. In the column of the default translation each of these settings are represented by a &quot;N&quot; (Hide page if no translation for current language exists) or a &quot;D&quot; (Hide default translation of page).
+As you can see the page &quot;Startpage&quot; has the N flag set and therefore any access to the german version of that page will be blocked with an error message because there is no translation in german. By default &quot;german access&quot; to a non-translated page will just show the english content.
+There is also a page with the D flag (&quot;[Dummy]&quot;). The D flag means that the page is only available in one of the translations, in this case Danish. So any attempt to access the page in the default language or german will show an error message.
+
+So, when the &quot;Localization settings&quot; checkboxes for a page are used, you will get an error message when you try to request a page which has been blocked. This is a feature. The trick is not to create links to those pages.
+
+Menus generated from HMENU objects will always take &quot;sys_language&quot; into account and display only pages which can be accessed for that language. But combined with the &quot;localization settings&quot; of pages which may block page access this becomes a problem with pages which are &lt;em&gt;not&lt;/em&gt; translated (has gray background); You might get menu items which links to non-accessible pages.
+The problem basically is that &quot;&amp;L=xx&quot; is different from internal &quot;sys_language&quot;. You would like to avoid that and to do so you should configure &quot;sys_language_mode&quot; to &quot;content_fallback&quot;. If you do that sys_language will &lt;em&gt;always&lt;/em&gt; follow what &quot;&amp;L=&quot; instructs it to and your menus will be right. At the same time you will get the default content displayed if no translation exists (because content selection falls back).
+
+Finally, the number found in each column tells you how many content elements are found in the specified language.</label>
+			<label index="lang.image_descr">Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
+The &quot;Localization settings&quot; that affect availability of pages in the various languages.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+			<label index="func_hits.details">You can view the page hit statistics 30 days back. Each day is shown in its own column.
+For each page in the page tree you can see the page hits each day as a number formatted like [page hits]/[user sessions]. So if the number is &quot;286/34&quot; it means that the page had 286 page hits that day and that there were at least 34 unique visitors (measured by at least two hits by a user accepting a cookie from the site).
+
+This is an overview of the meaning of each view mode:
+
+&lt;b&gt;Page hits&lt;/b&gt;
+This shows page hits/sessions for each page.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+This will show statistics for only pages that have a Template Record (with Root-flag set) on it. This means that page hits are shown as totals for a whole website.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+Will show the total number of page hits/sessions within main sections of a website. A &quot;main section&quot; is all subpages to a page on the first level of a website (defined by a Template Record with the Root flag set)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

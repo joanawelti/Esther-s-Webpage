@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="submit_button_label">جستجو</label>
+			<label index="opt_type_0">واژه مجزا</label>
+			<label index="opt_type_1">جزء واژه</label>
+			<label index="opt_type_2">جزء اول واژه</label>
+			<label index="opt_type_3">جزء آخر واژه</label>
+			<label index="opt_type_10">شبیه به</label>
+			<label index="rules_text">فقط واژگان با ۲ کاراکتر مورد قبول است
+بیشینه ۲۰۰ کاراکتر
+برای جدا کردن کلمات از فاصله استفاده کنید، &amp;quot; (گیومه) می‌تواند برای جستجوی یک رشته استفاده شود. (در این صورت جستجوی بدون نمایه انجام می‌گیرد)
+AND, OR و NOT واژگان پیشوندی، عملگرهای پیش فرض هستند. 
++/|/- برابر AND, OR و NOT به عنوان عملگر حساب می‌شوند.
+از 'ی' و 'ک' استاندارد فارسی و نیم‌فاصله استفاده کنید.</label>
+			<label index="searchFor">جستجو برای</label>
+			<label index="searchFor_or">یا</label>
+			<label index="searchFor_and">و</label>
+			<label index="searchFor_butNot">به جز</label>
+			<label index="noResults">نتیجه‌ای یافت نشد.</label>
+			<label index="inSection">در بخش</label>
+			<label index="makerating_addToCurrentSearch">اضافه کردن به واژه‌های جاری</label>
+			<label index="maketitle_matches">مطابق</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="submit_button_label" type="integer">20138052</label>
+			<label index="opt_type_0" type="integer">222720720</label>
+			<label index="opt_type_1" type="integer">172284783</label>
+			<label index="opt_type_2" type="double">11548209</label>
+			<label index="opt_type_3" type="integer">194788751</label>
+			<label index="opt_type_10" type="integer">257918215</label>
+			<label index="rules_text" type="integer">170496710</label>
+			<label index="searchFor" type="integer">238893195</label>
+			<label index="searchFor_or" type="integer">243385572</label>
+			<label index="searchFor_and" type="integer">199611859</label>
+			<label index="searchFor_butNot" type="integer">38330962</label>
+			<label index="noResults" type="integer">189977502</label>
+			<label index="inSection" type="integer">57548980</label>
+			<label index="makerating_addToCurrentSearch" type="integer">165743725</label>
+			<label index="maketitle_matches" type="integer">163745074</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="submit_button_label">Search</label>
+			<label index="opt_type_0">Distinct word</label>
+			<label index="opt_type_1">Part of word</label>
+			<label index="opt_type_2">First part of word</label>
+			<label index="opt_type_3">Last part of word</label>
+			<label index="opt_type_10">Sounds like</label>
+			<label index="rules_text">
+			Only words with 2 or more characters are accepted
+			Max 200 chars total
+			Space is used to split words, &quot;&quot; can be used to search for a whole string (not indexed search then)
+			AND, OR and NOT are prefix words, overruling the default operator
+			+/|/- equals AND, OR and NOT as operators.
+			All search words are converted to lowercase.
+		</label>
+			<label index="searchFor">Search for</label>
+			<label index="searchFor_or">or</label>
+			<label index="searchFor_and">and</label>
+			<label index="searchFor_butNot">but not</label>
+			<label index="noResults">NO results found.</label>
+			<label index="inSection">in the section</label>
+			<label index="makerating_addToCurrentSearch">Add to current search words</label>
+			<label index="maketitle_matches">matches</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

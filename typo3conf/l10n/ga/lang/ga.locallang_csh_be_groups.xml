@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">Esta é a administración de usuarios de backend dispoñible para usuarios de backend. Determina as credenciais de accesi para usuarios de backend.</label>
+			<label index=".details">Os grupos conteñen a configuración de permisos principais que de poden establecer para usuarios de backend. Varios usuarios poden ser membros do mesmo grupo e en consecuencia compartir permisos.
+Cando un usuario é membro de varios grupos (incluidos os subgrupos) os permisos son engadidos xuntos polo que cantos máis grupos teña un usuario máis permisos terá.</label>
+			<label index=".image_descr">Grupos de usuarios de backend atópanse na raíz da árbore de páxinas onde só usuarios administradores poden editalos. Os grupos de usuarios con iconos vermellos nesta imaxe son os que teñen listas de acceso. Os azuis son grupos planos. Este grupo de usuarios ten listas de acceso dispoñibles. Nas lista de acceso podes especificar os módulos, táboas, campos, etc os membros poden acceder a TYPO3.</label>
+			<label index="title.description">Nome do grupo de usuarios de backend. O nome debería ser descriptivo e debería poder ser cambiado posteriormente.</label>
+			<label index="title.details">Os grupos de usuarios de backend son identificados polo seu campo &quot;uid&quot; (enteiro) e en tamén polo título que pode ser cambiado sempre. O &quot;uid&quot; nunca poderá ser cambiado para un grupo de usuarios.</label>
+			<label index="title.image_descr">O título do grupo de usuarios é amosado las listas de rexistros.</label>
+			<label index="db_mountpoints.description">Define puntos da raíz da árbore para os membros do grupo.</label>
+			<label index="db_mountpoints.details">A árbore de páxinas en TYPO3 debe ter certos puntos de entrada definidos. Aquí podes incluir un ou varias referencias a unha páxina que representará un novo punto raíz para a árbore de páxinas. Esto é chamado &quot;punto de montaxe de base de datos&quot; ou &quot;punto de montaxe de BD&quot;.
+Os puntos de montaxe de BD &lt;i&gt;may&lt;/i&gt; ser herdados polos usuarios que son membros deste grupo. Esto depende de se o usuario foi configurado para incluir os puntos de montaxes no seus grupos membros.
+Sen embargo, é recomendado utilizar os usuarios de backend para configurar os puntos de montaxe, sobre todo se necesitan compartir información entre varios usuarios.</label>
+			<label index="db_mountpoints.image_descr">Aquí, unha páxina é engadida como &quot;punto de montaxe de BD&quot;... ... e na árbore de páxinas de usuarios membros comezará dito punto para a árbore.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index=".details" type="integer">152748622</label>
+			<label index=".image_descr" type="integer">13061130</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="title.details" type="integer">131557834</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="db_mountpoints.details" type="integer">43503742</label>
+			<label index="db_mountpoints.image_descr" type="integer">217823442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index=".details">Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</label>
+			<label index=".image_descr">Backend Usergroups are found in the root of the page tree where only &quot;admin&quot; users can edit them. The usergroups with red icons in this image are the ones with Access Lists enabled. The blue are just plain usergroups.
+This usergroup has Access Lists enabled. In the Access Lists you specify which modules, tables, database fields etc. the group members can access in TYPO3.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="title.details">Backend Usergroups are identified by their &quot;uid&quot; field value (integer) and therefore the title can always be changed. The &quot;uid&quot; can never be changed for a user group.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="db_mountpoints.details">The page tree in TYPO3 must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a &quot;Database mount&quot; or &quot;DB mount&quot;.
+DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
+However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</label>
+			<label index="db_mountpoints.image_descr">Here a page is added as a &quot;DB mount&quot;...
+... and in the page tree of member users this will become the starting point for the page tree.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

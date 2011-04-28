@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Pagina TSconfig hiërarchie</label>
+			<label index="tsconfig_hierarchy.description">Staat de gebruiker toe om de gecompileerde structuur van de Pagina TSconfig voor een tak van de paginaboom te bekijken.</label>
+			<label index="tsconfig_hierarchy.details">Dit overzicht is onontbeerlijk om de pagina TSconfiguratie te bekijken zoals deze op diverse takken in de paginaboom van toepassing is. U kunt de configuratiestructuur van elke pagina bekijken en waar overerving plaats vindt. Dit helpt u de instellingen te overzien die u heeft toegepast of deze op de juiste plaats in de paginaboom worden gevonden.
+U kunt ook de Pagina TSconfig TypoScript code voor elke pagina in de wortellijn bekijken.
+
+Klik op de links voor meer informatie over de Pagina TSconfig.</label>
+			<label index="tsconfig_hierarchy.image_descr">Zo kan de ontlede boom van de Pagina TSconfig eruit zien. Het bevat de &quot;som&quot; van alle configuratiecode van de wortellijn en de standaard instellingen. Dit toont de gehele boom, maar u kunt ook andere Top Level Objects (TLO) selecteren met het keuzemenu aan de bovenzijde als u het aanzicht wilt limiteren tot een enkele tak.
+Eén van de takken in de Pagina TSconfig heeft de speciale eigenschap dat deze wordt overschreven met de Gebruikers TSconfig (User TSconfig) in hetzelfde object pad voor de huidige backend gebruiker. Wanneer u alleen de &quot;mod&quot; TLO bekijkt, zal ook elke gebruikersinstelling voor de huidige gebruiker worden toegepast. Hier is het duidelijk dat sommige extra instellingen van toepassing moeten zijn voor de gebruiker, aangezien alleen &quot;mod.SHARED.colPos_list&quot; gevonden was in de pagina TSconfig (overeenkomstig het &quot;Alle&quot; overzicht in de eerste afbeelding).</label>
+			<label index="tsconfig_edit.alttitle">Pagina TSconfig inhoud</label>
+			<label index="tsconfig_edit.description">Toont de ruwe TSconfig code van alle pagina's in de huidige wortellijn met inbegrip van de standaard instellingen.</label>
+			<label index="tsconfig_edit.details">De ontlede boom van de Pagina TSconfig die u ziet in de standaard vertoning is eigenlijk gecompileerd van deze TSconfig code in de volgorde waarin het getoond wordt. Deze vertoning laat u zien hoe de ontleding plaats vindt.
+U kunt op de bewerkingsiconen van andere pagina's klikken om direct naar de TSconfig velden van deze pagina's te gaan.</label>
+			<label index="tsconfig_edit.image_descr">Toont de ruwe Pagina TSconfig code. Eerst ziet u de standaard inhoud van TYPO3_CONF_VARS (waarschijnlijk toegevoegd door extensies), vervolgens de inhoud van het &quot;TSconfig&quot; veld van de eeste pagina in de wortellijn (&quot;Intro&quot;) en als laatste iedere opvolgende pagina tussen de root en de huidige pagina (niet zichtbaar in deze afbeelding).
+Aan de onderzijde van het venster zult u een link zien om voor alle TSconfig velden in de lijst een bewerkingsformulier te openen!
+Hier ziet u dat de TSconfig velden voor de eerste en de tweede pagina in de wortellijn worden bewerkt. Let op het &quot;TS&quot; icoon aan de rechterzijde van het eerste veld - Dit zal een assistent oproepen om u te helpen een keuze te maken tussen de beschikbare Pagina TSconfig eigenschappen.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="tsconfig_hierarchy.alttitle" type="integer">57288638</label>
+			<label index="tsconfig_hierarchy.description" type="integer">34139528</label>
+			<label index="tsconfig_hierarchy.details" type="integer">177660665</label>
+			<label index="tsconfig_hierarchy.image_descr" type="integer">188033426</label>
+			<label index="tsconfig_edit.alttitle" type="integer">123654165</label>
+			<label index="tsconfig_edit.description" type="integer">148641553</label>
+			<label index="tsconfig_edit.details" type="integer">105827446</label>
+			<label index="tsconfig_edit.image_descr" type="integer">142598899</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Page TSconfig hierarchy viewer</label>
+			<label index="tsconfig_hierarchy.description">Allows the user to view the compiled Page TSconfig structure for a branch of the pagetree.</label>
+			<label index="tsconfig_hierarchy.details">This viewer is indispensable for getting an overview of Page TSconfig settings as they apply to various branches in the page tree. You can see the configuration structure of any page where all inherited Page TSconfig is parsed and the result shown. This helps you to evaluate that the settings you have applied are actually found at the correct position in the configuration tree.
+You can also see the Page TSconfig TypoScript code for each page in the root line with the viewer.
+
+See the links for more information about what Page TSconfig is.</label>
+			<label index="tsconfig_hierarchy.image_descr">This is how the parsed Page TSconfig tree can look. It contains the &quot;sum&quot; of all the configuration code from the root line and any default settings. This shows the whole tree but you can also select other top level objects (TLO) in the selector box in the top if you want to limit the view to a single branch
+One of the branches in Page TSconfig has the special property that it is overridden with any User TSconfig in the same object path given for the current backend user. When you view only the &quot;mod&quot; TLO any user settings for the current backend user are applied as well. Here it is evident that some additional settings must apply for the user since only &quot;mod.SHARED.colPos_list&quot; was actually found in Page TSconfig (according to the &quot;All&quot; view in the first image).</label>
+			<label index="tsconfig_edit.alttitle">Page TSconfig content viewer</label>
+			<label index="tsconfig_edit.description">Displays the raw TSconfig code of all pages in the current root line including any default code.</label>
+			<label index="tsconfig_edit.details">The parsed Page TSconfig tree you see in the default view is actually compiled from this TSconfig code in the order it appears here. This view lets you see how the parsed version came to be.
+You can also click the edit-icons of the various pages to go directly to the TSconfig fields of the pages.</label>
+			<label index="tsconfig_edit.image_descr">Shows the raw Page TSconfig code. First you see the default content from TYPO3_CONF_VARS (probably added by extensions), then the content from the &quot;TSconfig&quot; field of the first page in the root line (&quot;Intro&quot;) and then for each root line page up to the current page (not shown in screenshot).
+In the bottom of the page you will see a link which will open editing forms for all of the TSconfig fields shown in the list!
+Here you see specifically the TSconfig fields of the first and second page in the rootline being edited. Notice the &quot;TS&quot; icon next to the first field - this will bring up a wizard that helps you to select among available Page TSconfig properties.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

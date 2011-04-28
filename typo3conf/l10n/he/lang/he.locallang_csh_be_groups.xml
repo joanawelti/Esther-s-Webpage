@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index=".description">אלו קבוצות משתמשים של הממשק האחורי הזמינות עבור משתמשי ממשק האחורי. הם מגדירים הרשאות למשתמשי ממשק האחורי.</label>
+			<label index="title.description">שם של קבוצת משתמשים של ממשק האחורי.</label>
+			<label index="db_mountpoints.description">הקצה ניקודות התחלה של עץ דפים של משתמש.</label>
+			<label index="db_mountpoints.details">עץ דפים, שמשתמשים בו כל תת-מודולים באינטרנט כדי לנווט, חובה שיהיו לו נקודות כניסה מוגדרות. כאן עליך להכניס סימוכין לדף שתייצג דף שורש חדשה בעץ דפים. זה נקרא &quot;מוצב מאגר מידע&quot;. משתמשים בקבוצה זו יכולים לרשת מוצבי מאגר מידע. זה תלוי בהגדרה אצל המשתמש אם עליו לרשת מוצבים המוגדרים בקבוצות משתמשים אליהם הוא משתייך. בכל זאת, מומלץ להשתמש בקבוצות משתמשי ממשק אחורי בצורה הזו כדי להגדיר מוצבים. במיוחד אם יש צורך לשתף אותו בין משתמשים רבים.</label>
+			<label index="file_mountpoints.description">הקצה ניקודות התחלה של עץ תיקיות קבצים.</label>
+			<label index="file_mountpoints.details">כל התת-מודולים של &quot;קובץ&quot; משתמשים בעץ קבצים כדי לנווט בין תיקיות על השרת. נא לציין, שמשתמשים בקבוצה יכולים לרשת מוצבי קבצים, כמו מוצבי מאגר מידע.</label>
+			<label index="pagetypes_select.description">בחר איזה &quot;סוגים&quot; של דפים יכולים לקבוע המשתמשים.</label>
+			<label index="pagetypes_select.details">אפשרות זו מגבילה מספר בחירות למשתמש כאשר הוא עומד לבחור סוג דף.</label>
+			<label index="tables_modify.description">בחר איזה טבלאות יכולים המשתמשים לערוך.</label>
+			<label index="tables_modify.details">שלב חשוב בהגדרת הרשאות הוא לציין איזה טבלאות המשתמש יכול לערוך. טבלאות, שיש עליהם אישור עריכה - יש עליהם גם אישור בחירה אוטומטית, לכן אין צורך לציין טבלאות שציינת כאן גם ב&quot;טבלאות(רשימה)&quot;.
+&lt;strong&gt;שים לב,&lt;/strong&gt; כי רשימה זו מתווספת לשדות שנבחרו עבור משתמש בקבוצות אחרות אליהם הוא משתייך.</label>
+			<label index="tables_select.description">בחר איזה טבלאות המשתמשים יכולים לראות ברשימות רשומות (לא נדרש להכניס כאן טבלאות &quot;ערוך&quot; שוב)</label>
+			<label index="tables_select.details">זה מגדיר איזו טבלאות, בנוסף לאלא שנבחרו ב-&quot;טבלאות(ערוך)&quot;, משתמש יכול לראות. לכן הוא לא יכול &lt;em&gt;לערוך&lt;/em&gt;את הטבלה - רק לבחור רשומות ולראות את התוכן.
+הרשימה לא חשובה כל כך. די נדיר שמשתמש יכול לבחור טבלאות אבל לא לערוך אותם.</label>
+			<label index="non_exclude_fields.description">שדות טבלה מסוימות לא זמינות כברירת מחדל. כאן ניתן להפוך אותם לזמינות למשתמשים בקבוצה.</label>
+			<label index="non_exclude_fields.details">כאן ניתן לפרט הרשאות שנתת לטבלאות. כברירת מחדל, כל השדות האלא לא זמינות למשתמשים וצריך להגדיר גישה אליהם כאן. לדוגמה, אחד השימושים ברעיון שמאחורי זה - דפים חדשים נוצרים חבויים ואם למשתמש לא מוגדרת גישה לשדה &quot;חבוי&quot; - הוא אינו יכול לשחרר את הדף. למשתמש אחר (מבקר) מופיע השדה, ואז הוא יכול לשחרר את הדף אחרי בדיקת תוכן.</label>
+			<label index="hidden.description">הופך קבוצת משתמשים ללא זמינה.</label>
+			<label index="hidden.details">אם אתה הופך קבוצת משתמשים ללא זמינה - כל המשתמשים בקבוצה לא ירשו כל הגדרה מקבוצה זו כתוצאה.</label>
+			<label index="lockToDomain.description">הכנס שם דומיין שרק ממנו משתמש יכול להכנס למערכת.</label>
+			<label index="lockToDomain.details">מערכת TYPO3 יכולה לאפשר לדומיינים רבים להצביע אליה. לכן, אפשרות זו מבטיחה שמשתמשים יכולים להכנס רק משם דומיין מסוים.</label>
+			<label index="groupMods.description">בחר מודולים בממשק אחורי שזמינים למשתמשים בקבוצה.</label>
+			<label index="groupMods.details">זה קובע איזה &quot;פריטי תפריט&quot; זמינים למשתמשי הקבוצה. רשימה זו של מודולים מתווספת לכל המודולים שנבחרו בקבוצות משתמשים אחרות של המשתמש, כמו גם שדה שה בהגדרות של המשתמש עצמו.</label>
+			<label index="inc_access_lists.description">בחר אם גישה לסוג דף, טבלה, מודול ושדות מיוחדות מותרות לקבוצה זו.</label>
+			<label index="description.description">הכנס תיאור קצר של הקבוצה, מה היא ומי הם המשתמשים. זה לשימוש פנימי בלבד.</label>
+			<label index="TSconfig.description">הגדרות נוספות דרך ערכים TypoScript (מתקדם).</label>
+			<label index="TSconfig.syntax">בסגנון TypoScript ללא conditions ו-constants.</label>
+			<label index="hide_in_lists.description">אפשרות זו תמנע מהקבוצה להופיע ברשימות של קבוצות משתמשים.</label>
+			<label index="hide_in_lists.details">זה ישפיע על רשימת קבוצות משתמשים במרכז משימות ומודול אינטרנט&gt;גישה. הבחירה הינה מאוד שימושית אם יש לכם קבוצות משתמשים כלליות, שמגדירות אפשרויות כלליות וכל המשתמשים שייכים אליהם. אז, אתם בטח לא תרצו שכל המשתמשים הללו יראו זה את זה.</label>
+			<label index="subgroup.description">בחר קבוצות משתמשים של ממשק אחורי שנכללים אוטומטית עבור משתמשים בקבוצה זו.</label>
+			<label index="subgroup.details">הגדרות של תת-קבוצות מתווספות להגדרות של קבוצות אלו ופשוט יתווספו לרשימת קבוצות משתמשים של משתמש ששייך אליהם. הגדרה זו נותנת דרך טובה ליצור &quot;קבוצות מנהלים&quot;.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="db_mountpoints.details" type="integer">43503742</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="file_mountpoints.details" type="integer">65754039</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="pagetypes_select.details" type="integer">266555079</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+			<label index="tables_modify.details" type="integer">89351209</label>
+			<label index="tables_select.description" type="integer">79180839</label>
+			<label index="tables_select.details" type="integer">95679269</label>
+			<label index="non_exclude_fields.description" type="integer">17658287</label>
+			<label index="non_exclude_fields.details" type="integer">206989457</label>
+			<label index="hidden.description" type="integer">190841262</label>
+			<label index="hidden.details" type="integer">191806419</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">85223659</label>
+			<label index="groupMods.description" type="integer">249603367</label>
+			<label index="groupMods.details" type="integer">250073054</label>
+			<label index="inc_access_lists.description" type="integer">208224239</label>
+			<label index="description.description" type="integer">189455419</label>
+			<label index="TSconfig.description" type="integer">211026111</label>
+			<label index="TSconfig.syntax" type="integer">185290164</label>
+			<label index="hide_in_lists.description" type="integer">169107711</label>
+			<label index="hide_in_lists.details" type="integer">20735693</label>
+			<label index="subgroup.description" type="integer">244521906</label>
+			<label index="subgroup.details" type="integer">41206182</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="db_mountpoints.details">The page tree in TYPO3 must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a &quot;Database mount&quot; or &quot;DB mount&quot;.
+DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
+However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate the file folders on the webserver. If you want users to access the servers file system through TYPO3 they need at least one File Mount (and access to eg. File &gt; Filelist module).
+You can mount a path in &quot;fileadmin/&quot; relative to the TYPO3 installation or you can mount an absolute path somewhere else on the server (outside webroot!). The last requires that $TYPO3_CONF_VARS[BE][lockRootPath] is defined. The path you mount is defined by the Filemount record you refer to by this field. So a File Mount just points to another record inside of which the details are configured. See screen shots below.
+&quot;admin&quot; users always have the &quot;fileadmin/&quot; folder mounted by default.
+Notice; as with 'DB mounts' the file folder mounts may be inherited by the users which are members of this group.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="pagetypes_select.details">This option limits the number of valid choices for the user when he is about to select a page type.
+Choice of Page types (doktype) for a page is associated with a) a special icon for the page, b) permitted tables on the page (see $PAGES_TYPES global variable) and c) if the page is a web page or &quot;system folder&quot; type.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+			<label index="tables_modify.details">An important part of setting permissions is to define which database tables a user is allowed to modify.
+Tables allowed for modification is automatically also allowed for selection and thus you don't need to set tables entered here in the &quot;Tables (listing)&quot; box.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that this list adds to the fields selected in other member groups of a user.</label>
+			<label index="tables_select.description">Select which tables the members may see in record lists ('modify' tables does not need to be re-entered here!).</label>
+			<label index="tables_select.details">This determines which tables - in addition to those selected in the &quot;Tables (modify)&quot; box - may be viewed and listed for the member users. He is not able to &lt;em&gt;edit&lt;/em&gt; the table - only select the records and view the content.
+This list is not very important. It's a pretty rare situation that a user may select tables but not modify them.</label>
+			<label index="non_exclude_fields.description">Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</label>
+			<label index="non_exclude_fields.details">&quot;Allowed excludefields&quot; allows you to detail the permissions granted to tables. By default all these fields are not available to users but must be specifically enabled by being selected here.
+One application of this is that pages are usually hidden by default and that the hidden field is not available for a user unless he has been granted access by this list of &quot;Allowed excludefields&quot;. So the user may create a new page, but cannot un-hide the page - unless of course he has been assigned the &quot;Page: Hide page&quot; exclude field through one of his member groups.
+Of course it does not make any sense to add fields from tables which are not included in the list of tables allowed to be modified.</label>
+			<label index="hidden.description">Disables a user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may host multiple websites on multiple domains. Therefore this option secures that users can login only from a certain host name.
+Setting this to for example &quot;www.my-domain.com&quot; will require a user to be logged in from that domain if membership of this group should be gained. Otherwise the group will be ignored for the user.</label>
+			<label index="groupMods.description">Select available backend modules for the group members.</label>
+			<label index="groupMods.details">This determines which 'menu items' are available for the group members.
+This list of modules is added to any modules selected in other member groups of a user as well as the corresponding field of the user himself.</label>
+			<label index="inc_access_lists.description">Select whether the Access Lists for Page type, Tables, Module and Allowed excludefield are enabled for this group.</label>
+			<label index="description.description">Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</label>
+			<label index="TSconfig.description">User TSconfig: Additional configuration through TypoScript style values (Advanced).</label>
+			<label index="TSconfig.syntax">TypoScript syntax without conditions and constants.</label>
+			<label index="hide_in_lists.description">This option will prevent the user group from showing up in lists, where user groups are selected.</label>
+			<label index="hide_in_lists.details">This will affect the list of user groups in the Task Center To-Do and Messages parts as well as the Web&gt;Access module.
+The option is extremely useful if you have general user groups defining some global properties which all your users are members of. Then you would probably not like all those users to 'see' each other through the membership of this group, for instance sending messages or To-Dos to each other. And this is what is option will prevent.</label>
+			<label index="subgroup.description">Select backend user groups which are automatically included for members of this group.</label>
+			<label index="subgroup.details">The properties of subgroups are added to the properties of this group and basically they will simply be added to the list of member groups of any user which is a member of this group.
+This feature provides a great way to create 'Supervisor' user groups.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

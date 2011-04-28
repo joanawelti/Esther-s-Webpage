@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:98:"typo3/sysext/rtehtmlarea/htmlarea/plugins/EditorMode/locallang.xml|06-10-2010 10:40:05|version=2.3";s:10:"LOCAL_LANG";a:2:{s:7:"default";a:2:{s:16:"TextMode-Tooltip";s:16:"Toggle text mode";s:16:"HTMLMode-Tooltip";s:16:"Toggle HTML mode";}s:2:"de";s:74:"typo3conf/l10n/de/rtehtmlarea/htmlarea/plugins/EditorMode/de.locallang.xml";}}

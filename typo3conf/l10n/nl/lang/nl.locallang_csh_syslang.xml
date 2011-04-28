@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="title.description">Voer de naam in van deze additionele systeem taal.</label>
+			<label index="hidden.description">Deze optie verbergt de systeem taal, zodat deze niet beschibaar is in de backend.</label>
+			<label index=".description">Definieert welke talen als alternatief beschibaar zijn op de webpagina.</label>
+			<label index=".details">De Web&gt;Pagina module heeft een feature die het gebruikers mogelijk maakt pagina inhoud niet alleen te bewerken in verschillende kolommen, maar ook in verschillende talen. De talen die voor vertaling beschikbaar zijn worden bepaald door het aantal Website Language records dat is aangemaakt.
+Om een webpagina in een andere taal beschikbaar te maken, moet een &quot;'Alternatvie Page Language&quot; record worden aangemaakt op die pagina.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="title.description" type="integer">111675524</label>
+			<label index="hidden.description" type="integer">199895530</label>
+			<label index=".description" type="double">1687697</label>
+			<label index=".details" type="integer">190956227</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="title.description">Enter the name of this additional system language.</label>
+			<label index="hidden.description">This option will hide the system language from being available in the backend.</label>
+			<label index=".description">Defines which languages are alternatively available on each webpage.</label>
+			<label index=".details">The Web&gt;Page module has a feature which allows users to edit page content divided into not only columns but also languages. The languages available for translation are determined by the number of Website Language record created.
+For a webpage to be available in another language an &quot;Alternative Page Language&quot; record must be created on the page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

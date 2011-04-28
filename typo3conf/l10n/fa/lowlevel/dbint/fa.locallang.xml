@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fa" type="array">
+			<label index="tables">جدول‌ها:</label>
+			<label index="fixLostRecord">کليک کنيد تا اين رکورد گم‌شده به سطح ريشه منتقل شود (pid=0)</label>
+			<label index="doktype">انواع سند:</label>
+			<label index="pages">صفحات:</label>
+			<label index="total_pages">تعداد کل صفحات:</label>
+			<label index="hidden_pages">صفحات مخفي:</label>
+			<label index="relations">روابط:</label>
+			<label index="relations_description">اين محتواي جدول‌ها را تحليل خواهد کرد و چک مي کند که آيا روابط &quot;خالي&quot; بين رکورد‌ها وجود دارد يا آيا پرونده‌هايي از جاهاي مورد انتظارشان گم شده اند.</label>
+			<label index="files_many_ref">پرونده‌هايي که از بيش از يک رکورد مورد رجوع قرار گرفته‌اند:</label>
+			<label index="files_no_ref">پرونده‌هايي که به هيچ وجه مرجعي ندارند (آن‌ها را حذف کن!)</label>
+			<label index="files_no_file">پرونده‌هاي گم‌شده:</label>
+			<label index="select_db">فيلد‌ها را انتخاب کنيد:</label>
+			<label index="group_db">فيلدهاي گروهي:</label>
+			<label index="tree">درخت صفحه:</label>
+			<label index="tree_description">اين همه صفحات موجود در سامانه را در يک درخت بزرگ نمايش خواهد داد.آگاه باشيد که احتمالآ اين کار منجر به توليد يک سند خيلي بزرگ خواهد شد که به‌علاوهمقداري زمان را هم براي پردازش از سرور خواهد گرفت!</label>
+			<label index="records">آمار رکوردها:</label>
+			<label index="records_description">اين برخي آمارها براي رکوردهاي موجود در پايگاه داده‌ها را نمايش مي‌دهد.اين بر روي همه درخت صفحه اجرا خواهد شد و بنابراين سروررا به طور سنگيني مشغول خواهد کرد!</label>
+			<label index="search">همه پايگاه داده را جستجو کن</label>
+			<label index="search_description">اين همه جدول‌ها و رکوردهاي پايگاه‌داده ها را براي يک رشته متن جستجو مي کند.</label>
+			<label index="filesearch">همه نام‌هاي پرونده‌ها را براي الگو جستجو کن</label>
+			<label index="filesearch_description">به طور بازگشتي براي نام‌هاي پرونده‌ها درPATH_site (زيرشاخه‌هاي آدرس وب‌سايت) براي مطابقت با يک الگوي regex قطعي جستجو خواهد کرد</label>
+			<label index="refindex">فهرست مرجع سراسري را چک و بروزرساني کن</label>
+			<label index="refindex_description">به شما اجازه مي دهد تا فهرست مرجع را که توسط تايپو۳ نگهداري مي شود حفظ کنيد</label>
+			<label index="title">چک درستي پايگاه داده‌ها</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fa" type="array">
+			<label index="tables" type="integer">267355363</label>
+			<label index="pages" type="double">9915692</label>
+			<label index="total_pages" type="integer">120516512</label>
+			<label index="hidden_pages" type="integer">56221326</label>
+			<label index="relations" type="integer">158458960</label>
+			<label index="group_db" type="integer">89872761</label>
+			<label index="tree" type="integer">254322778</label>
+			<label index="records" type="integer">107937849</label>
+			<label index="search" type="integer">201691087</label>
+			<label index="files_many_ref" type="integer">253873964</label>
+			<label index="files_no_ref" type="integer">51429792</label>
+			<label index="files_no_file" type="integer">103076812</label>
+			<label index="select_db" type="integer">222215195</label>
+			<label index="title" type="integer">152428276</label>
+			<label index="fixLostRecord" type="integer">264598103</label>
+			<label index="doktype" type="integer">59646372</label>
+			<label index="filesearch" type="integer">138409460</label>
+			<label index="filesearch_description" type="integer">206400326</label>
+			<label index="refindex" type="integer">67579080</label>
+			<label index="refindex_description" type="integer">26536462</label>
+			<label index="relations_description" type="integer">98163255</label>
+			<label index="tree_description" type="double">13437987</label>
+			<label index="records_description" type="integer">36151804</label>
+			<label index="search_description" type="integer">44447557</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fa" type="array">
+			<label index="tables">Tables:</label>
+			<label index="pages">Pages:</label>
+			<label index="total_pages">Total number of pages:</label>
+			<label index="hidden_pages">Hidden pages:</label>
+			<label index="relations">Relations:</label>
+			<label index="group_db">Group fields:</label>
+			<label index="tree">The Page Tree:</label>
+			<label index="records">Records Statistics:</label>
+			<label index="search">Search Whole Database</label>
+			<label index="files_many_ref">Files referenced from more than one record:</label>
+			<label index="files_no_ref">Files with no references at all (delete them!):</label>
+			<label index="files_no_file">Missing files:</label>
+			<label index="select_db">Select fields:</label>
+			<label index="title">Database integrity check</label>
+			<label index="fixLostRecord">Click to move this lost record to rootlevel (pid=0)</label>
+			<label index="doktype">Document types:</label>
+			<label index="filesearch">Search all filenames for pattern</label>
+			<label index="filesearch_description">Will search recursively for filenames in the PATH_site (subdirs to the website path) matching a certain regex pattern.</label>
+			<label index="refindex">Check and update global reference index</label>
+			<label index="refindex_description">Allows you to maintain the reference index kept by TYPO3.</label>
+			<label index="relations_description">This will analyse the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</label>
+			<label index="tree_description">This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</label>
+			<label index="records_description">This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</label>
+			<label index="search_description">This searches through all database tables and records for a text string.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

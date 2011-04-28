@@ -1,0 +1,41 @@
+#unpack tpl_internet_corporation.zip to fileadmin
+#copy paste in constants
+
+# CONSTANTS
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/constants.txt">
+
+
+
+#copy paste in setup
+#enable css_styled_content
+#voila
+
+# CONFIGURATION
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/config.txt">
+
+# TIP
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/suchen.txt">
+
+# HORIZONTAL MENU OBEN
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/menu_oben.txt">
+
+# HORIZONTAL TOP MENU
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/menu_top.txt">
+
+# AKTUALISIERT MENU
+#<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/zuletzt_aktualisiert.txt">
+
+# BREADCRUMP MENU
+#<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/rootline.txt">
+
+# LAST UPDATE
+#<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/lastupdate.txt">
+
+# PRINT
+#<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/print.txt">
+
+# COUNTER
+#<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/counter.txt">
+
+# PAGE SETUP
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/internet_corporation/typoscript/setup.txt">

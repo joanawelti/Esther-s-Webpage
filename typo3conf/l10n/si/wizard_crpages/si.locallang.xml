@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="wiz_crMany">Ustvari več strani</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Ustvari nove strani</label>
+			<label index="wiz_newPages_page">Stran</label>
+			<label index="wiz_newPages_currentMenu">Zgradba nove strani</label>
+			<label index="wiz_newPages_helpText">Tukaj lahko v paketu ustvarite več novih, praznih strani. To je zelo koristno, kadar želite ustvariti novo spletno mesto ali njegov del.&lt;br /&gt;Samo vnesite naslove strani, ki jih potrebujete. Le izpolnjena polja bodo postala nove strani.</label>
+			<label index="wiz_newPages_errorMsg1">Tukaj ne morete ustvariti novih podstrani!</label>
+			<label index="wiz_newPages_lCreate">Ustvari strani</label>
+			<label index="wiz_newPages_listEnd">Namesti nove strani za obstoječe</label>
+			<label index="wiz_newPages_hidePages">Skrij nove strani</label>
+			<label index="wiz_newPages_lCreate_msg1">Ustvarili boste mnogo novih strani. Res želite nadaljevati?</label>
+			<label index="wiz_newPages_lReset">Izprazni polja</label>
+			<label index="wiz_newPages_noCreate">Nič strani ni bilo dodanih!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="integer">1353175</label>
+			<label index="wiz_newPages_helpText" type="integer">257879061</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="integer">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

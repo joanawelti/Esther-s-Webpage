@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel">Vêr configuração a partir de localconf.php e tables.php</label>
+			<label index="mlang_labels_tabdescr">Permite-lhe navegar pelos valores do array $TCA (tabela de configuração) e $TYPO3_CONF_VARS. Não pode definir nenhum valor, somente visualizá-los.&lt;br /&gt;&lt;em&gt;Acesso só para utilizadores 'admin'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Configuração</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">205342864</label>
+			<label index="mlang_labels_tabdescr" type="integer">172430134</label>
+			<label index="mlang_tabs_tab" type="integer">39122498</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

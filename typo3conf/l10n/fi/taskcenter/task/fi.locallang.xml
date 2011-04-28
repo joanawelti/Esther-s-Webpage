@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="title">Toimintojen yleispiirteet</label>
+			<label index="lReplyAddress">Vastausosoite on Sinun sähköpostiosoitteesi</label>
+			<label index="lSelf">Itse</label>
+			<label index="lSendNew">Lähet sähköpostiviesti</label>
+			<label index="lSendReply">Vastaa sähköpostiviestiin</label>
+			<label index="listSeparator_Groups">__Ryhmät:__</label>
+			<label index="lHomedir">Kotihakemisto</label>
+			<label index="lNone">[none]</label>
+			<label index="lCreate">Luo</label>
+			<label index="lCancel">Peruuta</label>
+			<label index="lDelete_warning">Oletko varma halutessasi poistaa tämän käyttäjän?</label>
+			<label index="lDelete">Poista</label>
+			<label index="lUpdate">Päivitä</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="title" type="integer">6410427</label>
+			<label index="lReplyAddress" type="integer">224962887</label>
+			<label index="lSelf" type="integer">181856101</label>
+			<label index="lSendNew" type="integer">122144419</label>
+			<label index="lSendReply" type="integer">105689675</label>
+			<label index="listSeparator_Groups" type="integer">221382396</label>
+			<label index="lHomedir" type="integer">24871266</label>
+			<label index="lNone" type="integer">173298844</label>
+			<label index="lCreate" type="integer">109504151</label>
+			<label index="lCancel" type="integer">245659783</label>
+			<label index="lDelete_warning" type="integer">173897440</label>
+			<label index="lDelete" type="integer">254438473</label>
+			<label index="lUpdate" type="integer">6894342</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

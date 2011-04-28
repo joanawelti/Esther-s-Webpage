@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="adminOptions">แผงบริหาร</label>
+			<label index="preview">ภาพก่อนพิมพ์</label>
+			<label index="preview_showHiddenPages">แสดงหน้าที่ซ่อน</label>
+			<label index="preview_showHiddenRecords">แสดงระเบียนที่ซ่อน</label>
+			<label index="preview_simulateDate">จำลองเวลา:</label>
+			<label index="preview_simulateUserGroup">จำลองกลุ่มผู้ใช้:</label>
+			<label index="cache">แคช</label>
+			<label index="cache_noCache">ไม่แคช:</label>
+			<label index="cache_doit">ทำให้แคชว่าง เวลานี้!</label>
+			<label index="cache_clearLevels">ทำให้ว่าง ระดับ:</label>
+			<label index="cache_cacheEntries">แค็ช ทะเบียนที่กรอก:</label>
+			<label index="publish">ลงพิมพ์</label>
+			<label index="publish_levels">ลงพิมพ์ ระดับ:</label>
+			<label index="publish_tree">ลงพิมพ์  หน้า:</label>
+			<label index="publish_doit">ลงพิมพ์  เวลานี้!</label>
+			<label index="edit">กำลังแก้ไข</label>
+			<label index="edit_displayIcons">แสดงแผงแก้ไข:</label>
+			<label index="edit_displayFieldIcons">แสดงไอคอนแก้ไข:</label>
+			<label index="edit_editFormsOnPage">แบบฟอร์มแก้ไข บน-หน้า:</label>
+			<label index="edit_editNoPopup">ไม่ให้มี หน้าต่าง ป๊อปอัฟ:</label>
+			<label index="edit_openAB">เปิดส่วนหลัง TYPO3</label>
+			<label index="edit_recordHistory">มุมมองระเบียน ประวัติการเปลี่ยนแปลง</label>
+			<label index="edit_newContentElement">สร้างองค์ประกอบเนื้อหาใหม่</label>
+			<label index="edit_move_page">ย้ายหน้า</label>
+			<label index="edit_newPage">สร้างหน้าใหม่</label>
+			<label index="edit_editPageHeader">แก้ไขส่วนหัวของหน้า</label>
+			<label index="edit_db_list">เว็บ&gt; โมดูลแสดงรายการ</label>
+			<label index="tsdebug">TypoScript</label>
+			<label index="tsdebug_tree">แสดง Tree:</label>
+			<label index="tsdebug_LR">ติดตามการถอดความ เนื้อหา:</label>
+			<label index="tsdebug_forceTemplateParsing">บังคับการถอดความของ TS:</label>
+			<label index="tsdebug_displayTimes">แสดงทุกแบบเวลา:</label>
+			<label index="tsdebug_displayMessages">แสดงข้อความ:</label>
+			<label index="tsdebug_displayContent">แสดงเนื้อหา:</label>
+			<label index="tsdebug_displayQueries">อธิบายควิวรี SELECT:</label>
+			<label index="info">ข้อมูล</label>
+			<label index="div_Levels_0">หน้านี้</label>
+			<label index="div_Levels_1">+ 1 ระดับย่อย</label>
+			<label index="div_Levels_2">+2 ระดับย่อย</label>
+			<label index="update">ทำให้ทันสมัย</label>
+			<label index="p_editRecord">แก้ไขระเบียน</label>
+			<label index="p_moveUp">ย้ายขึ้น</label>
+			<label index="p_moveDown">ย้ายลง</label>
+			<label index="p_unhide">ไม่ซ่อน</label>
+			<label index="p_hide">ซ่อน</label>
+			<label index="p_newSubpage">หน้าย่อยใหม่</label>
+			<label index="p_newRecordAfter">ระเบียนใหม่หลังจาก</label>
+			<label index="p_delete">ลบ</label>
+			<label index="p_deleteConfirm">คุณแน่ใจที่จะลบระเบียนนี้?</label>
+			<label index="p_hideConfirm">ซ่อนระเบียนทำให้มันมองไม่เห็นบนหน้าเว็ป และคุณต้องเข้ามาที่ส่วนหลัง หรืออนุญาต Preview ที่ส่วนหน้า ก่อนที่จะแก้ไขได้อีก
+ทำต่อไป?</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="adminOptions" type="integer">147511050</label>
+			<label index="preview" type="integer">52420219</label>
+			<label index="preview_showHiddenPages" type="integer">134294512</label>
+			<label index="preview_showHiddenRecords" type="integer">197480530</label>
+			<label index="preview_simulateDate" type="integer">165211717</label>
+			<label index="preview_simulateUserGroup" type="integer">140125754</label>
+			<label index="cache" type="integer">179359504</label>
+			<label index="cache_noCache" type="integer">7012371</label>
+			<label index="cache_doit" type="integer">82152402</label>
+			<label index="cache_clearLevels" type="integer">9304802</label>
+			<label index="cache_cacheEntries" type="integer">248899248</label>
+			<label index="publish" type="integer">17867952</label>
+			<label index="publish_levels" type="integer">266651712</label>
+			<label index="publish_tree" type="integer">130627303</label>
+			<label index="publish_doit" type="integer">142429021</label>
+			<label index="edit" type="integer">186429311</label>
+			<label index="edit_displayIcons" type="integer">160544396</label>
+			<label index="edit_displayFieldIcons" type="integer">75845684</label>
+			<label index="edit_editFormsOnPage" type="integer">251694161</label>
+			<label index="edit_editNoPopup" type="integer">143991461</label>
+			<label index="edit_openAB" type="integer">177133592</label>
+			<label index="edit_recordHistory" type="integer">38913415</label>
+			<label index="edit_newContentElement" type="integer">165001110</label>
+			<label index="edit_move_page" type="integer">32081372</label>
+			<label index="edit_newPage" type="integer">10918545</label>
+			<label index="edit_editPageHeader" type="integer">60384081</label>
+			<label index="edit_db_list" type="integer">182815575</label>
+			<label index="tsdebug" type="integer">6141239</label>
+			<label index="tsdebug_tree" type="integer">60618427</label>
+			<label index="tsdebug_LR" type="integer">38630757</label>
+			<label index="tsdebug_forceTemplateParsing" type="integer">28246343</label>
+			<label index="tsdebug_displayTimes" type="integer">67634135</label>
+			<label index="tsdebug_displayMessages" type="integer">61942828</label>
+			<label index="tsdebug_displayContent" type="integer">118594150</label>
+			<label index="tsdebug_displayQueries" type="integer">26860700</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="div_Levels_0" type="integer">98872550</label>
+			<label index="div_Levels_1" type="integer">81949190</label>
+			<label index="div_Levels_2" type="integer">92317091</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="p_editRecord" type="integer">148343509</label>
+			<label index="p_moveUp" type="integer">259501942</label>
+			<label index="p_moveDown" type="integer">232386759</label>
+			<label index="p_unhide" type="integer">152488466</label>
+			<label index="p_hide" type="integer">103439945</label>
+			<label index="p_newSubpage" type="integer">81409489</label>
+			<label index="p_newRecordAfter" type="integer">264860337</label>
+			<label index="p_delete" type="integer">254438473</label>
+			<label index="p_deleteConfirm" type="integer">75838368</label>
+			<label index="p_hideConfirm" type="integer">202576585</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

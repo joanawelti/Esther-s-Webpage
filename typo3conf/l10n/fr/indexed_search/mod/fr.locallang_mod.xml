@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_labels_tablabel">Voir les statistiques du moteur d'indexation</label>
+			<label index="mlang_labels_tabdescr">Vous pouvez régler le moteur d'indexation depuis cette page. Vous pouvez aussi consulter ses statistiques.</label>
+			<label index="mlang_tabs_tab">Moteur d'indexation</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">33963420</label>
+			<label index="mlang_labels_tabdescr" type="integer">9602245</label>
+			<label index="mlang_tabs_tab" type="integer">86103277</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

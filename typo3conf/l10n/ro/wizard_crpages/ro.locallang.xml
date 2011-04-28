@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="wiz_crMany">Creează pagini multiple</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Creează pagini noi</label>
+			<label index="wiz_newPages_page">Pagină</label>
+			<label index="wiz_newPages_currentMenu">Structură de pagină nouă</label>
+			<label index="wiz_newPages_errorMsg1">Nu puteţi crea subpagini noi în această pagină!</label>
+			<label index="wiz_newPages_lCreate">Creare pagini</label>
+			<label index="wiz_newPages_listEnd">Pune paginile noi după subpaginile existente</label>
+			<label index="wiz_newPages_hidePages">Ascunde paginile noi</label>
+			<label index="wiz_newPages_lCreate_msg1">Veţi crea multe pagini noi. Sigur vreţi să continuaţi?</label>
+			<label index="wiz_newPages_lReset">Şterge câmpuri</label>
+			<label index="wiz_newPages_noCreate">Nici o pagină nu a fost creată!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="double">1353175</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="double">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

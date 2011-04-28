@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="mlang_labels_tablabel">Uppsetningarforrit</label>
+			<label index="mlang_labels_tabdescr">Tengil í uppsetningarforrit TYPO3. Notað fyrir uppsetningu á nýju kerfi og seinni uppfærslur. ATH. Virkar einungis ef uppsetningarforritið er virkt (typo3/install/)&lt;br /&gt;&lt;i&gt;Aðgangur aðeins fyrir vefstjóra&lt;/i&gt;</label>
+			<label index="mlang_tabs_tab">Upps.forrit</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="mlang_labels_tablabel" type="integer">91233822</label>
+			<label index="mlang_labels_tabdescr" type="integer">184150281</label>
+			<label index="mlang_tabs_tab" type="integer">55149455</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="mlang_labels_tablabel">Install Tool</label>
+			<label index="mlang_labels_tabdescr">Provides a simple link to the Install Tool. Notice the Install Tool (in typo3/install/) must be enabled.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Install</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

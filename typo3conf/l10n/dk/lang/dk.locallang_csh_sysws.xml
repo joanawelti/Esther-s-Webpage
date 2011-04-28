@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="title.description">Indtast navnet på arbejdsrummet. Det indtastede navn vil blive vist i arbejdsrums selektorboksen i backend.</label>
+			<label index="adminusers.description">Ejere af arbejdsrummet er dem som har lov til at tilføje medlemmer og korrekturlæsere til arbejdsrummet og vælger sidetræets startpunkter m.v.</label>
+			<label index="file_mountpoints.description">Filmonteringspunkter der er tilgængelige for arbejdsrummets brugere. Se venligst detaljerne for sikkerhedsinformationer!</label>
+			<label index="publish_time.description">Specificer et tidspunkt for publicering af arbejdsrummets indhold.</label>
+			<label index="freeze.description">Hvis sat er redigering ikke tilladt i arbejdsrummet.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="title.description" type="integer">158098838</label>
+			<label index="adminusers.description" type="integer">256927453</label>
+			<label index="file_mountpoints.description" type="integer">53529306</label>
+			<label index="publish_time.description" type="integer">20570038</label>
+			<label index="freeze.description" type="integer">134717254</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="title.description">Enter the name of the workspace. This value is shown in the workspace selector box in the backend.</label>
+			<label index="adminusers.description">Owners of the workspace are those who are allowed to add members and reviewers to the workspace and pick the page tree starting points etc.</label>
+			<label index="file_mountpoints.description">Filemounts available for workspace users. Please see details for security information!</label>
+			<label index="publish_time.description">Specify a time of publication of the workspace content.</label>
+			<label index="freeze.description">If set, no editing is allowed inside workspace.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

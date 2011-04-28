@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel">Darbo erdvės apžvalga</label>
+			<label index="mlang_tabs_tab">Darbo erdvė</label>
+			<label index="title">Darbo erdvės administravimas</label>
+			<label index="menuitem_workspaces">Darbo erdvių sąrašas</label>
+			<label index="filter_drafts">Juodrasčiai</label>
+			<label index="filter_archive">Archyvas</label>
+			<label index="filter_all">Visi</label>
+			<label index="diff_no_diff">Nerodyti skirtumu</label>
+			<label index="diff_show_inline">Rodyti atliktus pakeitimus</label>
+			<label index="diff_show_popup">Rodyti atliktus pakeitimus iškylančiame lange (šakos)</label>
+			<label index="label_errors">Klaida:</label>
+			<label index="label_workspace">Darbo erdvė:</label>
+			<label index="label_description">Apibūdinimas:</label>
+			<label index="label_options">Pasirinkimai:</label>
+			<label index="label_status">Būsena:</label>
+			<label index="label_pagetree">Puslapių medis:</label>
+			<label index="label_live_version">Gyva Versija:</label>
+			<label index="label_draft_versions">Juodraštinė versija:</label>
+			<label index="label_publish">Publikuoti:</label>
+			<label index="label_lifecycle">Gyvavimo ciklas:</label>
+			<label index="label_access_level">Prieigos lygmuo:</label>
+			<label index="img_title_publish">Publikuoti</label>
+			<label index="img_title_swap">Sukeisti</label>
+			<label index="remove_from_ws_confirmation">Pašalinti iš darbo erdvės?</label>
+			<label index="img_title_remove_from_ws">Pašalinti iš darbo erdvės?</label>
+			<label index="img_title_edit_page">Redaguoti puslapį</label>
+			<label index="img_title_edit_element">Redaguoti elementa</label>
+			<label index="img_title_show_log">Rodyti žurnalą</label>
+			<label index="diffview_label_field_name">Lauko pavadinimas:</label>
+			<label index="diffview_label_colored_diff_view">Skirtumu pežiūra spalvota:</label>
+			<label index="img_title_show_more">Rodyti daugiau</label>
+			<label index="img_title_current_workspace">Esama darbo erdvė!</label>
+			<label index="img_title_create_new_workspace">Sukurti nauja darbo erdvę</label>
+			<label index="link_text_create_new_workspace">Sukurti nauja darbo erdvę</label>
+			<label index="edit_workspace_go_back">Atgal</label>
+			<label index="edit_workspace_title_edit">Redaguoti darbo erdvę</label>
+			<label index="edit_workspace_title_new">Sukurti nauja darbo erdvę</label>
+			<label index="workspace_list_label_current_workspace">Esama:</label>
+			<label index="workspace_list_label_workspace_title">Pavadinimas:</label>
+			<label index="workspace_list_label_workspace_description">Apibudinimas:</label>
+			<label index="workspace_list_label_owners">Valdytojai:</label>
+			<label index="workspace_list_label_members">Nariai:</label>
+			<label index="workspace_list_label_reviewers">Redaktoriai:</label>
+			<label index="workspace_list_access_admins_only">Tik Administratoriams</label>
+			<label index="workspace_list_access_anyone">be apribojimu</label>
+			<label index="workspace_list_label_publish_date">Publikavimo data:</label>
+			<label index="workspace_list_label_your_access">Jūsų prieiga:</label>
+			<label index="workspace_list_label_workspace_users">Darbo erdvės vartotojai:</label>
+			<label index="workspace_list_label_frozen_yes">Taip</label>
+			<label index="workspace_list_label_frozen_no">Ne</label>
+			<label index="workspace_list_icon_title_edit_workspace">Redaguoti darbo erdvę</label>
+			<label index="workspace_list_icon_title_switch_workspace">Sukeisti darbo erdvę</label>
+			<label index="workspace_list_access_admin">Administratorius</label>
+			<label index="workspace_list_access_online">Prijungtas(-a)</label>
+			<label index="workspace_list_access_offline">Atjungtas(-a)</label>
+			<label index="workspace_list_access_owner">Valdytojas</label>
+			<label index="workspace_list_access_member">Narys</label>
+			<label index="workspace_list_access_reviewer">Redaktorius</label>
+			<label index="workspace_list_publishing_count_draft">Juodaraštis</label>
+			<label index="workspace_list_publishing_count_archive">Archyvas</label>
+			<label index="workspace_list_publishing_count">Publikuotas %d kartų</label>
+			<label index="stage_sent_to_review">&quot;%s&quot; atiduoti elementa &quot;Peržiūrai&quot;</label>
+			<label index="stage_approved_for_publish">&quot;%s&quot; patvirtintas &quot;Publikavimui&quot;</label>
+			<label index="stage_rejected">&quot;%s&quot; atmesti elementa!</label>
+			<label index="stage_reset_to_editing">&quot;%s&quot; atmesti &quot;Redagavimui&quot;</label>
+			<label index="stage_undefined">[nenustatytas]</label>
+			<label index="stage_label_user_comment">Vartotojo Komentaras:</label>
+			<label index="please_wait">Prasome palaukti...</label>
+			<label index="return_to_index">Grįžti į darbo erdvių modulį</label>
+			<label index="label_reject">Atmesti</label>
+			<label index="label_review">Peržiūra</label>
+			<label index="label_sendtoreview">Atiduoti peržiūrai</label>
+			<label index="label_approveforpublishing">Patvirtinti publikavimui</label>
+			<label index="stage_editing">Redagavimas</label>
+			<label index="stage_review">Peržiūra</label>
+			<label index="stage_publish">Leidimas</label>
+			<label index="label_commentforpublisher">Leidėjo Komentaras:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">40328641</label>
+			<label index="mlang_tabs_tab" type="integer">3809681</label>
+			<label index="title" type="integer">221556358</label>
+			<label index="menuitem_workspaces" type="integer">81058256</label>
+			<label index="filter_drafts" type="integer">229879618</label>
+			<label index="filter_archive" type="integer">242383616</label>
+			<label index="filter_all" type="integer">186422474</label>
+			<label index="diff_no_diff" type="integer">11451820</label>
+			<label index="diff_show_inline" type="integer">197647923</label>
+			<label index="diff_show_popup" type="integer">109470880</label>
+			<label index="label_errors" type="integer">206095404</label>
+			<label index="label_workspace" type="integer">246019313</label>
+			<label index="label_description" type="integer">218120871</label>
+			<label index="label_options" type="integer">247251860</label>
+			<label index="label_status" type="integer">38413271</label>
+			<label index="label_pagetree" type="integer">73652558</label>
+			<label index="label_live_version" type="integer">76765232</label>
+			<label index="label_draft_versions" type="integer">137256046</label>
+			<label index="label_publish" type="integer">213276400</label>
+			<label index="label_lifecycle" type="integer">100797554</label>
+			<label index="label_access_level" type="integer">130031057</label>
+			<label index="img_title_publish" type="integer">17867952</label>
+			<label index="img_title_swap" type="integer">142053212</label>
+			<label index="remove_from_ws_confirmation" type="integer">21237820</label>
+			<label index="img_title_remove_from_ws" type="integer">21237820</label>
+			<label index="img_title_edit_page" type="integer">66732081</label>
+			<label index="img_title_edit_element" type="integer">31852556</label>
+			<label index="img_title_show_log" type="integer">55060445</label>
+			<label index="diffview_label_field_name" type="integer">132071293</label>
+			<label index="diffview_label_colored_diff_view" type="integer">194740760</label>
+			<label index="img_title_show_more" type="integer">21430242</label>
+			<label index="img_title_current_workspace" type="integer">77949732</label>
+			<label index="img_title_create_new_workspace" type="integer">9718304</label>
+			<label index="link_text_create_new_workspace" type="integer">9718304</label>
+			<label index="edit_workspace_go_back" type="integer">36398395</label>
+			<label index="edit_workspace_title_edit" type="integer">108386348</label>
+			<label index="edit_workspace_title_new" type="integer">9718304</label>
+			<label index="workspace_list_label_current_workspace" type="integer">138034144</label>
+			<label index="workspace_list_label_workspace_title" type="integer">85903807</label>
+			<label index="workspace_list_label_workspace_description" type="integer">218120871</label>
+			<label index="workspace_list_label_owners" type="integer">1756457</label>
+			<label index="workspace_list_label_members" type="integer">229261518</label>
+			<label index="workspace_list_label_reviewers" type="integer">154009364</label>
+			<label index="workspace_list_access_admins_only" type="integer">185325320</label>
+			<label index="workspace_list_access_anyone" type="integer">199306044</label>
+			<label index="workspace_list_label_publish_date" type="integer">176273469</label>
+			<label index="workspace_list_label_your_access" type="integer">166543641</label>
+			<label index="workspace_list_label_workspace_users" type="integer">158773513</label>
+			<label index="workspace_list_label_frozen_yes" type="integer">154974727</label>
+			<label index="workspace_list_label_frozen_no" type="integer">196073266</label>
+			<label index="workspace_list_icon_title_edit_workspace" type="integer">108386348</label>
+			<label index="workspace_list_icon_title_switch_workspace" type="integer">22803710</label>
+			<label index="workspace_list_access_admin" type="integer">238747344</label>
+			<label index="workspace_list_access_online" type="integer">89089612</label>
+			<label index="workspace_list_access_offline" type="integer">148494923</label>
+			<label index="workspace_list_access_owner" type="integer">191842862</label>
+			<label index="workspace_list_access_member" type="integer">140032583</label>
+			<label index="workspace_list_access_reviewer" type="integer">149261528</label>
+			<label index="workspace_list_publishing_count_draft" type="integer">251898646</label>
+			<label index="workspace_list_publishing_count_archive" type="integer">242383616</label>
+			<label index="workspace_list_publishing_count" type="integer">58676666</label>
+			<label index="stage_sent_to_review" type="integer">201915232</label>
+			<label index="stage_approved_for_publish" type="integer">80962450</label>
+			<label index="stage_rejected" type="integer">1321221</label>
+			<label index="stage_reset_to_editing" type="integer">41331665</label>
+			<label index="stage_undefined" type="integer">103468811</label>
+			<label index="stage_label_user_comment" type="integer">198972965</label>
+			<label index="please_wait" type="integer">71633894</label>
+			<label index="return_to_index" type="integer">18456117</label>
+			<label index="label_reject" type="integer">228109330</label>
+			<label index="label_review" type="integer">72867157</label>
+			<label index="label_sendtoreview" type="integer">150188902</label>
+			<label index="label_approveforpublishing" type="integer">236017458</label>
+			<label index="stage_editing" type="integer">186429311</label>
+			<label index="stage_review" type="integer">72867157</label>
+			<label index="stage_publish" type="integer">17867952</label>
+			<label index="label_commentforpublisher" type="integer">151962634</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+			<label index="mlang_labels_tablabel">Workspace overview</label>
+			<label index="mlang_tabs_tab">Workspace</label>
+			<label index="title">Workspace Manager</label>
+			<label index="menuitem_workspaces">Workspace List</label>
+			<label index="filter_drafts">Drafts</label>
+			<label index="filter_archive">Archive</label>
+			<label index="filter_all">All</label>
+			<label index="diff_no_diff">Do not show differences</label>
+			<label index="diff_show_inline">Show differences inline</label>
+			<label index="diff_show_popup">Show diff. popups (branches)</label>
+			<label index="label_errors">Errors:</label>
+			<label index="label_workspace">Workspace:</label>
+			<label index="label_description">Description:</label>
+			<label index="label_options">Options:</label>
+			<label index="label_status">Status:</label>
+			<label index="label_pagetree">Pagetree:</label>
+			<label index="label_live_version">Live Version:</label>
+			<label index="label_draft_versions">Draft Versions:</label>
+			<label index="label_publish">Publish:</label>
+			<label index="label_lifecycle">Lifecycle:</label>
+			<label index="label_access_level">Access level:</label>
+			<label index="img_title_publish">Publish</label>
+			<label index="img_title_swap">Swap</label>
+			<label index="remove_from_ws_confirmation">Remove from workspace?</label>
+			<label index="img_title_remove_from_ws">Remove from workspace?</label>
+			<label index="img_title_edit_page">Edit page</label>
+			<label index="img_title_edit_element">Edit element</label>
+			<label index="img_title_show_log">Show Log</label>
+			<label index="diffview_label_field_name">Fieldname:</label>
+			<label index="diffview_label_colored_diff_view">Colored diff-view:</label>
+			<label index="img_title_show_more">Show more</label>
+			<label index="img_title_current_workspace">This is a current workspace!</label>
+			<label index="img_title_create_new_workspace">Create new workspace</label>
+			<label index="link_text_create_new_workspace">Create new workspace</label>
+			<label index="edit_workspace_go_back">Go back</label>
+			<label index="edit_workspace_title_edit">Edit workspace</label>
+			<label index="edit_workspace_title_new">Create new workspace</label>
+			<label index="workspace_list_label_current_workspace">Current:</label>
+			<label index="workspace_list_label_workspace_title">Title:</label>
+			<label index="workspace_list_label_workspace_description">Description:</label>
+			<label index="workspace_list_label_owners">Owners:</label>
+			<label index="workspace_list_label_members">Members:</label>
+			<label index="workspace_list_label_reviewers">Reviewers:</label>
+			<label index="workspace_list_access_admins_only">Admins only</label>
+			<label index="workspace_list_access_anyone">no restrictions</label>
+			<label index="workspace_list_label_publish_date">Publish date:</label>
+			<label index="workspace_list_label_your_access">Your access:</label>
+			<label index="workspace_list_label_workspace_users">Workspace users:</label>
+			<label index="workspace_list_label_frozen_yes">Yes</label>
+			<label index="workspace_list_label_frozen_no">No</label>
+			<label index="workspace_list_icon_title_edit_workspace">Edit workspace</label>
+			<label index="workspace_list_icon_title_switch_workspace">Switch workspace</label>
+			<label index="workspace_list_access_admin">Admin</label>
+			<label index="workspace_list_access_online">Online</label>
+			<label index="workspace_list_access_offline">Offline</label>
+			<label index="workspace_list_access_owner">Owner</label>
+			<label index="workspace_list_access_member">Member</label>
+			<label index="workspace_list_access_reviewer">Reviewer</label>
+			<label index="workspace_list_publishing_count_draft">Draft</label>
+			<label index="workspace_list_publishing_count_archive">Archive</label>
+			<label index="workspace_list_publishing_count">Published %d times</label>
+			<label index="stage_sent_to_review">&quot;%s&quot; sent element to &quot;Review&quot;</label>
+			<label index="stage_approved_for_publish">&quot;%s&quot; approved for &quot;Publish&quot;</label>
+			<label index="stage_rejected">&quot;%s&quot; rejected element!</label>
+			<label index="stage_reset_to_editing">&quot;%s&quot; reset to &quot;Editing&quot;</label>
+			<label index="stage_undefined">[undefined]</label>
+			<label index="stage_label_user_comment">User Comment:</label>
+			<label index="please_wait">Please, wait...</label>
+			<label index="return_to_index">Return to Workspace module</label>
+			<label index="label_reject">Reject</label>
+			<label index="label_review">Review</label>
+			<label index="label_sendtoreview">Send to review</label>
+			<label index="label_approveforpublishing">Approve for publishing</label>
+			<label index="stage_editing">Editing</label>
+			<label index="stage_review">Review</label>
+			<label index="stage_publish">Publish</label>
+			<label index="label_commentforpublisher">Comment for Publisher:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

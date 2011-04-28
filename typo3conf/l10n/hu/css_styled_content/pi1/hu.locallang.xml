@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hu" type="array">
+			<label index="label.toTop">Tetejére</label>
+			<label index="login.username">Felhasználónév:</label>
+			<label index="login.password">Jelszó:</label>
+			<label index="login.login">Belépés</label>
+			<label index="login.logout">Kilépés</label>
+			<label index="search.emptySearch">Sajnálom, a keresés üres!</label>
+			<label index="search.resultRange">Keresés eredménye: ###RANGELOW###-###RANGEHIGH### of ###TOTAL###</label>
+			<label index="search.searchResultNext">Következő</label>
+			<label index="search.searchResultPrev">Előző</label>
+			<label index="search.searchWord">Keresett szó:</label>
+			<label index="search.searchIn">Keresés ebben:</label>
+			<label index="search.headersKeywords">Fejlécek és kulcsszavak</label>
+			<label index="search.pageContent">Oldal tartalom</label>
+			<label index="search.searchButton">Keresés most!</label>
+			<label index="eIcon.html">Sima HTML tartalom szerkesztése</label>
+			<label index="eIcon.header">Fejléc szerkesztése</label>
+			<label index="eIcon.subheader">Alfejléc szerkesztése</label>
+			<label index="eIcon.bodytext">Szövegtörzs szerkesztése</label>
+			<label index="eIcon.images">Képek szerkesztése</label>
+			<label index="eIcon.caption">Kép feliratok szerkesztése</label>
+			<label index="eIcon.bullets">Felsorolás szerkesztése</label>
+			<label index="eIcon.table">Táblázaat szerkesztése</label>
+			<label index="eIcon.filelist">File lista szerkesztése</label>
+			<label index="eIcon.menuSitemap">Menü / oldaltérkép szerkesztése</label>
+			<label index="eIcon.recordList">Rekordlista szerkesztése</label>
+			<label index="eIcon.plugin">Bővítmény megváltoztatása/beállítása</label>
+			<label index="eIcon.multimedia">Multimédia elem szerkesztése</label>
+			<label index="eIcon.form">Email űrlap szerkesztése</label>
+			<label index="eIcon.search">Keresési elem szerkesztése</label>
+			<label index="eIcon.login">Belépési elem szerkesztése</label>
+			<label index="eIcon.page">Oldal:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hu" type="array">
+			<label index="label.toTop" type="integer">256968027</label>
+			<label index="login.username" type="integer">212632006</label>
+			<label index="login.password" type="integer">187963993</label>
+			<label index="login.login" type="integer">161344120</label>
+			<label index="login.logout" type="integer">3292644</label>
+			<label index="search.emptySearch" type="integer">118666163</label>
+			<label index="search.resultRange" type="integer">182339452</label>
+			<label index="search.searchResultNext" type="integer">17482704</label>
+			<label index="search.searchResultPrev" type="integer">21115089</label>
+			<label index="search.searchWord" type="integer">150454913</label>
+			<label index="search.searchIn" type="integer">248140624</label>
+			<label index="search.headersKeywords" type="integer">5479653</label>
+			<label index="search.pageContent" type="integer">73079758</label>
+			<label index="search.searchButton" type="integer">3457966</label>
+			<label index="eIcon.html" type="integer">219732781</label>
+			<label index="eIcon.header" type="integer">263342564</label>
+			<label index="eIcon.subheader" type="integer">106009992</label>
+			<label index="eIcon.bodytext" type="integer">25202894</label>
+			<label index="eIcon.images" type="integer">53347967</label>
+			<label index="eIcon.caption" type="integer">202261956</label>
+			<label index="eIcon.bullets" type="integer">17099413</label>
+			<label index="eIcon.table" type="integer">194091224</label>
+			<label index="eIcon.filelist" type="integer">200322698</label>
+			<label index="eIcon.menuSitemap" type="integer">258217158</label>
+			<label index="eIcon.recordList" type="integer">199959556</label>
+			<label index="eIcon.plugin" type="integer">206199137</label>
+			<label index="eIcon.multimedia" type="integer">66403706</label>
+			<label index="eIcon.form" type="integer">268386904</label>
+			<label index="eIcon.search" type="integer">260269479</label>
+			<label index="eIcon.login" type="integer">135433115</label>
+			<label index="eIcon.page" type="integer">230383377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

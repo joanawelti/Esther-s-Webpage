@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="et" type="array">
+			<label index="sel1">Palun valige, millist sisuelementi soovite luua:</label>
+			<label index="sel2">Nüüd valige lehekülje sisutulp, kuhu soovite elemendi paigutada.</label>
+			<label index="common">Tavaline lehekülje sisuelement</label>
+			<label index="common_regularText_title">Tavaline tekstilõik</label>
+			<label index="common_regularText_description">Tavaline tekstilõik pealkirjaga.</label>
+			<label index="common_textImage_title">Tekstilõik pildiga</label>
+			<label index="common_textImage_description">Vabalt valitud arv pilte tekstilõigu sees.</label>
+			<label index="common_imagesOnly_title">Ainult pildid</label>
+			<label index="common_imagesOnly_description">Vabalt valitud arv pilte, esitatud korrapäraste veergude ning ridadena koos pildiallkirjaga.</label>
+			<label index="common_bulletList_title">Täpploend</label>
+			<label index="common_bulletList_description">Tavaline täpploend.</label>
+			<label index="common_table_title">Tabel</label>
+			<label index="common_table_description">Lihtne kuni 8 veeruga tabel.</label>
+			<label index="special">Spetsiaalsed elemendid</label>
+			<label index="special_filelinks_title">Faililingid</label>
+			<label index="special_filelinks_description">Allalaetavate failide nimekiri.</label>
+			<label index="special_multimedia_title">Multimeedia</label>
+			<label index="special_multimedia_description">Meediaelementide nagu flash animatsioon, audiofail või videoklipi sisestamine.</label>
+			<label index="special_sitemap_title">Sisukaart</label>
+			<label index="special_sitemap_description">Veebilehe sisukaardi loomine.</label>
+			<label index="special_plainHTML_title">HTML</label>
+			<label index="special_plainHTML_description">HTML koodilõigu leheküljele sisestamine.</label>
+			<label index="forms">Vormi elemendid</label>
+			<label index="forms_mail_title">Emaili vorm</label>
+			<label index="forms_mail_description">Vorm, mille kaudu veebilehe külastajad saavad saata tagasisidet kindlaksmääratud emailile.</label>
+			<label index="forms_search_title">Otsinguvorm</label>
+			<label index="forms_search_description">Kuvab otsinguvormi ja otsingu tulemused.</label>
+			<label index="forms_login_title">Sisselogimisvorm</label>
+			<label index="forms_login_description">Registreeritud veebikasutajate sisse-/väljalogimise vorm piiratud juurdepääsuga lehel.</label>
+			<label index="plugins">Pluginad</label>
+			<label index="plugins_general_title">Plugin</label>
+			<label index="plugins_general_description">Sisuelemendi tüüp, sisestamaks lehele laiendusmoodulit, mis puudub allpool toodud nimekirjas.</label>
+			<label index="common_1_title">Tavaline tekstielement</label>
+			<label index="common_1_description">Tavaline tekstielement koos päisega.</label>
+			<label index="common_2_title">Tekst koos all paikneva pildiga</label>
+			<label index="common_2_description">Tavaline tekstielement koos väljaga, mis võib sisaldada piiramatu arvu pilte, mis paigutatakse teksti alla.</label>
+			<label index="common_3_title">Tekst koos paremale paigutatud pildiga.</label>
+			<label index="common_3_description">Nagu eelmine, kuid pildid on paigutatud tekstist paremale ning tekst paikneb ümber piltida.</label>
+			<label index="common_4_title">Ainult pidid</label>
+			<label index="common_4_description">Piiramata arv pilte joondatud veergudesse ja ridadesse koos pealkirjadega. Nagu eelnev piltide variant, ainul ilma tekstita.</label>
+			<label index="common_5_title">Täpploetelu</label>
+			<label index="common_5_description">Üksik täpploetelu</label>
+			<label index="common_6_title">Tabel</label>
+			<label index="common_6_description">Lihtne tabel kuni 8 veeruga</label>
+			<label index="special_1_title">Faililingid</label>
+			<label index="special_1_description">Koosta allalaetavatest failidest list.</label>
+			<label index="special_2_title">Multimeedia</label>
+			<label index="special_2_description">Lisab meediaelemendi nagu Flash animatsiooni, audiofaili või videoklipi.</label>
+			<label index="special_3_title">Sisupuu</label>
+			<label index="special_3_description">Lood veebilehest sisupuu.</label>
+			<label index="special_4_title">Tavaline HTML</label>
+			<label index="special_4_description">Selle elemendiga saate lisada puhast HTML koodi leheküljele.</label>
+			<label index="forms_1_title">Tagasiside vorm</label>
+			<label index="forms_1_description">Tagasiside e-maili vorm, kus kasutajad saavad postitada tagasisidet.</label>
+			<label index="forms_2_title">Otsingu vorm</label>
+			<label index="forms_2_description">Moodustab otsinguvormi ja otsinguvastused.</label>
+			<label index="forms_3_title">Sisselogimise vorm</label>
+			<label index="forms_3_description">Sisse/väljalogimise vorm veebilehe kasutajatele. Kasutatakse lehekülgede parooliga kaitsmisel. Selle kasutamiseks peate looma veebilehe kasutajad ning kasutajagrupid.</label>
+			<label index="plugins_1_title">Üldised pluginad</label>
+			<label index="plugins_1_description">Kui soovite lisada plugina, mis ei leidu all paiknevate suvandite hulgas, valige vastav elemenditüüp ning seejärel saate valida soovitud plugina avanevast valikmenüüst.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="et" type="array">
+			<label index="sel1" type="integer">125258284</label>
+			<label index="sel2" type="integer">142688057</label>
+			<label index="common" type="integer">57063941</label>
+			<label index="common_1_title" type="integer">134955826</label>
+			<label index="common_1_description" type="integer">29135748</label>
+			<label index="common_2_title" type="integer">153490096</label>
+			<label index="common_2_description" type="integer">215746919</label>
+			<label index="common_3_title" type="integer">13066984</label>
+			<label index="common_3_description" type="integer">57201809</label>
+			<label index="common_4_title" type="integer">62677049</label>
+			<label index="common_4_description" type="integer">233905425</label>
+			<label index="common_5_title" type="integer">88917113</label>
+			<label index="common_5_description" type="integer">136121208</label>
+			<label index="common_6_title" type="integer">85738935</label>
+			<label index="common_6_description" type="integer">145590635</label>
+			<label index="special" type="integer">183531399</label>
+			<label index="special_1_title" type="integer">23062602</label>
+			<label index="special_1_description" type="integer">154390211</label>
+			<label index="special_2_title" type="integer">49638223</label>
+			<label index="special_2_description" type="integer">87627445</label>
+			<label index="special_3_title" type="integer">92355808</label>
+			<label index="special_3_description" type="integer">36006628</label>
+			<label index="special_4_title" type="integer">238583373</label>
+			<label index="special_4_description" type="integer">92097111</label>
+			<label index="forms" type="integer">14172094</label>
+			<label index="forms_1_title" type="integer">173513512</label>
+			<label index="forms_1_description" type="integer">149875491</label>
+			<label index="forms_2_title" type="integer">184654558</label>
+			<label index="forms_2_description" type="integer">71325784</label>
+			<label index="forms_3_title" type="integer">149378624</label>
+			<label index="forms_3_description" type="integer">64416876</label>
+			<label index="plugins" type="integer">196313238</label>
+			<label index="plugins_1_title" type="integer">188310073</label>
+			<label index="plugins_1_description" type="integer">4113831</label>
+			<label index="common_regularText_title" type="integer">134955826</label>
+			<label index="common_regularText_description" type="integer">29135748</label>
+			<label index="common_textImage_title" type="double">9972609</label>
+			<label index="common_textImage_description" type="integer">143238382</label>
+			<label index="common_imagesOnly_title" type="integer">62677049</label>
+			<label index="common_imagesOnly_description" type="integer">232160004</label>
+			<label index="common_bulletList_title" type="integer">88917113</label>
+			<label index="common_bulletList_description" type="integer">136121208</label>
+			<label index="common_table_title" type="integer">85738935</label>
+			<label index="common_table_description" type="integer">145590635</label>
+			<label index="special_filelinks_title" type="integer">23062602</label>
+			<label index="special_filelinks_description" type="integer">154390211</label>
+			<label index="special_multimedia_title" type="integer">49638223</label>
+			<label index="special_multimedia_description" type="integer">87627445</label>
+			<label index="special_sitemap_title" type="integer">92355808</label>
+			<label index="special_sitemap_description" type="integer">36006628</label>
+			<label index="special_plainHTML_title" type="integer">238583373</label>
+			<label index="special_plainHTML_description" type="integer">92097111</label>
+			<label index="forms_mail_title" type="integer">173513512</label>
+			<label index="forms_mail_description" type="integer">194025956</label>
+			<label index="forms_search_title" type="integer">184654558</label>
+			<label index="forms_search_description" type="integer">71325784</label>
+			<label index="forms_login_title" type="integer">149378624</label>
+			<label index="forms_login_description" type="integer">191931555</label>
+			<label index="plugins_general_title" type="integer">188310073</label>
+			<label index="plugins_general_description" type="integer">104752280</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="et" type="array">
+			<label index="sel1">Please select the type of page content you wish to create:</label>
+			<label index="sel2">Now, click the position where you wish to place the element on the page:</label>
+			<label index="common">Typical page content</label>
+			<label index="common_regularText_title">Regular text element</label>
+			<label index="common_regularText_description">A regular text element with header and bodytext fields.</label>
+			<label index="common_textImage_title">Text with image</label>
+			<label index="common_textImage_description">Any number of images wrapped right around a regular text element.</label>
+			<label index="common_imagesOnly_title">Images only</label>
+			<label index="common_imagesOnly_description">Any number of images aligned in columns and rows with a caption.</label>
+			<label index="common_bulletList_title">Bullet list</label>
+			<label index="common_bulletList_description">A single bullet list.</label>
+			<label index="common_table_title">Table</label>
+			<label index="common_table_description">A simple table with up to 8 columns.</label>
+			<label index="special">Special elements</label>
+			<label index="special_filelinks_title">Filelinks</label>
+			<label index="special_filelinks_description">Makes a list of files for download.</label>
+			<label index="special_multimedia_title">Multimedia</label>
+			<label index="special_multimedia_description">Inserts a media element like a Flash animation, audio file or video clip.</label>
+			<label index="special_sitemap_title">Sitemap</label>
+			<label index="special_sitemap_description">Creates a sitemap of the website.</label>
+			<label index="special_plainHTML_title">Plain HTML</label>
+			<label index="special_plainHTML_description">With this element you can insert raw HTML code on the page.</label>
+			<label index="forms">Form elements</label>
+			<label index="forms_mail_title">Mail form</label>
+			<label index="forms_mail_description">A mail form allowing website users to submit responses.</label>
+			<label index="forms_search_title">Search form</label>
+			<label index="forms_search_description">Draws a search form and the searchresult if a search is performed.</label>
+			<label index="forms_login_title">Login form</label>
+			<label index="forms_login_description">Login/logout form used to password protect pages allowing only authorised website users and groups access.</label>
+			<label index="plugins">Plugins</label>
+			<label index="plugins_general_title">General Plugin</label>
+			<label index="plugins_general_description">Select this element type to insert a plugin which cannot be found amongst the options below.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

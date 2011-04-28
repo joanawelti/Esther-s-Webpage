@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="images">תמונות</label>
+			<label index="width">רוחב</label>
+			<label index="height">גובה</label>
+			<label index="border">מסגרת</label>
+			<label index="left">שמאלי</label>
+			<label index="right">ימני</label>
+			<label index="update">עדכן</label>
+			<label index="bytes">בייט</label>
+			<label index="pixels">פיקסל</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="images" type="integer">268373344</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="bytes" type="integer">78882337</label>
+			<label index="pixels" type="integer">221878344</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+			<label index="images">Images</label>
+			<label index="width">Width</label>
+			<label index="height">Height</label>
+			<label index="border">Border</label>
+			<label index="left">Left</label>
+			<label index="right">Right</label>
+			<label index="update">Update</label>
+			<label index="bytes">bytes</label>
+			<label index="pixels">pixels</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

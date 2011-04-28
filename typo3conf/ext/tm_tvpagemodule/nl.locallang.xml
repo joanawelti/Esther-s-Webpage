@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="p_NewRecordAfter">Nieuw</label>
+			<label index="p_NewRecordAfter_Long">Voeg element toe</label>
+			<label index="p_copy">Kopiëren</label>
+			<label index="p_copyTitle">Kopiëer element</label>
+			<label index="p_cut">Knippen</label>
+			<label index="p_cutTitle">Knip element</label>
+			<label index="p_delete">Verwijder</label>
+			<label index="p_editRecord">Bewerk</label>
+			<label index="p_hide">Verberg</label>
+			<label index="p_moveDown">naar beneden</label>
+			<label index="p_moveUp">naar boven</label>
+			<label index="p_newSubpage">Nieuwe subpagina</label>
+			<label index="p_paste">Plakken</label>
+			<label index="p_pasteTitle">Plak element na al aanwezige element</label>
+			<label index="p_unhide">Maak zichtbaar</label>
+			<label index="title_p_moveDown">Verplaats een stap naar beneden</label>
+			<label index="title_p_moveUp">Verplaats een stap omhoog</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="LeftToRight-Tooltip">Direcţie de la stânga la dreapta</label>
+			<label index="RightToLeft-Tooltip">Direcţie de la dreapta la stânga</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="LeftToRight-Tooltip" type="integer">1013968</label>
+			<label index="RightToLeft-Tooltip" type="integer">206570525</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index="LeftToRight-Tooltip">Direction left to right</label>
+			<label index="RightToLeft-Tooltip">Direction right to left</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

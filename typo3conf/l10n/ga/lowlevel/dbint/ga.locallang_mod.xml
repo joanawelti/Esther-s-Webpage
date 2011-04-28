@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel">Verificación da integridade da base de datos</label>
+			<label index="mlang_labels_tabdescr">Aquí pode verificar a integridade das táboas da base de datos configuradas coa variable $TCA. Por exemplo, tódolos rexistros deben pertencer a un rexistro de páxina. Así mesmo a existencia de arquivos enviados anexados a rexistros (normamente no directorio uploads/*) tamén se verifican. Tamén obtén unha vista da árbore de páxinas incluíndo as páxinas eliminadas. Finalmente ten acceso a unha ferramenta de procura global. &lt;br /&gt;&lt;em&gt;¡Acceso a usuarios administradores soamente!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Verificación BD</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel" type="integer">152428276</label>
+			<label index="mlang_labels_tabdescr" type="integer">58642779</label>
+			<label index="mlang_tabs_tab" type="integer">254834137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="mlang_labels_tablabel">Database integrity check</label>
+			<label index="mlang_labels_tabdescr">Here you can check the integrity of the database tables configured by the $TCA. For instance all records must belong to a page record. In addition the existence of uploaded files attached to records (normally residing in uploads/* folders) are verified as well. You can also get a view of the total pagetree including deleted pages. Finally you've got access to a global database search facility.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">DB check</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="he" type="array">
+			<label index="permissions">הרשאות</label>
+			<label index="ch_permissions">שינוי הרשאות</label>
+			<label index="Legend">מקרא</label>
+			<label index="Owner">בעלים</label>
+			<label index="Group">קבוצה</label>
+			<label index="Everybody">כולם</label>
+			<label index="EditLock">נעילה</label>
+			<label index="EditLock_descr">הדף וכל התוכן נעול לעריכה על ידי משתמשים (לא מנהלים)</label>
+			<label index="Save">שמירה</label>
+			<label index="Abort">ביטול</label>
+			<label index="Edit">עריכה</label>
+			<label index="recursive">קבע לחזור על עצמו</label>
+			<label index="pages_affected">דפים מושפעים</label>
+			<label index="user_overview">פרטים אודות משתמש</label>
+			<label index="Mode">אופן פעולה</label>
+			<label index="Depth">עומק</label>
+			<label index="levels">רמות</label>
+			<label index="User">משתמש</label>
+			<label index="def">הגדרה: &quot;תוכן&quot; הוא רשומות מכל הטבלאות על הדף - חוץ מרשומות בטבלה &quot;דפים&quot; (דפים)</label>
+			<label index="A_Granted">גישה מוענקת</label>
+			<label index="A_Denied">גישה נשללה</label>
+			<numIndex index="1">תצוגת דף</numIndex>
+			<numIndex index="16">ערוך תוכן</numIndex>
+			<numIndex index="2">ערוך דף</numIndex>
+			<numIndex index="4">מחק דף</numIndex>
+			<numIndex index="8">דפים חדשים</numIndex>
+			<label index="1_t">הצג/העתק דף ותוכן.</label>
+			<label index="16_t">שנה/הוסף/מחק/הזז תוכן.</label>
+			<label index="2_t">שנה/הזז דף, כגון שנה כותרת דף וכו'.</label>
+			<label index="4_t">מחק דף ותוכן.</label>
+			<label index="8_t">צור דפים חדשים תחת דף זה.</label>
+			<label index="mlang_labels_tablabel">הרשאות עריכה של דף</label>
+			<label index="mlang_labels_tabdescr">קביעת הרשאות של דף הכרחי כדי לשלוט על גישה לדפים למשתמשי ממשק אחורי. הנך יכול להקצות משתמש וקבוצה בתור בעלים של דף ולקבוע הרשאות כניסה לכל אחד.</label>
+			<label index="mlang_tabs_tab">גישה</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="he" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<numIndex index="1" type="integer">256624387</numIndex>
+			<numIndex index="16" type="integer">102695873</numIndex>
+			<numIndex index="2" type="integer">66732081</numIndex>
+			<numIndex index="4" type="integer">220131191</numIndex>
+			<numIndex index="8" type="integer">146653009</numIndex>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="double">6517083</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="he" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index="Path">Ruta</label>
+			<label index="TEXT_MODE">Está en MODO TEXTO. Utilice o botón [&lt;&gt;] para volver a WYSIWIG.</label>
+			<label index="ActiveX-required">Para cargar o editor en Internet Explorer, requírese activar a execución de controis ActiveX.</label>
+			<label index="HTML-document-not-well-formed">O documento HTML non está ben formado.</label>
+			<label index="Moz-Clipboard">Por razóns de seguridade, os scripts sen privilexios non poden acceder ás funcións de Cortar/Copiar/Pegar. Pulse Aceptar para ver unha nota técnica en mozilla.org que lle amosa como permitir que un script acceda ao portaretallos.</label>
+			<label index="Moz-Extension">Por motivos de seguridade, as aplicacións non autorizadas non poden acceder ao portaretallos. Pulse Aceptar para instalar un compoñente que permitirá ás aplicacións deste web acceder ao portaretallos e executar operacións de copiar, cortar e pegar.</label>
+			<label index="Moz-Extension-Success">A instalación realizouse correctamente. Debe saír e reiniciar o seu navegador para que os cambios teñan efecto.</label>
+			<label index="Moz-Extension-Failure">Produciuse un fallo na instalación.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Non se pode levar a cabo a instalación. Cambie as opcións do seu navegador para permitir a instalación de programas desde este web.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Por razóns de seguridade, as aplicacións sen privilexios non poden acceder ao portaretallos. Pulse en Aceptar para instalar un compoñente que lle permitirá especificar que webs ou páxinas terán permitido o acceso ao portaretallos e a realización de operacións de copiar, cortar e pegar.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Non se pode levar a cabo a instalación. Cambie as preferencias do seu navegador para autorizar a instalación de programas desde http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">A instalación realizouse correctamente. Debe saír e reiniciar o seu navegador para que os cambios teñan efecto. Despois, use a opción &quot;Permitir portarretallos&quot; (AllowClipboard) do menú de ferramentas para permitir o acceso ao portaretallos a determinados webs.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index="Path">Path</label>
+			<label index="TEXT_MODE">You are in TEXT MODE.  Use the [&lt;&gt;] button to switch back to WYSIWYG.</label>
+			<label index="ActiveX-required">Loading the editor in Internet Explorer requires the execution of ActiveX controls to be enabled.</label>
+			<label index="HTML-document-not-well-formed">The HTML document is not well-formed.</label>
+			<label index="Moz-Clipboard">Unprivileged scripts cannot access Cut/Copy/Paste programatically for security reasons. Click OK to see a technical note at mozilla.org which shows you how to allow a script to access the clipboard.</label>
+			<label index="Moz-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable applications from this site to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Moz-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect.</label>
+			<label index="Moz-Extension-Failure">Sorry, the installation failed.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from this site.</label>
+			<label index="Allow-Clipboard-Helper-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable you to specify the sites or pages that will be allowed to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect. Afterwards, use the AllowClipboard Helper from the tools menu to allow specific sites to use the clipboard.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

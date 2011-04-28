@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="label.toTop">Alkuun</label>
+			<label index="login.username">Käyttjänimi:</label>
+			<label index="login.password">Salasana:</label>
+			<label index="login.login">Sisäänkirjoitus</label>
+			<label index="login.logout">Poistuminen</label>
+			<label index="search.emptySearch">Valitan, hakusi tulos oli tyhjä!</label>
+			<label index="search.resultRange">Hakutulokset alkaen ###RANGELOW###-###RANGEHIGH### kaikkiaan ###TOTAL###  löydetystä.</label>
+			<label index="search.searchResultNext">Seuraava</label>
+			<label index="search.searchResultPrev">Edellinen</label>
+			<label index="search.searchWord">Hakusana:</label>
+			<label index="search.searchIn">Etsi joukosta:</label>
+			<label index="search.headersKeywords">Otsikot ja avainsanat</label>
+			<label index="search.pageContent">Sivun sisältö</label>
+			<label index="search.searchButton">Etsi nyt !</label>
+			<label index="eIcon.html">Muotoile pelkkää HTML sisältöä</label>
+			<label index="eIcon.header">Muotoile otsikkoa</label>
+			<label index="eIcon.subheader">Muotoile alaotsikkoa</label>
+			<label index="eIcon.bodytext">Muotile tekstirunkoa</label>
+			<label index="eIcon.images">Muotoile kuvia</label>
+			<label index="eIcon.caption">Muotoile kuvatekstiä</label>
+			<label index="eIcon.bullets">Muotoile listaa</label>
+			<label index="eIcon.table">Muotoile taulukkoa</label>
+			<label index="eIcon.filelist">Muotoile tiedostolistaa</label>
+			<label index="eIcon.menuSitemap">Muotoile valikkoa / sivustokarttaa</label>
+			<label index="eIcon.recordList">Muotoile tietuelistaa</label>
+			<label index="eIcon.plugin">Muuta/asenna aliohjelmaa</label>
+			<label index="eIcon.multimedia">Muotoile multimedia elementtiä</label>
+			<label index="eIcon.form">Muotoile sähköpostilomaketta</label>
+			<label index="eIcon.search">Muotoile hakuelementtiä</label>
+			<label index="eIcon.login">Muotoile sisäänkirjoituselementtiä</label>
+			<label index="eIcon.page">Sivu:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="label.toTop" type="integer">256968027</label>
+			<label index="login.username" type="integer">212632006</label>
+			<label index="login.password" type="integer">187963993</label>
+			<label index="login.login" type="integer">161344120</label>
+			<label index="login.logout" type="integer">3292644</label>
+			<label index="search.emptySearch" type="integer">118666163</label>
+			<label index="search.resultRange" type="integer">182339452</label>
+			<label index="search.searchResultNext" type="integer">17482704</label>
+			<label index="search.searchResultPrev" type="integer">21115089</label>
+			<label index="search.searchWord" type="integer">150454913</label>
+			<label index="search.searchIn" type="integer">248140624</label>
+			<label index="search.headersKeywords" type="integer">5479653</label>
+			<label index="search.pageContent" type="integer">73079758</label>
+			<label index="search.searchButton" type="integer">3457966</label>
+			<label index="eIcon.html" type="integer">219732781</label>
+			<label index="eIcon.header" type="integer">263342564</label>
+			<label index="eIcon.subheader" type="integer">106009992</label>
+			<label index="eIcon.bodytext" type="integer">25202894</label>
+			<label index="eIcon.images" type="integer">53347967</label>
+			<label index="eIcon.caption" type="integer">202261956</label>
+			<label index="eIcon.bullets" type="integer">17099413</label>
+			<label index="eIcon.table" type="integer">194091224</label>
+			<label index="eIcon.filelist" type="integer">200322698</label>
+			<label index="eIcon.menuSitemap" type="integer">258217158</label>
+			<label index="eIcon.recordList" type="integer">199959556</label>
+			<label index="eIcon.plugin" type="integer">206199137</label>
+			<label index="eIcon.multimedia" type="integer">66403706</label>
+			<label index="eIcon.form" type="integer">268386904</label>
+			<label index="eIcon.search" type="integer">260269479</label>
+			<label index="eIcon.login" type="integer">135433115</label>
+			<label index="eIcon.page" type="integer">230383377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

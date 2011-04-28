@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Integrovaný manuál TYPO3</label>
+			<label index="mlang_labels_tabdescr">Integrovaný manuál je založený na informačních zdrojích pro kontextovou nápovědu v systému.</label>
+			<label index="mlang_tabs_tab">Manuál</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel" type="integer">182726937</label>
+			<label index="mlang_labels_tabdescr" type="integer">207607230</label>
+			<label index="mlang_tabs_tab" type="integer">236691797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Inline Manual</label>
+			<label index="mlang_labels_tabdescr">Inline Manual based on the information sources for Context Sensitive Help in the system.</label>
+			<label index="mlang_tabs_tab">Manual</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

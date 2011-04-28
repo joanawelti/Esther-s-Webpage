@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="bold">Tučné</label>
+			<label index="italic">Kurzíva</label>
+			<label index="underline">Podčiarknuté</label>
+			<label index="strikethrough">Prečiarknuté</label>
+			<label index="subscript">Dolný index</label>
+			<label index="superscript">Horný index</label>
+			<label index="justifyleft">Zarovnanie vľavo</label>
+			<label index="justifycenter">Zarovnanie do stredu</label>
+			<label index="justifyright">Zarovnanie vpravo</label>
+			<label index="justifyfull">Zarovnanie do bloku</label>
+			<label index="insertorderedlist">Číslovaný zoznam</label>
+			<label index="insertunorderedlist">Nečíslovaný zoznam (odrážky)</label>
+			<label index="outdent">Zväčšiť odsadenie</label>
+			<label index="indent">Zmenšiť odsadenie</label>
+			<label index="forecolor">Farba písma</label>
+			<label index="hilitecolor">Farba podkladu</label>
+			<label index="inserthorizontalrule">Horizontálna čiara</label>
+			<label index="createlink">Vložiť webový odkaz</label>
+			<label index="insertimage">Vložiť/Zmeniť obrázok</label>
+			<label index="inserttable">Vložiť tabuľku</label>
+			<label index="htmlmode">Prepnúť do HTML kódu</label>
+			<label index="popupeditor">Rozšíriť editor</label>
+			<label index="about">O tomto editore</label>
+			<label index="showhelp">Ukázať nápovedu</label>
+			<label index="textindicator">Aktuálny štýl</label>
+			<label index="undo">O krok späť</label>
+			<label index="redo">O krok dopredu</label>
+			<label index="cut">Vystrihnúť vybrané</label>
+			<label index="copy">Kopírovať vybrané</label>
+			<label index="paste">Vložiť zo schránky</label>
+			<label index="lefttoright">Smer zľava doprava</label>
+			<label index="righttoleft">Smer zprava doľava</label>
+			<label index="removeformat">Odstrániť formátovanie</label>
+			<label index="print">Vytlačiť dokument</label>
+			<label index="killword">Vyčistiť MS Office tagy</label>
+			<label index="fontname">Typ písma</label>
+			<label index="fontsize">Veľkosť písma</label>
+			<label index="formatblock">Typ odstavca</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="bold" type="integer">18137861</label>
+			<label index="italic" type="integer">30962801</label>
+			<label index="underline" type="integer">139620890</label>
+			<label index="strikethrough" type="integer">153527579</label>
+			<label index="subscript" type="integer">153638286</label>
+			<label index="superscript" type="integer">103903129</label>
+			<label index="justifyleft" type="integer">103035233</label>
+			<label index="justifycenter" type="integer">155705392</label>
+			<label index="justifyright" type="integer">75036879</label>
+			<label index="justifyfull" type="integer">6823521</label>
+			<label index="insertorderedlist" type="integer">127299663</label>
+			<label index="insertunorderedlist" type="integer">77997053</label>
+			<label index="outdent" type="integer">245172929</label>
+			<label index="indent" type="integer">67026639</label>
+			<label index="forecolor" type="integer">35667911</label>
+			<label index="hilitecolor" type="integer">123630626</label>
+			<label index="inserthorizontalrule" type="integer">219272101</label>
+			<label index="createlink" type="integer">147436421</label>
+			<label index="insertimage" type="integer">146708638</label>
+			<label index="inserttable" type="integer">111652295</label>
+			<label index="htmlmode" type="integer">150105834</label>
+			<label index="popupeditor" type="integer">108884081</label>
+			<label index="about" type="integer">93541894</label>
+			<label index="showhelp" type="integer">224256507</label>
+			<label index="textindicator" type="integer">123554729</label>
+			<label index="undo" type="integer">255659</label>
+			<label index="redo" type="integer">251355262</label>
+			<label index="cut" type="integer">205223202</label>
+			<label index="copy" type="integer">248051882</label>
+			<label index="paste" type="integer">226578047</label>
+			<label index="lefttoright" type="integer">1013968</label>
+			<label index="righttoleft" type="integer">206570525</label>
+			<label index="removeformat" type="integer">187827535</label>
+			<label index="print" type="integer">177493560</label>
+			<label index="killword" type="integer">228066956</label>
+			<label index="fontname" type="integer">26539321</label>
+			<label index="fontsize" type="integer">206127878</label>
+			<label index="formatblock" type="integer">4875199</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="index_config">Indexierungseinstellungen</label>
+			<label index="index_config.title">Titel:</label>
+			<label index="index_config.description">Beschreibung:</label>
+			<label index="index_config.type.I.1">Datensätze</label>
+			<label index="index_config.type.I.2">Dateipfad auf dem Server</label>
+			<label index="index_config.type.I.3">Externe URL</label>
+			<label index="index_config.type.I.4">Seitenbaum</label>
+			<label index="index_config.type.I.5">Metakonfiguration</label>
+			<label index="index_config.type">Typ:</label>
+			<label index="index_config.depth.I.0">Einzelne Seite</label>
+			<label index="index_config.depth.I.1">1 Ebene</label>
+			<label index="index_config.depth.I.2">2 Ebenen</label>
+			<label index="index_config.depth.I.3">3 Ebenen</label>
+			<label index="index_config.depth">Tiefe:</label>
+			<label index="index_config.table2index">Zu indexierende Tabelle:</label>
+			<label index="index_config.alternative_source_pid">Alternative Quellseite:</label>
+			<label index="index_config.get_params">GET-Parameter-String (mit ###UID###-Ersetzung):</label>
+			<label index="index_config.fields">Felder (erstes ist Titel):</label>
+			<label index="index_config.externalUrl">Externe URL (z.B.: http://www.domain.org/&quot;):</label>
+			<label index="index_config.chashcalc">cHash-Wert berechnen (Caching erzwingen)?</label>
+			<label index="index_config.filepath">Dateipfad:</label>
+			<label index="index_config.extensions">Beschränken auf folgende Erweiterungen (Komma-getrennte Liste):</label>
+			<label index="index_config.url_deny">In diese Sub-URLs nicht weiter absteigen:</label>
+			<label index="index_config.records_indexonchange">Datensätze direkt beim Speichern indexieren:</label>
+			<label index="index_config.timer_next_indexing">Nächste Indexierung ist geplant (wenn leer, dann sofort):</label>
+			<label index="index_config.timer_offset">Zeitversatz nach Mitternacht:</label>
+			<label index="index_config.timer_frequency">Wie häufig soll eine Reindexierung vorgenommen werden?</label>
+			<label index="index_config.timer_frequency.I.0">stündlich</label>
+			<label index="index_config.timer_frequency.I.1">täglich (24 Stunden)</label>
+			<label index="index_config.timer_frequency.I.2">wöchentlich</label>
+			<label index="index_config.recordsbatch">Wie viele Datensätze sollen pro Minute indexiert werden (Standard ist 100):</label>
+			<label index="index_config.indexcfgs">Indexierungseinstellungen:</label>
+			<label index="index_config.parameterCfgs">Konfiguration Parameterkombination ([tablename]:&amp;[param]=###UID###):</label>
+			<label index="index_config.rootpage">Wurzelseite</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="index_config.title" type="integer">85903807</label>
+			<label index="index_config.description" type="integer">218120871</label>
+			<label index="index_config.type.I.1" type="integer">202530923</label>
+			<label index="index_config.type.I.3" type="integer">76246465</label>
+			<label index="index_config.type" type="integer">241539922</label>
+			<label index="index_config.depth.I.0" type="integer">141943516</label>
+			<label index="index_config.depth.I.1" type="integer">159741036</label>
+			<label index="index_config.depth.I.2" type="integer">61164083</label>
+			<label index="index_config.depth.I.3" type="integer">113480435</label>
+			<label index="index_config.depth" type="integer">186534530</label>
+			<label index="index_config.fields" type="integer">109814878</label>
+			<label index="index_config.externalUrl" type="integer">169862361</label>
+			<label index="index_config.filepath" type="integer">219758268</label>
+			<label index="index_config.type.I.2" type="integer">43997271</label>
+			<label index="index_config.alternative_source_pid" type="integer">198125496</label>
+			<label index="index_config.chashcalc" type="integer">230076146</label>
+			<label index="index_config.extensions" type="integer">228527306</label>
+			<label index="index_config" type="integer">260751312</label>
+			<label index="index_config.table2index" type="integer">17017163</label>
+			<label index="index_config.get_params" type="integer">218226603</label>
+			<label index="index_config.timer_frequency.I.0" type="double">3134077</label>
+			<label index="index_config.timer_frequency.I.1" type="integer">44283731</label>
+			<label index="index_config.timer_frequency.I.2" type="integer">105407448</label>
+			<label index="index_config.recordsbatch" type="integer">250063132</label>
+			<label index="index_config.indexcfgs" type="integer">91965293</label>
+			<label index="index_config.type.I.4" type="integer">151051780</label>
+			<label index="index_config.type.I.5" type="integer">251615293</label>
+			<label index="index_config.rootpage" type="integer">182467720</label>
+			<label index="index_config.url_deny" type="integer">237282731</label>
+			<label index="index_config.records_indexonchange" type="integer">79543267</label>
+			<label index="index_config.timer_next_indexing" type="integer">223024505</label>
+			<label index="index_config.timer_offset" type="integer">214442710</label>
+			<label index="index_config.timer_frequency" type="integer">201825913</label>
+			<label index="index_config.parameterCfgs" type="integer">224062683</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="index_config.title">Title:</label>
+			<label index="index_config.description">Description:</label>
+			<label index="index_config.type.I.1">Database Records</label>
+			<label index="index_config.type.I.3">External URL</label>
+			<label index="index_config.type">Type:</label>
+			<label index="index_config.depth.I.0">Single page</label>
+			<label index="index_config.depth.I.1">1 Level</label>
+			<label index="index_config.depth.I.2">2 Levels</label>
+			<label index="index_config.depth.I.3">3 Levels</label>
+			<label index="index_config.depth">Depth:</label>
+			<label index="index_config.fields">Fields (first is title):</label>
+			<label index="index_config.externalUrl">External URL (eg. &quot;http://www.domain.org/&quot;):</label>
+			<label index="index_config.filepath">Filepath:</label>
+			<label index="index_config.type.I.2">Filepath on server</label>
+			<label index="index_config.alternative_source_pid">Alternative Source Page:</label>
+			<label index="index_config.chashcalc">Calculate cHash (force caching)?</label>
+			<label index="index_config.extensions">Limit to extensions (commalist):</label>
+			<label index="index_config">Indexing Configuration</label>
+			<label index="index_config.table2index">Table to index:</label>
+			<label index="index_config.get_params">GET parameter string (with ###UID### substitution):</label>
+			<label index="index_config.timer_frequency.I.0">Every hour</label>
+			<label index="index_config.timer_frequency.I.1">Every day (24 hours)</label>
+			<label index="index_config.timer_frequency.I.2">Every week</label>
+			<label index="index_config.recordsbatch">How many records to index a minute (default is 100):</label>
+			<label index="index_config.indexcfgs">Indexing configurations:</label>
+			<label index="index_config.type.I.4">Page tree</label>
+			<label index="index_config.type.I.5">Meta configuration</label>
+			<label index="index_config.rootpage">Root page:</label>
+			<label index="index_config.url_deny">Enter sub-URLs in which not to decend:</label>
+			<label index="index_config.records_indexonchange">Index Records immediately when saved?:</label>
+			<label index="index_config.timer_next_indexing">Next indexing is scheduled (if empty, then immediately):</label>
+			<label index="index_config.timer_offset">Timing offset from midnight:</label>
+			<label index="index_config.timer_frequency">How often would you like a re-index?:</label>
+			<label index="index_config.parameterCfgs">Parameter combination configuration ([tablename]:&amp;[param]=###UID###):</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

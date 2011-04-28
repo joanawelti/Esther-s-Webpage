@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="status_report_title">Statusrapportage</label>
+			<label index="status_report_description">Statusrapportage samenstellen van de werking van de site en de gevonden problemen.</label>
+			<label index="status_report_explanation">Hier vindt u een kort overzicht van de parameters van uw site en de gevonden problemen binnen uw installatie. Het is handig om deze informatie mee te sturen wanneer u een verzoek voor support indient op de mailinglist van TYPO3 en de issue trackers van TYPO3-projecten.</label>
+			<label index="status_ok">OK</label>
+			<label index="status_insecure">Onveilig</label>
+			<label index="status_disabled">Uitschakelen</label>
+			<label index="status_enabled">Inschakelen</label>
+			<label index="status_empty">Leeg</label>
+			<label index="status_connectionFailed">Verbinding mislukt</label>
+			<label index="status_updateComplete">Update voltooid</label>
+			<label index="status_updateIncomplete">Update niet compleet</label>
+			<label index="status__install">Installatie</label>
+			<label index="status_system">Systeem</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="status_report_title" type="integer">257479801</label>
+			<label index="status_report_description" type="integer">178369786</label>
+			<label index="status_report_explanation" type="integer">34318536</label>
+			<label index="status_ok" type="integer">235577377</label>
+			<label index="status_insecure" type="integer">140509493</label>
+			<label index="status_disabled" type="integer">194993273</label>
+			<label index="status_enabled" type="integer">861095</label>
+			<label index="status_empty" type="integer">216189102</label>
+			<label index="status_connectionFailed" type="integer">33836067</label>
+			<label index="status_updateComplete" type="integer">5621219</label>
+			<label index="status_updateIncomplete" type="integer">254533109</label>
+			<label index="status__install" type="integer">130912182</label>
+			<label index="status_system" type="integer">172350102</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="status_report_title">Status Report</label>
+			<label index="status_report_description">Get a status report about your site's operation and any detected problems.</label>
+			<label index="status_report_explanation">Here you can find a short overview of your site's parameters as well as any problems detected with your installation. It may be useful to copy and paste this information into support requests filed on TYPO3's support mailinglists and project issue trackers.</label>
+			<label index="status_ok">OK</label>
+			<label index="status_insecure">Insecure</label>
+			<label index="status_disabled">Disabled</label>
+			<label index="status_enabled">Enabled</label>
+			<label index="status_empty">Empty</label>
+			<label index="status_connectionFailed">Connection Failed</label>
+			<label index="status_updateComplete">Update Complete</label>
+			<label index="status_updateIncomplete">Update Incomplete</label>
+			<label index="status__install">Installation</label>
+			<label index="status_system">System</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

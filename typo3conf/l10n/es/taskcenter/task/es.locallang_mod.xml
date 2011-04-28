@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="mlang_labels_tablabel">Centro de Tareas con resúmenes, mensajes, pendientes.</label>
+			<label index="mlang_labels_tabdescr">El centro de tareas le da acceso a su lista de pendientes interna, mensajes, notas, aciones, etc. También tiene accesos directos a los módules sus módulos disponibles de frontend y las páginas que editó mas recientemente. El Centro de Tareas es donde ud. mantiene nota de sus tareas diarias y flujo de trabajo.</label>
+			<label index="mlang_tabs_tab">Centro de Tareas</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

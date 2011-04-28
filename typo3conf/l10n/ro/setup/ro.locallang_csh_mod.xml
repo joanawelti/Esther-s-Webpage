@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index=".alttitle">Utilizator &gt; modul Setări</label>
+			<label index=".description">Modulul de Setări permite utilizatorului backend să customizeze TYPO3 aşa cum doreşte. Aceasta include limba de backend şi numeroase alte interfeţe şi dotări.</label>
+			<label index="language.alttitle">Selecţie limbă Backend</label>
+			<label index="language.description">Selectaţi limba pe care doriţi să o folosiţi în Backend. Majoritatea părţilor din backendul TYPO3 sunt traduse şi în alte limbi (pentru utilizatori standard).</label>
+			<label index="option_condensedMode.alttitle">Mod condensat</label>
+			<label index="option_noMenuMode.alttitle">Mod navigare</label>
+			<label index="option_noMenuMode.description">Setare moduri alternative meniu backend</label>
+			<label index="option_startModule.alttitle">Modul start</label>
+			<label index="option_startModule.description">Vă permite selectarea modulului care să fie apelat când vă logaţi în partea de Backend. Modulul implicit este &quot;Despre module&quot;.</label>
+			<label index="option_showThumbs.alttitle">Arată thumbnailuri implicit</label>
+			<label index="option_maxTitleLen.alttitle">Lungime maximă text</label>
+			<label index="option_copyLevels.alttitle">Copiere recursivă</label>
+			<label index="option_copyLevels.description">Când copiaţi o pagină, subpaginile pot fi şi ele copiate dacă selectaţi această opţiune. Numărul setat aici defineşte numărul de nivele aflate sub pagină care să fie incluse în operaţia de copiere.</label>
+			<label index="option_recursiveDelete.alttitle">Ştergere recursivă</label>
+			<label index="option_edit_wideDocument.alttitle">Decor document larg</label>
+			<label index="option_edit_wideDocument.description">Setarea acestei opţiuni va lărgi mărimea implicită a formularelor de editare a conţinutului cu aproape 50%</label>
+			<label index="option_edit_RTE.alttitle">Permite Editorul Rich Text</label>
+			<label index="option_edit_RTE.description">Dacă e setat, Editorul Rich Text din TYPO3 va fi disponibil. În mod normal această opţiune ar trebui setată.</label>
+			<label index="option_edit_docModuleUpload.alttitle">Permite upload fişiere în formularele de editare</label>
+			<label index="option_edit_showFieldHelp.alttitle">Mod Ajutor Dependent de Context (CSH)</label>
+			<label index="option_beUser_realName.alttitle">Numele real</label>
+			<label index="option_beUser_realName.description">Introduceţi numele dumneavoastră aici.</label>
+			<label index="option_beUser_email.alttitle">Adresa dumneavoastră de email</label>
+			<label index="option_emailMeAtLogin.alttitle">Notificare la logare</label>
+			<label index="option_newPassword.alttitle">Schimbă parola</label>
+			<label index="option_newPassword.description">Introduceţi o nouă parolă pentru cont:</label>
+			<label index="option_newPassword.details">Parolele sunt criptate la un hash MD5 când părăsiţi câmpul, astfel că parola nu e trimisă ca şi text.</label>
+			<label index="option_newPasswordAgain.alttitle">Schimbare parolă, confirmaţi</label>
+			<label index="option_newPasswordAgain.description">Confirmaţi noua parolă reintroducând-o, exact ca mai sus. Dacă cele două parole nu se potrivesc, parola nu va fi schimbată.</label>
+			<label index="reset.alttitle">Resetare toate valorile la cele implicite</label>
+			<label index="reset.description">Dacă selectaţi această opţiune toate setările din acest modul vor fi resetate la cele implicite.</label>
+			<label index="reset.details">Aceasta nu se aplică numelui de utilizator, adresei de email şi parolei.</label>
+			<label index="simuser.alttitle">Simulare utilizator backend</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index=".alttitle" type="integer">146242724</label>
+			<label index=".description" type="integer">129920709</label>
+			<label index="language.alttitle" type="integer">189480609</label>
+			<label index="language.description" type="integer">107138542</label>
+			<label index="option_condensedMode.alttitle" type="integer">195403291</label>
+			<label index="option_noMenuMode.alttitle" type="integer">146834180</label>
+			<label index="option_noMenuMode.description" type="integer">43681789</label>
+			<label index="option_startModule.alttitle" type="integer">221357830</label>
+			<label index="option_startModule.description" type="integer">641966</label>
+			<label index="option_showThumbs.alttitle" type="integer">111890184</label>
+			<label index="option_maxTitleLen.alttitle" type="integer">119741080</label>
+			<label index="option_copyLevels.alttitle" type="integer">28112499</label>
+			<label index="option_copyLevels.description" type="integer">29159056</label>
+			<label index="option_recursiveDelete.alttitle" type="integer">169322059</label>
+			<label index="option_edit_wideDocument.alttitle" type="integer">47472072</label>
+			<label index="option_edit_wideDocument.description" type="integer">139642801</label>
+			<label index="option_edit_RTE.alttitle" type="integer">241224049</label>
+			<label index="option_edit_RTE.description" type="integer">244751398</label>
+			<label index="option_edit_docModuleUpload.alttitle" type="integer">191752606</label>
+			<label index="option_edit_showFieldHelp.alttitle" type="integer">156260410</label>
+			<label index="option_beUser_realName.alttitle" type="integer">117879142</label>
+			<label index="option_beUser_realName.description" type="integer">257488800</label>
+			<label index="option_beUser_email.alttitle" type="integer">26761284</label>
+			<label index="option_emailMeAtLogin.alttitle" type="integer">54992831</label>
+			<label index="option_newPassword.alttitle" type="integer">11770970</label>
+			<label index="option_newPassword.description" type="integer">165291839</label>
+			<label index="option_newPassword.details" type="integer">209512178</label>
+			<label index="option_newPasswordAgain.alttitle" type="integer">34314409</label>
+			<label index="option_newPasswordAgain.description" type="integer">264203021</label>
+			<label index="reset.alttitle" type="integer">243973144</label>
+			<label index="reset.description" type="integer">206520611</label>
+			<label index="reset.details" type="integer">55338225</label>
+			<label index="simuser.alttitle" type="integer">213794209</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index=".alttitle">User &gt; Setup module</label>
+			<label index=".description">The Setup module allows the backend user to customize TYPO3 for his own login sessions. This includes the backend language and various other interface features.</label>
+			<label index="language.alttitle">Backend Language selection</label>
+			<label index="language.description">Select the backend language you prefer. Most parts of TYPO3s backend (for regular users) are translated into other languages.</label>
+			<label index="option_condensedMode.alttitle">Condensed Mode</label>
+			<label index="option_noMenuMode.alttitle">Navigation Mode</label>
+			<label index="option_noMenuMode.description">Setting alternative backend menu modes</label>
+			<label index="option_startModule.alttitle">Start module</label>
+			<label index="option_startModule.description">Let you select the module that is called when you login in the Backend
+The default module is &quot;About Modules&quot;.</label>
+			<label index="option_showThumbs.alttitle">Show Thumbnails by default</label>
+			<label index="option_maxTitleLen.alttitle">Maximum title length</label>
+			<label index="option_copyLevels.alttitle">Recursive Copy</label>
+			<label index="option_copyLevels.description">When you copy a page, subpages can also be copied along if you set this option. The number you set here defines the number of levels under a page to include in a copy operation.</label>
+			<label index="option_recursiveDelete.alttitle">Recursive Delete</label>
+			<label index="option_edit_wideDocument.alttitle">Wide document background</label>
+			<label index="option_edit_wideDocument.description">Setting this option will enlarge the default width of record editing forms in TYPO3 by around 50%</label>
+			<label index="option_edit_RTE.alttitle">Enable Rich Text Editor</label>
+			<label index="option_edit_RTE.description">If set, the Rich Text Editor in TYPO3 will be enabled for you. Normally you wouldn't want to disable this option.</label>
+			<label index="option_edit_docModuleUpload.alttitle">Enable File Uploads in editing forms</label>
+			<label index="option_edit_showFieldHelp.alttitle">Context Sensitive Help mode</label>
+			<label index="option_beUser_realName.alttitle">Your real name</label>
+			<label index="option_beUser_realName.description">Enter your real name here.</label>
+			<label index="option_beUser_email.alttitle">Your email address</label>
+			<label index="option_emailMeAtLogin.alttitle">Notify by login</label>
+			<label index="option_newPassword.alttitle">Change password</label>
+			<label index="option_newPassword.description">Enter a new password for your backend account:</label>
+			<label index="option_newPassword.details">The passwords are encrypted to an MD5 hash when you leave the field so no plain text password is sent over the wire.</label>
+			<label index="option_newPasswordAgain.alttitle">Change password, confirm</label>
+			<label index="option_newPasswordAgain.description">Confirm the new password by entering it again, exactly like above. If the two new passwords do not match, the password will not be changed.</label>
+			<label index="reset.alttitle">Reset all Values to default</label>
+			<label index="reset.description">If you select this option all settings in this module will be reset to the default settings of the system.</label>
+			<label index="reset.details">This does not apply to user name, email and password settings of course.</label>
+			<label index="simuser.alttitle">Simulate backend user</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

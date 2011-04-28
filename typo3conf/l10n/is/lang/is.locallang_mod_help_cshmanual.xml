@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 innfeld notendahandbók</label>
+			<label index="mlang_labels_tabdescr">Létt og hnitmiðuð handbók yfir TYPO3 vefumsjónarkerfið. Hægt er að smella á lítil spurningarmerki við hlið flestra aðgerða kerfisins og fara beint inn á viðkomandi efni í handbókinni</label>
+			<label index="mlang_tabs_tab">Handbók</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="mlang_labels_tablabel" type="integer">182726937</label>
+			<label index="mlang_labels_tabdescr" type="integer">207607230</label>
+			<label index="mlang_tabs_tab" type="integer">236691797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Inline Manual</label>
+			<label index="mlang_labels_tabdescr">Inline Manual based on the information sources for Context Sensitive Help in the system.</label>
+			<label index="mlang_tabs_tab">Manual</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_shy.description">Ако е сложено, разширението обикновенно ще е скрито в МР, защото може да е по-подразбиране или в друг случай нещо което не е толкова важно.</label>
+			<label index="emconf_shy.details">Използвайте този флаг ако разрешение е с  'рядък интерест'
+(което не е същото като неважен - просто разширение което
+ не е често търсено...)
+Това не засяга дали е или не е позволено (enabled)
+разширението.
+Само е показано в МР.
+Обикновенно &quot;shy&quot; е сложено за всички заредени
+по-подразбиране разширения съобразно с TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Категория</label>
+			<label index="emconf_category.description">Към коя категория принадлежи разширението (extension).</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Обикновенно backend ориентирано, но не модул)
+
+&lt;b&gt;модул:&lt;/b&gt; Backend модули (Когато нещо е модул или е свързано с един модул)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Обикновенно frontend ориентиран, но не &quot;истински&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins вмъкнат като “Вмъкнат Plugin” елемент на съдържание)
+
+&lt;b&gt;misc:&lt;/b&gt; Различни неща (Където другаде не лесно сложени)
+
+&lt;b&gt;пример:&lt;/b&gt; Примерно разширение ( Който служат като примери др.)</label>
+			<label index="emconf_dependencies.alttitle">Зависимост от други разширения (extension)?</label>
+			<label index="emconf_dependencies.description">Това е списък с други ключове на разширения от който тези разширения зависят ПРЕДИ да бъдат заредени самите те.</label>
+			<label index="emconf_dependencies.details">МР ще управлява тази зависимост докато се записва списъка на разширенията в localconf.php</label>
+			<label index="emconf_conflicts.alttitle">Конфликт с други разширения (extension)?</label>
+			<label index="emconf_conflicts.description">Списък на ключове на разширения с който те не работят (и така не могат да бъдат използвани преди другите не бъдат деинсталирани)</label>
+			<label index="emconf_priority.alttitle">Искания приоритет при зареждане</label>
+			<label index="emconf_priority.description">Това казва на МР да опита да сложи разширението на първото място в списъка. По-подразбиране е последното.</label>
+			<label index="emconf_module.alttitle">включително Backend модули</label>
+			<label index="emconf_module.description">Ако някоя подпапка към разширение съдържа backend модули, имената на тези папки трябва да са изписани тук.</label>
+			<label index="emconf_module.details">Това позволява на МР да знае за съществуването на модули, който са важни защото МР трябва да обнови файла conf.php на модула за да сложи правилната TYPO3_MOD_PATH константа.</label>
+			<label index="emconf_state.alttitle">Състояние на развитието (Development state)</label>
+			<label index="emconf_state.description">В какво състояние на развитие се намира разширението.</label>
+			<label index="emconf_state.details">&lt;b&gt;алфа&lt;/b&gt;
+Много първоначално развитие. Може да не прави нищо.
+
+&lt;b&gt;бета&lt;/b&gt;
+Под текущо развитие. Трябва да работи от части, но не е завършено все още.
+
+&lt;b&gt;стабилно&lt;/b&gt;
+Стабилно и използвано в производство .
+
+&lt;b&gt;експериментално&lt;/b&gt;
+Никой незнае дали това отива нанякаде... Може би е все още само идея.
+
+&lt;b&gt;тест&lt;/b&gt;
+Тестово разширение, демонстриращо идея и др.</label>
+			<label index="emconf_internal.alttitle">Вътрешно поддържано в ядрото</label>
+			<label index="emconf_internal.description">Този флаг показва че, изходния код на ядрото е специално наясно с разширението.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Изчисти кеша когато се инсталира</label>
+			<label index="emconf_clearCacheOnLoad.description">Ако е сложено, МР ще поиска да се изчисти кеша след като се е инсталирало разширението.</label>
+			<label index="emconf_private.alttitle">Частно</label>
+			<label index="emconf_download_password.alttitle">Свали паролата</label>
+			<label index="emconf_type.alttitle">Тип на инсталацията</label>
+			<label index="emconf_type.description">Типа на инсталацията</label>
+			<label index="emconf_doubleInstall.alttitle">Два пъти или повече инсталирано?</label>
+			<label index="emconf_dbReq.alttitle">Изисквания на базата данни</label>
+			<label index="emconf_dbStatus.alttitle">Статус на изискванията на базата данни</label>
+			<label index="emconf_flags.alttitle">Флагове</label>
+			<label index="emconf_TSfiles.alttitle">Статични TypoScript файлове</label>
+			<label index="emconf_classNames.alttitle">PHP Class имена</label>
+			<label index="emconf_classNames.description">Покажи кой PHP-класове са намерени в .php и .inc файлове.</label>
+			<label index="emconf_errors.alttitle">Грешки</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+			<label index="emconf_shy.description" type="integer">196807582</label>
+			<label index="emconf_shy.details" type="integer">15892463</label>
+			<label index="emconf_category.alttitle" type="integer">61717939</label>
+			<label index="emconf_category.description" type="integer">204987594</label>
+			<label index="emconf_category.details" type="integer">78942816</label>
+			<label index="emconf_dependencies.alttitle" type="integer">6158334</label>
+			<label index="emconf_dependencies.description" type="integer">262753637</label>
+			<label index="emconf_dependencies.details" type="integer">209360491</label>
+			<label index="emconf_conflicts.alttitle" type="integer">174778315</label>
+			<label index="emconf_conflicts.description" type="integer">14159431</label>
+			<label index="emconf_priority.alttitle" type="integer">208790249</label>
+			<label index="emconf_priority.description" type="integer">261230598</label>
+			<label index="emconf_module.alttitle" type="integer">222311525</label>
+			<label index="emconf_module.description" type="integer">131352939</label>
+			<label index="emconf_module.details" type="integer">16797237</label>
+			<label index="emconf_state.alttitle" type="integer">8968835</label>
+			<label index="emconf_state.description" type="integer">48322308</label>
+			<label index="emconf_state.details" type="integer">80752734</label>
+			<label index="emconf_internal.alttitle" type="integer">252258090</label>
+			<label index="emconf_internal.description" type="integer">130243565</label>
+			<label index="emconf_clearCacheOnLoad.alttitle" type="integer">26668595</label>
+			<label index="emconf_clearCacheOnLoad.description" type="integer">149991239</label>
+			<label index="emconf_private.alttitle" type="integer">75468930</label>
+			<label index="emconf_download_password.alttitle" type="integer">102196861</label>
+			<label index="emconf_type.alttitle" type="integer">121209022</label>
+			<label index="emconf_type.description" type="integer">113056504</label>
+			<label index="emconf_doubleInstall.alttitle" type="integer">262159324</label>
+			<label index="emconf_dbReq.alttitle" type="integer">28332369</label>
+			<label index="emconf_dbStatus.alttitle" type="integer">204171626</label>
+			<label index="emconf_flags.alttitle" type="integer">82475009</label>
+			<label index="emconf_TSfiles.alttitle" type="integer">43118947</label>
+			<label index="emconf_classNames.alttitle" type="integer">155053783</label>
+			<label index="emconf_classNames.description" type="integer">83027952</label>
+			<label index="emconf_errors.alttitle" type="integer">99552371</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="emconf_shy.alttitle">Shy</label>
+			<label index="emconf_shy.description">If set, the extension will normally be hidden in the EM because it might be a default extension or otherwise something which is not so important.</label>
+			<label index="emconf_shy.details">Use this flag if an extension is of &quot;rare interest&quot; (which is not the same as un-important - just an extension not sought for very often...)
+It does not affect whether or not it's enabled. Only display in EM.
+Normally &quot;shy&quot; is set for all extensions loaded by default according to TYPO3_CONF_VARS.</label>
+			<label index="emconf_category.alttitle">Category</label>
+			<label index="emconf_category.description">Which category the extension belongs to.</label>
+			<label index="emconf_category.details">&lt;b&gt;be:&lt;/b&gt; Backend (Generally backend oriented, but not a module)
+
+&lt;b&gt;module:&lt;/b&gt; Backend modules (When something is a module or connects with one)
+
+&lt;b&gt;fe:&lt;/b&gt; Frontend (Generally frontend oriented, but not a &quot;true&quot; plugin)
+
+&lt;b&gt;plugin:&lt;/b&gt; Frontend plugins (Plugins inserted as a &quot;Insert Plugin&quot; content element)
+
+&lt;b&gt;misc:&lt;/b&gt; Miscellaneous stuff (Where not easily placed elsewhere)
+
+&lt;b&gt;services:&lt;/b&gt; Contains TYPO3 services.
+
+&lt;b&gt;templates:&lt;/b&gt; Contains website templates
+
+&lt;b&gt;doc:&lt;/b&gt; Documentation (Eg. tutorials, FAQ's etc.)
+
+&lt;b&gt;example:&lt;/b&gt; Example extension (Which serves as examples etc.)</label>
+			<label index="emconf_dependencies.alttitle">Dependencies of other extensions?</label>
+			<label index="emconf_dependencies.description">This is a list of other extension keys which this extension depends on being loaded BEFORE it self.</label>
+			<label index="emconf_dependencies.details">The EM will manage that dependency while writing the extension list  to localconf.php. You cannot install an extension unless its dependencies has been installed already.</label>
+			<label index="emconf_conflicts.alttitle">Conflicts with other extensions?</label>
+			<label index="emconf_conflicts.description">List of extension keys of extensions with which this extension does not work (and so cannot be enabled before those other extensions are un-installed)</label>
+			<label index="emconf_priority.alttitle">Requested Loading priority</label>
+			<label index="emconf_priority.description">This tells the EM to try to put the extensions as the very first in the list. Default is last.</label>
+			<label index="emconf_module.alttitle">Backend modules included</label>
+			<label index="emconf_module.description">If any subfolders to an extension contains backend modules, those foldernames should be listed here.</label>
+			<label index="emconf_module.details">It allows the EM to know about the existence of the module, which is important because the EM has to update the conf.php file of the module in order to set the correct TYPO3_MOD_PATH  constant.</label>
+			<label index="emconf_state.alttitle">Development state</label>
+			<label index="emconf_state.description">Which development state the extension is in.</label>
+			<label index="emconf_state.details">&lt;b&gt;alpha&lt;/b&gt;
+Very initial development. May do nothing at all.
+
+&lt;b&gt;beta&lt;/b&gt;
+Under current development. Should work partly but is not finished yet.
+
+&lt;b&gt;stable&lt;/b&gt;
+Stable and used in production.
+
+&lt;b&gt;experimental&lt;/b&gt;
+Nobody knows if this is going anywhere yet... Maybe still just an idea.
+
+&lt;b&gt;test&lt;/b&gt;
+Test extension, demonstrates concepts etc.</label>
+			<label index="emconf_internal.alttitle">Internally supported in core</label>
+			<label index="emconf_internal.description">This flag indicates that the core source code is specifically aware of the extension.</label>
+			<label index="emconf_clearCacheOnLoad.alttitle">Clear cache when installed</label>
+			<label index="emconf_clearCacheOnLoad.description">If set, the EM will request the cache to be cleared when this extension is installed.</label>
+			<label index="emconf_private.alttitle">Private</label>
+			<label index="emconf_download_password.alttitle">Download password</label>
+			<label index="emconf_type.alttitle">Installation type</label>
+			<label index="emconf_type.description">The type of the installation</label>
+			<label index="emconf_doubleInstall.alttitle">Installed twice or more?</label>
+			<label index="emconf_dbReq.alttitle">Database requirements</label>
+			<label index="emconf_dbStatus.alttitle">Database requirements status</label>
+			<label index="emconf_flags.alttitle">Flags</label>
+			<label index="emconf_TSfiles.alttitle">Static TypoScript files</label>
+			<label index="emconf_classNames.alttitle">PHP Class names</label>
+			<label index="emconf_classNames.description">Shows which PHP-classes were found in .php and .inc files.</label>
+			<label index="emconf_errors.alttitle">Errors</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

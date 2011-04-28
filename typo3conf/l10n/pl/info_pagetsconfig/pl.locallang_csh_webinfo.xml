@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Przeglądarka hierarchii TSconfig strony</label>
+			<label index="tsconfig_hierarchy.description">Pozwala użytkownikowi na wgląd w skompilowaną postać TSconfig strony dla wybranej gałęzi drzewa.</label>
+			<label index="tsconfig_edit.alttitle">Przeglądarka zawartości TSconfig strony</label>
+			<label index="tsconfig_edit.description">Wyświetla czysty TSconfig wszystkich stron z aktualnej linii drzewa (root line) łącznie z domyślnym kodem.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="tsconfig_hierarchy.alttitle" type="integer">57288638</label>
+			<label index="tsconfig_edit.alttitle" type="integer">123654165</label>
+			<label index="tsconfig_hierarchy.description" type="integer">34139528</label>
+			<label index="tsconfig_edit.description" type="integer">148641553</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="tsconfig_hierarchy.alttitle">Page TSconfig hierarchy viewer</label>
+			<label index="tsconfig_edit.alttitle">Page TSconfig content viewer</label>
+			<label index="tsconfig_hierarchy.description">Allows the user to view the compiled Page TSconfig structure for a branch of the pagetree.</label>
+			<label index="tsconfig_edit.description">Displays the raw TSconfig code of all pages in the current root line including any default code.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="tx_wizardcrpages.alttitle">Luo sivuja velho</label>
+			<label index="tx_wizardcrpages.description">Ohjelmalla on mahdollisuus luoda joukko uusia, tyhjiä sivuja sivustorakenteeseen. Anna tarvitsemiesi sivujen otsikot. Ainoastaan täytettyjen tietojen mukaiset sivut luodaan.</label>
+			<label index="tx_wizardcrpages.details">Uudet sivut luodaan aina alasivuiksi sivustorakenteen aktiivisen sivun alle. Tämä sivu näytetään ohjelman sivun ylälaidassa, Allaolevassa esimerkki kuvassa  se on &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Sijoita uudet sivut olemassa olevien alasivujen jälkeen&quot;&lt;/b&gt;
+Jos valitset tämän vaihtoehdon sivut luodaan minka tahansa sivulla olevan alasivun &lt;em&gt;jälkeen&lt;/em&gt;.
+
+&lt;b&gt;&quot;Piilota uudet sivut&quot;&lt;/b&gt;
+Valitse tämä jos haluat uusien sivujan olevan oletusarvoisesti piilotettuja. Tällä vaihtoehdolla voi olla merkitystä jos haluat luoda sivuja ilman että sinulla on vielä sisältöä uusille sivuille.
+
+&lt;b&gt;&quot;Lorem ipsum ...&quot;&lt;/b&gt;
+Luo uusia sivuja velho tukee Lorem ipsum laajennusta antaen mahdollista käyttää keinotekoista sisältöä sivu elementeissä.</label>
+			<label index="tx_wizardcrpages.image_descr">Anna tarvitsemiesi sivujen otsikot. Ainoastaan täytettyjen tietojen mukaiset sivut luodaan. Painettuasi &quot;Luo sivut&quot; näppäintä päivittyy vasemmalla oleva sivustorakenne ilmaisten myös uusien sivujen sijainnin.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="tx_wizardcrpages.alttitle" type="integer">61381807</label>
+			<label index="tx_wizardcrpages.description" type="integer">139514396</label>
+			<label index="tx_wizardcrpages.details" type="integer">190128195</label>
+			<label index="tx_wizardcrpages.image_descr" type="integer">257127828</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="tx_wizardcrpages.alttitle">Create Pages wizard</label>
+			<label index="tx_wizardcrpages.description">Enables you to create a batch of new, empty pages for quickly building up a new page tree. 
+Just enter the titles for the pages you need. Only filled in fields will be created as pages.</label>
+			<label index="tx_wizardcrpages.details">The new pages will always be created as subpages to the currently active page from the page tree. This page is shown in the top of the page. In the example image below it is &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Place new pages after the existing subpages&quot;&lt;/b&gt;
+If you select this option the pages will be create &lt;em&gt;after&lt;/em&gt; any existing subpages.
+
+&lt;b&gt;&quot;Hide new pages&quot;&lt;/b&gt;
+Select this if the new pages should be hidden by default. This option may be forced upon you if you do not have credentials to create new, online pages.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+The Create new page wizard supports the Lorem Ipsum extension providing dummy content for the fields.</label>
+			<label index="tx_wizardcrpages.image_descr">You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
+After pressing the &quot;Create pages&quot; button the page tree to the left will update instantly, showing you the position of the new pages!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

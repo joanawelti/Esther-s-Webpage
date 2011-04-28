@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Predstavlja alternativni jezik za stranicu.</label>
+			<label index="title.description">Unesite naslov alternativnog jezika.</label>
+			<label index="subtitle.description">Unesite podnaslov alternativnog jezika.</label>
+			<label index="keywords.description">Unesite ključne riječi alternativnog jezika.</label>
+			<label index="description.description">Unesite opis alternativnog jezika.</label>
+			<label index="author.description">Unesite autora alternativnog jezika.</label>
+			<label index="author_email.description">Unesite email adresu autora alternativnog jezika.</label>
+			<label index="media.description">Unesite medijske datoteke alternativnog jezika.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description" type="integer">230200392</label>
+			<label index="title.description" type="integer">168754082</label>
+			<label index="subtitle.description" type="integer">249795538</label>
+			<label index="keywords.description" type="integer">81696492</label>
+			<label index="description.description" type="integer">137311270</label>
+			<label index="author.description" type="integer">135693417</label>
+			<label index="author_email.description" type="integer">230171675</label>
+			<label index="media.description" type="integer">117106707</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Represents an alternative language for the page.</label>
+			<label index="title.description">Enter the title of the alternative language.</label>
+			<label index="subtitle.description">Enter the subtitle of the alternative language.</label>
+			<label index="keywords.description">Enter the keywords of the alternative language.</label>
+			<label index="description.description">Enter the description of the alternative language.</label>
+			<label index="author.description">Enter the author of the alternative language.</label>
+			<label index="author_email.description">Enter the author email address of the alternative language.</label>
+			<label index="media.description">Enter the media files of the alternative language.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

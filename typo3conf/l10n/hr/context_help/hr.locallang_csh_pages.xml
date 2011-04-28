@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="layout.description">Izaberite izgled stranice. Bilo koji efekt ovisi o predlošku website-a.</label>
+			<label index="hidden.description">Ako je ovo označeno, stranica će biti skrivena.</label>
+			<label index="title.description.+">Ovo je obično prikazano u navigaciji web site-a.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="title.description.+" type="integer">122833099</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="title.description.+">This is normally shown in the website navigation.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

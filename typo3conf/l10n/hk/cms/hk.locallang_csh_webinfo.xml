@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="pagetree_overview.alttitle">網頁樹圖概覽</label>
+			<label index="pagetree_overview.description">網頁樹圖概覽顯示與其中一分支中的網頁有關的資料。包括開始和停止時間, 快取的設定等。</label>
+			<label index="pagetree_overview.image_descr">網頁樹圖概覽的其中一個功能是你可以看到一個分支的網頁中有甚麼類型的記錄。在這裡會顯示下2層的記錄數目。</label>
+			<label index="func_0.alttitle">基本設定</label>
+			<label index="func_0.description">從網頁記錄中顯示被認為是網頁基本設定的欄位。包括代號﹑開始及停止時間﹑存取權限資料等</label>
+			<label index="func_0.details">基本設定檢視很大程度組成了快取和年期檢視. 他們唯一不同之處是選抽十顯示的欄位不同.
+
+&lt;b&gt;大量修改網頁欄位&lt;/b&gt;你會介面的因週找到數個修改的圖示. 所有在首行中的修改圖示會帶中你到一個對語方塊中, 在其中你可以改變所有列出的表格的指定欄位! 大量修改非常有用, 例如:所有&quot;開始&quot;時間
+
+假如你在網頁的ID數值中點擊修改圖示, 你會直接到一個修改完整網頁記錄的模式</label>
+			<label index="func_0.image_descr">基且設定檢視以樹圖形式提供一個非常方便的途徑概覽網頁的代號, 開始時間和進入權限等的設定.
+
+假如你在標題中點擊修改圖示, 你會可以所有列出的網頁的這個欄位.</label>
+			<label index="func_1.alttitle">記錄概覽</label>
+			<label index="func_1.description">記錄概覽給你樹圖中記錄分佈一個不可或缺的概覽. 每一個系統中的資料庫表格是以一行作代表, 而每一頁你可以看到位於該網頁的表格的記錄數量.</label>
+			<label index="func_1.details">&lt;b&gt;留意:&lt;/b&gt;要小心層次設定. 假如有大量網頁和記綠在資料庫中, 一個高層次設定也許會導致模組反應非常遲緩!
+
+&lt;b&gt;停止樹圖?&lt;/b&gt;
+留意在樹圖中在網頁旁的紅色&quot;+&quot;?迠一是因為在該網頁作了設定, 意思是這網頁樹不會展開. 特別是當在網頁之下有大量子頁(例如數百頁), 就會為了保護的原因而設定. 假如你點擊圖示或主題, 概覽會使這網頁成為概覽新的根頁.</label>
+			<label index="func_1.image_descr">你可以輕易地看到在一個網頁中的內容元件的分佈. 你也可以看到樣版記錄 - 期本上任何記錄 - 位於樹圖的何處!</label>
+			<label index="func_2.alttitle">快取和年期</label>
+			<label index="func_2.description">顯示從網頁記錄中與網頁快取和時間設定有關的欄位.</label>
+			<label index="func_2.image_descr">&quot;快取和年期&quot;概覽.
+在這裡你看到&quot;TSconfig&quot;列. 概覽顯示出這兩個網頁, 連同一些網頁TSconfig編碼!</label>
+			<label index="stat.alttitle">網頁受訪統計</label>
+			<label index="stat.description">顯示網站中樹圖一段的受訪統計. 基於簡單的, 內部的MYSQL統計表格, 其中記錄網頁旳印象和時段</label>
+			<label index="stat.details">&lt;b&gt;留意:&lt;/b&gt;這功能要求安裝&quot;簡單來訪統計&quot;(sys_stat)延伸工具。你也一定要設定TypoScript去登記網頁受訪次數到統計資料表中</label>
+			<label index="lang.alttitle">本地化概覽</label>
+			<label index="lang.description">給予個概覽, 在樹圖中那一網頁被譯成安裝了的系統語言</label>
+			<label index="func_hits.alttitle">統計檢視</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="double">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

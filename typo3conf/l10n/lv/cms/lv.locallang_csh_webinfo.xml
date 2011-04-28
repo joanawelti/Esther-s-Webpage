@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="pagetree_overview.alttitle">Lapu koka pārskats</label>
+			<label index="pagetree_overview.description">Lapu koka pārskats parāda informāciju par vietnes lapām hierarhiskā struktūrā. Šī informācija iekļauj lapu sākuma un beigu laikus, kešatmiņas iestatījumus. utt.</label>
+			<label index="pagetree_overview.image_descr">Viena no lapu koka pārskata iezīmēm ir tā, ka tu vari apskatīt kādi ieraksti atrodas lapās hierarhiskā struktūrā. Šeti tiek norādīts ierakstu skaits struktūras atzarā iekļaujot divus zemākus līmeņus.</label>
+			<label index="func_0.alttitle">Pamatiestatījumi</label>
+			<label index="func_0.description">Parāda lapas ierakstu lauciņu atlasi, kas tiek uzskatīti par lapas pamatiestatījumiem. Šī atlase iekļauj segvārdus, sākuma un beigu laikus, piekļuves ierobežojumu informāciju, utt.</label>
+			<label index="func_0.image_descr">Pamatiestatījumu skatījums piedāvā ļoti ērtu segvārdu, sākuma laiku un piekļuves ierobežojumu iestatījumu pārskatu koka struktūras atzarā. Ja tu nospiedīsi rediģēšanas ikonu galvenē, tu varēsi rediģēt šo lauciņu visās uzskaitītajās lapās.</label>
+			<label index="func_1.alttitle">Ierakstu pārskats</label>
+			<label index="func_2.alttitle">Kešatmiņa un vecums</label>
+			<label index="stat.alttitle">Lapu apmeklējumu statistika</label>
+			<label index="lang.alttitle">Lokalizācijas pārskats</label>
+			<label index="func_hits.alttitle">Statistikas skati</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.image_descr" type="integer">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

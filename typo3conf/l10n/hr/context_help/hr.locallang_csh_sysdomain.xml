@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Određuje ulaznu točku svakog posebnog imena poslužitelja (host name).</label>
+			<label index=".details">Kada TYPO3 baza podataka sadrži više od jednog web sjedišta onda obično imamo pridruženu poseban naziv domene za svaku početnu stranicu web sjedišta. U praksi sve domene koriste istu TYPO3 bazu poslužitelja, ali kada određen oj stranici unutar stabla pridružite domenu onda će svi upiti za tu domenu biti upućivani toj stranici. Sve stranice 'izvan'  te početne točke s zapisom domene neće biti dostupne putem URLa te domene.
+Ovo svojstvo je slično 'virtualnim poslužiteljima' unutar Apache-a.</label>
+			<label index="domainName.description">Unesite ime poslužitelja, npr. &quot;www.moja-domena.hr&quot;</label>
+			<label index="redirectTo.description">Svi zahtjevi na ovoj domeni biti će preusmjereni na ovaj URL, ukoliko je isti unesen.</label>
+			<label index="hidden.description">Koristite ovu opciju za privremenu zabranu primjene Domain zapisa.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description" type="integer">102441634</label>
+			<label index=".details" type="integer">232530587</label>
+			<label index="domainName.description" type="integer">15093983</label>
+			<label index="redirectTo.description" type="integer">191995947</label>
+			<label index="hidden.description" type="integer">31618732</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index=".description">Determines the entrypoint of a certain host name.</label>
+			<label index=".details">When a TYPO3 database contains more than a single website, you'll typically have to assign a domain name to each new websites &quot;root-page&quot;. In practice you point all the domains to the same TYPO3 database on the server, but then you insert these Domain records at the positions in the page tree where you want to direct requests to the domain. And thus pages 'outside' that point will not be accessible from that domain.
+This is like &quot;Virtual hosts&quot; in Apache servers.
+
+(Should probably be available for admin only.)</label>
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="redirectTo.description">All requests to the domain will be redirected to this URL, if any value is entered.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

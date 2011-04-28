@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<data type="array">
+		<languageKey index="gl" type="array">
+			<label index="emconf_shy.alttitle">Toqqoqqasoq</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gl" type="array">
+			<label index="emconf_shy.alttitle" type="integer">217108965</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gl" type="array">
+			<label index="emconf_shy.alttitle">Shy</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>

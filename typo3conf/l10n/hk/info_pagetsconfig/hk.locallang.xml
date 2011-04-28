@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="tsconf_title">網頁TSconfig</label>
+			<label index="tsconf_parts_0">所有</label>
+			<label index="tsconf_parts_1">以使用者設定控制模組鑰字(mod)</label>
+			<label index="tsconf_parts_1a">模組: 網站&gt;網頁</label>
+			<label index="tsconf_parts_1b">模組: 網站&gt;預覽</label>
+			<label index="tsconf_parts_1c">模組: 網站&gt;模組</label>
+			<label index="tsconf_parts_1d">模組: 網站&gt;表列</label>
+			<label index="tsconf_parts_1e">模組: 網站&gt;資訊</label>
+			<label index="tsconf_parts_1f">模組: 網站&gt;功能</label>
+			<label index="tsconf_parts_1g">模組: 網站&gt;樣版</label>
+			<label index="tsconf_configFields">檢視TSconfig欄位內容</label>
+			<label index="editThisColumn">修改所有列出的網頁的'%s'欄位</label>
+			<label index="editTSconfig">修改本網頁的TSconfig</label>
+			<label index="editTSconfig_all">修改所有顯示網頁的TSconfig</label>
+			<label index="editTSconfig_default">從TYPO3_CONF_VARS預設的設定</label>
+			<label index="mod_pagetsconfig">網頁TSconfig</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="tsconf_title" type="integer">102716901</label>
+			<label index="tsconf_parts_0" type="integer">186422474</label>
+			<label index="tsconf_parts_1" type="integer">72569551</label>
+			<label index="tsconf_parts_1a" type="integer">52234483</label>
+			<label index="tsconf_parts_1b" type="integer">150910794</label>
+			<label index="tsconf_parts_1c" type="integer">94827801</label>
+			<label index="tsconf_parts_1d" type="integer">213817282</label>
+			<label index="tsconf_parts_1e" type="integer">162251880</label>
+			<label index="tsconf_parts_1f" type="integer">206456787</label>
+			<label index="tsconf_parts_1g" type="integer">242913604</label>
+			<label index="tsconf_configFields" type="integer">41802033</label>
+			<label index="editThisColumn" type="integer">35820296</label>
+			<label index="editTSconfig" type="integer">88216336</label>
+			<label index="editTSconfig_all" type="integer">218125815</label>
+			<label index="editTSconfig_default" type="integer">153424219</label>
+			<label index="mod_pagetsconfig" type="integer">102716901</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+			<label index="tsconf_title">Page TSconfig</label>
+			<label index="tsconf_parts_0">All</label>
+			<label index="tsconf_parts_1">Module key ('mod') with overruling user settings</label>
+			<label index="tsconf_parts_1a">Module: Web&gt;Page</label>
+			<label index="tsconf_parts_1b">Module: Web&gt;View</label>
+			<label index="tsconf_parts_1c">Module: Web&gt;Modules</label>
+			<label index="tsconf_parts_1d">Module: Web&gt;List</label>
+			<label index="tsconf_parts_1e">Module: Web&gt;Info</label>
+			<label index="tsconf_parts_1f">Module: Web&gt;Func</label>
+			<label index="tsconf_parts_1g">Module: Web&gt;Template</label>
+			<label index="tsconf_configFields">View TSconfig fields content</label>
+			<label index="editThisColumn">Edit the field '%s' for all listed pages</label>
+			<label index="editTSconfig">Edit TSconfig for this page</label>
+			<label index="editTSconfig_all">Edit TSconfig for all shown pages</label>
+			<label index="editTSconfig_default">Default Configuration from TYPO3_CONF_VARS</label>
+			<label index="mod_pagetsconfig">Page TSconfig</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

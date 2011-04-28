@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:72:"typo3/sysext/lang/locallang_tsparser.xml|06-10-2010 10:40:03|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:1:{s:22:"tsparser_ext.make_copy";s:73:"This will make a copy of the current file, '%s'. Do you really want that?";}}}

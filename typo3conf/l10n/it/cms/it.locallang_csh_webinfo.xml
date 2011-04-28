@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="pagetree_overview.alttitle">Panoramica dell'albero delle pagine</label>
+			<label index="pagetree_overview.description">L'Overview (panoramica) dell'albero delle pagine mostra informazioni relative ad un ramo dell'albero delle pagine. Queste includono date di inizio e di fine, settaggi della cache ecc.</label>
+			<label index="pagetree_overview.image_descr">Una delle caratteristica del modulo &quot;Overview dell'albero delle pagine&quot; è la possibilità di vedere i tipi di record trovati all'interno delle pagine di un ramo. Viene visualizzato il numero di record trovati all'interno dell'albero delle pagine fino a 2 livelli di profondità.</label>
+			<label index="func_0.alttitle">Opzioni di base</label>
+			<label index="func_0.description">Visualizza una selezione di campi dai records di pagina che sono trattati alla  stregua di una configurazione fondamentale per le pagine. Include aliases, tempi di inizio e fine, restrizioni d'accesso, informazioni, ecc.</label>
+			<label index="func_0.details">La modalità di visualizzazione 'Basic Settings' (Configurazioni di Base) somiglia molto a quella della Cache e Age. Ci sono solo alcune differenti campi di selezione che vengono mostrati.
+
+&lt;b&gt;campi di pagina Batch editing&lt;/b&gt;
+Nell'interfaccia vedrai diverse icone per l'editing. Tutte le icone per l'editing nelle linee in alto ti condurranno ad una finestra di dialogo dove tu puoi cambiare esattamente il campo per tutte le tabelle elencate!
+Molto utile per un tipo di modifica batch-editing, per esempio di tutte le date di tipop 'Start'.
+Se clicchi sull'icona per editare in corrispondenza delle ID della pagine otterrai esattamente il sistema di editing dell'intero record di pagina.</label>
+			<label index="func_0.image_descr">Le configurazioni di base offrono un molto molto efficace per una paronamica sugli aliases, i tempi di inizio e fine, le restrizioni d'accesso nella vista ad albero selezionata. Se clicchi su una icona per editare (tipo 'edit') sarai capace di modificare il campo scelto per tutte le pagine in lista.</label>
+			<label index="func_1.alttitle">Overwiew (panoramica) dei record</label>
+			<label index="func_1.description">La panoramica dei record ti fornisce una indispensabile vista d'insieme della distribuzione dei record nella vista ad albero. Ogni tabella di database del sistema è rappresentata da una colonna e per ogni pagina puoi vedere il numero dei records della tabella situata nella pagina.</label>
+			<label index="func_1.details">&lt;b&gt;Attenzione:&lt;/b&gt; prestare attenzione alle livelli di configurazione. Un livello alto può causare che il modulo risponda in modo molto lento se ci sono molte pagine e ancor di più se ci sono molti record da visualizzare!
+
+&lt;b&gt;Stop dell'albero?&lt;/b&gt;
+Attenzione al simbolo '+' visualizzato in rosso in un albero di pagina. Appare in quanto la configurazione adottata per il record di pagina impedisce di espandere l'albero. Tipicamento questa è una forma di protezione per impedire che un grande ammontare di pagine siano visualizzate a partire dalla pagina interessata (es. centinaia di pagine) con risultati molto lenti o tempi di attesa  lunghi. Se clicchi sul titolo/icona la panoramica salterà e la pagina si comporterà come un nuovo punto root per aprire una nuova panoramica.</label>
+			<label index="func_1.image_descr">Puoi facilmente vedere la distribuzione degli Elementi di Contenuto sulla pagina. Puoi anche vedere i Records di Template - ed anche ogni record! - situati nell'albero delle pagine!</label>
+			<label index="func_2.alttitle">Cache e Età</label>
+			<label index="func_2.description">Visualizza la scelta dei campi dai records di pagina in relazione alle configurazioni della cache di pagina e delle date.</label>
+			<label index="func_2.image_descr">Vista 'Cache e Età'.
+Qui puoi vedere la colonna 'TSconfig'. La panoramica espone quelle due pagine che includono del codice TSconfig di pagina!</label>
+			<label index="stat.alttitle">Statistiche di pagina di tipo Hit</label>
+			<label index="stat.description">Visualizza le statistiche del sito per un ramo dell'albero. Basato su un semplice ed interno tipo di statistiche fornito dalle tabelle MySQL; i records registrano le visite per pagina (hit) e quelle relative alle sole sessioni.</label>
+			<label index="stat.details">&lt;b&gt;Attenzione:&lt;/b&gt; Questa funzione richiede che l'estensione 'SImple hit statistics' (sys_stat) sia installata. Tu puoi anche configurare TypoScript per registrare gli hit di pagina nella tabella di database delle statistiche.</label>
+			<label index="lang.alttitle">Panoramicadella Localizzazione</label>
+			<label index="lang.description">Fornisce una panoramica delle pagine dell'albero che sono state tradotte nelle lingue di sistema installate.</label>
+			<label index="func_hits.alttitle">Viste sulle statistiche</label>
+			<label index="func_hits.description">Puoi scegliere tra le viste ad albero delle statistiche nel selector box; 'hits di pagina', 'Hits totali', 'Hits delle sezioni principali'. Usa il box destro di selezione per scegliere la profondità della vista dell'albero.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.image_descr" type="double">11485985</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

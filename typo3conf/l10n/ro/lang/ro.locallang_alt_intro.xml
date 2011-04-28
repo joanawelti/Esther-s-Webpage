@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="introtext">Sistem de Management a Conţinutului Site-urilor</label>
+			<label index="introtext2">Scurtă descriere a modulelor disponibile:</label>
+			<label index="endText">Pot apărea diferenţe în ceea ce priveşte opţiunile disponibile în funcţie de site şi permisiuni</label>
+			<label index="userInfo">Sînteţi conectat cu pseudonimul:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="introtext" type="integer">194562478</label>
+			<label index="introtext2" type="integer">234766952</label>
+			<label index="endText" type="integer">206585252</label>
+			<label index="userInfo" type="integer">170934145</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

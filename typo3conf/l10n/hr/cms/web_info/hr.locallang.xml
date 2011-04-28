@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="page_title">Pregled stabla stranica</label>
+			<label index="page_sysnote">Interne zabilješke</label>
+			<label index="pageInformation">Informacije o stranici</label>
+			<label index="pages_0">Osnovne postavke</label>
+			<label index="pages_2">Međuspremnik (cache) i starost</label>
+			<label index="pages_1">Pregled zapisa</label>
+			<label index="stat_type_0">Posjećenost stranica</label>
+			<label index="stat_type_1">Ukupna posjećenost</label>
+			<label index="stat_type_2">Posjećenost stranica u glavnim skcijama</label>
+			<label index="stat_period">Statistika u periodu od %s do %s</label>
+			<label index="pI_crUser">Napravio</label>
+			<label index="pI_crDate">Datum izrade</label>
+			<label index="pI_lastChange">Posljednja promjena</label>
+			<label index="pI_lastChangeContent">Posljednja promjena, sadržaj</label>
+			<label index="hits_title">Statistika posjećenosti</label>
+			<label index="lang_renderl10n_viewPage">Pogledaj stranicu</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">Uređuj postavke zadanog jezika</label>
+			<label index="lang_renderl10n_editLangOverlays">Uređuj jezične zapise svih jezika</label>
+			<label index="lang_renderl10n_editPageProperties">Uređuj sve stranične postavke</label>
+			<label index="lang_renderl10n_editPage">Uređuj stranicu</label>
+			<label index="lang_renderl10n_editPageLang">Uređuj prijevod stranice</label>
+			<label index="lang_renderl10n_badThingThereAre">GREŠKA: postoje dva ili više paralelna zapisa za ovaj jezik! Samo jedan je dozvoljen!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">Uređuj zapis jezika</label>
+			<label index="lang_renderl10n_page">Stranica</label>
+			<label index="lang_renderl10n_default">Zadano</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">Napravi zaglavlja za nove prijevode</label>
+			<label index="lang_renderl10n_CEcount">Broj elemenata sadržaja</label>
+			<label index="lang_renderl10n_editPageHeaders">Uređuj sva zaglavlja stranica</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="page_title" type="integer">46867233</label>
+			<label index="page_sysnote" type="integer">267841144</label>
+			<label index="pageInformation" type="double">9265976</label>
+			<label index="pages_0" type="integer">155022480</label>
+			<label index="pages_2" type="integer">198333821</label>
+			<label index="pages_1" type="integer">71658561</label>
+			<label index="stat_type_0" type="integer">131565852</label>
+			<label index="stat_type_1" type="integer">110417445</label>
+			<label index="stat_type_2" type="integer">86813859</label>
+			<label index="stat_period" type="integer">100779727</label>
+			<label index="pI_crUser" type="integer">210659966</label>
+			<label index="pI_crDate" type="integer">188440759</label>
+			<label index="pI_lastChange" type="integer">48593502</label>
+			<label index="pI_lastChangeContent" type="integer">239918564</label>
+			<label index="hits_title" type="integer">55072016</label>
+			<label index="lang_renderl10n_viewPage" type="integer">258274582</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage" type="integer">187585307</label>
+			<label index="lang_renderl10n_editLangOverlays" type="integer">193717971</label>
+			<label index="lang_renderl10n_editPageHeaders" type="integer">237110134</label>
+			<label index="lang_renderl10n_editPage" type="integer">66732081</label>
+			<label index="lang_renderl10n_editPageLang" type="integer">110674105</label>
+			<label index="lang_renderl10n_badThingThereAre" type="integer">258445119</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord" type="integer">80463324</label>
+			<label index="lang_renderl10n_page" type="integer">26464201</label>
+			<label index="lang_renderl10n_default" type="integer">128029197</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders" type="integer">193499435</label>
+			<label index="lang_renderl10n_CEcount" type="integer">196252064</label>
+			<label index="lang_renderl10n_editPageProperties" type="integer">267546290</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index="page_title">Pagetree overview</label>
+			<label index="page_sysnote">Internal notes</label>
+			<label index="pageInformation">Page information</label>
+			<label index="pages_0">Basic settings</label>
+			<label index="pages_2">Cache and Age</label>
+			<label index="pages_1">Record overview</label>
+			<label index="stat_type_0">Page hits</label>
+			<label index="stat_type_1">Total hits</label>
+			<label index="stat_type_2">Hits in main sections</label>
+			<label index="stat_period">Statistics in the period %s back to %s</label>
+			<label index="pI_crUser">Created by</label>
+			<label index="pI_crDate">Created date</label>
+			<label index="pI_lastChange">Last change</label>
+			<label index="pI_lastChangeContent">Last change, content</label>
+			<label index="hits_title">Hit Statistics</label>
+			<label index="lang_renderl10n_viewPage">View page</label>
+			<label index="lang_renderl10n_editDefaultLanguagePage">Edit default language page properties</label>
+			<label index="lang_renderl10n_editLangOverlays">Edit all language overlay records</label>
+			<label index="lang_renderl10n_editPageHeaders">Edit all page headers</label>
+			<label index="lang_renderl10n_editPage">Edit page</label>
+			<label index="lang_renderl10n_editPageLang">Edit page translation</label>
+			<label index="lang_renderl10n_badThingThereAre">ERROR: there are two or more page overlay records for this language! Only one is allowed!</label>
+			<label index="lang_renderl10n_editLanguageOverlayRecord">Edit language overlay record</label>
+			<label index="lang_renderl10n_page">Page</label>
+			<label index="lang_renderl10n_default">Default</label>
+			<label index="lang_getlangsta_createNewTranslationHeaders">Create new translation headers</label>
+			<label index="lang_renderl10n_CEcount">Content Element Count</label>
+			<label index="lang_renderl10n_editPageProperties">Edit all page properties</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

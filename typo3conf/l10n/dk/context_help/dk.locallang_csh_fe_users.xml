@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="username.description">Indtast brugernavnet på website brugeren. Det er krævet for at logge ind.</label>
+			<label index="username.syntax">Et brugernavn er krævet og skal være med små bogstaver og uden mellemrum. Brugernavnet skal være unikt blandt de brugernavne hvor siden er gemt. Hvis det ikke er unikt vil et tal blive sat foran automatisk.</label>
+			<label index="password.description">Indtast passwordet for ovenstående bruger. Det er krævet for at logge ind.</label>
+			<label index="password.syntax">Et password er krævet og skal være med små bogstaver uden mellemrum.</label>
+			<label index="usergroup.description">Vælg en brugergruppe til brugenavnet.</label>
+			<label index="usergroup.details">Når en bruger logger ind, er han kun  i stand til at se det indhold som det er tilladt at se for de(n)  &lt;em&gt;gruppe(r)&lt;/em&gt; som han er medlem af. Derfor giver bruger login mest mening i forbindelse med de grupper man er medlem af.</label>
+			<label index="lockToDomain.description">Indtast det host navn hvorfra det er krævet at brugeren logger ind.</label>
+			<label index="lockToDomain.details">Et TYPO3 system kan have mange forskellige domæner som peger på det. Denne indstilling sikrer at brugere kun kan logge ind fra et bestemt host navn.</label>
+			<label index="lockToDomain.syntax">Enten et domænenavn, &quot;www.typo3.com&quot; eller en IP adresse, &quot;10.34.222.83&quot;.</label>
+			<label index="name.description">Indtast brugerens navn, både fornavn og efternavn.</label>
+			<label index="address.description">Indtast brugerens adresse.</label>
+			<label index="www.description">Indtast brugerens hjemmemside adresse.</label>
+			<label index="title.description">Indtast stilling, f.eks: &quot;Direktør&quot; eller &quot;Regnskabs chef&quot;.</label>
+			<label index="company.description">Indtast firmanavnet hvor brugeren er ansat.</label>
+			<label index="image.description">Indsæt et foto af brugeren.</label>
+			<label index="disable.description">Denne valgmulighed vil midlertidig forhindre brugeren i at logge ind.</label>
+			<label index="starttime.description">Indtast dato for hvornår kontoen skal starte med at være aktiv.</label>
+			<label index="starttime.syntax">Syntaksen er dd-mm-åå, men du kan bare indtaste et &quot;d&quot; for at skrive dagen 'i dag'. Eller &quot;d+10&quot; for at indsætte datoen 10 dage senere end i dag osv.
+Feltet vil automatisk ændre input til et format som det forstår, så du kan eksperimentere med det og således se hvordan datoer kan indtastes.</label>
+			<label index="endtime.description">Indtast datoen for hvornår kontoen er deaktiveret.</label>
+			<label index="endtime.syntax">Se &quot;start&quot;.</label>
+			<label index="TSconfig.description">Indtast yderligere TSconfig for brugeren (advanceret).</label>
+			<label index="TSconfig.details">Dette felt lader dig indtaste TypoScript konfigurationsværdier for brugeren. Aktuelt er der ikke ngoen system definerede nøgler. Hvis det nogensinde kommer, vil de blive beskrivet i detaljer i  administration dokumentationen.
+
+Formålet med dette felt (såvel som dens 'søster'-felt i Website-brugergruppe tabellen) er primært at kunne brugerdefinere ting. I dette tilfælde burde du bruge rod-nøglen &quot;user&quot;  til dine brugerdefinerede værdier. På denne måde risikerer du ikke at nogen fremtidige system nøgler vil kollidere med din konfiguration.
+
+Man tilgår værdiene af konfigurationen fra din frontend plugin ved at kalde funktionen &lt;em&gt;$GLOBALS[&quot;TSFE&quot;]-&gt;fe_user-&gt;getUserTSconf()&lt;/em&gt; som vil returnere et array med værditræet.
+
+&lt;b&gt;Advarsel:&lt;/b&gt; Man bør KUN bruge website bruger/gruppeTSconfig i sit PHP-script hvis det resulterende indhold Ikke bliver cached. Så kald den fra TypoScript USER_INTcObjects eller deakriver caching fra dit PHP-script ved at kalde &lt;em&gt;$GLOBALS[&quot;TSFE&quot;]-&gt;set_no_cache(); &lt;/em&gt;
+
+&lt;b&gt;TSconfig fraWebsite brugergrupper:&lt;/b&gt;
+Bemærk at konfigurationen fra feltet TSconfig i brugerens brugergrupper samles og sættes foran brugerens  TSconfig før det fortolkes. Det betyder for eksempel at en nøgle som er defineret i brugerens TSconfig (dette felt) vil tilsidesætte den samme nøgle i den sidste (nederste) brugergruppe som igen vil tilsidesætte den samme nøgle defineret i den første(top) brugergruppe i listen.
+
+&lt;b&gt; Eksempel &lt;/b&gt;
+Lad os forestille os at du for en bestemt bruger ønsker at definere, at hans navn trykkes nederst på websiderne når han er logget ind. Først må du skrive en PHP-funktion og indsætte resultatet fra den som en USER_INT cObject i bunden af siden. Men din funktion har behov for at vide hvorvidt denne bruger er configureret til at have sit navn printet. Så du beslutter dig for at lave en bruderdefineret TSconfig nøgle, 'user.printUserName':
+
+&lt;em&gt;I brugerens eller  brugergruppens TSconfig felt &lt;/em&gt;
+user.printUserName = 1
+
+&lt;em&gt; I din PHP-funktion &lt;/em&gt;
+ $userTSConfig = $GLOBALS[&quot;TSFE&quot;]-&gt;fe_user-&gt;getUserTSconf();
+if ($userTSConfig[&quot;user.&quot;][&quot;printUserName&quot;]) {
+return $GLOBALS[&quot;TSFE&quot;]-&gt;fe_user-&gt;user[&quot;name&quot;];
+}</label>
+			<label index="TSconfig.syntax">TypoScript syntax, uden conditions and constants.</label>
+			<label index=".description">En website login bruger.</label>
+			<label index=".details">Der er brugere med et brugernavn og password som har tilladelse til specifikke områder der ellers er begrænsede områder på dit websigte.</label>
+			<label index=".image_descr">Del af formen for at redigere en frontend bruger. En typisk login boks (standart) på websitet hvor frontend brugere kan logge ind.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="username.description" type="integer">107422140</label>
+			<label index="username.syntax" type="integer">266882532</label>
+			<label index="password.description" type="double">10412940</label>
+			<label index="password.syntax" type="integer">68458992</label>
+			<label index="usergroup.description" type="integer">171809046</label>
+			<label index="usergroup.details" type="integer">62585212</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">140149042</label>
+			<label index="lockToDomain.syntax" type="double">634244</label>
+			<label index="name.description" type="integer">173302476</label>
+			<label index="address.description" type="integer">268060602</label>
+			<label index="www.description" type="integer">258941487</label>
+			<label index="title.description" type="integer">45554969</label>
+			<label index="company.description" type="double">7843590</label>
+			<label index="image.description" type="integer">222235094</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="starttime.syntax" type="integer">39649228</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="endtime.syntax" type="integer">108743214</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index="TSconfig.details" type="integer">100435008</label>
+			<label index="TSconfig.syntax" type="integer">117035971</label>
+			<label index=".description" type="integer">156302739</label>
+			<label index=".details" type="integer">253202486</label>
+			<label index=".image_descr" type="integer">110690734</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="username.description">Enter the username of the website user. This is needed to login.</label>
+			<label index="username.syntax">A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.</label>
+			<label index="password.description">Enter the password for the username above. This is needed to login.</label>
+			<label index="password.syntax">A password is required and must be in lowercase without spaces in it.</label>
+			<label index="usergroup.description">Select a user group for the username.</label>
+			<label index="usergroup.details">When a user logs in he is able to view all content which is access restricted to the user &lt;em&gt;group(s)&lt;/em&gt; the user is a member of. Therefore the user login primarily makes sense with regard to the member groups.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</label>
+			<label index="lockToDomain.syntax">Either a domain name, &quot;www.typo3.com&quot; or an IP address, &quot;10.34.222.83&quot;</label>
+			<label index="name.description">Enter the regular name of the user, both first- and surname.</label>
+			<label index="address.description">Enter the street address of the user.</label>
+			<label index="www.description">Enter the homepage URL</label>
+			<label index="title.description">Enter the job title, eg. 'Director' or 'Accountant'.</label>
+			<label index="company.description">Enter the name of the company in which the user is employed.</label>
+			<label index="image.description">Insert a photo of the user.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="starttime.syntax">The syntax is dd-mm-yy, but you can just enter a &quot;d&quot; in the field to insert todays date. Or &quot;d+10&quot; to insert the date 10 days from now etc.
+The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="endtime.syntax">See &quot;Start&quot;</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index="TSconfig.details">This field allows you to enter TypoScript style configuration values for the user. Currently there are no system defined keys. If there ever will be, they will be described in detail in the administrative documentation.
+
+The primary use of this field (as well as the 'sister'-field in the Website usergroup table) is for custom purposes. In this case, you should use the root-key &quot;user&quot; for your customly defined values. Thus you don't risk any future system keys to interfere with your configuration.
+
+You access the values of the configuration from your frontend plugins by calling the function &lt;em&gt;$GLOBALS[&quot;TSFE&quot;]-&gt;fe_user-&gt;getUserTSconf()&lt;/em&gt; which will return an array with the valuetree in it.
+
+&lt;b&gt;Warning:&lt;/b&gt; You should use Website user/group TSconfig in your PHP-scripts ONLY if your resulting content is NOT being cached! So call it from TypoScript USER_INT cObjects or disable caching from your PHP-code by calling &lt;em&gt;$GLOBALS[&quot;TSFE&quot;]-&gt;set_no_cache();&lt;/em&gt;
+
+&lt;b&gt;TSconfig from Website usergroups:&lt;/b&gt;
+Notice that the configuration from the field TSconfig in the member groups of the user is accumulated and prepended to the TSconfig of the user before it's parsed. This means for instance that a key defined in the TSconfig of the user (this field) will override the same key defined in the last (bottom) usergroup in the list which will again override the same key defined in the first (top) usergroup in the list.
+
+&lt;b&gt;Example:&lt;/b&gt;
+Let's imagine you want to define for a user that his name is printed in the bottom of the webpages when he is logged in. First of all you must write a PHP-function and insert the result from it as a USER_INT cObject in the bottom of the page. But your function needs to know, whether or not this user is configured to have his name printed. So you decide to use a custom TSconfig key, 'user.printUserName':
+
+&lt;em&gt;In the TSconfig field of the user or usergroup:&lt;/em&gt;
+
+user.printUserName = 1
+
+
+&lt;em&gt;In your PHP-function:&lt;/em&gt;
+
+$userTSConfig = $GLOBALS[&quot;TSFE&quot;]-&gt;fe_user-&gt;getUserTSconf();
+if ($userTSConfig[&quot;user.&quot;][&quot;printUserName&quot;]) {
+  return $GLOBALS[&quot;TSFE&quot;]-&gt;fe_user-&gt;user[&quot;name&quot;];
+}</label>
+			<label index="TSconfig.syntax">TypoScript syntax, without conditions and constants.</label>
+			<label index=".description">A website login user.</label>
+			<label index=".details">These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.</label>
+			<label index=".image_descr">Part of the form for editing a frontend user.
+A typical login box (standard) on the website where frontend users can login.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

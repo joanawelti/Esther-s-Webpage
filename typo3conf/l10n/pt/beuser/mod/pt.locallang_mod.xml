@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel">Administração de Utilizadores do Sistema</label>
+			<label index="mlang_labels_tabdescr">O módulo de Administração de Utilizadores providencia uma vista geral de todos os utilizadores do sistema. Pode agrupá-los pelas suas propriedades a fim de lhe ser possível monitorizar as suas permissões, directorias, TSconfig, grupos, etc... Este módulo é uma ferramenta indispensável para garantir que os utilizadores estão correctamente configurados.&lt;br /&gt;&lt;em&gt;Acesso só para utilizadores 'admin'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Admin Util</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">17821603</label>
+			<label index="mlang_labels_tabdescr" type="integer">165149409</label>
+			<label index="mlang_tabs_tab" type="integer">119990797</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

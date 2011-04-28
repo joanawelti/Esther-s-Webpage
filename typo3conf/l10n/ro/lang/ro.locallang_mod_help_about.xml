@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="welcome">Sistemul Profesional de Administrare a Continutului TYPO3</label>
+			<label index="minor">TYPO3 este un CMS flexibil si profesional, bazat pe PHP4 si MySQL. Typo3 este sub licenta Open Source.&lt;br /&gt;&lt;br /&gt;TYPO3 este &lt;b&gt; disponibil gratuit &lt;/b&gt; sub &lt;a href=&quot;http://typo3.com/1244.0.html&quot; target=&quot;_blank&quot;&gt; licenta TYPO3 (GNU/GPL)&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;%s %s&lt;br /&gt;</label>
+			<label index="mlang_labels_tablabel">Despre TYPO3</label>
+			<label index="mlang_labels_tabdescr">Afiseaza datele primare despre aplicatia TYPO3, versiunea si termenii licentei.</label>
+			<label index="mlang_tabs_tab">Despre</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="welcome" type="integer">169034643</label>
+			<label index="minor" type="integer">259198789</label>
+			<label index="mlang_labels_tablabel" type="integer">253557007</label>
+			<label index="mlang_labels_tabdescr" type="integer">3018876</label>
+			<label index="mlang_tabs_tab" type="integer">150467777</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

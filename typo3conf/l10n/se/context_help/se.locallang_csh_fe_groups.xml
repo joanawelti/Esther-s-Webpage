@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="hidden.description">Detta alternativ inaktiverar användargruppen.</label>
+			<label index="title.description">Gruppens namn.</label>
+			<label index="subgroup.description">Medlem i andra grupper.</label>
+			<label index="description.description">Beskrivning av gruppen.</label>
+			<label index="TSconfig.description">Gruppens TSconfig (avancerad)</label>
+			<label index="TSconfig.syntax">TypoScript syntax, utan villkor och konstanter.</label>
+			<label index=".description">Användargrupper för webbplatsanvändare.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="hidden.description" type="integer">168238848</label>
+			<label index="title.description" type="integer">200720346</label>
+			<label index="description.description" type="integer">159132670</label>
+			<label index="TSconfig.description" type="integer">256600387</label>
+			<label index="TSconfig.syntax" type="integer">117035971</label>
+			<label index=".description" type="integer">181980664</label>
+			<label index="subgroup.description" type="integer">40324340</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="hidden.description">This option disables the user group.</label>
+			<label index="title.description">Name of the group.</label>
+			<label index="description.description">Enter a description of the group.</label>
+			<label index="TSconfig.description">TSconfig for the group (advanced).</label>
+			<label index="TSconfig.syntax">TypoScript syntax, without conditions and constants.</label>
+			<label index=".description">Usergroups for Website users.</label>
+			<label index="subgroup.description">Member of other groups.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

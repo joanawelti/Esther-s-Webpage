@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="eu" type="array">
+			<label index="permissions">Baimenak</label>
+			<label index="ch_permissions">Aldatu baimenak</label>
+			<label index="Legend">Legenda</label>
+			<label index="Owner">Jabea</label>
+			<label index="Group">Taldea</label>
+			<label index="Everybody">Guztiak</label>
+			<label index="Save">Gorde</label>
+			<label index="Abort">Utzi</label>
+			<label index="Edit">EDITATU</label>
+			<label index="recursive">Ezarri errekurtsiboki</label>
+			<label index="pages_affected">Ukituriko orriak</label>
+			<label index="user_overview">Erabiltzaile gainbegirada</label>
+			<label index="Mode">Modua</label>
+			<label index="Depth">Sakonera</label>
+			<label index="levels">mailak</label>
+			<label index="User">Erabiltzailea</label>
+			<label index="def">Definizioa: 'edukia' orriaren taula guztietako erregistroak dira, 'pages' taulako erregistroak ezik (Orriak)</label>
+			<label index="A_Granted">Sarrera baimendua</label>
+			<label index="A_Denied">Sarrera ukatua</label>
+			<numIndex index="1">Erakutsi orria</numIndex>
+			<numIndex index="16">Editatu edukia</numIndex>
+			<numIndex index="2">Editau orria</numIndex>
+			<numIndex index="4">Ezabatu orria</numIndex>
+			<numIndex index="8">Orri berriak</numIndex>
+			<label index="1_t">Erakutsi/Kopiatu orri eta edukia.</label>
+			<label index="16_t">Aldatu/Gehitu/Ezabatu/Mugitu edukia.</label>
+			<label index="2_t">Aldatu/Mugitu orria adibidez: orriaren izenburua, eta abar.</label>
+			<label index="4_t">Ezabatu orri eta edukia</label>
+			<label index="8_t">Sortu orri berriak honen azpian</label>
+			<label index="mlang_labels_tablabel">Orri edizio baimenak</label>
+			<label index="mlang_labels_tabdescr">Orri baimenen ezarpena ezinbestekoa da erabiltzaileen sarrera kudeatzeko. Zuk erabiltzile eta talde bat jabe gisa ezarri ditzazkezu eta bakoitzeko sarrera baimenak eman.</label>
+			<label index="mlang_tabs_tab">Sarrera</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="eu" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<numIndex index="1" type="integer">256624387</numIndex>
+			<numIndex index="16" type="integer">102695873</numIndex>
+			<numIndex index="2" type="integer">66732081</numIndex>
+			<numIndex index="4" type="integer">220131191</numIndex>
+			<numIndex index="8" type="integer">146653009</numIndex>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="integer">115809010</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="eu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

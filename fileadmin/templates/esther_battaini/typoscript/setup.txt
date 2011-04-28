@@ -1,0 +1,13 @@
+# --- Templa Voila --- #
+page = PAGE
+page.10 = USER
+page.10.userFunc = tx_TemplaVoila_pi1->main_page
+
+page.typeNum = 0
+page.meta.DESCRIPTION = Esther Battaini
+page.meta.KEYWORDS = Esther Battaini, Atea, Therapie, Ernährung, Heilen
+
+config.xhtml_cleaning = all
+config.disablePrefixComment = 1
+config.pageTitleFirst = 1
+

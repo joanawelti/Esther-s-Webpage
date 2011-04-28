@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="Path">Път</label>
+			<label index="TEXT_MODE">Вие сте в режим &quot;TEXT MODE&quot;. Използвайте [&lt;&gt;] бутонът, за да преминете обратно в режим WYSIWYG.</label>
+			<label index="ActiveX-required">Зареждането на редактора в Интернет Експлорър изисква да бъде активирано изпълнението на ActiveX контроли</label>
+			<label index="HTML-document-not-well-formed">HTML документът не е добре форматиран.</label>
+			<label index="Moz-Clipboard">Скриптове без права програмно нямат достъп до &quot;Изрежи/Копирай/Постави&quot; по причини, свързани със сигурността. Щракнете ОК, за да видите техническата забележка на mozilla.org, която ви показва как да позволите достъп до clipboard-а от скрипт.</label>
+			<label index="Moz-Extension">По причини, свързани със сигурността, приложения без права нямат достъп до clipboard-a. Щракнете върху ОК, за да инсталирате компонент, който ще позволи на приложенията от този сайт да имат достъп до clipboard-а и да изпълняват операции копиране, изрязване и позставяне</label>
+			<label index="Moz-Extension-Success">Инсталацията беше успешна. Необходимо е да излезете и рестартирате вашия браузър, за да може промяната да има ефект.</label>
+			<label index="Moz-Extension-Failure">Съжаляваме, инсталацията се провали.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Инсталацията не може да бъде изпълнена. Моля променете настройките на вашия браузър, за да позволи инсталация на софтуера от този сайт.</label>
+			<label index="Allow-Clipboard-Helper-Extension">По причини, свързани със сигурността, приложения без права нямат достъп до clipboard-a. Щракнете върху ОК, за да инсталирате компонент, който ще ви позволи да определите сайтовете или страниците, на които ще им бъде позволено да имат достъп до clipboard-а и да изпълняват операции копиране, изрязване и позставяне</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Инсталацията не може да бъде изпълнена. Моля променете настройките на вашия браузър, за да позволите инсталацията на софтуер от http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Инсталацията беше успешна. Необходимо е да излезете и рестартирате вашия браузър, за да може промяната да има ефект. След това, използвайте AllowClipborad Helper от менюто с инструменти, за да позволите на специфични сайтове да използват клипборда.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="Path">Path</label>
+			<label index="HTML-document-not-well-formed">The HTML document is not well-formed.</label>
+			<label index="Moz-Extension-Failure">Sorry, the installation failed.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from this site.</label>
+			<label index="TEXT_MODE">You are in TEXT MODE.  Use the [&lt;&gt;] button to switch back to WYSIWYG.</label>
+			<label index="ActiveX-required">Loading the editor in Internet Explorer requires the execution of ActiveX controls to be enabled.</label>
+			<label index="Moz-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect. Afterwards, use the AllowClipboard Helper from the tools menu to allow specific sites to use the clipboard.</label>
+			<label index="Moz-Clipboard">Unprivileged scripts cannot access Cut/Copy/Paste programatically for security reasons. Click OK to see a technical note at mozilla.org which shows you how to allow a script to access the clipboard.</label>
+			<label index="Moz-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable applications from this site to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Allow-Clipboard-Helper-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable you to specify the sites or pages that will be allowed to access the clipboard and perform copy, cut and paste operations.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

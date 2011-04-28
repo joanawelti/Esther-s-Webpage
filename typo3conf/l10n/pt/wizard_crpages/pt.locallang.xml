@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="wiz_crMany">Criar multiplas páginas</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Criar novas páginas</label>
+			<label index="wiz_newPages_page">Página</label>
+			<label index="wiz_newPages_currentMenu">Nova estrutura</label>
+			<label index="wiz_newPages_helpText">Aqui pode auto-criar novas páginas vazias. Isto é muito útil se quiser gerar rápidamente uma estrutura de páginas para um novo site ou secção.&lt;br /&gt;Introduza somente os títulos das páginas que necessita. Somente os campos preenchidos serão criados como páginas.</label>
+			<label index="wiz_newPages_errorMsg1">Você não tem autorização para criar novas sub-páginas para esta página!</label>
+			<label index="wiz_newPages_lCreate">Criar páginas</label>
+			<label index="wiz_newPages_listEnd">Colocar as novas páginas depois de sub-páginas existentes</label>
+			<label index="wiz_newPages_hidePages">Ocultar novas páginas</label>
+			<label index="wiz_newPages_lCreate_msg1">Você está preste a criar muitas páginas novas. Tem a certeza de que quer continuar?</label>
+			<label index="wiz_newPages_lReset">Limpar campos</label>
+			<label index="wiz_newPages_noCreate">Nenhuma página foi criada!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="integer">1353175</label>
+			<label index="wiz_newPages_helpText" type="integer">257879061</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_lReset" type="integer">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

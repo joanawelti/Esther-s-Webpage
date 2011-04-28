@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="title">Upplýsingar um vefsíður</label>
+			<label index="depth_0">Þessi síða</label>
+			<label index="depth_1">1 stig</label>
+			<label index="depth_2">2 stig</label>
+			<label index="depth_3">3 stig</label>
+			<label index="mlang_labels_tablabel">Upplýsingar um síðuna, t.d. listi yfir eldri breytingar, fjöldi færsla og tölfræði</label>
+			<label index="mlang_labels_tabdescr">Hér getur þú fengið upplýsingar um vefsíður í veftrénu. Þessar upplýsingar eru m.a. listi yfir þær breytingar sem gerðar hafa verið, yfirlit yfir færslur á síðum og veftölfræði. Hægt er að sjá hversu margir hafa skoðað síðuna og á hvaða tíma hún er helst skoðuð.</label>
+			<label index="mlang_tabs_tab">Upplýsingar</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="title" type="integer">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">207029193</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="title">Page information</label>
+			<label index="depth_0">This page</label>
+			<label index="depth_1">1 level</label>
+			<label index="depth_2">2 levels</label>
+			<label index="depth_3">3 levels</label>
+			<label index="mlang_labels_tablabel">Page related information, eg. hit statistics, change log, record counts</label>
+			<label index="mlang_labels_tabdescr">The Web&gt;Info module is focused on statistic information about pages. This includes statistics of pagehits and a changelog allowing browsing of page history changes. An overview of the number of records on each page as well as page settings presented in a classic tree structure is provided.</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

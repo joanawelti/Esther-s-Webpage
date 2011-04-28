@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="Path">Cesta</label>
+			<label index="TEXT_MODE">Ste v textovom móde. Použite [&lt;&gt;] tlačítko na prepnutie do WYSIWYG.</label>
+			<label index="ActiveX-required">Načítanie editora do Internet Explorer-a vyžaduje povolenie prvkov ActiveX.</label>
+			<label index="HTML-document-not-well-formed">HTML dokument nie je správne vytvorený.</label>
+			<label index="Moz-Clipboard">Skripty bez privilégií nemôžu pristupovať k Vystrihnúť/Kopírovať/Vložiť kvôli bezpečnostným dôvodom. Kliknite OK pre zobrazenie technických podrobností na mozilla.org, ktoré Vám ukážu, ako povoliť prístup skriptov k obsahu schránky.</label>
+			<label index="Moz-Extension">Z bezpečnostných dôvodov, skripty bez privilégií nemôžu pristupovať k obsahu schránky. Kliknite OK pre doinštalovanie komponenty, ktorá povolí aplikáciám z tejto stránky pristupovať k obsahu schránky a vykonávať operácie Vystrihnúť/Kopírovať/Vložiť.</label>
+			<label index="Moz-Extension-Success">Inštalácia prebehla úspešne. Je potrebné zatvoriť a znova otvoriť Váš prehliadač, aby sa prejavili zmeny.</label>
+			<label index="Moz-Extension-Failure">Ľututjeme, inštalácia zlyhala.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Inštalácia nemohla byť vykonaná. Prosím, zmeňte nastavenia Vášho prehliadača, aby mohol byť inštalovaný software z tejto stránky.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Z bezpečnostných dôvodov, skripty bez privilégií nemôžu pristupovať k obsahu schránky. Kliknite OK pre doinštalovanie komponenty, ktorá povolí aplikáciám z tejto stránky pristupovať k obsahu schránky a vykonávať operácie Vystrihnúť/Kopírovať/Vložiť.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Inštalácia nemohla byť vykonaná.  Prosím, zmeňte nastavenia Vášho prehliadača, aby mohol byť inštalovaný software z http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Inštalácia prebehla úspešne. Je potrebné zatvoriť a znova otvoriť Váš prehliadač, aby sa prejavili zmeny. Následne použite AllowClipboard Helper z menu Nástroje, aby ste povolili používanie schránky z určitých stránok.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

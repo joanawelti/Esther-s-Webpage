@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="et" type="array">
+			<label index="introtext">Veebi sisuhalduse süsteem</label>
+			<label index="introtext2">Kasutatavate moodulite lühikirjeldus:</label>
+			<label index="endText">Funktsioonid võivad varieeruda olenevalt teie veebilehest ja õigustest</label>
+			<label index="userInfo">&lt;font size=1&gt;Olete sisse loginud kasutajana: &lt;strong&gt;%s&lt;/strong&gt; (%s)&lt;br&gt;&lt;/font&gt;</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="et" type="array">
+			<label index="introtext" type="integer">194562478</label>
+			<label index="introtext2" type="integer">234766952</label>
+			<label index="endText" type="integer">206585252</label>
+			<label index="userInfo" type="integer">170934145</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="et" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

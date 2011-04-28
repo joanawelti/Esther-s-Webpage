@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="layout.description">Wybierz układ dla strony. Efekt zależny jest od szablonu serwisu.</label>
+			<label index="doktype.description">Wybierz typ strony, który określa czy jest to widoczna strona serwisu czy też służy do innych celów.</label>
+			<label index="hidden.description">Jeśli zaznaczysz tą opcję, strona będzie ukryta w serwisie.</label>
+			<label index="starttime.description">Pole 'Start' określa datę i czas, od którego strona będzie widoczna w serwisie. Jest to przydatne przy publikacji strony w określonym terminie. Jeżeli pole 'Start' nie zostanie ustawione strona będzie widoczna natychmiast (chyba że strona jest ukryta).</label>
+			<label index="endtime.description">Pole 'Stop' określa datę i czas, od kiedy strona ma być niewidoczna.</label>
+			<label index="extendToSubpages.description">Domyślnie opcje Start, Stop, Dostęp i Ukryta działają &lt;em&gt;tylko&lt;/em&gt; dla strony, na której są ustawione. Jeżeli opcja 'Dołącz podstrony' jest zaznaczona dla tej strony wówczas jej opcje dostępu są dziedziczone przez wszystkie jej podstrony.</label>
+			<label index="alias.description">'Alias' jest unikalnym identyfikatorem tekstowym strony. Może być użyty zamiast numeru id w odsyłaczu do strony.</label>
+			<label index="target.description">Cel (target) dla odsyłacza do strony dla pozycji menu.</label>
+			<label index="no_cache.description">Ta opcja wyłacza cache'owanie strony na serwerze.</label>
+			<label index="cache_timeout.description">Ustawia czas ważności cache dla strony.</label>
+			<label index="no_search.description">Jeżeli opcja jest zaznaczona, wówczas strona jest wyłaczona dla mechanizmów wyszukiwania serwisu.</label>
+			<label index="author.description">Wprowadź autora strony.</label>
+			<label index="author_email.description">Wprowadź adres email autora strony.</label>
+			<label index="module.description">Zdefiniuj stronę jako moduł frontend.</label>
+			<label index="media.description">Dołącz obrazki lub pliki multimedialne powiązane z tą stroną.</label>
+			<label index="subtitle.description">Podaj podtytuł jeżeli jest potrzebny.</label>
+			<label index="url.description">Podaj URL, do którego odsyła ta strona.</label>
+			<label index="shortcut.description">Wprowadź odnośnik do strony, dla której ta strona stanowi skrót. Wywołanie tej strony przekieruje użytkownika na wskazaną stronę w odnośniku.</label>
+			<label index="keywords.description">Wprowadź słowa kluczowe dla strony oddzielone przecinkami.</label>
+			<label index="description.description">Wprowadź opis skrótu dla strony.</label>
+			<label index="abstract.description">Wprowadź abstrakt dla strony.</label>
+			<label index="newUntil.description">Wprowadź datę ważności strony.</label>
+			<label index="lastUpdated.description">Wprowadź datę i czas ostatniej aktualizacji strony.</label>
+			<label index="nav_hide.description">Zaznaczenie tej opcji ukryje stronę w menu nawigacyjnym serwisu. Strona będzie mogłą być nadal wyświetlona poprzez odsyłacz używając ID strony.</label>
+			<label index="nav_title.description">Tytuł alternatywny dla pozycji menu serwisu. Ta wartość, jeśli jest wypełnona, jest nadrzędna dla tytułu strony.</label>
+			<label index="content_from_pid.description">Wartość tego pola, jeżeli wprowadzone, wskazuje na id strony z któej mają być pobierane elementy zawartości zamiast elementów strony bieżącej.
+Działanie tego pola jest zależne od implementacji szablonu.</label>
+			<label index="urltype.description">Ustaw prefiks dla URL'a.</label>
+			<label index="shortcut_mode.description">Wybierz tryb skrótu. Strona będąca skrótem musi mieć określoną stronę, do której ma nastąpić przekierowanie. Innym typem skrótu jest przekierowanie do pierwszej podstrony lub podstrony losowej.</label>
+			<label index="mount_pid.description">Podłącz wskazaną stronę. Jeżeli ustawione oznacza to, że podstrony tej strony pochodzą z podłaczonej strony.</label>
+			<label index="mount_pid_ol.description">Jeżeli ustawione, punkt podłączenia jest zastąpiony przez podłączoną stronę. Wygląda to tak jakby punkt montowania nie istniał a w jego miejsce była wstawiana podłączona strona.</label>
+			<label index="title.description.+">Pole to używane jest w nawigacji po serwisie.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="layout.description" type="integer">34592331</label>
+			<label index="doktype.description" type="integer">89204505</label>
+			<label index="hidden.description" type="integer">64594605</label>
+			<label index="starttime.description" type="integer">225330621</label>
+			<label index="endtime.description" type="integer">239481021</label>
+			<label index="extendToSubpages.description" type="integer">20650362</label>
+			<label index="alias.description" type="integer">29393799</label>
+			<label index="target.description" type="integer">183968307</label>
+			<label index="no_cache.description" type="integer">234280457</label>
+			<label index="cache_timeout.description" type="integer">146302636</label>
+			<label index="no_search.description" type="integer">174061864</label>
+			<label index="author.description" type="integer">35641560</label>
+			<label index="author_email.description" type="integer">263994700</label>
+			<label index="module.description" type="integer">122892371</label>
+			<label index="media.description" type="integer">152445229</label>
+			<label index="subtitle.description" type="integer">159881469</label>
+			<label index="url.description" type="integer">209817224</label>
+			<label index="shortcut.description" type="integer">240899258</label>
+			<label index="keywords.description" type="integer">155037793</label>
+			<label index="description.description" type="integer">146429238</label>
+			<label index="abstract.description" type="integer">166752438</label>
+			<label index="newUntil.description" type="integer">266998258</label>
+			<label index="lastUpdated.description" type="integer">210484482</label>
+			<label index="nav_hide.description" type="integer">109378815</label>
+			<label index="nav_title.description" type="integer">207408422</label>
+			<label index="content_from_pid.description" type="integer">255780249</label>
+			<label index="urltype.description" type="integer">135670396</label>
+			<label index="shortcut_mode.description" type="integer">243396073</label>
+			<label index="mount_pid.description" type="integer">87831904</label>
+			<label index="mount_pid_ol.description" type="integer">59925493</label>
+			<label index="title.description.+" type="integer">122833099</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="layout.description">Select a layout for the page. Any effect depends on the website template.</label>
+			<label index="doktype.description">Select a page type affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="hidden.description">If this is checked, the page will be hidden on the website.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the page will be visible online. Use this to 'publish' the page on a certain date. If 'Start' time is not set, the page will be online instantly (unless the page is hidden otherwise).</label>
+			<label index="endtime.description">The 'Stop' time is the date from which the page will not be online anymore.</label>
+			<label index="extendToSubpages.description">By default the Start, Stop, Access and Hidden options are effective &lt;em&gt;only&lt;/em&gt; for the page on which they are set. If the option 'Include subpages' is checked for the page, then their effect is inherited by all subpages to that page.</label>
+			<label index="alias.description">An 'alias' is a unique identification string for a page. You can use this string instead of the id-number to refer to the page.</label>
+			<label index="target.description">The HTML target of menu items linking to this page.</label>
+			<label index="no_cache.description">This option disables server caching of the page.</label>
+			<label index="cache_timeout.description">Sets the cache timeout for the page.</label>
+			<label index="no_search.description">If enabled, this option excludes the page from searching operations on the website.</label>
+			<label index="author.description">Enter the page authors name.</label>
+			<label index="author_email.description">Enter the page authors email address.</label>
+			<label index="module.description">Define the page as a frontend 'module'.</label>
+			<label index="media.description">Attach media files related to the page.</label>
+			<label index="subtitle.description">Enter a subtitle if needed.</label>
+			<label index="url.description">Enter the URL to which this page is supposed to link.</label>
+			<label index="shortcut.description">Insert a reference to the page to which this page is supposed to be a shortcut. Requesting this ID in the frontend will redirect people to the page referred to by this value.</label>
+			<label index="keywords.description">Enter keywords for the page separated by commas.</label>
+			<label index="description.description">Enter a short description for the page.</label>
+			<label index="abstract.description">Enter an abstract for the page.</label>
+			<label index="newUntil.description">Enter the 'expiry date' of the page.</label>
+			<label index="lastUpdated.description">Enter the time and date of the most recent update of this page.</label>
+			<label index="nav_hide.description">With this option the page will be hidden in navigation menus in the frontend. The page can still be viewed if linked by its ID directly.</label>
+			<label index="nav_title.description">Alternative title for menu items in the frontend. This value takes precedence over the page title if this value is filled in.</label>
+			<label index="content_from_pid.description">If set, this is an alternative page id from where Content Elements will be selected instead of Content Elements from the current page.
+Depends on template implementation whether this applies.</label>
+			<label index="urltype.description">Set the URL prefix.</label>
+			<label index="shortcut_mode.description">Select a shortcut mode. By default the shortcut page type must have a page id to jump to. Alternative methods are to go to the first subpage of a page or to a random subpage.</label>
+			<label index="mount_pid.description">Mount this page id. If set it means that the subpages of this page comes from the mounted page instead.</label>
+			<label index="mount_pid_ol.description">If set, the mount point is &quot;overlaid&quot; by the mounted page. It will look like if the mount point does not exist and the mounted page is inserted in its position instead.</label>
+			<label index="title.description.+">This is normally shown in the website navigation.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

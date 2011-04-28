@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="index_config">Configuração de Indexação</label>
+			<label index="index_config.title">Título:</label>
+			<label index="index_config.description">Descrição:</label>
+			<label index="index_config.type.I.1">Registros de Banco-de-Dados</label>
+			<label index="index_config.type.I.2">Caminho do arquivo no servidor</label>
+			<label index="index_config.type.I.3">URL Externa</label>
+			<label index="index_config.type.I.4">Árvore de páginas</label>
+			<label index="index_config.type.I.5">Meta-configuração</label>
+			<label index="index_config.type">Tipo:</label>
+			<label index="index_config.depth.I.0">Página única</label>
+			<label index="index_config.depth.I.1">1 Nível</label>
+			<label index="index_config.depth.I.2">2 Níveis</label>
+			<label index="index_config.depth.I.3">3 Níveis</label>
+			<label index="index_config.depth">Profundidade:</label>
+			<label index="index_config.table2index">Tabela para indexar:</label>
+			<label index="index_config.alternative_source_pid">Página Fonte Alternativa:</label>
+			<label index="index_config.get_params">Parâmetro GET (com substituição ###UID###):</label>
+			<label index="index_config.fields">Campos (título vem primeiro):</label>
+			<label index="index_config.externalUrl">URL Externa (ex: &quot;http://www.dominio.com.br&quot;):</label>
+			<label index="index_config.chashcalc">Calcular cHash (forçar caching)?</label>
+			<label index="index_config.filepath">Caminho:</label>
+			<label index="index_config.extensions">Limitar para as extensões (lista separada por vírgulas):</label>
+			<label index="index_config.url_deny">Insira as sub-URLs onde não baixar</label>
+			<label index="index_config.records_indexonchange">Indexar Registros automaticamente quando salvos?</label>
+			<label index="index_config.timer_next_indexing">Próxima indexação está programada (se vazia, imediatamente):</label>
+			<label index="index_config.timer_offset">Intervalo de tempo a partir da meia-noite:</label>
+			<label index="index_config.timer_frequency">Com que freqüência você gostaria de uma re-indexação?:</label>
+			<label index="index_config.timer_frequency.I.0">Toda hora</label>
+			<label index="index_config.timer_frequency.I.1">Todo dia (24 horas)</label>
+			<label index="index_config.timer_frequency.I.2">Toda semana</label>
+			<label index="index_config.recordsbatch">Quantos registros devem ser indexados por minuto (padrão são 100):</label>
+			<label index="index_config.indexcfgs">Configurações da indexação:</label>
+			<label index="index_config.parameterCfgs">Configuração de combinação de parâmetros ([nome_da_tabela]:&amp;[param]=###UID###)</label>
+			<label index="index_config.rootpage">Página raiz:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="index_config" type="integer">260751312</label>
+			<label index="index_config.title" type="integer">85903807</label>
+			<label index="index_config.description" type="integer">218120871</label>
+			<label index="index_config.type.I.1" type="integer">202530923</label>
+			<label index="index_config.type.I.2" type="integer">43997271</label>
+			<label index="index_config.type.I.3" type="integer">76246465</label>
+			<label index="index_config.type" type="integer">241539922</label>
+			<label index="index_config.depth.I.0" type="integer">141943516</label>
+			<label index="index_config.depth.I.1" type="integer">159741036</label>
+			<label index="index_config.depth.I.2" type="integer">61164083</label>
+			<label index="index_config.depth.I.3" type="integer">113480435</label>
+			<label index="index_config.depth" type="integer">186534530</label>
+			<label index="index_config.table2index" type="integer">17017163</label>
+			<label index="index_config.alternative_source_pid" type="integer">198125496</label>
+			<label index="index_config.get_params" type="integer">218226603</label>
+			<label index="index_config.fields" type="integer">109814878</label>
+			<label index="index_config.externalUrl" type="integer">169862361</label>
+			<label index="index_config.chashcalc" type="integer">230076146</label>
+			<label index="index_config.filepath" type="integer">219758268</label>
+			<label index="index_config.extensions" type="integer">228527306</label>
+			<label index="index_config.type.I.4" type="integer">151051780</label>
+			<label index="index_config.type.I.5" type="integer">251615293</label>
+			<label index="index_config.url_deny" type="integer">237282731</label>
+			<label index="index_config.records_indexonchange" type="integer">79543267</label>
+			<label index="index_config.timer_next_indexing" type="integer">223024505</label>
+			<label index="index_config.timer_offset" type="integer">214442710</label>
+			<label index="index_config.timer_frequency" type="integer">201825913</label>
+			<label index="index_config.timer_frequency.I.0" type="double">3134077</label>
+			<label index="index_config.timer_frequency.I.1" type="integer">44283731</label>
+			<label index="index_config.timer_frequency.I.2" type="integer">105407448</label>
+			<label index="index_config.recordsbatch" type="integer">250063132</label>
+			<label index="index_config.indexcfgs" type="integer">91965293</label>
+			<label index="index_config.parameterCfgs" type="integer">224062683</label>
+			<label index="index_config.rootpage" type="integer">182467720</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="index_config">Indexing Configuration</label>
+			<label index="index_config.title">Title:</label>
+			<label index="index_config.description">Description:</label>
+			<label index="index_config.type.I.1">Database Records</label>
+			<label index="index_config.type.I.2">Filepath on server</label>
+			<label index="index_config.type.I.3">External URL</label>
+			<label index="index_config.type">Type:</label>
+			<label index="index_config.depth.I.0">Single page</label>
+			<label index="index_config.depth.I.1">1 Level</label>
+			<label index="index_config.depth.I.2">2 Levels</label>
+			<label index="index_config.depth.I.3">3 Levels</label>
+			<label index="index_config.depth">Depth:</label>
+			<label index="index_config.table2index">Table to index:</label>
+			<label index="index_config.alternative_source_pid">Alternative Source Page:</label>
+			<label index="index_config.get_params">GET parameter string (with ###UID### substitution):</label>
+			<label index="index_config.fields">Fields (first is title):</label>
+			<label index="index_config.externalUrl">External URL (eg. &quot;http://www.domain.org/&quot;):</label>
+			<label index="index_config.chashcalc">Calculate cHash (force caching)?</label>
+			<label index="index_config.filepath">Filepath:</label>
+			<label index="index_config.extensions">Limit to extensions (commalist):</label>
+			<label index="index_config.type.I.4">Page tree</label>
+			<label index="index_config.type.I.5">Meta configuration</label>
+			<label index="index_config.url_deny">Enter sub-URLs in which not to decend:</label>
+			<label index="index_config.records_indexonchange">Index Records immediately when saved?:</label>
+			<label index="index_config.timer_next_indexing">Next indexing is scheduled (if empty, then immediately):</label>
+			<label index="index_config.timer_offset">Timing offset from midnight:</label>
+			<label index="index_config.timer_frequency">How often would you like a re-index?:</label>
+			<label index="index_config.timer_frequency.I.0">Every hour</label>
+			<label index="index_config.timer_frequency.I.1">Every day (24 hours)</label>
+			<label index="index_config.timer_frequency.I.2">Every week</label>
+			<label index="index_config.recordsbatch">How many records to index a minute (default is 100):</label>
+			<label index="index_config.indexcfgs">Indexing configurations:</label>
+			<label index="index_config.parameterCfgs">Parameter combination configuration ([tablename]:&amp;[param]=###UID###):</label>
+			<label index="index_config.rootpage">Root page:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

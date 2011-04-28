@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="folderTree">Strom zložiek</label>
+			<label index="uploadImage">Uploadovať obrázok</label>
+			<label index="path">Cesta</label>
+			<label index="images">Obrázky</label>
+			<label index="magicImage_msg">V 'magickom' móde môžeš zvoliť akýkoľvek obrázok s akýmikoľvek rozmermi. Obrázok je automaticky skonvertovaný na webovský formát a všetky úpravy sú spracovavané tak, aby sa optimalizovala veľkosť a kvalita.</label>
+			<label index="plainImage_msg">V 'prostom' móde môžeš vkladať iba obrázky vo webovskom formáte (JPG, GIF alebo PNG) do veľkosti 640x480 bodov. Táto metóda je určená pre obrázky, ktoré boli pre web  optimalizované.</label>
+			<label index="class">Štýl</label>
+			<label index="width">Šírka</label>
+			<label index="height">Výška</label>
+			<label index="border">Okraj</label>
+			<label index="margin_tb">Okraj hore/dole</label>
+			<label index="margin_lr">Okraj vľavo/vpravo</label>
+			<label index="float">Float</label>
+			<label index="notSet">Nenastavené</label>
+			<label index="nonFloating">Non-floating</label>
+			<label index="left">Vľavo</label>
+			<label index="right">Vpravo</label>
+			<label index="title">Nadpis</label>
+			<label index="alt">Alternate text</label>
+			<label index="update">Aktualizovať</label>
+			<label index="magicImage">Nový 'magický' obrázok</label>
+			<label index="plainImage">Nový 'prostý' obrázok</label>
+			<label index="dragDropImage">Drag'n'Drop</label>
+			<label index="currentImage">Aktuálny obrázok</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="folderTree" type="integer">62125109</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="images" type="integer">268373344</label>
+			<label index="magicImage_msg" type="integer">36451032</label>
+			<label index="plainImage_msg" type="integer">227989181</label>
+			<label index="class" type="integer">182617337</label>
+			<label index="width" type="integer">53040229</label>
+			<label index="height" type="integer">250375243</label>
+			<label index="border" type="integer">7361862</label>
+			<label index="margin_tb" type="integer">127734039</label>
+			<label index="margin_lr" type="integer">82280674</label>
+			<label index="float" type="integer">36364514</label>
+			<label index="notSet" type="integer">163210921</label>
+			<label index="nonFloating" type="integer">169566595</label>
+			<label index="left" type="integer">155571682</label>
+			<label index="right" type="integer">153815495</label>
+			<label index="title" type="integer">192455458</label>
+			<label index="alt" type="integer">237067341</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="magicImage" type="integer">87595471</label>
+			<label index="plainImage" type="integer">174130358</label>
+			<label index="dragDropImage" type="integer">228115367</label>
+			<label index="currentImage" type="integer">205301887</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

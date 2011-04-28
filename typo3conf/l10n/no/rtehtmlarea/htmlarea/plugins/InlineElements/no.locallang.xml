@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="No markup">Intet tekstformat</label>
+			<label index="Remove markup">Fjern tekstformat</label>
+			<label index="FormatText-Tooltip">Tildel stil til valgt tekst</label>
+			<label index="BiDiOverride-Tooltip">Overskør begge veier</label>
+			<label index="Big-Tooltip">Stor skrift</label>
+			<label index="Bold-Tooltip">Fet</label>
+			<label index="Citation-Tooltip">Sitat</label>
+			<label index="Code-Tooltip">Kodefragment</label>
+			<label index="Definition-Tooltip">Definisjon</label>
+			<label index="DeletedText-Tooltip">Slettet tekst</label>
+			<label index="Emphasis-Tooltip">Emphasis</label>
+			<label index="Keyboard-Tooltip">Tekst som skal skives av bruker</label>
+			<label index="InsertedText-Tooltip">Insatt tekst</label>
+			<label index="Italic-Tooltip">Kursiv</label>
+			<label index="MonoSpaced-Tooltip">Monospaced tekst</label>
+			<label index="Quotation-Tooltip">Kort invendigig sitat</label>
+			<label index="Sample-Tooltip">Eksempelprogram kode eller skript</label>
+			<label index="Small-Tooltip">Liten tekst</label>
+			<label index="Span-Tooltip">Stil tekstbkokk</label>
+			<label index="StrikeThrough-Tooltip">Gjennomstreket tekst</label>
+			<label index="Strong-Tooltip">Sterk emphasis</label>
+			<label index="Subscript-Tooltip">Senket</label>
+			<label index="Superscript-Tooltip">Hevet</label>
+			<label index="Underline-Tooltip">Understreket</label>
+			<label index="Variable-Tooltip">Variabel eller programargument</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="No markup" type="integer">438135</label>
+			<label index="Remove markup" type="integer">160564254</label>
+			<label index="FormatText-Tooltip" type="integer">68174344</label>
+			<label index="BiDiOverride-Tooltip" type="integer">184164449</label>
+			<label index="Big-Tooltip" type="integer">219697374</label>
+			<label index="Bold-Tooltip" type="integer">18137861</label>
+			<label index="Citation-Tooltip" type="integer">92773637</label>
+			<label index="Code-Tooltip" type="integer">9460030</label>
+			<label index="Definition-Tooltip" type="integer">12095665</label>
+			<label index="DeletedText-Tooltip" type="integer">203450772</label>
+			<label index="Emphasis-Tooltip" type="integer">70412501</label>
+			<label index="Keyboard-Tooltip" type="integer">263034582</label>
+			<label index="InsertedText-Tooltip" type="integer">189297700</label>
+			<label index="Italic-Tooltip" type="integer">30962801</label>
+			<label index="MonoSpaced-Tooltip" type="integer">226699895</label>
+			<label index="Quotation-Tooltip" type="integer">6095829</label>
+			<label index="Sample-Tooltip" type="integer">72033692</label>
+			<label index="Small-Tooltip" type="integer">116401167</label>
+			<label index="Span-Tooltip" type="integer">84664734</label>
+			<label index="StrikeThrough-Tooltip" type="integer">107675429</label>
+			<label index="Strong-Tooltip" type="integer">214271069</label>
+			<label index="Subscript-Tooltip" type="integer">153638286</label>
+			<label index="Superscript-Tooltip" type="integer">103903129</label>
+			<label index="Underline-Tooltip" type="integer">139620890</label>
+			<label index="Variable-Tooltip" type="integer">257494913</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="No markup">No text format</label>
+			<label index="Remove markup">Remove text format</label>
+			<label index="FormatText-Tooltip">Apply format to selected text</label>
+			<label index="BiDiOverride-Tooltip">Bidirectionality override</label>
+			<label index="Big-Tooltip">Large text</label>
+			<label index="Bold-Tooltip">Bold</label>
+			<label index="Citation-Tooltip">Citation</label>
+			<label index="Code-Tooltip">Computer code fragment</label>
+			<label index="Definition-Tooltip">Definition</label>
+			<label index="DeletedText-Tooltip">Deleted text</label>
+			<label index="Emphasis-Tooltip">Emphasis</label>
+			<label index="Keyboard-Tooltip">Text to be entered by the user</label>
+			<label index="InsertedText-Tooltip">Inserted text</label>
+			<label index="Italic-Tooltip">Italic</label>
+			<label index="MonoSpaced-Tooltip">Monospaced text</label>
+			<label index="Quotation-Tooltip">Short inline quotation</label>
+			<label index="Sample-Tooltip">Sample program output or script</label>
+			<label index="Small-Tooltip">Small text</label>
+			<label index="Span-Tooltip">Style container</label>
+			<label index="StrikeThrough-Tooltip">Strike-through text</label>
+			<label index="Strong-Tooltip">Strong emphasis</label>
+			<label index="Subscript-Tooltip">Subscript</label>
+			<label index="Superscript-Tooltip">Superscript</label>
+			<label index="Underline-Tooltip">Underline</label>
+			<label index="Variable-Tooltip">Variable or program argument</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="No style">Ingen blockstil</label>
+			<label index="Remove style">Ta bort blockstil</label>
+			<label index="Unknown style">Okänd blockstil</label>
+			<label index="Element style">Blockelementstil</label>
+			<label index="BlockStyle-Tooltip">Anbringa stil på innehållande block</label>
+			<label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="No style" type="integer">231295103</label>
+			<label index="Remove style" type="integer">144427347</label>
+			<label index="Unknown style" type="integer">202384002</label>
+			<label index="Element style" type="integer">34161661</label>
+			<label index="BlockStyle-Tooltip" type="integer">265888823</label>
+			<label index="Technische Universitat Ilmenau" type="integer">62570617</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="No style">No block style</label>
+			<label index="Remove style">Remove block style</label>
+			<label index="Unknown style">Unknown block style</label>
+			<label index="Element style">Block element style</label>
+			<label index="BlockStyle-Tooltip">Apply style to the containing block</label>
+			<label index="Technische Universitat Ilmenau">Technische Universität Ilmenau</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

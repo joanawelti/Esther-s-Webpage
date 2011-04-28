@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel">เครื่องมือ การติดตั้ง</label>
+			<label index="mlang_labels_tabdescr">จัดให้มีลิ้งค์ง่ายๆ ไปที่เครื่องมือ การติดตั้ง  สังเกตุว่าเครื่องมือ การติดตั้ง (ใน typo3/install/) จะต้องเลือกให้ใช้ได้ &lt;br/&gt;&lt;em&gt;เข้าถึงได้เฉพาะผู้ดูแลระบบ 'admin' เท่านั้น! &lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">การติดตั้ง</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel" type="integer">91233822</label>
+			<label index="mlang_labels_tabdescr" type="integer">184150281</label>
+			<label index="mlang_tabs_tab" type="integer">55149455</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

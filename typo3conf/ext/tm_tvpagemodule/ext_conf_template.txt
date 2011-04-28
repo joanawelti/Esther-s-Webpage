@@ -1,0 +1,8 @@
+# cat=basic/enable; type=boolean; label= Better layout for Page module:If TemplaVoila is installed, you can get with this option more layout control. Extends page module with the functionality or the plugin 'me_templavoilayout'.
+enable.me_templavoilalayout = 0
+# cat=basic/enable; type=boolean; label= Better layout for Page module:If TemplaVoila is installed, you can get with this option more layout control. Extends page module with the functionality  made by Stefan Galinski (http://bugs.typo3.org/view.php?id=4387).
+enable.sg_templavoilalayout = 0
+# cat=basic/enable; type=boolean; label= Allow user setup:This option allows tailoring generic User > setup options (adds for example new menu type (dropdown), when the plugin 'topapss' has been installed). Made using an XCLASS. May cause conflicts with other plugings.
+enable.userSetup=0
+# cat=basic/enable; type=boolean; label= Allow change BE forms:This option allows changed backend forms, which have for example possibility to use tabbed menu for some actions. Enables some XCLASS extensions. XCLASS implementations may cause conflicts with other plugins. Needs 'tm_shared_lib' installed before installing this extension. 
+enable.changedBEForms=0

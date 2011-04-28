@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="removeLink">Linki kaldır</label>
+			<label index="uploadImage">Resmi yükle</label>
+			<label index="update">Güncelle</label>
+			<label index="path">Yol</label>
+			<label index="page">Sayfa</label>
+			<label index="file">Dosya</label>
+			<label index="extUrl">Dış URL</label>
+			<label index="email">E-mail</label>
+			<label index="special">Özel</label>
+			<label index="folderTree">Klasör Ağacı</label>
+			<label index="files">Dosyalar</label>
+			<label index="target">Hedef</label>
+			<label index="target_popUpWindow">Bu pencerede aç</label>
+			<label index="target_popUpWindow_width">Genişlik</label>
+			<label index="target_popUpWindow_height">Uzunluk</label>
+			<label index="newWindow">Yeni pencere</label>
+			<label index="top">Üst</label>
+			<label index="none">Hiç - yeni link yok!</label>
+			<label index="pageTree">Sayfa ağacı</label>
+			<label index="contentElements">İçerik elemanları</label>
+			<label index="selectRecords">Kayıtları seç</label>
+			<label index="addToList">Listeye ekle</label>
+			<label index="info">Bilgi</label>
+			<label index="emailAddress">E-mail adresi</label>
+			<label index="setLink">Link Kur</label>
+			<label index="clickToRedrawFullSize">Resim burda gösterilenden daha büyük! Tam ebat ile yeniden çizmeye tıklayınız.</label>
+			<label index="findDragDrop">Resminizi bulun, sonra resmin üzerine tıklayın ve ana penceredeki düzenleyicinin içine sürükleyin!</label>
+			<label index="noWebFolder">Bu dosyadan resimi sürükleyemezsiniz (Sarı) Çünkü Bu server da iç kısma aittir.</label>
+			<label index="currentLink">Güncel Link</label>
+			<label index="invalidChar">HATA : Dosya yolunda mevcut olmayan karakter bulundu (%s). Dosya eklenemiyor</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="target_popUpWindow" type="integer">21986240</label>
+			<label index="target_popUpWindow_width" type="integer">53040229</label>
+			<label index="target_popUpWindow_height" type="integer">250375243</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+			<label index="invalidChar" type="integer">103011900</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

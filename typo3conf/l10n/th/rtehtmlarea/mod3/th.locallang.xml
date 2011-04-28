@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="removeLink">ลบลิ้ง</label>
+			<label index="uploadImage">อัปโหลด ภาพ</label>
+			<label index="update">บันทีก</label>
+			<label index="path">ืที่ไป</label>
+			<label index="page">หน้า</label>
+			<label index="file">แฟ้มข้อมูล</label>
+			<label index="extUrl">URL ภายนอก</label>
+			<label index="email">อีเมล์</label>
+			<label index="special">พิเศษ</label>
+			<label index="folderTree">โครงสร้างแฟ้ม</label>
+			<label index="files">แฟ้มข้อมูล</label>
+			<label index="target">ที่หมาย</label>
+			<label index="newWindow">หน้าต่างใหม่</label>
+			<label index="top">ด้านบน</label>
+			<label index="none">ไม่มี - เปิดลิ้งใไหม่!</label>
+			<label index="pageTree">โครงสร้าง หน้า</label>
+			<label index="contentElements">องค์ประกอบของเนื้อหา</label>
+			<label index="selectRecords">เลือกบันทีกข้อมูล</label>
+			<label index="addToList">เพิ่มเข้ารายการ</label>
+			<label index="info">ข้อมูล</label>
+			<label index="emailAddress">ที่อยู่อีเมล์</label>
+			<label index="setLink">กำหนดลิ้ง</label>
+			<label index="clickToRedrawFullSize">ภาพใหญ่เกินกว่าที่จะเสดงที่นี่ได้! กดปุ่มเพื่อให้แสดงเต็มขนาด</label>
+			<label index="findDragDrop">ค้นหาภาพของท่าน แล้วกดปุ่มที่ภาพและลากไปใส่หน้าต่างหลักของโปรเแกรมแก้ไข</label>
+			<label index="noWebFolder">ลากภาพจากแฟ้มสีเหลืองนี้ไม่ได้ เพราะมันอยู่ภายในตัวเซืร์ฟเว่อ</label>
+			<label index="currentLink">ลิ้งปัจจุบัน</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="removeLink" type="integer">127410368</label>
+			<label index="uploadImage" type="integer">33130562</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="path" type="integer">180814866</label>
+			<label index="page" type="integer">26464201</label>
+			<label index="file" type="integer">11696408</label>
+			<label index="extUrl" type="integer">76246465</label>
+			<label index="email" type="integer">216575645</label>
+			<label index="special" type="integer">189541205</label>
+			<label index="folderTree" type="integer">64613660</label>
+			<label index="files" type="integer">153041452</label>
+			<label index="target" type="integer">205628184</label>
+			<label index="newWindow" type="integer">241027301</label>
+			<label index="top" type="integer">173014479</label>
+			<label index="none" type="integer">11678269</label>
+			<label index="pageTree" type="integer">151051780</label>
+			<label index="contentElements" type="integer">221138583</label>
+			<label index="selectRecords" type="integer">189568969</label>
+			<label index="addToList" type="integer">135970903</label>
+			<label index="info" type="integer">67476226</label>
+			<label index="emailAddress" type="integer">188054354</label>
+			<label index="setLink" type="integer">126500206</label>
+			<label index="clickToRedrawFullSize" type="integer">38116243</label>
+			<label index="findDragDrop" type="integer">164239036</label>
+			<label index="noWebFolder" type="integer">213382956</label>
+			<label index="currentLink" type="integer">220492962</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

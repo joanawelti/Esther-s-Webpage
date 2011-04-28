@@ -1,0 +1,74 @@
+
+lib.navigation = HMENU
+lib.navigation {
+
+	1 = TMENU
+	1 {
+		# expands all menu entries
+		expAll = 0 
+		
+		wrap = <ul class="level0">|</ul>
+		noBlur = 1
+		
+		# normal state of a page
+		NO = 1
+		NO {
+		wrapItemAndSub = <li>|</li>
+		ATagTitle.field = description // title
+		}
+
+		# pages that have subpages
+		#IFSUB = 1
+		#IFSUB {
+		#wrapItemAndSub = <li class="menuparent">|</li>
+		#ATagParams = 
+		#ATagTitle.field = description // title
+		#}
+
+		# currently selected page
+		CUR = 1
+		CUR {
+		wrapItemAndSub = <li>|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+
+		#CURIFSUB = 1
+		#CURIFSUB {
+		#wrapItemAndSub = <li class="menuparent">|</li>
+		#ATagParams = class="active"
+		#ATagTitle.field = description // title
+		#}
+
+		# currently selected page and its parent pages
+		ACT = 1
+		ACT {
+		wrapItemAndSub = <li>|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+		
+		ACTIFSUB = 1
+		ACTIFSUB {
+		wrapItemAndSub = <li class="menuparent">|</li>
+		ATagParams = class="active"
+		ATagTitle.field = description // title
+		}
+
+
+	}
+	2 < .1	
+	2 {
+		wrap = <ul class="level1">|</ul>
+	}
+
+	3 < .2
+	3 {
+		wrap = <ul class="level2">|</ul>
+	}
+	
+	4 < .2
+	4 {
+		wrap = <ul class="level3">|</ul>
+	}
+}

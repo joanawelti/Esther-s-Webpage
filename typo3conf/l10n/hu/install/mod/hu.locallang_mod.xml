@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hu" type="array">
+			<label index="mlang_labels_tablabel">Telepítő Eszköz</label>
+			<label index="mlang_labels_tabdescr">Egy egyszerű linket hoz létre a Telepítő Eszközhöz. A Telepítő Eszköz (typo3/install/ könyvtárban) engedélyezni kell. .&lt;BR&gt;&lt;em&gt;Csak 'admin' felhasználóknak engedélyezve!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Telepítő</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hu" type="array">
+			<label index="mlang_labels_tablabel" type="integer">91233822</label>
+			<label index="mlang_labels_tabdescr" type="integer">184150281</label>
+			<label index="mlang_tabs_tab" type="integer">55149455</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hu" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

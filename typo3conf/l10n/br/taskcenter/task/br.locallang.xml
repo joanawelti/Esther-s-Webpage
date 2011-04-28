@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="title">Histórico de Tarefas</label>
+			<label index="lReplyAddress">Endereço de resposta é o seu e-mail</label>
+			<label index="lSelf">Próprio</label>
+			<label index="lSendNew">Enviar mensagem</label>
+			<label index="lSendReply">Responder à mensagem</label>
+			<label index="listSeparator_Groups">__Grupos:__</label>
+			<label index="lHomedir">Diretório raiz</label>
+			<label index="lNone">[nenhum]</label>
+			<label index="lCreate">Criar</label>
+			<label index="lCancel">Cancelar</label>
+			<label index="lDelete_warning">Tem certeza que quer apagar este usuário?</label>
+			<label index="lDelete">Remover</label>
+			<label index="lUpdate">Atualizar</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="title" type="integer">6410427</label>
+			<label index="lReplyAddress" type="integer">224962887</label>
+			<label index="lSelf" type="integer">181856101</label>
+			<label index="lSendNew" type="integer">122144419</label>
+			<label index="lSendReply" type="integer">105689675</label>
+			<label index="listSeparator_Groups" type="integer">221382396</label>
+			<label index="lHomedir" type="integer">24871266</label>
+			<label index="lNone" type="integer">173298844</label>
+			<label index="lCreate" type="integer">109504151</label>
+			<label index="lCancel" type="integer">245659783</label>
+			<label index="lDelete_warning" type="integer">173897440</label>
+			<label index="lDelete" type="integer">254438473</label>
+			<label index="lUpdate" type="integer">6894342</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel">Configuração pessoal</label>
+			<label index="mlang_labels_tabdescr">Este módulo permite-lhe configurar o seu perfil de gestão do sistema . Aqui você pode alterar o idioma activo do sistema, nome e endereço de email. Pode também configurar outras opções gerais do sistema.</label>
+			<label index="mlang_tabs_tab">Configurar</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+			<label index="mlang_labels_tablabel" type="integer">39109629</label>
+			<label index="mlang_labels_tabdescr" type="integer">237774117</label>
+			<label index="mlang_tabs_tab" type="integer">181548907</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

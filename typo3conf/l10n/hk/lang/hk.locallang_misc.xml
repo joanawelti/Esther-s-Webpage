@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hk" type="array">
+			<label index="shortcut_edit">編輯</label>
+			<label index="shortcut_editID">編輯網頁編號(ID)</label>
+			<label index="shortcut_save">更新捷徑名稱</label>
+			<label index="shortcut_saveClose">更新及關閉編輯器</label>
+			<label index="shortcut_close">關閉捷徑編輯器</label>
+			<label index="shortcut_delete">移除捷徑</label>
+			<label index="shortcut_loadEdit">載入網頁</label>
+			<label index="shortcut_notEditable">沒有發現可編輯的網頁！</label>
+			<label index="shortcut_group">使用者群組</label>
+			<label index="shortcut_GLOBAL">整體的</label>
+			<label index="shortcut_ALL">所有</label>
+			<label index="shortcut_onlyAdmin">你不能編輯一個分享的捷徑！</label>
+			<label index="shortcut_selSC">記擇捷徑</label>
+			<label index="shortcut_delAllInCat">刪除所有在這個群組的捷徑﹖</label>
+			<label index="overwriteExistingFiles">覆寫現存檔案</label>
+			<label index="selectPosition">選擇新網頁的位置</label>
+			<label index="goBack">返回</label>
+			<label index="createNewPage">建立新網頁</label>
+			<label index="clickForWizard">點擊這裡顯示精靈</label>
+			<label index="insertNewPageHere">在這裡插入新網頁</label>
+			<label index="insertNewRecordHere">在這裡插入新記錄</label>
+			<label index="movePageToHere">移網頁至此處</label>
+			<label index="moveElement">移動元件</label>
+			<label index="selectPositionOfElement">選擇元件的位置</label>
+			<label index="movingElement">移動元件</label>
+			<label index="makeCopy">以複製來取代移動元件</label>
+			<label index="newContentElement">新內容元件</label>
+			<label index="1_selectType">１：選擇內容元件的種類</label>
+			<label index="2_selectPosition">２：選擇位置：</label>
+			<label index="CM_editAccess">能見度設家</label>
+			<label index="CM_history">歷史╱復原</label>
+			<label index="CM_perms">權限</label>
+			<label index="CM_moveWizard">移動元件</label>
+			<label index="CM_moveWizard_page">移動網頁</label>
+			<label index="CM_newWizard">「建立新網頁」精靈</label>
+			<label index="CM_editPageHeader">編輯網頁標題</label>
+			<label index="CM_db_list">網站＞表列模組</label>
+			<label index="noEditPage">你被要求修改頁「%s」，但是你不能修改這網頁。現在如常載入後勤。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hk" type="array">
+			<label index="shortcut_edit" type="integer">131916066</label>
+			<label index="shortcut_editID" type="integer">7554086</label>
+			<label index="shortcut_save" type="integer">182178946</label>
+			<label index="shortcut_saveClose" type="integer">148652521</label>
+			<label index="shortcut_close" type="integer">260242109</label>
+			<label index="shortcut_delete" type="integer">11634947</label>
+			<label index="shortcut_loadEdit" type="integer">252728275</label>
+			<label index="shortcut_notEditable" type="integer">219401</label>
+			<label index="shortcut_group" type="integer">3749651</label>
+			<label index="shortcut_GLOBAL" type="integer">116314042</label>
+			<label index="shortcut_ALL" type="integer">100343701</label>
+			<label index="shortcut_onlyAdmin" type="integer">94674803</label>
+			<label index="shortcut_selSC" type="integer">100691421</label>
+			<label index="shortcut_delAllInCat" type="integer">259045376</label>
+			<label index="overwriteExistingFiles" type="integer">187655043</label>
+			<label index="selectPosition" type="integer">230626123</label>
+			<label index="goBack" type="integer">36398395</label>
+			<label index="createNewPage" type="integer">63624835</label>
+			<label index="clickForWizard" type="integer">55242266</label>
+			<label index="insertNewPageHere" type="integer">52089750</label>
+			<label index="insertNewRecordHere" type="integer">119001632</label>
+			<label index="movePageToHere" type="integer">190132261</label>
+			<label index="moveElement" type="integer">134083817</label>
+			<label index="selectPositionOfElement" type="integer">78349044</label>
+			<label index="movingElement" type="integer">134083817</label>
+			<label index="makeCopy" type="integer">238822983</label>
+			<label index="newContentElement" type="integer">44759206</label>
+			<label index="1_selectType" type="integer">99181978</label>
+			<label index="2_selectPosition" type="integer">246921887</label>
+			<label index="CM_editAccess" type="integer">104965876</label>
+			<label index="CM_history" type="integer">40380000</label>
+			<label index="CM_perms" type="integer">200750040</label>
+			<label index="CM_moveWizard" type="integer">134083817</label>
+			<label index="CM_moveWizard_page" type="integer">32081372</label>
+			<label index="CM_newWizard" type="integer">181792680</label>
+			<label index="CM_editPageHeader" type="integer">60384081</label>
+			<label index="CM_db_list" type="integer">182815575</label>
+			<label index="noEditPage" type="integer">249172510</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hk" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

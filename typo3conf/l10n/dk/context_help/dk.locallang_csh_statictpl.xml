@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">Statiske skabeloner distribueres centralt via TypoScript biblioteket. Du bør aldrig ændre disse værdier.</label>
+			<label index=".details">Formålet med de statiske skabeloner er, at de skal inkluderes i din TypoScript skabelon afhængigt af dine behov. Se i 'TSref' dokumentet for yderligere detaljer (se nedenfor).
+Bemærk at ved hver ny lancering af Typo3 skal du geninstallere tabellen med de statiske skabeloner vha. installationsværktøjet. Se 'Install/Upgrade' dokumentet for flere detaljer (se nedenfor).</label>
+			<label index=".image_descr">De statiske skabeloner er placeret i roden af sidetræet, hvor kun administratoren har adgang til dem. De er dog som udgangspunkt skrivebeskyttede, så du kan kun se på indholdet, men ikke ændre det.</label>
+			<label index="title.description">Skabelon titel. Vil være synlig i listen over statiske skabeloner i Skabelon Elementer.</label>
+			<label index="constants.description">TypoScript konstant felt</label>
+			<label index="config.description">TypoScript setup felt</label>
+			<label index="include_static.description">Inkludering af andre statiske skabeloner</label>
+			<label index="description.description">Beskrivelse af den statiske skabelon post</label>
+			<label index="editorcfg.description">Editor konfiguration - bruges til at konfigurere Stylesheet editoren.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description" type="integer">141335854</label>
+			<label index=".details" type="integer">185102512</label>
+			<label index=".image_descr" type="integer">243409311</label>
+			<label index="title.description" type="integer">109933303</label>
+			<label index="constants.description" type="integer">223175493</label>
+			<label index="config.description" type="integer">111115390</label>
+			<label index="include_static.description" type="integer">40219504</label>
+			<label index="description.description" type="integer">118570401</label>
+			<label index="editorcfg.description" type="integer">242715050</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index=".description">Static templates are a centrally distributed TypoScript library. You should never change these values.</label>
+			<label index=".details">The Static templates are meant to be included by your TypoScript Template records depending on your needs. Refer to the 'TSref' document (see below) for details on this process.
+Notice that by each release of TYPO3 you should reinstall the Static Templates table by the install tool. See the 'Install/Upgrade' document for details (see below).</label>
+			<label index=".image_descr">The static templates are located in the page tree root where only the Admin users can access them. However they are read-only by default so you can only look at their content, not change it.</label>
+			<label index="title.description">Template Title. Will be visible in the list of static templates in Template Records</label>
+			<label index="constants.description">TypoScript Constants field</label>
+			<label index="config.description">TypoScript Setup code field</label>
+			<label index="include_static.description">Inclusion of other static templates</label>
+			<label index="description.description">Description of the static template record.</label>
+			<label index="editorcfg.description">Editor Configuration - used to configure Stylesheet editor.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

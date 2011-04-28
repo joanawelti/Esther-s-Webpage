@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index=".description">Jeżeli serwis internetowy stworzony jest w systemie TYPO3 to cała widoczna zawartość jest zazwyczaj złożona z rekordów nazywanych &quot;elementami treści&quot;. Moduł &quot;Strona&quot; pozwala na zarządzanie elemntami treści w wielu kolumnach i wielu językach.</label>
+			<label index="CType.description">Wybierz typ strony jaki reprezentuje ten element. Nowe opcje pojawią się po zapisaniu elementu.</label>
+			<label index="hidden.description">Zaznacz to pole jeżeli chcesz ukryć ten element treści.</label>
+			<label index="starttime.description">Wpisz datę, od której ten element treści będzie wyświetlany w serwisie.</label>
+			<label index="endtime.description">Wpisz datę, po której ten element przestanie być wyświetlany w serwisie.</label>
+			<label index="fe_group.description">Wybierz grupę użytkowników, która ma wyłączność na oglądanie tego elementu treści.</label>
+			<label index="sys_language_uid.description">Wybierz język tego elementu. &lt;strong&gt;Uwaga!&lt;/strong&gt; To może wpłynąć na to czy element jest widoczny na stronie.</label>
+			<label index="layout.description">Wybierz układ.</label>
+			<label index="colPos.description">Wybierz kolumnę dla tego elementu. &lt;strong&gt;Uwaga!&lt;/strong&gt; To może wpłynąć na to czy element jest widoczny na stronie.</label>
+			<label index="date.description">Wprowadź datę, która będzie wyświetlana ponad nagłówkiem.</label>
+			<label index="header.description">Wprowadź nagłówek dla elementu treści.</label>
+			<label index="header_position.description">Określa pozycję nagłówka - na prawo, na lewo lub wypośrodkowany.</label>
+			<label index="header_link.description">Utwórz odsyłacz z nagłówka. Wstaw id strony, adres email lub URL.</label>
+			<label index="header_layout.description">Wybierz wygląd nagłówka.</label>
+			<label index="subheader.description">Wprowadź podnagłówek. Jest on wyświetlany pod zwykłym nagłówkiem. Jeżeli element treści jest typu &quot;Formularz&quot; to to pole zawiera wówczas adresata emaila.</label>
+			<label index="bodytext.description">Wprowadź tekst.</label>
+			<label index="text_align.description">Określa pozycję tekstu - na prawo, na lewo lub wypośrodkowany.</label>
+			<label index="text_face.description">Wybierz typ fontu dla tekstu.</label>
+			<label index="text_size.description">Wybierz rozmiar fontu dla tekstu.</label>
+			<label index="text_color.description">Wybierz kolor dla tekstu.</label>
+			<label index="text_properties.description">Wybierz dodatkowe właściwości czcionki.</label>
+			<label index="image.description">Wstaw jeden lub więcej obrazków.</label>
+			<label index="imagewidth.description">Wpisz szerokość obrazka w pixelach.</label>
+			<label index="imageheight.description">Wpisz wysokość obrazka w pixelach.</label>
+			<label index="imageorient.description">Wybierz pozycję obrazka względem tekstu.</label>
+			<label index="imageborder.description">Zaznacz, jeżeli obrazki mają mieć ramkę / otoczkę.</label>
+			<label index="image_noRows.description">Wyłącza &quot;dokładne&quot; wiersze w zestawie obrazków.</label>
+			<label index="image_link.description">Wstaw odsyłacz dla obrazków.</label>
+			<label index="image_zoom.description">Zaznacz, jeżeli po naciśnięciu na mały obrazek ma się pojawić jego duża wersja w oddzielnym oknie.</label>
+			<label index="image_effects.description">Wybierz sposób przetwarzania obrazków.</label>
+			<label index="image_frames.description">Wybierz otoczkę dla obrazka.</label>
+			<label index="image_compression.description">Wybierz stopień kompresji / jakość obrazka.</label>
+			<label index="imagecols.description">Wybierz liczbę kolumn, w których mają być ustawiane obrazki.</label>
+			<label index="imagecaption.description">Wprowadż podpis dla zestawu obrazków.</label>
+			<label index="imagecaption_position.description">Określa pozycję podpisu pod obrazkiem - na prawo, na lewo lub wypośrodkowany.</label>
+			<label index="pages.description">Wstaw stronę(y)</label>
+			<label index="recursive.description">Wybierz zakres przetwarzania rekursywnego.</label>
+			<label index="menu_type.description">Wybierz jaki rodzaj menu chcesz utworzyć.</label>
+			<label index="list_type.description">Wybierz wtyczkę do wstawienia.</label>
+			<label index="select_key.description">Wpisz kod znaku.</label>
+			<label index="table_bgColor.description">Wybierz kolor tła tabeli.</label>
+			<label index="table_border.description">Wybierz grubość ramki tabeli.</label>
+			<label index="table_cellspacing.description">Wybierz odstępy między komórką a treścią komórki w tabeli.</label>
+			<label index="table_cellpadding.description">Wybierz odstępy między komórkami w tabeli.</label>
+			<label index="media.description">Dodaj pliki do tej listy.</label>
+			<label index="multimedia.description">Wstaw w tym miejscu element multimedialny, np. animację flash.</label>
+			<label index="filelink_size.description">Zaznacz to pole, jeżeli chcesz, żeby wielkość pliku była wyświetlana.</label>
+			<label index="records.description">Wstaw referencje do rekordów, z których składać ma się ten rekord.</label>
+			<label index="spaceBefore.description">Wprowadź rozmiar odstępu (w pikselach), jaki będzie utworzony &lt;em&gt;przed&lt;/em&gt; tym elementem treści.</label>
+			<label index="spaceAfter.description">Wprowadź rozmiar odstępu (w pikselach), jaki będzie utworzony &lt;em&gt;po&lt;/em&gt; tym elemencie treści.</label>
+			<label index="section_frame.description">Wybierz typ ramki dla elementu treści.</label>
+			<label index="splash_layout.description">Wybierz wygląd elementu treści Tekst</label>
+			<label index="sectionIndex.description">Jeżeli to pole zostanie zaznaczone, wówczas ten element treści będzie pokazywany w wykazach uwzględniających sekcje.</label>
+			<label index="linkToTop.description">Jeżeli to pole zostanie zaznaczone, wówczas niewielki odsyłacz &quot;Do góry&quot; zostanie umieszczony za każdym elementem treści wyświetlanym w serwisie.</label>
+			<label index="rte_enabled.description">Jeżeli to pole zostanie zaznaczone, edytor RTE (Rich Text Editor) zostanie wyłączony. Dotyczy to elementów treści &quot;Tekst&quot; i &quot;Tekst z obrazkiem&quot;.</label>
+			<label index="pi_flexform.description">Konfiguracja wtyczek za pomocą FlexForm</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="text_properties.description" type="integer">87881120</label>
+			<label index="image.description" type="integer">161474510</label>
+			<label index="imagewidth.description" type="integer">158161907</label>
+			<label index="imageheight.description" type="integer">114105674</label>
+			<label index="CType.description" type="integer">234975124</label>
+			<label index="hidden.description" type="integer">25976972</label>
+			<label index="starttime.description" type="integer">77152936</label>
+			<label index="endtime.description" type="integer">186022731</label>
+			<label index="fe_group.description" type="double">12088306</label>
+			<label index="sys_language_uid.description" type="integer">83193306</label>
+			<label index="layout.description" type="integer">228016604</label>
+			<label index="list_type.description" type="integer">72710976</label>
+			<label index="select_key.description" type="integer">172652721</label>
+			<label index="table_bgColor.description" type="integer">62940699</label>
+			<label index="table_border.description" type="integer">186608350</label>
+			<label index="table_cellspacing.description" type="integer">194710286</label>
+			<label index="table_cellpadding.description" type="integer">101686341</label>
+			<label index="media.description" type="integer">29319306</label>
+			<label index="multimedia.description" type="integer">128801529</label>
+			<label index="filelink_size.description" type="integer">167875412</label>
+			<label index=".description" type="integer">112696006</label>
+			<label index="splash_layout.description" type="integer">240182781</label>
+			<label index="sectionIndex.description" type="integer">263148287</label>
+			<label index="linkToTop.description" type="integer">218183690</label>
+			<label index="rte_enabled.description" type="integer">266861622</label>
+			<label index="pi_flexform.description" type="integer">105562012</label>
+			<label index="colPos.description" type="integer">247799393</label>
+			<label index="date.description" type="integer">172838477</label>
+			<label index="header.description" type="integer">258566451</label>
+			<label index="header_position.description" type="integer">129245045</label>
+			<label index="header_link.description" type="integer">192941932</label>
+			<label index="header_layout.description" type="integer">177798699</label>
+			<label index="menu_type.description" type="integer">78467976</label>
+			<label index="records.description" type="double">10597434</label>
+			<label index="spaceBefore.description" type="integer">263512294</label>
+			<label index="spaceAfter.description" type="integer">130971741</label>
+			<label index="section_frame.description" type="integer">240647342</label>
+			<label index="subheader.description" type="integer">258436767</label>
+			<label index="bodytext.description" type="double">16432077</label>
+			<label index="text_align.description" type="integer">238240695</label>
+			<label index="text_size.description" type="integer">229916089</label>
+			<label index="text_color.description" type="integer">35741196</label>
+			<label index="text_face.description" type="integer">117416805</label>
+			<label index="imageborder.description" type="integer">50620620</label>
+			<label index="image_link.description" type="integer">249648538</label>
+			<label index="image_zoom.description" type="integer">161499693</label>
+			<label index="image_effects.description" type="integer">177685340</label>
+			<label index="image_frames.description" type="integer">89442767</label>
+			<label index="image_compression.description" type="double">8480021</label>
+			<label index="imagecols.description" type="integer">70204645</label>
+			<label index="imagecaption.description" type="integer">259744768</label>
+			<label index="pages.description" type="integer">57504831</label>
+			<label index="imageorient.description" type="integer">200966363</label>
+			<label index="image_noRows.description" type="integer">21457470</label>
+			<label index="imagecaption_position.description" type="integer">196983678</label>
+			<label index="recursive.description" type="integer">165135760</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="text_properties.description">Select additional font properties.</label>
+			<label index="image.description">Insert one or more images.</label>
+			<label index="imagewidth.description">Enter the width in pixels of the image.</label>
+			<label index="imageheight.description">Enter the height of the image in pixels.</label>
+			<label index="CType.description">Select the kind of page content this element represents. New options will appear when you save the record.</label>
+			<label index="hidden.description">Check this box if you wish to hide the content element from being displayed.</label>
+			<label index="starttime.description">Enter the date from which the content element will be visible.</label>
+			<label index="endtime.description">Enter the date from which the content element will disappear from the website.</label>
+			<label index="fe_group.description">Select a Website usergroup which is exclusively allowed to view the element.</label>
+			<label index="sys_language_uid.description">Select the system language of this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="layout.description">Select a layout.</label>
+			<label index="list_type.description">Select a plugin to insert.</label>
+			<label index="select_key.description">Enter a code string.</label>
+			<label index="table_bgColor.description">Select table background color.</label>
+			<label index="table_border.description">Select table border thickness.</label>
+			<label index="table_cellspacing.description">Select table cell spacing.</label>
+			<label index="table_cellpadding.description">Select table cellpadding.</label>
+			<label index="media.description">Add files to the list here.</label>
+			<label index="multimedia.description">Insert the multimedia element, eg. a flash movie here.</label>
+			<label index="filelink_size.description">Check this, if you wish the filesizes to be displayed.</label>
+			<label index=".description">All visible content on webpages in TYPO3 is typically made by &quot;Pagecontent&quot; records. They are typically referred to as &quot;Content Elements&quot;. Often Content Elements are managed by the &quot;Page&quot; module which is designed to handle Content Elements in multiple columns and languages.</label>
+			<label index="splash_layout.description">Select the design for the Text box.</label>
+			<label index="sectionIndex.description">If set, the content element will appear in section indices.</label>
+			<label index="linkToTop.description">If checked, a little &quot;To top&quot; link will be inserted after the content element.</label>
+			<label index="rte_enabled.description">If checked, the Rich Text Editor will be disabled for the &quot;Text&quot; and &quot;Text w/Image&quot; types (&lt;em&gt;in this element only&lt;/em&gt;).</label>
+			<label index="pi_flexform.description">FlexForm Configuration of Plugins</label>
+			<label index="colPos.description">Select the column position this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="date.description">Enter a date to be displayed above the header.</label>
+			<label index="header.description">Enter a headline for the content element.</label>
+			<label index="header_position.description">Places the header to the left, centered or to the right.</label>
+			<label index="header_link.description">Creates a link from the header. Insert a page id, email address or URL.</label>
+			<label index="header_layout.description">Select a visual design for the header.</label>
+			<label index="menu_type.description">Select which kind of menu you wish to create.</label>
+			<label index="records.description">Insert relations to records.</label>
+			<label index="spaceBefore.description">Enter the amount of whitespace (in pixels) to insert &lt;em&gt;before&lt;/em&gt; this content element.</label>
+			<label index="spaceAfter.description">Enter the amount of whitespace (in pixels) to insert &lt;em&gt;after&lt;/em&gt; this content element.</label>
+			<label index="section_frame.description">Select a framing option for the content element.</label>
+			<label index="subheader.description">Enter a subheader. This is displayed below the ordinary headline. If the content element type is &quot;Form&quot; this field is the recipient email.</label>
+			<label index="bodytext.description">Enter the body text.</label>
+			<label index="text_align.description">Places the body text to the left, centered or to the right.</label>
+			<label index="text_size.description">Select a font size for the body text.</label>
+			<label index="text_color.description">Select a color for the body text.</label>
+			<label index="text_face.description">Select a font fact family for the body text.</label>
+			<label index="imageborder.description">Check this, if you wish a colored border around the images.</label>
+			<label index="image_link.description">Enter a link for the images.</label>
+			<label index="image_zoom.description">Check this option, and the image will link to a new window with a bigger version.</label>
+			<label index="image_effects.description">Select special image processing effects.</label>
+			<label index="image_frames.description">Select special image framing options.</label>
+			<label index="image_compression.description">Select compression/quality options.</label>
+			<label index="imagecols.description">Select the number of columns in the image block.</label>
+			<label index="imagecaption.description">Enter a caption for the image block</label>
+			<label index="pages.description">Insert page(s)</label>
+			<label index="imageorient.description">Select the position of the imageblock relative to the body text.</label>
+			<label index="image_noRows.description">Disables strict tablerows in the image block.</label>
+			<label index="imagecaption_position.description">Places the image caption to the left, centered or to the right.</label>
+			<label index="recursive.description">Select how many subleves should be additionally selected for each page in the list.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

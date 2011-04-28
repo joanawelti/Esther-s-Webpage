@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="Substitute this occurrence?">Ersätt denna förekomst?</label>
+			<label index="Enter the text you want to find">Fyll i texten som du vill hitta</label>
+			<label index="Inform a replacement word">Detta kommer att radera alla förekomster.</label>
+			<label index="found items">hittad(e) förekomst(er)</label>
+			<label index="replaced items">ersatt(a) förekomst(er)</label>
+			<label index="found item">förekomst hittades</label>
+			<label index="replaced item">förekomst ersatt</label>
+			<label index="not found">hittades inte</label>
+			<label index="Find and Replace">Sök och ersätt</label>
+			<label index="Options">Alternativ:</label>
+			<label index="Whole words only">Endast hela ord</label>
+			<label index="Case sensitive search">Matcha gemener/VERSALER</label>
+			<label index="Substitute all occurrences">Ersätt alla förekomster</label>
+			<label index="Search for:">Sök efter:</label>
+			<label index="Replace with:">Ersätt med:</label>
+			<label index="Actions">Funktioner:</label>
+			<label index="Clear">Rensa</label>
+			<label index="Highlight">Markera</label>
+			<label index="Undo">Ångra</label>
+			<label index="Next">Nästa</label>
+			<label index="Done">Klart</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="Substitute this occurrence?" type="integer">11389760</label>
+			<label index="Enter the text you want to find" type="integer">9512867</label>
+			<label index="Inform a replacement word" type="integer">159095757</label>
+			<label index="found items" type="integer">101671820</label>
+			<label index="replaced items" type="integer">167308865</label>
+			<label index="found item" type="integer">16132784</label>
+			<label index="replaced item" type="integer">22779069</label>
+			<label index="not found" type="integer">227494425</label>
+			<label index="Find and Replace" type="integer">39384906</label>
+			<label index="Options" type="integer">247251860</label>
+			<label index="Whole words only" type="integer">58990624</label>
+			<label index="Case sensitive search" type="integer">134324052</label>
+			<label index="Substitute all occurrences" type="integer">42024822</label>
+			<label index="Search for:" type="integer">123652778</label>
+			<label index="Replace with:" type="integer">180836931</label>
+			<label index="Actions" type="integer">86716437</label>
+			<label index="Clear" type="integer">230886336</label>
+			<label index="Highlight" type="integer">12125570</label>
+			<label index="Undo" type="integer">30261366</label>
+			<label index="Next" type="integer">17482704</label>
+			<label index="Done" type="integer">261264990</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="Substitute this occurrence?">Substitute this occurrence?</label>
+			<label index="Enter the text you want to find">Enter the text you want to find</label>
+			<label index="Inform a replacement word">This will erase all occurrences.</label>
+			<label index="found items">found items</label>
+			<label index="replaced items">replaced items</label>
+			<label index="found item">item found</label>
+			<label index="replaced item">item replaced</label>
+			<label index="not found">not found</label>
+			<label index="Find and Replace">Find And Replace</label>
+			<label index="Options">Options:</label>
+			<label index="Whole words only">Whole words only</label>
+			<label index="Case sensitive search">Case sensitive search</label>
+			<label index="Substitute all occurrences">Substitute all occurrences</label>
+			<label index="Search for:">Search for:</label>
+			<label index="Replace with:">Replace with:</label>
+			<label index="Actions">Actions:</label>
+			<label index="Clear">Clear</label>
+			<label index="Highlight">Highlight</label>
+			<label index="Undo">Undo</label>
+			<label index="Next">Next</label>
+			<label index="Done">Done</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

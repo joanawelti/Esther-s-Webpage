@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="mlang_labels_tablabel">Tool di installazione</label>
+			<label index="mlang_labels_tabdescr">Link al tool di installazione (che deve essere attivato, in typo3/install/)&lt;br&gt;&lt;em&gt;Accesso riservato ai soli utenti 'admin'!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Installazione</label>
+			<label index="no_image">Nessuna immagine trovata</label>
+			<label index="label_true">OK</label>
+			<label index="label_false">Problema</label>
+			<label index="label_help">Aiuto</label>
+			<label index="label_save">Salva opzioni</label>
+			<label index="label_expandAll">Espandi tutto</label>
+			<label index="label_collapseAll">Chiudi tutto</label>
+			<label index="label_login">Login</label>
+			<label index="label_setup_password">Inserisci la Password di installazione</label>
+			<label index="label_localconfwritten">Configurazione salvata in %s</label>
+			<label index="label_subsectionsfound">Trovate le seguenti sezioni.</label>
+			<label index="label_deliverable_options">Settings</label>
+			<label index="label_deliverable_methods">Metodi</label>
+			<label index="label_deliverable_checks">Checks</label>
+			<label index="label_section">Sei nella sezione:</label>
+			<label index="label_category_database">Database</label>
+			<label index="label_category_server">Server</label>
+			<label index="label_category_gfx">Grafica</label>
+			<label index="label_category_system">Sistema</label>
+			<label index="label_subcategory_connection">Connessione</label>
+			<label index="label_subcategory_cleanup">Pulisci</label>
+			<label index="label_subcategory_analyze">Analizza</label>
+			<label index="label_subcategory_php">PHP</label>
+			<label index="label_subcategory_directories">Directories</label>
+			<label index="label_subcategory_backend">Backend</label>
+			<label index="label_subcategory_frontend">Frontend</label>
+			<label index="label_subcategory_general">Generale</label>
+			<label index="label_subcategory_gd">GD</label>
+			<label index="label_subcategory_igm">Image-GrapicsMagick</label>
+			<label index="label_subcategory_quality">Qualità</label>
+			<label index="label_subcategory_development">Sviluppo</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="mlang_labels_tablabel" type="integer">34904726</label>
+			<label index="mlang_labels_tabdescr" type="integer">120919901</label>
+			<label index="mlang_tabs_tab" type="integer">181548907</label>
+			<label index="no_image" type="integer">90840691</label>
+			<label index="label_true" type="integer">235577377</label>
+			<label index="label_false" type="integer">233894413</label>
+			<label index="label_help" type="integer">111308628</label>
+			<label index="label_save" type="integer">152143934</label>
+			<label index="label_expandAll" type="integer">179809435</label>
+			<label index="label_collapseAll" type="integer">199759079</label>
+			<label index="label_login" type="integer">161344120</label>
+			<label index="label_setup_password" type="integer">228728944</label>
+			<label index="label_localconfwritten" type="integer">168363325</label>
+			<label index="label_subsectionsfound" type="integer">100773628</label>
+			<label index="label_deliverable_options" type="integer">256864370</label>
+			<label index="label_deliverable_methods" type="integer">34361781</label>
+			<label index="label_deliverable_checks" type="integer">257234177</label>
+			<label index="label_section" type="integer">119574104</label>
+			<label index="label_category_database" type="integer">238058928</label>
+			<label index="label_category_server" type="integer">162142979</label>
+			<label index="label_category_gfx" type="integer">221466108</label>
+			<label index="label_category_system" type="integer">172350102</label>
+			<label index="label_subcategory_connection" type="integer">204261128</label>
+			<label index="label_subcategory_cleanup" type="integer">207336407</label>
+			<label index="label_subcategory_php" type="integer">50250642</label>
+			<label index="label_subcategory_directories" type="integer">257998049</label>
+			<label index="label_subcategory_backend" type="integer">48506818</label>
+			<label index="label_subcategory_frontend" type="integer">228047462</label>
+			<label index="label_subcategory_general" type="integer">14366585</label>
+			<label index="label_subcategory_gd" type="integer">90833767</label>
+			<label index="label_subcategory_igm" type="integer">177618238</label>
+			<label index="label_subcategory_quality" type="integer">91294027</label>
+			<label index="label_subcategory_development" type="integer">53539997</label>
+			<label index="label_subcategory_analyze" type="integer">35991061</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="mlang_labels_tablabel">Setup Center</label>
+			<label index="mlang_labels_tabdescr">Provides a simple link to the Setup Center. Notice the Install Tool (in typo3/install/) must be enabled.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Setup</label>
+			<label index="no_image">No image found</label>
+			<label index="label_true">OK</label>
+			<label index="label_false">Problem</label>
+			<label index="label_help">Help</label>
+			<label index="label_save">Save options</label>
+			<label index="label_expandAll">expand all</label>
+			<label index="label_collapseAll">collapse all</label>
+			<label index="label_login">Login</label>
+			<label index="label_setup_password">Enter the Install Tool Password</label>
+			<label index="label_localconfwritten">Configuration sucessfully written to %s</label>
+			<label index="label_subsectionsfound">The following subsections where found.</label>
+			<label index="label_deliverable_options">Settings</label>
+			<label index="label_deliverable_methods">Methods</label>
+			<label index="label_deliverable_checks">Checks</label>
+			<label index="label_section">You are in section:</label>
+			<label index="label_category_database">Database</label>
+			<label index="label_category_server">Server</label>
+			<label index="label_category_gfx">Graphics</label>
+			<label index="label_category_system">System</label>
+			<label index="label_subcategory_connection">Connection</label>
+			<label index="label_subcategory_cleanup">Clean Up</label>
+			<label index="label_subcategory_php">PHP</label>
+			<label index="label_subcategory_directories">Directories</label>
+			<label index="label_subcategory_backend">Backend</label>
+			<label index="label_subcategory_frontend">Frontend</label>
+			<label index="label_subcategory_general">General</label>
+			<label index="label_subcategory_gd">GD</label>
+			<label index="label_subcategory_igm">Image- GrapicsMagick</label>
+			<label index="label_subcategory_quality">Quality</label>
+			<label index="label_subcategory_development">Development</label>
+			<label index="label_subcategory_analyze">Analyze</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_tabs_tab">Scheduler</label>
+			<label index="mlang_labels_tabdescr">Scheduler beheermodule. Controleer ingestelde taken. Taken toevoegen, wijzigen of verwijderen.</label>
+			<label index="mlang_labels_tablabel">TYPO3 Scheduler</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_tabs_tab" type="integer">268086295</label>
+			<label index="mlang_labels_tabdescr" type="integer">131355135</label>
+			<label index="mlang_labels_tablabel" type="integer">137834429</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_tabs_tab">Scheduler</label>
+			<label index="mlang_labels_tabdescr">Scheduler administration module. Check all registered tasks. Add, modify or delete tasks.</label>
+			<label index="mlang_labels_tablabel">TYPO3 Scheduler</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

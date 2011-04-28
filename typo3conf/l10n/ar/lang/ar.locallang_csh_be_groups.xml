@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">هذه هي مجموعة المستخدمين المشرفين على الوجهه الخلفية و المتاحة لجميع مستخدمي الوجهه الخلفية.وتعمل هذه المجموعة على تحديد أوراق إعتماد دخول  جميع مستخدمي الوجههة الخلفية.</label>
+			<label index=".details">تحتوى هذه المجموعة على ضوابط السماح الأساسية التي يمكنك تحديدها لمستخدم الوجهه الخلفية.يمكن للعديد من الاشخاص الإشتراك في نفس المجموعة وبالتالى الإشتراك في نفس السماحيات.
+وإذا كان المستخدم عضوا في العديد من المجموعات (متضمنة المحموعات الفرعية)فإنه يتم تجميع روابط السماح الخاصة به معاً وعليه فإنه كلما زاد عدد المجموعات المشترك بها المستخدم، كلما زادت إمكانية الدخول الممنوحه له.</label>
+			<label index=".image_descr">وتوجد مجموعات مستخدم الوجهة الخلفية داخل جذر صفحة الشجرة حيث يمكن فقط لمستخدمي &quot; الإشراف&quot; من تحرير هؤلاء الأعضاء.ونجد أن مجموعات المستخدمين ذوي الأيقونات الحمراء في هذه الصورة هم المسئولين عن قوائم الوصول المتاحة وبالتالي فإن الأيقونات الزرقاء ترمز لمجموعات المستخدمين ال</label>
+			<label index="title.description">إدخل اسما لمجموعة مستخدم الوجهه الخلفية.ويجب عليك توصيف هذا الاسم والذي يمكن دائما تغيره فيما بعد.</label>
+			<label index="title.details">يمكن تميز مجموعة مستخدمي الوجهه الخلفية من خلال قيمة الحقل&quot;uid&quot;(متكامل) عليه فيمكن دائما تغير العنوان.
+ولا يمكن تغير القيمة&quot;uid&quot;مجموعة المستخدم.</label>
+			<label index="title.image_descr">ويعرض عنوان مجموعة المستخدم داخل قوائم السجل.</label>
+			<label index="db_mountpoints.description">تقوم هذه الملفات بتعريف جذر صفحة الشجرة التي تشير غلى أعضاء المحموعة</label>
+			<label index="db_mountpoints.details">ويجب أن تحتوي صفحة الشجرة في نظام تيبو3 على مدخل-للمؤشرات معرف.وهنا عليك بإدراج مرجعاً أو أكثر للصفحة حيث ستعرض من خلاله جذر صفحة جديد لصفحة الشجرة.وهذا يطلق عليه اسم&quot;تنصيب قواعد البيانات&quot; أو &quot;DB mount&quot;.
+وقد يورث تنصيب قواعد البيانات DB mounts &lt;i&gt;من المحتمل&lt;/i&gt; من قبل المستخدمين الأعضاء داخل هذه المجموعة.
+وهذا يتوقف ما إن كان المستخدم مهيئا لإدراج لإعداد التنصيب لمجموعات الأعضاء.
+وعلى الرغم من ذلك فإنه يرجح استخدام مثل هذه المجموعات لضبط عمليات التنصيب.
+وخاصة إذا ما كنت تريد أن تكون عضوا من ضمن عددا من المستخدمين.</label>
+			<label index="db_mountpoints.image_descr">وفي هذا الملف تضاف صفحة مشابهه ل&quot;لتنصيب قواعد البيانات&quot;.........وسيصبح صفحةالشجرة الخاصة للمستخدمين الأعضاء هي نقطة البداية لصفحةالشجرة.</label>
+			<label index="file_mountpoints.description">يعرف هذا الملف نقاط الإبتداء الخاصة بشجرة ملف المجلد</label>
+			<label index="file_mountpoints.details">يستخدم  ملف شجرة المجلد من قبل جميع وحدات الملف الفرعية لتصفح مجلدات الملف الواقعة على مخدم الوب. وإذا ما أرادت أن تتيح للمستخدمين الوصول  إلى نظام ملف المخدم من خلال  تيبو3 فإنه يتطلب منهم  تنصيب ملف واحد على الأقل (وذلك من خلال وصولهم للملف File &gt; Filelist module على سبل المثال).
+ويمكنك تنصيب مسارا داخل&quot; مرشد الملف/&quot;المتعلق بتثبيت نظام تيبو3 أو بإمكانك تنصيب مسارا مطلقا واقعا في مكان ما على المخدم(خارج جذر صفحة الوب!).والمتطلب الأخير هو تعريف  $TYPO3_CONF_VARS[BE][lockRootPath].ويتم تعريف الملف الذي قمت بتنصيبه بواسطة سجل تنصيب الملف الذي أشرت إليه من خلال هذا الحقل.وعليه فإن تنصيب الملف يكون مجرد مرشد لسجلا آخر محتوى على التفاصيل التي قد تم تضب</label>
+			<label index="file_mountpoints.image_descr">ويحول تنصيب الملف إلى السجلات المدرجة داخل الجدول الخاص بتحميل الملف.
+وبداخل السجل الخاص بملف التوصيف يمكنك تحديد ما إذا المسار المستخدم يمكن أن يكون مفردا (must be within $TYPO3_CONF_VARS[BE][lockRootPath]) أم يجب أن يرتبط &quot; مرشد الملف/&quot;.وفي هذه الحالة فإن ملف التنصيب سيشير إلى&quot;fileadmin/user_upload/&quot;
+وتعتبر هذه هي شجرة الصفحة الخاصة بالمستخدم &quot;المرشد&quot;.
+ويلاحظ بأن المجلد &quot;user_upload&quot;وهو المجلد الذي أشار إليه سجل ملف&quot; التنصيب.
+وهذا يؤدي إلى عرض المجلد المنصب كما يراه المستخدم العضو في المجموعة.
+وتنشء سجلات ملف التنصيب أيضا داخل جذر صفحة الشجرة.</label>
+			<label index="pagetypes_select.description">يقوم الملف بإختيار أي من ‘أنواع‘الصفحات يمكن تحديد الأعضاء.</label>
+			<label index="pagetypes_select.details">يحد هذا الملف من عدد الإختيارات الممكنه للمستخدم إذا ما أوشك على إختيار نوع الصفحة.ويقترن إختيار إنواع الصفحات  (doktype) بأيقونة خاصة للصفحة يرمز لها بالرمز , b)كما يسمح هذا الملف بظهور الجداول على الصفحة(أنظر $PAGES_TYPES global variable) and c)وهذا في حالة ما إن كانت هذه الصفحة نوع من أنواع صفحات الوب أو صفحة من صفحات &quot;مجلد النظام&quot;.</label>
+			<label index="pagetypes_select.image_descr">تتاح قائمة من أنواع الصفحات المتطابقة داخل سياق CMS.ويساعد إختيار أنواع الصفحات مجموعة المستخدم على تعريف أي من هذه الخيارات يمكن للمستخدمين الأعضاء إختيارها.</label>
+			<label index="tables_modify.description">يختار هذا الملف الجداول التي يمكن للمستخدمين الأعضاء إدخال التعديل عليها.</label>
+			<label index="tables_modify.details">ومن الأجزاء الهامة لإعداد الصلاحيات لتعريف جداول قواعد البيانات الذي يسمح للمستخدم إدخال التعديل عليها.وتتميز الجداول المعدة للتعديل بإمكانية إختيارها أوتوماتيكيا وعليه فإنك لست في حاجة لإعداد جدوال داخل صندوق الجداول &quot;Tables (listing)&quot;.
+وتشير &lt;strong&gt;Notice&lt;/strong&gt;غلى أن القائمة المضافة إلى الحقول التي تختارها مجومعات مستخدمي الأعضاء الأخرى.</label>
+			<label index="tables_modify.image_descr">وتعرض لقطة الشاشة بالأعلى منظر لقوائم الحوار للآزمة للمستخدم المتخصص لتحرير عناصر &quot;صفحة&quot;أو &quot;محتويات صفحة&quot;.ويضاف كلا الجدولين إلى قائمة &quot; الجداول (المعدلة)&quot; المدرجة في مجموعة قوائم الوصول.
+ويعد ذلك(مثالاً)لكل كمية العناصر التي يمكن لل&quot;مرشد&quot;إضافتها على الصفحة حيث لا توجد اي قيود.</label>
+			<label index="tables_select.description">يتيح هذا الملف إختيار الجداول التي يمكن مشاهدتها داخل قوائم السجل (لست بحاجة إلى الدخول هنا ‘لتعديل‘ الجداول).</label>
+			<label index="tables_select.details">باإضافة إلى تلك الملفات التي تم إختيارها في صندوق &quot; الجداول (المعدلة)&quot;،يمكن هذا الملف من تحديد الجداول التي يمكن عرضها و إدراجها للمستخدمين الأعضاء.وغير متاح للمستخدم &lt;em&gt;تحرير&lt;/em&gt;الجدول- بل بإمكانه فقط إختيار السجل و عرض محتوياته.</label>
+			<label index="non_exclude_fields.description">قد لا تتوفر حقول جدول بعينها بصفة أساسية.ولكنها يمكن أن تتوفر هنا بصورة مطلقة  لأعضاء المجموعة.</label>
+			<label index="non_exclude_fields.details">تتيح لك &quot; الملفات المستثناه المتاحة&quot; من تفصيل الأذونات المعطاة للجداول. ولا تتاح مثل هذه الجداول بصورة إفتراضية، بل يجب إتاحتها بإنتقاءها بصورة خاصة. 
+ومن بين هذه التطبيقات أن الصفحات غالبا ما تكون مخفاة بصورة إفتراضية، وأن الملف المخفى لا يتاح للمستخدم إلا إذا سمح له بالدخول من خلال قائمة &quot; الملفات المستثناه المتاحة&quot;. وبالتالى فإنه قد يكون من حق المستخدم إنشاء صفحة جديدة، ولا يكون من حقه إخفاء الصفحة - بالطبع غلا إذا قام بتحديد</label>
+			<label index="hidden.description">إلغاء مجموعة المستخدم.</label>
+			<label index="hidden.details">إذا ما قمت بإلغاء مجموعة مستخدم واحدة فإنه لن يكون بإمكان أي من أعضاء هذه المجموعة الحق في إستخدام أي خصائص أتاحتها لهم هذه المجموعة.</label>
+			<label index="lockToDomain.description">إدخل اسم المضيف الذي على المستخدم الدخول من خلاله.</label>
+			<label index="lockToDomain.details">يمكن لنظام  التيبو3 أن يستضيف العديد من صفحات الوب و المرشدين.وعليه فإن هذا الخيار يضمن دخول المستخدم فقط من خلال اسم المضيف.والإعداد لهذا على سبيل المثال &quot;www.my-domain.com&quot;يتطلب دخول المستخدم إلى هذا النطاق إذا لم يتاح له الحصول على عضوية داخل هذه المجموعة.وخلاف ذلك فإن المجموعة لن تكون متاحة بالنسبه للمستخدم.</label>
+			<label index="groupMods.description">يتيح هذا الملف وحدات الوجهه الخلفية المتاحة لأعضاء المجموعة.</label>
+			<label index="groupMods.details">يمكن أن يحدد ذلك الملف أي من ’بمود القائمة’ يمكن أن تتاح لأعضاء المجموعة.ويمكن أن تضاف هذه القائمة من الوحدات إلى أي مجموعة أخرى من المستتخدمين الإعضاء كما يمكن أن تضاف الحقل التبادلى الخاص بالمستخدم  نفسه.</label>
+			<label index="groupMods.image_descr">يتم الإشارة إلى وحدات الوجهه الخلفية المتاحة للمستخدم داخل قائمة البنود المدرحة في والوجهة الخلفية.وتكون و الوحدات المدرجة داخل الوب و داخل الملف الأساسي متاحة لمعظم المستخدمين العادين.وتستخدم هذه الصياغة &quot;وب&gt;صفحة&quot; نصا عند تحرير محتويات الصفحة.ويتعبر ذلك هو تعين لوحدات الوحدة الخلفية للمستخدم من خلال لقطة الشاشة بالأعلى.ويتم ضبط الأربع وحدات افرعية الخاصة بالوب وكذلك الوحدتين الفرعيتين الخاصة بالمستخدم هنا.وهذا على الرغم من أنه يتعين ضبط وحدة File &gt; Filelist</label>
+			<label index="inc_access_lists.description">يحدد هذا الملف إذا ما كان من المتاح للمستخدم إستخدام أي  من قوائم المرور الخاصة بقوائم المرور ،الجداول،وحقول و حدة الملفات المستثناه.</label>
+			<label index="inc_access_lists.details">يعمل هذا الخيار على إلغاء قوائم الوصول التي لا يمكن ضبطها للمجوعة.وما إن إلغيت قوائم الوصول و أصبحت غير متاحة للمستخدم فإن لون الأيقونة المعبر عن المجموعة يتغير من اللون الأحمر-الذي يعني إتاحة القوائم- إلى اللون الأزرق.</label>
+			<label index="description.description">إدخل توصيفا لمستخدم المجموعة، فيما يستخدم وأي الأعضاء يمكنهم الإشتراك فيه.
+وهذا يخص الاستخدام الداخلي فقط.</label>
+			<label index="TSconfig.description">مستخدم TSconfig:هو عبارة عن عملية ضبط إضافية تتم من خلال قيم أسلوب منظومة تيبو الخاصة(متقدم).</label>
+			<label index="TSconfig.details">ويمكن إعداد User TSconfig لكل مستخدم وكل مجموعة على الوجةة الخلفية.ويكون المستخدم العضو في هذه المجموعات هو المسئول عن  توريث  تعين الضبط لمجموعات الوجهه الخلفية.وتغطي الخيارات المتاحة ضوابط المستخدم بصورة مطابقة تماما لتلك الخيارات الموجودة داخل وحدة إعداد/إستخدام (وفي الحقيقية فإن الخيارات المتاحة داخل هذه الوحدة يمكن إلغاءها تماما من قبل مستخدم TSconfig!(،أو خاصية ضبط &quot;لوحة المرشد&quot;(والمتواجدة على الوجهة الأمامية للصفحة)،الإجراءات النهائية المتعددة (هل يتيح غلق المستخدم لبروتيكول الإنترنت ،عرض إختصارا للإطار من مسح كل ما هو مخفي؟ أو من زيادة عرض إيطار البحث إلى آخر)او من عمل الضبط المناسب لوحدة الصفحة الخلفية(مع إلغاء أي ضبط تم لوحدات الوجهة الخلفية داخل صفحة TSconfig).</label>
+			<label index="TSconfig.syntax">لا يخضع تركيب مخطوطة تيبو لأي شروط أو ثوابت.</label>
+			<label index="TSconfig.image_descr">ويكون حقل المساعدة الخاص بTSconfig متاحا لك ما إن قمت بالنقر أيقونة المرشد TS، وعندها ستنبثق لك نافذة المساعدة.
+وفي النافذة المنبثقة سترى مجموعة من قيم الضبط المتاحة لك.وتستخرج هذه القوائم من TSconfigاليدوي.يمكنك التفقد لمعرفة الخصائص التي تحتاج إلى ضبطها في هذا المرشد.</label>
+			<label index="hide_in_lists.description">ستحول هذه الخاصية دون ظهور مجموعة المستخدم من الظهور على القوائم، حيث يتم إختيار مجموعات المستخدم.</label>
+			<label index="hide_in_lists.details">ويكون لذلك تأثير على قائمة مجموعة المستخدمين المدرجة داخل مركز المهام اليومية و أجزاء من الرسائل كما ويكون له تأثير أيضا على وحدة دخول&lt;الوب. وتكون هذه الخاصية ذات أهمية شديدية إذا ما كان لديك مجموعات عامة للمستخدم والتي تعرف بعض الخصائص العامة التي يشترك فيها كل المستخدمين الأعضاء. ومن الجائز أنك لا تفضل أن ‘يرى‘ المستخدمين بعضهم بعضا أثناء عضويتهم في هذه المجموعة، ومثال على ذلك إرسال رسائل أو المهام المهام الواجبة لعضهم البعض. وهذا تعمل هذه الخاصية على منعه.</label>
+			<label index="subgroup.description">حدد مجموعات مستخدمي الواجهة الخلفية التي تدرج بصورة تلقائية لأعضاء هذه المجموعة.</label>
+			<label index="subgroup.details">وتضاف خخصائص المجموعات الفرعية إلى خصائص هذه المجموعة وبصورة أساسية فإنها تضاف إلى قائمة مجموعة الأعضاء لأي مستخدم يكون عضوا في هذه المجموعة. وتقد هذه السمات طريقة رائعة لإنشاء ‘مشرف علم‘ لمجموعة المستخدمين.</label>
+			<label index="explicit_allowdeny.description">حدد أي من قيم الحقل تلغي بصورة مطلقة أو يسمح لمجموعة الأعضاء المستخدمين بإستخدامها.</label>
+			<label index="explicit_allowdeny.details">ويمكن ضبط حقول صندوق المنتقي للسيطرة على عملية الدخول إلى القيمة. وتعرض هذه القائمة جميع القيم التي قد تم ضبطها للسيطرة على عملية الدخول. ويمكن ضبط كل قيمة بحيث تحتاج إلى إما للدخول المطلق(السماح) أو للإلغاء المطلق(إلغاء). وإذا ما كانت قيمة ما تبدأ بالبادئة &quot;سماح&quot;(أيقونة خضراء)فإن ذلك يعني بصورة إفتراضية أنه &lt;em&gt;لن &lt;/em&gt;يسمح للمستخدمين  من ضبط هذه القيمة إلا إذا كان المستخدم عضوا في مجموعة المستخدم والتي ترفضها بصورة مطلقة(ويتم ذلك بضبط هذه الخاصية في صندوق التعليم).
+وتنظم القائمة بحيث تدرج قيم نفس صندوق المستخدم معا.وإذا لم تتواجد قيم نفس صندوق المنتقي معا في قائمة السماح/الإنكار فإن هذا يعني ببساطة أن هذه القيم لا أهمية لها وعليه فيمكن لأي مستخدم بصفة عامة يدخل على هذا الحقل أن يقوم بضبطها.</label>
+			<label index="allowed_languages.description">حدد أي من سجلات اللغة يمكن لمجموعة المستخدمين إدراج بهم الإضافة.</label>
+			<label index="allowed_languages.details">يمكن ضبط سجلات تيبو3 لتخزن معلومات عن اللغات االتي تكتب بها.ولو كانت الحالة كذلك فإن الدخول إلى هذه العناصر سيقيم بناءعلى ما إذا كانت 
+ &lt;em&gt;جميع&lt;/em&gt;اللغة محل الإستفسار مدرجة في هذه القائمة. وإذا لم تكن هناك أية لغات مدرجة في قائمة المستخدم فإن هذا ببساطة  يعني أنه بإمكانك تحرير جميع اللغات!</label>
+			<label index="allowed_languages.image_descr">يعرض هذا المثال موقفا ما حيث يتم إنشاء اللغتين الألمانية و الدينماركية بالإضافة إلى اللغة الأساسية.</label>
+			<label index="custom_options.description">حدد خصائص التصريح المتعارف عليها.</label>
+			<label index="custom_options.details">تعرض هذه القائمة التصاريح والمعرفة بوحدات متنوعة مدرجة في الواجهة الخلفية(والمعرفخ من إمتداداتها).ويتوقف مدى أهمية هذه الخاصية وحدة الواجهة الخلفية التي تقوم بتطويها.</label>
+			<label index="custom_options.image_descr">ويعد ذلك مثالا فقط تطبيق إختباري داخلي.فهي تعرض كيف يمكن بواسطة الوحدة المعتادة إضافة صناديق التعليم أسفل التصدير الخاص بها. يمكنك أيضا عرض نص توصيفي والذي من خلاله يقوم كل صندوق تعليم بشرح وظيفته</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index=".details" type="integer">152748622</label>
+			<label index=".image_descr" type="double">13061130</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="title.details" type="integer">131557834</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="db_mountpoints.details" type="integer">43503742</label>
+			<label index="db_mountpoints.image_descr" type="integer">217823442</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="file_mountpoints.details" type="integer">65754039</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="pagetypes_select.details" type="integer">266555079</label>
+			<label index="pagetypes_select.image_descr" type="integer">59933954</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+			<label index="file_mountpoints.image_descr" type="integer">176310322</label>
+			<label index="tables_modify.details" type="integer">89351209</label>
+			<label index="tables_modify.image_descr" type="integer">125152696</label>
+			<label index="tables_select.description" type="integer">79180839</label>
+			<label index="tables_select.details" type="integer">95679269</label>
+			<label index="non_exclude_fields.description" type="integer">17658287</label>
+			<label index="hidden.description" type="integer">190841262</label>
+			<label index="hidden.details" type="integer">191806419</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">85223659</label>
+			<label index="groupMods.description" type="integer">249603367</label>
+			<label index="groupMods.details" type="integer">250073054</label>
+			<label index="groupMods.image_descr" type="integer">193960165</label>
+			<label index="inc_access_lists.description" type="integer">208224239</label>
+			<label index="inc_access_lists.details" type="integer">163860974</label>
+			<label index="description.description" type="integer">189455419</label>
+			<label index="TSconfig.description" type="integer">211026111</label>
+			<label index="TSconfig.details" type="integer">267445991</label>
+			<label index="TSconfig.syntax" type="integer">185290164</label>
+			<label index="hide_in_lists.description" type="integer">169107711</label>
+			<label index="TSconfig.image_descr" type="integer">230747652</label>
+			<label index="hide_in_lists.details" type="integer">20735693</label>
+			<label index="subgroup.description" type="integer">244521906</label>
+			<label index="subgroup.details" type="integer">41206182</label>
+			<label index="allowed_languages.description" type="integer">33891430</label>
+			<label index="explicit_allowdeny.description" type="integer">109000363</label>
+			<label index="explicit_allowdeny.details" type="integer">242296359</label>
+			<label index="custom_options.description" type="integer">233721502</label>
+			<label index="allowed_languages.image_descr" type="integer">80725669</label>
+			<label index="allowed_languages.details" type="integer">48640895</label>
+			<label index="custom_options.details" type="double">1101189</label>
+			<label index="custom_options.image_descr" type="integer">42996915</label>
+			<label index="non_exclude_fields.details" type="integer">206989457</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ar" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index=".details">Groups contain the main permission settings you can set for a backend user. Many users can be members of the same group and thus share permissions.
+When a user is a member of many groups (including sub-groups) then the permission settings are added together so that the more groups a user is a member of, the more access is granted to him.</label>
+			<label index=".image_descr">Backend Usergroups are found in the root of the page tree where only &quot;admin&quot; users can edit them. The usergroups with red icons in this image are the ones with Access Lists enabled. The blue are just plain usergroups.
+This usergroup has Access Lists enabled. In the Access Lists you specify which modules, tables, database fields etc. the group members can access in TYPO3.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="title.details">Backend Usergroups are identified by their &quot;uid&quot; field value (integer) and therefore the title can always be changed. The &quot;uid&quot; can never be changed for a user group.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="db_mountpoints.details">The page tree in TYPO3 must have some points-of-entry defined. Here you should insert one or more references to a page which will represent a new root page for the page tree. This is called a &quot;Database mount&quot; or &quot;DB mount&quot;.
+DB mounts &lt;i&gt;may&lt;/i&gt; be inherited by the users which are members of this group. This depends on whether the user is configured to include the mounts set in the member groups.
+However it's recommended to use backend user groups like this to configure mounts. Especially if they need to be shared among many users.</label>
+			<label index="db_mountpoints.image_descr">Here a page is added as a &quot;DB mount&quot;...
+... and in the page tree of member users this will become the starting point for the page tree.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate the file folders on the webserver. If you want users to access the servers file system through TYPO3 they need at least one File Mount (and access to eg. File &gt; Filelist module).
+You can mount a path in &quot;fileadmin/&quot; relative to the TYPO3 installation or you can mount an absolute path somewhere else on the server (outside webroot!). The last requires that $TYPO3_CONF_VARS[BE][lockRootPath] is defined. The path you mount is defined by the Filemount record you refer to by this field. So a File Mount just points to another record inside of which the details are configured. See screen shots below.
+&quot;admin&quot; users always have the &quot;fileadmin/&quot; folder mounted by default.
+Notice; as with 'DB mounts' the file folder mounts may be inherited by the users which are members of this group.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="pagetypes_select.details">This option limits the number of valid choices for the user when he is about to select a page type.
+Choice of Page types (doktype) for a page is associated with a) a special icon for the page, b) permitted tables on the page (see $PAGES_TYPES global variable) and c) if the page is a web page or &quot;system folder&quot; type.</label>
+			<label index="pagetypes_select.image_descr">The list of typical page types available in a CMS context. Selecting Page types for a usergroup defines which of these options can be selected by member users.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+			<label index="file_mountpoints.image_descr">The File Mounts are references to records from the &quot;Filemounts&quot; table.
+In the Filemount record you define whether the path should be absolute (must be within $TYPO3_CONF_VARS[BE][lockRootPath]) or relative to &quot;fileadmin/&quot;. In this case the Filemount points to &quot;fileadmin/user_upload/&quot;
+This is the page tree of the &quot;admin&quot; user. Notice the folder &quot;user_upload&quot; which is the folder referred to by the File Mount record.
+This shows the mounted folder as seen by a user who was member of the group.
+Filemount records are also created in the page tree root.</label>
+			<label index="tables_modify.details">An important part of setting permissions is to define which database tables a user is allowed to modify.
+Tables allowed for modification is automatically also allowed for selection and thus you don't need to set tables entered here in the &quot;Tables (listing)&quot; box.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that this list adds to the fields selected in other member groups of a user.</label>
+			<label index="tables_modify.image_descr">The screen shot above shows how the &quot;Create new record&quot; dialog looks for a user limited to editing only &quot;Page&quot; and &quot;Pagecontent&quot; elements.
+The two tables are simply added to the list of &quot;Tables (modify)&quot; in the group Access Lists.
+This is (an example of) the full amount of elements that can be created on the page by the &quot;admin&quot; user for whom there are no restrictions.</label>
+			<label index="tables_select.description">Select which tables the members may see in record lists ('modify' tables does not need to be re-entered here!).</label>
+			<label index="tables_select.details">This determines which tables - in addition to those selected in the &quot;Tables (modify)&quot; box - may be viewed and listed for the member users. He is not able to &lt;em&gt;edit&lt;/em&gt; the table - only select the records and view the content.
+This list is not very important. It's a pretty rare situation that a user may select tables but not modify them.</label>
+			<label index="non_exclude_fields.description">Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</label>
+			<label index="hidden.description">Disables a user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may host multiple websites on multiple domains. Therefore this option secures that users can login only from a certain host name.
+Setting this to for example &quot;www.my-domain.com&quot; will require a user to be logged in from that domain if membership of this group should be gained. Otherwise the group will be ignored for the user.</label>
+			<label index="groupMods.description">Select available backend modules for the group members.</label>
+			<label index="groupMods.details">This determines which 'menu items' are available for the group members.
+This list of modules is added to any modules selected in other member groups of a user as well as the corresponding field of the user himself.</label>
+			<label index="groupMods.image_descr">The Backend Modules available for a user is reflected in the menu items of the backend. For most regular users only modules in the Web and File main modules are enabled. Typically &quot;Web &gt; Page&quot; is used for editing of page content.
+This is the assignment of Backend Modules to the user from the screen shot above. All four Web sub-modules and the two User sub-modules are configured here. However the File &gt; Filelist module must have been configured for another member group of this user (or inside the user profile itself which is also possible). The Help modules are all accessible by default and does not require explicit access.</label>
+			<label index="inc_access_lists.description">Select whether the Access Lists for Page type, Tables, Module and Allowed excludefield are enabled for this group.</label>
+			<label index="inc_access_lists.details">If this option is disabled the Access Lists cannot be configured for the group.
+When Access Lists are disabled the icon for the group is blue while it is red when Access Lists are enabled.</label>
+			<label index="description.description">Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</label>
+			<label index="TSconfig.description">User TSconfig: Additional configuration through TypoScript style values (Advanced).</label>
+			<label index="TSconfig.details">User TSconfig can be set for each backend user and group. Configuration set for backend groups is inherited by the user who is a member of those groups. The available options typically cover user settings like those found in the User&gt;Setup module (in fact options from that module can be forcibly overridden from User TSconfig!), configuration of the &quot;Admin Panel&quot; (frontend), various backend tweaks (lock user to IP, show shortcut frame, may user clear all cache?, width of the navigation frame etc.) and backend module configuration (overriding any configuration set for backend modules in Page TSconfig).</label>
+			<label index="TSconfig.syntax">TypoScript syntax without conditions and constants.</label>
+			<label index="hide_in_lists.description">This option will prevent the user group from showing up in lists, where user groups are selected.</label>
+			<label index="TSconfig.image_descr">In the TSconfig field help is right at hand - just click the TS wizard icon, then a window will pop up.
+In the pop-up window you will see a tree of possible configuration values. These are extracted from the TSconfig manual. You can click around to find the options you need to set through this wizard.</label>
+			<label index="hide_in_lists.details">This will affect the list of user groups in the Task Center To-Do and Messages parts as well as the Web&gt;Access module.
+The option is extremely useful if you have general user groups defining some global properties which all your users are members of. Then you would probably not like all those users to 'see' each other through the membership of this group, for instance sending messages or To-Dos to each other. And this is what is option will prevent.</label>
+			<label index="subgroup.description">Select backend user groups which are automatically included for members of this group.</label>
+			<label index="subgroup.details">The properties of subgroups are added to the properties of this group and basically they will simply be added to the list of member groups of any user which is a member of this group.
+This feature provides a great way to create 'Supervisor' user groups.</label>
+			<label index="allowed_languages.description">Select which record languages the group members are limited to edit.</label>
+			<label index="explicit_allowdeny.description">Select field values to explicitly deny or allow for user group members.</label>
+			<label index="explicit_allowdeny.details">Selector box fields can be configured for access control on value level. This list represents all values that are configured for access control. 
+Each value can be configured to require either explicit access (Allow) or explicit denial (Deny). If a value has the prefix &quot;Allow&quot; (green icon) it means that by default users &lt;em&gt;cannot&lt;/em&gt; set this value unless they are member of a user group which explicitly allows it (by setting this checkbox).
+If a value has the prefix &quot;Deny&quot; (red icon) it means that by default users can set this value unless they are member of a user group which explicitly denies it (by setting this checkbox).
+The list is organized so values from the same selector box is listed together. If values from a selectorbox is not present in the allow/deny list it simply means they are not evaluated and hence they can be set by anyone having access to the field in general.</label>
+			<label index="custom_options.description">Select custom permission options.</label>
+			<label index="allowed_languages.image_descr">This example shows a situation where two languages, Danish and German, are created in addition to the default language.</label>
+			<label index="allowed_languages.details">Records in TYPO3 can be configured to carry information about their language. If that is the case access to these elements will also be evaluated based on whether the user has the language in question included from this list.
+If a user has no languages listed all together it simply means that he can edit &lt;em&gt;all&lt;/em&gt; languages!</label>
+			<label index="custom_options.details">This list represents custom permissions introduced by various backend modules (from extensions). The significance of each option depends on the backend module that evaluates it.</label>
+			<label index="custom_options.image_descr">This is just an example from an internal test application. It shows how checkboxes are added by a custom module under its own header. You can also show a description text with each checkbox to explain its function.</label>
+			<label index="non_exclude_fields.details">&quot;Allowed excludefields&quot; allows you to detail the permissions granted to tables. By default all these fields are not available to users but must be specifically enabled by being selected here.
+One application of this is that pages are usually hidden by default and that the hidden field is not available for a user unless he has been granted access by this list of &quot;Allowed excludefields&quot;. So the user may create a new page, but cannot un-hide the page - unless of course he has been assigned the &quot;Page: Hide page&quot; exclude field through one of his member groups.
+Of course it does not make any sense to add fields from tables which are not included in the list of tables allowed to be modified.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

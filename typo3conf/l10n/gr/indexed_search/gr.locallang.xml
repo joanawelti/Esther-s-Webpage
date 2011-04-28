@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="mod_indexed_search">Αναζήτηση στο ευρετηρίο</label>
+			<label index="mod2_indexed_search">Στατιστικά ευρετηρίου</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="mod_indexed_search" type="integer">108129979</label>
+			<label index="mod2_indexed_search" type="integer">252429738</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="mod_indexed_search">Indexed search</label>
+			<label index="mod2_indexed_search">Indexed search statistics</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

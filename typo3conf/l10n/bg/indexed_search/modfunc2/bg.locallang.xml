@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="title">Статистики на индексираното търсене</label>
+			<label index="title2">Списък от най-често търсени думи</label>
+			<label index="noresults">Няма резултат</label>
+			<label index="all">Всички</label>
+			<label index="last30days">Последните 30 дни</label>
+			<label index="last24hours">Последните 24 часа</label>
+			<label index="justthispage">Статистика единствено за тази страница</label>
+			<label index="allpages">Статистика за всички страници. Изберете страница с формата за индексно търсене, за да видите различни статистики</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="title" type="integer">252429738</label>
+			<label index="title2" type="integer">124744620</label>
+			<label index="noresults" type="integer">206160539</label>
+			<label index="all" type="integer">186422474</label>
+			<label index="last30days" type="integer">39154833</label>
+			<label index="last24hours" type="integer">104044646</label>
+			<label index="justthispage" type="integer">264210007</label>
+			<label index="allpages" type="integer">249535422</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="title">Indexed search statistics</label>
+			<label index="title2">List of most searched words</label>
+			<label index="noresults">No results</label>
+			<label index="all">All</label>
+			<label index="last30days">Last 30 days</label>
+			<label index="last24hours">Last 24 hours</label>
+			<label index="justthispage">Statistics for this page only</label>
+			<label index="allpages">Statistics for all pages. Select a page with indexed search form to see several statistics</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

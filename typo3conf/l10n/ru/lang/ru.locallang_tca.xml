@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="file_mountpoints">Доступ к файлам:</label>
+			<label index="file_mountpoints_edit_title">Редактировать доступ к файлам</label>
+			<label index="file_mountpoints_add_title">Создать новый доступ к файлам</label>
+			<label index="file_mountpoints_list_title">Показать список доступов к файлам</label>
+			<label index="db_mountpoints">Точки монтирования БД:</label>
+			<label index="userMods">Модули:</label>
+			<label index="allowed_languages">Привязать к языкам:</label>
+			<label index="workspace_perms">Настройки доступа к рабочим областям:</label>
+			<label index="workspace_perms_live">Править чистовую рабочую область (Онлайн)</label>
+			<label index="workspace_perms_draft">Править черновую рабочую область (Оффлайн)</label>
+			<label index="workspace_perms_custom">Создавать новые рабочие области</label>
+			<label index="TSconfig">TSconfig:</label>
+			<label index="TSconfig_title">TSconfig QuickReference</label>
+			<label index="lockToDomain">Привязать к домену:</label>
+			<label index="be_users.username">Имя пользователя:</label>
+			<label index="be_users.password">Пароль:</label>
+			<label index="be_users.usergroup">Группа:</label>
+			<label index="be_users.usergroup_edit_title">Править группу пользователя</label>
+			<label index="be_users.usergroup_add_title">Создать новую группу</label>
+			<label index="be_users.usergroup_list_title">Показать список групп</label>
+			<label index="be_users.disableIPlock">Запретить привязку к IP для этого пользователя:</label>
+			<label index="be_users.admin">Администратор(!):</label>
+			<label index="be_users.options">Наследовать точки монтирования из групп:</label>
+			<label index="be_users.options_db_mounts">Точки монтирования БД</label>
+			<label index="be_users.options_file_mounts">Доступ к файлам</label>
+			<label index="be_users.fileoper_perms">Разрешения для операций с файлами:</label>
+			<label index="be_users.fileoper_perms_general">Файлы: загружать, копировать, перемещать, удалять, переименовывать, создавать, редактировать</label>
+			<label index="be_users.fileoper_perms_unzip">Файлы: распаковывать zip архивы</label>
+			<label index="be_users.fileoper_perms_diroper_perms">Директории: перемещать, удалять, переименовывать, создавать</label>
+			<label index="be_users.fileoper_perms_diroper_perms_copy">Директории: копировать</label>
+			<label index="be_users.fileoper_perms_diroper_perms_delete">Директории: удалять рекурсивно (rm -Rf)</label>
+			<label index="be_users.lang">Язык по умолчанию:</label>
+			<label index="be_users.tabs.rights">Права доступа</label>
+			<label index="be_users.tabs.mounts_and_workspaces">Точки монтирования и рабочие области</label>
+			<label index="be_users.tabs.options">Настройки</label>
+			<label index="be_users.tabs.extended">Дополнительно</label>
+			<label index="be_users.tabs.access">Доступ</label>
+			<label index="be_groups.title">Название группы:</label>
+			<label index="be_groups.pagetypes_select">Типы страниц:</label>
+			<label index="be_groups.tables_modify">Таблицы (редактировать):</label>
+			<label index="be_groups.tables_select">Таблицы (просматривать):</label>
+			<label index="be_groups.non_exclude_fields">Разрешённые поля-исключения:</label>
+			<label index="be_groups.explicit_allowdeny">Явно разрешить/запретить значения полей:</label>
+			<label index="be_groups.custom_options">Настройки дополнительных модулей:</label>
+			<label index="be_groups.inc_access_lists">Включить списки доступа:</label>
+			<label index="be_groups.hide_in_lists">Спрятать в списках:</label>
+			<label index="be_groups.subgroup">Подгруппы:</label>
+			<label index="be_groups.tabs.base_rights">Списки доступа</label>
+			<label index="be_groups.tabs.mounts_and_workspaces">Точки монтирования и рабочие области</label>
+			<label index="be_groups.tabs.options">Настройки</label>
+			<label index="be_groups.tabs.extended">Дополнительно</label>
+			<label index="sys_filemounts.tabs.users">Пользователи</label>
+			<label index="sys_filemounts.tabs.mountpoints">Точки монтирования</label>
+			<label index="sys_filemounts.tabs.publishing">Публикация</label>
+			<label index="sys_filemounts.tabs.other">Другое</label>
+			<label index="sys_filemounts.title">Название:</label>
+			<label index="sys_filemounts.path">Путь:</label>
+			<label index="sys_filemounts.base">Путь:</label>
+			<label index="sys_filemounts.base_absolute">абсолютный (от корня файловой системы) /</label>
+			<label index="sys_filemounts.base_relative">относительный ../fileadmin/</label>
+			<label index="sys_workspace.adminusers">Владельцы:</label>
+			<label index="sys_workspace.members">Члены:</label>
+			<label index="sys_workspace.reviewers">Обозреватели:</label>
+			<label index="sys_workspace.publish_time">Опубликовать:</label>
+			<label index="sys_workspace.unpublish_time">Разопубликовать:</label>
+			<label index="sys_workspace.freeze">Заморозить редактирование</label>
+			<label index="sys_workspace.live_edit">Разрешить &quot;чистовое&quot; редактирование записей из таблиц без поддержки версионирования</label>
+			<label index="sys_workspace.review_stage_edit">Разрешить членам рабочей области править записи в стадии рассмотрения</label>
+			<label index="sys_workspace.disable_autocreate">Запретить авто-версионирование во время правки</label>
+			<label index="sys_workspace.swap_modes">Режим обмена</label>
+			<label index="sys_workspace.vtypes">Запретить следующие типы версионирования для членов и обозревателей рабочей области:</label>
+			<label index="sys_workspace.publish_access">Право публикации:</label>
+			<label index="sys_workspace.stagechg_notification">Уведомление об изменениях стадии по электронной почте:</label>
+			<label index="pages">Страница</label>
+			<label index="doktype.I.0">Стандарт</label>
+			<label index="doktype.I.1">Системная директория</label>
+			<label index="doktype.I.2">Мусорник</label>
+			<label index="title">Заголовок</label>
+			<label index="php_tree_stop">Конец дерева</label>
+			<label index="is_siteroot">Корневая директория сайта</label>
+			<label index="storage_pid">Место хранения общих записей</label>
+			<label index="be_users">Внутренний пользователь</label>
+			<label index="be_groups">Группа внутренних пользователей</label>
+			<label index="sys_filemounts">Доступ к файлам</label>
+			<label index="sys_language">Язык сайта</label>
+			<label index="sys_language.isocode">Выберите официальный язык (код ISO):</label>
+			<label index="sys_language.flag">Выберите символ флага:</label>
+			<label index="sys_workspace">Рабочая область</label>
+			<label index="editlock">Закрыть доступ для всех, кроме администраторов:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="pages" type="integer">26464201</label>
+			<label index="doktype.I.0" type="integer">246864046</label>
+			<label index="doktype.I.1" type="integer">260649090</label>
+			<label index="doktype.I.2" type="integer">184146156</label>
+			<label index="title" type="integer">66854616</label>
+			<label index="php_tree_stop" type="integer">90999720</label>
+			<label index="is_siteroot" type="integer">250187229</label>
+			<label index="storage_pid" type="integer">147559019</label>
+			<label index="be_users" type="integer">104926801</label>
+			<label index="be_groups" type="integer">190780417</label>
+			<label index="sys_filemounts" type="integer">140334923</label>
+			<label index="sys_language" type="integer">144875845</label>
+			<label index="sys_language.isocode" type="integer">49440593</label>
+			<label index="sys_language.flag" type="integer">145114393</label>
+			<label index="editlock" type="integer">177820058</label>
+			<label index="sys_workspace" type="double">3809681</label>
+			<label index="file_mountpoints" type="integer">268278971</label>
+			<label index="file_mountpoints_edit_title" type="integer">197007027</label>
+			<label index="file_mountpoints_add_title" type="integer">53239241</label>
+			<label index="file_mountpoints_list_title" type="integer">53371244</label>
+			<label index="db_mountpoints" type="integer">206948014</label>
+			<label index="userMods" type="integer">63120059</label>
+			<label index="allowed_languages" type="integer">171895656</label>
+			<label index="workspace_perms" type="integer">229674026</label>
+			<label index="workspace_perms_live" type="integer">119700795</label>
+			<label index="workspace_perms_draft" type="integer">58973796</label>
+			<label index="workspace_perms_custom" type="integer">256534070</label>
+			<label index="TSconfig" type="integer">245990262</label>
+			<label index="TSconfig_title" type="integer">123113151</label>
+			<label index="lockToDomain" type="integer">230344003</label>
+			<label index="be_users.username" type="integer">212632006</label>
+			<label index="be_users.password" type="integer">187963993</label>
+			<label index="be_users.usergroup" type="integer">27937892</label>
+			<label index="be_users.usergroup_edit_title" type="integer">267655097</label>
+			<label index="be_users.usergroup_add_title" type="integer">244643214</label>
+			<label index="be_users.usergroup_list_title" type="integer">231429926</label>
+			<label index="be_users.disableIPlock" type="integer">80750903</label>
+			<label index="be_users.admin" type="integer">137983116</label>
+			<label index="be_users.options" type="integer">76946605</label>
+			<label index="be_users.options_db_mounts" type="integer">224992048</label>
+			<label index="be_users.options_file_mounts" type="integer">20092170</label>
+			<label index="be_users.fileoper_perms" type="integer">39232253</label>
+			<label index="be_users.fileoper_perms_general" type="integer">85322805</label>
+			<label index="be_users.fileoper_perms_unzip" type="integer">32880385</label>
+			<label index="be_users.fileoper_perms_diroper_perms" type="integer">133096906</label>
+			<label index="be_users.fileoper_perms_diroper_perms_copy" type="integer">79850240</label>
+			<label index="be_users.fileoper_perms_diroper_perms_delete" type="integer">60247245</label>
+			<label index="be_users.lang" type="integer">101565600</label>
+			<label index="be_users.tabs.rights" type="integer">14900037</label>
+			<label index="be_users.tabs.mounts_and_workspaces" type="integer">140054527</label>
+			<label index="be_users.tabs.options" type="integer">229542606</label>
+			<label index="be_users.tabs.extended" type="integer">253974415</label>
+			<label index="be_users.tabs.access" type="integer">200750040</label>
+			<label index="be_groups.title" type="integer">76352857</label>
+			<label index="be_groups.pagetypes_select" type="integer">197647860</label>
+			<label index="be_groups.tables_modify" type="integer">16556032</label>
+			<label index="be_groups.tables_select" type="integer">140558508</label>
+			<label index="be_groups.non_exclude_fields" type="integer">124998138</label>
+			<label index="be_groups.explicit_allowdeny" type="integer">53926770</label>
+			<label index="be_groups.custom_options" type="integer">116856781</label>
+			<label index="be_groups.inc_access_lists" type="integer">183753355</label>
+			<label index="be_groups.hide_in_lists" type="integer">10192777</label>
+			<label index="be_groups.subgroup" type="integer">125446906</label>
+			<label index="be_groups.tabs.base_rights" type="integer">224783954</label>
+			<label index="be_groups.tabs.mounts_and_workspaces" type="integer">140054527</label>
+			<label index="be_groups.tabs.options" type="integer">229542606</label>
+			<label index="be_groups.tabs.extended" type="integer">253974415</label>
+			<label index="sys_filemounts.title" type="integer">217600557</label>
+			<label index="sys_filemounts.path" type="integer">266188054</label>
+			<label index="sys_filemounts.base" type="integer">260642638</label>
+			<label index="sys_filemounts.base_absolute" type="integer">218853471</label>
+			<label index="sys_filemounts.base_relative" type="integer">42671422</label>
+			<label index="sys_workspace.adminusers" type="integer">1756457</label>
+			<label index="sys_workspace.members" type="integer">229261518</label>
+			<label index="sys_workspace.reviewers" type="integer">154009364</label>
+			<label index="sys_workspace.publish_time" type="integer">213276400</label>
+			<label index="sys_workspace.unpublish_time" type="integer">253289148</label>
+			<label index="sys_workspace.freeze" type="integer">247061533</label>
+			<label index="sys_workspace.live_edit" type="integer">122772382</label>
+			<label index="sys_workspace.review_stage_edit" type="integer">182687804</label>
+			<label index="sys_workspace.disable_autocreate" type="integer">49375819</label>
+			<label index="sys_workspace.swap_modes" type="integer">143571185</label>
+			<label index="sys_workspace.vtypes" type="integer">211901512</label>
+			<label index="sys_workspace.publish_access" type="integer">223739046</label>
+			<label index="sys_workspace.stagechg_notification" type="integer">3599496</label>
+			<label index="sys_filemounts.tabs.users" type="integer">261795423</label>
+			<label index="sys_filemounts.tabs.mountpoints" type="integer">6897128</label>
+			<label index="sys_filemounts.tabs.publishing" type="integer">167452506</label>
+			<label index="sys_filemounts.tabs.other" type="integer">103881441</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="pages">Page</label>
+			<label index="doktype.I.0">Standard</label>
+			<label index="doktype.I.1">SysFolder</label>
+			<label index="doktype.I.2">Recycler</label>
+			<label index="title">Pagetitle:</label>
+			<label index="php_tree_stop">Stop page tree:</label>
+			<label index="is_siteroot">Is root of website:</label>
+			<label index="storage_pid">General Record Storage page:</label>
+			<label index="be_users">Backend user</label>
+			<label index="be_groups">Backend usergroup</label>
+			<label index="sys_filemounts">Filemount</label>
+			<label index="sys_language">Website Language</label>
+			<label index="sys_language.isocode">Select Official Language (ISO code):</label>
+			<label index="sys_language.flag">Select flag icon:</label>
+			<label index="sys_workspace">Workspace</label>
+			<label index="editlock">Restrict editing by non-Admins:</label>
+			<label index="file_mountpoints">File Mounts:</label>
+			<label index="file_mountpoints_edit_title">Edit filemount</label>
+			<label index="file_mountpoints_add_title">Create new filemount</label>
+			<label index="file_mountpoints_list_title">List filemounts</label>
+			<label index="db_mountpoints">DB Mounts:</label>
+			<label index="userMods">Modules:</label>
+			<label index="allowed_languages">Limit to languages:</label>
+			<label index="workspace_perms">Workspace permissions:</label>
+			<label index="workspace_perms_live">Edit Live (Online)</label>
+			<label index="workspace_perms_draft">Edit Draft (Offline)</label>
+			<label index="workspace_perms_custom">Create new workspace projects</label>
+			<label index="TSconfig">TSconfig:</label>
+			<label index="TSconfig_title">TSconfig QuickReference</label>
+			<label index="lockToDomain">Lock to domain:</label>
+			<label index="be_users.username">Username:</label>
+			<label index="be_users.password">Password:</label>
+			<label index="be_users.usergroup">Group:</label>
+			<label index="be_users.usergroup_edit_title">Edit usergroup</label>
+			<label index="be_users.usergroup_add_title">Create new group</label>
+			<label index="be_users.usergroup_list_title">List groups</label>
+			<label index="be_users.disableIPlock">Disable IP lock for user:</label>
+			<label index="be_users.admin">Admin(!):</label>
+			<label index="be_users.options">Mount from groups:</label>
+			<label index="be_users.options_db_mounts">DB Mounts</label>
+			<label index="be_users.options_file_mounts">File Mounts</label>
+			<label index="be_users.fileoper_perms">Fileoperation permissions:</label>
+			<label index="be_users.fileoper_perms_general">Files: Upload,Copy,Move,Delete,Rename,New,Edit</label>
+			<label index="be_users.fileoper_perms_unzip">Files: Unzip</label>
+			<label index="be_users.fileoper_perms_diroper_perms">Directory: Move,Delete,Rename,New</label>
+			<label index="be_users.fileoper_perms_diroper_perms_copy">Directory: Copy</label>
+			<label index="be_users.fileoper_perms_diroper_perms_delete">Directory: Delete recursively (rm -Rf)</label>
+			<label index="be_users.lang">Default Language:</label>
+			<label index="be_users.tabs.rights">Access Rights</label>
+			<label index="be_users.tabs.mounts_and_workspaces">Mounts and Workspaces</label>
+			<label index="be_users.tabs.options">Options</label>
+			<label index="be_users.tabs.extended">Extended</label>
+			<label index="be_users.tabs.access">Access</label>
+			<label index="be_groups.title">Grouptitle:</label>
+			<label index="be_groups.pagetypes_select">Page types:</label>
+			<label index="be_groups.tables_modify">Tables (modify):</label>
+			<label index="be_groups.tables_select">Tables (listing):</label>
+			<label index="be_groups.non_exclude_fields">Allowed excludefields:</label>
+			<label index="be_groups.explicit_allowdeny">Explicitly allow/deny field values:</label>
+			<label index="be_groups.custom_options">Custom module options:</label>
+			<label index="be_groups.inc_access_lists">Include Access Lists:</label>
+			<label index="be_groups.hide_in_lists">Hide in lists:</label>
+			<label index="be_groups.subgroup">Sub Groups:</label>
+			<label index="be_groups.tabs.base_rights">Access Lists</label>
+			<label index="be_groups.tabs.mounts_and_workspaces">Mounts and Workspaces</label>
+			<label index="be_groups.tabs.options">Options</label>
+			<label index="be_groups.tabs.extended">Extended</label>
+			<label index="sys_filemounts.title">Label:</label>
+			<label index="sys_filemounts.path">Path:</label>
+			<label index="sys_filemounts.base">Base:</label>
+			<label index="sys_filemounts.base_absolute">absolute (root) / </label>
+			<label index="sys_filemounts.base_relative">relative ../fileadmin/</label>
+			<label index="sys_workspace.adminusers">Owners:</label>
+			<label index="sys_workspace.members">Members:</label>
+			<label index="sys_workspace.reviewers">Reviewers:</label>
+			<label index="sys_workspace.publish_time">Publish:</label>
+			<label index="sys_workspace.unpublish_time">Un-Publish:</label>
+			<label index="sys_workspace.freeze">Freeze Editing</label>
+			<label index="sys_workspace.live_edit">Allow &quot;live&quot; editing of records from tables without versioning</label>
+			<label index="sys_workspace.review_stage_edit">Allow members to edit records in &quot;Review&quot; stage</label>
+			<label index="sys_workspace.disable_autocreate">Disable auto-versioning when editing</label>
+			<label index="sys_workspace.swap_modes">Swap modes</label>
+			<label index="sys_workspace.vtypes">Disable Versioning Types for members and reviewers:</label>
+			<label index="sys_workspace.publish_access">Publish access:</label>
+			<label index="sys_workspace.stagechg_notification">Stage change notification by email:</label>
+			<label index="sys_filemounts.tabs.users">Users</label>
+			<label index="sys_filemounts.tabs.mountpoints">Mountpoints</label>
+			<label index="sys_filemounts.tabs.publishing">Publishing</label>
+			<label index="sys_filemounts.tabs.other">Other</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pt" type="array">
+			<label index="labels.openInNewWindow">Open in new window</label>
+			<label index="labels.goBack">Go back</label>
+			<label index="labels.makeShortcut">Create a shortcut to this page?</label>
+			<label index="labels.lockedRecord">The user '%s' began to edit this record %s ago.</label>
+			<label index="labels.lockedRecord_content">The user '%s' began to edit content on this page %s ago.</label>
+			<label index="labels.showRecords">Show records</label>
+			<label index="labels.path">Path</label>
+			<label index="labels.upOneLevel">Up one level</label>
+			<label index="labels.enterSearchString">Search String:</label>
+			<label index="labels.enterSearchLevels">This page|1 level down|2 levels down|3 levels down|4 levels down</label>
+			<label index="labels.noEditPermission">Sorry, you didn't have proper permissions to perform this change.</label>
+			<label index="labels.fieldsMissing">There are fields in the form which are not yet correctly filled in.
+The fields are marked with a yellow exclamation mark.</label>
+			<label index="labels.fieldsChanged">There are unsaved changes in the form!
+Do you want to continue WITHOUT saving?</label>
+			<label index="labels.showPalettes">Show secondary options (palettes)</label>
+			<label index="labels.showDescriptions">Show field descriptions</label>
+			<label index="labels.disableRTE">Disable Rich Text Editor (RTE)</label>
+			<label index="labels._CONTROL_">Control</label>
+			<label index="labels._PATH_">Path</label>
+			<label index="labels.setFields">Set fields</label>
+			<label index="labels.search">Search</label>
+			<label index="labels.author">Author:</label>
+			<label index="labels.note">Note:</label>
+			<label index="labels.category">Category:</label>
+			<label index="labels.reload">Reload</label>
+			<label index="labels.csv">Download CSV file</label>
+			<label index="labels.clear_cache">Clear cache for this page</label>
+			<label index="labels.no_title">No title</label>
+			<label index="labels.cancel">Cancel</label>
+			<label index="labels.hidden">Hidden</label>
+			<label index="labels.starttime">Start</label>
+			<label index="labels.endtime">End</label>
+			<label index="labels.minutesHoursDaysYears"> min| hrs| days| yrs</label>
+			<label index="labels.menu">Menu:</label>
+			<label index="labels.showPage">View webpage</label>
+			<label index="labels.showList">Show record list</label>
+			<label index="labels.days">days</label>
+			<label index="labels.depth_0">This page</label>
+			<label index="labels.depth_1">1 level</label>
+			<label index="labels.depth_2">2 levels</label>
+			<label index="labels.depth_3">3 levels</label>
+			<label index="labels.refresh">Reload the tree from server</label>
+			<label index="labels.close">Close</label>
+			<label index="labels.new">NEW</label>
+			<label index="labels.selected">Selected</label>
+			<label index="labels.items">Items</label>
+			<label index="labels.remove_selected">Remove selected items</label>
+			<label index="labels.move_to_top">Move selected item upwards</label>
+			<label index="labels.browse_file">Browse for files</label>
+			<label index="labels.browse_db">Browse for records</label>
+			<label index="labels.generalOptions">General options:</label>
+			<label index="labels.allTables">[All tables]</label>
+			<label index="labels.moreOptions">More options...</label>
+			<label index="labels.noMatchingValue">CURRENT VALUE IS NOT AVAILABLE (%s)</label>
+			<label index="labels.thumbmode_clip">Show Thumbnails on ClipBoard</label>
+			<label index="labels.copymode">Copy items instead of moving them</label>
+			<label index="labels.clipNoEl">No elements</label>
+			<label index="labels.cliptabs">Clipboard #</label>
+			<label index="labels.removeItem">Remove item</label>
+			<label index="show_item.php.viewItem">View Item</label>
+			<label index="show_item.php.file">File</label>
+			<label index="show_item.php.dimensions">Dimensions</label>
+			<label index="show_item.php.filesize">Size</label>
+			<label index="show_item.php.ftp_area">FTP AREA</label>
+			<label index="db_new.php.pagetitle">New record</label>
+			<label index="db_new.php.after">after</label>
+			<label index="db_new.php.inside">inside</label>
+			<label index="file_upload.php.pagetitle">Upload files</label>
+			<label index="file_upload.php.submit">Upload files</label>
+			<label index="file_upload.php.files">files</label>
+			<label index="file_rename.php.pagetitle">Rename</label>
+			<label index="file_rename.php.submit">Rename</label>
+			<label index="file_edit.php.pagetitle">Edit</label>
+			<label index="file_edit.php.submit">Save</label>
+			<label index="file_edit.php.saveAndClose">Save and Close</label>
+			<label index="file_edit.php.coundNot">This filetype cannot be edited.&lt;br /&gt;The file must have an extension like:&lt;br /&gt;&lt;br /&gt; &lt;b&gt;%s&lt;/b&gt;</label>
+			<label index="file_newfolder.php.pagetitle">New folder</label>
+			<label index="file_newfolder.php.submit">Create folders</label>
+			<label index="file_newfolder.php.folders">folders</label>
+			<label index="file_newfolder.php.newfile_submit">Create file</label>
+			<label index="file_newfolder.php.newfile">Create new textfile</label>
+			<label index="file_clipupload.php.warning_head">Upload path error</label>
+			<label index="file_clipupload.php.warning">No upload-folder is found. You should create a TEMP-folder (&quot;_temp_&quot;) in the root of one of your mounts first!</label>
+			<label index="mess.redraw">Redrawing the page will discard the current data. Do you want to continue?</label>
+			<label index="mess.delete">Are you sure you want to delete &quot;%s&quot;?</label>
+			<label index="mess.deleteClip">Are you sure you want to delete ALL selected elements (%s) on the clipboard?</label>
+			<label index="mess.refresh_login">Your login has probably expired.
+Do you want to refresh it now?</label>
+			<label index="mess.noSelItemForEdit">Please select one or more items in the list before you can edit.</label>
+			<label index="mess.onChangeAlert">This change will affect which fields are available in the form.
+Would you like to save now in order to refresh the display?</label>
+			<label index="mess.move_into">Move &quot;%s&quot; into &quot;%s&quot;?</label>
+			<label index="mess.move_after">Move &quot;%s&quot; to after &quot;%s&quot;?</label>
+			<label index="mess.copy_into">Copy &quot;%s&quot; into &quot;%s&quot;?</label>
+			<label index="mess.copy_after">Copy &quot;%s&quot; to after &quot;%s&quot;?</label>
+			<label index="mess.copycb_into">Copy all elements (%s) from the clipboard into &quot;%s&quot;?</label>
+			<label index="mess.copycb_after">Copy all elements (%s) from the clipboard to the position after &quot;%s&quot;?</label>
+			<label index="mess.movecb_into">Move all elements (%s) from the clipboard into &quot;%s&quot;?</label>
+			<label index="mess.movecb_after">Move all elements (%s) from the clipboard to the position after &quot;%s&quot;?</label>
+			<label index="rm.menu">[menu]</label>
+			<label index="rm.saveDoc">Save document</label>
+			<label index="rm.saveDocShow">Save document and view page</label>
+			<label index="rm.saveCloseDoc">Save and close document</label>
+			<label index="rm.saveCloseAllDocs">Save and close all documents</label>
+			<label index="rm.saveNewDoc">Save document and create a new one</label>
+			<label index="rm.closeDoc">Close document</label>
+			<label index="rm.closeAllDocs">Close all documents</label>
+			<label index="rm.clearCache_clearCache">Clear cache</label>
+			<label index="rm.clearCache_thisPage">This page</label>
+			<label index="rm.clearCache_pages">Clear Page Cache</label>
+			<label index="rm.clearCache_all">Clear All Cache</label>
+			<label index="rm.edit">Edit</label>
+			<label index="rm.delete">Delete</label>
+			<label index="buttons.logout">Logout</label>
+			<label index="buttons.clear">Clear</label>
+			<label index="buttons.clipboard">Clipboard</label>
+			<label index="cm.copy">Copy</label>
+			<label index="cm.cut">Cut</label>
+			<label index="cm.view">Show_pt</label>
+			<label index="cm.edit">Edit</label>
+			<label index="cm.new">New</label>
+			<label index="cm.pasteinto">Paste into</label>
+			<label index="cm.pasteafter">Paste after</label>
+			<label index="cm.select">Select</label>
+			<label index="cm.deselect">Deselect</label>
+			<label index="cm.selectto">Select to</label>
+			<label index="cm.deselectto">Deselect to</label>
+			<label index="cm.delete">Delete</label>
+			<label index="cm.hide">Hide</label>
+			<label index="cm.unhide">Unhide</label>
+			<label index="cm.upload">Upload Files</label>
+			<label index="cm.rename">Rename</label>
+			<label index="cm.open">Open</label>
+			<label index="cm.save">Save</label>
+			<label index="cm.unzip">Unzip</label>
+			<label index="cm.info">Info</label>
+			<label index="cm.createnew">Create new</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

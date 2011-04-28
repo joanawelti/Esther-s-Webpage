@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lt" type="array">
+			<label index="wiz_crMany">Paraleliai kuriami puslapiai</label>
+			<label index="wiz_W">W!</label>
+			<label index="wiz_newPages">Sukurti naujus puslapius</label>
+			<label index="wiz_newPages_page">Puslapis</label>
+			<label index="wiz_newPages_currentMenu">Nauja puslapių struktūra</label>
+			<label index="wiz_newPages_errorMsg1">Jūs neturite pakankamai teisiu naujų puslapių sukurimui!</label>
+			<label index="wiz_newPages_lCreate">Sukurti puslapius</label>
+			<label index="wiz_newPages_listEnd">Talpinti naujus puslapius po egzistuojančiais subpuslapiais</label>
+			<label index="wiz_newPages_hidePages">Paslėpti nauja puslapį</label>
+			<label index="wiz_newPages_lCreate_msg1">Jūs norite sukurti keleta naujų puslapiu? Norite tęsti toliau?</label>
+			<label index="wiz_newPages_lReset">Išvalyti laukus</label>
+			<label index="wiz_newPages_noCreate">Puslapiai nesukurti!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lt" type="array">
+			<label index="wiz_newPages" type="integer">203564147</label>
+			<label index="wiz_newPages_page" type="integer">26464201</label>
+			<label index="wiz_newPages_currentMenu" type="double">1353175</label>
+			<label index="wiz_newPages_lCreate" type="integer">246594352</label>
+			<label index="wiz_newPages_hidePages" type="integer">71614542</label>
+			<label index="wiz_newPages_lReset" type="double">3106134</label>
+			<label index="wiz_newPages_noCreate" type="integer">151121547</label>
+			<label index="wiz_newPages_listEnd" type="integer">58585614</label>
+			<label index="wiz_crMany" type="integer">69436019</label>
+			<label index="wiz_W" type="integer">247242126</label>
+			<label index="wiz_newPages_lCreate_msg1" type="integer">197760570</label>
+			<label index="wiz_newPages_errorMsg1" type="integer">252016009</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lt" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

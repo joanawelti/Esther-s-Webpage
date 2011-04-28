@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<generator>LFEditor</generator>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="p_NewRecordAfter">New</label>
+			<label index="p_NewRecordAfter_Long">Add content</label>
+			<label index="p_copy">Copy</label>
+			<label index="p_copyTitle">Copy element</label>
+			<label index="p_cut">Cut</label>
+			<label index="p_cutTitle">Cut element</label>
+			<label index="p_delete">Delete</label>
+			<label index="p_editRecord">Edit</label>
+			<label index="p_hide">Hide</label>
+			<label index="p_moveDown">Downward</label>
+			<label index="p_moveUp">Upward</label>
+			<label index="p_newSubpage">New subpage</label>
+			<label index="p_paste">Paste</label>
+			<label index="p_pasteTitle">Paste element after existing element</label>
+			<label index="p_unhide">Unhide</label>
+			<label index="title_p_moveDown">Move one step downward</label>
+			<label index="title_p_moveUp">Move one step upward</label>
+		</languageKey>
+		<languageKey index="dk">EXT:tm_tvpagemodule/dk.locallang.xml</languageKey>
+		<languageKey index="de">EXT:tm_tvpagemodule/de.locallang.xml</languageKey>
+		<languageKey index="no">EXT:tm_tvpagemodule/no.locallang.xml</languageKey>
+		<languageKey index="it">EXT:tm_tvpagemodule/it.locallang.xml</languageKey>
+		<languageKey index="fr">EXT:tm_tvpagemodule/fr.locallang.xml</languageKey>
+		<languageKey index="es">EXT:tm_tvpagemodule/es.locallang.xml</languageKey>
+		<languageKey index="nl">EXT:tm_tvpagemodule/nl.locallang.xml</languageKey>
+		<languageKey index="cz">EXT:tm_tvpagemodule/cz.locallang.xml</languageKey>
+		<languageKey index="pl">EXT:tm_tvpagemodule/pl.locallang.xml</languageKey>
+		<languageKey index="si">EXT:tm_tvpagemodule/si.locallang.xml</languageKey>
+		<languageKey index="fi">EXT:tm_tvpagemodule/fi.locallang.xml</languageKey>
+		<languageKey index="tr">EXT:tm_tvpagemodule/tr.locallang.xml</languageKey>
+		<languageKey index="se">EXT:tm_tvpagemodule/se.locallang.xml</languageKey>
+		<languageKey index="pt">EXT:tm_tvpagemodule/pt.locallang.xml</languageKey>
+		<languageKey index="ru">EXT:tm_tvpagemodule/ru.locallang.xml</languageKey>
+		<languageKey index="ro">EXT:tm_tvpagemodule/ro.locallang.xml</languageKey>
+		<languageKey index="ch">EXT:tm_tvpagemodule/ch.locallang.xml</languageKey>
+		<languageKey index="sk">EXT:tm_tvpagemodule/sk.locallang.xml</languageKey>
+		<languageKey index="lt">EXT:tm_tvpagemodule/lt.locallang.xml</languageKey>
+		<languageKey index="is">EXT:tm_tvpagemodule/is.locallang.xml</languageKey>
+		<languageKey index="hr">EXT:tm_tvpagemodule/hr.locallang.xml</languageKey>
+		<languageKey index="hu">EXT:tm_tvpagemodule/hu.locallang.xml</languageKey>
+		<languageKey index="gl">EXT:tm_tvpagemodule/gl.locallang.xml</languageKey>
+		<languageKey index="th">EXT:tm_tvpagemodule/th.locallang.xml</languageKey>
+		<languageKey index="gr">EXT:tm_tvpagemodule/gr.locallang.xml</languageKey>
+		<languageKey index="hk">EXT:tm_tvpagemodule/hk.locallang.xml</languageKey>
+		<languageKey index="eu">EXT:tm_tvpagemodule/eu.locallang.xml</languageKey>
+		<languageKey index="bg">EXT:tm_tvpagemodule/bg.locallang.xml</languageKey>
+		<languageKey index="br">EXT:tm_tvpagemodule/br.locallang.xml</languageKey>
+		<languageKey index="et">EXT:tm_tvpagemodule/et.locallang.xml</languageKey>
+		<languageKey index="ar">EXT:tm_tvpagemodule/ar.locallang.xml</languageKey>
+		<languageKey index="he">EXT:tm_tvpagemodule/he.locallang.xml</languageKey>
+		<languageKey index="ua">EXT:tm_tvpagemodule/ua.locallang.xml</languageKey>
+		<languageKey index="lv">EXT:tm_tvpagemodule/lv.locallang.xml</languageKey>
+		<languageKey index="jp">EXT:tm_tvpagemodule/jp.locallang.xml</languageKey>
+		<languageKey index="vn">EXT:tm_tvpagemodule/vn.locallang.xml</languageKey>
+		<languageKey index="ca">EXT:tm_tvpagemodule/ca.locallang.xml</languageKey>
+		<languageKey index="ba">EXT:tm_tvpagemodule/ba.locallang.xml</languageKey>
+		<languageKey index="kr">EXT:tm_tvpagemodule/kr.locallang.xml</languageKey>
+		<languageKey index="eo">EXT:tm_tvpagemodule/eo.locallang.xml</languageKey>
+		<languageKey index="my">EXT:tm_tvpagemodule/my.locallang.xml</languageKey>
+		<languageKey index="hi">EXT:tm_tvpagemodule/hi.locallang.xml</languageKey>
+		<languageKey index="fo">EXT:tm_tvpagemodule/fo.locallang.xml</languageKey>
+		<languageKey index="fa">EXT:tm_tvpagemodule/fa.locallang.xml</languageKey>
+		<languageKey index="sr">EXT:tm_tvpagemodule/sr.locallang.xml</languageKey>
+	</data>
+</T3locallang>

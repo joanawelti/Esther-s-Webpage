@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ch" type="array">
+			<label index="title">页面信息</label>
+			<label index="depth_0">该页</label>
+			<label index="depth_1">第一层</label>
+			<label index="depth_2">第二层</label>
+			<label index="depth_3">第三层</label>
+			<label index="mlang_labels_tablabel">页面相关信息, 例如点击统计、修改日志、记录数</label>
+			<label index="mlang_labels_tabdescr">模块Web&gt;Info专注于页面的统计信息. 其中包括页面点击统计与一个允许您查看页面修改历史的修改日志. 您也可以根据出色的树型结构显示出来的页面设置得知每个页面上的记录总数.</label>
+			<label index="mlang_tabs_tab">信息</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ch" type="array">
+			<label index="title" type="integer">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_labels_tabdescr" type="integer">160538617</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ch" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="permissions">การอนุญาต</label>
+			<label index="ch_permissions">เปลี่ยนแปลงการอนุญาต</label>
+			<label index="Legend">ระวาง</label>
+			<label index="Owner">เจ้าของ</label>
+			<label index="Group">กลุ่ม</label>
+			<label index="Everybody">ทุกคน</label>
+			<label index="Save">บันทึก</label>
+			<label index="Abort">ออกจาก</label>
+			<label index="Edit">แก้ไข</label>
+			<label index="recursive">ตั้งทำซ้ำเรื่อยๆ</label>
+			<label index="pages_affected">หน้าที่มีผล</label>
+			<label index="user_overview">กล่าวนำผู้ใช้</label>
+			<label index="Mode">โหมด</label>
+			<label index="Depth">ความลึก</label>
+			<label index="levels">ระดับ</label>
+			<label index="User">ผู้ใช้</label>
+			<label index="def">คำจำกัดความ: 'เนื้อหา' คือระเบียนจากทุกตารางในหน้า ยกเว้นจากระเบียนจากตาราง 'หน้า'</label>
+			<label index="A_Granted">การเข้าถึงได้รับการมอบหมาย</label>
+			<label index="A_Denied">การเข้าถึงถูกปฏิเสธ</label>
+			<numIndex index="1">แสดงหน้า</numIndex>
+			<numIndex index="16">แก้ไขเนื้อหา</numIndex>
+			<numIndex index="2">แก้ไขหน้า</numIndex>
+			<numIndex index="4">ลบหน้า</numIndex>
+			<numIndex index="8">หน้าใหม่</numIndex>
+			<label index="1_t">แสดง/คัดลอก หน้าและเนื้อหา</label>
+			<label index="16_t">เปลี่ยน/เพิ่ม/ลบ/ย้าย เนื้อหา</label>
+			<label index="2_t">เปลี่ยน/ย้าย หน้า เช่นเปลี่ยนชื่อหน้า</label>
+			<label index="4_t">ลบหน้าและเนื้อหา</label>
+			<label index="8_t">สร้างหน้าใหม่ใต้หน้านี้</label>
+			<label index="mlang_labels_tablabel">หน้าแก้ไขการอนุญาต</label>
+			<label index="mlang_labels_tabdescr">ตั้งค่าการอนุญาตของหน้า สำคัญมากเพราะเป็นการควบคุมการเข้าถึงหน้า ของผู้ใช้ส่วนหลัง คุณสามารถมอบหมายผู้ใช้และกลุ่มใช้เป็นเจ้าของของหน้าและตั้งค่าการเข้าถึงให้แต่ละคน</label>
+			<label index="mlang_tabs_tab">การเข้าถึง</label>
+			<label index="EditLock">ล็อค</label>
+			<label index="EditLock_descr">หน้าและเนื้อหาของหน้าถูกล็อคสำหรับการแก้ไขโดยผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบทั้งหมด</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<numIndex index="1" type="integer">256624387</numIndex>
+			<numIndex index="16" type="integer">102695873</numIndex>
+			<numIndex index="2" type="integer">66732081</numIndex>
+			<numIndex index="4" type="integer">220131191</numIndex>
+			<numIndex index="8" type="integer">146653009</numIndex>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="integer">115809010</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

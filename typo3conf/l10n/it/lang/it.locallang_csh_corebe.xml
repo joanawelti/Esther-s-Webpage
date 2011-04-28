@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">TYPO3 Core</label>
+			<label index=".description">TYPO3 é un Content Management Framework che consiste in un &quot;core&quot; centrale con limitate funzionalità. Per estendere questo nucleo centrale esistono centinaia di estensioni che, in differenti combinazioni, renderanno questo sistema molto capace e flessibile.</label>
+			<label index=".details">Per molte persone TYPO3 è l'equivalente di un CMS che fornisce un backend per la gestione dei contenuti e un motore di frontend per la visualizzazione del sito. Comunque il core di TYPO3 è stato progettato nativamente per essere un framework per scopi generici per la gestione di contenuti di database. Il core di TYPO3 definisce un insieme di principi per la memorizzazione dei contenuti, la gestione degli accessi-utente, l'editing dei contenuti, l'upload e la gestione dei files, ecc. Molti di questi principi vengono applicati attraverso un API (Application Programmers Interface) per l'uso nelle &lt;em&gt;estensioni&lt;/em&gt; che alla fine aggiungono molte delle reali funzionalità.</label>
+			<label index=".image_descr">Schermata di login al backend di TYPO3 (versione 3.6.1, estate 2004)</label>
+			<label index="menu_modules.alttitle">Moduli del Backend</label>
+			<label index="menu_modules.description">Il menù del Backend rispecchia la gerarchia dei moduli principali e dei sub-moduli di TYPO3. Clicca su un elemento per visualizzare il modulo corrispondente.</label>
+			<label index="menu_modules.details">Gli utenti del Backend potrebbero vedere differenti elementi nel menù, a seconda dei loro permessi di accesso. Gli utenti &quot;Admin&quot; di un sistema vedranno sempre tutti i moduli disponibili.
+
+Puoi configurare il backend in modo da visualizzare il menù in altre due versioni alternative (utile per schemi ridotti): o come un menù a selezione o come una serie di icone nel frame in alto.</label>
+			<label index="menu_modules.image_descr">Questo è un esempio di menù per un tipico esempio di utente backend.
+Per un altro utente potrebbe essere differente.
+Questo esempio mostra come un altro utente ha differenti permessi e quindi ha accesso ad altri moduli. Anche la lingua del backend è diversa per questo utente.</label>
+			<label index="menu_adminFunction.alttitle">Funzioni Admin</label>
+			<label index="menu_adminFunction.description">Le Funzioni Admin permettono all'amministratore di cancellare le caches, etc..</label>
+			<label index="pagetree.alttitle">L'albero delle Pagine</label>
+			<label index="pagetree.description">Questa è l'organizzazione gerarchica delle pagine in TYPO3. Generalmente i siti sono costruiti in modo da rispecchiare, a livello di navigazione, la struttura delle pagine nell'albero delle pagine</label>
+			<label index="pagetree.details">L'abero delle pagine funziona come un file system. Ogni pagina è simile ad una directory dentro la quale ci puoi mettere dei files. In TYPO3 immaganizzi i records del database all'interno delle pagine. Alcuni di questi records, normalmente chiamati &quot;Elementi di contenuto&quot;, sono l'effettivo contenuto delle pagine del sito. Altri records possono essere ad esempio di plugins come un glossario o un guestbook e vengono visualizzati indirettamente attraverso l'inserimento del plugin come fosse un Elemento di Contenuto.
+Alcuni utenti del backend potranno vedere solo una parte dell'albero delle pagine del sito. Questa possibilità permette all'amministratore di configurare gli utenti con differenti responsabilità per il mantenimento dei rami dell'albero delle pagine.
+
+&lt;b&gt;Navigazione nell'albero&lt;/b&gt;
+Clicca semplicemente i pulsanti +/- per espandere o richiudere i rami.
+Se clicchi sull'icona di una pagian dovresti vedere un menù contestuale contenente opzioni specifiche per quella pagina.
+Cliccando invece sul titolo di una pagina (cosa diveressa che non sulla relativa icona) si caricherà il frame di destra col il sottomodulo web selezionato. Il contenuto del frame di destra è relativo alla pagina cliccata.</label>
+			<label index="filetree.alttitle">L'Albero delle Cartelle</label>
+			<label index="filetree.description">Mostra la struttura della directory di un path montato sul server web. Tu puoi navigare nell'albero come se tu stessi usando un file sistem sul tuo computer.</label>
+			<label index="list_module.alttitle">Modulo Web&gt;Lista</label>
+			<label index="list_module.description">Lista i records di una pagina. Da qui puoi copiare/tagliare/incollare i records per tutto il sistema. Puoi editare i records, accedere alla storia degli elementi, etc..</label>
+			<label index="list_module.details">Il modulo &quot;Web&gt;Lista&quot; può non essere il miglior modo per visualizzare il contenuto di una pagina per tutte le situazioni che si verificano. Per esempio se tu vuoi gestire i contenuti di una pagina del sito web (Elementi di contenuto) dovresti usare invece il modulo &quot;Web&gt;Pagina&quot; che è stato progettato appositamente per visualizzare gli elementi in modo più ottimizzato.
+Ma il modulo &quot;Lista&quot; di darà sempre l'accesso base a qualunque pagina se altrimenti non disponibile un modulo specifico per la gestione della stessa.</label>
+			<label index="list_module_noId.alttitle">Web&gt;Lista modulo senza alcuna ID trasmessa.</label>
+			<label index="list_module_noId.description">Il modulo &quot;Web&gt;Lista&quot; deve avere una ID di pagina che viene passata prima di visualizzare qualsiasi contenuto. Cliccare su un titolo di una pagina nella struttura ad albero delle pagine (Page Tree).</label>
+			<label index="list_module_root.alttitle">radice dell'Albero delle Pagine</label>
+			<label index="list_module_root.description">la radice dell'Albero delle Pagine ha ID = 0 (zero = nessuna pagina). in questa circostanza i records della pagina radice possono essere visualizzati e modificati &lt;i&gt;solo&lt;/i&gt; dagli utenti &quot;Admin&quot;.</label>
+			<label index="list_clipboard.alttitle">TYPO3 Clipboard</label>
+			<label index="list_clipboard.description">La clipboard è un registro interno dove i record e files possono essere &quot;memorizzati&quot; temporaneamente. Di solito la clipboard è usata per le operazioni interne di copia/taglia/incolla/ relativamente a uno o piu' elementi.</label>
+			<label index="list_searchbox.alttitle">Riquadro per le ricerca</label>
+			<label index="list_options.alttitle">Opzioni del modulo Lista</label>
+			<label index="list_options.description">Abilita la &quot;vista estesa&quot; per vedere controlli addizionali per ogni record delle lista. Abilita &quot;mostra clipboard&quot; per vedere la clipboard e il suo contenuto</label>
+			<label index="new_regular.alttitle">Crea nuovo record</label>
+			<label index="new_regular.description">Questa lista mostra i tipi dei records (tabelle di database) che tu puoi creare in una pagina. Clicca sul nome della tabella per scegliere il tipo.</label>
+			<label index="new_regular.image_descr">La selezione dei records che un utente può creare in una particolare pagina. La scelta dipende dai permessi assegnati all'utente e dal tipo di pagina. Per esempio una pagina tipo Cartella di Sistema (Sysfolder) puo' contenere qualunque tipo di record mentre le normali pagine possono contenere solo alcuni tipi (come quelli di contenuto).</label>
+			<label index="new_pages.alttitle">Crea nuovo page wizard</label>
+			<label index="new_ce.alttitle">Wizards Crea nuovo Elemento di Contenuto</label>
+			<label index="move_el_pages.alttitle">Wizard Muovi pagina</label>
+			<label index="move_el_cs.alttitle">Wizard muovi contenuto</label>
+			<label index="history_log.alttitle">Log Storico</label>
+			<label index="TCEforms.alttitle">Form di Editing di TYPO3</label>
+			<label index="TCEforms.description">Tutti i records di TYPO3 sono editabili con un'interfaccia standard come quella che vedi qui. Non importa se stai editando pagine, elementi di contenuto, records di guestbook o utenti.. userai sempre la stessa interfaccia.</label>
+			<label index="TCEforms_docSelector.alttitle">Seleziona Documenti</label>
+			<label index="TCEforms_docSelector.description">Qui puoi accedere ai diversi &quot;documenti attualmente aperti&quot; di TYPO3</label>
+			<label index="perm_module.alttitle">Permessi delle pagine</label>
+			<label index="perm_module.description">Questo modulo mostrerà i permessi della pagine dell'albero.</label>
+			<label index="perm_module_setting.alttitle">Definizione dei permessi di una magina</label>
+			<label index="filelist_module.alttitle">Modulo File&gt;Lista file</label>
+			<label index="filelist_options.alttitle">File &gt; opzioni lista file</label>
+			<label index="file_edit.alttitle">Editare un file</label>
+			<label index="file_edit.description">Puoi editare i contenuti di un file di testo</label>
+			<label index="file_newfolder.alttitle">Creare una nuova cartella</label>
+			<label index="file_newfile.alttitle">Creare un nuovo file</label>
+			<label index="file_rename.alttitle">Rinominare un file o una cartella</label>
+			<label index="file_upload.alttitle">Uploadare files.</label>
+			<label index="wizard_table_wiz.alttitle">Wizard Tabelle</label>
+			<label index="shortcuts.alttitle">Scorciatoie del backend</label>
+			<label index="shortcuts.description">Puoi creare delle scorciatoie ai moduli di TYPO3 abbastanza facilmente.
+Il vantaggio é che puoi saltare da una sezione all'altra di TYPO3 con &lt;em&gt;un solo&lt;/em&gt; click invece che passare attraverso i vari moduli con clicks multipli</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle" type="integer">60773436</label>
+			<label index=".description" type="integer">24519003</label>
+			<label index=".image_descr" type="integer">87989564</label>
+			<label index="menu_modules.alttitle" type="integer">103207836</label>
+			<label index="menu_adminFunction.alttitle" type="integer">182425230</label>
+			<label index="menu_adminFunction.description" type="integer">208114656</label>
+			<label index="list_module.alttitle" type="integer">259791878</label>
+			<label index="list_clipboard.alttitle" type="integer">144923347</label>
+			<label index="new_regular.alttitle" type="integer">54021068</label>
+			<label index="new_pages.alttitle" type="integer">199767829</label>
+			<label index="perm_module_setting.alttitle" type="integer">192801235</label>
+			<label index="filelist_module.alttitle" type="integer">219238489</label>
+			<label index="move_el_pages.alttitle" type="integer">54884231</label>
+			<label index="move_el_cs.alttitle" type="integer">21330178</label>
+			<label index="file_edit.alttitle" type="integer">26447061</label>
+			<label index="file_edit.description" type="integer">207581846</label>
+			<label index="file_newfolder.alttitle" type="integer">199708088</label>
+			<label index="file_newfile.alttitle" type="integer">150545622</label>
+			<label index="file_rename.alttitle" type="integer">154248562</label>
+			<label index="file_upload.alttitle" type="integer">30016445</label>
+			<label index="wizard_table_wiz.alttitle" type="integer">252535019</label>
+			<label index="shortcuts.alttitle" type="integer">195525974</label>
+			<label index="shortcuts.description" type="integer">67518936</label>
+			<label index="menu_modules.description" type="integer">244456780</label>
+			<label index="menu_modules.details" type="integer">48721453</label>
+			<label index="menu_modules.image_descr" type="integer">141688270</label>
+			<label index="pagetree.alttitle" type="integer">178449317</label>
+			<label index="pagetree.description" type="integer">184743692</label>
+			<label index="filetree.alttitle" type="integer">187918820</label>
+			<label index="list_module.description" type="integer">138122834</label>
+			<label index="list_module_root.alttitle" type="integer">229421007</label>
+			<label index="list_options.alttitle" type="integer">40663100</label>
+			<label index="new_ce.alttitle" type="integer">229302243</label>
+			<label index="history_log.alttitle" type="integer">179384962</label>
+			<label index="TCEforms.alttitle" type="integer">113789050</label>
+			<label index="TCEforms_docSelector.alttitle" type="integer">120900559</label>
+			<label index="filelist_options.alttitle" type="integer">97030544</label>
+			<label index="filetree.description" type="integer">198183289</label>
+			<label index="list_module.details" type="integer">135043829</label>
+			<label index="list_module_noId.alttitle" type="integer">150603828</label>
+			<label index="list_module_noId.description" type="integer">168462710</label>
+			<label index=".details" type="integer">134946851</label>
+			<label index="list_clipboard.description" type="integer">239125178</label>
+			<label index="list_searchbox.alttitle" type="integer">247774595</label>
+			<label index="new_regular.description" type="integer">50653821</label>
+			<label index="new_regular.image_descr" type="integer">166235697</label>
+			<label index="pagetree.details" type="integer">235091061</label>
+			<label index="list_module_root.description" type="integer">90938860</label>
+			<label index="list_options.description" type="integer">169912182</label>
+			<label index="TCEforms.description" type="integer">40752568</label>
+			<label index="TCEforms_docSelector.description" type="integer">146094255</label>
+			<label index="perm_module.alttitle" type="integer">132860991</label>
+			<label index="perm_module.description" type="integer">111289733</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index=".alttitle">TYPO3 Core</label>
+			<label index=".description">TYPO3 is a Content Management Framework which consists of a central program core with only limited functionality. To extend this core system there are hundreds of extensions which in combination will provide a very capable system.</label>
+			<label index=".image_descr">TYPO3 backend login screen summer 2004 (version 3.6.1).</label>
+			<label index="menu_modules.alttitle">Backend modules</label>
+			<label index="menu_adminFunction.alttitle">Admin Functions</label>
+			<label index="menu_adminFunction.description">The Admin Functions allow administrators to clear caches etc.</label>
+			<label index="list_module.alttitle">The Web&gt;List module</label>
+			<label index="list_clipboard.alttitle">TYPO3 Clipboard</label>
+			<label index="new_regular.alttitle">Create new record</label>
+			<label index="new_pages.alttitle">Create new page wizard</label>
+			<label index="perm_module_setting.alttitle">Setting permissions for a page</label>
+			<label index="filelist_module.alttitle">File &gt; Filelist module</label>
+			<label index="move_el_pages.alttitle">Move page wizard</label>
+			<label index="move_el_cs.alttitle">Move Content Element Wizard</label>
+			<label index="file_edit.alttitle">Editing a file</label>
+			<label index="file_edit.description">You can edit the contents of a text file with this dialog.</label>
+			<label index="file_newfolder.alttitle">Creating a new folder</label>
+			<label index="file_newfile.alttitle">Creating a new file</label>
+			<label index="file_rename.alttitle">Rename a file or folder</label>
+			<label index="file_upload.alttitle">Uploading files.</label>
+			<label index="wizard_table_wiz.alttitle">Table wizard</label>
+			<label index="shortcuts.alttitle">Backend Shortcuts</label>
+			<label index="shortcuts.description">You can create shortcuts to modules in TYPO3 quite easily. The treat is that you can jump between screens in TYPO3 in &lt;em&gt;one&lt;/em&gt; click rather than multiple clicks through backend modules etc.</label>
+			<label index="menu_modules.description">The Backend menu reflects the hierarchy of main- and sub-modules in TYPO3. Click a menu item to access the corresponding module.</label>
+			<label index="menu_modules.details">Backend Users might see different menu items depending on their access permissions. The &quot;Admin&quot; user on a system will always see all modules available.
+
+You can configure the backend to display the menu in two alternative versions (useful on smaller screens); As a selector box or list of icons in the top frame of the backend.
+
+When you click the little &quot;+&quot; or &quot;-&quot; icons next to the main modules, you can collapse (-) or expand (+) all the sub modules. By selecting the &quot;Expand all&quot; check box, all items are expanded. When the checkbox is unselected again, the menu changes back to the previous folding state. If you click &quot;Expand all&quot; and collapse a main module afterwards, the previous folding state is discarded and &quot;Expand all&quot; is unselected again.
+</label>
+			<label index="menu_modules.image_descr">This is the range of menu options for a typical backend user.
+For another backend user it might be different. This screen shot shows how another user has different permissions set and therefore access to other modules only. Also the backend language has been set different for this user.</label>
+			<label index="pagetree.alttitle">The Page Tree</label>
+			<label index="pagetree.description">This is the hierarchical organization of pages in TYPO3. Typically websites are build so they reflect the page structure in the page tree directly in the website navigation.</label>
+			<label index="filetree.alttitle">The Folder Tree</label>
+			<label index="list_module.description">Listing records located on a page. From here you can copy/cut/paste records around in the system. You can edit records, access the change history of elements etc.</label>
+			<label index="list_module_root.alttitle">Root of the Page Tree</label>
+			<label index="list_options.alttitle">List module options</label>
+			<label index="new_ce.alttitle">Create new Content Element Wizard</label>
+			<label index="history_log.alttitle">History log</label>
+			<label index="TCEforms.alttitle">TYPO3 Editing Forms</label>
+			<label index="TCEforms_docSelector.alttitle">Document Selector</label>
+			<label index="filelist_options.alttitle">File &gt; Filelist options</label>
+			<label index="filetree.description">Shows the directory structure of a mounted path on the webserver. You can browse the folder tree like you are used to browse the file system on your own computer.</label>
+			<label index="list_module.details">The list module is like the file manager in an Operating System; it provides basic access to all &quot;elements&quot; available in the system. In TYPO3 almost all information is stored in the database and managed after the same principles internally. For instance Content Elements representing page content are database records just like backend users are. The Web&gt;List module allows us to create, modify and delete both kinds of records after the same principles.
+
+The Web&gt;List module might not be the best &quot;view&quot; of the content on a page for any situation. For instance if you want to manage website content on a page (Content Elements) you should rather use the &quot;Web&gt;Page&quot; module which is designed to display content elements more optimized. But the List module will always give you access to whatever is on the page in a basic way if no better module is available for management.
+
+&lt;b&gt;Single-table mode&lt;/b&gt;
+If you click the tabel title in the listing you will enter single-table mode. In this mode you can select additional fields from the table to show in the listing. Also you will get additional editing facilities, for instance you will be able to edit multiple records at a time and even only certain fields from those records. See the screenshot for more details.</label>
+			<label index="list_module_noId.alttitle">Web&gt;List module with no ID given</label>
+			<label index="list_module_noId.description">The Web&gt;List module must have a page ID passed to it before it can display any content. Please click a page title in the Page Tree.</label>
+			<label index=".details">For most people TYPO3 is equivalent to a CMS providing a backend for management of the content and a frontend engine for website display. However TYPO3s core is natively designed to be a general purpose framework for management of database content. The core of TYPO3 delivers a set of principles for storage of this content, user access management, editing of the content, uploading and managing files etc. Many of these principles are expressed as an API (Application Programmers Interface) for use in the &lt;em&gt;extensions&lt;/em&gt; which ultimately adds most of the real functionality.</label>
+			<label index="list_clipboard.description">The clipboard is an internal registry where records and files can be &quot;stored&quot; temporarily. Usually the clipboard is used for copy/cut/paste operations internally of one or more elements.</label>
+			<label index="list_searchbox.alttitle">Search Box</label>
+			<label index="new_regular.description">This list shows the types of records (database tables) you can create on the page. Click a table name to select the type.</label>
+			<label index="new_regular.image_descr">The selection of records a user can create on this particular page. The selection depends on the users permissions and the page type. For example a SysFolder page type can contain any kind of record while regular pages can contain only some types (like content elements).</label>
+			<label index="pagetree.details">The page tree works like a file system. Each page is like a directory where you can store files. In TYPO3 you store database records inside of each page. Some of these records, typically called &quot;Content Elements&quot;, contains the website content of pages. Other records can be from plugins like a glossary or a guestbook and they are only displayed indirectly by a plugin inserted as a Content Element.
+Some backend users will see only a part of the page tree for a website. This feature allows the administrator to configure backend users with different responsibilities for maintaining branches of the page tree.
+
+&lt;b&gt;Navigating the tree&lt;/b&gt;
+Simply click the +/- buttons to expand and contract the branches of the tree.
+If you click the page icons you should see a context menu pop up. It will contain options specifically for that page.
+Clicking the title of a page is another option. It will load the right frame of the Web main module with the selected sub-module. The content shown in the right frame will be related to the page clicked.</label>
+			<label index="list_module_root.description">The root of the Page Tree is having id 0 (zero = no page) and the special circumstance is that records in the page tree root can be accessed and edited &lt;i&gt;only&lt;/i&gt; by &quot;Admin&quot; users.</label>
+			<label index="list_options.description">Enable the &quot;Extended view&quot; mode to see additional control buttons for each record in the listing. Enable the &quot;Clipboard&quot; to see the clipboard and its content.</label>
+			<label index="TCEforms.description">All records in TYPO3 is edited through a standardized form interface like the one you see here. No matter if you edit pages, content elements, guestbook items or user records you will use the same familiar interface.</label>
+			<label index="TCEforms_docSelector.description">Here you can switch between &quot;open documents&quot; in TYPO3.</label>
+			<label index="perm_module.alttitle">Viewing page permissions</label>
+			<label index="perm_module.description">This view will tell you about the page permissions in the page tree.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

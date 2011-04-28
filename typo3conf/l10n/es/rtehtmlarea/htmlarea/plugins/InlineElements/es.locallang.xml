@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="es" type="array">
+			<label index="FormatText-Tooltip">Aplicar formato al texto seleccionado</label>
+			<label index="Big-Tooltip">Texto grande</label>
+			<label index="Bold-Tooltip">Negrita</label>
+			<label index="Citation-Tooltip">Cita</label>
+			<label index="Code-Tooltip">Fragmento de código de ordenador</label>
+			<label index="Definition-Tooltip">Definición</label>
+			<label index="DeletedText-Tooltip">Texto borrado</label>
+			<label index="Emphasis-Tooltip">Énfasis</label>
+			<label index="Keyboard-Tooltip">Texto para ser intertado por el usuario</label>
+			<label index="InsertedText-Tooltip">Texto insertado</label>
+			<label index="Italic-Tooltip">Cursiva</label>
+			<label index="MonoSpaced-Tooltip">Texto monoespaciado</label>
+			<label index="Small-Tooltip">Texto pequeño</label>
+			<label index="Span-Tooltip">Contenedor de estilo</label>
+			<label index="StrikeThrough-Tooltip">Texto tachado</label>
+			<label index="Strong-Tooltip">Énfasis fuerte</label>
+			<label index="Subscript-Tooltip">Subíndice</label>
+			<label index="Superscript-Tooltip">Superíndice</label>
+			<label index="Underline-Tooltip">Subrayado</label>
+			<label index="Variable-Tooltip">Variable o parámetro de programa</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="es" type="array">
+			<label index="FormatText-Tooltip" type="integer">68174344</label>
+			<label index="Big-Tooltip" type="integer">219697374</label>
+			<label index="Bold-Tooltip" type="integer">18137861</label>
+			<label index="Citation-Tooltip" type="integer">92773637</label>
+			<label index="Code-Tooltip" type="integer">9460030</label>
+			<label index="Definition-Tooltip" type="integer">12095665</label>
+			<label index="DeletedText-Tooltip" type="integer">203450772</label>
+			<label index="Emphasis-Tooltip" type="integer">70412501</label>
+			<label index="Keyboard-Tooltip" type="integer">263034582</label>
+			<label index="InsertedText-Tooltip" type="integer">189297700</label>
+			<label index="Italic-Tooltip" type="integer">30962801</label>
+			<label index="MonoSpaced-Tooltip" type="integer">226699895</label>
+			<label index="Small-Tooltip" type="integer">116401167</label>
+			<label index="Span-Tooltip" type="integer">84664734</label>
+			<label index="StrikeThrough-Tooltip" type="integer">107675429</label>
+			<label index="Strong-Tooltip" type="integer">214271069</label>
+			<label index="Subscript-Tooltip" type="integer">153638286</label>
+			<label index="Superscript-Tooltip" type="integer">103903129</label>
+			<label index="Underline-Tooltip" type="integer">139620890</label>
+			<label index="Variable-Tooltip" type="integer">257494913</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="es" type="array">
+			<label index="FormatText-Tooltip">Apply format to selected text</label>
+			<label index="Big-Tooltip">Large text</label>
+			<label index="Bold-Tooltip">Bold</label>
+			<label index="Citation-Tooltip">Citation</label>
+			<label index="Code-Tooltip">Computer code fragment</label>
+			<label index="Definition-Tooltip">Definition</label>
+			<label index="DeletedText-Tooltip">Deleted text</label>
+			<label index="Emphasis-Tooltip">Emphasis</label>
+			<label index="Keyboard-Tooltip">Text to be entered by the user</label>
+			<label index="InsertedText-Tooltip">Inserted text</label>
+			<label index="Italic-Tooltip">Italic</label>
+			<label index="MonoSpaced-Tooltip">Monospaced text</label>
+			<label index="Small-Tooltip">Small text</label>
+			<label index="Span-Tooltip">Style container</label>
+			<label index="StrikeThrough-Tooltip">Strike-through text</label>
+			<label index="Strong-Tooltip">Strong emphasis</label>
+			<label index="Subscript-Tooltip">Subscript</label>
+			<label index="Superscript-Tooltip">Superscript</label>
+			<label index="Underline-Tooltip">Underline</label>
+			<label index="Variable-Tooltip">Variable or program argument</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

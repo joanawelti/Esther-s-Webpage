@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="first">Første</label>
+			<label index="goto">Gå til</label>
+			<label index="last">Sidste</label>
+			<label index="next">Næste</label>
+			<label index="prev">Forrige</label>
+			<label index="showing">Viser %s af %d</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

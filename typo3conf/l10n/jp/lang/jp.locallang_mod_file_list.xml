@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="clipBoard">クリップボードを表示</label>
+			<label index="clip_pasteInto">ここに貼り付け: クリップボードの内容がこのフォルダの中に挿入されます</label>
+			<label index="clip_markRecords">すべてにチェック/すべてのチェックをはずす</label>
+			<label index="clip_selectMarked">選択したファイルをクリップボードに送る</label>
+			<label index="clip_deleteMarked">チェック済みを削除</label>
+			<label index="clip_deleteMarkedWarning">本当にチェック済みのファイルをすべて削除しますか？</label>
+			<label index="displayThumbs">サムネイルを表示</label>
+			<label index="c_file">ファイル名</label>
+			<label index="c_size">サイズ</label>
+			<label index="c_fileext">種類</label>
+			<label index="c_tstamp">日付</label>
+			<label index="c_rw">RW</label>
+			<label index="files">ファイル</label>
+			<label index="mlang_labels_tablabel">ディレクトリのファイル一覧</label>
+			<label index="mlang_labels_tabdescr">TYPO3のファイル管理システムです。許可されているファイルマウントにアクセスできます。このモジュールでは、サーバ上にファイルをアップロード、コピー、移動、削除ができます。</label>
+			<label index="mlang_tabs_tab">ファイル一覧</label>
+			<label index="clip_paste">下に貼り付け: クリップボードの内容をこのレコードの下に貼り付けます</label>
+			<label index="c__REF_">Ref</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="clipBoard" type="integer">249278403</label>
+			<label index="clip_selectMarked" type="integer">231792509</label>
+			<label index="displayThumbs" type="double">15222013</label>
+			<label index="c_file" type="integer">20254743</label>
+			<label index="c_size" type="integer">116837234</label>
+			<label index="c_fileext" type="integer">169845367</label>
+			<label index="c_tstamp" type="integer">71780721</label>
+			<label index="files" type="integer">73111091</label>
+			<label index="mlang_labels_tablabel" type="integer">240946544</label>
+			<label index="mlang_tabs_tab" type="integer">36854838</label>
+			<label index="clip_pasteInto" type="integer">24767218</label>
+			<label index="clip_markRecords" type="integer">58652945</label>
+			<label index="clip_deleteMarked" type="integer">126346891</label>
+			<label index="clip_deleteMarkedWarning" type="integer">236800089</label>
+			<label index="mlang_labels_tabdescr" type="integer">48584464</label>
+			<label index="c_rw" type="integer">96918589</label>
+			<label index="clip_paste" type="integer">25920339</label>
+			<label index="c__REF_" type="integer">101427931</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="clipBoard">Show clipboard</label>
+			<label index="clip_selectMarked">Transfer the selection of files to clipboard</label>
+			<label index="displayThumbs">Display thumbnails</label>
+			<label index="c_file">Filename</label>
+			<label index="c_size">Size</label>
+			<label index="c_fileext">Type</label>
+			<label index="c_tstamp">Date</label>
+			<label index="files">files</label>
+			<label index="mlang_labels_tablabel">Listing of files in the directory</label>
+			<label index="mlang_tabs_tab">Filelist</label>
+			<label index="clip_pasteInto">Paste into: Clipboard content is inserted into this folder</label>
+			<label index="clip_markRecords">Mark All/Mark none</label>
+			<label index="clip_deleteMarked">Delete marked</label>
+			<label index="clip_deleteMarkedWarning">Are you sure you want to delete all marked files from this folder?</label>
+			<label index="mlang_labels_tabdescr">This is the file administration system in TYPO3. It allows you to access the file mounts of your login. Through this module you can upload, copy, move an delete files on the server.</label>
+			<label index="c_rw">RW</label>
+			<label index="clip_paste">Paste in clipboard content</label>
+			<label index="c__REF_">Ref</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>
